@@ -114,7 +114,7 @@ class BudgetExceeded(Exception):
 
 
 # Что произошло за запуск — попадает в сводку, если что-то пошло не так
-DIAG = {"pages_ok": 0, "pages_total": 0, "news": 0, "ai_calls": 0, "ai_errors": [],
+DIAG = {"pages_failed": [], "pages_ok": 0, "pages_total": 0, "news": 0, "ai_calls": 0, "ai_errors": [],
         "ai_found": 0, "ai_out_of_range": 0, "truncated": 0}
 
 
@@ -200,6 +200,8 @@ def collect_sources():
     DIAG["pages_total"] = len(pages)
     for url in pages:
         text = page_text(url)
+        if not text:
+            DIAG["pages_failed"].append(urllib.parse.urlparse(url).netloc.replace("www.", ""))
         if text:
             DIAG["pages_ok"] += 1
             sources.append({"name": urllib.parse.urlparse(url).netloc.replace("www.", ""),
@@ -241,9 +243,13 @@ EVENTS_PROMPT = """Ты помогаешь семье найти, куда сх�
 Найди ВСЕ подходящие мероприятия. Ответь ТОЛЬКО JSON-массивом (пустой [] если ничего нет):
 [{{"n": номер_источника, "cat": "код категории",
    "title": "название как в источнике", "about": "что это, 3–8 слов по-русски",
+   "summary": "аннотация: 1–2 коротких предложения по-русски — о чём мероприятие и что там
+               будет (сюжет, программа, длительность); только факты из источника, ничего не
+               придумывай; если подробностей нет — ''",
    "date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD или ''", "time": "HH:MM или ''",
    "city": "город", "venue": "место или ''", "age": "возраст, если указан, иначе ''",
    "price": "цена, если указана, иначе ''", "free": true/false,
+   "sold_out": true, если в источнике сказано, что билеты распроданы (izpārdots, sold out), иначе false,
    "ongoing": true, если это выставка/программа на много дней, иначе false,
    "link": "прямая ссылка на событие, если видна в тексте, иначе ''"}}]
 Только события, у которых есть хотя бы один день в периоде {start} — {end}.
@@ -291,6 +297,8 @@ def claude(prompt, state, cfg, max_tokens=8000):
     headers = {"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
     payload = {"model": cfg["model"], "max_tokens": max_tokens,
+               "system": "Отвечай сразу JSON-массивом, без рассуждений, пояснений и markdown. "
+                         "Текстовые поля about, summary и why пиши по-русски.",
                "messages": [{"role": "user", "content": prompt}]}
     for attempt in range(4):
         try:
@@ -361,6 +369,9 @@ def find_events(sources, state, cfg, cats, today, start, end):
             if not isinstance(n, int) or not 0 <= n < len(chunk):
                 continue
             DIAG["ai_found"] += 1
+            if ev.get("sold_out") is True or str(ev.get("sold_out")).lower() == "true":
+                DIAG["sold_out"] = DIAG.get("sold_out", 0) + 1
+                continue
             d1 = parse_date(ev.get("date"))
             d2 = parse_date(ev.get("end_date")) or d1
             if not d1 or d2 < start or d1 > end:
@@ -461,6 +472,8 @@ def fmt_event(ev, emoji):
     line = f"{emoji.get(ev.get('cat'), '•')} {when} — <b>{esc(ev.get('title'))}</b>"
     if ev.get("about"):
         line += f" ({esc(ev['about'])})"
+    if ev.get("summary"):
+        line += f"\n   <i>{esc(ev['summary'])}</i>"
     place = esc(ev.get("city"))
     if ev.get("venue"):
         place += ", " + esc(ev["venue"])
@@ -523,7 +536,7 @@ def run_digest(state, cfg, today):
                 weather="\n".join(wx) or "неизвестен", n=cfg["places_count"],
                 count=len([e for e in events if on_weekend(e)]),
                 last=", ".join(state.get("last_places", [])) or "—",
-                places=places_list), state, cfg, max_tokens=800)[:cfg["places_count"]]
+                places=places_list), state, cfg, max_tokens=2000)[:cfg["places_count"]]
         except Exception as e:
             print("Места:", e)
     state["last_places"] = [p.get("name", "") for p in places]
@@ -546,7 +559,8 @@ def run_digest(state, cfg, today):
     if places:
         lines.append("\n🏠 <b>Куда ещё сходить</b>")
         lines += [f"• <b>{esc(p.get('name'))}</b> — {esc(p.get('why'))}" for p in places]
-    problems = DIAG["ai_errors"] or not events or not places or DIAG["truncated"] \
+    problems = DIAG["ai_errors"] or not events or DIAG["truncated"] or DIAG["pages_failed"] \
+        or (cfg["places_count"] > 0 and not places) \
         or DIAG["pages_ok"] < DIAG["pages_total"] / 2
     if problems:
         diag = (f"⚙️ Диагностика: сайтов прочитано {DIAG['pages_ok']} из {DIAG['pages_total']}, "
@@ -554,6 +568,8 @@ def run_digest(state, cfg, today):
                 f"ИИ нашёл {DIAG['ai_found']} (вне дат {DIAG['ai_out_of_range']})")
         if DIAG["truncated"]:
             diag += f", обрезанных ответов {DIAG['truncated']}"
+        if DIAG["pages_failed"]:
+            diag += "\nНе прочитаны: " + ", ".join(DIAG["pages_failed"])
         if DIAG["ai_errors"]:
             diag += "\nОшибка ИИ: " + DIAG["ai_errors"][0]
         lines.append("\n" + esc(diag))
