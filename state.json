@@ -1,16 +1,17 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.1206446,
-"calls": 31
+"cost": 0.1447816,
+"calls": 37
 },
 "last_digest": "2026-10-13",
 "shown_ongoing": [
+"b2ddbd9c6e60412e",
 "2dd95b7626d11a6c"
 ],
 "last_places": [
-"LU Botāniskais dārzs",
-"Latvijas Etnogrāfiskais brīvdabas muzejs",
-"Latvijas Nacionālā bibliotēka, детский отдел"
+"Rīgas Nacionālais zooloģiskais dārzs",
+"Latvijas Dabas muzejs",
+"Sigulda"
 ]
 }
