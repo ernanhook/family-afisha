@@ -250,15 +250,27 @@ def follow_links(listing, pattern, max_n, seen_urls):
         seen_urls.add(url)
         text = article_text(url)
         if text:
+            m = re.search(r"(\d{2})\.(\d{2})\.(\d{4})", url)
+            if m:
+                text = f"[опубликовано {m.group(3)}-{m.group(2)}-{m.group(1)}] " + text
             out.append({"name": urllib.parse.urlparse(url).netloc.replace("www.", ""),
                         "link": url, "text": text})
     print(f"[follow] {len(out):3d} статей  {listing}")
     return out, True
 
 
+def recurring_source():
+    rows = lines_of("recurring.txt")
+    if not rows:
+        return []
+    return [{"name": "регулярные события", "link": "",
+             "text": "Регулярные события, которые семья знает (включай их на подходящие дни "
+                     "периода; это постоянное расписание, а не разовый анонс):\n" + "\n".join(rows)}]
+
+
 def collect_sources():
     pages, news_queries, follows = load_sources()
-    sources = []
+    sources = recurring_source()
     seen_urls = set()
     for listing, pattern, max_n in follows:
         DIAG["pages_total"] += 1
@@ -294,8 +306,12 @@ def collect_sources():
             seen.add(key(title))
             summary = BeautifulSoup(e.get("summary", ""), "html.parser").get_text(" ")
             DIAG["news"] += 1
+            pub = ""
+            if e.get("published_parsed"):
+                pub = time.strftime("%Y-%m-%d", e.published_parsed)
             sources.append({"name": "новости", "link": e.get("link", ""),
-                            "text": f"{title}. {summary[:400]}"})
+                            "text": (f"[опубликовано {pub}] " if pub else "")
+                                    + f"{title}. {summary[:400]}"})
     return sources
 
 
@@ -326,6 +342,9 @@ EVENTS_PROMPT = """Ты помогаешь семье найти, куда сх�
    "link": "прямая ссылка на событие, если видна в тексте, иначе ''"}}]
 Только события, у которых есть хотя бы один день в периоде {start} — {end}.
 Не выдумывай даты: если даты нет в источнике — не включай событие.
+Относительные даты («šo sestdien», «nākamajā svētdienā», «nedēļas nogalē», «в эту субботу»,
+«rīt») вычисляй от даты публикации источника, указанной как [опубликовано ГГГГ-ММ-ДД].
+Регулярные события («katru sestdienu», «каждую субботу») включай на ближайшие даты в периоде.
 
 ИСТОЧНИКИ:
 """
@@ -551,7 +570,10 @@ def fmt_event(ev, emoji):
         place += ", " + esc(ev["venue"])
     details = [place, esc(ev.get("age"))]
     details.append("бесплатно" if ev.get("free") else esc(ev.get("price")))
-    details.append(f'<a href="{esc(ev["link"])}">{esc(ev["source"])}</a>')
+    if ev.get("link"):
+        details.append(f'<a href="{esc(ev["link"])}">{esc(ev["source"])}</a>')
+    else:
+        details.append(esc(ev["source"]))
     return line + "\n   " + " · ".join(d for d in details if d)
 
 
