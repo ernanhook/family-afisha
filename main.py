@@ -28,7 +28,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 TZ = ZoneInfo("Europe/Riga")
 STATE_FILE = os.path.join(HERE, "state.json")
 PAGE_CHARS = 12000        # сколько текста одной страницы отдавать ИИ
-CHUNK_CHARS = 60000       # примерно 20–25 тыс. токенов на один запрос
+CHUNK_CHARS = 40000       # примерно 15 тыс. токенов на один запрос
 PRICE_IN, PRICE_OUT = 0.10 / 1e6, 0.50 / 1e6   # Claude Haiku 5.5, $ за токен
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) LatviaFamilyEvents/2.0"}
 WD = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"]
@@ -113,6 +113,11 @@ class BudgetExceeded(Exception):
     pass
 
 
+# Что произошло за запуск — попадает в сводку, если что-то пошло не так
+DIAG = {"pages_ok": 0, "pages_total": 0, "news": 0, "ai_calls": 0, "ai_errors": [],
+        "ai_found": 0, "ai_out_of_range": 0, "truncated": 0}
+
+
 def key(*parts):
     return hashlib.sha1("|".join(str(p).strip().lower() for p in parts).encode()).hexdigest()[:16]
 
@@ -192,9 +197,11 @@ def page_text(url):
 def collect_sources():
     pages, news_queries = load_sources()
     sources = []
+    DIAG["pages_total"] = len(pages)
     for url in pages:
         text = page_text(url)
         if text:
+            DIAG["pages_ok"] += 1
             sources.append({"name": urllib.parse.urlparse(url).netloc.replace("www.", ""),
                             "link": url, "text": text})
     seen = set()
@@ -212,6 +219,7 @@ def collect_sources():
                 continue
             seen.add(key(title))
             summary = BeautifulSoup(e.get("summary", ""), "html.parser").get_text(" ")
+            DIAG["news"] += 1
             sources.append({"name": "новости", "link": e.get("link", ""),
                             "text": f"{title}. {summary[:400]}"})
     return sources
@@ -260,7 +268,23 @@ PLACES_PROMPT = """Кто идёт: {family}, {child}. Живут: {home}. Пр�
 """
 
 
-def claude(prompt, state, cfg, max_tokens=4000):
+def parse_objects(text):
+    """Достаёт из ответа все JSON-объекты {…}, даже если массив оборван или окружён текстом."""
+    dec, out, i = json.JSONDecoder(), [], 0
+    while True:
+        i = text.find("{", i)
+        if i < 0:
+            return out
+        try:
+            obj, end = dec.raw_decode(text, i)
+            if isinstance(obj, dict):
+                out.append(obj)
+            i = end
+        except json.JSONDecodeError:
+            i += 1
+
+
+def claude(prompt, state, cfg, max_tokens=8000):
     u = state["usage"]
     if u["cost"] >= cfg["monthly_budget_usd"]:
         raise BudgetExceeded()
@@ -269,28 +293,45 @@ def claude(prompt, state, cfg, max_tokens=4000):
     payload = {"model": cfg["model"], "max_tokens": max_tokens,
                "messages": [{"role": "user", "content": prompt}]}
     for attempt in range(4):
-        r = requests.post("https://api.anthropic.com/v1/messages", json=payload,
-                          headers=headers, timeout=180)
+        try:
+            r = requests.post("https://api.anthropic.com/v1/messages", json=payload,
+                              headers=headers, timeout=180)
+        except Exception as e:
+            err = f"сеть: {e}"
+            time.sleep(10)
+            continue
         if r.status_code in (429, 500, 502, 503, 529):
+            err = f"Claude {r.status_code}"
             time.sleep(20 * (attempt + 1))
             continue
         if not r.ok:
-            raise RuntimeError(f"Claude {r.status_code}: {r.text[:300]}")
+            try:
+                msg = r.json().get("error", {}).get("message", "")
+            except Exception:
+                msg = r.text[:200]
+            err = f"Claude {r.status_code}: {msg[:200]}"
+            print("Ошибка ИИ:", err)
+            DIAG["ai_errors"].append(err)
+            return []
         j = r.json()
         us = j.get("usage", {})
         tin = (us.get("input_tokens", 0) + us.get("cache_creation_input_tokens", 0)
                + us.get("cache_read_input_tokens", 0))
         u["cost"] += tin * PRICE_IN + us.get("output_tokens", 0) * PRICE_OUT
         u["calls"] = u.get("calls", 0) + 1
+        DIAG["ai_calls"] += 1
+        if j.get("stop_reason") == "max_tokens":
+            DIAG["truncated"] += 1
         text = "".join(b.get("text", "") for b in j.get("content", []) if b.get("type") == "text")
-        m = re.search(r"\[.*\]", text, re.S)
-        try:
-            data = json.loads(m.group(0)) if m else []
-        except json.JSONDecodeError:
-            print("Не JSON:", text[:300])
-            data = []
-        return [d for d in data if isinstance(d, dict)] if isinstance(data, list) else []
-    raise RuntimeError("Claude недоступен")
+        objs = parse_objects(text)
+        print(f"[ai] {us.get('input_tokens', 0)} → {us.get('output_tokens', 0)} токенов, "
+              f"объектов: {len(objs)}, stop: {j.get('stop_reason')}")
+        if not objs and "[]" not in text:
+            print("[ai] ответ без JSON:", text[:500])
+        return objs
+    print("Ошибка ИИ:", err)
+    DIAG["ai_errors"].append(err)
+    return []
 
 
 def find_events(sources, state, cfg, cats, today, start, end):
@@ -315,11 +356,15 @@ def find_events(sources, state, cfg, cats, today, start, end):
                                     for i, s in enumerate(chunk))
         for ev in claude(body, state, cfg):
             n = ev.get("n")
+            if isinstance(n, str) and n.isdigit():
+                n = int(n)
             if not isinstance(n, int) or not 0 <= n < len(chunk):
                 continue
+            DIAG["ai_found"] += 1
             d1 = parse_date(ev.get("date"))
             d2 = parse_date(ev.get("end_date")) or d1
             if not d1 or d2 < start or d1 > end:
+                DIAG["ai_out_of_range"] += 1
                 continue
             ev["_d1"], ev["_d2"] = d1, d2
             if not str(ev.get("link", "")).startswith("http"):
@@ -501,6 +546,17 @@ def run_digest(state, cfg, today):
     if places:
         lines.append("\n🏠 <b>Куда ещё сходить</b>")
         lines += [f"• <b>{esc(p.get('name'))}</b> — {esc(p.get('why'))}" for p in places]
+    problems = DIAG["ai_errors"] or not events or not places or DIAG["truncated"] \
+        or DIAG["pages_ok"] < DIAG["pages_total"] / 2
+    if problems:
+        diag = (f"⚙️ Диагностика: сайтов прочитано {DIAG['pages_ok']} из {DIAG['pages_total']}, "
+                f"новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
+                f"ИИ нашёл {DIAG['ai_found']} (вне дат {DIAG['ai_out_of_range']})")
+        if DIAG["truncated"]:
+            diag += f", обрезанных ответов {DIAG['truncated']}"
+        if DIAG["ai_errors"]:
+            diag += "\nОшибка ИИ: " + DIAG["ai_errors"][0]
+        lines.append("\n" + esc(diag))
     legend = " · ".join(f"{c['emoji']} {c['label']}" for c in cats if c["emoji"])
     lines.append(f"\n<i>{esc(legend)}\nПеред поездкой проверьте время и билеты на сайте.</i>")
     tg_long(lines)
