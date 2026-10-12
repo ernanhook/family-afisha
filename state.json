@@ -1,12 +1,18 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.0381332,
-"calls": 9
+"cost": 0.056563699999999995,
+"calls": 14
 },
 "last_digest": "2026-10-13",
 "shown_ongoing": [
+"96b8e89cd537dcf8",
+"f8adf1d19aafd022",
 "2dd95b7626d11a6c"
 ],
-"last_places": []
+"last_places": [
+"Latvijas Dabas muzejs",
+"Rīgas Nacionālais zooloģiskais dārzs",
+"Sigulda"
+]
 }
