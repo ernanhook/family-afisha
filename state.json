@@ -1,10 +1,12 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.0188604,
-"calls": 4
+"cost": 0.0381332,
+"calls": 9
 },
 "last_digest": "2026-10-13",
-"shown_ongoing": [],
+"shown_ongoing": [
+"2dd95b7626d11a6c"
+],
 "last_places": []
 }
