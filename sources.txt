@@ -17,6 +17,7 @@ page https://rigazoo.lv/jaunumi/
 # не читается роботом (13.10.2026): page https://www.latvia.travel/lv/pasakumi
 page https://www.visitjurmala.lv/lv/pasakumi/
 page https://www.lelluteatris.lv/
+page https://www.rcb.lv/events/category/pasakumi-berniem/
 page https://www.brivdabasmuzejs.lv/
 page https://www.dabasmuzejs.gov.lv/
 # не читается роботом (13.10.2026): page https://www.lnb.lv/lv/pasakumi
@@ -57,6 +58,9 @@ news lv tirdzniecības centrā bērniem OR "tirdzniecības centrs" ģimenes svē
 news lv māmiņu klubs OR "mazuļu rīts" OR pasākums māmiņām OR "māmiņas un mazuļi"
 news lv nodarbības mazuļiem ar vecākiem OR "mazuļu joga" OR "mazuļu peldēšana"
 news lv bērnu preču tirdziņš OR "bērnu mantu" maiņa
+news lv festivāls brīvdienās OR "gaismas festivāls" OR "ēdienu festivāls" OR gastronomijas festivāls
+news lv "atvērto durvju diena" OR "ģimeņu diena" muzejā OR zoodārzā
+news lv zemnieku tirgus OR "Kalnciema kvartāla tirgus" OR "Ziedu tirgus"
 
 # --- Новости на русском ---
 news ru мероприятия для детей Рига
@@ -67,3 +71,5 @@ news ru Масленица Рига OR ярмарка Рига OR праздни
 news ru выставка для детей Рига OR интерактивная выставка
 news ru торговый центр Рига детский праздник OR для детей
 news ru для мам с малышами Рига OR встреча мам OR мамский клуб
+news ru фестиваль выходные Латвия OR гастрономический фестиваль OR фестиваль света
+news ru ярмарка выходные Рига OR день открытых дверей Рига
