@@ -2,26 +2,32 @@
 #   page <ссылка>          — сайт с афишей, ИИ читает текст страницы
 #   news lv <запрос>       — поиск в Google News на латышском за последние 7 дней
 #   news ru <запрос>       — поиск в Google News на русском
+#   follow <раздел> <часть ссылки> <N> — открыть раздел сайта и прочитать целиком
+#                            N свежих статей, чьи ссылки содержат указанную часть
+#                            (статьи старше 3 недель пропускаются)
 # Можно использовать OR и кавычки, как в Google.
+
+# --- Разделы с анонсами: бот читает свежие статьи целиком ---
+follow https://www.lsm.lv/vecaki-un-berni/kultura-berniem/ /raksts/vecaki-un-berni/kultura-berniem/ 10
 
 # --- Сайты с афишами ---
 page https://www.bilesuserviss.lv/
 page https://rigazoo.lv/jaunumi/
-page https://www.liveriga.com/lv/pasakumi
-page https://www.latvia.travel/lv/pasakumi
+# не читается роботом (13.10.2026): page https://www.liveriga.com/lv/pasakumi
+# не читается роботом (13.10.2026): page https://www.latvia.travel/lv/pasakumi
 page https://www.visitjurmala.lv/lv/pasakumi/
 page https://www.lelluteatris.lv/
 page https://www.brivdabasmuzejs.lv/
 page https://www.dabasmuzejs.gov.lv/
-page https://www.lnb.lv/lv/pasakumi
+# не читается роботом (13.10.2026): page https://www.lnb.lv/lv/pasakumi
 page https://www.riga.lv/lv/jaunumi
 
 # --- Замки, дворцы, туристические центры ---
-page https://rundale.net/lv/
+# не читается роботом (13.10.2026): page https://rundale.net/lv/
 page https://www.turaida-muzejs.lv/lv/
 page https://www.cesupils.lv/
-page https://www.visitsigulda.lv/lv/pasakumi
-page https://www.visitcesis.lv/
+# не читается роботом (13.10.2026): page https://www.visitsigulda.lv/lv/pasakumi
+# не читается роботом (13.10.2026): page https://www.visitcesis.lv/
 page https://www.visitkuldiga.com/
 page https://www.visittukums.lv/
 
@@ -29,8 +35,8 @@ page https://www.visittukums.lv/
 page https://www.akropole.lv/
 page https://www.origo.lv/
 page https://www.galleriariga.lv/
-page https://www.spice.lv/
-page https://www.alfa.lv/
+# не читается роботом (13.10.2026): page https://www.spice.lv/
+# не читается роботом (13.10.2026): page https://www.alfa.lv/
 
 # --- Новости на латышском ---
 news lv pasākumi bērniem
