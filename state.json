@@ -1,18 +1,19 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.07532420000000001,
-"calls": 19
+"cost": 0.0975513,
+"calls": 25
 },
 "last_digest": "2026-10-13",
 "shown_ongoing": [
-"2dd95b7626d11a6c",
+"f8adf1d19aafd022",
 "96b8e89cd537dcf8",
-"f8adf1d19aafd022"
+"3842d864988d6252",
+"2dd95b7626d11a6c"
 ],
 "last_places": [
-"Latvijas Nacionālā bibliotēka, детский отдел",
-"Latvijas Etnogrāfiskais brīvdabas muzejs",
-"LU Botāniskais dārzs"
+"Rīgas Nacionālais zooloģiskais dārzs",
+"Latvijas Dabas muzejs",
+"Mežaparks, большая детская площадка"
 ]
 }
