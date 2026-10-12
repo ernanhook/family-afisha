@@ -25,6 +25,13 @@ page https://www.visitcesis.lv/
 page https://www.visitkuldiga.com/
 page https://www.visittukums.lv/
 
+# --- Торговые центры (проверьте по диагностике, какие читаются) ---
+page https://www.akropole.lv/
+page https://www.origo.lv/
+page https://www.galleriariga.lv/
+page https://www.spice.lv/
+page https://www.alfa.lv/
+
 # --- Новости на латышском ---
 news lv pasākumi bērniem
 news lv pasākums ģimenēm
@@ -40,6 +47,10 @@ news lv gadatirgus OR tirdziņš OR amatnieku tirgus
 news lv Meteņi OR Masļeņica OR Mārtiņdiena OR Miķeļdiena OR Lieldienas svinības
 news lv izstāde ģimenēm OR izstāde bērniem OR interaktīva izstāde
 news lv svētki brīvā dabā ģimenēm OR festivāls ģimenēm
+news lv tirdzniecības centrā bērniem OR "tirdzniecības centrs" ģimenes svētki
+news lv māmiņu klubs OR "mazuļu rīts" OR pasākums māmiņām OR "māmiņas un mazuļi"
+news lv nodarbības mazuļiem ar vecākiem OR "mazuļu joga" OR "mazuļu peldēšana"
+news lv bērnu preču tirdziņš OR "bērnu mantu" maiņa
 
 # --- Новости на русском ---
 news ru мероприятия для детей Рига
@@ -48,3 +59,5 @@ news ru куда пойти с детьми выходные Латвия
 news ru день города Латвия OR праздник города
 news ru Масленица Рига OR ярмарка Рига OR праздник в замке Латвия
 news ru выставка для детей Рига OR интерактивная выставка
+news ru торговый центр Рига детский праздник OR для детей
+news ru для мам с малышами Рига OR встреча мам OR мамский клуб
