@@ -1,0 +1,40 @@
+name: Family events digest
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # проверка раз в час; сводку скрипт шлёт в день и час из settings.txt
+  workflow_dispatch:        # ручной запуск — сразу присылает сводку
+
+permissions:
+  contents: write
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python main.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FORCE_DIGEST: ${{ github.event_name == 'workflow_dispatch' }}
+      - name: Save state
+        if: always()
+        run: |
+          [ -f state.json ] || exit 0
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "update state"
+          git push
