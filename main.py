@@ -70,7 +70,8 @@ def load_settings():
                 "digest_hour": "10", "days_ahead": "7", "latest_start_hour": "19",
                 "weather_lat": "56.95", "weather_lon": "24.11", "weather_name": "Рига",
                 "places_count": "3", "holidays_ahead_days": "21",
-                "monthly_budget_usd": "0.90", "model": "claude-haiku-5-5"}
+                "monthly_budget_usd": "0.90", "model": "claude-haiku-5-5",
+                "show_diagnostics": "auto"}
     for k, v in defaults.items():
         s.setdefault(k, v)
     aliases = {"пн": 0, "по": 0, "вт": 1, "ср": 2, "чт": 3, "че": 3, "пт": 4, "пя": 4,
@@ -630,9 +631,11 @@ def run_digest(state, cfg, today):
     if places:
         lines.append("\n🏠 <b>Куда ещё сходить</b>")
         lines += [f"• <b>{esc(p.get('name'))}</b> — {esc(p.get('why'))}" for p in places]
-    problems = DIAG["ai_errors"] or not events or DIAG["truncated"] or DIAG["pages_failed"] \
-        or (cfg["places_count"] > 0 and not places) \
-        or DIAG["pages_ok"] < DIAG["pages_total"] / 2
+    mode = cfg["show_diagnostics"].lower()
+    problems = mode == "always" or (mode != "never" and (
+        DIAG["ai_errors"] or len(events) < 3 or DIAG["truncated"] or DIAG["pages_failed"]
+        or (cfg["places_count"] > 0 and not places)
+        or DIAG["pages_ok"] < DIAG["pages_total"] / 2))
     if problems:
         diag = (f"⚙️ Диагностика: сайтов прочитано {DIAG['pages_ok']} из {DIAG['pages_total']}, "
                 f"статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
