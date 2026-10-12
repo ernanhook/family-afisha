@@ -85,14 +85,18 @@ def load_settings():
 
 
 def load_sources():
-    pages, news = [], []
+    pages, news, follows = [], [], []
     for l in lines_of("sources.txt"):
         parts = l.split(None, 2)
         if parts[0] == "page" and len(parts) >= 2:
             pages.append(parts[1])
         elif parts[0] == "news" and len(parts) == 3:
             news.append((parts[1].lower(), parts[2]))
-    return pages, news
+        elif parts[0] == "follow" and len(parts) >= 2:
+            rest = l.split()[1:]          # follow <страница> <часть ссылки> <сколько>
+            follows.append((rest[0], rest[1] if len(rest) > 1 else "",
+                            int(rest[2]) if len(rest) > 2 and rest[2].isdigit() else 8))
+    return pages, news, follows
 
 
 def gnews_url(lang, q):
@@ -194,10 +198,77 @@ def page_text(url):
     return text[:PAGE_CHARS] if len(text) > 300 else None
 
 
+ARTICLE_CHARS = 6000
+MAX_ARTICLE_AGE_DAYS = 21
+
+
+def article_text(url):
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"[follow] ошибка  {url}: {e}")
+        return None
+    soup = BeautifulSoup(r.text, "html.parser")
+    for t in soup(["script", "style", "nav", "footer", "header", "form", "noscript",
+                   "svg", "aside"]):
+        t.decompose()
+    node = soup.find("article") or soup.find("main") or soup.body or soup
+    text = " ".join(node.get_text(" ").split())
+    return text[:ARTICLE_CHARS] if len(text) > 200 else None
+
+
+def follow_links(listing, pattern, max_n, seen_urls):
+    """Открывает раздел сайта и читает целиком до max_n свежих статей, чьи ссылки содержат pattern."""
+    try:
+        r = requests.get(listing, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"[follow] ошибка  {listing}: {e}")
+        return [], False
+    soup = BeautifulSoup(r.text, "html.parser")
+    today = dt.date.today()
+    urls = []
+    for a in soup.find_all("a", href=True):
+        url = urllib.parse.urljoin(listing, a["href"]).split("#")[0]
+        if pattern and pattern not in url:
+            continue
+        if url == listing or url in urls or url in seen_urls:
+            continue
+        m = re.search(r"(\d{2})\.(\d{2})\.(\d{4})", url)     # дата в ссылке, как у LSM
+        if m:
+            try:
+                d = dt.date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+                if (today - d).days > MAX_ARTICLE_AGE_DAYS:
+                    continue
+            except ValueError:
+                pass
+        urls.append(url)
+    out = []
+    for url in urls[:max_n]:
+        seen_urls.add(url)
+        text = article_text(url)
+        if text:
+            out.append({"name": urllib.parse.urlparse(url).netloc.replace("www.", ""),
+                        "link": url, "text": text})
+    print(f"[follow] {len(out):3d} статей  {listing}")
+    return out, True
+
+
 def collect_sources():
-    pages, news_queries = load_sources()
+    pages, news_queries, follows = load_sources()
     sources = []
-    DIAG["pages_total"] = len(pages)
+    seen_urls = set()
+    for listing, pattern, max_n in follows:
+        DIAG["pages_total"] += 1
+        arts, ok = follow_links(listing, pattern, max_n, seen_urls)
+        if ok:
+            DIAG["pages_ok"] += 1
+            DIAG["articles"] = DIAG.get("articles", 0) + len(arts)
+        else:
+            DIAG["pages_failed"].append(urllib.parse.urlparse(listing).netloc.replace("www.", ""))
+        sources += arts
+    DIAG["pages_total"] += len(pages)
     for url in pages:
         text = page_text(url)
         if not text:
@@ -564,7 +635,7 @@ def run_digest(state, cfg, today):
         or DIAG["pages_ok"] < DIAG["pages_total"] / 2
     if problems:
         diag = (f"⚙️ Диагностика: сайтов прочитано {DIAG['pages_ok']} из {DIAG['pages_total']}, "
-                f"новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
+                f"статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
                 f"ИИ нашёл {DIAG['ai_found']} (вне дат {DIAG['ai_out_of_range']})")
         if DIAG["truncated"]:
             diag += f", обрезанных ответов {DIAG['truncated']}"
