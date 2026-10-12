@@ -33,5 +33,8 @@ holidays_ahead_days = 21
 # Лимит расходов на ИИ в месяц, $
 monthly_budget_usd = 0.90
 
+# Строка диагностики в конце сводки: auto (если мало событий или ошибки), always, never
+show_diagnostics = auto
+
 # Модель ИИ
 model = claude-haiku-5-5
