@@ -1,22 +1,411 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.17054880000000003,
-"calls": 44
+"cost": 0.20598290000000002,
+"calls": 55
 },
 "last_digest": "2026-10-13",
 "shown_ongoing": [
+"b2ddbd9c6e60412e",
 "7730835c4bda26e9",
-"2dd95b7626d11a6c",
-"b2ddbd9c6e60412e"
+"2dd95b7626d11a6c"
 ],
 "last_places": [
-"LU Botāniskais dārzs",
-"Mežaparks, большая детская площадка",
-"Latvijas Etnogrāfiskais brīvdabas muzejs"
+"Rīgas Nacionālais zooloģiskais dārzs",
+"Tērvetes dabas parks",
+"Latvijas Dabas muzejs"
 ],
 "events_api": {
 "month": "2026-10",
-"count": 5
+"count": 10
+},
+"portal_queue": [
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/tehnologijas-un-zinatne/13.10.2026-tehnologiju-eksperti-aicina-nekavejoties-rikoties-lai-saglabatu-kontroli-par-maksligo-intelektu.a667355/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Tehnoloģiju eksperti aicina nekavējoties rīkoties, lai saglabātu kontroli pār mākslīgo intelektu",
+"summary": "Aptuveni 400 mākslīgā intelekta un kiberdrošības pētnieki otrdien aicinājuši nekavējoties rīkoties, lai novērstu turpmākus gadījumus, kad mākslīgā intelekta (MI) modeļi sāk darboties nekontrolēti un rada risku kritiskajai infrastruktūrai.",
+"pub": "2026-10-13",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/celosana/13.10.2026-lai-sapnu-celojums-neparverstos-murga-kam-pieverst-uzmanibu-pirms-iegades.a667354/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Lai sapņu ceļojums nepārvērstos murgā. Kam pievērst uzmanību pirms iegādes",
+"summary": "Līdz ar vēsāku laiku internetā arvien biežāk meklē un iegādājas ceļojumus uz siltajām zemēm. Patērētāju tiesību aizsardzības centrs (PTAC) aicina būt uzmanīgiem, pērkot šādus pakalpojumus. Ko reklāmā var nepamanīt, un kas būtu jānoskaidro pirms ceļojuma apmaksāšanas?",
+"pub": "2026-10-13",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/literatura/13.10.2026-silti-noras-ikstenas-domu-uzplaiksnijumi-un-100-stasti-par-latviesu-rakstniekiem-izdoti-jauni-eseju-krajumi.a667316/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Silti Noras Ikstenas domu uzplaiksnījumi un 100 stāsti par latviešu rakstniekiem. Izdoti jauni eseju krājumi",
+"summary": "Grāmatām veltītajā laikā šonedēļ īpaši izcelšu rakstnieci Noru Ikstenu. Viņas dzimšanas diena ir 15. oktobrī, un šogad viņai apritētu 57 gadi, tomēr jubileju rakstniece nesagaidīja, jo pašā gada sākumā Noras Ikstenas dzīve aprāvās. Visas nedēļas garumā notiek plašs viņai veltītu pasākumu kopums, kam",
+"pub": "2026-10-13",
+"source": "lsm.lv",
+"score": 3
+},
+{
+"link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/13.10.2026-skalas-lasisanas-sacensibas-noslegusas-cempiona-titulu-ieguvis-emils-trenmors-no-kuldigas.a667285/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Skaļās lasīšanas sacensības noslēgušās; čempiona titulu ieguvis Emīls Trenmors no Kuldīgas",
+"summary": "Noslēdzies devītais \"Skaļās lasīšanas sacensību\" nacionālais fināls. Tajā piedalījās Latvijas novadu lasīšanas čempioni ar saviem līdzjutējiem, viņu vidū 8 zēni un 10 meitenes, lasīšanas čempiona titulu ieguva Emīls Trenmors no Viļa Plūdoņa Kuldīgas vidusskolas, informēja pasākuma organizētāji.",
+"pub": "2026-10-13",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/arzemes/13.10.2026-baltkrievija-iesvetita-pirma-maksliga-intelekta-radita-religiska-ikona.a667290/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Baltkrievijā iesvētīta pirmā mākslīgā intelekta radītā reliģiskā ikona",
+"summary": "Pagājušās nedēļas nogalē Baltkrievijā bija iesvētīta pirmā mākslīgā intelekta radītā reliģiskā ikona. Šajā svētbildē redzams itāliešu pusaudzis Karlo Akutis, kurš 2025. gadā tika iecelts svēto kārtā un plašāk ir pazīstams kā \"kiberapustulis\".",
+"pub": "2026-10-13",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/13.10.2026-aktery-kotorye-eshhe-ne-oblacilis-v-svoi-roli-v-diplomnom-spektakle-portrety-avtoportrety-govorit-yazyk-tela.a667294/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Актеры, которые еще не облачились в свои роли. В дипломном спектакле «Портреты. Автопортреты» говорит язык тела",
+"summary": "Без слов и заранее заданных ролей, только с помощью языка тела. 14 октября в театральном доме Zirgu pasts Латвийской академии культуры состоится премьера пластического спектакля «Портреты. Автопортреты». Это дипломная работа пяти студентов четвертого курса актерского мастерства, которым предстояло и",
+"pub": "2026-10-13",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/literatura/12.10.2026-latviiskaya-literatura-privlekaet-vnimanie-i-polucaet-nagradu-na-frankfurtskoi-kniznoi-yarmarke.a667252/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Латвийская литература привлекает внимание и получает награду на Франкфуртской книжной ярмарке",
+"summary": "Франкфуртская книжная ярмарка — крупнейшая и старейшая в мире книжная выставка-ярмарка, которая ежегодно собирает литераторов, издателей и читателей более чем из 100 стран, в том числе из Латвии.",
+"pub": "2026-10-12",
+"source": "rus.lsm.lv",
+"score": 8
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/muzika/12.10.2026-zemcuziny-francuzskoi-muzyki-na-festivale-organnoi-i-simfoniceskoi-muzyki-organismi.a667246/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Жемчужины французской музыки на фестивале органной и симфонической музыки ORGANismi",
+"summary": "В Латгальском посольстве Gors завершился международный фестиваль органной музыки ORGANismi, собравший музыкантов из Латвии и Франции. Вместе с Латвийским национальным симфоническим оркестром, дирижером Жан-Клодом Казадезюсом и органисткой Иветой Апкалной слушатели насладились масштабными сочинениями",
+"pub": "2026-10-12",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/12.10.2026-v-repertuare-nacionalnogo-teatra-vnov-poyavlyaetsya-imya-yanisa-poruksa-gotovitsya-spektakl-sila-ezera-nolaisana.a667224/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "В репертуаре Национального театра вновь появляется имя Яниса Порукса: готовится спектакль Sila ezera nolaišana",
+"summary": "Новый сезон в Актерском зале Национального театра откроется премьерой спектакля Sila ezera nolaišana, который режиссер Марцис Брокс ставит по мотивам повести Яниса Порукса. Жанр постановки обозначен как «экзистенциальный хоррор»: в ней затрагиваются и сегодня актуальные темы — вмешательство цивилиза",
+"pub": "2026-10-12",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kultura/12.10.2026-premiyu-festivalya-yazykov-avots-polucila-aktivistka-legkogo-yazyka-velga-polinska.a667213/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Премию фестиваля языков Avots получила активистка легкого языка Велга Полинска",
+"summary": "На фестивале языков Avots 10 октября была вручена Языковая премия. В этом году диплом и портрет работы Милицы Койович получила исследовательница Латвийского университета Велга Полинска — за вклад в изучение, развитие и популяризацию легкого языка, то есть упрощенной формы речи, рассчитанной на людей",
+"pub": "2026-10-12",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/12.10.2026-balans-festivalya-osen-patriarxa-i-alternativnoi-teatralnoi-premii-zolotaya-muxa-kto-stal-triumfatorom.a667209/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Баланс фестиваля «Осень патриарха» и альтернативной театральной премии «Золотая муха»: кто стал триумфатором?",
+"summary": "9 октября в театральном доме Латвийской академии культуры Zirgu pasts завершился 17-й фестиваль сценического и аудиовизуального искусства «Осень патриарха». На церемонии, которую посетили студенты и сотрудники ЛАК, а также представители культурной отрасли и гости, объявили лауреатов фестиваля и нагр",
+"pub": "2026-10-12",
+"source": "rus.lsm.lv",
+"score": 8
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/12.10.2026-riga-pogruzaetsya-v-kinofestival-kak-vybrat-filmy-na-svoi-vkus.a667179/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Рига погружается в кинофестиваль. Как выбрать фильмы на свой вкус?",
+"summary": "15 октября стартует ежегодный Рижский международный кинофестиваль Riga IFF. Он пройдет уже в 13-й раз. Фильмы будут показывать в столичных кинотеатрах Splendid Palace и Forum Cinemas, а также в Даугавпилсе — в музее Ротко, в концертном зале Cēsis и в культурном центре Siguldas devons. Фестиваль прод",
+"pub": "2026-10-12",
+"source": "rus.lsm.lv",
+"score": 10
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/12.10.2026-film-rezissera-lindy-olte-rebenok-budet-predstavlen-v-glavnom-konkurse-varsavskogo-kinofestivalya.a667160/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Фильм режиссера Линды Олте «Ребенок» будет представлен в главном конкурсе Варшавского кинофестиваля",
+"summary": "12 октября на Варшавском международном кинофестивале в программе главного конкурса состоится мировая премьера второй полнометражной игровой картины режиссера Линды Олте — Bērns («Ребенок»). Главную роль в фильме исполнила Агнесе Будовска. В латвийских кинотеатрах картина выйдет в феврале следующего ",
+"pub": "2026-10-12",
+"source": "rus.lsm.lv",
+"score": 7
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/733085-muzikala-apvieniba-raxtu-raxti-laiz-klaja-jauna-albuma-tituldziesmu-un-gatavojas-koncertturnejai",
+"title": "Muzikālā apvienība \"Raxtu Raxti\" laiž klajā jaunā albuma tituldziesmu un gatavojas koncertturnejai",
+"summary": "Šonedēļ klajā nāk muzikālās apvienības \"Raxtu Raxti\" jaunā albuma \"Viena saule, viena zeme\" tituldziesma ar tādu pašu nosaukumu.",
+"pub": "2026-10-13",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/733076-tuvojas-ziema-bet-naudas-apkurei-nepietiek-ziedotlv-aicina-palidzet-grutibas-nonakusam-gimenem",
+"title": "Tuvojas ziema, bet naudas apkurei nepietiek: “Ziedot.lv” aicina palīdzēt grūtībās nonākušām ģimenēm",
+"summary": "Tuvojoties ziemai un sākoties apkures sezonai, arvien vairāk Latvijas ģimeņu satraucas par to, kā apmaksāt rēķinus un sagādāt ikdienā nepieciešamo. Labdarības organizācija “Ziedot.lv” aicina līdzcilvēkus palīdzēt trūcīgām ģimenēm, vientuļajiem vecākiem un senioriem, kuriem bez sabiedrības atbalsta p",
+"pub": "2026-10-13",
+"source": "jauns.lv",
+"score": 7
+},
+{
+"link": "https://jauns.lv/raksts/zinas/733032-reinis-zarins-un-andris-poga-aicina-uz-sumana-klaviermuzikas-sedevru-riga",
+"title": "Reinis Zariņš un Andris Poga aicina uz Šūmaņa klaviermūzikas šedevru Rīgā",
+"summary": "Ceturtdien, 22. oktobrī plkst. 19.00 Latvijas Universitātes Lielajā Aulā kamerorķestris Sinfonietta Rīga un diriģents Andris Poga klausītājus aicina piedzīvot vienu no izcilākajiem pasaules klaviermūzikas literatūras šedevriem – vācu romantisma laikmeta ģēnija Roberta Šūmaņa Klavierkoncertu. Līdzās ",
+"pub": "2026-10-13",
+"source": "jauns.lv",
+"score": 8
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/732915-latviiskim-obshhestvam-nacmensinstv-razdali-118-tysiac-evro-na-cto-poidut-dengi",
+"title": "Латвийским обществам нацменьшинств раздали 118 тысяч евро. На что пойдут деньги?",
+"summary": "Совет Фонда интеграции общества (Sabiedrības integrācijas fonds - SIF) утвердил 10 проектов в рамках финансируемой из госбюджета \"Программы поддержки национальных меньшинств и сплочения общества\". Это даст неправительственным организациям (НПО) возможность проводить мероприятия, способствующие сотру",
+"pub": "2026-10-13",
+"source": "rus.jauns.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8563772",
+"title": "Grupa \"Raxtu Raxti\" laiž klajā jaunā albuma tituldziesmu un gatavojas koncerttūrei",
+"summary": "Šonedēļ klajā nāk muzikālās apvienības \"Raxtu Raxti\" jaunā albuma Viena Saule, Viena Zeme tituldziesma ar tādu pašu nosaukumu. Tāpat novembrī \"Raxtu Raxti\" dosies koncerttūrē ar jaunu programmu, un tūres pirmais koncerts notiks jau svētdien, 1. novembrī Liepājas koncertzālē \"Lielais dzintars\". Dzies",
+"pub": "2026-10-13",
+"source": "tvnet.lv",
+"score": 8
+},
+{
+"link": "https://pmo.ee/8563717",
+"title": "\"Ziedot.lv\" aicina palīdzēt trūcīgām ģimenēm sagatavoties ziemai",
+"summary": "Labdarības organizācija \"Ziedot.lv\" aicina ziedot trūcīgu ģimeņu atbalstam, pirms ziemas palīdzot sagādāt kurināmo, pārtiku un citas ikdienā nepieciešamās lietas, informēja organizācijā.",
+"pub": "2026-10-13",
+"source": "tvnet.lv",
+"score": 5
+},
+{
+"link": "https://www.delfi.lv/52113215/komercparraides/120138262/aicina-balsot-par-si-gada-vertigako-socialas-uznemejdarbibas-iniciativu",
+"title": "Aicina balsot par šī gada vērtīgāko sociālās uzņēmējdarbības iniciatīvu",
+"summary": "Latvijas Sociālās uzņēmējdarbības asociācija kopā ar Luminor banku 15. oktobrī pl. 17.00 aicina ikvienu Latvijas iedzīvotāju Delfi.lv vērot ikgadējā Sociālās uzņēmējdarbības piču jeb prezentāciju konkursa \"Tam labam būs augt\" fināla tiešraidi un balsot par šī gada vērtīgāko sociālās uzņēmējdarbības ",
+"pub": "2026-10-13",
+"source": "delfi.lv",
+"score": 4
+},
+{
+"link": "https://www.delfi.lv/46713439/arzemes/120138217/braze-aicina-es-aizliegt-krievijas-graudu-tranzitu",
+"title": "Braže aicina ES aizliegt Krievijas graudu tranzītu",
+"summary": "Eiropas Savienības (ES) Ārlietu padomes sanāksmē Latvijas ārlietu ministre Baiba Braže (JV) atkārtoti aicināja ES dalībvalstis vienoties par Krievijas graudu importa un tranzīta aizliegumu visā blokā, informēja Ārlietu ministrijā (ĀM).",
+"pub": "2026-10-12",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://www.delfi.lv/life/56017218/atputa/120137684/montas-pujates-darza-izaug-600-kirbji-pec-razas-brauc-pat-no-talam-malam",
+"title": "Montas Pujātes dārzā izaug 600 ķirbji – pēc ražas brauc pat no tālām malām",
+"summary": "Kā no neliela dārziņa iegūt pilnu piekabi ar ķirbjiem? Tirzas pagasta \"Jaunbaložu\" saimniecība šogad piedzīvojusi necerēti brangu ražu – izaudzēti aptuveni 600 ķirbju, kuru vidū lielākais sver iespaidīgus 32 kilogramus. Lai gan sākumā eksperiments ar ķirbjiem sācies zemes rotācijas dēļ, tas izrādīji",
+"pub": "2026-10-12",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://www.delfi.lv/46713439/arzemes/120138163/kremlis-komente-trampa-pazinojumu-par-energetikas-pamieru",
+"title": "Kremlis komentē Trampa paziņojumu par enerģētikas pamieru",
+"summary": "Kremlis pirmdien pirmo reizi komentējis ASV prezidenta Donalda Trampa nedēļas nogalē izskanējušos apgalvojumus par enerģētikas pamieru starp Krieviju un Ukrainu, vēsta medijs \"Sky News\".",
+"pub": "2026-10-12",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://www.delfi.lv/sports/17012621/other_kinds/120138116/smitam-jauns-rekords-gorkss-izaicina-skeptikus-f-1-gatavo-troni-cempionam-dienas-apskats-sporta",
+"title": "Šmitam jauns rekords, Gorkšs izaicina skeptiķus, F-1 gatavo troni čempionam: dienas apskats sportā",
+"summary": "Straujus soļus savā attīstībā prasīgajā Ņujorkā turpina spert latviešu talants Alberts Šmits, kuram atkal jauns rekords. Pirmā formula (F-1) nonākusi matu no jaunā pasaules čempiona noskaidrošanas, bet kādreizējais Latvijas futbola izlases kapteinis Kaspars Gorkšs metis nopietnu izaicinājuma cimdu s",
+"pub": "2026-10-12",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://rus.delfi.lv/57863/criminal/120138154/foto-ohotniki-pomogli-zaderzhat-v-lesopolose-gruppu-nelegalov",
+"title": "ФОТО. Охотники помогли задержать в лесополосе группу нелегалов",
+"summary": "В минувшие выходные охотники помогли пограничникам задержать в Латгале нелегальных мигрантов.",
+"pub": "2026-10-12",
+"source": "rus.delfi.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/13/rozdestvenskaia-preliudiia-inessy-galante-tri-osobennyx-vecera-kotorye-napolniat-rigu-muzykoi-rozdestva?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "«Рождественская прелюдия» Инессы Галанте: три особенных вечера, которые наполнят Ригу музыкой Рождества",
+"summary": "Фонд Инессы Галанте приглашает на серию рождественских концертов «Рождественская прелюдия» - три музыкальных вечера 10, 11 и 12 декабря, которые пройдут в двух монументальных исторических рижских храмах - Лютеранской церкви в Торнякалнсе и Домском соборе. Каждый концерт станет особенной музыкальной ",
+"pub": "2026-10-13",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/eda-i-recepty/2026/10/13/kak-prigotovit-gribnoi-saslyk-v-duxovke-vkusnaia-zakuska-i-garnir?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Как приготовить грибной шашлык в духовке: вкусная закуска и гарнир",
+"summary": "Грибной шашлык станет отличным дополнением как к праздничному столу, так и к обычному ужину, а его приготовление не займет много времени.",
+"pub": "2026-10-13",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/chp-i-kriminal/2026/10/12/prazdnik-uzasov-nacalsia-dosrocno-poctu-v-rime-ograbili-na-100-tysiac-evro?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Праздник ужасов начался досрочно: почту в Риме ограбили на 100 тысяч евро",
+"summary": "Двое вооружённых грабителей устроили в Риме дерзкое ограбление, напоминающее сцену из криминального фильма. Преступники в масках Хэллоуина пробрались в почтовое отделение через отверстие в стене, дождались сотрудников и под угрозой оружия заставили их отдать деньги. Добычей налётчиков стали около 10",
+"pub": "2026-10-12",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/chp-i-kriminal/2026/10/12/oblozili-kak-volkov-v-latgalii-oxotniki-pomogli-zaderzat-nelegalnyx-migrantov?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Обложили как волков - в Латгалии охотники помогли задержать нелегальных мигрантов",
+"summary": "В Латгалии в минувшие выходные охотники помогли пограничникам задержать нелегальных мигрантов, сообщили в Государственной пограничной охране.",
+"pub": "2026-10-12",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/12/iskusstvo-muzyka-i-tainy-prirody-rizskie-muzei-priglasaiut-na-neobycnye-subboty?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Искусство, музыка и тайны природы: рижские музеи приглашают на необычные субботы",
+"summary": "Этой осенью Латвийский национальный художественный музей приглашает жителей и гостей Риги провести субботние дни за творческими занятиями. В рамках программы «Творческие субботы в музее!» посетителей ждут встречи с интересными людьми, увлекательные беседы и мастер-классы, на которых каждый сможет по",
+"pub": "2026-10-12",
+"source": "bb.lv",
+"score": 9
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/12/iskusstvo-kotoroe-mozno-potrogat-v-rige-otkrylas-neobycnaia-vystavka-zenskogo-tvorcestva?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Искусство, которое можно потрогать: в Риге открылась необычная выставка женского творчества",
+"summary": "В рижском художественном центре Zuzeum открылась выставка «Отводя взгляд. Художницы в коллекции Зузансов: 2000–2026», объединившая более 40 произведений художниц из Латвии, других стран Балтии и зарубежья. Посетителям предлагают не только познакомиться с современным искусством, но и заглянуть за кул",
+"pub": "2026-10-12",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/11/pogoda-v-latvii-izmenitsia-tolko-k-vyxodnym-sinoptiki?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Погода в Латвии изменится только к выходным - синоптики",
+"summary": "В начале новой недели погода в Латвии будет переменчивой, однако во второй ее половине дожди станут реже и чаще будет выглядывать солнце, прогнозирует Латвийский центр окружающей среды, геологии и метеорологии (LVĢMC).",
+"pub": "2026-10-11",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/v-mire-zhivotnyh/2026/10/11/za-odni-vyxodnye-v-latvii-nascitali-bolee-111-tysiac-ptic?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "За одни выходные в Латвии насчитали более 111 тысяч птиц",
+"summary": "В первые выходные октября любители природы в Латвии зарегистрировали 111 597 птиц. В наблюдениях участвовали 284 человека, а мероприятия прошли в 14 местах по всей стране. Чаще всего встречались зяблики, скворцы и белолобые гуси. Наблюдения проходили в рамках международной инициативы EuroBirdwatch 2",
+"pub": "2026-10-11",
+"source": "bb.lv",
+"score": 6
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/10/den-xaritona-ispovednika-cto-mozno-i-nelzia-delat-pravoslavnym-latvii-11-oktiabria-2026-goda?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "День Харитона Исповедника. Что можно и нельзя делать православным Латвии 11 октября 2026 года?",
+"summary": "11 октября 2026 года празднуется память преподобного Харитона Исповедника, епископа Иконийского. Он считается образцом настоящей веры во Спасение и преданного служения Богу. В народе этот день считался неудачным, а потому его старались проводить дома.",
+"pub": "2026-10-10",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/10/prinesite-to-cto-ne-rabotaet-v-rige-proidet-neobycnaia-akciia?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Принесите то, что не работает: в Риге пройдет необычная акция",
+"summary": "Не спешите выбрасывать сломанный чайник, блендер или фен! 15 октября в Риге пройдет бесплатный мастер-класс по ремонту бытовой техники.",
+"pub": "2026-10-10",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/10/rozovyi-cvet-vlasti-vystavka-razrusila-privycnye-predstavleniia-o-mode-drevnego-rima?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Розовый — цвет власти: выставка разрушила привычные представления о моде Древнего Рима",
+"summary": "Привычный образ древнего римлянина в строгой белой тоге оказался далек от реальности. Новая выставка в Копенгагене показывает: две тысячи лет назад жители Римской империи любили яркие цвета, пользовались парфюмерией и украшениями, а мужчины вполне могли носить розовое.",
+"pub": "2026-10-10",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/10/voennyi-parad-zalpy-i-besplatnaia-paelia-cto-segodnia-budet-proisxodit-v-centre-rigi?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Военный парад, залпы и бесплатная паэлья: что сегодня будет происходить в центре Риги",
+"summary": "В субботу, 10 октября, центр Риги на несколько часов превратится в площадку для празднования Национального дня Испании. Жителей и гостей столицы ждут военный парад, выставка бронетехники, выступление военного оркестра и угощение традиционной испанской паэльей. Однако автомобилистам стоит учитывать о",
+"pub": "2026-10-10",
+"source": "bb.lv",
+"score": 5
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/09/pokrovskaia-roditelskaia-subbota-cto-mozno-i-nelzia-delat-pravoslavnym-latvii-10-oktiabria-2026-goda?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Покровская родительская суббота. Что можно и нельзя делать православным Латвии 10 октября 2026 года?",
+"summary": "10 октября 2026 года вспоминают основателя Соловецкого монастыря преподобного Савватия. Святого связывали с бортничеством, которым он занимался, чтобы иметь пищу на острове. А потому он получил прозвище Пчельник. Также в этот день празднуется Покровская родительская суббота.",
+"pub": "2026-10-09",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/ljublju/2026/10/09/15-let-vmeste-dmitrii-sokolov-pokazal-semeinoe-scaste-s-kseniei-li?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "15 лет вместе: Дмитрий Соколов показал семейное счастье с Ксенией Ли",
+"summary": "Звезда «Уральских пельменей» Дмитрий Соколов и его супруга Ксения Ли отмечают особенную дату — 15-ю годовщину свадьбы. В честь семейного праздника жена юмориста поделилась с поклонниками трогательными кадрами из их совместной жизни.",
+"pub": "2026-10-09",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/09/zdat-li-buriu-v-subbotu-latviiskie-sinoptiki-rasskazali-o-pogode-na-vyxodnye?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Ждать ли бурю в субботу? Латвийские синоптики рассказали о погоде на выходные",
+"summary": "В пятницу вечером и в ночь на субботу в Латвии будет бушевать западный ветер, к утру он стихнет, прогнозируют синоптики.",
+"pub": "2026-10-09",
+"source": "bb.lv",
+"score": 3
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/09/ot-15-do-0-gradusov-sinoptiki-rasskazali-kakoi-budet-pogoda-posle-piatnicnoi-buri?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "От +15 до 0 градусов: синоптики рассказали, какой будет погода после пятничной бури",
+"summary": "После сильного ветра в пятницу погода в Латвии станет спокойнее, однако устойчивого сухого периода пока не ожидается. В выходные и на следующей неделе дожди будут чередоваться с солнцем, а по ночам местами температура может опускаться до нуля.",
+"pub": "2026-10-09",
+"source": "bb.lv",
+"score": 3
+},
+{
+"link": "https://bb.lv/statja/v-mire/2026/10/08/litva-otkazalas-ot-ucastiia-v-konferencii-po-dezinformacii-tak-kak-na-nei-kritikuiut-ssa?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Литва отказалась от участия в конференции по дезинформации, так как на ней критикуют США",
+"summary": "Министерство иностранных дел (МИД) Литвы не уточняет, стало ли давление администрации президента США причиной выхода из конференции по дезинформации, отмечая лишь, что решение принято из-за частичного несоответствия программы мероприятия «позициям правительства» и национальным интересам.",
+"pub": "2026-10-08",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/08/v-eti-vyxodnye-v-rizskom-zooparke-proidut-dni-zivotnyx?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "В эти выходные в Рижском зоопарке пройдут «Дни животных»",
+"summary": "В эти выходные, 10 и 11 октября, в Рижском зоопарке пройдут «Дни животных», сообщила LETA Роберта Трейя, руководитель отдела обслуживания посетителей зоопарка.",
+"pub": "2026-10-08",
+"source": "bb.lv",
+"score": 7
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/08/desiatiletiiami-ix-nikto-ne-videl-rizskaia-birza-dostala-sokrovishha-iz-zapasnikov?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Десятилетиями их никто не видел: «Рижская биржа» достала сокровища из запасников",
+"summary": "Художественный музей «Рижская биржа» приглашает посетителей на выставку «Рог изобилия», которая продлится до 3 января. В экспозицию вошли в том числе произведения, которые десятилетиями не показывали публике или которые вообще выставляются впервые.",
+"pub": "2026-10-08",
+"source": "bb.lv",
+"score": 5
+},
+{
+"link": "https://www.la.lv/princis-harijs-atklajis-savas-dzives-tumsako-pusi-izradas-jau-gadu-desmitiem-vinu-parnemusi-kada-slimiba",
+"title": "Princis Harijs atklājis savas dzīves tumšāko pusi: izrādās, jau gadu desmitiem viņu pārņēmusi kāda slimība",
+"summary": "Princis Harijs gadiem ilgi cīnījies ar emocionālām grūtībām, kas aizsākušās pēc mātes, princeses Diānas, nāves 1997. gadā. Vēlāk viņa pašsajūtu ietekmēja arī sarežģītās attiecības ar karalisko ģimeni, konflikti ar brāli Viljamu un lēmums kopā ar sievu Meganu atteikties no karalisko pienākumu pildīša",
+"pub": "2026-10-13",
+"source": "la.lv",
+"score": 3
+},
+{
+"link": "https://www.la.lv/par-indras-brikes-cinu-ar-slimibu-zinaja-tikai-tuvakie-liepajas-teatra-aktrise-atminas-pedejo-tiksanos",
+"title": "Par Indras Briķes cīņu ar slimību zināja tikai tuvākie… Liepājas teātra aktrise atminas pēdējo tikšanos",
+"summary": "Aizsaulē aizgājusī Dailes teātra aktrise Indra Briķe pēdējā laikā cīnījās ar smagu slimību, vēstīts žurnālā “Privātā Dzīve“. Lai gan viņas tuvākie cilvēki un kolēģi labi apzinājās nopietno veselības stāvokli, cerība par atgriešanos uz skatuves neizzuda ne mirkli – režisori joprojām loloja cerību viņ",
+"pub": "2026-10-13",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/testi/tests-tu-ed-rupjmaizi-un-fano-par-hokeju-bet-vai-maki-rakstit-tests-kura-90-isto-latviesu-izgazas",
+"title": "TESTS. Tu ēd rupjmaizi un fano par hokeju, bet vai māki rakstīt? Tests, kurā 90% “īsto latviešu” izgāžas",
+"summary": "Dziesmu svētkos tev acīs ir asaras, mašīnā pie spoguļa plīvo sarkanbaltsarkana lentīte, bet pēc katras uzvaras hokejā vai basketbolā pie Brīvības pieminekļa esi pirmais? Apsveicam, patriotisms tev ir asinīs! Taču tagad ķersimies pie lietas… Esam sagatavojuši 10 jautājumus par latviešu valodu, un sta",
+"pub": "2026-10-12",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/varot-makaronus-vaku-nemaz-nav-velams-likt-pavaru-noverojumi-maina-ierasto-pienemumu",
+"title": "Vārot makaronus, vāku nemaz nav vēlams likt – pavāru novērojumi sagrauj ierastos principus",
+"summary": "Makaroni ir viens no vienkāršākajiem ēdieniem, ko pagatavot. Taču arī to vārīšanā, izrādās, ir kāds jautājums, par kuru pavāru vidū vienmēr valda karstas diskusijas – vai pēc makaronu ielikšanas verdošajā ūdenī katlam ir vai nav jāuzliek vāks? Portāls “Simply Recipes” šo jautājumu uzdeva četriem pav",
+"pub": "2026-10-12",
+"source": "la.lv",
+"score": 2
+}
+],
+"portal_errors": {
+"https://nra.lv/rss": "404 Client Error: Not Found for url: https://nra.lv/rss/"
 }
 }
