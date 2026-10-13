@@ -57,12 +57,16 @@ page https://www.cesupils.lv/
 page https://www.visitkuldiga.com/
 page https://www.visittukums.lv/
 
-# --- Торговые центры (проверьте по диагностике, какие читаются) ---
-page https://www.akropole.lv/
-page https://www.origo.lv/
-page https://www.galleriariga.lv/
+# --- Торговые центры: страницы событий ---
+page https://akropoleriga.lv/pasakumi/
+page https://akropolealfa.lv/pasakumi/
+page https://www.origo.lv/events/
+page https://www.galleriariga.lv/jaunumi/
 # не читается роботом (13.10.2026): page https://www.spice.lv/
-# не читается роботом (13.10.2026): page https://www.alfa.lv/
+# вместо сайта Spice — поиск анонсов в новостях и Google Events:
+news lv "Spice" tirdzniecības centrs bērniem OR ģimenēm OR pasākums OR svētki
+news ru "Spice" торговый центр дети OR праздник OR мероприятие
+events Spice shopping centre Riga events
 
 # --- Новости на латышском ---
 news lv pasākumi bērniem
