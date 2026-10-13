@@ -41,9 +41,10 @@ jobs:
           git diff --cached --quiet || git commit -m "update state"
           git pull --rebase -X theirs || true   # если вы правили файлы во время запуска
           git push
-      # не даёт GitHub отключить расписание после 60 дней без коммитов (через API, без лишних коммитов)
+      # не даёт GitHub отключить расписание после 60 дней без активности:
+      # официальный вызов API GitHub, без сторонних расширений
       - name: Keepalive
         if: always()
-        uses: gautamkrishnar/keepalive-workflow@v1
-        with:
-          use_api: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/digest.yml/enable" || true
