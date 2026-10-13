@@ -562,7 +562,7 @@ def claude(prompt, state, cfg, max_tokens=8000):
         raise BudgetExceeded()
     headers = {"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
-    payload = {"model": cfg["model"], "max_tokens": max_tokens,
+    payload = {"model": cfg["model"], "max_tokens": max_tokens, "temperature": 0,
                "system": "Отвечай сразу JSON-массивом, без рассуждений, пояснений и markdown. "
                          "Текстовые поля about, summary и why пиши по-русски.",
                "messages": [{"role": "user", "content": prompt}]}
@@ -763,22 +763,26 @@ def fmt_event(ev, emoji):
     return "\n".join(out)
 
 
-def dedupe(events, state):
+def dedupe(events, state, period):
+    """Убирает дубли. Длинная выставка показывается в сводке за один период (неделю);
+    повторные запуски за тот же период её не теряют, а в следующие недели она скрыта."""
     out, keys = [], set()
-    shown_ongoing = set(state.get("shown_ongoing", []))
+    shown = state.get("shown_ongoing", {})
+    if isinstance(shown, list):                    # старый формат — просто сбрасываем
+        shown = {}
     for ev in sorted(events, key=lambda e: (e["_d1"], e.get("time") or "")):
         title = re.sub(r"[^\w]+", "", str(ev.get("title", "")).lower())
         k = key(title, ev["_d1"].isoformat())
         if k in keys:
             continue
-        if ev.get("ongoing"):                 # длинная выставка — показываем один раз
+        if ev.get("ongoing"):
             ok = key(title, ev.get("venue", ""))
-            if ok in shown_ongoing:
+            if ok in shown and shown[ok] != period:
                 continue
-            shown_ongoing.add(ok)
+            shown[ok] = period
         keys.add(k)
         out.append(ev)
-    state["shown_ongoing"] = list(shown_ongoing)[-500:]
+    state["shown_ongoing"] = dict(list(shown.items())[-500:])
     return out
 
 
@@ -794,7 +798,8 @@ def run_digest(state, cfg, today):
     print(f"Источников: {len(sources)}, бюджет ${state['usage']['cost']:.3f} / "
           f"${cfg['monthly_budget_usd']:.2f}")
     try:
-        events = dedupe(find_events(sources, state, cfg, cats, today, start, end), state)
+        events = dedupe(find_events(sources, state, cfg, cats, today, start, end), state,
+                        start.isoformat())
     except BudgetExceeded:
         tg(f"⚠️ Месячный бюджет ИИ (${cfg['monthly_budget_usd']:.2f}) исчерпан, "
            "сводка пропущена до 1-го числа.")
@@ -811,7 +816,7 @@ def run_digest(state, cfg, today):
     # Места, которые уже предлагались за последние places_repeat_days, исключаются
     hist = state.setdefault("places_history", [])
     cutoff = (today - dt.timedelta(days=cfg["places_repeat_days"])).isoformat()
-    hist[:] = [h for h in hist if h[0] >= cutoff]
+    hist[:] = [h for h in hist if h[0] >= cutoff and h[0] != today.isoformat()]
     recent = {h[1].lower() for h in hist}
     all_places = lines_of("places.txt")
     fresh = [l for l in all_places if l.split("|")[0].strip().lower() not in recent]
