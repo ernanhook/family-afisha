@@ -5,18 +5,11 @@
 "calls": 85
 },
 "last_digest": "2026-10-13",
-"shown_ongoing": [
-"21a681a294018514",
-"2dd95b7626d11a6c"
-],
-"last_places": [
-"Latvijas Dabas muzejs",
-"Mini zoo \"Brieži\"",
-"Grīziņkalna parks"
-],
+"shown_ongoing": {},
+"last_places": [],
 "events_api": {
 "month": "2026-10",
-"count": 27
+"count": 33
 },
 "portal_queue": [
 {
@@ -301,30 +294,5 @@
 }
 ],
 "portal_errors": {},
-"places_history": [
-[
-"2026-10-13",
-"Rīgas Nacionālais zooloģiskais dārzs"
-],
-[
-"2026-10-13",
-"Latvijas Nacionālā bibliotēka, детский отдел"
-],
-[
-"2026-10-13",
-"Mežaparks, большая детская площадка"
-],
-[
-"2026-10-13",
-"Latvijas Dabas muzejs"
-],
-[
-"2026-10-13",
-"Mini zoo \"Brieži\""
-],
-[
-"2026-10-13",
-"Grīziņkalna parks"
-]
-]
+"places_history": []
 }
