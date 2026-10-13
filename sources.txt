@@ -2,10 +2,19 @@
 #   page <ссылка>          — сайт с афишей, ИИ читает текст страницы
 #   news lv <запрос>       — поиск в Google News на латышском за последние 7 дней
 #   news ru <запрос>       — поиск в Google News на русском
+#   events <запрос>        — поиск в Google Events (нужен ключ OPENWEBNINJA_API_KEY;
+#                            1 строка = 1 запрос в неделю, бесплатно 50 запросов в месяц)
 #   follow <раздел> <часть ссылки> <N> — открыть раздел сайта и прочитать целиком
 #                            N свежих статей, чьи ссылки содержат указанную часть
 #                            (статьи старше 3 недель пропускаются)
 # Можно использовать OR и кавычки, как в Google.
+
+# --- Google Events (сайты, билетные системы, публичные события Facebook) ---
+events events in Riga
+events family events Riga
+events kids events Latvia
+events festivals Latvia
+events events in Jurmala
 
 # --- Разделы с анонсами: бот читает свежие статьи целиком ---
 follow https://www.lsm.lv/vecaki-un-berni/kultura-berniem/ /raksts/vecaki-un-berni/kultura-berniem/ 10
