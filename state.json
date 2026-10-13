@@ -1,15 +1,21 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.20598290000000002,
-"calls": 55
+"cost": 0.23867000000000002,
+"calls": 65
 },
-"last_digest": "",
-"shown_ongoing": [],
-"last_places": [],
+"last_digest": "2026-10-13",
+"shown_ongoing": [
+"2dd95b7626d11a6c"
+],
+"last_places": [
+"Rīgas Nacionālais zooloģiskais dārzs",
+"Latvijas Dabas muzejs",
+"Līvu akvaparks"
+],
 "events_api": {
 "month": "2026-10",
-"count": 10
+"count": 15
 },
 "portal_queue": [
 {
@@ -203,6 +209,86 @@
 "pub": "2026-10-08",
 "source": "bb.lv",
 "score": 5
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/12.10.2026-zemessargi-vsyu-etu-nedelyu-budut-otrabatyvat-navyki-v-grazdanskoi-srede.a667216/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Земессарги всю эту неделю будут отрабатывать навыки в гражданской среде",
+"summary": "До воскресенья, 18 октября, в Риге, Юрмале, а также в краях Кекава и Олайне пройдут запланированные учения 17-го батальона боевой поддержки 1-й Рижской бригады Земессардзе. В ходе учений земессарги и военнослужащие будут совершенствовать навыки обороны и укрепления всеобъемлющей устойчивости государ",
+"pub": "2026-10-12",
+"source": "rus.lsm.lv",
+"score": 3
+},
+{
+"link": "https://www.delfi.lv/52983255/spried-ar-delfi/120138303/kada-nakotne-sagaida-partijas-ar-vismazako-veletaju-atbalstu",
+"title": "Kāda nākotne sagaida partijas ar vismazāko vēlētāju atbalstu",
+"summary": "Aizvadītās 15. Saeimas vēlēšanas neveiksmīgas bija vairākām partijām, kurām savulaik uzticējās liela daļa Latvijas vēlētāju. Publiski jau tiek spriests par divu no tām – Jaunās konservatīvās partijas un sociāldemokrātiskās partijas \"Saskaņa\" – pašlikvidāciju. Kā politisko spēku vadība skaidro vēlēša",
+"pub": "2026-10-13",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120138298/shkolnye-stolovye-latvii-otkroyut-svoi-dveri-dlya-roditeley",
+"title": "ВИДЕО: школьные столовые Латвии откроют свои двери для родителей",
+"summary": "Уже третий год подряд компания Baltic Restaurants (работает под брендами Daily и Fristar) проводит дни открытых дверей в обслуживаемых ею школах по всей стране. Родители могут увидеть, как работают кухни и организован процесс питания, а также попробовать обеды, которые ежедневно получают их дети.",
+"pub": "2026-10-13",
+"source": "rus.delfi.lv",
+"score": 10
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/12/vsiu-etu-nedeliu-zemessargi-budut-otrabatyvat-navyki-v-gorode-v-grazdanskoi-odezde?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Всю эту неделю Земессарги будут отрабатывать навыки в городе в гражданской одежде",
+"summary": "До воскресенья, 18 октября, в Риге, Юрмале, а также в краях Кекава и Олайне пройдут запланированные учения 17-го батальона боевой поддержки 1-й Рижской бригады Земессардзе. В ходе учений земессарги и военнослужащие будут совершенствовать навыки обороны и укрепления всеобъемлющей устойчивости государ",
+"pub": "2026-10-12",
+"source": "bb.lv",
+"score": 3
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/11/rizanam-rasskazut-kak-polucit-sofinansirovanie-na-remont-domov-i-blagoustroistvo-territorii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Рижанам расскажут, как получить софинансирование на ремонт домов и благоустройство территорий",
+"summary": "В конце октября в Риге пройдут два информационных семинара, посвященных муниципальным программам софинансирования ремонта жилых домов и благоустройства прилегающих территорий, сообщили в Рижской думе.",
+"pub": "2026-10-11",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/11/besprosvetno-sinoptiki-vydali-prognoz-na-blizaisie-sutki?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Беспросветно - синоптики выдали прогноз на ближайшие сутки",
+"summary": "В ночь на понедельник и в первый день новой недели в Латвии будет преимущественно облачно, временами пройдут дожди, а местами образуется туман, прогнозирует Латвийский центр окружающей среды, геологии и метеорологии.",
+"pub": "2026-10-11",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/11/cto-zdat-ot-voskresenia-latviiskie-sinoptiki-dali-prognoz-pogody?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Что ждать от воскресенья? Латвийские синоптики дали прогноз погоды",
+"summary": "В воскресенье ожидается преимущественно облачная погода, во многих регионах пройдут дожди, прогнозирует Латвийский центр окружающей среды, геологии и метеорологии.",
+"pub": "2026-10-11",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/09/nespokoinaia-noc-vperedi-kogda-v-latvii-nacnet-stixat-stormovoi-veter?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Неспокойная ночь впереди: когда в Латвии начнёт стихать штормовой ветер?",
+"summary": "В пятницу вечером и в ночь на субботу ожидается сильный западный ветер, местами пройдут ливни. На западном побережье Курземе объявлено оранжевое предупреждение о шторме.",
+"pub": "2026-10-09",
+"source": "bb.lv",
+"score": 3
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/09/vudi-allen-vozvrashhaetsia-v-kino-madrid-vydelil-milliony-na-ego-novyi-film?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Вуди Аллен возвращается в кино: Мадрид выделил миллионы на его новый фильм",
+"summary": "90-летний Вуди Аллен представил в Мадриде свой новый фильм — 51-й в карьере режиссера. Съемки картины стартовали 5 октября и пройдут преимущественно в испанской столице и Аранхуэсе. На производство фильма власти выделят в общей сложности 3 млн евро.",
+"pub": "2026-10-09",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/par-indras-brikes-cinu-ar-slimibu-zinaja-tikai-tuvakie-liepajas-teatra-aktrise-atminas-pedejo-tiksanos",
+"title": "Par Indras Briķes cīņu ar slimību zināja tikai tuvākie… Liepājas teātra aktrise atminas pēdējo tikšanos",
+"summary": "Aizsaulē aizgājusī Dailes teātra aktrise Indra Briķe pēdējā laikā cīnījās ar smagu slimību, vēstīts žurnālā “Privātā Dzīve“. Lai gan viņas tuvākie cilvēki un kolēģi labi apzinājās nopietno veselības stāvokli, cerība par atgriešanos uz skatuves neizzuda ne mirkli – režisori joprojām loloja cerību viņ",
+"pub": "2026-10-13",
+"source": "la.lv",
+"score": 2
 }
 ],
 "portal_errors": {}
