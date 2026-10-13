@@ -42,6 +42,7 @@ follow https://sejas.tvnet.lv/section/4224/kulturas-un-izklaides-notikumi tvnet.
 # --- Агрегаторы афиш (проверено 13.10.2026: события с датами видны) ---
 page https://www.kaskurkad.lv/bernu-pasakumi/visur/jebkad
 page https://www.kaskurkad.lv/viss/riga/jebkad
+page https://www.kaskurkad.lv/viss/riga/jebkad/bezmaksas
 page https://kultura.riga.lv/
 
 # --- Сайты с афишами ---
@@ -51,6 +52,9 @@ page https://rigazoo.lv/jaunumi/
 # не читается роботом (13.10.2026): page https://www.latvia.travel/lv/pasakumi
 page https://www.visitjurmala.lv/lv/pasakumi/
 page https://www.lelluteatris.lv/lv/repertuars
+page https://cirks.lv/kalendars/
+# гастрольный кукольный театр «Teātris un ES»: спектакли 2+ по всей Латвии, в Риге — в кинотеатре K.SUNS
+page https://izradesberniem.lv/
 # список строится скриптом, роботу пуст (13.10.2026): page https://www.rcb.lv/events/category/pasakumi-berniem/
 page https://www.lebm.gov.lv/lv
 page https://www.dabasmuzejs.gov.lv/
@@ -66,7 +70,12 @@ page https://www.cesupils.lv/
 page https://kalendars.kuldigasnovads.lv/
 page https://www.visittukums.lv/lv/Pasakumi
 
+# --- Клубы мам: расписание встреч и занятий (проверено 14.10.2026) ---
+page https://maminuklubs.lv/vecaku-skola/
+page https://maminklub.lv/
+
 # --- Торговые центры: страницы событий ---
+page https://www.rigaplaza.lv/notikumi
 page https://akropoleriga.lv/pasakumi/
 page https://akropolealfa.lv/pasakumi/
 page https://www.origo.lv/events/
@@ -93,8 +102,11 @@ news lv Meteņi OR Masļeņica OR Mārtiņdiena OR Miķeļdiena OR Lieldienas sv
 news lv izstāde ģimenēm OR izstāde bērniem OR interaktīva izstāde
 news lv svētki brīvā dabā ģimenēm OR festivāls ģimenēm
 news lv tirdzniecības centrā bērniem OR "tirdzniecības centrs" ģimenes svētki
-news lv māmiņu klubs OR "mazuļu rīts" OR pasākums māmiņām OR "māmiņas un mazuļi"
+news lv māmiņu klubs OR "mazuļu rīts" OR pasākums māmiņām OR "māmiņas un mazuļi" OR "māmiņu brokastis"
 news lv nodarbības mazuļiem ar vecākiem OR "mazuļu joga" OR "mazuļu peldēšana"
+news lv cirks Rīgā OR cirka izrāde OR "cirka šovs" OR viesizrādes cirks
+news lv "ceļojošais cirks" OR "cirks Leo" OR "cirka telts" OR cirks atbrauc
+news lv "Kids Expo Riga" OR TrādiRīga OR "bērnu dienas festivāls" OR "ģimeņu festivāls" OR "Māmiņu kongress"
 news lv bērnu preču tirdziņš OR "bērnu mantu" maiņa
 news lv festivāls brīvdienās OR "gaismas festivāls" OR "ēdienu festivāls" OR gastronomijas festivāls
 news lv "atvērto durvju diena" OR "ģimeņu diena" muzejā OR zoodārzā
@@ -107,6 +119,8 @@ news ru куда пойти с детьми выходные Латвия
 news ru день города Латвия OR праздник города
 news ru Масленица Рига OR ярмарка Рига OR праздник в замке Латвия
 news ru выставка для детей Рига OR интерактивная выставка
+news ru цирк Рига OR цирковое шоу OR цирк гастроли Латвия
+news ru "цирк Лео" OR "передвижной цирк" OR шапито Латвия OR цирк приехал
 news ru торговый центр Рига детский праздник OR для детей
 news ru для мам с малышами Рига OR встреча мам OR мамский клуб
 news ru фестиваль выходные Латвия OR гастрономический фестиваль OR фестиваль света
