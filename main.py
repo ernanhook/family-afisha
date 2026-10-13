@@ -304,7 +304,7 @@ def google_events(queries, start, end, state, cfg):
     for q in queries:
         if used["count"] >= cfg["events_api_monthly_limit"]:
             print(f"[events] месячный лимит запросов исчерпан ({used['count']})")
-            DIAG["ai_errors"].append("лимит Google Events на месяц исчерпан")
+            DIAG.setdefault("other_errors", []).append("лимит Google Events на месяц исчерпан")
             break
         try:
             r = requests.get("https://api.openwebninja.com/realtime-events-data/search-events",
@@ -315,7 +315,7 @@ def google_events(queries, start, end, state, cfg):
             j = r.json()
         except Exception as e:
             print(f"[events] ошибка  {q}: {e}")
-            DIAG["ai_errors"].append(f"Google Events: {str(e)[:120]}")
+            DIAG.setdefault("other_errors", []).append(f"Google Events: {str(e)[:80]}")
             continue
         items = j.get("data", j) if isinstance(j, dict) else j
         items = items if isinstance(items, list) else []
@@ -562,7 +562,7 @@ def claude(prompt, state, cfg, max_tokens=8000):
         raise BudgetExceeded()
     headers = {"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
-    payload = {"model": cfg["model"], "max_tokens": max_tokens, "temperature": 0,
+    payload = {"model": cfg["model"], "max_tokens": max_tokens,
                "system": "Отвечай сразу JSON-массивом, без рассуждений, пояснений и markdown. "
                          "Текстовые поля about, summary и why пиши по-русски.",
                "messages": [{"role": "user", "content": prompt}]}
@@ -583,6 +583,9 @@ def claude(prompt, state, cfg, max_tokens=8000):
                 msg = r.json().get("error", {}).get("message", "")
             except Exception:
                 msg = r.text[:200]
+            if r.status_code == 400 and "system" in payload and "system" in msg.lower():
+                payload.pop("system")              # запасной вариант: без системной инструкции
+                continue
             err = f"Claude {r.status_code}: {msg[:200]}"
             print("Ошибка ИИ:", err)
             DIAG["ai_errors"].append(err)
@@ -871,7 +874,9 @@ def run_digest(state, cfg, today):
         if failed:
             diag += "\nНе прочитаны: " + ", ".join(failed)
         if DIAG["ai_errors"]:
-            diag += "\nОшибка ИИ: " + DIAG["ai_errors"][0]
+            diag += "\nОшибка ИИ: " + "; ".join(dict.fromkeys(DIAG["ai_errors"]))[:400]
+        if DIAG.get("other_errors"):
+            diag += "\nДругие ошибки: " + "; ".join(dict.fromkeys(DIAG["other_errors"]))[:300]
         blocks.append(f"{SEP}\n<i>{esc(diag)}</i>")
     blocks.append("<i>Перед поездкой проверьте время и билеты на сайте.</i>")
     tg_blocks(blocks)
