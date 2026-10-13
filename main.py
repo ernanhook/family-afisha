@@ -349,14 +349,23 @@ def google_events(queries, start, end, state, cfg):
 # Ленты крупных порталов хранят лишь последние 30–60 новостей (меньше суток),
 # поэтому бот каждый час тихо собирает подходящие заметки в очередь, а в день
 # сводки читает их целиком и отдаёт ИИ.
+# Сильные признаки события: без хотя бы одного такого слова заметка не берётся
 EVENT_WORDS = re.compile(
-    r"pasākum|svētk|svētki|festivāl|tirdziņ|gadatirg|izstād|izrād|darbnīc|koncert|"
-    r"aicina|atvērto durvju|ģimeņu dien|ģimenes dien|brīvdien|nedēļas nogal|"
-    r"мероприят|праздн|фестивал|ярмарк|выставк|спектакл|мастер-класс|приглаша|"
-    r"день открытых|выходны", re.I)
+    r"pasākum|svētk|festivāl|tirdziņ|gadatirg|izstād|izrād[eēi]|darbnīc|koncert|"
+    r"atvērto durvju|ģimeņu dien|ģimenes dien|notiks|norisināsies|"
+    r"мероприят|праздн|фестивал|ярмарк|выставк|спектакл|мастер-класс|день открытых|дни открытых|"
+    r"пройд[уеё]т|состоится|откроется",
+    re.I)
+# Слабые признаки: только повышают приоритет
+WEAK_WORDS = re.compile(r"aicina|brīvdien|nedēļas nogal|sestdien|svētdien|приглаша|выходны|суббот|воскресен",
+                        re.I)
 FAMILY_WORDS = re.compile(
     r"bērn|ģimen|mazuļ|mazie|vecāk|zoodārz|muzej|pil[sī]|muiž|leļļ|"
     r"дет|семь|семей|малыш|родител|зоопарк|музе|замк|кукол", re.I)
+# Разделы порталов, где анонсов семейных событий не бывает
+SKIP_URL = re.compile(r"arzemes|sport|criminal|kriminal|politik|v-mire|/world|ekonomik|biznes|"
+                      r"zinas/latvija/.*(policij|tiesa)|testi|horoskop|recept|eda-i-recepty|ljublju|"
+                      r"komercparraides|zvaigznes|slavenib", re.I)
 PORTAL_QUEUE_DAYS = 21
 PORTAL_READ_MAX = 40
 
@@ -386,13 +395,14 @@ def collect_portals(state):
             text = f"{title} {summary}"
             ev_hits = len(EVENT_WORDS.findall(text))
             fam_hits = len(FAMILY_WORDS.findall(text))
+            weak = len(WEAK_WORDS.findall(text))
             link = e.get("link", "")
-            if not ev_hits or not link or link in known:
+            if not ev_hits or not link or link in known or SKIP_URL.search(link):
                 continue
             pub = time.strftime("%Y-%m-%d", e.published_parsed) if e.get("published_parsed") \
                 else dt.date.today().isoformat()
             q.append({"link": link, "title": title, "summary": " ".join(summary.split())[:300],
-                      "pub": pub, "source": host, "score": ev_hits * 2 + fam_hits})
+                      "pub": pub, "source": host, "score": ev_hits * 2 + fam_hits * 2 + weak})
             known.add(link)
             n += 1
         added += n
