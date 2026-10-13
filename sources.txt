@@ -2,12 +2,28 @@
 #   page <ссылка>          — сайт с афишей, ИИ читает текст страницы
 #   news lv <запрос>       — поиск в Google News на латышском за последние 7 дней
 #   news ru <запрос>       — поиск в Google News на русском
+#   portal <RSS-лента>     — новостной портал: бот каждый час собирает заметки
+#                            об event-ах и в день сводки читает лучшие целиком
 #   events <запрос>        — поиск в Google Events (нужен ключ OPENWEBNINJA_API_KEY;
 #                            1 строка = 1 запрос в неделю, бесплатно 50 запросов в месяц)
 #   follow <раздел> <часть ссылки> <N> — открыть раздел сайта и прочитать целиком
 #                            N свежих статей, чьи ссылки содержат указанную часть
 #                            (статьи старше 3 недель пропускаются)
 # Можно использовать OR и кавычки, как в Google.
+
+# --- Крупные новостные порталы (латышский и русский) ---
+portal https://www.lsm.lv/rss/
+portal https://rus.lsm.lv/rss/
+portal https://jauns.lv/rss
+portal https://rus.jauns.lv/rss
+portal https://www.tvnet.lv/rss
+portal https://rus.tvnet.lv/rss
+portal https://www.delfi.lv/rss/index.xml
+portal https://rus.delfi.lv/rss/index.xml
+portal https://www.apollo.lv/rss
+portal https://bb.lv/rss
+portal https://www.la.lv/feed
+portal https://nra.lv/rss
 
 # --- Google Events (сайты, билетные системы, публичные события Facebook) ---
 events events in Riga
