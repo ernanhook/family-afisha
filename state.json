@@ -1,21 +1,22 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.23867000000000002,
-"calls": 65
+"cost": 0.2725347,
+"calls": 75
 },
 "last_digest": "2026-10-13",
 "shown_ongoing": [
-"2dd95b7626d11a6c"
+"2dd95b7626d11a6c",
+"21a681a294018514"
 ],
 "last_places": [
 "Rīgas Nacionālais zooloģiskais dārzs",
-"Latvijas Dabas muzejs",
-"Līvu akvaparks"
+"Latvijas Nacionālā bibliotēka, детский отдел",
+"Mežaparks, большая детская площадка"
 ],
 "events_api": {
 "month": "2026-10",
-"count": 15
+"count": 21
 },
 "portal_queue": [
 {
@@ -289,7 +290,29 @@
 "pub": "2026-10-13",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/izklaide/13.10.2026-no-dziesmu-svetku-asaram-lidz-labrit-apkopejai-aktieris-andris-bulis-par-latviju-un-milestibu-ikdiena.a667178/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "No Dziesmu svētku asarām līdz «labrīt» apkopējai: Aktieris Andris Bulis par Latviju un mīlestību ikdienā",
+"summary": "Līdz patriotiskajai nedēļai, kad Latvija svin republikas proklamēšanas gadadienu un latvieši apliecina mīlestību savai zemei, vēl tikai mēnesis. Taču nav jāgaida novembris, lai teiktu: \"Es mīlu Tevi, Latvija!\" Jau 25. oktobrī LTV ēterā sāksies šovs \"Es mīlu Tevi, Latvija!\". Tajā divas sabiedrībā paz",
+"pub": "2026-10-13",
+"source": "lsm.lv",
+"score": 4
 }
 ],
-"portal_errors": {}
+"portal_errors": {},
+"places_history": [
+[
+"2026-10-13",
+"Rīgas Nacionālais zooloģiskais dārzs"
+],
+[
+"2026-10-13",
+"Latvijas Nacionālā bibliotēka, детский отдел"
+],
+[
+"2026-10-13",
+"Mežaparks, большая детская площадка"
+]
+]
 }
