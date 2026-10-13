@@ -1,19 +1,20 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.4123951999999999,
-"calls": 117
+"cost": 0.44894459999999997,
+"calls": 128
 },
 "last_digest": "2026-10-13",
 "shown_ongoing": {
 "ab6c0aa419fad978": "2026-10-14",
 "2dd95b7626d11a6c": "2026-10-14",
-"1e3434964b8e2ee3": "2026-10-14"
+"1e3434964b8e2ee3": "2026-10-14",
+"639d35dd089c202b": "2026-10-14"
 },
 "last_places": [
 "Rīgas Nacionālais zooloģiskais dārzs",
-"Mežaparks, большая детская площадка",
-"Latvijas Nacionālā bibliotēka, детский отдел"
+"Latvijas Nacionālā bibliotēka, детский отдел",
+"LU Botāniskais dārzs"
 ],
 "events_api": {
 "month": "2026-10",
@@ -339,6 +340,14 @@
 "pub": "2026-10-13",
 "source": "rus.lsm.lv",
 "score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/13.10.2026-otzyv-o-restorane-ostavlyaet-sled-korotkometraznyi-film-spasibo-za-vas-otzyv-vpervye-pokazut-v-talline.a667409/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Отзыв о ресторане оставляет след. Короткометражный фильм «Спасибо за ваш отзыв» впервые покажут в Таллине",
+"summary": "Игровой короткометражный фильм «Спасибо за ваш отзыв» режиссеров Ливы Полкмане и Марты Шлеиере вошел в международный конкурс короткометражных фильмов Таллинского кинофестиваля «Темные ночи» (PÖFF). Это единственная картина из Латвии, отобранная для участия в конкурсе.",
+"pub": "2026-10-13",
+"source": "rus.lsm.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
@@ -349,11 +358,11 @@
 ],
 [
 "2026-10-13",
-"Mežaparks, большая детская площадка"
+"Latvijas Nacionālā bibliotēka, детский отдел"
 ],
 [
 "2026-10-13",
-"Latvijas Nacionālā bibliotēka, детский отдел"
+"LU Botāniskais dārzs"
 ]
 ]
 }
