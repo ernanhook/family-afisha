@@ -23,7 +23,7 @@ portal https://rus.delfi.lv/rss/index.xml
 portal https://www.apollo.lv/rss
 portal https://bb.lv/rss
 portal https://www.la.lv/feed
-portal https://nra.lv/rss
+# не открывается (404, 13.10.2026): portal https://nra.lv/rss
 
 # --- Google Events (сайты, билетные системы, публичные события Facebook) ---
 events events in Riga
