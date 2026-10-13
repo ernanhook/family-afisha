@@ -73,14 +73,15 @@ def load_settings():
                 "weather_lat": "56.95", "weather_lon": "24.11", "weather_name": "Рига",
                 "places_count": "3", "holidays_ahead_days": "21",
                 "monthly_budget_usd": "0.90", "model": "claude-haiku-5-5",
-                "show_diagnostics": "auto", "events_api_monthly_limit": "45"}
+                "show_diagnostics": "auto", "events_api_monthly_limit": "45",
+                "places_repeat_days": "28"}
     for k, v in defaults.items():
         s.setdefault(k, v)
     aliases = {"пн": 0, "по": 0, "вт": 1, "ср": 2, "чт": 3, "че": 3, "пт": 4, "пя": 4,
                "сб": 5, "су": 5, "вс": 6, "во": 6}
     s["digest_weekday"] = aliases.get(s["digest_day"].lower()[:2], 3)
     for k in ("digest_hour", "days_ahead", "latest_start_hour", "places_count",
-              "holidays_ahead_days", "events_api_monthly_limit"):
+              "holidays_ahead_days", "events_api_monthly_limit", "places_repeat_days"):
         s[k] = int(s[k])
     for k in ("weather_lat", "weather_lon", "monthly_budget_usd"):
         s[k] = float(s[k].replace(",", "."))
@@ -524,7 +525,7 @@ PLACES_PROMPT = """Кто идёт: {family}, {child}. Живут: {home}. Пр�
 
 Из списка постоянных мест ниже выбери {n}, куда лучше всего сходить в эти выходные
 с учётом погоды (дождь/холод — крытые места, хорошая погода — улица) и разнообразия.
-Не предлагай места, которые были на прошлой неделе: {last}.
+Места, которые недавно предлагались, уже убраны из списка — выбирай из оставшихся.
 
 Ответь ТОЛЬКО JSON-массивом:
 [{{"name": "название как в списке", "why": "почему сейчас, 5–12 слов по-русски"}}]
@@ -802,7 +803,16 @@ def run_digest(state, cfg, today):
     other = sorted([e for e in events if not e.get("free") and not on_weekend(e)], key=order)
 
     places = []
-    places_list = text_of("places.txt")
+    # Места, которые уже предлагались за последние places_repeat_days, исключаются
+    hist = state.setdefault("places_history", [])
+    cutoff = (today - dt.timedelta(days=cfg["places_repeat_days"])).isoformat()
+    hist[:] = [h for h in hist if h[0] >= cutoff]
+    recent = {h[1].lower() for h in hist}
+    all_places = lines_of("places.txt")
+    fresh = [l for l in all_places if l.split("|")[0].strip().lower() not in recent]
+    if len(fresh) < cfg["places_count"]:          # список исчерпан — начинаем круг заново
+        fresh, hist[:] = all_places, []
+    places_list = "\n".join(fresh)
     if places_list and cfg["places_count"] > 0:
         try:
             places = claude(PLACES_PROMPT.format(
@@ -814,6 +824,7 @@ def run_digest(state, cfg, today):
         except Exception as e:
             print("Места:", e)
     state["last_places"] = [p.get("name", "") for p in places]
+    hist += [[today.isoformat(), p.get("name", "")] for p in places if p.get("name")]
 
     # Каждый элемент blocks — отдельный абзац; между ними пустая строка
     blocks = [f"👶 <b>АФИША ДЛЯ МАЛЫША</b>\n{nice_range(start, end)}"]
