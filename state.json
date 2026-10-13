@@ -1,20 +1,23 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.45942310000000003,
-"calls": 134
+"cost": 0.5061571000000001,
+"calls": 155
 },
 "last_digest": "2026-10-13",
 "shown_ongoing": {
 "ab6c0aa419fad978": "2026-10-14",
 "2dd95b7626d11a6c": "2026-10-14",
 "1e3434964b8e2ee3": "2026-10-14",
-"639d35dd089c202b": "2026-10-14"
+"639d35dd089c202b": "2026-10-14",
+"4220471cd8797676": "2026-10-14",
+"e87d5cf4f058cb96": "2026-10-14",
+"1a98683677a09ccb": "2026-10-14"
 },
 "last_places": [
 "Rīgas Nacionālais zooloģiskais dārzs",
-"Mežaparks, большая детская площадка",
-"Latvijas Nacionālā bibliotēka, детский отдел"
+"Latvijas Nacionālā bibliotēka, детский отдел",
+"Mežaparks, большая детская площадка"
 ],
 "events_api": {
 "month": "2026-10",
@@ -348,6 +351,14 @@
 "pub": "2026-10-13",
 "source": "rus.lsm.lv",
 "score": 2
+},
+{
+"link": "https://www.la.lv/video-dirigents-guido-dieterens-riga-savedis-kopa-vivaldi-un-avicii-latvija-pirmo-reizi-ierodas-the-european-pop-orchestra",
+"title": "VIDEO. Diriģents Guido Dieterens Rīgā savedīs kopā Vivaldi un Avicii: Latvijā pirmo reizi ierodas “The European Pop Orchestra”",
+"summary": "20. decembrī “Xiaomi Arena” Rīgā Guido Dieterens, soprāns Wendy Kokkelkoren un “The European Pop Orchestra” rādīs Ziemassvētku šovu, kurā klasika sastop popmūziku, teātri un humoru. Kas notiek, ja klasiskā orķestra diriģents nolemj, ka uz skatuves ir par daudz nopietnības? Ja Vivaldi var sastapt Avi",
+"pub": "2026-10-13",
+"source": "la.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
@@ -358,11 +369,11 @@
 ],
 [
 "2026-10-13",
-"Mežaparks, большая детская площадка"
+"Latvijas Nacionālā bibliotēka, детский отдел"
 ],
 [
 "2026-10-13",
-"Latvijas Nacionālā bibliotēka, детский отдел"
+"Mežaparks, большая детская площадка"
 ]
 ]
 }
