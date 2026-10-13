@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: digest
@@ -38,4 +39,11 @@ jobs:
           git config user.email "actions@github.com"
           git add state.json
           git diff --cached --quiet || git commit -m "update state"
+          git pull --rebase -X theirs || true   # если вы правили файлы во время запуска
           git push
+      # не даёт GitHub отключить расписание после 60 дней без коммитов (через API, без лишних коммитов)
+      - name: Keepalive
+        if: always()
+        uses: gautamkrishnar/keepalive-workflow@v1
+        with:
+          use_api: true
