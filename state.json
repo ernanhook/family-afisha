@@ -1,15 +1,21 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.3064952000000001,
-"calls": 85
+"cost": 0.3407967,
+"calls": 95
 },
 "last_digest": "2026-10-13",
-"shown_ongoing": {},
-"last_places": [],
+"shown_ongoing": {
+"ab6c0aa419fad978": "2026-10-14"
+},
+"last_places": [
+"Rīgas Nacionālais zooloģiskais dārzs",
+"Latvijas Nacionālā bibliotēka, детский отдел",
+"Grīziņkalna parks"
+],
 "events_api": {
 "month": "2026-10",
-"count": 33
+"count": 39
 },
 "portal_queue": [
 {
@@ -291,8 +297,45 @@
 "pub": "2026-10-13",
 "source": "lsm.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/13.10.2026-nospiedums-restorana-vertejuma-isfilma-paldies-par-jusu-atsauksmi-piedzivos-pirmizradi-tallina.a667393/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Nospiedums restorāna vērtējumā. Īsfilma «Paldies par Jūsu atsauksmi» piedzīvos pirmizrādi Tallinā",
+"summary": "Režisoru Līvas Polkmanes un Martas Šleieres spēles īsfilma \"Paldies par Jūsu atsauksmi\" iekļauta Tallinas kinofestivāla \"Melnās naktis\" (PÖFF) īsfilmu sadaļas starptautiskajā konkursā kā vienīgā no Latvijas izvēlētā filma. Pasaules pirmizrāde notiks 10. novembrī pulksten 19.30, piedaloties komandas ",
+"pub": "2026-10-13",
+"source": "lsm.lv",
+"score": 8
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/13.10.2026-sataustit-otra-dejotaja-kustibu-vajredziga-lolita-korjapina-par-dejosanu-un-uzticibu-pavadonei-zuzei.a666557/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Sataustīt otra dejotāja kustību. Vājredzīgā Lolita Korjapina par dejošanu un uzticību pavadonei Zuzei",
+"summary": "Lolitai Korjapinai dzīvē netrūkst darāmā. Jau vairākus gadus viņa dejo Strazdumuižas kluba deju kolektīvā \"Trakie strazdi\", bet, vadot Latvijas Neredzīgo biedrības Rīgas teritoriālo organizāciju, rūpējas arī par biedrības pasākumu organizēšanu – no svētku reizēm līdz koncertiem un ballēm. Visas saru",
+"pub": "2026-10-13",
+"source": "lsm.lv",
+"score": 8
+},
+{
+"link": "https://www.delfi.lv/193/politics/120138353/ministrijam-uzdod-lidz-gada-beigam-taupit-naudu-algas-neskars",
+"title": "Ministrijām uzdod līdz gada beigām taupīt naudu; algas neskars",
+"summary": "Ministru kabinets otrdien, 13. oktobrī, atbalstīja Finanšu ministrijas (FM) priekšlikumu uzdot Valsts kancelejai, ministrijām un citām centrālām valsts iestādēm līdz šā gada beigām ierobežot jaunu līgumu slēgšanu par preču piegādi un pakalpojumu sniegšanu, tai skaitā par konsultācijām, pētījumiem un",
+"pub": "2026-10-13",
+"source": "delfi.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
-"places_history": []
+"places_history": [
+[
+"2026-10-13",
+"Rīgas Nacionālais zooloģiskais dārzs"
+],
+[
+"2026-10-13",
+"Latvijas Nacionālā bibliotēka, детский отдел"
+],
+[
+"2026-10-13",
+"Grīziņkalna parks"
+]
+]
 }
