@@ -33,6 +33,8 @@ PRICE_IN, PRICE_OUT = 0.10 / 1e6, 0.50 / 1e6   # Claude Haiku 5.5, $ за ток
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) LatviaFamilyEvents/2.0"}
 WD = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"]
 WD_KEYS = ["пн", "вт", "ср", "чт", "пт", "сб", "вс"]
+WD_FULL_NOM = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота",
+               "Воскресенье"]
 WD_FULL = ["понедельник", "вторник", "среду", "четверг", "пятницу", "субботу", "воскресенье"]
 MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа",
           "сентября", "октября", "ноября", "декабря"]
@@ -86,20 +88,22 @@ def load_settings():
 
 
 def load_sources():
-    pages, news, follows, events_q = [], [], [], []
+    pages, news, follows, events_q, portals = [], [], [], [], []
     for l in lines_of("sources.txt"):
         parts = l.split(None, 2)
         if parts[0] == "page" and len(parts) >= 2:
             pages.append(parts[1])
         elif parts[0] == "news" and len(parts) == 3:
             news.append((parts[1].lower(), parts[2]))
+        elif parts[0] == "portal" and len(parts) >= 2:
+            portals.append(parts[1])
         elif parts[0] == "events" and len(parts) >= 2:
             events_q.append(l.split(None, 1)[1].strip())
         elif parts[0] == "follow" and len(parts) >= 2:
             rest = l.split()[1:]          # follow <страница> <часть ссылки> <сколько>
             follows.append((rest[0], rest[1] if len(rest) > 1 else "",
                             int(rest[2]) if len(rest) > 2 and rest[2].isdigit() else 8))
-    return pages, news, follows, events_q
+    return pages, news, follows, events_q, portals
 
 
 def gnews_url(lang, q):
@@ -169,6 +173,17 @@ def tg(text):
         time.sleep(1)
     except Exception as e:
         print("Telegram error:", e)
+
+
+def tg_blocks(blocks):
+    chunk = ""
+    for b in blocks:
+        if chunk and len(chunk) + len(b) + 2 > 3800:
+            tg(chunk)
+            chunk = ""
+        chunk += ("\n\n" if chunk else "") + b
+    if chunk.strip():
+        tg(chunk)
 
 
 def tg_long(lines):
@@ -330,11 +345,82 @@ def google_events(queries, start, end, state, cfg):
     return out
 
 
+# ================= Новостные порталы =================
+# Ленты крупных порталов хранят лишь последние 30–60 новостей (меньше суток),
+# поэтому бот каждый час тихо собирает подходящие заметки в очередь, а в день
+# сводки читает их целиком и отдаёт ИИ.
+EVENT_WORDS = re.compile(
+    r"pasākum|svētk|svētki|festivāl|tirdziņ|gadatirg|izstād|izrād|darbnīc|koncert|"
+    r"aicina|atvērto durvju|ģimeņu dien|ģimenes dien|brīvdien|nedēļas nogal|"
+    r"мероприят|праздн|фестивал|ярмарк|выставк|спектакл|мастер-класс|приглаша|"
+    r"день открытых|выходны", re.I)
+FAMILY_WORDS = re.compile(
+    r"bērn|ģimen|mazuļ|mazie|vecāk|zoodārz|muzej|pil[sī]|muiž|leļļ|"
+    r"дет|семь|семей|малыш|родител|зоопарк|музе|замк|кукол", re.I)
+PORTAL_QUEUE_DAYS = 21
+PORTAL_READ_MAX = 40
+
+
+def collect_portals(state):
+    _, _, _, _, portals = load_sources()
+    if not portals:
+        return
+    q = state.setdefault("portal_queue", [])
+    known = {x["link"] for x in q}
+    added = 0
+    for url in portals:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            feed = feedparser.parse(r.content)
+        except Exception as e:
+            print(f"[portal] ошибка  {url}: {e}")
+            state.setdefault("portal_errors", {})[url] = str(e)[:100]
+            continue
+        state.setdefault("portal_errors", {}).pop(url, None)
+        host = urllib.parse.urlparse(url).netloc.replace("www.", "")
+        n = 0
+        for e in feed.entries:
+            title = " ".join(e.get("title", "").split())
+            summary = BeautifulSoup(e.get("summary", ""), "html.parser").get_text(" ")
+            text = f"{title} {summary}"
+            ev_hits = len(EVENT_WORDS.findall(text))
+            fam_hits = len(FAMILY_WORDS.findall(text))
+            link = e.get("link", "")
+            if not ev_hits or not link or link in known:
+                continue
+            pub = time.strftime("%Y-%m-%d", e.published_parsed) if e.get("published_parsed") \
+                else dt.date.today().isoformat()
+            q.append({"link": link, "title": title, "summary": " ".join(summary.split())[:300],
+                      "pub": pub, "source": host, "score": ev_hits * 2 + fam_hits})
+            known.add(link)
+            n += 1
+        added += n
+        print(f"[portal] {len(feed.entries):3d} новостей, в очередь {n:2d}  {host}")
+    cutoff = (dt.date.today() - dt.timedelta(days=PORTAL_QUEUE_DAYS)).isoformat()
+    state["portal_queue"] = [x for x in q if x["pub"] >= cutoff][-600:]
+    print(f"[portal] в очереди {len(state['portal_queue'])} заметок (+{added})")
+
+
+def portal_sources(state):
+    """В день сводки: самые подходящие заметки из очереди, прочитанные целиком."""
+    q = sorted(state.get("portal_queue", []), key=lambda x: (x["score"], x["pub"]), reverse=True)
+    out = []
+    for item in q[:PORTAL_READ_MAX]:
+        text = article_text(item["link"]) or f"{item['title']}. {item['summary']}"
+        out.append({"name": item["source"], "link": item["link"],
+                    "text": f"[опубликовано {item['pub']}] {item['title']}. {text}"})
+    DIAG["portal"] = len(out)
+    DIAG["portal_errors"] = list(state.get("portal_errors", {}))
+    return out
+
+
 def collect_sources(state=None, cfg=None, start=None, end=None):
-    pages, news_queries, follows, events_q = load_sources()
+    pages, news_queries, follows, events_q, _ = load_sources()
     sources = recurring_source()
     if state is not None:
         sources += google_events(events_q, start, end, state, cfg)
+        sources += portal_sources(state)
     seen_urls = set()
     for listing, pattern, max_n in follows:
         DIAG["pages_total"] += 1
@@ -373,7 +459,10 @@ def collect_sources(state=None, cfg=None, start=None, end=None):
             pub = ""
             if e.get("published_parsed"):
                 pub = time.strftime("%Y-%m-%d", e.published_parsed)
-            sources.append({"name": "новости", "link": e.get("link", ""),
+            src_name = (e.get("source") or {}).get("title") if isinstance(e.get("source"), dict) else ""
+            if not src_name and " - " in title:
+                src_name = title.rsplit(" - ", 1)[1]
+            sources.append({"name": (src_name or "новости")[:40], "link": e.get("link", ""),
                             "text": (f"[опубликовано {pub}] " if pub else "")
                                     + f"{title}. {summary[:400]}"})
     return sources
@@ -394,10 +483,13 @@ EVENTS_PROMPT = """Ты помогаешь семье найти, куда сх�
 Ниже пронумерованные источники: тексты страниц с афишами и новости.
 Найди ВСЕ подходящие мероприятия. Ответь ТОЛЬКО JSON-массивом (пустой [] если ничего нет):
 [{{"n": номер_источника, "cat": "код категории",
-   "title": "название как в источнике", "about": "что это, 3–8 слов по-русски",
+   "title": "короткое название самого события (до 8 слов), без названия города в конце, без
+             хвостов заголовка новости вроде «aicina uz…» или «- Jelgava»",
+   "about": "что это, 3–8 слов по-русски",
    "summary": "аннотация: 1–2 коротких предложения по-русски — о чём мероприятие и что там
                будет (сюжет, программа, длительность); только факты из источника, ничего не
-               придумывай; если подробностей нет — ''",
+               придумывай; если подробностей нет — ''; не пиши, чего в источнике нет
+               (никаких «время не указано»)",
    "date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD или ''", "time": "HH:MM или ''",
    "city": "город", "venue": "место или ''", "age": "возраст, если указан, иначе ''",
    "price": "цена, если указана, иначе ''", "free": true/false,
@@ -406,6 +498,8 @@ EVENTS_PROMPT = """Ты помогаешь семье найти, куда сх�
    "link": "прямая ссылка на событие, если видна в тексте, иначе ''"}}]
 Только события, у которых есть хотя бы один день в периоде {start} — {end}.
 Не выдумывай даты: если даты нет в источнике — не включай событие.
+Не включай общие анонсы программ и недель («неделя культуры», «месяц …») без конкретного
+события с местом и датой; если в таком анонсе описаны конкретные события — включай их по отдельности.
 Относительные даты («šo sestdien», «nākamajā svētdienā», «nedēļas nogalē», «в эту субботу»,
 «rīt») вычисляй от даты публикации источника, указанной как [опубликовано ГГГГ-ММ-ДД].
 Регулярные события («katru sestdienu», «каждую субботу») включай на ближайшие даты в периоде.
@@ -619,26 +713,37 @@ def upcoming_holidays(today, days):
 
 
 # ================= Сводка =================
+SEP = "━━━━━━━━━━━━━━━"
+
+
 def fmt_event(ev, emoji):
+    """Одно событие = отдельный блок из нескольких коротких строк."""
     d1, d2 = ev["_d1"], ev["_d2"]
-    when = f"{WD[d1.weekday()]} {d1:%d.%m}" if d2 == d1 else f"{d1:%d.%m}–{d2:%d.%m}"
+    if d2 == d1:
+        when = f"{WD_FULL_NOM[d1.weekday()]}, {d1.day} {MONTHS[d1.month - 1]}"
+    else:
+        when = f"{d1.day} {MONTHS[d1.month - 1]} – {d2.day} {MONTHS[d2.month - 1]}"
     if ev.get("time"):
         when += f", {esc(ev['time'])}"
-    line = f"{emoji.get(ev.get('cat'), '•')} {when} — <b>{esc(ev.get('title'))}</b>"
+    out = [f"{emoji.get(ev.get('cat'), '•')} <b>{esc(ev.get('title'))}</b>"]
     if ev.get("about"):
-        line += f" ({esc(ev['about'])})"
-    if ev.get("summary"):
-        line += f"\n   <i>{esc(ev['summary'])}</i>"
+        out.append(f"<i>{esc(ev['about'])}</i>")
+    out.append(f"📅 {when}")
     place = esc(ev.get("city"))
     if ev.get("venue"):
-        place += ", " + esc(ev["venue"])
-    details = [place, esc(ev.get("age"))]
-    details.append("бесплатно" if ev.get("free") else esc(ev.get("price")))
+        place = esc(ev["venue"]) + (", " + place if place else "")
+    if place:
+        out.append(f"📍 {place}")
+    money = "бесплатно" if ev.get("free") else esc(ev.get("price"))
+    extra = " · ".join(x for x in [f"💶 {money}" if money else "",
+                                   f"👶 {esc(ev['age'])}" if ev.get("age") else ""] if x)
+    if extra:
+        out.append(extra)
+    if ev.get("summary"):
+        out.append(f"<blockquote>{esc(ev['summary'])}</blockquote>")
     if ev.get("link"):
-        details.append(f'<a href="{esc(ev["link"])}">{esc(ev["source"])}</a>')
-    else:
-        details.append(esc(ev["source"]))
-    return line + "\n   " + " · ".join(d for d in details if d)
+        out.append(f'🔗 <a href="{esc(ev["link"])}">{esc(ev["source"])}</a>')
+    return "\n".join(out)
 
 
 def dedupe(events, state):
@@ -699,24 +804,23 @@ def run_digest(state, cfg, today):
             print("Места:", e)
     state["last_places"] = [p.get("name", "") for p in places]
 
-    lines = [f"👶 <b>Афиша для малыша</b>: {nice_range(start, end)}"]
+    # Каждый элемент blocks — отдельный абзац; между ними пустая строка
+    blocks = [f"👶 <b>АФИША ДЛЯ МАЛЫША</b>\n{nice_range(start, end)}"]
     if wx:
-        lines.append(f"\n🌦 <b>Погода на выходные</b> ({esc(cfg['weather_name'])})")
-        lines += wx
-    for title, group in ((f"🗓 <b>Выходные</b> ({sat:%d.%m}–{sun:%d.%m})", weekend),
-                         ("📅 <b>На неделе</b>", other), ("🆓 <b>Бесплатно</b>", free)):
+        blocks.append(f"🌦 <b>Погода на выходные</b> · {esc(cfg['weather_name'])}\n" + "\n".join(wx))
+    for title, group in ((f"🗓 <b>ВЫХОДНЫЕ</b> · {nice_range(sat, sun)}", weekend),
+                         ("📅 <b>НА НЕДЕЛЕ</b>", other), ("🆓 <b>БЕСПЛАТНО</b>", free)):
         if group:
-            lines.append("\n" + title)
-            lines += [fmt_event(e, emoji) for e in group]
+            blocks.append(f"{SEP}\n{title}")
+            blocks += [fmt_event(e, emoji) for e in group]
     if not events:
-        lines.append("\nНа этой неделе подходящих мероприятий не нашлось.")
+        blocks.append(f"{SEP}\nНа этой неделе подходящих мероприятий не нашлось.")
     soon = upcoming_holidays(today, cfg["holidays_ahead_days"]) if cfg["holidays_ahead_days"] else []
     if soon:
-        lines.append("\n📌 <b>Скоро</b>")
-        lines += soon
+        blocks.append(f"{SEP}\n📌 <b>СКОРО</b>\n" + "\n".join(soon))
     if places:
-        lines.append("\n🏠 <b>Куда ещё сходить</b>")
-        lines += [f"• <b>{esc(p.get('name'))}</b> — {esc(p.get('why'))}" for p in places]
+        blocks.append(f"{SEP}\n🏠 <b>КУДА ЕЩЁ СХОДИТЬ</b>\n" + "\n\n".join(
+            f"• <b>{esc(p.get('name'))}</b>\n{esc(p.get('why'))}" for p in places))
     mode = cfg["show_diagnostics"].lower()
     problems = mode == "always" or (mode != "never" and (
         DIAG["ai_errors"] or len(events) < 3 or DIAG["truncated"] or DIAG["pages_failed"]
@@ -724,18 +828,19 @@ def run_digest(state, cfg, today):
         or DIAG["pages_ok"] < DIAG["pages_total"] / 2))
     if problems:
         diag = (f"⚙️ Диагностика: сайтов прочитано {DIAG['pages_ok']} из {DIAG['pages_total']}, "
-                f"Google Events {DIAG.get('gevents', 0)}, статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
+                f"порталы {DIAG.get('portal', 0)}, Google Events {DIAG.get('gevents', 0)}, статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
                 f"ИИ нашёл {DIAG['ai_found']} (вне дат {DIAG['ai_out_of_range']})")
         if DIAG["truncated"]:
             diag += f", обрезанных ответов {DIAG['truncated']}"
-        if DIAG["pages_failed"]:
-            diag += "\nНе прочитаны: " + ", ".join(DIAG["pages_failed"])
+        failed = DIAG["pages_failed"] + [urllib.parse.urlparse(u).netloc.replace("www.", "")
+                                          for u in DIAG.get("portal_errors", [])]
+        if failed:
+            diag += "\nНе прочитаны: " + ", ".join(failed)
         if DIAG["ai_errors"]:
             diag += "\nОшибка ИИ: " + DIAG["ai_errors"][0]
-        lines.append("\n" + esc(diag))
-    legend = " · ".join(f"{c['emoji']} {c['label']}" for c in cats if c["emoji"])
-    lines.append(f"\n<i>{esc(legend)}\nПеред поездкой проверьте время и билеты на сайте.</i>")
-    tg_long(lines)
+        blocks.append(f"{SEP}\n<i>{esc(diag)}</i>")
+    blocks.append("<i>Перед поездкой проверьте время и билеты на сайте.</i>")
+    tg_blocks(blocks)
     print(f"Отправлено: {len(events)} событий, {len(places)} мест. "
           f"Расход за месяц: ${state['usage']['cost']:.4f}")
 
@@ -759,6 +864,11 @@ def main():
            f"в {cfg['digest_hour']}:00.")
         save_state(state)
         return
+
+    try:
+        collect_portals(state)
+    except Exception as e:
+        print("[portal] сбой:", e)
 
     due = (today.weekday() == cfg["digest_weekday"] and now.hour >= cfg["digest_hour"]
            and state["last_digest"] != today.isoformat())
