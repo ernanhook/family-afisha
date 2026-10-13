@@ -1,22 +1,22 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.2725347,
-"calls": 75
+"cost": 0.3064952000000001,
+"calls": 85
 },
 "last_digest": "2026-10-13",
 "shown_ongoing": [
-"2dd95b7626d11a6c",
-"21a681a294018514"
+"21a681a294018514",
+"2dd95b7626d11a6c"
 ],
 "last_places": [
-"Rīgas Nacionālais zooloģiskais dārzs",
-"Latvijas Nacionālā bibliotēka, детский отдел",
-"Mežaparks, большая детская площадка"
+"Latvijas Dabas muzejs",
+"Mini zoo \"Brieži\"",
+"Grīziņkalna parks"
 ],
 "events_api": {
 "month": "2026-10",
-"count": 21
+"count": 27
 },
 "portal_queue": [
 {
@@ -313,6 +313,18 @@
 [
 "2026-10-13",
 "Mežaparks, большая детская площадка"
+],
+[
+"2026-10-13",
+"Latvijas Dabas muzejs"
+],
+[
+"2026-10-13",
+"Mini zoo \"Brieži\""
+],
+[
+"2026-10-13",
+"Grīziņkalna parks"
 ]
 ]
 }
