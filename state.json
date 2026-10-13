@@ -1,12 +1,13 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.3407967,
-"calls": 95
+"cost": 0.37674699999999994,
+"calls": 106
 },
 "last_digest": "2026-10-13",
 "shown_ongoing": {
-"ab6c0aa419fad978": "2026-10-14"
+"ab6c0aa419fad978": "2026-10-14",
+"2dd95b7626d11a6c": "2026-10-14"
 },
 "last_places": [
 "Rīgas Nacionālais zooloģiskais dārzs",
@@ -15,7 +16,7 @@
 ],
 "events_api": {
 "month": "2026-10",
-"count": 39
+"count": 45
 },
 "portal_queue": [
 {
@@ -321,6 +322,14 @@
 "pub": "2026-10-13",
 "source": "delfi.lv",
 "score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/732935-50-instrumentov-piat-udarnikov-i-odna-karmen-neobycnyi-vecer-v-ventspilse",
+"title": "50 инструментов, пять ударников и одна \"Кармен\": необычный вечер в Вентспилсе",
+"summary": "В субботу, 17 октября, в 17:00 в концертном зале \"Латвия\" в Вентспилсе пройдет концерт \"Встреча литературы и музыки\". В программе - знаменитая \"Кармен-сюита\" Родиона Щедрина и произведения латвийского композитора Петериса Бутанса на стихи Фрициса Барды.",
+"pub": "2026-10-13",
+"source": "rus.jauns.lv",
+"score": 5
 }
 ],
 "portal_errors": {},
