@@ -293,7 +293,9 @@ def google_events(queries, start, end, state, cfg):
         return []
     if not EVENTS_API_KEY:
         print("[events] нет ключа OPENWEBNINJA_API_KEY — источник пропущен")
+        DIAG["gevents_note"] = "нет ключа"
         return []
+    DIAG["gevents_raw"] = 0
     used = state.setdefault("events_api", {"month": "", "count": 0})
     month = dt.date.today().strftime("%Y-%m")
     if used["month"] != month:
@@ -317,6 +319,9 @@ def google_events(queries, start, end, state, cfg):
             continue
         items = j.get("data", j) if isinstance(j, dict) else j
         items = items if isinstance(items, list) else []
+        DIAG["gevents_raw"] += len(items)
+        if isinstance(j, dict) and j.get("status") not in (None, "OK"):
+            DIAG["gevents_note"] = f"ответ API: {str(j.get('status'))[:40]}"
         kept = 0
         for ev in items:
             if not isinstance(ev, dict):
@@ -850,7 +855,9 @@ def run_digest(state, cfg, today):
         or DIAG["pages_ok"] < DIAG["pages_total"] / 2))
     if problems:
         diag = (f"⚙️ Диагностика: сайтов прочитано {DIAG['pages_ok']} из {DIAG['pages_total']}, "
-                f"порталы {DIAG.get('portal', 0)}, Google Events {DIAG.get('gevents', 0)}, статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
+                f"порталы {DIAG.get('portal', 0)}, Google Events {DIAG.get('gevents', 0)}"
+                f"{' из ' + str(DIAG['gevents_raw']) if 'gevents_raw' in DIAG else ''}"
+                f"{' (' + DIAG['gevents_note'] + ')' if DIAG.get('gevents_note') else ''}, статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
                 f"ИИ нашёл {DIAG['ai_found']} (вне дат {DIAG['ai_out_of_range']})")
         if DIAG["truncated"]:
             diag += f", обрезанных ответов {DIAG['truncated']}"
