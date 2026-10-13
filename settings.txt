@@ -36,5 +36,9 @@ monthly_budget_usd = 0.90
 # Строка диагностики в конце сводки: auto (если мало событий или ошибки), always, never
 show_diagnostics = auto
 
+# Сколько запросов к Google Events (OpenWeb Ninja) можно сделать за месяц.
+# Бесплатно — 50; при 5 запросах в неделю это около 22 в месяц.
+events_api_monthly_limit = 45
+
 # Модель ИИ
 model = claude-haiku-5-5
