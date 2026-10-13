@@ -34,6 +34,13 @@ events events in Jurmala
 
 # --- Разделы с анонсами: бот читает свежие статьи целиком ---
 follow https://www.lsm.lv/vecaki-un-berni/kultura-berniem/ /raksts/vecaki-un-berni/kultura-berniem/ 10
+follow https://rus.jauns.lv/category/afisha/afisha-latvii /article/afisha/ 12
+follow https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/ /zinas/kur-sodien-atpusties/ 5
+
+# --- Агрегаторы афиш (проверено 13.10.2026: события с датами видны) ---
+page https://www.kaskurkad.lv/bernu-pasakumi/visur/jebkad
+page https://www.kaskurkad.lv/viss/riga/jebkad
+page https://kultura.riga.lv/
 
 # --- Сайты с афишами ---
 page https://www.bilesuserviss.lv/
