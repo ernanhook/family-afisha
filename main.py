@@ -71,14 +71,14 @@ def load_settings():
                 "weather_lat": "56.95", "weather_lon": "24.11", "weather_name": "Рига",
                 "places_count": "3", "holidays_ahead_days": "21",
                 "monthly_budget_usd": "0.90", "model": "claude-haiku-5-5",
-                "show_diagnostics": "auto"}
+                "show_diagnostics": "auto", "events_api_monthly_limit": "45"}
     for k, v in defaults.items():
         s.setdefault(k, v)
     aliases = {"пн": 0, "по": 0, "вт": 1, "ср": 2, "чт": 3, "че": 3, "пт": 4, "пя": 4,
                "сб": 5, "су": 5, "вс": 6, "во": 6}
     s["digest_weekday"] = aliases.get(s["digest_day"].lower()[:2], 3)
     for k in ("digest_hour", "days_ahead", "latest_start_hour", "places_count",
-              "holidays_ahead_days"):
+              "holidays_ahead_days", "events_api_monthly_limit"):
         s[k] = int(s[k])
     for k in ("weather_lat", "weather_lon", "monthly_budget_usd"):
         s[k] = float(s[k].replace(",", "."))
@@ -86,18 +86,20 @@ def load_settings():
 
 
 def load_sources():
-    pages, news, follows = [], [], []
+    pages, news, follows, events_q = [], [], [], []
     for l in lines_of("sources.txt"):
         parts = l.split(None, 2)
         if parts[0] == "page" and len(parts) >= 2:
             pages.append(parts[1])
         elif parts[0] == "news" and len(parts) == 3:
             news.append((parts[1].lower(), parts[2]))
+        elif parts[0] == "events" and len(parts) >= 2:
+            events_q.append(l.split(None, 1)[1].strip())
         elif parts[0] == "follow" and len(parts) >= 2:
             rest = l.split()[1:]          # follow <страница> <часть ссылки> <сколько>
             follows.append((rest[0], rest[1] if len(rest) > 1 else "",
                             int(rest[2]) if len(rest) > 2 and rest[2].isdigit() else 8))
-    return pages, news, follows
+    return pages, news, follows, events_q
 
 
 def gnews_url(lang, q):
@@ -111,6 +113,7 @@ def gnews_url(lang, q):
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID", "")
+EVENTS_API_KEY = os.environ.get("OPENWEBNINJA_API_KEY", "")
 FORCE_DIGEST = (os.environ.get("FORCE_DIGEST") or "").lower() == "true"
 
 
@@ -268,9 +271,70 @@ def recurring_source():
                      "периода; это постоянное расписание, а не разовый анонс):\n" + "\n".join(rows)}]
 
 
-def collect_sources():
-    pages, news_queries, follows = load_sources()
+def google_events(queries, start, end, state, cfg):
+    """События из Google Events (сайты, билетные системы, публичные события Facebook)."""
+    if not queries:
+        return []
+    if not EVENTS_API_KEY:
+        print("[events] нет ключа OPENWEBNINJA_API_KEY — источник пропущен")
+        return []
+    used = state.setdefault("events_api", {"month": "", "count": 0})
+    month = dt.date.today().strftime("%Y-%m")
+    if used["month"] != month:
+        used.update(month=month, count=0)
+    out, seen = [], set()
+    for q in queries:
+        if used["count"] >= cfg["events_api_monthly_limit"]:
+            print(f"[events] месячный лимит запросов исчерпан ({used['count']})")
+            DIAG["ai_errors"].append("лимит Google Events на месяц исчерпан")
+            break
+        try:
+            r = requests.get("https://api.openwebninja.com/realtime-events-data/search-events",
+                             params={"query": q, "date": "any", "is_virtual": "false"},
+                             headers={"x-api-key": EVENTS_API_KEY}, timeout=60)
+            used["count"] += 1
+            r.raise_for_status()
+            j = r.json()
+        except Exception as e:
+            print(f"[events] ошибка  {q}: {e}")
+            DIAG["ai_errors"].append(f"Google Events: {str(e)[:120]}")
+            continue
+        items = j.get("data", j) if isinstance(j, dict) else j
+        items = items if isinstance(items, list) else []
+        kept = 0
+        for ev in items:
+            if not isinstance(ev, dict):
+                continue
+            d = parse_date(ev.get("start_time") or ev.get("start_time_utc") or "")
+            d2 = parse_date(ev.get("end_time") or "") or d
+            if not d or d2 < start or d > end:
+                continue                       # отсекаем по датам ещё до ИИ — дешевле
+            eid = ev.get("event_id") or ev.get("link") or ev.get("name")
+            if eid in seen:
+                continue
+            seen.add(eid)
+            v = ev.get("venue") or {}
+            link = ev.get("link") or ""
+            for tl in (ev.get("ticket_links") or []) + (ev.get("info_links") or []):
+                if isinstance(tl, dict) and tl.get("link"):
+                    link = link or tl["link"]
+            text = (f"{ev.get('name', '')}. Начало: {ev.get('start_time', '')}. "
+                    f"Конец: {ev.get('end_time', '')}. Место: {v.get('name', '')}, "
+                    f"{v.get('full_address', '')}. Источник: {ev.get('publisher', '')}. "
+                    f"{str(ev.get('description') or '')[:400]}")
+            out.append({"name": ev.get("publisher_domain") or "Google Events",
+                        "link": link, "text": text})
+            kept += 1
+        print(f"[events] {len(items):3d} событий, в нужные даты {kept}  {q}")
+    DIAG["gevents"] = len(out)
+    return out
+
+
+def collect_sources(state=None, cfg=None, start=None, end=None):
+    pages, news_queries, follows, events_q = load_sources()
     sources = recurring_source()
+    if state is not None:
+        sources += google_events(events_q, start, end, state, cfg)
     seen_urls = set()
     for listing, pattern, max_n in follows:
         DIAG["pages_total"] += 1
@@ -604,7 +668,7 @@ def run_digest(state, cfg, today):
     sat = start + dt.timedelta(days=(5 - start.weekday()) % 7)
     sun = sat + dt.timedelta(days=1)
 
-    sources = collect_sources()
+    sources = collect_sources(state, cfg, start, end)
     print(f"Источников: {len(sources)}, бюджет ${state['usage']['cost']:.3f} / "
           f"${cfg['monthly_budget_usd']:.2f}")
     try:
@@ -660,7 +724,7 @@ def run_digest(state, cfg, today):
         or DIAG["pages_ok"] < DIAG["pages_total"] / 2))
     if problems:
         diag = (f"⚙️ Диагностика: сайтов прочитано {DIAG['pages_ok']} из {DIAG['pages_total']}, "
-                f"статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
+                f"Google Events {DIAG.get('gevents', 0)}, статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
                 f"ИИ нашёл {DIAG['ai_found']} (вне дат {DIAG['ai_out_of_range']})")
         if DIAG["truncated"]:
             diag += f", обрезанных ответов {DIAG['truncated']}"
