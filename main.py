@@ -126,6 +126,9 @@ class BudgetExceeded(Exception):
     pass
 
 
+REPORT = []          # всё, что нашёл ИИ, с причиной отсева — сохраняется в state.json
+
+
 # Что произошло за запуск — попадает в сводку, если что-то пошло не так
 DIAG = {"pages_failed": [], "pages_ok": 0, "pages_total": 0, "news": 0, "ai_calls": 0, "ai_errors": [],
         "ai_found": 0, "ai_out_of_range": 0, "truncated": 0}
@@ -497,8 +500,17 @@ EVENTS_PROMPT = """Ты помогаешь семье найти, куда сх�
 {categories}
 
 Ниже пронумерованные источники: тексты страниц с афишами и новости.
-Найди ВСЕ подходящие мероприятия. Ответь ТОЛЬКО JSON-массивом (пустой [] если ничего нет):
-[{{"n": номер_источника, "cat": "код категории",
+Найди ВСЕ мероприятия двух видов и ничего не пропускай:
+  "fit": "yes"   — подходит по правилам семьи выше;
+  "fit": "maybe" — любое другое детское или семейное событие, которое по правилам не идеально
+                   для малыша, но семье полезно о нём знать: программы на школьных каникулах,
+                   события для детей постарше, спектакли 4+, катки, мастерские, детские
+                   праздники в торговых центрах, семейные концерты подлиннее.
+Совсем не включай: события только для взрослых, вечерние (позже {latest}:00), распроданные,
+акции и скидки магазинов, политику, лекции и конференции.
+Ответь ТОЛЬКО JSON-массивом (пустой [] если ничего нет):
+[{{"n": номер_источника, "fit": "yes|maybe", "cat": "код категории",
+   "why_not": "если fit=maybe — коротко по-русски почему не идеально (например «для школьников»), иначе ''",
    "title": "короткое название самого события (до 8 слов), без названия города в конце, без
              хвостов заголовка новости вроде «aicina uz…» или «- Jelgava»",
    "about": "что это, 3–8 слов по-русски",
@@ -638,13 +650,18 @@ def find_events(sources, state, cfg, cats, today, start, end):
             if not isinstance(n, int) or not 0 <= n < len(chunk):
                 continue
             DIAG["ai_found"] += 1
+            rep = {"title": str(ev.get("title", ""))[:80], "date": ev.get("date"),
+                   "fit": ev.get("fit", "yes"), "source": chunk[n]["name"]}
+            REPORT.append(rep)
             if ev.get("sold_out") is True or str(ev.get("sold_out")).lower() == "true":
                 DIAG["sold_out"] = DIAG.get("sold_out", 0) + 1
+                rep["dropped"] = "распродано"
                 continue
             d1 = parse_date(ev.get("date"))
             d2 = parse_date(ev.get("end_date")) or d1
             if not d1 or d2 < start or d1 > end:
                 DIAG["ai_out_of_range"] += 1
+                rep["dropped"] = "вне дат" if d1 else "нет даты"
                 continue
             ev["_d1"], ev["_d2"] = d1, d2
             if not str(ev.get("link", "")).startswith("http"):
@@ -811,6 +828,8 @@ def run_digest(state, cfg, today):
     wx = weather(cfg, [sat, sun])
     order = lambda e: (bool(e.get("ongoing")), e["_d1"], e.get("time") or "")
     on_weekend = lambda e: e["_d1"] <= sun and e["_d2"] >= sat
+    maybe = sorted([e for e in events if e.get("fit") == "maybe"], key=order)
+    events = [e for e in events if e.get("fit") != "maybe"]
     free = sorted([e for e in events if e.get("free")], key=order)
     weekend = sorted([e for e in events if not e.get("free") and on_weekend(e)], key=order)
     other = sorted([e for e in events if not e.get("free") and not on_weekend(e)], key=order)
@@ -849,7 +868,21 @@ def run_digest(state, cfg, today):
             blocks.append(f"{SEP}\n{title}")
             blocks += [fmt_event(e, emoji) for e in group]
     if not events:
-        blocks.append(f"{SEP}\nНа этой неделе подходящих мероприятий не нашлось.")
+        blocks.append(f"{SEP}\nПодходящих малышу мероприятий в этот период не нашлось.")
+    if maybe:
+        lines_m = []
+        for e in maybe:
+            d1, d2 = e["_d1"], e["_d2"]
+            when = f"{d1:%d.%m}" if d1 == d2 else f"{d1:%d.%m}–{d2:%d.%m}"
+            line = f"• {when} — <b>{esc(e.get('title'))}</b>"
+            extra = [esc(e.get("venue") or e.get("city"))]
+            if e.get("why_not"):
+                extra.append(f"<i>{esc(e['why_not'])}</i>")
+            if e.get("link"):
+                extra.append(f'<a href="{esc(e["link"])}">{esc(e["source"])}</a>')
+            lines_m.append(line + "\n   " + " · ".join(x for x in extra if x))
+        blocks.append(f"{SEP}\n🔎 <b>ЕЩЁ ДЛЯ ДЕТЕЙ И СЕМЕЙ</b>\n<i>не идеально для малыша, но может пригодиться</i>\n\n"
+                      + "\n".join(lines_m))
     soon = upcoming_holidays(today, cfg["holidays_ahead_days"]) if cfg["holidays_ahead_days"] else []
     if soon:
         blocks.append(f"{SEP}\n📌 <b>СКОРО</b>\n" + "\n".join(soon))
@@ -880,6 +913,12 @@ def run_digest(state, cfg, today):
         blocks.append(f"{SEP}\n<i>{esc(diag)}</i>")
     blocks.append("<i>Перед поездкой проверьте время и билеты на сайте.</i>")
     tg_blocks(blocks)
+    state["last_report"] = {
+        "date": today.isoformat(),
+        "sources": [{"name": x["name"], "chars": len(x["text"]), "link": x["link"][:120]}
+                    for x in sources],
+        "found": REPORT[:300],
+    }
     print(f"Отправлено: {len(events)} событий, {len(places)} мест. "
           f"Расход за месяц: ${state['usage']['cost']:.4f}")
 
