@@ -651,7 +651,9 @@ EVENTS_PROMPT = """Ты помогаешь семье найти, куда сх�
    "ongoing": true, если это выставка/программа на много дней, иначе false,
    "link": "прямая ссылка на событие, если видна в тексте, иначе ''"}}]
 Только события, у которых есть хотя бы один день в периоде {start} — {end}.
-Не выдумывай даты: если даты нет в источнике — не включай событие.
+Не выдумывай даты: если даты нет в источнике — не включай событие. Дата публикации новости —
+это не дата события: если в заметке пишут о будущей выставке «с 21 по 25 октября», датой будет
+21–25 октября, а не день публикации.
 Не включай общие анонсы программ и недель («неделя культуры», «месяц …») без конкретного
 события с местом и датой; если в таком анонсе описаны конкретные события — включай их по отдельности.
 Относительные даты («šo sestdien», «nākamajā svētdienā», «nedēļas nogalē», «в эту субботу»,
@@ -753,34 +755,81 @@ def event_line(i, e):
             f"{e.get('about') or ''}. {e.get('summary') or ''}")
 
 
+TIP_GOOD = re.compile(r"живот|птиц|кролик|зоо|ферм|пони|лошад|коз|поезд|паровоз|трамва|трактор|"
+                      r"машин|самол|пожар|музык|танц|вод|бассейн|свет|фонар|игров|мама \+|малыш|"
+                      r"mazuļ|contakids|праздник|ярмарк|цирк|дино", re.I)
+TIP_BAD = re.compile(r"медал|искусств|лекци|блошин|kr[aā]mu|для школьник|концерт в зале", re.I)
+
+
+def tip_score(e):
+    """Запасной выбор совета без ИИ: что больше порадует малыша и что ближе к дому."""
+    text = " ".join(str(e.get(k) or "") for k in ("title", "about", "summary"))
+    score = 3 * len(TIP_GOOD.findall(text)) - 4 * len(TIP_BAD.findall(text))
+    score += {"mom": 3, "kids": 3, "family": 2, "city": 2, "folk": 1, "mall": 1}.get(e.get("cat"), 0)
+    score -= (e.get("_drive") or 0) // 45
+    return score
+
+
 def week_tips(events, cfg, state, wx_text, start, end):
-    """Совет ИИ: по одному главному событию на каждую неделю периода."""
+    """Совет недели: по одному главному для малыша событию на каждую неделю периода.
+    Выбирает сильная модель; не вышло — обычная; не вышло и у неё — выбор по правилам."""
     weeks = week_ranges(start, end)
     events = [e for e in events if not too_old(e, cfg["max_age_ok"])]
     if not events or not weeks:
         return []
     wtext = "\n".join(f"Неделя {k}: {a:%d.%m}–{b:%d.%m}" for k, (a, b) in enumerate(weeks, 1))
-    res = claude(TIPS_PROMPT.format(family=cfg["family"], child=cfg["child"],
-                                    home=cfg["home_city"], weather=wx_text or "неизвестен",
-                                    taste=taste_text(state), age_note=cfg["child_age_note"],
-                                    weeks=wtext,
-                                    events="\n".join(event_line(i, e)
-                                                     for i, e in enumerate(events, 1))),
-                 state, cfg, max_tokens=1500)
-    out, used = [], set()
-    for t in res:
-        try:
-            k, n = int(t.get("week")), int(t.get("n"))
-        except (TypeError, ValueError):
+    prompt = TIPS_PROMPT.format(family=cfg["family"], child=cfg["child"], home=cfg["home_city"],
+                                weather=wx_text or "неизвестен", taste=taste_text(state),
+                                age_note=cfg["child_age_note"], weeks=wtext,
+                                events="\n".join(event_line(i, e) for i, e in enumerate(events, 1)))
+
+    def pick(res):
+        out, used = [], set()
+        for t in res:
+            try:
+                k = int(str(t.get("week")).strip())
+                n = int(str(t.get("n")).strip().strip("[]"))
+            except (TypeError, ValueError):
+                continue
+            if not (1 <= k <= len(weeks)) or not (1 <= n <= len(events)) or k in used:
+                continue
+            e = events[n - 1]
+            a, b = weeks[k - 1]
+            if e["_d1"] > b or e["_d2"] < a:          # событие не в эту неделю
+                continue
+            used.add(k)
+            out.append((k, a, b, e, fix_ru(str(t.get("why") or ""))))
+        return out
+
+    strong = str(cfg.get("proofread_model") or "").strip()
+    if strong.lower() in ("no", "нет", "off"):
+        strong = ""
+    out, tries = [], []
+    for model in dict.fromkeys(m for m in (strong, cfg["model"]) if m):
+        DIAG["last_text"] = ""
+        res = claude(prompt, state, cfg, max_tokens=1500, model=model)
+        out = pick(res)
+        tries.append({"model": model, "objects": len(res), "picked": len(out),
+                      "answer": DIAG.get("last_text", "")[:600]})
+        if out:
+            break
+    state["tips_debug"] = {"date": start.isoformat(), "tries": tries}
+
+    used = {k for k, *_ in out}
+    for k, (a, b) in enumerate(weeks, 1):            # неделя осталась без совета — выбираем сами
+        if k in used:
             continue
-        if not (1 <= k <= len(weeks)) or not (1 <= n <= len(events)) or k in used:
+        cand = [e for e in events if e["_d1"] <= b and e["_d2"] >= a and tip_score(e) > 0]
+        if not cand:
             continue
-        e = events[n - 1]
-        a, b = weeks[k - 1]
-        if e["_d1"] > b or e["_d2"] < a:              # событие не в эту неделю
-            continue
-        used.add(k)
-        out.append((k, a, b, e, fix_ru(str(t.get("why") or ""))))
+        e = max(cand, key=tip_score)
+        about = (e.get("about") or "").strip().rstrip(".")
+        why = (about[:1].upper() + about[1:] + ". " if about else "") + \
+            "Из всей недели это больше всего подходит малышу. Перед выходом проверьте время на сайте."
+        out.append((k, a, b, e, why))
+        DIAG["tips_fallback"] = DIAG.get("tips_fallback", 0) + 1
+    if not out:
+        DIAG.setdefault("other_errors", []).append("совет недели: подходящего события не нашлось")
     return sorted(out, key=lambda x: x[0])
 
 
@@ -958,6 +1007,7 @@ def claude(prompt, state, cfg, max_tokens=8000, model=None):
         if j.get("stop_reason") == "max_tokens":
             DIAG["truncated"] += 1
         text = "".join(b.get("text", "") for b in j.get("content", []) if b.get("type") == "text")
+        DIAG["last_text"] = text[:1500]
         objs = parse_objects(text)
         print(f"[ai] {us.get('input_tokens', 0)} → {us.get('output_tokens', 0)} токенов, "
               f"объектов: {len(objs)}, stop: {j.get('stop_reason')}")
