@@ -51,10 +51,10 @@ page https://rigazoo.lv/jaunumi/
 # не читается роботом (13.10.2026): page https://www.liveriga.com/lv/pasakumi
 # не читается роботом (13.10.2026): page https://www.latvia.travel/lv/pasakumi
 page https://www.visitjurmala.lv/lv/pasakumi/
-page https://www.lelluteatris.lv/lv/repertuars
+# театры не нужны (14.10.2026): page https://www.lelluteatris.lv/lv/repertuars
 page https://cirks.lv/kalendars/
 # гастрольный кукольный театр «Teātris un ES»: спектакли 2+ по всей Латвии, в Риге — в кинотеатре K.SUNS
-page https://izradesberniem.lv/
+# театры не нужны (14.10.2026): page https://izradesberniem.lv/
 # список строится скриптом, роботу пуст (13.10.2026): page https://www.rcb.lv/events/category/pasakumi-berniem/
 page https://www.lebm.gov.lv/lv
 page https://www.dabasmuzejs.gov.lv/
@@ -97,7 +97,7 @@ news ru "Домина" OR "Domina" торговый центр дети OR ма�
 # --- Новости на латышском ---
 news lv pasākumi bērniem
 news lv pasākums ģimenēm
-news lv izrāde mazuļiem OR "mazuļu teātris" OR "izrāde mazajiem"
+# театры не нужны: news lv izrāde mazuļiem OR "mazuļu teātris" OR "izrāde mazajiem"
 news lv bērnu svētki OR ģimenes diena OR ģimeņu diena
 news lv brīvdienās bērniem OR "nedēļas nogalē" pasākumi
 news lv darbnīca bērniem OR radošā darbnīca ģimenēm
@@ -122,7 +122,7 @@ news lv zemnieku tirgus OR "Kalnciema kvartāla tirgus" OR "Ziedu tirgus"
 
 # --- Новости на русском ---
 news ru мероприятия для детей Рига
-news ru для малышей спектакль Рига OR Юрмала
+# театры не нужны: news ru для малышей спектакль Рига OR Юрмала
 news ru куда пойти с детьми выходные Латвия
 news ru день города Латвия OR праздник города
 news ru Масленица Рига OR ярмарка Рига OR праздник в замке Латвия
