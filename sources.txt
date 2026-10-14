@@ -73,6 +73,10 @@ page https://www.visittukums.lv/lv/Pasakumi
 # --- Клубы мам: расписание встреч и занятий (проверено 14.10.2026) ---
 page https://maminuklubs.lv/vecaku-skola/
 page https://maminklub.lv/
+# анонсы «Завтраков мам» и встреч Маминого клуба (Rīga Plaza, Domina, Spice и др.):
+# бот читает свежие объявления целиком — там указан торговый центр, дата и время
+follow https://maminklub.lv/mk/ maminklub.lv/mk/ 6
+follow https://maminuklubs.lv/sieviesu-klubs/ maminuklubs.lv/sieviesu-klubs/ 6
 
 # --- Торговые центры: страницы событий ---
 page https://www.rigaplaza.lv/notikumi
@@ -85,6 +89,10 @@ page https://www.galleriariga.lv/jaunumi/
 news lv "Spice" tirdzniecības centrs bērniem OR ģimenēm OR pasākums OR svētki
 news ru "Spice" торговый центр дети OR праздник OR мероприятие
 events Spice shopping centre Riga events
+news lv "Spice" OR "Spice Home" māmiņām OR mazuļiem OR "māmiņu brokastis"
+# Domina Shopping: сайт закрыт для роботов (14.10.2026), поэтому ищем анонсы в новостях
+news lv "Domina" tirdzniecības centrs bērniem OR ģimenēm OR māmiņām OR pasākums OR svētki
+news ru "Домина" OR "Domina" торговый центр дети OR мамы OR праздник OR мероприятие
 
 # --- Новости на латышском ---
 news lv pasākumi bērniem
@@ -123,5 +131,6 @@ news ru цирк Рига OR цирковое шоу OR цирк гастрол�
 news ru "цирк Лео" OR "передвижной цирк" OR шапито Латвия OR цирк приехал
 news ru торговый центр Рига детский праздник OR для детей
 news ru для мам с малышами Рига OR встреча мам OR мамский клуб
+news ru "Завтрак мам" OR "Мамин клуб" OR "Конгресс мам"
 news ru фестиваль выходные Латвия OR гастрономический фестиваль OR фестиваль света
 news ru ярмарка выходные Рига OR день открытых дверей Рига
