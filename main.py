@@ -557,20 +557,36 @@ TIPS_PROMPT = """Ты — заботливый советчик для семь�
 Прогноз на выходные:
 {weather}
 
-Ниже мероприятия из сводки. Для КАЖДОЙ недели выбери ОДНО самое интересное семейное
-мероприятие — то, куда стоит сходить в первую очередь: чтобы понравилось и родителям,
-и малышу, было необычным (не рядовое занятие), удобным по времени и с учётом погоды.
+Ниже мероприятия из сводки. Для КАЖДОЙ недели выбери ОДНО мероприятие, которое
+больше всего порадует именно малыша до 3 лет — и при этом будет приятно родителям.
+Малышу интересно то, что можно увидеть, услышать и потрогать: живые животные, техника
+и транспорт вблизи, музыка и движение, вода, свет, простор, где можно бегать, игровые
+зоны для малышей, занятия «мама + малыш», праздники под открытым небом с ярмаркой.
+НЕ выбирай: то, что рассчитано на детей постарше (указан возраст 3+, 4+, 5+ и выше,
+«для школьников», задания и квесты, которые надо читать или решать), выставки «для
+смотрения» (растения, искусство, медали, история), лекции и всё, где надо долго сидеть.
+Если в какую-то неделю ничего подходящего малышу нет — пропусти эту неделю.
 Выбирай только событие, которое проходит в эту неделю.
 
 {weeks}
 
 Ответь ТОЛЬКО JSON-массивом, по одному объекту на неделю:
 [{{"week": номер_недели, "n": номер_мероприятия,
-   "why": "2–3 коротких предложения по-русски: чем событие интересно и практичный совет (когда лучше прийти, что взять, на что обратить внимание)"}}]
+   "why": "2–3 коротких предложения по-русски: чем событие понравится именно малышу и практичный совет (когда лучше прийти, что взять, на что обратить внимание)"}}]
 
 МЕРОПРИЯТИЯ:
 {events}
 """
+
+
+def too_old(e):
+    """True, если событие явно для детей от 3 лет и старше (по полю age и описанию)."""
+    text = " ".join(str(e.get(k) or "") for k in ("age", "about", "summary", "title")).lower()
+    ages = [int(x) for x in re.findall(r"(?<![\d,.])(\d{1,2})\s*\+", text)]
+    ages += [int(x) for x in re.findall(r"(?:\bот|\bno)\s*(\d{1,2})(?![\d,.:])\s*(?:лет|года|г\b|gad)", text)]
+    if any(a >= 3 for a in ages):
+        return True
+    return any(w in text for w in ("школьник", "skolēn", "skolas vecuma"))
 
 
 def week_tips(events, cfg, state, wx, start, end):
@@ -581,6 +597,8 @@ def week_tips(events, cfg, state, wx, start, end):
         d += dt.timedelta(days=7)
     if len(weeks) > 1 and (weeks[-1][1] - weeks[-1][0]).days < 3:   # хвост из 1–3 дней
         weeks[-2:] = [(weeks[-2][0], weeks[-1][1])]                  # присоединяем к прошлой неделе
+    # малышу до 3 лет не подходят события с минимальным возрастом 3+ и старше
+    events = [e for e in events if not too_old(e)]
     if not events or not weeks:
         return []
     lines = []
@@ -588,6 +606,7 @@ def week_tips(events, cfg, state, wx, start, end):
         when = f"{e['_d1']:%d.%m}" + ("" if e["_d2"] == e["_d1"] else f"–{e['_d2']:%d.%m}")
         lines.append(f"[{i}] {when} {e.get('time') or ''} | {e.get('title')} | "
                      f"{e.get('venue') or ''}, {e.get('city') or ''} | "
+                     f"возраст: {e.get('age') or 'не указан'} | "
                      f"{'бесплатно' if e.get('free') else e.get('price') or ''} | "
                      f"{e.get('about') or ''}. {e.get('summary') or ''}")
     wtext = "\n".join(f"Неделя {k}: {a:%d.%m}–{b:%d.%m}" for k, (a, b) in enumerate(weeks, 1))
@@ -888,6 +907,11 @@ def run_digest(state, cfg, today):
     wx = weather(cfg, [sat, sun])
     order = lambda e: (bool(e.get("ongoing")), e["_d1"], e.get("time") or "")
     on_weekend = lambda e: e["_d1"] <= sun and e["_d2"] >= sat
+    for e in events:                     # явно для детей постарше — не в основной список
+        if e.get("fit") != "maybe" and too_old(e):
+            e["fit"] = "maybe"
+            e["why_not"] = e.get("why_not") or (f"возраст {e['age']}" if e.get("age")
+                                                 else "для детей постарше")
     maybe = sorted([e for e in events if e.get("fit") == "maybe"], key=order)
     events = [e for e in events if e.get("fit") != "maybe"]
     free = sorted([e for e in events if e.get("free")], key=order)
