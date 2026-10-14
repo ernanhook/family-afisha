@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.1011784000000011,
-"calls": 355
+"cost": 1.2232613000000017,
+"calls": 383
 },
 "last_digest": "2026-10-14",
 "shown_ongoing": {
@@ -41,9 +41,9 @@
 "ca66027b71b946c9": "2026-W42"
 },
 "last_places": [
+"Latvijas Dabas muzejs",
 "Mežaparks, большая детская площадка",
-"Līvu akvaparks",
-"Rīgas Motormuzejs"
+"Latvijas Dzelzceļa vēstures muzejs"
 ],
 "events_api": {
 "month": "2026-10",
@@ -785,6 +785,14 @@
 "pub": "2026-10-14",
 "source": "tvnet.lv",
 "score": 3
+},
+{
+"link": "https://pmo.ee/8564501",
+"title": "Kinofestivālā ASV pirmizrādi piedzīvos LKA absolventu īsfilma",
+"summary": "Latvijas Kultūras akadēmijas (LKA) absolventu diplomdarba īsfilma \"Es neesmu traka. Varbūt mazliet...\" piedzīvos pasaules pirmizrādi Ostinas kinofestivālā ASV, informēja LKA.",
+"pub": "2026-10-14",
+"source": "apollo.lv",
+"score": 8
 }
 ],
 "portal_errors": {},
@@ -803,15 +811,15 @@
 ],
 [
 "2026-10-14",
+"Latvijas Dabas muzejs"
+],
+[
+"2026-10-14",
 "Mežaparks, большая детская площадка"
 ],
 [
 "2026-10-14",
-"Līvu akvaparks"
-],
-[
-"2026-10-14",
-"Rīgas Motormuzejs"
+"Latvijas Dzelzceļa vēstures muzejs"
 ]
 ],
 "last_report": {
@@ -894,7 +902,7 @@
 },
 {
 "name": "bb.lv",
-"chars": 2561,
+"chars": 2595,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/10/prinesite-to-cto-ne-rabotaet-v-rige-proidet-neobycnaia-akciia?utm_source=r"
 },
 {
@@ -928,6 +936,11 @@
 "link": "https://jauns.lv/raksts/izklaide/733256-ar-nepacietibu-gaidu-tiksanos-ar-klausitajiem-uz-latvijas-koncertskatuvem-atgrie"
 },
 {
+"name": "apollo.lv",
+"chars": 3031,
+"link": "https://pmo.ee/8564501"
+},
+{
 "name": "lsm.lv",
 "chars": 4384,
 "link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/13.10.2026-nospiedums-restorana-vertejuma-isfilma-paldies-par-jusu-ats"
@@ -954,17 +967,17 @@
 },
 {
 "name": "bb.lv",
-"chars": 4125,
+"chars": 4159,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/09/pokrovskaia-roditelskaia-subbota-cto-mozno-i-nelzia-delat-pravoslavnym-lat"
 },
 {
 "name": "bb.lv",
-"chars": 3871,
+"chars": 3905,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/10/voennyi-parad-zalpy-i-besplatnaia-paelia-cto-segodnia-budet-proisxodit-v-c"
 },
 {
 "name": "bb.lv",
-"chars": 3240,
+"chars": 3253,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/14/v-18-let-peskom-prisla-v-latviiu-zitelnica-liepai-otprazdnovala-100-letnii"
 },
 {
@@ -974,7 +987,7 @@
 },
 {
 "name": "bb.lv",
-"chars": 5880,
+"chars": 5893,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/14/organizator-blagotvoritelnogo-meropriiatiia-sobral-detiam-7505-evro-no-pol"
 },
 {
@@ -1013,13 +1026,8 @@
 "link": "https://rus.lsm.lv/statja/kultura/teatr/12.10.2026-v-repertuare-nacionalnogo-teatra-vnov-poyavlyaetsya-imya-yanisa-poruk"
 },
 {
-"name": "rus.lsm.lv",
-"chars": 4978,
-"link": "https://rus.lsm.lv/statja/kultura/teatr/12.10.2026-balans-festivalya-osen-patriarxa-i-alternativnoi-teatralnoi-premii-zo"
-},
-{
 "name": "lsm.lv",
-"chars": 2679,
+"chars": 2683,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/14.10.2026-es-tev-uzzimesu-brunas-vecaku-milestibas-speks-audz"
 },
 {
@@ -1034,17 +1042,17 @@
 },
 {
 "name": "lsm.lv",
-"chars": 3492,
+"chars": 3493,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/10.10.2026-video-nacionalo-skalas-lasisanas-sacensibu-finals.a"
 },
 {
 "name": "lsm.lv",
-"chars": 2573,
+"chars": 2575,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/09.10.2026-kas-patiesiba-notiek-musu-mute-mazos-skatitajus-aic"
 },
 {
 "name": "lsm.lv",
-"chars": 3238,
+"chars": 3240,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/06.10.2026-rigas-bibliotekas-mazos-lasitajus-aicina-uz-izzinos"
 },
 {
@@ -1054,17 +1062,17 @@
 },
 {
 "name": "lsm.lv",
-"chars": 3067,
+"chars": 3068,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/01.10.2026-latvijas-lellu-teatri-ierikots-meza-premjera-velesa"
 },
 {
 "name": "lsm.lv",
-"chars": 3605,
+"chars": 3604,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/01.10.2026-meldra-un-negantie-kaimini-komikss-berniem-par-pras"
 },
 {
 "name": "lsm.lv",
-"chars": 3196,
+"chars": 3197,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/28.09.2026-jauns-uzvalks-un-liksma-muzika-lenesons-aicina-uz-d"
 },
 {
@@ -1129,22 +1137,22 @@
 },
 {
 "name": "mammamuntetiem.lv",
-"chars": 2261,
+"chars": 2210,
 "link": "https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/66472/suns-funs-aicina-uz-festivalu-ziedona-muzeja-filiale-riga"
 },
 {
 "name": "mammamuntetiem.lv",
-"chars": 4324,
+"chars": 4327,
 "link": "https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/66381/ar-lenesona-dzimsanas-dienas-balliti-atsaksies-lnso-bernu"
 },
 {
 "name": "mammamuntetiem.lv",
-"chars": 1873,
+"chars": 1881,
 "link": "https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/66374/velet-vares-ari-berni-lellu-teatris-aicina-sonedel-piedal"
 },
 {
 "name": "mammamuntetiem.lv",
-"chars": 4708,
+"chars": 4692,
 "link": "https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/66355/ideja-tavam-brivdienam-kur-steigt-lukot-skaisto-rudeni-ma"
 },
 {
@@ -1493,14 +1501,14 @@
 "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ1BBWHNkRnZIX2xFVURiX2x6Ym1oZEFSZEUtUWFLb0JGcl9fWjEzUlBVbzBMZEpZbFR"
 },
 {
+"name": "Sportazinas.com",
+"chars": 227,
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb2U4anlicTZjaWhLNE5FcjFWcmkxN1JwMXh0Q1ZMM0F6RV96QzM2TlB4cS1BM0t1YTA"
+},
+{
 "name": "MadeinVilnius.lt",
 "chars": 217,
 "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQTHExU25GWk1LamNDcnU4eXBrVTczTFRCQlpscW5GaEhVY09KRHM4VVhxVnRuQVNtd3R"
-},
-{
-"name": "Sortir à Paris",
-"chars": 243,
-"link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX2c4MjZrZmdWeThqX3Nma2doY3VESVNyUzZzRVBmNHRhQ1Qxdlh0Vk9sUEIxNXA1SjN"
 },
 {
 "name": "LV portāls",
@@ -1779,6 +1787,11 @@
 },
 {
 "name": "Sortir à Paris",
+"chars": 243,
+"link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX2c4MjZrZmdWeThqX3Nma2doY3VESVNyUzZzRVBmNHRhQ1Qxdlh0Vk9sUEIxNXA1SjN"
+},
+{
+"name": "Sortir à Paris",
 "chars": 175,
 "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQelp5OUw2MHRSUHdJTnM4RkpYbS1DSklhcEV5Rjd0cGhVMU50VUY1NVRqdWtZQnRtU05"
 },
@@ -2013,6 +2026,11 @@
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS0d1S2xtWTlTTkh2WDZHVTdXbHpROEtrSExMeExzOWdsU3hsWVFQTnJ3cWxrUV8xdHZ"
 },
 {
+"name": "LV portāls",
+"chars": 163,
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTl9BMkxwVFpBazdaYTZ1ZWJmdjhxMXN1X01BOUMyQ1dRMlRuRGo0NXY0WnRqVzh1UEl"
+},
+{
 "name": "LSM",
 "chars": 259,
 "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTk9pRW5mQVRNUGpiamttS1BCN1VFOWtmdnBIUHo2TXBRSjh0cEZqandpSHhkRmpGZEt"
@@ -2021,11 +2039,6 @@
 "name": "tv3.lv",
 "chars": 147,
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeWhXNW5Ka2FuNklIOFVVQ1JwOVluOGxNcnd5NXBMVzBTaXByaXZWbl96MFBhY19kcWx"
-},
-{
-"name": "LV portāls",
-"chars": 171,
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUnQ1NnA1Z0lHeUdGSjJ6STYzZlRzWnpaZmNsMVNqS1pEWUVjWDdwMHMxY21zT2dwRzI"
 },
 {
 "name": "Travelnews.lv",
@@ -2051,6 +2064,11 @@
 "name": "tv3.lv",
 "chars": 167,
 "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQkozWW0tNFRvNHp6anlVZXRZQ3lJUnZEcGRZUWNfSURDZGU5MnRjUFJodVdfdHEtTHl"
+},
+{
+"name": "LV portāls",
+"chars": 171,
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUnQ1NnA1Z0lHeUdGSjJ6STYzZlRzWnpaZmNsMVNqS1pEWUVjWDdwMHMxY21zT2dwRzI"
 },
 {
 "name": "Sortir à Paris",
@@ -2086,11 +2104,6 @@
 "name": "Sortir à Paris",
 "chars": 245,
 "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQNUdDOVRwaFJWaVlPMnlQTkZFSXJpUng5VmdMU2tBV0xjMXRSZVVwRkZsSUdqYVJMUHd"
-},
-{
-"name": "Jauns.lv",
-"chars": 211,
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPelhwVWlwcm0tQjFYZnR5UzExemJKUlVBYlVSbTBXS2xlcmVsaDg4MG0xUjE3ZzctcUV"
 },
 {
 "name": "Sortir à Paris",
@@ -2158,14 +2171,14 @@
 "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTnF5a3ZyX2dZdHZNcmtqVlNrYWZaV29fcktvbThDZWJCbnlvZmRyZlJSR1F3T2hRazA"
 },
 {
-"name": "TVNET",
-"chars": 243,
-"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ1BZT1kxSDd3UDBGTjlCRDNBMHR5X2lfajB4bTh0d2l6Z2ZoRVdEbmFsZDRXR2Nkck1"
-},
-{
 "name": "LSM",
 "chars": 315,
 "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQUHpKN1UzMXlQemdoQnhhYlhGdkVWdFl0aS1VbjRFTHVxLTNpOWNrX0hxM3RVQnJTQ1l"
+},
+{
+"name": "TVNET",
+"chars": 243,
+"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ1BZT1kxSDd3UDBGTjlCRDNBMHR5X2lfajB4bTh0d2l6Z2ZoRVdEbmFsZDRXR2Nkck1"
 },
 {
 "name": "Sejas.lv",
@@ -2188,11 +2201,6 @@
 "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPUDJRYl9CYm5ZVnBDcmJsNzZJR0V4a0JSRkI4b1RfM1FzeFV6eF9LNklIbmc2bmFrZlN"
 },
 {
-"name": "BauskasDzive.lv",
-"chars": 197,
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1V0M29rSUVlWldOeFZ3U3hsVzdoYS1UWWdIY2J6bHh6cDU4ZER5R2NDZFZ1eXdZeVR"
-},
-{
 "name": "Mixnews",
 "chars": 203,
 "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU3A3OENJQzFqbU5JWWQyUmhEaEJnMFYzb0xMdTZHelE2ZmFCRXJHT1BEcnBscE5YaGx"
@@ -2213,19 +2221,14 @@
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR1k3bm9SWGM5Zm1HaW4zMURrb0RySGdvaVZ1RUtaaDZXaFI2N2hOQ0h3UWJHUGJ3S2R"
 },
 {
+"name": "Otkrito.lv",
+"chars": 215,
+"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS0tnQ2c1cVNWZmw0MnVWZXpNakF0MTI4ZDRLOGRac2QwcDJjOXZtRFYwM001RVNFci0"
+},
+{
 "name": "DELFI",
 "chars": 215,
 "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV3RrZGlUMFo0RWUzQ1JNangtdXVNQWg3X0llM0c3R3hJWGdHVnktd2ZieVVvMUpLeFB"
-},
-{
-"name": "Otkrito.lv",
-"chars": 207,
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaEpPUktYcWxNZnJ5VjdGclV4eHZCUndnVlpIQlFLRjFldHktOS1MUlY0Ym9PemNoQlF"
-},
-{
-"name": "rus tvnet",
-"chars": 201,
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUE15STFqazFZSlVNekVpbS1RbG5fazFFTGRid0xxU0VhanduSmsybGVVSjl0SGxWWF8"
 },
 {
 "name": "LSM",
@@ -2234,8 +2237,8 @@
 },
 {
 "name": "Otkrito.lv",
-"chars": 201,
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWY1ZDZiTFpGTTNsSVZDVTEtTm5NNUJiOVJwanBDdi1LSVNXc0dBZUNTRjdqRFp0bE1"
+"chars": 207,
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaEpPUktYcWxNZnJ5VjdGclV4eHZCUndnVlpIQlFLRjFldHktOS1MUlY0Ym9PemNoQlF"
 },
 {
 "name": "LSM",
@@ -2244,13 +2247,18 @@
 },
 {
 "name": "Otkrito.lv",
-"chars": 215,
-"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRi1lSzBxbFZYZ2s1MGFwSnRCQVBpc2tncmVqT0c4U1d0YXJhb3FGd2RTYktYbWxDQnV"
+"chars": 201,
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWY1ZDZiTFpGTTNsSVZDVTEtTm5NNUJiOVJwanBDdi1LSVNXc0dBZUNTRjdqRFp0bE1"
 },
 {
 "name": "BB.LV",
 "chars": 199,
 "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMWdpSUV6dFFjeUh2UVpIaFBjbTVpVm1YcGZkOXl4QUw2MHpmbmgtWjFVTXl4NHRja2h"
+},
+{
+"name": "Otkrito.lv",
+"chars": 215,
+"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRi1lSzBxbFZYZ2s1MGFwSnRCQVBpc2tncmVqT0c4U1d0YXJhb3FGd2RTYktYbWxDQnV"
 },
 {
 "name": "Otkrito.lv",
@@ -2281,6 +2289,11 @@
 "name": "Otkrito.lv",
 "chars": 191,
 "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSnRKUk9LSVlzNEJ2eHpfNWc3cHk1cVlhRkFOZW05MThSNUF1eVU3bUxBX2FvNWx1Zjd"
+},
+{
+"name": "rus tvnet",
+"chars": 201,
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUE15STFqazFZSlVNekVpbS1RbG5fazFFTGRid0xxU0VhanduSmsybGVVSjl0SGxWWF8"
 },
 {
 "name": "Otkrito.lv",
@@ -2480,7 +2493,7 @@
 {
 "name": "noi.md",
 "chars": 233,
-"link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPdG5pbjJvaTFIdEV6YXdiSE5UNDk1TUJzSWphZTJjeWlsUUNjVWdGTG1Lb1M3clRCYlN"
+"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPLXhtdExQaXlndGFVdUJKOXdsME9Xc2U1cFFVX2lTOE1VQl8wRmRJb1ZLcDVYRWpXbzh"
 },
 {
 "name": "Блокнот Астрахань",
@@ -2491,11 +2504,6 @@
 "name": "Куда сходить в Москве",
 "chars": 203,
 "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQVB2THdDdFMyMVd1MHU0XzRLWElTOVJyMUJDUlNDby1MOWF1RnE4YXlyM0ozdkpoYmY"
-},
-{
-"name": "Смоленский государственный музей-заповед",
-"chars": 261,
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNenNiNFpPZDhfS1piTWlIbzZSa0FYcmp1STZmcjh1eFZTSWF4Z2E3TU1Jclp2TG9SLUJ"
 },
 {
 "name": "Peterburg2.ru",
@@ -2518,6 +2526,11 @@
 "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTmF2SGZWR1RCMWxpX2U4Q0JrdTFvRU9Ud1dzVm9SbFU4NDBlZDZ1bXlMMlpoQUo5aWp"
 },
 {
+"name": "73online.ru",
+"chars": 179,
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ0MxNFUwb1dWNF9QeEk4Q0t5UG9KZXFYTFd0QWpHSmFCNzZwNTlMcXZHN3h1eVhSLVh"
+},
+{
 "name": "Netall.ru",
 "chars": 149,
 "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SeHRyTGhFNWhZSlQwd1lOenRaNEtteUJpWEVhaEdoVW1Nemt1SXJaUUJaTU9URW45M2N"
@@ -2533,11 +2546,6 @@
 "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS2pUWHk0d1FMbmpvSXZoa2xXMGdwTDdSbS1nR3pyZEt1cVFaZlIxYzJxM05kVFpLVTk"
 },
 {
-"name": "73online.ru",
-"chars": 179,
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ0MxNFUwb1dWNF9QeEk4Q0t5UG9KZXFYTFd0QWpHSmFCNzZwNTlMcXZHN3h1eVhSLVh"
-},
-{
 "name": "Сельская новь",
 "chars": 215,
 "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNc2xaaFdYSVFncU9tay1kR3lKb1dOX1JYeU5yVFJrUENoVkx2aFM2ZGFWcmpKNnBNeWg"
@@ -2551,6 +2559,11 @@
 "name": "RUSSPASS Журнал",
 "chars": 189,
 "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVa0Y1SXhreHBNcGNfNjNHakZqemNGMENqYU50ZHBXTlNwU3NGSnlwVnBmbXFWV0hkR29"
+},
+{
+"name": "Улпресса - все новости Ульяновска",
+"chars": 219,
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSF9HaDlQLV9rNUVyb292TzdnS1JMVGtJbDU5UnpOZVVGSFRhakt4T2xWWFBGR2xHVWt"
 },
 {
 "name": "MSK1.RU",
@@ -2715,35 +2728,49 @@
 ],
 "found": [
 {
-"title": "Выставка «Тыквы и перцы 2026»",
+"title": "Выставка «Тыквы и перцы — 2026»",
+"date": "2026-10-21",
+"fit": "yes",
+"source": "rus.lsm.lv",
+"sid": ""
+},
+{
+"title": "Выставка «Ķirbjaugi un paprika 2026»",
 "date": "2026-10-21",
 "fit": "yes",
 "source": "jauns.lv",
 "sid": ""
 },
 {
-"title": "Поездка на узкоколейном поезде Мазбанитис",
+"title": "Фотовыставка «ДНК Украины. 100 дней в пути»",
+"date": "2026-10-14",
+"fit": "maybe",
+"source": "rus.lsm.lv",
+"sid": ""
+},
+{
+"title": "Ceļojums dejas pasaulē",
+"date": "2026-10-15",
+"fit": "yes",
+"source": "lsm.lv",
+"sid": ""
+},
+{
+"title": "Поездка на историческом узкоколейном поезде Мазбанитис",
 "date": "2026-10-22",
 "fit": "yes",
 "source": "rus.jauns.lv",
 "sid": "https://rus.jauns.lv/category/afisha/afisha-latvii"
 },
 {
-"title": "Выставка породистых домашних птиц и кроликов",
+"title": "Международная выставка породистых домашних птиц и кроликов",
 "date": "2026-10-24",
 "fit": "yes",
 "source": "rus.jauns.lv",
 "sid": "https://rus.jauns.lv/category/afisha/afisha-latvii"
 },
 {
-"title": "Spoku nakts takas 2026",
-"date": "2026-10-23",
-"fit": "maybe",
-"source": "rus.jauns.lv",
-"sid": "https://rus.jauns.lv/category/afisha/afisha-latvii"
-},
-{
-"title": "Индийско-латвийские танцы и праздник урожая",
+"title": "Indijas–Latvijas deju un ražas svētki",
 "date": "2026-10-17",
 "fit": "maybe",
 "source": "sejas.tvnet.lv",
@@ -2764,42 +2791,42 @@
 "sid": "https://www.kaskurkad.lv/viss/riga/jebkad"
 },
 {
-"title": "Multimediju jaunrades darbnīcas skolēnu rudens brīvlaikā",
-"date": "2026-10-19",
-"fit": "maybe",
-"source": "kaskurkad.lv",
-"sid": "https://www.kaskurkad.lv/viss/riga/jebkad"
-},
-{
-"title": "BILDES 2026 | «BILŽU» MŪZIĶU UN gVIŅU BĒRNU koncerts",
+"title": "BILDES 2026 | Bilžu mūziķu un gviņu bērnu koncerts",
 "date": "2026-10-25",
 "fit": "maybe",
 "source": "kaskurkad.lv",
 "sid": "https://www.kaskurkad.lv/viss/riga/jebkad"
 },
 {
-"title": "Сентиментальные ценности. Брантс и Воркале",
+"title": "Sentimentālās vērtības. Brants un Vorkale",
 "date": "2026-10-16",
 "fit": "maybe",
 "source": "kultura.riga.lv",
 "sid": "https://kultura.riga.lv/"
 },
 {
-"title": "Узоры времени — путь мастера",
+"title": "Laika raksti – meistara ceļš",
 "date": "2026-10-17",
 "fit": "maybe",
 "source": "kultura.riga.lv",
 "sid": "https://kultura.riga.lv/"
 },
 {
-"title": "Katrīna Dimanta & Zeltrači — Kalendārā svētki",
-"date": "2026-09-19",
+"title": "Bodies Evolution",
+"date": "2026-10-14",
 "fit": "maybe",
 "source": "bilesuserviss.lv",
 "sid": "https://www.bilesuserviss.lv/"
 },
 {
-"title": "Bērnu rīts. Tsirkus folie izrāde jauniešiem “IeTEKme”",
+"title": "Katrīna Dimanta & Zeltrači – 'Kalendārā Svētki'",
+"date": "2026-10-14",
+"fit": "maybe",
+"source": "bilesuserviss.lv",
+"sid": "https://www.bilesuserviss.lv/"
+},
+{
+"title": "Детское утро: цирковой спектакль «IeTEKme»",
 "date": "2026-10-24",
 "fit": "maybe",
 "source": "cirks.lv",
@@ -2813,7 +2840,7 @@
 "sid": "https://www.dabasmuzejs.gov.lv/"
 },
 {
-"title": "Выставка тыквенных растений и перца 2026",
+"title": "Выставка тыкв и перцев 2026",
 "date": "2026-10-21",
 "fit": "yes",
 "source": "dabasmuzejs.gov.lv",
@@ -2827,8 +2854,15 @@
 "sid": "https://www.dabasmuzejs.gov.lv/"
 },
 {
-"title": "Субботние занятия «Любознательные семьи»",
+"title": "Занятия «Суббота любознательных семей»",
 "date": "2026-10-17",
+"fit": "maybe",
+"source": "dabasmuzejs.gov.lv",
+"sid": "https://www.dabasmuzejs.gov.lv/"
+},
+{
+"title": "Осенние каникулы с Животным года — обыкновенной жабой",
+"date": "2026-10-21",
 "fit": "maybe",
 "source": "dabasmuzejs.gov.lv",
 "sid": "https://www.dabasmuzejs.gov.lv/"
@@ -2855,20 +2889,6 @@
 "sid": "https://www.visittukums.lv/lv/Pasakumi"
 },
 {
-"title": "Завтрак мам",
-"date": "2026-10-14",
-"fit": "yes",
-"source": "maminklub.lv",
-"sid": "https://maminklub.lv/"
-},
-{
-"title": "ContaKids nodarbības Māmiņu klubā",
-"date": "2026-10-17",
-"fit": "yes",
-"source": "maminuklubs.lv",
-"sid": "https://maminuklubs.lv/vecaku-skola/"
-},
-{
 "title": "Mazuļu skoliņa",
 "date": "2026-10-21",
 "fit": "yes",
@@ -2890,38 +2910,59 @@
 "sid": "https://maminuklubs.lv/vecaku-skola/"
 },
 {
-"title": "Книжный праздник «Грамату друдзис»",
+"title": "ContaKids nodarbības Māmiņu klubā",
 "date": "2026-10-17",
-"fit": "maybe",
-"source": "rigaplaza.lv",
-"sid": "https://www.rigaplaza.lv/notikumi"
+"fit": "yes",
+"source": "maminuklubs.lv",
+"sid": "https://maminuklubs.lv/vecaku-skola/"
 },
 {
-"title": "Игровая миссия на школьных каникулах",
+"title": "Attīstošās rotaļas ar fizioterapeiti",
+"date": "2026-10-20",
+"fit": "maybe",
+"source": "maminuklubs.lv",
+"sid": "https://maminuklubs.lv/vecaku-skola/"
+},
+{
+"title": "Завтрак мам в торговом центре",
+"date": "2026-10-14",
+"fit": "yes",
+"source": "maminklub.lv",
+"sid": "https://maminklub.lv/"
+},
+{
+"title": "Игровая миссия на каникулах школьников",
 "date": "2026-10-20",
 "fit": "maybe",
 "source": "akropoleriga.lv",
 "sid": "https://akropoleriga.lv/pasakumi/"
 },
 {
-"title": "Бесплатная программа на школьных каникулах",
-"date": "2026-10-19",
+"title": "Игровая миссия на каникулах школьников",
+"date": "2026-10-20",
 "fit": "maybe",
-"source": "akropoleriga.lv",
-"sid": "https://akropoleriga.lv/pasakumi/"
+"source": "akropolealfa.lv",
+"sid": "https://akropolealfa.lv/pasakumi/"
 },
 {
-"title": "Большая классная экскурсия",
-"date": "2026-04-14",
+"title": "Фестиваль «Книжная лихорадка»",
+"date": "2026-10-17",
 "fit": "maybe",
-"source": "akropoleriga.lv",
-"sid": "https://akropoleriga.lv/pasakumi/"
+"source": "rigaplaza.lv",
+"sid": "https://www.rigaplaza.lv/notikumi"
 },
 {
-"title": "Осенний семейный день",
+"title": "Осенний семейный день в библиотеке «Zinītis»",
 "date": "2026-10-17",
 "fit": "yes",
 "source": "Jelgava",
+"sid": ""
+},
+{
+"title": "Выставка тыквенных и перцевых растений",
+"date": "2026-10-14",
+"fit": "yes",
+"source": "LV portāls",
 "sid": ""
 }
 ]
@@ -3288,6 +3329,202 @@
 "l": "https://www.dabasmuzejs.gov.lv/lv/aktualitates/medalu-izstade-makslas-daba",
 "s": "Выставка медалей-произведений искусства. Посетителей приглашают посмотреть на природу с необычной точки зрения.",
 "p": ""
+},
+"93": {
+"t": "Завтрак мам в торговом центре",
+"a": "Встреча мам в торговом центре",
+"c": "mom",
+"city": "Рига",
+"dg": "2026-10-14",
+"d1": "2026-10-14",
+"d2": "2026-10-14",
+"time": "",
+"v": "Rīga Plaza",
+"l": "https://maminklub.lv/mk/zavtrak-mam-v-t-c-riga-plaza-uzhe-14-oktiabria-640341/",
+"s": "Встреча мам в торговом центре Rīga Plaza 14 октября.",
+"p": ""
+},
+"94": {
+"t": "Выставка тыквенных и перцевых растений",
+"a": "выставка растений в Музее природы",
+"c": "exhibition",
+"city": "Рига",
+"dg": "2026-10-14",
+"d1": "2026-10-14",
+"d2": "2026-10-14",
+"time": "",
+"v": "Dabas muzejs",
+"l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTl9BMkxwVFpBazdaYTZ1ZWJmdjhxMXN1X01BOUMyQ1dRMlRuRGo0NXY0WnRqVzh1UElua2JSejVhcERxQzc4TEFIakZYUFBpa0pPVjdmSVh1TXlQTEtLTTJhNUU3Q0QtV1d0dzhyX0pUZlVTeEpqSmlWaklwRHZTZVZQWGZKY1pvS0tybW9MRkVZQzZDUkJCRDVMMG45Z0tYR2J3?oc=5",
+"s": "Яркая выставка растений тыквы и перца в Музее природы.",
+"p": ""
+},
+"95": {
+"t": "Путешествие в мир танца",
+"a": "бесплатный концерт, открытие балетного фестиваля",
+"c": "mall",
+"city": "Рига",
+"dg": "2026-10-14",
+"d1": "2026-10-15",
+"d2": "2026-10-15",
+"time": "",
+"v": "tirdzniecības centra \"Origo\" ātrijs",
+"l": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/14.10.2026-autentiski-flamenko-ritmi-akrobatika-un-petera-vaska-muzika-ko-sagadajis-31-baltijas-baleta-festivals.a667473/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"s": "Бесплатный концерт в атриуме ТЦ «Origo», с которого открывается 31-й Международный Балтийский балетный фестиваль.",
+"p": "бесплатно"
+},
+"97": {
+"t": "Осенний семейный день в библиотеке «Zinītis»",
+"a": "семейный день в детской библиотеке",
+"c": "family",
+"city": "Елгава",
+"dg": "2026-10-14",
+"d1": "2026-10-17",
+"d2": "2026-10-17",
+"time": "",
+"v": "Bērnu un jauniešu bibliotēka “Zinītis”",
+"l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU1hoZi0xV0EtZzZ5RVB2RjdnQlZHeW01d0dPZGFBRmxjamxKTWloSnpSano4emVJVUFxbmNPQ3AxR3FvUk1VXzNBRDh1TGpHYnU2Nk9jcUJBMkVFQkFFbGZSN3JSbmxPTThhdHZrREtJV3FMdi00V1FkQUhQeWMtN2dzYVFOZzZGSUZRazZaT2xxYmdKcDNtNXp0dnJsSnNJdVV4dHdVN0NZa3JMQ19j?oc=5",
+"s": "Библиотека приглашает в субботу на осеннюю семейную программу.",
+"p": ""
+},
+"98": {
+"t": "Блошиный рынок в Кулдиге",
+"a": "ярмарка старых вещей и мелочей",
+"c": "folk",
+"city": "Кулдига",
+"dg": "2026-10-14",
+"d1": "2026-10-17",
+"d2": "2026-10-17",
+"time": "07:00",
+"v": "Kuldīgas pārtikas tirgū, Aizputes ielā 2A",
+"l": "https://kalendars.kuldigasnovads.lv/",
+"s": "Ярмарка старых вещей и мелочей в Кулдиге, работает утром до 14:00.",
+"p": ""
+},
+"99": {
+"t": "Осенний базар школьников",
+"a": "детский осенний базар с изделиями учеников",
+"c": "folk",
+"city": "Тукумс",
+"dg": "2026-10-14",
+"d1": "2026-10-17",
+"d2": "2026-10-17",
+"time": "10:00",
+"v": "",
+"l": "https://www.visittukums.lv/lv/Pasakumi/0/6112",
+"s": "Осенняя ярмарка, где можно купить подарки, сделанные самими школьниками.",
+"p": ""
+},
+"100": {
+"t": "Занятия ContaKids в клубе мам",
+"a": "Занятие движением и игрой для семьи",
+"c": "mom",
+"city": "Рига",
+"dg": "2026-10-14",
+"d1": "2026-10-17",
+"d2": "2026-10-17",
+"time": "10:30",
+"v": "Vecāku skola",
+"l": "https://maminuklubs.lv/vecaku-skola/contakids-nodarbibas-maminu-kluba-kustiba-rotala-un-tuviba-gimenei-14263/",
+"s": "Занятие длительностью 45 минут: движение, игра и близость с ребёнком.",
+"p": "€ 40"
+},
+"102": {
+"t": "Выставка «Тыквы и перцы 2026»",
+"a": "Выставка тыкв, перцев и экзотических растений",
+"c": "exhibition",
+"city": "Рига",
+"dg": "2026-10-14",
+"d1": "2026-10-21",
+"d2": "2026-10-25",
+"time": "10:00",
+"v": "Latvijas Nacionālais dabas muzejs",
+"l": "https://jauns.lv/raksts/zinas/733172-latvijas-nacionalais-dabas-muzejs-aicina-uz-krasno-kirbjaugu-un-paprikas-izstadi",
+"s": "Около 300 сортов тыкв, 60 сортов перца и 40 видов чили. Можно проголосовать за самую красивую тыкву, трое посетителей получат тыкву в подарок.",
+"p": ""
+},
+"103": {
+"t": "Mazuļu skoliņa",
+"a": "Занятие для мам с малышами",
+"c": "mom",
+"city": "Рига",
+"dg": "2026-10-14",
+"d1": "2026-10-21",
+"d2": "2026-10-21",
+"time": "11:00",
+"v": "Vecāku skola",
+"l": "https://maminuklubs.lv/vecaku-skola/schedule/25896/",
+"s": "Занятие с педагогом длительностью один час.",
+"p": ""
+},
+"104": {
+"t": "Поездка на историческом узкоколейном поезде Мазбанитис",
+"a": "Исторический поезд в музее под открытым небом",
+"c": "family",
+"city": "Вентспилс",
+"dg": "2026-10-14",
+"d1": "2026-10-22",
+"d2": "2026-10-25",
+"time": "11:00",
+"v": "Приморский музей под открытым небом",
+"l": "https://rus.jauns.lv/article/afisha/732906-poezdka-na-starinnom-poezde-i-tainy-srednevekovogo-zamka-kuda-otpravitsia-s-detmi-na-kanikulax",
+"s": "Поездка на узкоколейном поезде Мазбанитис, которому 110 лет. Он курсирует в Приморском музее под открытым небом с 11:00 до 17:00.",
+"p": ""
+},
+"105": {
+"t": "Mazuļu skoliņa",
+"a": "Занятие для мам с малышами",
+"c": "mom",
+"city": "Рига",
+"dg": "2026-10-14",
+"d1": "2026-10-23",
+"d2": "2026-10-23",
+"time": "10:00",
+"v": "Vecāku skola",
+"l": "https://maminuklubs.lv/vecaku-skola/schedule/25900/",
+"s": "Занятие с педагогом длительностью один час.",
+"p": "€ 20"
+},
+"107": {
+"t": "Международная выставка породистых домашних птиц и кроликов",
+"a": "Выставка птиц и кроликов с продажей животных",
+"c": "exhibition",
+"city": "Мадона",
+"dg": "2026-10-14",
+"d1": "2026-10-24",
+"d2": "2026-10-25",
+"time": "08:00",
+"v": "Мадонский спортивный центр",
+"l": "https://rus.jauns.lv/article/afisha/732905-neobycnye-pticy-i-sotni-krolikov-na-vystavke-v-madone-mozno-ix-ne-tolko-posmotret-no-i-priobresti",
+"s": "Сотни животных разных пород и заводчики из Латвии, Литвы и Эстонии. Работает торговая зона, фермерские продукты и изделия ремесленников. Торжественное открытие 24 октября в 10:00.",
+"p": ""
+},
+"109": {
+"t": "Mazuļu skoliņa",
+"a": "Занятие для мам с малышами",
+"c": "mom",
+"city": "Рига",
+"dg": "2026-10-14",
+"d1": "2026-10-28",
+"d2": "2026-10-28",
+"time": "11:00",
+"v": "Vecāku skola",
+"l": "https://maminuklubs.lv/vecaku-skola/schedule/25897/",
+"s": "Занятие с педагогом длительностью один час.",
+"p": "€ 20"
+},
+"111": {
+"t": "Выставка медалей «Искусство природы»",
+"a": "художественная выставка о природе",
+"c": "exhibition",
+"city": "Рига",
+"dg": "2026-10-14",
+"d1": "2026-10-07",
+"d2": "2027-02-21",
+"time": "",
+"v": "Latvijas Nacionālais dabas muzejs",
+"l": "https://www.dabasmuzejs.gov.lv/lv/aktualitates/medalu-izstade-makslas-daba",
+"s": "Выставка медалей, показывающих природу с необычной точки зрения. Открыта с 7 октября по 21 февраля.",
+"p": ""
 }
 },
 "digest_events": {
@@ -3295,88 +3532,114 @@
 "events": [
 {
 "title": "Выставка медалей «Искусство природы»",
-"about": "Художественная выставка медалей о природе",
+"about": "художественная выставка о природе",
 "cat": "exhibition",
 "venue": "Latvijas Nacionālais dabas muzejs",
 "city": "Рига",
 "link": "https://www.dabasmuzejs.gov.lv/lv/aktualitates/medalu-izstade-makslas-daba",
-"summary": "Выставка медалей-произведений искусства. Посетителей приглашают посмотреть на природу с необычной точки зрения.",
+"summary": "Выставка медалей, показывающих природу с необычной точки зрения. Открыта с 7 октября по 21 февраля.",
 "d1": "2026-10-07",
 "d2": "2027-02-21",
 "drive": 0
 },
 {
-"title": "Завтрак мам",
+"title": "Завтрак мам в торговом центре",
 "about": "Встреча мам в торговом центре",
 "cat": "mom",
 "venue": "Rīga Plaza",
 "city": "Рига",
 "link": "https://maminklub.lv/mk/zavtrak-mam-v-t-c-riga-plaza-uzhe-14-oktiabria-640341/",
-"summary": "Встреча мам в торговом центре Rīga Plaza.",
+"summary": "Встреча мам в торговом центре Rīga Plaza 14 октября.",
 "d1": "2026-10-14",
 "d2": "2026-10-14",
 "drive": 0
 },
 {
-"title": "Осенний семейный день",
-"about": "семейный день с осенними активностями",
+"title": "Выставка тыквенных и перцевых растений",
+"about": "выставка растений в Музее природы",
+"cat": "exhibition",
+"venue": "Dabas muzejs",
+"city": "Рига",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTl9BMkxwVFpBazdaYTZ1ZWJmdjhxMXN1X01BOUMyQ1dRMlRuRGo0NXY0WnRqVzh1UElua2JSejVhcERxQzc4TEFIakZYUFBpa0pPVjdmSVh1TXlQTEtLTTJhNUU3Q0QtV1d0dzhyX0pUZlVTeEpqSmlWaklwRHZTZVZQWGZKY1pvS0tybW9MRkVZQzZDUkJCRDVMMG45Z0tYR2J3?oc=5",
+"summary": "Яркая выставка растений тыквы и перца в Музее природы.",
+"d1": "2026-10-14",
+"d2": "2026-10-14",
+"drive": 0
+},
+{
+"title": "Путешествие в мир танца",
+"about": "бесплатный концерт, открытие балетного фестиваля",
+"cat": "mall",
+"venue": "tirdzniecības centra \"Origo\" ātrijs",
+"city": "Рига",
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/14.10.2026-autentiski-flamenko-ritmi-akrobatika-un-petera-vaska-muzika-ko-sagadajis-31-baltijas-baleta-festivals.a667473/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"free": true,
+"price": "бесплатно",
+"summary": "Бесплатный концерт в атриуме ТЦ «Origo», с которого открывается 31-й Международный Балтийский балетный фестиваль.",
+"d1": "2026-10-15",
+"d2": "2026-10-15",
+"drive": 0
+},
+{
+"title": "Осенний семейный день в библиотеке «Zinītis»",
+"about": "семейный день в детской библиотеке",
 "cat": "family",
 "venue": "Bērnu un jauniešu bibliotēka “Zinītis”",
 "city": "Елгава",
 "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU1hoZi0xV0EtZzZ5RVB2RjdnQlZHeW01d0dPZGFBRmxjamxKTWloSnpSano4emVJVUFxbmNPQ3AxR3FvUk1VXzNBRDh1TGpHYnU2Nk9jcUJBMkVFQkFFbGZSN3JSbmxPTThhdHZrREtJV3FMdi00V1FkQUhQeWMtN2dzYVFOZzZGSUZRazZaT2xxYmdKcDNtNXp0dnJsSnNJdVV4dHdVN0NZa3JMQ19j?oc=5",
-"summary": "Семейный день с осенними активностями в детско-молодёжной библиотеке в субботу. Подробной программы в источнике нет.",
+"summary": "Библиотека приглашает в субботу на осеннюю семейную программу.",
 "d1": "2026-10-17",
 "d2": "2026-10-17",
 "drive": 50
 },
 {
 "title": "Блошиный рынок в Кулдиге",
-"about": "блошиный рынок, разовая ярмарка",
+"about": "ярмарка старых вещей и мелочей",
 "cat": "folk",
 "time": "07:00",
-"venue": "Kuldīgas pārtikas tirgus, Aizputes iela 2A",
+"venue": "Kuldīgas pārtikas tirgū, Aizputes ielā 2A",
 "city": "Кулдига",
-"link": "https://kalendars.kuldigasnovads.lv/event/kramu-tirgus-kuldiga/",
-"summary": "Ярмарка старых вещей и предметов с 07:00 до 14:00.",
+"link": "https://kalendars.kuldigasnovads.lv/",
+"summary": "Ярмарка старых вещей и мелочей в Кулдиге, работает утром до 14:00.",
 "d1": "2026-10-17",
 "d2": "2026-10-17",
 "drive": 135
 },
 {
-"title": "Осенняя ярмарка школьников",
-"about": "детская ярмарка изделий школьников",
+"title": "Осенний базар школьников",
+"about": "детский осенний базар с изделиями учеников",
 "cat": "folk",
 "time": "10:00",
 "city": "Тукумс",
 "link": "https://www.visittukums.lv/lv/Pasakumi/0/6112",
-"summary": "Ярмарка, где школьники продают сделанные своими руками подарки.",
+"summary": "Осенняя ярмарка, где можно купить подарки, сделанные самими школьниками.",
 "d1": "2026-10-17",
 "d2": "2026-10-17",
 "drive": 60
 },
 {
 "title": "Занятия ContaKids в клубе мам",
-"about": "Занятия «мама + малыш» с движением",
+"about": "Занятие движением и игрой для семьи",
 "cat": "mom",
 "time": "10:30",
 "venue": "Vecāku skola",
 "city": "Рига",
-"link": "https://maminuklubs.lv/vecaku-skola/schedule/25892/",
-"summary": "Занятия ContaKids: движение, игра и близость с ребёнком, около 45 минут.",
+"link": "https://maminuklubs.lv/vecaku-skola/contakids-nodarbibas-maminu-kluba-kustiba-rotala-un-tuviba-gimenei-14263/",
+"price": "€ 40",
+"summary": "Занятие длительностью 45 минут: движение, игра и близость с ребёнком.",
 "d1": "2026-10-17",
 "d2": "2026-10-17",
-"drive": 0,
-"tip": "Малышу понравятся движение, игры и близость с мамой на занятиях ContaKids, а занятие идёт около 45 минут, это подходящая длительность. Событие в Риге, поэтому дорога короткая. Возьмите удобную одежду без лишних слоёв и пару любимых игрушек."
+"drive": 0
 },
 {
 "title": "Выставка «Тыквы и перцы 2026»",
-"about": "выставка тыкв, перцев и экзотических растений",
+"about": "Выставка тыкв, перцев и экзотических растений",
 "cat": "exhibition",
 "time": "10:00",
 "venue": "Latvijas Nacionālais dabas muzejs",
 "city": "Рига",
 "link": "https://jauns.lv/raksts/zinas/733172-latvijas-nacionalais-dabas-muzejs-aicina-uz-krasno-kirbjaugu-un-paprikas-izstadi",
-"summary": "Около 300 сортов тыкв, 60 сортов перца и 40 видов чили. Посетители смогут проголосовать за самую красивую тыкву, получить консультации по выращиванию овощей и купить семена.",
+"summary": "Около 300 сортов тыкв, 60 сортов перца и 40 видов чили. Можно проголосовать за самую красивую тыкву, трое посетителей получат тыкву в подарок.",
 "d1": "2026-10-21",
 "d2": "2026-10-25",
 "drive": 0
@@ -3389,20 +3652,20 @@
 "venue": "Vecāku skola",
 "city": "Рига",
 "link": "https://maminuklubs.lv/vecaku-skola/schedule/25896/",
-"summary": "Занятие педагога для мам с малышами, около 1 часа.",
+"summary": "Занятие с педагогом длительностью один час.",
 "d1": "2026-10-21",
 "d2": "2026-10-21",
 "drive": 0
 },
 {
-"title": "Поездка на узкоколейном поезде Мазбанитис",
-"about": "Историческая поездка и музейные занятия на каникулах",
+"title": "Поездка на историческом узкоколейном поезде Мазбанитис",
+"about": "Исторический поезд в музее под открытым небом",
 "cat": "family",
 "time": "11:00",
 "venue": "Приморский музей под открытым небом",
 "city": "Вентспилс",
 "link": "https://rus.jauns.lv/article/afisha/732906-poezdka-na-starinnom-poezde-i-tainy-srednevekovogo-zamka-kuda-otpravitsia-s-detmi-na-kanikulax",
-"summary": "На осенних каникулах в Вентспилсском музее: поездка на узкоколейном поезде Мазбанитис (110 лет) в Приморском музее под открытым небом, интерактивная выставка в замке Ливонского ордена и творческие занятия. Занятия по записи к музейному педагогу.",
+"summary": "Поездка на узкоколейном поезде Мазбанитис, которому 110 лет. Он курсирует в Приморском музее под открытым небом с 11:00 до 17:00.",
 "d1": "2026-10-22",
 "d2": "2026-10-25",
 "drive": 150
@@ -3415,24 +3678,24 @@
 "venue": "Vecāku skola",
 "city": "Рига",
 "link": "https://maminuklubs.lv/vecaku-skola/schedule/25900/",
-"summary": "Занятие педагога для мам с малышами, около 1 часа.",
+"price": "€ 20",
+"summary": "Занятие с педагогом длительностью один час.",
 "d1": "2026-10-23",
 "d2": "2026-10-23",
 "drive": 0
 },
 {
-"title": "Выставка породистых домашних птиц и кроликов",
-"about": "Международная выставка птиц и кроликов с продажей",
+"title": "Международная выставка породистых домашних птиц и кроликов",
+"about": "Выставка птиц и кроликов с продажей животных",
 "cat": "exhibition",
 "time": "08:00",
 "venue": "Мадонский спортивный центр",
 "city": "Мадона",
 "link": "https://rus.jauns.lv/article/afisha/732905-neobycnye-pticy-i-sotni-krolikov-na-vystavke-v-madone-mozno-ix-ne-tolko-posmotret-no-i-priobresti",
-"summary": "Вторая международная выставка породистых домашних птиц и кроликов: сотни животных разных пород, общение с заводчиками, фермерские продукты и ремесленные изделия. Оценка животных 23 октября, награждение 24 октября в 10:00.",
+"summary": "Сотни животных разных пород и заводчики из Латвии, Литвы и Эстонии. Работает торговая зона, фермерские продукты и изделия ремесленников. Торжественное открытие 24 октября в 10:00.",
 "d1": "2026-10-24",
 "d2": "2026-10-25",
-"drive": 130,
-"tip": "Малыш сможет увидеть живых птиц и кроликов вблизи, а это очень интересно в 1 год. Лучше приехать к 10:00, когда начинается награждение, и держаться поближе к клеткам, но не трогать животных без разрешения. Возьмите воду, перекус и тёплую одежду, так как в помещении может быть шумно."
+"drive": 130
 },
 {
 "title": "Mazuļu skoliņa",
@@ -3442,7 +3705,8 @@
 "venue": "Vecāku skola",
 "city": "Рига",
 "link": "https://maminuklubs.lv/vecaku-skola/schedule/25897/",
-"summary": "Занятие педагога для мам с малышами, около 1 часа.",
+"price": "€ 20",
+"summary": "Занятие с педагогом длительностью один час.",
 "d1": "2026-10-28",
 "d2": "2026-10-28",
 "drive": 0
