@@ -74,7 +74,7 @@ def load_settings():
                 "places_count": "3", "holidays_ahead_days": "21",
                 "monthly_budget_usd": "0.90", "model": "claude-haiku-5-5",
                 "show_diagnostics": "auto", "events_api_monthly_limit": "45",
-                "places_repeat_days": "28"}
+                "places_repeat_days": "28", "week_tips": "yes"}
     for k, v in defaults.items():
         s.setdefault(k, v)
     aliases = {"пн": 0, "по": 0, "вт": 1, "ср": 2, "чт": 3, "че": 3, "пт": 4, "пя": 4,
@@ -553,6 +553,65 @@ PLACES_PROMPT = """Кто идёт: {family}, {child}. Живут: {home}. Пр�
 """
 
 
+TIPS_PROMPT = """Ты — заботливый советчик для семьи: {family}, {child}. Живут: {home}.
+Прогноз на выходные:
+{weather}
+
+Ниже мероприятия из сводки. Для КАЖДОЙ недели выбери ОДНО самое интересное семейное
+мероприятие — то, куда стоит сходить в первую очередь: чтобы понравилось и родителям,
+и малышу, было необычным (не рядовое занятие), удобным по времени и с учётом погоды.
+Выбирай только событие, которое проходит в эту неделю.
+
+{weeks}
+
+Ответь ТОЛЬКО JSON-массивом, по одному объекту на неделю:
+[{{"week": номер_недели, "n": номер_мероприятия,
+   "why": "2–3 коротких предложения по-русски: чем событие интересно и практичный совет (когда лучше прийти, что взять, на что обратить внимание)"}}]
+
+МЕРОПРИЯТИЯ:
+{events}
+"""
+
+
+def week_tips(events, cfg, state, wx, start, end):
+    """Совет ИИ: по одному главному событию на каждую неделю периода."""
+    weeks, d = [], start
+    while d <= end:
+        weeks.append((d, min(d + dt.timedelta(days=6), end)))
+        d += dt.timedelta(days=7)
+    if len(weeks) > 1 and (weeks[-1][1] - weeks[-1][0]).days < 3:   # хвост из 1–3 дней
+        weeks[-2:] = [(weeks[-2][0], weeks[-1][1])]                  # присоединяем к прошлой неделе
+    if not events or not weeks:
+        return []
+    lines = []
+    for i, e in enumerate(events, 1):
+        when = f"{e['_d1']:%d.%m}" + ("" if e["_d2"] == e["_d1"] else f"–{e['_d2']:%d.%m}")
+        lines.append(f"[{i}] {when} {e.get('time') or ''} | {e.get('title')} | "
+                     f"{e.get('venue') or ''}, {e.get('city') or ''} | "
+                     f"{'бесплатно' if e.get('free') else e.get('price') or ''} | "
+                     f"{e.get('about') or ''}. {e.get('summary') or ''}")
+    wtext = "\n".join(f"Неделя {k}: {a:%d.%m}–{b:%d.%m}" for k, (a, b) in enumerate(weeks, 1))
+    res = claude(TIPS_PROMPT.format(family=cfg["family"], child=cfg["child"],
+                                    home=cfg["home_city"], weather="\n".join(wx) or "неизвестен",
+                                    weeks=wtext, events="\n".join(lines)),
+                 state, cfg, max_tokens=1500)
+    out, used = [], set()
+    for t in res:
+        try:
+            k, n = int(t.get("week")), int(t.get("n"))
+        except (TypeError, ValueError):
+            continue
+        if not (1 <= k <= len(weeks)) or not (1 <= n <= len(events)) or k in used:
+            continue
+        e = events[n - 1]
+        a, b = weeks[k - 1]
+        if e["_d1"] > b or e["_d2"] < a:              # событие не в эту неделю
+            continue
+        used.add(k)
+        out.append((k, a, b, e, str(t.get("why") or "")))
+    return sorted(out, key=lambda x: x[0])
+
+
 def parse_objects(text):
     """Достаёт из ответа все JSON-объекты {…}, даже если массив оборван или окружён текстом."""
     dec, out, i = json.JSONDecoder(), [], 0
@@ -890,7 +949,24 @@ def run_digest(state, cfg, today):
     if places:
         blocks.append(f"{SEP}\n🏠 <b>КУДА ЕЩЁ СХОДИТЬ</b>\n" + "\n\n".join(
             f"• <b>{esc(p.get('name'))}</b>\n{esc(p.get('why'))}" for p in places))
-    mode = cfg["show_diagnostics"].lower()
+    tips = []
+    if cfg["week_tips"].lower() in ("yes", "да", "on", "1"):
+        try:
+            tips = week_tips(events, cfg, state, wx, start, end)
+        except BudgetExceeded:
+            pass
+        except Exception as e:
+            print("Совет недели:", e)
+    if tips:
+        parts = []
+        for k, a, b, e, why in tips:
+            head = f"<b>{a.day} {MONTHS[a.month - 1]} – {b.day} {MONTHS[b.month - 1]}:</b> "
+            title = f"{emoji.get(e.get('cat'), '•')} <b>{esc(e.get('title'))}</b>"
+            if e.get("link"):
+                title += f' · <a href="{esc(e["link"])}">подробнее</a>'
+            parts.append(f"{head}\n{title}\n<blockquote>{esc(why)}</blockquote>")
+        blocks.append(f"{SEP}\n⭐ <b>СОВЕТ НЕДЕЛИ</b>\n<i>что ИИ выбрал бы сам</i>\n\n" + "\n\n".join(parts))
+    mode =cfg["show_diagnostics"].lower()
     problems = mode == "always" or (mode != "never" and (
         DIAG["ai_errors"] or len(events) < 3 or DIAG["truncated"] or DIAG["pages_failed"]
         or (cfg["places_count"] > 0 and not places)
