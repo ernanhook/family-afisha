@@ -32,7 +32,6 @@ TZ = ZoneInfo("Europe/Riga")
 STATE_FILE = os.path.join(HERE, "state.json")
 PAGE_CHARS = 12000        # сколько текста одной страницы отдавать ИИ
 CHUNK_CHARS = 25000       # меньше кусок — ИИ внимательнее читает каждый источник
-PRICE_IN, PRICE_OUT = 0.10 / 1e6, 0.50 / 1e6   # Claude Haiku 5.5, $ за токен
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) LatviaFamilyEvents/2.0"}
 WD = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"]
 WD_KEYS = ["пн", "вт", "ср", "чт", "пт", "сб", "вс"]
@@ -78,7 +77,8 @@ def load_settings():
                 "monthly_budget_usd": "0.90", "model": "claude-haiku-5-5",
                 "show_diagnostics": "auto", "events_api_monthly_limit": "45",
                 "places_repeat_days": "28", "week_tips": "yes", "child_birth": "",
-                "weekend_reminder": "пт 18", "urgent_per_week": "2", "max_cards": "30"}
+                "weekend_reminder": "пт 18", "urgent_per_week": "2", "max_cards": "30",
+                "proofread_model": "claude-sonnet-5-5"}
     for k, v in defaults.items():
         s.setdefault(k, v)
     aliases = {"пн": 0, "по": 0, "вт": 1, "ср": 2, "чт": 3, "че": 3, "пт": 4, "пя": 4,
@@ -611,14 +611,16 @@ EVENTS_PROMPT = """Ты помогаешь семье найти, куда сх�
 [{{"n": номер_источника, "fit": "yes|maybe", "cat": "код категории",
    "why_not": "если fit=maybe — коротко по-русски почему не идеально (например «для школьников»), иначе ''",
    "title": "короткое название самого события (до 8 слов), без названия города в конце, без
-             хвостов заголовка новости вроде «aicina uz…» или «- Jelgava»",
+             хвостов заголовка новости вроде «aicina uz…» или «- Jelgava»; либо грамотный русский
+             перевод, либо оригинальное название целиком — никогда не смешивай латиницу и кириллицу
+             и не транслитерируй латышские слова русскими буквами",
    "about": "что это, 3–8 слов по-русски",
    "summary": "аннотация: 1–2 коротких предложения по-русски — о чём мероприятие и что там
                будет (сюжет, программа, длительность); только факты из источника, ничего не
                придумывай; если подробностей нет — ''; не пиши, чего в источнике нет
                (никаких «время не указано»)",
    "date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD или ''", "time": "HH:MM или ''",
-   "city": "город по-русски (Рига, Елгава, Юрмала)",
+   "city": "город привычным русским названием (Рига, Юрмала, Елгава, Тукумс, Кулдига, Цесис)",
    "venue": "название места как в источнике, на языке источника, без перевода и транслитерации, или ''", "age": "возраст, если указан, иначе ''",
    "price": "цена, если указана, иначе ''", "free": true/false,
    "sold_out": true, если в источнике сказано, что билеты распроданы (izpārdots, sold out), иначе false,
@@ -758,6 +760,65 @@ def week_tips(events, cfg, state, wx_text, start, end):
     return sorted(out, key=lambda x: x[0])
 
 
+PROOF_PROMPT = """Ты — редактор семейной афиши в Telegram. Ниже карточки событий в Латвии,
+которые быстро написала другая модель по латышским и русским источникам. Исправь русский язык:
+- орфографию, грамматику, согласование («осенний ярмарка» → «осенняя ярмарка»), опечатки,
+  разорванные и склеенные слова («в муз ее» → «в музее»);
+- бессмыслицу и недопереводы: восстанови нормальное русское название по смыслу, опираясь на
+  место проведения («Рудени́вая Семейная диня» → «Осенний семейный день»);
+- в одном слове не должно быть смеси латиницы и кириллицы («в Куldīге» → «в Кулдиге»,
+  «ContaKids нодарбības» → «Занятия ContaKids»); латышские слова не пиши русскими буквами;
+- title — грамотный русский перевод или оригинальное название целиком, если это имя собственное
+  (ContaKids, Mazuļu skoliņa, «Mākslas daba» можно оставить как есть);
+- city — привычное русское название: Рига, Юрмала, Елгава, Тукумс, Кулдига, Вентспилс,
+  Лиепая, Цесис, Сигулда, Валмиера, Мадона, Огре, Саласпилс, Бауска, Добеле, Даугавпилс;
+- тон спокойный и живой, без канцелярита.
+НЕЛЬЗЯ: добавлять факты, менять даты, время, цены, возраст и смысл, делать текст длиннее.
+Поле venue дано только для понимания — его не возвращай. Хорошее поле верни как есть.
+Ответь ТОЛЬКО JSON-массивом объектов с тем же "i" и теми же полями, что во входе.
+
+КАРТОЧКИ:
+{items}
+"""
+
+
+def proofread(groups, state, cfg):
+    """Вычитка русского текста более сильной моделью. groups: [(объект, [поля])]."""
+    model = str(cfg.get("proofread_model") or "").strip()
+    if not model or model.lower() in ("no", "нет", "off") or not groups:
+        return
+    items, refs = [], []
+    for obj, fields in groups:
+        item = {f: str(obj.get(f)) for f in fields if obj.get(f)}
+        if not item:
+            continue
+        refs.append((obj, list(item)))
+        item["i"] = len(refs)
+        if obj.get("venue"):
+            item["venue"] = obj["venue"]
+        items.append(item)
+    if not items:
+        return
+    try:
+        res = claude(PROOF_PROMPT.format(items=json.dumps(items, ensure_ascii=False, indent=0)),
+                     state, cfg, max_tokens=8000, model=model)
+    except BudgetExceeded:
+        return
+    fixed = 0
+    for r in res:
+        try:
+            obj, fields = refs[int(r.get("i")) - 1]
+        except (TypeError, ValueError, IndexError):
+            continue
+        for f in fields:
+            new, old = fix_ru(" ".join(str(r.get(f) or "").split())), str(obj.get(f) or "")
+            if new and new != old and len(new) <= len(old) * 1.6 + 30:   # без «сочинений»
+                obj[f] = new
+                fixed += 1
+    print(f"[proofread] {model}: карточек {len(items)}, исправлено полей {fixed}")
+    DIAG["proofread"] = fixed
+
+
 def ai_dedupe(events, state, cfg):
     """Склеивает одно и то же событие из разных источников (в т.ч. на разных языках)."""
     if len(events) < 2:
@@ -775,7 +836,13 @@ def ai_dedupe(events, state, cfg):
             continue
         # все в группе должны пересекаться по датам с первым — иначе это не повтор
         first = events[idx[0]]
-        idx = [i for i in idx if events[i]["_d1"] <= first["_d2"] and events[i]["_d2"] >= first["_d1"]]
+        town = drive_minutes(first)
+
+        def same(e):                       # те же даты и тот же город — иначе это не повтор
+            t = drive_minutes(e)
+            return (e["_d1"] <= first["_d2"] and e["_d2"] >= first["_d1"]
+                    and (town is None or t is None or t == town))
+        idx = [i for i in idx if same(events[i])]
         if len(idx) < 2:
             continue
 
@@ -817,13 +884,18 @@ def parse_objects(text):
             i += 1
 
 
-def claude(prompt, state, cfg, max_tokens=8000):
+PRICES = {"haiku": (0.10, 0.50), "sonnet": (2.0, 10.0), "opus": (4.0, 20.0)}   # $ за 1 млн токенов
+
+
+def claude(prompt, state, cfg, max_tokens=8000, model=None):
+    model = model or cfg["model"]
+    p_in, p_out = next((v for k, v in PRICES.items() if k in model), PRICES["haiku"])
     u = state["usage"]
     if u["cost"] >= cfg["monthly_budget_usd"]:
         raise BudgetExceeded()
     headers = {"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
-    payload = {"model": cfg["model"], "max_tokens": max_tokens,
+    payload = {"model": model, "max_tokens": max_tokens,
                "system": "Отвечай сразу JSON-массивом, без рассуждений, пояснений и markdown. "
                          "Текстовые поля about, summary, why и why_not пиши по-русски, только "
                          "русскими буквами (никаких украинских і, ї, є и казахских ң, қ, ү).",
@@ -856,7 +928,7 @@ def claude(prompt, state, cfg, max_tokens=8000):
         us = j.get("usage", {})
         tin = (us.get("input_tokens", 0) + us.get("cache_creation_input_tokens", 0)
                + us.get("cache_read_input_tokens", 0))
-        u["cost"] += tin * PRICE_IN + us.get("output_tokens", 0) * PRICE_OUT
+        u["cost"] += (tin * p_in + us.get("output_tokens", 0) * p_out) / 1e6
         u["calls"] = u.get("calls", 0) + 1
         DIAG["ai_calls"] += 1
         if j.get("stop_reason") == "max_tokens":
@@ -1038,7 +1110,7 @@ NON_RU = str.maketrans({"і": "и", "І": "И", "ї": "и", "Ї": "И", "є": "�
 
 
 def fix_ru(s):
-    return str(s or "").translate(NON_RU)
+    return str(s or "").translate(NON_RU).replace("\u0301", "")    # и без знаков ударения
 
 
 def _norm(s):
@@ -1256,23 +1328,31 @@ def ev_from_state(d):
 
 
 # ================= Повторы =================
+def _week(v):
+    d = parse_date(v)
+    return "%d-W%02d" % d.isocalendar()[:2] if d else str(v)
+
+
 def dedupe(events, state, period):
-    """Убирает дубли. Длинная выставка показывается в сводке за один период (неделю);
-    повторные запуски за тот же период её не теряют, а в следующие недели она скрыта."""
+    """Убирает дубли. Долгую выставку, которая уже идёт (началась раньше периода и длится
+    неделю и больше), показываем в сводке одной недели: повторные запуски на той же неделе её
+    не теряют, а со следующей недели она скрыта. Короткие и будущие события не скрываются."""
     out, keys = [], set()
     shown = state.get("shown_ongoing", {})
     if isinstance(shown, list):                    # старый формат — просто сбрасываем
         shown = {}
+    start = parse_date(period)
+    week = _week(period)
     for ev in sorted(events, key=lambda e: (e["_d1"], e.get("time") or "")):
         title = re.sub(r"[^\w]+", "", str(ev.get("title", "")).lower())
         k = key(title, ev["_d1"].isoformat())
         if k in keys:
             continue
-        if ev.get("ongoing"):
+        if start and ev["_d1"] < start and (ev["_d2"] - ev["_d1"]).days >= 7:
             ok = key(title, ev.get("venue", ""))
-            if ok in shown and shown[ok] != period:
-                continue
-            shown[ok] = period
+            if ok in shown and _week(shown[ok]) < week:
+                continue                            # уже показывали на прошлых неделях
+            shown.setdefault(ok, week)
         keys.add(k)
         out.append(ev)
     state["shown_ongoing"] = dict(list(shown.items())[-500:])
@@ -1687,6 +1767,11 @@ def run_digest(state, cfg, today):
             print("Совет недели:", e)
     for k, a, b, e, why in tips:
         e["_tip"] = why or "—"
+    proofread([(e, ["title", "about", "summary", "city", "_tip"]) for e in events]
+              + [(e, ["title", "why_not", "city"]) for e in maybe]
+              + [(p, ["why"]) for p in places], state, cfg)
+    for k, (wk, a, b, e, why) in enumerate(tips):      # совет недели берём уже вычитанным
+        tips[k] = (wk, a, b, e, e.get("_tip") if e.get("_tip") not in (None, "—") else why)
     resolve_gnews(events + maybe)
 
     send_digest(state, cfg, today, start, end, events, maybe, wx, places, tips, warnings, emoji)
@@ -1832,6 +1917,7 @@ def urgent_check(state, cfg, now):
             continue
         e = evs[0]
         e["_drive"] = drive_minutes(e)
+        proofread([(e, ["title", "about", "summary", "city"])], state, cfg)
         send_card(e, emoji, state, today, end, today.isoformat(), notify=True,
                   prefix=f"⚡ <b>ТОЛЬКО ЧТО ОБЪЯВИЛИ</b>\n<i>не стал ждать "
                          f"{WD_GEN[cfg['digest_weekday']]} — это стоит запланировать</i>\n\n")
