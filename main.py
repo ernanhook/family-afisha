@@ -1550,15 +1550,29 @@ def reaction_vote(reactions):
     return v
 
 
+YES_WORDS = {"+", "да", "хочу", "идём", "идем", "пойдём", "пойдем", "го", "ок", "берём", "берем"}
+NO_WORDS = {"-", "–", "—", "нет", "мимо", "не хочу", "не интересно", "неинтересно", "не пойдём",
+            "не пойдем"}
+
+
 def text_vote(t):
-    t = _emo(t).strip().lower()
-    if not t or len(t) > 80:
+    """Ответ на карточку считается оценкой, только если в нём ничего, кроме оценки:
+    «👍», «❤️», «да», «+» или «👎», «нет», «мимо». Обычная переписка («нет, в субботу не
+    можем», «интересно, сколько стоит?») оценкой не считается."""
+    t = _emo(t).strip().lower().strip(".!)( ")
+    if not t:
         return 0
-    if (any(x in t for x in ("👎", "💩", "🙈")) or t in ("-", "–", "—")
-            or re.search(r"\b(нет|мимо|не интересно|неинтересно|не хочу|не надо|не то)\b", t)):
+    if t in YES_WORDS:
+        return 1
+    if t in NO_WORDS:
         return -1
-    if (any(x in t for x in POS) or t.startswith("+")
-            or re.search(r"\b(да|хочу|класс|супер|круто|пойд[её]м|идём|идем|интересно)\b", t)):
+    marks = [ch for ch in t if not ch.isspace()]
+    emojis = "".join(marks)
+    if not marks or any(ch.isalnum() for ch in marks):     # есть буквы или цифры — это не оценка
+        return 0
+    if any(e in emojis for e in NEG):
+        return -1
+    if any(e in emojis for e in POS):
         return 1
     return 0
 
