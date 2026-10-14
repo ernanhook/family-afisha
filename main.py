@@ -809,7 +809,7 @@ def dedupe(events, state, period):
 def run_digest(state, cfg, today):
     cats = table_of("categories.txt", ["code", "emoji", "label", "about"])
     emoji = {c["code"]: c["emoji"] for c in cats}
-    start = today + dt.timedelta(days=1)
+    start = today   # сегодняшние события тоже входят в сводку
     end = today + dt.timedelta(days=cfg["days_ahead"])
     sat = start + dt.timedelta(days=(5 - start.weekday()) % 7)
     sun = sat + dt.timedelta(days=1)
