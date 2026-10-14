@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 0.7824355000000005,
-"calls": 252
+"cost": 0.8496598000000004,
+"calls": 278
 },
 "last_digest": "2026-10-14",
 "shown_ongoing": {
@@ -25,12 +25,18 @@
 "d94e7d1e2134f339": "2026-10-14",
 "5f725eca73282221": "2026-10-14",
 "66ce2465b01e278e": "2026-10-14",
-"64aaaa0b09c96c30": "2026-10-14"
+"64aaaa0b09c96c30": "2026-10-14",
+"5a502c71f537a559": "2026-10-14",
+"b96666ef7b3e6a9b": "2026-10-14",
+"78f123762fc54555": "2026-10-14",
+"6c64c57cfee34ba2": "2026-10-14",
+"49d4b9718840d513": "2026-10-14",
+"406b058948939df1": "2026-10-14"
 },
 "last_places": [
-"Latvijas Dabas muzejs",
-"Mežaparks, большая детская площадка",
-"Latvijas Dzelzceļa vēstures muzejs"
+"Līvu akvaparks",
+"Rīgas Motormuzejs",
+"Mežaparks, большая детская площадка"
 ],
 "events_api": {
 "month": "2026-10",
@@ -716,6 +722,14 @@
 "pub": "2026-10-14",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://pmo.ee/8564348",
+"title": "Preiļos aiztur \"naudas mūli\"",
+"summary": "Aizvadītā gada rudenī Valsts policijas amatpersonas, veicot operatīvos pasākumus, Preiļos aizdomās par noziedzīga nodarījuma izdarīšanu aizturēja 1992. gadā dzimušu Moldovas pilsoni. Izmeklēšanā noskaidrots, ka vīrietis pildīja naudas mūļa lomu un mantkārīgā nolūkā legalizēja noziedzīgi iegūtus līdz",
+"pub": "2026-10-14",
+"source": "apollo.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -734,15 +748,15 @@
 ],
 [
 "2026-10-14",
-"Latvijas Dabas muzejs"
+"Līvu akvaparks"
+],
+[
+"2026-10-14",
+"Rīgas Motormuzejs"
 ],
 [
 "2026-10-14",
 "Mežaparks, большая детская площадка"
-],
-[
-"2026-10-14",
-"Latvijas Dzelzceļa vēstures muzejs"
 ]
 ],
 "last_report": {
@@ -765,7 +779,7 @@
 },
 {
 "name": "jauns.lv",
-"chars": 3879,
+"chars": 3881,
 "link": "https://jauns.lv/raksts/zinas/733172-latvijas-nacionalais-dabas-muzejs-aicina-uz-krasno-kirbjaugu-un-paprikas-izstadi"
 },
 {
@@ -815,7 +829,7 @@
 },
 {
 "name": "bb.lv",
-"chars": 2548,
+"chars": 2550,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/10/prinesite-to-cto-ne-rabotaet-v-rige-proidet-neobycnaia-akciia?utm_source=r"
 },
 {
@@ -855,12 +869,12 @@
 },
 {
 "name": "rus.jauns.lv",
-"chars": 2669,
+"chars": 2686,
 "link": "https://rus.jauns.lv/article/afisha/732942-druzba-s-detskogo-sada-i-neozidannye-tainy-v-teatre-cexova-gotoviat-premeru"
 },
 {
 "name": "jauns.lv",
-"chars": 3301,
+"chars": 3303,
 "link": "https://jauns.lv/raksts/zinas/733127-ar-krasnu-koncertu-un-dejam-aizvadits-senioru-saiets-jaunolaine"
 },
 {
@@ -870,17 +884,17 @@
 },
 {
 "name": "bb.lv",
-"chars": 4112,
+"chars": 4114,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/09/pokrovskaia-roditelskaia-subbota-cto-mozno-i-nelzia-delat-pravoslavnym-lat"
 },
 {
 "name": "bb.lv",
-"chars": 3858,
+"chars": 3860,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/10/voennyi-parad-zalpy-i-besplatnaia-paelia-cto-segodnia-budet-proisxodit-v-c"
 },
 {
 "name": "bb.lv",
-"chars": 3219,
+"chars": 3221,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/14/v-18-let-peskom-prisla-v-latviiu-zitelnica-liepai-otprazdnovala-100-letnii"
 },
 {
@@ -890,7 +904,7 @@
 },
 {
 "name": "bb.lv",
-"chars": 5859,
+"chars": 5861,
 "link": "https://bb.lv/statja/nasha-latvija/2026/10/14/organizator-blagotvoritelnogo-meropriiatiia-sobral-detiam-7505-evro-no-pol"
 },
 {
@@ -930,7 +944,7 @@
 },
 {
 "name": "rus.jauns.lv",
-"chars": 3471,
+"chars": 3488,
 "link": "https://rus.jauns.lv/article/afisha/732935-50-instrumentov-piat-udarnikov-i-odna-karmen-neobycnyi-vecer-v-ventspilse"
 },
 {
@@ -970,7 +984,7 @@
 },
 {
 "name": "lsm.lv",
-"chars": 3239,
+"chars": 3240,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/06.10.2026-rigas-bibliotekas-mazos-lasitajus-aicina-uz-izzinos"
 },
 {
@@ -985,12 +999,12 @@
 },
 {
 "name": "lsm.lv",
-"chars": 3604,
+"chars": 3605,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/01.10.2026-meldra-un-negantie-kaimini-komikss-berniem-par-pras"
 },
 {
 "name": "lsm.lv",
-"chars": 3195,
+"chars": 3197,
 "link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/28.09.2026-jauns-uzvalks-un-liksma-muzika-lenesons-aicina-uz-d"
 },
 {
@@ -1000,72 +1014,72 @@
 },
 {
 "name": "rus.jauns.lv",
-"chars": 4922,
+"chars": 4939,
 "link": "https://rus.jauns.lv/article/afisha/733131-rabotal-s-andrea-bocelli-i-andre-re-znamenityi-dirizer-vpervye-vystupit-v-rig"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 2423,
+"chars": 2440,
 "link": "https://rus.jauns.lv/article/afisha/733125-100-metrovyi-podium-priamo-u-daugavy-cem-udivit-riga-fashion-week"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 2565,
+"chars": 2582,
 "link": "https://rus.jauns.lv/article/afisha/732942-druzba-s-detskogo-sada-i-neozidannye-tainy-v-teatre-cexova-gotoviat-premeru"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 3366,
+"chars": 3383,
 "link": "https://rus.jauns.lv/article/afisha/732935-50-instrumentov-piat-udarnikov-i-odna-karmen-neobycnyi-vecer-v-ventspilse"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 2015,
+"chars": 2033,
 "link": "https://rus.jauns.lv/article/afisha/732940-pauki-zaxvatiat-vizium-v-ventspilse-ustroiat-besplatnyi-xellouin-dlia-detei"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 3000,
+"chars": 3017,
 "link": "https://rus.jauns.lv/article/afisha/732933-andrei-zagars-pomog-emu-pokorit-mirovuiu-scenu-znamenityi-tenor-vystupit-v-la"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 2862,
+"chars": 2880,
 "link": "https://rus.jauns.lv/article/afisha/732906-poezdka-na-starinnom-poezde-i-tainy-srednevekovogo-zamka-kuda-otpravitsia-s-d"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 2851,
+"chars": 2868,
 "link": "https://rus.jauns.lv/article/afisha/732905-neobycnye-pticy-i-sotni-krolikov-na-vystavke-v-madone-mozno-ix-ne-tolko-posmo"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 3970,
+"chars": 3987,
 "link": "https://rus.jauns.lv/article/afisha/732383-balet-o-liubvi-i-sudbe-sopena-pokazut-v-ventspilse-v-poslednii-raz"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 5093,
+"chars": 5110,
 "link": "https://rus.jauns.lv/article/afisha/732559-prizraki-svetovye-sou-i-ispytaniia-na-smelost-cto-zdet-gostei-festivalia-v-sa"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 2633,
+"chars": 2651,
 "link": "https://rus.jauns.lv/article/afisha/732538-muzykalnoe-putesestvie-skvoz-veka-v-rundalskom-dvorce-prozvucat-sedevry-klass"
 },
 {
 "name": "rus.jauns.lv",
-"chars": 4130,
+"chars": 4148,
 "link": "https://rus.jauns.lv/article/afisha/732379-tri-tenora-piat-pianistov-i-inessa-galante-v-rige-gotoviat-osobennye-rozdestv"
 },
 {
 "name": "mammamuntetiem.lv",
-"chars": 2194,
+"chars": 2221,
 "link": "https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/66472/suns-funs-aicina-uz-festivalu-ziedona-muzeja-filiale-riga"
 },
 {
 "name": "mammamuntetiem.lv",
-"chars": 4308,
+"chars": 4316,
 "link": "https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/66381/ar-lenesona-dzimsanas-dienas-balliti-atsaksies-lnso-bernu"
 },
 {
@@ -1075,13 +1089,18 @@
 },
 {
 "name": "mammamuntetiem.lv",
-"chars": 4681,
+"chars": 4700,
 "link": "https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/66355/ideja-tavam-brivdienam-kur-steigt-lukot-skaisto-rudeni-ma"
 },
 {
 "name": "mammamuntetiem.lv",
-"chars": 4819,
+"chars": 4862,
 "link": "https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/66358/mikeldienas-pasakumu-celvedis-kur-doties-ar-berniem-un-gi"
+},
+{
+"name": "sejas.tvnet.lv",
+"chars": 3514,
+"link": "https://sejas.tvnet.lv/8564165/foto-video-pie-skatitajiem-devies-komponistam-borisam-reznikam-veltitais-dziesmu-stasts-p"
 },
 {
 "name": "sejas.tvnet.lv",
@@ -1129,11 +1148,6 @@
 "link": "https://www.tvnet.lv/8558370/rigas-zoologiskaja-darza-notiks-dzivnieku-dienas"
 },
 {
-"name": "sejas.tvnet.lv",
-"chars": 2315,
-"link": "https://sejas.tvnet.lv/8558295/tiks-slegts-popularais-naktslokals-m-darbnica"
-},
-{
 "name": "kaskurkad.lv",
 "chars": 6301,
 "link": "https://www.kaskurkad.lv/bernu-pasakumi/visur/jebkad"
@@ -1169,19 +1183,9 @@
 "link": "https://www.visitjurmala.lv/lv/pasakumi/"
 },
 {
-"name": "lelluteatris.lv",
-"chars": 10416,
-"link": "https://www.lelluteatris.lv/lv/repertuars"
-},
-{
 "name": "cirks.lv",
 "chars": 12000,
 "link": "https://cirks.lv/kalendars/"
-},
-{
-"name": "izradesberniem.lv",
-"chars": 12000,
-"link": "https://izradesberniem.lv/"
 },
 {
 "name": "lebm.gov.lv",
@@ -1359,14 +1363,14 @@
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HX0tYbENpRkN5VENmX1RoaTk1cHZEOXNvTGZjQjdJRHJKQkVyenFOb1pYejhrcW5ZQWR"
 },
 {
-"name": "VisitVentspils",
-"chars": 129,
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYjJmMmNqZXRsbDZMN04tYUx3My1NRlFyaHpwWXZQbmh5VUJDUnRhUzMzUFI4b3ZPZXF"
-},
-{
 "name": "ZiemelLatvija.lv",
 "chars": 173,
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdkMtakZMNk1fZ05Tdm55aXZHdl9ZYTZDQi1TY3JNX2g4NXVPOWhybEluOTVxNWNDVW9"
+},
+{
+"name": "Jauns.lv",
+"chars": 219,
+"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUHIwNnZGZGlEdER2My01RzhfbUgtbUk1djVjUnluZURrLTJyY1FqVHFpVW93WjRFRkd"
 },
 {
 "name": "BauskasDzive.lv",
@@ -1392,16 +1396,6 @@
 "name": "Ventspils",
 "chars": 205,
 "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZVNpQ0V4NXByNjFuekR4OUFzdlM3YnVPbEJMNFJ5MFRqTkRqdmdhU0hGOXppWmVjbnY"
-},
-{
-"name": "Jauns.lv",
-"chars": 219,
-"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUHIwNnZGZGlEdER2My01RzhfbUgtbUk1djVjUnluZURrLTJyY1FqVHFpVW93WjRFRkd"
-},
-{
-"name": "Sortir à Paris",
-"chars": 237,
-"link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPajlvaWNPZzVjdHVBQS05ZkVCUnU1S1ZWNVRKX1dWMTVNU2FpdkpmRnBoazFaQVh5bTV"
 },
 {
 "name": "TVNET",
@@ -1449,6 +1443,16 @@
 "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ1BBWHNkRnZIX2xFVURiX2x6Ym1oZEFSZEUtUWFLb0JGcl9fWjEzUlBVbzBMZEpZbFR"
 },
 {
+"name": "MadeinVilnius.lt",
+"chars": 217,
+"link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQTHExU25GWk1LamNDcnU4eXBrVTczTFRCQlpscW5GaEhVY09KRHM4VVhxVnRuQVNtd3R"
+},
+{
+"name": "Sortir à Paris",
+"chars": 223,
+"link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTUhfcExwclJCbUtWYk9qM3J4S3NPM3lZNUlEZkk1NndaNWtZMGZ2ZWFENnQyVk9uMHZ"
+},
+{
 "name": "LV portāls",
 "chars": 197,
 "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRTFMdzF3UE5SUW5xTlU4VHlsUTZzWGx4VUxQVVB4cXpxS3BqOUdaRlR1WXB2Ui1hTDZ"
@@ -1456,7 +1460,7 @@
 {
 "name": "Radio1.lv",
 "chars": 263,
-"link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRWZGVVE2TXlRcEl2V0ZuSkhENXZic1VCNkhObHdqSFpIVC1nTTVLenpMU0NDSWo3alN"
+"link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQ0dWa1UzOVpvdVE2WXZfNXJHYWU0NWo2UEhKdkw5T284V2llQW16RG5WWnlSWmJjS21"
 },
 {
 "name": "irLiepāja",
@@ -1494,6 +1498,11 @@
 "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU1hoZi0xV0EtZzZ5RVB2RjdnQlZHeW01d0dPZGFBRmxjamxKTWloSnpSano4emVJVUF"
 },
 {
+"name": "LV portāls",
+"chars": 253,
+"link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVUVCaTdRNlFGLUQtdFlFWmYtZVd6N21Ka2VpT0JQWXZGUkhhMG1zVFpUb3hpVzV5Wnl"
+},
+{
 "name": "Sortir à Paris",
 "chars": 219,
 "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYXVYN2VNbHQ3Ykc2bGd1bG9DWEZwUEtaUml3S3g4N1ZHWENQcWo2ZEZtZUJQZEp0NHV"
@@ -1509,6 +1518,21 @@
 "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeUFOa3czZTNKOVhGWFd5cFQtU3JONy1rZk5vOWV5Vjh4ektJc3gtT2wtTk1LZ1hOOUV"
 },
 {
+"name": "DELFI",
+"chars": 265,
+"link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPS2NBTUsxTnpEckxhek9TVVFlRTRaV3l4ZU5EZlMybG1xaHhDZjVJbWZTLTRYenJSM05"
+},
+{
+"name": "Chayka.lv",
+"chars": 233,
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vYTk2dkFtMWpQR08xcU5EWWxoS1VQZ1RrTEVJRVBVcEEzRTM1YnM5eUJ1YmFvSFpYZG5"
+},
+{
+"name": "ReTalsi.lv",
+"chars": 145,
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX005cW11bm9ZZmEwVV9Va01pMllsQXMtODI0U202M0J1cGFYUkNEOExpUW1ieVdxLXN"
+},
+{
 "name": "Sortir à Paris",
 "chars": 201,
 "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMkY5SER3SEJOZnV3a1BtTVZ0X3Rra1NTMWg1MDdsSVh6blNLY0tNUkpoM1h3MXVQVHJ"
@@ -1522,6 +1546,11 @@
 "name": "Sortir à Paris",
 "chars": 223,
 "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUmV1anNXVFMwZGNXYUJHNEVHUXF6QzNudTR0Rzg2Q0xOeGpaQlNlSVBZSW95S3JOUEJ"
+},
+{
+"name": "Sortir à Paris",
+"chars": 253,
+"link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTHdlellXNTExMFpvd0kxYXFCNWZ3cml3NHNMYmRnMFluRVNpbFpZeTAzTlJETm9jeGl"
 },
 {
 "name": "Sortir à Paris",
@@ -1560,6 +1589,11 @@
 },
 {
 "name": "Sortir à Paris",
+"chars": 211,
+"link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObkRRRG9mX05NV1Bia0MzNXo5eHVNVmpwYWJPNERobXI3VmZ6T1FWV3RYRi1yaFFrTjh"
+},
+{
+"name": "Sortir à Paris",
 "chars": 177,
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ1FmOG1hcjMyWlFQaGRGZXV1b1NEX0p3OVBkdkxacHlnbzdyOGxuUmszV213ZTZWVGt"
 },
@@ -1567,6 +1601,11 @@
 "name": "Sortir à Paris",
 "chars": 195,
 "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTEhNeVU4WmJGOGptWGFDRG5YVkdQbEdyUnJidUlSOEM0VE54azNzR2NqZmhBbW5teXl"
+},
+{
+"name": "Sortir à Paris",
+"chars": 225,
+"link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeXBoaXU3ZlptRWt1aDRpT180dmVQY1pCWm1ETVNNNlo2SkFuQzJPUnVfU2NCRGI0ZW5"
 },
 {
 "name": "Sortir à Paris",
@@ -1585,11 +1624,6 @@
 },
 {
 "name": "Sortir à Paris",
-"chars": 215,
-"link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMUliSXBhVkFLaHo2Y3hqUDkxVXBmdDVpcUZRNlpsX1ZDRTBiSUxfTEZxSnJqTDJlLU5"
-},
-{
-"name": "Sortir à Paris",
 "chars": 213,
 "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONGpydjVGUkpNNmR6MWdJTnBFYlNBNXVJVFR1RkZmbWJHbXRYX0tvXzY1MFgwOU1qN05"
 },
@@ -1597,36 +1631,6 @@
 "name": "Sortir à Paris",
 "chars": 203,
 "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSGl2QnJQbS1USF85cHdqWG4taW1lTUNYY0hrMnJZc0s1RjVMcjVvTGE1MWVkc2haZlh"
-},
-{
-"name": "Sortir à Paris",
-"chars": 257,
-"link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNakE2V21ncDkyUUwtUnAtWjluZEVzVFR3cWhIeVRXb3N5Mld4MlJfUjM5TDZ2ZXZWQWl"
-},
-{
-"name": "Sortir à Paris",
-"chars": 191,
-"link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMTd3NWp6Nm56d2l1dThjb3RISlpGdy1SSXlDTm5rVU5wWHFaalZhTkdMR1J6V0ZPNnV"
-},
-{
-"name": "Sortir à Paris",
-"chars": 243,
-"link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX2c4MjZrZmdWeThqX3Nma2doY3VESVNyUzZzRVBmNHRhQ1Qxdlh0Vk9sUEIxNXA1SjN"
-},
-{
-"name": "Sortir à Paris",
-"chars": 149,
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWk9YMHhaZnZYR2RtTEphYThhbDdEd3VEcG1EOWVVbHJSVmR0NDVmVGtUUEZjOElaU3J"
-},
-{
-"name": "Sortir à Paris",
-"chars": 173,
-"link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPclFRNUV0VG4wQkdZUUswWFJtNlh5X3g2bHFPVVQzckJBenlnZmpSSE9JbWs2dHVNbHZ"
-},
-{
-"name": "Sortir à Paris",
-"chars": 175,
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmNDRThJelNnM3d6YmFhSy1KQkNjRHFzdnJYaHRXQVFyQ0tOaXRzSDg0bU9lMzlXbUJ"
 },
 {
 "name": "tv3.lv",
@@ -1659,14 +1663,24 @@
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40QlVuU0ZaMFZ5X3BocVRFaF9LNHVnSDlscVl5ZGVRbU9KX1l2N1lWb3h0djU1dHd0QU4"
 },
 {
+"name": "Sortir à Paris",
+"chars": 201,
+"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQWJtMEE2U3I0U0FfbDhyOHZhQXlGcGFnR0NaUS1vUEJyM2FxU0hSZGdxQXdqYk1nWlB"
+},
+{
 "name": "Ventspils",
 "chars": 203,
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1dXUjVPRy1wLUgyM0VxV0JHQjJqSWFNZ2ZtaS1KczJYQS0xQnRMYk5CcmRwZHpHOFB"
 },
 {
 "name": "Sortir à Paris",
-"chars": 201,
-"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQWJtMEE2U3I0U0FfbDhyOHZhQXlGcGFnR0NaUS1vUEJyM2FxU0hSZGdxQXdqYk1nWlB"
+"chars": 257,
+"link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNakE2V21ncDkyUUwtUnAtWjluZEVzVFR3cWhIeVRXb3N5Mld4MlJfUjM5TDZ2ZXZWQWl"
+},
+{
+"name": "Sortir à Paris",
+"chars": 215,
+"link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMUliSXBhVkFLaHo2Y3hqUDkxVXBmdDVpcUZRNlpsX1ZDRTBiSUxfTEZxSnJqTDJlLU5"
 },
 {
 "name": "Sortir à Paris",
@@ -1685,11 +1699,6 @@
 },
 {
 "name": "Sortir à Paris",
-"chars": 223,
-"link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTUhfcExwclJCbUtWYk9qM3J4S3NPM3lZNUlEZkk1NndaNWtZMGZ2ZWFENnQyVk9uMHZ"
-},
-{
-"name": "Sortir à Paris",
 "chars": 211,
 "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOTJ0S1hRVjNZNmRwRkxkZW1LdkROellhT3VwZjRnUUpHaFlZWDgtaXNOeC16U201V21"
 },
@@ -1701,17 +1710,7 @@
 {
 "name": "Sortir à Paris",
 "chars": 253,
-"link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTHdlellXNTExMFpvd0kxYXFCNWZ3cml3NHNMYmRnMFluRVNpbFpZeTAzTlJETm9jeGl"
-},
-{
-"name": "Sortir à Paris",
-"chars": 253,
 "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMmF3em1scmg4ZWZLeDE2ang3VWx1V3EteXdVOWdUSjNXRGpKZUJHbk5FRWRTYkUwZ3J"
-},
-{
-"name": "Sortir à Paris",
-"chars": 211,
-"link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObkRRRG9mX05NV1Bia0MzNXo5eHVNVmpwYWJPNERobXI3VmZ6T1FWV3RYRi1yaFFrTjh"
 },
 {
 "name": "Sortir à Paris",
@@ -1774,11 +1773,6 @@
 "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV29QQzNYenJ1YW9nVlo4M0JsMnlaX01qWFlOR2tVaDktaXo3M2E1OEZEVEM2Z2pHRVR"
 },
 {
-"name": "Ventspils",
-"chars": 137,
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ybTBfTnFsSmhmSC1RRmNkWGxXNEFobnRMdXJBZTVjN250ckdfbnlJMXhsT0xHWGQxdG5"
-},
-{
 "name": "Jelgava",
 "chars": 119,
 "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HT3NqS2d3cFBpb3pWNTlkSjhJdGxfYXVrU2p6elJOdDBfZXJlVnBNVFo1MzJUTWJoQjJ"
@@ -1789,9 +1783,9 @@
 "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZkJhZmY2UjE0WFE0QXU1Q21VVjBMUHo5NWVGUjI0TFo5b2x1S2tWQTFVel84MVVFeXh"
 },
 {
-"name": "Santa.lv",
-"chars": 145,
-"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNndnU0x6S1ljZ2pMb0o2VUljcFdpd0RYRFNOYy0xUEpYcGY4NWViMXluLWpmX1VIQy0"
+"name": "Ventspils",
+"chars": 167,
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUGNIaTVEbDVKbTJRV2NJR09RWmVJNVM4SGhRcm9WR3RWV0FwdldBa0Q4Z0l5NjZtZGF"
 },
 {
 "name": "Latviesi.com",
@@ -1799,9 +1793,9 @@
 "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdGJMT2xVNVA5cmZqY085eFpYZ2NUbjBGOUJ0S05NRnJmMnd1MkM0V2R1d0RNMVFOUHI"
 },
 {
-"name": "Sortir à Paris",
-"chars": 213,
-"link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQOVVnU0NEamxldjBEWDhIczcxZjBIRElKMENKTC0wbUc5QXlGTm0tN1RmSFVyYjlmcDh"
+"name": "Santa.lv",
+"chars": 145,
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNndnU0x6S1ljZ2pMb0o2VUljcFdpd0RYRFNOYy0xUEpYcGY4NWViMXluLWpmX1VIQy0"
 },
 {
 "name": "BauskasDzive.lv",
@@ -1814,9 +1808,14 @@
 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUHV6TEhMVEVubDY0UFlac1ZwcDQ3eFRiZFc1Q1ZNZGx3azdPOFk1QnFiM3NaYTBoajl"
 },
 {
-"name": "Sortir à Paris",
-"chars": 227,
-"link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTFNFLWdOWGQ0MkMyMDUwclVZQVJ2X1M2RTg4ZlNsWE1fSGdfRHZ3c05hbHdWRDg5RHp"
+"name": "Dienas Bizness",
+"chars": 187,
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeElUM2V2UUhUVVMyTGVjZFNqRW5zN1RnSmZTcGZzempsTjBZNlFOV0tMWnlIcXA5MUp"
+},
+{
+"name": "Dzentlmenis.lv",
+"chars": 259,
+"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX2FWX2gzZ1RxMThheDh6TDlRR0ozeko3STNER0RUMmNhMVlDMEVCM1pWVldBU3JsN0h"
 },
 {
 "name": "LV portāls",
@@ -1825,13 +1824,18 @@
 },
 {
 "name": "Sortir à Paris",
-"chars": 231,
-"link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQel95SkREenJFNlY5LXRVNFQ3V1p3TFB2MUtCUDdya2FJMy15M0UxSlJrYU4taWxpUEE"
+"chars": 237,
+"link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY183VWtuS2tiY0VnN3pfeDBBaHdvVVZwWGlYdDQ5R1BJMnpYLU9ZT0g3czliS1Q1c29"
 },
 {
 "name": "Sortir à Paris",
-"chars": 237,
-"link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY183VWtuS2tiY0VnN3pfeDBBaHdvVVZwWGlYdDQ5R1BJMnpYLU9ZT0g3czliS1Q1c29"
+"chars": 213,
+"link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQOVVnU0NEamxldjBEWDhIczcxZjBIRElKMENKTC0wbUc5QXlGTm0tN1RmSFVyYjlmcDh"
+},
+{
+"name": "Sortir à Paris",
+"chars": 227,
+"link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTFNFLWdOWGQ0MkMyMDUwclVZQVJ2X1M2RTg4ZlNsWE1fSGdfRHZ3c05hbHdWRDg5RHp"
 },
 {
 "name": "Sortir à Paris",
@@ -1845,8 +1849,8 @@
 },
 {
 "name": "Sortir à Paris",
-"chars": 233,
-"link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQ2J4LVFHcU1sRFczSHlHaS1JTjllZ3FZWldUVnVkRjhzWWZac1BUSEx2T2hxMTByLUt"
+"chars": 231,
+"link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQel95SkREenJFNlY5LXRVNFQ3V1p3TFB2MUtCUDdya2FJMy15M0UxSlJrYU4taWxpUEE"
 },
 {
 "name": "Sortir à Paris",
@@ -1855,18 +1859,13 @@
 },
 {
 "name": "Sortir à Paris",
+"chars": 233,
+"link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQ2J4LVFHcU1sRFczSHlHaS1JTjllZ3FZWldUVnVkRjhzWWZac1BUSEx2T2hxMTByLUt"
+},
+{
+"name": "Sortir à Paris",
 "chars": 221,
 "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNeWZ1U3lhN2h3Z1g0eEF4ZDF5M2dJY0JvV1pnV3ZQRnJ5VDBoSGJNd1pWbHpaNnNjLUR"
-},
-{
-"name": "Dienas Bizness",
-"chars": 187,
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeElUM2V2UUhUVVMyTGVjZFNqRW5zN1RnSmZTcGZzempsTjBZNlFOV0tMWnlIcXA5MUp"
-},
-{
-"name": "Dzentlmenis.lv",
-"chars": 259,
-"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX2FWX2gzZ1RxMThheDh6TDlRR0ozeko3STNER0RUMmNhMVlDMEVCM1pWVldBU3JsN0h"
 },
 {
 "name": "Sortir à Paris",
@@ -1895,8 +1894,8 @@
 },
 {
 "name": "Sortir à Paris",
-"chars": 241,
-"link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPclQzWExRb1R0Tm81NmRxQ2VsLW8tWF8tb1p4ZDhtSHB1dWFMQnpITmJCWmFSQWxScTF"
+"chars": 223,
+"link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQldoNnM1VVM4LU1CU1JzNzVfdXY4VlVqdkZXX0ZGYk1HYnVwUE5UZ2g5SGhHTmcydV9"
 },
 {
 "name": "BauskasDzive.lv",
@@ -1952,6 +1951,11 @@
 "name": "Rīgas valstspilsētas pašvaldība",
 "chars": 199,
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS0d1S2xtWTlTTkh2WDZHVTdXbHpROEtrSExMeExzOWdsU3hsWVFQTnJ3cWxrUV8xdHZ"
+},
+{
+"name": "Sortir à Paris",
+"chars": 243,
+"link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX2c4MjZrZmdWeThqX3Nma2doY3VESVNyUzZzRVBmNHRhQ1Qxdlh0Vk9sUEIxNXA1SjN"
 },
 {
 "name": "LSM",
@@ -2159,11 +2163,6 @@
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaEpPUktYcWxNZnJ5VjdGclV4eHZCUndnVlpIQlFLRjFldHktOS1MUlY0Ym9PemNoQlF"
 },
 {
-"name": "rus tvnet",
-"chars": 201,
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUE15STFqazFZSlVNekVpbS1RbG5fazFFTGRid0xxU0VhanduSmsybGVVSjl0SGxWWF8"
-},
-{
 "name": "LSM",
 "chars": 191,
 "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQR1BEZl9qb3ljSlppcXAwbE9idS1OV3Q3ODJZTkc3cmx4SUctNVM5VW9SOVFYbW5JUXF"
@@ -2222,6 +2221,11 @@
 "name": "Otkrito.lv",
 "chars": 171,
 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUWVuYk84ODlVUk05b0tiUlNMT25tT1JkblRvR05FaHBBTHBxV1p0YVlPaERTUmdsUmk"
+},
+{
+"name": "rus tvnet",
+"chars": 201,
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUE15STFqazFZSlVNekVpbS1RbG5fazFFTGRid0xxU0VhanduSmsybGVVSjl0SGxWWF8"
 },
 {
 "name": "Otkrito.lv",
@@ -2419,11 +2423,6 @@
 "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQVB2THdDdFMyMVd1MHU0XzRLWElTOVJyMUJDUlNDby1MOWF1RnE4YXlyM0ozdkpoYmY"
 },
 {
-"name": "Смоленский государственный музей-заповед",
-"chars": 261,
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNenNiNFpPZDhfS1piTWlIbzZSa0FYcmp1STZmcjh1eFZTSWF4Z2E3TU1Jclp2TG9SLUJ"
-},
-{
 "name": "Peterburg2.ru",
 "chars": 251,
 "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWG5WLVBtd0RqZ0EzV1lJeV9kQmR4MXJMNVFuSUozb29aaGhUU29MaGI0MWpHRnVObXI"
@@ -2479,6 +2478,11 @@
 "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSlpuRDEyQWxZWFlmd1hjcG1UcnN6VW1ZbGpvUXlhTEhENDdZek5uSURhbExVMUdWa0p"
 },
 {
+"name": "Улпресса - все новости Ульяновска",
+"chars": 219,
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSF9HaDlQLV9rNUVyb292TzdnS1JMVGtJbDU5UnpOZVVGSFRhakt4T2xWWFBGR2xHVWt"
+},
+{
 "name": "MSK1.RU",
 "chars": 259,
 "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjX3pZYldBNkc0c0l1THRad3hDM28yajVoUld3NjJ6ZlRqZnhUMkpjb0Nsbzd6LXBJbEh"
@@ -2492,6 +2496,11 @@
 "name": "Куда сходить в Москве",
 "chars": 151,
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xdmxtdXZKLTFRV2VMVlFzNURLRkg2dmdIdmhranlveTZhUm01SWRNTW9CVVFmV0tNVnB"
+},
+{
+"name": "Куда сходить в Москве",
+"chars": 199,
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYTBhSGdpaDhsLWxXR3c4a1JQZERCdlQxeW5Ed0R4NHhPZlJoMlRodDlMeFc5ZmJmTXA"
 },
 {
 "name": "OSD.RU",
@@ -2554,11 +2563,6 @@
 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMV9YTnZHTF83SnVyX0VMcFVYSWlRc3ZCRUVZYXFmTXNfYWVSS0FEUFMtV25kQ1JLQ2h"
 },
 {
-"name": "ТОП Тверь",
-"chars": 425,
-"link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQLVJER0xla0gwNlR5UWRYT2J0bzNBLXRxVFE4bTNCRDBGdllXbjRILV9sR2djM1RtM0l"
-},
-{
 "name": "Otkrito.lv",
 "chars": 161,
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUVdaVDhwLUdWbjNoakhDNG15MjhzTjI0NER0NWlHQVVrdlYzZWV1cm13dVJRWjFqTEJ"
@@ -2577,11 +2581,6 @@
 "name": "Blizko.by",
 "chars": 207,
 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOTFva2xWZDVDdkVlN2kwRjBYUVJ1cU1BVk9Ba3pCalVWeTFBM01TR2sxUzhmX1FBMmJ"
-},
-{
-"name": "Otkrito.lv",
-"chars": 149,
-"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZHNBZkNiamlfaFNTbm9TRUZWNWtqUGNWNENvX2Q5aTFYbmNsNlRyZ0k3UlUyVXFaM2F"
 },
 {
 "name": "Пресса 53",
@@ -2607,11 +2606,6 @@
 "name": "DZR.BY",
 "chars": 241,
 "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX3BIR0d1b0RSWWl1MTAxTVg1TGZ5SXd2WHl1azRkRE1YLXByTDV2U2g3SEwyWGhpSXd"
-},
-{
-"name": "עיריית ירושלים",
-"chars": 173,
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ3hCQlRMT01UTWIyelphVkk2ZHZic0JkNUZBTlZMeEE4SEJWbWFOZGxwMGM2bWR1eGF"
 },
 {
 "name": "c-inform",
@@ -2642,60 +2636,53 @@
 "name": "prospect.com.ru",
 "chars": 185,
 "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNEVIYzF0cWxqOHdzWDRoQ0ZaaUN3WXI4aV9CVzFVTmNEaEtkaXdwU0FWRGtiSGFEalc"
+},
+{
+"name": "prospect.com.ru",
+"chars": 223,
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYXVKRHNpQ3ZqM29SUWdqRTRxWHQ2V2pHTk93R3B5YlRnVW91czZsMlgzZnJOMnUwdE5"
 }
 ],
 "found": [
 {
-"title": "Выставка «Тыквы и перцы — 2026»",
+"title": "Выставка «Тыквы и перцы 2026»",
 "date": "2026-10-21",
 "fit": "yes",
-"source": "rus.lsm.lv"
+"source": "jauns.lv"
 },
 {
-"title": "Бесплатный концерт «Путешествие в мир танца»",
-"date": "2026-10-15",
+"title": "Фотовыставка «ДНК Украины. 100 дней в пути»",
+"date": "2026-10-14",
 "fit": "maybe",
 "source": "rus.lsm.lv"
 },
 {
-"title": "Ceļojums dejas pasaulē",
-"date": "2026-10-15",
-"fit": "yes",
-"source": "lsm.lv"
-},
-{
-"title": "Atklāšanas koncerts «Ceļojums dejas pasaulē»",
-"date": "2026-10-15",
-"fit": "maybe",
-"source": "lsm.lv"
-},
-{
-"title": "Поездка на узкоколейном поезде Мазбанитис",
+"title": "Поездка на узкоколейном поезде Мазбанитис в Вентспилсе",
 "date": "2026-10-22",
 "fit": "yes",
 "source": "rus.jauns.lv"
 },
 {
-"title": "Выставка породистых домашних птиц и кроликов",
+"title": "Выставка породистых домашних птиц и кроликов в Мадоне",
 "date": "2026-10-24",
 "fit": "yes",
 "source": "rus.jauns.lv"
 },
 {
-"title": "Spoku nakts takas 2026",
+"title": "Фестиваль Spoku nakts takas 2026",
 "date": "2026-10-23",
 "fit": "maybe",
 "source": "rus.jauns.lv"
 },
 {
-"title": "Multimediju jaunrades darbnīcas skolēnu rudens brīvlaikā",
-"date": "2026-10-19",
+"title": "Индийско-латвийский праздник танцев и урожая",
+"date": "2026-10-17",
 "fit": "maybe",
-"source": "kaskurkad.lv"
+"source": "sejas.tvnet.lv"
 },
 {
-"title": "Robotu Šovs - Glābšanas misija",
-"date": "2026-10-23",
+"title": "Multimediju jaunrades darbnīcas skolēnu rudens brīvlaikā",
+"date": "2026-10-19",
 "fit": "maybe",
 "source": "kaskurkad.lv"
 },
@@ -2706,58 +2693,16 @@
 "source": "kaskurkad.lv"
 },
 {
-"title": "BILDES 2026 | «BILŽU» MŪZIĶU UN gVIŅU BĒRNU koncerts",
-"date": "2026-10-25",
+"title": "Multimediju jaunrades darbnīcas skolēnu rudens brīvlaikā",
+"date": "2026-10-19",
 "fit": "maybe",
 "source": "kaskurkad.lv"
 },
 {
-"title": "Pelnrušķīte / Золушка",
-"date": "2026-10-14",
-"fit": "maybe",
-"source": "bilesuserviss.lv"
-},
-{
-"title": "Oskars un lietas",
-"date": "2026-10-15",
-"fit": "maybe",
-"source": "lelluteatris.lv"
-},
-{
-"title": "Bruņinieks, kuram sāpēja zobi",
-"date": "2026-10-17",
-"fit": "maybe",
-"source": "lelluteatris.lv"
-},
-{
-"title": "Oskars un lietas",
-"date": "2026-10-18",
-"fit": "maybe",
-"source": "lelluteatris.lv"
-},
-{
-"title": "Oskars un lietas",
-"date": "2026-10-18",
-"fit": "maybe",
-"source": "lelluteatris.lv"
-},
-{
-"title": "Sniegbaltīte un septiņi rūķīši",
+"title": "BILDES 2026 | BĪLŽU MŪZIĶU UN ĢIMENES BĒRNU koncerts",
 "date": "2026-10-25",
 "fit": "maybe",
-"source": "lelluteatris.lv"
-},
-{
-"title": "Sniegbaltīte un septiņi rūķīši",
-"date": "2026-10-25",
-"fit": "maybe",
-"source": "lelluteatris.lv"
-},
-{
-"title": "Gangsteromīte",
-"date": "2026-10-27",
-"fit": "maybe",
-"source": "lelluteatris.lv"
+"source": "kaskurkad.lv"
 },
 {
 "title": "Bērnu rīts. Tsirkus folie izrāde jauniešiem “IeTEKme”",
@@ -2766,64 +2711,46 @@
 "source": "cirks.lv"
 },
 {
-"title": "SALDUMIŅŠ",
-"date": "2026-10-17",
-"fit": "yes",
-"source": "izradesberniem.lv"
-},
-{
-"title": "SUNĪTIS UN KAĶĪTE – VIENA MĀJA. DIVAS KĀRTĪBAS",
-"date": "2026-10-18",
-"fit": "yes",
-"source": "izradesberniem.lv"
-},
-{
-"title": "SUNĪTIS UN KAĶĪTE – VIENA MĀJA. DIVAS KĀRTĪBAS",
-"date": "2026-10-18",
-"fit": "yes",
-"source": "izradesberniem.lv"
-},
-{
-"title": "ROBOTIŅŠ MI-KURŠ VISU DARA CITU VIETĀ",
-"date": "2026-10-24",
-"fit": "yes",
-"source": "izradesberniem.lv"
-},
-{
-"title": "LĀCIS UN VIŅA DRAUGI",
-"date": "2026-10-25",
-"fit": "yes",
-"source": "izradesberniem.lv"
-},
-{
-"title": "Izstāde „Ķirbjaugi un paprika 2026”",
-"date": "2026-10-21",
-"fit": "yes",
-"source": "dabasmuzejs.gov.lv"
-},
-{
-"title": "Medaļu izstāde „Mākslas daba”",
+"title": "Медаль-выставка «Mākslas daba»",
 "date": "2026-10-07",
-"fit": "maybe",
+"fit": "yes",
 "source": "dabasmuzejs.gov.lv"
 },
 {
-"title": "Uzdevumu trasīte „Kopā ar krupi”",
+"title": "Выставка тыкв и перцев 2026",
 "date": "2026-10-21",
-"fit": "maybe",
+"fit": "yes",
 "source": "dabasmuzejs.gov.lv"
 },
 {
-"title": "Nodarbību cikls „Zinātkāro ģimeņu sestdiena”",
+"title": "Игровая тропа «Вместе с жабой»",
+"date": "2026-09-05",
+"fit": "yes",
+"source": "dabasmuzejs.gov.lv"
+},
+{
+"title": "Субботы «Любознательных семей»",
 "date": "2026-10-17",
 "fit": "maybe",
 "source": "dabasmuzejs.gov.lv"
 },
 {
-"title": "Nodarbību cikls „Zinātkāro ģimeņu sestdiena”",
-"date": "2026-10-24",
+"title": "Осенние каникулы с Животным года — жабой",
+"date": "2026-10-21",
 "fit": "maybe",
 "source": "dabasmuzejs.gov.lv"
+},
+{
+"title": "Krāmu tirgus Kuldīgā",
+"date": "2026-10-17",
+"fit": "yes",
+"source": "kalendars.kuldigasnovads.lv"
+},
+{
+"title": "Rudenīgs pārgājiens Ēdoles un Īvandes apkārtnē",
+"date": "2026-10-17",
+"fit": "maybe",
+"source": "kalendars.kuldigasnovads.lv"
 },
 {
 "title": "Mazpulcēnu rudens tirdziņš",
@@ -2836,12 +2763,6 @@
 "date": "2026-10-16",
 "fit": "maybe",
 "source": "visittukums.lv"
-},
-{
-"title": "Krāmu tirgus Kuldīgā",
-"date": "2026-10-17",
-"fit": "maybe",
-"source": "kalendars.kuldigasnovads.lv"
 },
 {
 "title": "Mazuļu skoliņa",
@@ -2868,37 +2789,31 @@
 "source": "maminuklubs.lv"
 },
 {
-"title": "Завтрак мам в Rīga Plaza",
+"title": "Завтрак мам в t/c Rīga Plaza",
 "date": "2026-10-14",
 "fit": "yes",
 "source": "maminklub.lv"
 },
 {
-"title": "AKROPOLE Spēļu Misija skolēnu brīvlaikā",
+"title": "Grāmatu drudzis",
+"date": "2026-10-17",
+"fit": "maybe",
+"source": "rigaplaza.lv"
+},
+{
+"title": "Spēļu Misija skolēnu brīvlaikā",
 "date": "2026-10-20",
 "fit": "maybe",
 "source": "akropoleriga.lv"
 },
 {
-"title": "Slido bez maksas skolēnu brīvlaikā",
-"date": "2026-10-19",
-"fit": "maybe",
-"source": "akropoleriga.lv"
-},
-{
-"title": "AKROPOLE Spēļu Misija skolēnu brīvlaikā",
+"title": "Spēļu Misija skolēnu brīvlaikā",
 "date": "2026-10-20",
 "fit": "maybe",
 "source": "akropolealfa.lv"
 },
 {
-"title": "31. Starptautiskā Baltijas baleta festivāla atklāšanas koncerts",
-"date": "2026-10-15",
-"fit": "maybe",
-"source": "origo.lv"
-},
-{
-"title": "Ģimenes diena bibliotēkā «Zinītis»",
+"title": "Ģimenes diena с осенними занятиями в «Zinītis»",
 "date": "2026-10-17",
 "fit": "yes",
 "source": "Jelgava"
