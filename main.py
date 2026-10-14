@@ -78,7 +78,7 @@ def load_settings():
                 "show_diagnostics": "auto", "events_api_monthly_limit": "45",
                 "places_repeat_days": "28", "week_tips": "yes", "child_birth": "",
                 "weekend_reminder": "пт 18", "urgent_per_week": "2", "max_cards": "30",
-                "proofread_model": "claude-sonnet-5-5"}
+                "proofread_model": "claude-sonnet-5-5", "calendar": "apple"}
     for k, v in defaults.items():
         s.setdefault(k, v)
     aliases = {"пн": 0, "по": 0, "вт": 1, "ср": 2, "чт": 3, "че": 3, "пт": 4, "пя": 4,
@@ -95,10 +95,10 @@ def load_settings():
         s[k] = float(s[k].replace(",", "."))
     # Возраст ребёнка: если указан месяц рождения, бот «растёт» вместе с ребёнком
     s["max_age_ok"] = 2                    # события с минимальным возрастом больше — «на вырост»
-    m = re.match(r"(\d{4})-(\d{1,2})", s["child_birth"])
-    if m:
+    born = parse_birth(s["child_birth"])
+    if born:
         today = dt.datetime.now(TZ).date()
-        months = (today.year - int(m.group(1))) * 12 + today.month - int(m.group(2))
+        months = (today.year - born[0]) * 12 + today.month - born[1] - (today.day < born[2])
         if 0 <= months < 240:
             y, mo = divmod(months, 12)
             s["child"] = "ребёнок " + age_words(y, mo)
@@ -106,6 +106,30 @@ def load_settings():
     s["child_age_note"] = (f"события с минимальным возрастом больше {s['max_age_ok']} лет "
                            f"(«{s['max_age_ok'] + 1}+», «от {s['max_age_ok'] + 1} лет» и старше)")
     return s
+
+
+RU_MONTHS = ["январ", "феврал", "март", "апрел", "ма", "июн", "июл", "август", "сентябр",
+             "октябр", "ноябр", "декабр"]
+
+
+def parse_birth(v):
+    """Дата рождения в любом привычном виде: 2025-08, 2025-08-01, 01.08.2025, 08.2025,
+    «1 августа 2025», «август 2025». Возвращает (год, месяц, день) или None."""
+    v = str(v or "").strip().lower()
+    m = re.search(r"(\d{4})-(\d{1,2})(?:-(\d{1,2}))?", v)
+    if m:
+        return int(m.group(1)), int(m.group(2)), int(m.group(3) or 1)
+    m = re.search(r"(?:(\d{1,2})\.)?(\d{1,2})\.(\d{4})", v)
+    if m:
+        return int(m.group(3)), int(m.group(2)), int(m.group(1) or 1)
+    m = re.search(r"(?:(\d{1,2})\s+)?([а-яё]+)\s+(\d{4})", v)
+    if m:
+        word = m.group(2)
+        mon = next((i + 1 for i, r in enumerate(RU_MONTHS)
+                    if word.startswith(r) and (r != "ма" or word[:3] in ("май", "мая"))), None)
+        if mon:
+            return int(m.group(3)), mon, int(m.group(1) or 1)
+    return None
 
 
 def plural(n, one, few, many):
@@ -1181,18 +1205,36 @@ def maps_link(ev):
             + urllib.parse.quote(", ".join(dict.fromkeys(parts)) + ", Latvia"))
 
 
-def gcal_link(ev, start, end):
-    """Ссылка «добавить в Google Календарь» с датой, временем и местом."""
+OPTS = {"calendar": "apple", "repo": os.environ.get("GITHUB_REPOSITORY", ""),
+        "branch": os.environ.get("GITHUB_REF_NAME", "") or "main"}
+
+
+def event_slot(ev, start, end):
+    """Когда поставить событие в календарь: (день1, день2, начало, конец); время None — на весь день.
+    Долгая выставка (4+ дня) ставится одним днём — на ближайшую субботу."""
     d1, d2 = max(ev["_d1"], start), min(ev["_d2"], end)
     if d2 < d1:
         d2 = d1
-    if (d2 - d1).days >= 3:                 # долгая выставка — ставим на ближайшую субботу
+    if (d2 - d1).days >= 3:
         sat = d1 + dt.timedelta(days=(5 - d1.weekday()) % 7)
         d1 = d2 = sat if sat <= d2 else d1
-    m = re.match(r"(\d{1,2})[:.](\d{2})", str(ev.get("time") or ""))
+    m = re.match(r"(\d{1,2})[:.](\d{2})(?:\s*[–—-]\s*(\d{1,2})[:.](\d{2}))?",
+                 str(ev.get("time") or "").strip())
     if m and d1 == d2 and int(m.group(1)) < 24:
         s = dt.datetime.combine(d1, dt.time(int(m.group(1)), min(int(m.group(2)), 59)))
-        dates = f"{s:%Y%m%dT%H%M%S}/{s + dt.timedelta(hours=2):%Y%m%dT%H%M%S}"
+        e = s + dt.timedelta(hours=2)
+        if m.group(3) and int(m.group(3)) < 24:
+            e2 = dt.datetime.combine(d1, dt.time(int(m.group(3)), min(int(m.group(4)), 59)))
+            e = e2 if e2 > s else e
+        return d1, d2, s, e
+    return d1, d2, None, None
+
+
+def gcal_link(ev, start, end):
+    """Ссылка «добавить в Google Календарь» с датой, временем и местом."""
+    d1, d2, s, e = event_slot(ev, start, end)
+    if s:
+        dates = f"{s:%Y%m%dT%H%M%S}/{e:%Y%m%dT%H%M%S}"
     else:
         dates = f"{d1:%Y%m%d}/{d2 + dt.timedelta(days=1):%Y%m%d}"
     details = " ".join(x for x in (ev.get("about"), ev.get("summary")) if x)[:300]
@@ -1284,7 +1326,10 @@ def card_buttons(ev, start, end):
     row = []
     if maps_link(ev):
         row.append({"text": "🗺 Карта", "url": maps_link(ev)})
-    row.append({"text": "📅 В календарь", "url": gcal_link(ev, start, end)})
+    if OPTS["calendar"] == "google":         # на iPhone события приходят подпиской, см. ics_feeds
+        row.append({"text": "📅 В календарь", "url": gcal_link(ev, start, end)})
+    if valid_url(ev.get("link")) and len(row) < 2:
+        row.insert(0, {"text": "🔗 Сайт", "url": ev["link"]})
     return [row]
 
 
@@ -1293,7 +1338,10 @@ def send_card(ev, emoji, state, start, end, dg, prefix="", notify=False):
     if mid:                                   # запоминаем, чтобы понять, что оценили
         state.setdefault("cards", {})[str(mid)] = {
             "t": ev.get("title"), "a": ev.get("about"), "c": ev.get("cat"),
-            "city": ev.get("city"), "dg": dg}
+            "city": ev.get("city"), "dg": dg, "d1": ev["_d1"].isoformat(),
+            "d2": ev["_d2"].isoformat(), "time": ev.get("time"), "v": ev.get("venue"),
+            "l": ev.get("link"), "s": (ev.get("summary") or "")[:300],
+            "p": "бесплатно" if ev.get("free") else ev.get("price")}
     return mid
 
 
@@ -1359,6 +1407,128 @@ def dedupe(events, state, period):
     return out
 
 
+# ================= Календарь для iPhone (подписка) =================
+# Календарь «Мы идём» (calendar/plans.ics): только события, на которые поставили 👍,
+# одно событие — одна запись. На iPhone его подключают один раз как «подписной календарь»,
+# дальше записи появляются и исчезают сами (снял 👍 — запись пропала).
+CAL_DIR = os.path.join(HERE, "calendar")
+
+
+def _ics_text(s):
+    return (str(s or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,")
+            .replace("\r", "").replace("\n", "\\n"))
+
+
+def _ics_fold(line):
+    """Строки iCalendar не длиннее 75 байт: длинные переносим, не разрывая буквы."""
+    out, cur = [], b""
+    for ch in line:
+        b = ch.encode()
+        if len(cur) + len(b) > (75 if not out else 74):
+            out.append(cur.decode())
+            cur = b""
+        cur += b
+    out.append(cur.decode())
+    return "\r\n ".join(out)
+
+
+def ics_calendar(name, cards):
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Afisha dlya malysha//RU",
+             "CALSCALE:GREGORIAN", "METHOD:PUBLISH", f"X-WR-CALNAME:{_ics_text(name)}",
+             "X-WR-TIMEZONE:Europe/Riga", "REFRESH-INTERVAL;VALUE=DURATION:PT1H",
+             "X-PUBLISHED-TTL:PT1H"]
+    for c in cards:
+        ev = {"_d1": parse_date(c.get("d1")), "_d2": parse_date(c.get("d2")), "time": c.get("time")}
+        if not ev["_d1"] or not ev["_d2"]:
+            continue
+        dg = parse_date(c.get("dg")) or ev["_d1"]
+        d1, d2, s, e = event_slot(ev, max(ev["_d1"], dg), ev["_d2"])
+        title = fix_ru(c.get("t")) or "Событие"
+        if (ev["_d2"] - ev["_d1"]).days >= 3:
+            title += f" (до {ev['_d2']:%d.%m})"
+        desc = "\n".join(x for x in (c.get("a"), c.get("s"), c.get("p") and f"Цена: {c['p']}",
+                                      c.get("l")) if x)
+        lines += ["BEGIN:VEVENT", f"UID:{key(c.get('t'), c.get('d1'))}@afisha-dlya-malysha",
+                  f"DTSTAMP:{dg:%Y%m%d}T000000Z"]
+        if s:
+            to_utc = lambda x: x.replace(tzinfo=TZ).astimezone(dt.timezone.utc)
+            lines += [f"DTSTART:{to_utc(s):%Y%m%dT%H%M%SZ}", f"DTEND:{to_utc(e):%Y%m%dT%H%M%SZ}"]
+        else:
+            lines += [f"DTSTART;VALUE=DATE:{d1:%Y%m%d}",
+                      f"DTEND;VALUE=DATE:{d2 + dt.timedelta(days=1):%Y%m%d}", "TRANSP:TRANSPARENT"]
+        lines += [f"SUMMARY:{_ics_text(title)}", f"DESCRIPTION:{_ics_text(desc)}"]
+        loc = ", ".join(dict.fromkeys(x for x in (c.get("v"), c.get("city")) if x))
+        if loc:
+            lines.append(f"LOCATION:{_ics_text(loc)}")
+        if valid_url(c.get("l")):
+            lines.append(f"URL:{c['l']}")
+        lines.append("END:VEVENT")
+    lines.append("END:VCALENDAR")
+    return "\r\n".join(_ics_fold(l) for l in lines) + "\r\n"
+
+
+def ics_feeds(state, today):
+    """Обновляет calendar/plans.ics — «Мы идём»: только события с 👍, одно событие — одна запись."""
+    if OPTS["calendar"] != "apple":
+        return
+    # даты для карточек, отправленных до появления календаря, берём из последней сводки
+    # (одинаковые названия — например, занятия в разные дни — сопоставляем по порядку)
+    dg = state.get("digest_events") or {}
+    by_title = {}
+    for e in sorted(dg.get("events", []), key=lambda e: (e.get("d1") or "", e.get("time") or "")):
+        by_title.setdefault(e.get("title"), []).append({
+            "t": e.get("title"), "a": e.get("about"), "city": e.get("city"), "dg": dg.get("date"),
+            "d1": e.get("d1"), "d2": e.get("d2"), "time": e.get("time"), "v": e.get("venue"),
+            "l": e.get("link"), "s": (e.get("summary") or "")[:300],
+            "p": "бесплатно" if e.get("free") else e.get("price")})
+    cards = state.get("cards", {})
+    legacy, count = {}, {}
+    for mid in sorted((m for m, c in cards.items() if not c.get("d1") and c.get("dg") == dg.get("date")),
+                      key=lambda m: int(m) if m.isdigit() else 0):
+        t = cards[mid].get("t")
+        n = count.get(t, 0)
+        if n < len(by_title.get(t, [])):
+            legacy[mid] = by_title[t][n]
+        count[t] = n + 1
+    items, seen = [], set()
+    for mid, r in state.get("taste", {}).items():
+        if sum(r.get("votes", {}).values()) <= 0:        # нет 👍 (или 👍 сняли) — записи нет
+            continue
+        c = {**legacy.get(mid, {}), **cards.get(mid, {}),
+             **{k: v for k, v in r.items() if k != "votes" and v}}
+        k = key(c.get("t"), c.get("d1"))
+        if c.get("d1") and k not in seen:                # 👍 поставили двое — запись всё равно одна
+            seen.add(k)
+            items.append(c)
+    os.makedirs(CAL_DIR, exist_ok=True)
+    text = ics_calendar("Мы идём", sorted(items, key=lambda c: c.get("d1")))
+    path = os.path.join(CAL_DIR, "plans.ics")
+    old = open(path, encoding="utf-8", newline="").read() if os.path.exists(path) else ""
+    if text != old:                                      # без изменений — без лишнего коммита
+        with open(path, "w", encoding="utf-8", newline="") as f:
+            f.write(text)
+
+
+def ics_intro(state):
+    """Один раз присылает в группу ссылку на календарь «Мы идём» и как подключить его на iPhone."""
+    if OPTS["calendar"] != "apple" or state.get("ics_intro_sent") or not OPTS["repo"]:
+        return
+    url = f"https://raw.githubusercontent.com/{OPTS['repo']}/{OPTS['branch']}/calendar/plans.ics"
+    mid = tg_send(
+        "📅 <b>КАЛЕНДАРЬ «МЫ ИДЁМ» НА IPHONE</b>\n"
+        "Ставите 👍 на карточку — событие само появляется в календаре iPhone. "
+        "Сняли 👍 — запись исчезает. Подключается один раз.\n\n"
+        f"<b>1.</b> Нажмите на ссылку — она скопируется:\n<code>{url}</code>\n\n"
+        "<b>2.</b> Настройки → Приложения → Календарь → Учётные записи календаря → "
+        "Добавить учётную запись → Другое → <b>Добавить подписной календарь</b> → вставьте "
+        "ссылку → Далее → Сохранить.\n\n"
+        "<b>3.</b> Там же откройте «Загрузка данных» и выберите «Ежечасно».\n\n"
+        "<i>Запись появляется примерно через 1–2 часа после 👍. "
+        "Подключите на обоих телефонах.</i>", notify=True)
+    if mid:
+        state["ics_intro_sent"] = True
+
+
 # ================= Оценки 👍 / 👎 =================
 # Реакции на карточки (бот должен быть администратором группы) или ответы на карточку
 # словом/смайликом. Бот проверяет их каждый час и учитывает при следующем отборе.
@@ -1398,7 +1568,7 @@ def apply_vote(state, mid, who, v):
     if not c:
         return
     taste = state.setdefault("taste", {})
-    rec = taste.pop(mid, None) or {k: c.get(k) for k in ("t", "a", "c", "city")}
+    rec = taste.pop(mid, None) or dict(c)          # всё о событии — для календаря «Мы идём»
     votes = rec.setdefault("votes", {})
     if v:
         votes[who] = v
@@ -1641,10 +1811,11 @@ def send_digest(state, cfg, today, start, end, events, maybe, wx, places, tips, 
     if tips:
         cover.append("⭐ Совет недели — в самом конце")
     cover.append("")
+    plans = ", и добавит событие в календарь «Мы идём»" if OPTS["calendar"] == "apple" else ""
     if state.get("bot_admin"):
-        cover.append("<i>Ставьте 👍 или 👎 на карточки — бот запомнит, что вам нравится.</i>")
+        cover.append(f"<i>Ставьте 👍 или 👎 на карточки — бот запомнит, что вам нравится{plans}.</i>")
     else:
-        cover.append("<i>Ответьте на карточку «👍» или «👎» — бот запомнит, что вам нравится. "
+        cover.append(f"<i>Ответьте на карточку «👍» или «👎» — бот запомнит, что вам нравится{plans}. "
                      "Сделайте бота администратором группы — и можно будет просто ставить реакции.</i>")
     tg_send("\n".join(cover), notify=True)
 
@@ -1929,6 +2100,7 @@ def urgent_check(state, cfg, now):
 
 def main():
     cfg = load_settings()
+    OPTS["calendar"] = "google" if cfg["calendar"].lower().startswith(("goog", "гугл")) else "apple"
     now = dt.datetime.now(TZ)
     today = now.date()
     state = load_state()
@@ -1975,6 +2147,11 @@ def main():
 
     cutoff = (today - dt.timedelta(days=45)).isoformat()
     state["cards"] = {k: v for k, v in state.get("cards", {}).items() if v.get("dg", "") >= cutoff}
+    try:
+        ics_feeds(state, today)
+        ics_intro(state)
+    except Exception as e:
+        print("[calendar] сбой:", e)
     if CHAT["migrated"]:
         state["chat_id"] = CHAT["id"]
         tg(f"ℹ️ Telegram превратил группу в супергруппу, и у неё новый номер: "
