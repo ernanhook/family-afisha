@@ -8,6 +8,8 @@
   sources.txt     — сайты с афишами и запросы в Google News
   places.txt      — постоянные места для блока «Куда ещё сходить»
   holidays.txt    — праздники для блока «Скоро»
+  distances.txt   — сколько ехать из Риги до городов Латвии (строка «🚗» на карточке)
+  recurring.txt   — регулярные события, которые семья знает
 Секреты (ключи) берутся из переменных окружения: ANTHROPIC_API_KEY,
 TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
 """
@@ -17,6 +19,7 @@ import json
 import os
 import re
 import time
+import unicodedata
 import urllib.parse
 from zoneinfo import ZoneInfo
 
@@ -74,18 +77,51 @@ def load_settings():
                 "places_count": "3", "holidays_ahead_days": "21",
                 "monthly_budget_usd": "0.90", "model": "claude-haiku-5-5",
                 "show_diagnostics": "auto", "events_api_monthly_limit": "45",
-                "places_repeat_days": "28", "week_tips": "yes"}
+                "places_repeat_days": "28", "week_tips": "yes", "child_birth": "",
+                "weekend_reminder": "пт 18", "urgent_per_week": "2", "max_cards": "30"}
     for k, v in defaults.items():
         s.setdefault(k, v)
     aliases = {"пн": 0, "по": 0, "вт": 1, "ср": 2, "чт": 3, "че": 3, "пт": 4, "пя": 4,
                "сб": 5, "су": 5, "вс": 6, "во": 6}
     s["digest_weekday"] = aliases.get(s["digest_day"].lower()[:2], 3)
     for k in ("digest_hour", "days_ahead", "latest_start_hour", "places_count",
-              "holidays_ahead_days", "events_api_monthly_limit", "places_repeat_days"):
-        s[k] = int(s[k])
+              "holidays_ahead_days", "events_api_monthly_limit", "places_repeat_days",
+              "urgent_per_week", "max_cards"):
+        try:
+            s[k] = int(s[k])
+        except ValueError:
+            s[k] = int(defaults[k])
     for k in ("weather_lat", "weather_lon", "monthly_budget_usd"):
         s[k] = float(s[k].replace(",", "."))
+    # Возраст ребёнка: если указан месяц рождения, бот «растёт» вместе с ребёнком
+    s["max_age_ok"] = 2                    # события с минимальным возрастом больше — «на вырост»
+    m = re.match(r"(\d{4})-(\d{1,2})", s["child_birth"])
+    if m:
+        today = dt.datetime.now(TZ).date()
+        months = (today.year - int(m.group(1))) * 12 + today.month - int(m.group(2))
+        if 0 <= months < 240:
+            y, mo = divmod(months, 12)
+            s["child"] = "ребёнок " + age_words(y, mo)
+            s["max_age_ok"] = max(1, -(-months // 12))     # возраст, округлённый вверх
+    s["child_age_note"] = (f"события с минимальным возрастом больше {s['max_age_ok']} лет "
+                           f"(«{s['max_age_ok'] + 1}+», «от {s['max_age_ok'] + 1} лет» и старше)")
     return s
+
+
+def plural(n, one, few, many):
+    n = abs(n) % 100
+    if 11 <= n <= 14:
+        return many
+    return one if n % 10 == 1 else few if 2 <= n % 10 <= 4 else many
+
+
+def age_words(y, m):
+    parts = []
+    if y:
+        parts.append(f"{y} {plural(y, 'год', 'года', 'лет')}")
+    if m or not y:
+        parts.append(f"{m} {plural(m, 'месяц', 'месяца', 'месяцев')}")
+    return " ".join(parts)
 
 
 def load_sources():
@@ -150,6 +186,8 @@ def parse_date(s):
 
 
 def nice_range(a, b):
+    if a == b:
+        return f"{a.day} {MONTHS[a.month - 1]}"
     if a.month == b.month:
         return f"{a.day}–{b.day} {MONTHS[b.month - 1]}"
     return f"{a.day} {MONTHS[a.month - 1]} – {b.day} {MONTHS[b.month - 1]}"
@@ -167,38 +205,94 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=0)
 
 
+# ================= Telegram =================
+# В группу бот может писать не чаще 20 сообщений в минуту — держим паузу ~3 с.
+CHAT = {"id": TG_CHAT, "migrated": False, "last": 0.0, "err": ""}
+
+
+def tg_api(method, payload, timeout=30):
+    """Вызов Bot API. Возвращает result или None (текст ошибки — в CHAT['err'])."""
+    if not TG_TOKEN:
+        print(f"[tg] нет TELEGRAM_BOT_TOKEN — пропускаю {method}")
+        return None
+    for attempt in range(4):
+        try:
+            r = requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/{method}",
+                              json=payload, timeout=timeout)
+            j = r.json()
+        except Exception as e:
+            CHAT["err"] = str(e)[:200]
+            print(f"Telegram {method}: {e}")
+            time.sleep(3)
+            continue
+        if j.get("ok"):
+            return j.get("result")
+        params = j.get("parameters") or {}
+        if params.get("retry_after"):                       # слишком часто — ждём, сколько просят
+            time.sleep(int(params["retry_after"]) + 1)
+            continue
+        if params.get("migrate_to_chat_id") and "chat_id" in payload:
+            # группа превратилась в супергруппу — у неё новый номер
+            CHAT["id"], CHAT["migrated"] = str(params["migrate_to_chat_id"]), True
+            payload["chat_id"] = CHAT["id"]
+            continue
+        CHAT["err"] = str(j.get("description", ""))[:200]
+        print(f"Telegram {method}: {CHAT['err']}")
+        return None
+    return None
+
+
+def valid_url(u):
+    u = str(u or "").strip()
+    return u.startswith(("http://", "https://")) and " " not in u and len(u) < 1500
+
+
+def tg_send(text, buttons=None, notify=False):
+    """Одно сообщение. buttons — список рядов кнопок-ссылок. Возвращает message_id или None."""
+    wait = 3.1 - (time.time() - CHAT["last"])
+    if wait > 0:
+        time.sleep(wait)
+    payload = {"chat_id": CHAT["id"], "text": text, "parse_mode": "HTML",
+               "link_preview_options": {"is_disabled": True},
+               "disable_notification": not notify}
+    rows = [[b for b in row if valid_url(b.get("url"))] for row in (buttons or [])]
+    rows = [r for r in rows if r]
+    if rows:
+        payload["reply_markup"] = {"inline_keyboard": rows}
+    res = tg_api("sendMessage", payload)
+    if res is None and rows:                                 # кнопка не понравилась — без кнопок
+        payload.pop("reply_markup", None)
+        res = tg_api("sendMessage", payload)
+    if res is None and "parse" in CHAT["err"].lower():       # сломалась разметка — простым текстом
+        payload.pop("parse_mode")
+        payload["text"] = re.sub(r"<[^>]+>", "", text).replace("&lt;", "<").replace(
+            "&gt;", ">").replace("&amp;", "&")
+        res = tg_api("sendMessage", payload)
+    CHAT["last"] = time.time()
+    return (res or {}).get("message_id")
+
+
 def tg(text):
-    try:
-        r = requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
-                          data={"chat_id": TG_CHAT, "text": text, "parse_mode": "HTML",
-                                "disable_web_page_preview": "true"}, timeout=20)
-        if not r.ok:
-            print("Telegram error:", r.text)
-        time.sleep(1)
-    except Exception as e:
-        print("Telegram error:", e)
+    """Простое служебное сообщение со звуком."""
+    return tg_send(text, notify=True)
 
 
-def tg_blocks(blocks):
-    chunk = ""
-    for b in blocks:
-        if chunk and len(chunk) + len(b) + 2 > 3800:
-            tg(chunk)
-            chunk = ""
-        chunk += ("\n\n" if chunk else "") + b
-    if chunk.strip():
-        tg(chunk)
-
-
-def tg_long(lines):
-    chunk = ""
-    for line in lines:
-        if len(chunk) + len(line) + 1 > 3800:
-            tg(chunk)
-            chunk = ""
-        chunk += line + "\n"
-    if chunk.strip():
-        tg(chunk)
+def tg_list(header, items, expandable=False, notify=False, limit=3600):
+    """Длинный список: делит на несколько сообщений; expandable — свернуть под «развернуть»."""
+    chunks, cur = [], []
+    for it in items:
+        if cur and len(header) + sum(len(x) + 1 for x in cur) + len(it) > limit:
+            chunks.append(cur)
+            cur = []
+        cur.append(it)
+    if cur:
+        chunks.append(cur)
+    for k, ch in enumerate(chunks):
+        head = header if k == 0 else "<i>…продолжение</i>"
+        body = "\n".join(ch)
+        if expandable:
+            body = f"<blockquote expandable>{body}</blockquote>"
+        tg_send(f"{head}\n{body}" if head else body, notify=notify and k == 0)
 
 
 # ================= Сбор =================
@@ -444,6 +538,9 @@ def collect_sources(state=None, cfg=None, start=None, end=None):
     for listing, pattern, max_n in follows:
         DIAG["pages_total"] += 1
         arts, ok = follow_links(listing, pattern, max_n, seen_urls)
+        DIAG.setdefault("read", {})[listing] = ok
+        for a in arts:
+            a["sid"] = listing
         if ok:
             DIAG["pages_ok"] += 1
             DIAG["articles"] = DIAG.get("articles", 0) + len(arts)
@@ -453,12 +550,13 @@ def collect_sources(state=None, cfg=None, start=None, end=None):
     DIAG["pages_total"] += len(pages)
     for url in pages:
         text = page_text(url)
+        DIAG.setdefault("read", {})[url] = bool(text)
         if not text:
             DIAG["pages_failed"].append(urllib.parse.urlparse(url).netloc.replace("www.", ""))
         if text:
             DIAG["pages_ok"] += 1
             sources.append({"name": urllib.parse.urlparse(url).netloc.replace("www.", ""),
-                            "link": url, "text": text})
+                            "link": url, "text": text, "sid": url})
     seen = set()
     for lang, q in news_queries:
         try:
@@ -556,15 +654,15 @@ PLACES_PROMPT = """Кто идёт: {family}, {child}. Живут: {home}. Пр�
 TIPS_PROMPT = """Ты — заботливый советчик для семьи: {family}, {child}. Живут: {home}.
 Прогноз на выходные:
 {weather}
-
+{taste}
 Ниже мероприятия из сводки. Для КАЖДОЙ недели выбери ОДНО мероприятие, которое
-больше всего порадует именно малыша до 3 лет — и при этом будет приятно родителям.
+больше всего порадует именно малыша ({child}) — и при этом будет приятно родителям.
 Малышу интересно то, что можно увидеть, услышать и потрогать: живые животные, техника
 и транспорт вблизи, музыка и движение, вода, свет, простор, где можно бегать, игровые
 зоны для малышей, занятия «мама + малыш», праздники под открытым небом с ярмаркой.
-НЕ выбирай: то, что рассчитано на детей постарше (указан возраст 3+, 4+, 5+ и выше,
-«для школьников», задания и квесты, которые надо читать или решать), выставки «для
-смотрения» (растения, искусство, медали, история), лекции и всё, где надо долго сидеть.
+НЕ выбирай: {age_note}, «для школьников», задания и квесты, которые надо читать или решать,
+выставки «для смотрения» (растения, искусство, медали, история), лекции и всё, где надо
+долго сидеть. При прочих равных выбирай то, что ближе к дому (смотри «дорога»).
 Если в какую-то неделю ничего подходящего малышу нет — пропусти эту неделю.
 Выбирай только событие, которое проходит в эту неделю.
 
@@ -578,41 +676,70 @@ TIPS_PROMPT = """Ты — заботливый советчик для семь�
 {events}
 """
 
+DUPES_PROMPT = """Ниже мероприятия, собранные с разных сайтов и из новостей. Одно и то же
+мероприятие могло попасть сюда несколько раз: из разных источников, на латышском и на русском,
+с немного разными названиями (например «Ķirbjaugi un paprika 2026» и «Выставка тыкв и перцев»).
+Найди такие повторы.
+Повтор — это ОДНО И ТО ЖЕ событие: то же место (или город) и те же или пересекающиеся даты.
+НЕ повторы: разные занятия или выставки в одном месте в одни даты; одинаковые регулярные занятия
+в разные дни; одинаковые программы в разных торговых центрах или городах.
+Если сомневаешься — это не повтор.
+Ответь ТОЛЬКО JSON-массивом групп (пустой [], если повторов нет):
+[{{"same": [номер, номер]}}]
 
-def too_old(e):
-    """True, если событие явно для детей от 3 лет и старше (по полю age и описанию)."""
+МЕРОПРИЯТИЯ:
+{events}
+"""
+
+
+def too_old(e, max_ok=2):
+    """True, если событие явно для детей старше max_ok лет (по полю age и описанию)."""
     text = " ".join(str(e.get(k) or "") for k in ("age", "about", "summary", "title")).lower()
     ages = [int(x) for x in re.findall(r"(?<![\d,.])(\d{1,2})\s*\+", text)]
-    ages += [int(x) for x in re.findall(r"(?:\bот|\bno)\s*(\d{1,2})(?![\d,.:])\s*(?:лет|года|г\b|gad)", text)]
-    if any(a >= 3 for a in ages):
+    ages += [int(x) for x in re.findall(
+        r"(?:\bот|\bno)\s*(\d{1,2})(?![\d,.:])\s*(?:лет|года|г\b|gad)", text)]
+    if any(a > max_ok for a in ages):
         return True
-    return any(w in text for w in ("школьник", "skolēn", "skolas vecuma"))
+    # «для школьников» — да, а «ярмарка поделок школьников» — нет
+    return bool(re.search(r"для школьник|только школьник|skolēniem|skolas vecuma|школьного возраста",
+                          text))
 
 
-def week_tips(events, cfg, state, wx, start, end):
-    """Совет ИИ: по одному главному событию на каждую неделю периода."""
+def week_ranges(start, end):
     weeks, d = [], start
     while d <= end:
         weeks.append((d, min(d + dt.timedelta(days=6), end)))
         d += dt.timedelta(days=7)
     if len(weeks) > 1 and (weeks[-1][1] - weeks[-1][0]).days < 3:   # хвост из 1–3 дней
         weeks[-2:] = [(weeks[-2][0], weeks[-1][1])]                  # присоединяем к прошлой неделе
-    # малышу до 3 лет не подходят события с минимальным возрастом 3+ и старше
-    events = [e for e in events if not too_old(e)]
+    return weeks
+
+
+def event_line(i, e):
+    """Строка о событии для ИИ (совет недели, поиск повторов)."""
+    when = f"{e['_d1']:%d.%m}" + ("" if e["_d2"] == e["_d1"] else f"–{e['_d2']:%d.%m}")
+    drive = e.get("_drive")
+    return (f"[{i}] {when} {e.get('time') or ''} | {e.get('title')} | "
+            f"{e.get('venue') or ''}, {e.get('city') or ''} | "
+            f"дорога: {'в Риге' if not drive else str(drive) + ' мин'} | "
+            f"возраст: {e.get('age') or 'не указан'} | "
+            f"{'бесплатно' if e.get('free') else e.get('price') or ''} | "
+            f"{e.get('about') or ''}. {e.get('summary') or ''}")
+
+
+def week_tips(events, cfg, state, wx_text, start, end):
+    """Совет ИИ: по одному главному событию на каждую неделю периода."""
+    weeks = week_ranges(start, end)
+    events = [e for e in events if not too_old(e, cfg["max_age_ok"])]
     if not events or not weeks:
         return []
-    lines = []
-    for i, e in enumerate(events, 1):
-        when = f"{e['_d1']:%d.%m}" + ("" if e["_d2"] == e["_d1"] else f"–{e['_d2']:%d.%m}")
-        lines.append(f"[{i}] {when} {e.get('time') or ''} | {e.get('title')} | "
-                     f"{e.get('venue') or ''}, {e.get('city') or ''} | "
-                     f"возраст: {e.get('age') or 'не указан'} | "
-                     f"{'бесплатно' if e.get('free') else e.get('price') or ''} | "
-                     f"{e.get('about') or ''}. {e.get('summary') or ''}")
     wtext = "\n".join(f"Неделя {k}: {a:%d.%m}–{b:%d.%m}" for k, (a, b) in enumerate(weeks, 1))
     res = claude(TIPS_PROMPT.format(family=cfg["family"], child=cfg["child"],
-                                    home=cfg["home_city"], weather="\n".join(wx) or "неизвестен",
-                                    weeks=wtext, events="\n".join(lines)),
+                                    home=cfg["home_city"], weather=wx_text or "неизвестен",
+                                    taste=taste_text(state), age_note=cfg["child_age_note"],
+                                    weeks=wtext,
+                                    events="\n".join(event_line(i, e)
+                                                     for i, e in enumerate(events, 1))),
                  state, cfg, max_tokens=1500)
     out, used = [], set()
     for t in res:
@@ -627,8 +754,51 @@ def week_tips(events, cfg, state, wx, start, end):
         if e["_d1"] > b or e["_d2"] < a:              # событие не в эту неделю
             continue
         used.add(k)
-        out.append((k, a, b, e, str(t.get("why") or "")))
+        out.append((k, a, b, e, fix_ru(str(t.get("why") or ""))))
     return sorted(out, key=lambda x: x[0])
+
+
+def ai_dedupe(events, state, cfg):
+    """Склеивает одно и то же событие из разных источников (в т.ч. на разных языках)."""
+    if len(events) < 2:
+        return events
+    try:
+        res = claude(DUPES_PROMPT.format(events="\n".join(
+            event_line(i, e) for i, e in enumerate(events, 1))), state, cfg, max_tokens=1000)
+    except BudgetExceeded:
+        return events
+    drop = set()
+    for g in res:
+        ids = [x for x in (g.get("same") or []) if isinstance(x, int) and 1 <= x <= len(events)]
+        idx = [i - 1 for i in dict.fromkeys(ids) if (i - 1) not in drop]
+        if len(idx) < 2:
+            continue
+        # все в группе должны пересекаться по датам с первым — иначе это не повтор
+        first = events[idx[0]]
+        idx = [i for i in idx if events[i]["_d1"] <= first["_d2"] and events[i]["_d2"] >= first["_d1"]]
+        if len(idx) < 2:
+            continue
+
+        def quality(e):
+            return ((e.get("fit") != "maybe") * 8 + ("news.google" not in str(e.get("link"))) * 4
+                    + bool(e.get("time")) * 2 + bool(e.get("price") or e.get("free"))
+                    + bool(e.get("summary")) + bool(e.get("venue")))
+        bi = max(idx, key=lambda i: quality(events[i]))
+        best = events[bi]
+        for i in idx:
+            if i == bi:
+                continue
+            e = events[i]
+            for f in ("time", "price", "age", "summary", "venue", "about"):
+                if not best.get(f) and e.get(f):
+                    best[f] = e[f]
+            if e.get("free") and not best.get("price"):
+                best["free"] = True
+            drop.add(i)
+    if drop:
+        print(f"[dupes] склеено повторов: {len(drop)}")
+        DIAG["dupes"] = len(drop)
+    return [e for i, e in enumerate(events) if i not in drop]
 
 
 def parse_objects(text):
@@ -655,7 +825,8 @@ def claude(prompt, state, cfg, max_tokens=8000):
                "content-type": "application/json"}
     payload = {"model": cfg["model"], "max_tokens": max_tokens,
                "system": "Отвечай сразу JSON-массивом, без рассуждений, пояснений и markdown. "
-                         "Текстовые поля about, summary и why пиши по-русски.",
+                         "Текстовые поля about, summary, why и why_not пиши по-русски, только "
+                         "русскими буквами (никаких украинских і, ї, є и казахских ң, қ, ү).",
                "messages": [{"role": "user", "content": prompt}]}
     for attempt in range(4):
         try:
@@ -706,7 +877,9 @@ def find_events(sources, state, cfg, cats, today, start, end):
     header = EVENTS_PROMPT.format(
         family=cfg["family"], child=cfg["child"], home=cfg["home_city"], region=cfg["region"],
         today=today, start=start, end=end, latest=cfg["latest_start_hour"],
-        criteria=text_of("criteria.txt") or "всё, что подходит семье с маленьким ребёнком",
+        criteria=(text_of("criteria.txt") or "всё, что подходит семье с маленьким ребёнком")
+        + f"\n- для малыша не подходят {cfg['child_age_note']} — это «maybe»."
+        + taste_text(state),
         categories="\n".join(f"- {c['code']}: {c['about']}" for c in cats))
     chunks, cur, size = [], [], 0
     for s in sources:
@@ -729,8 +902,13 @@ def find_events(sources, state, cfg, cats, today, start, end):
             if not isinstance(n, int) or not 0 <= n < len(chunk):
                 continue
             DIAG["ai_found"] += 1
+            for f in ("title", "about", "summary", "why_not", "city", "venue", "age", "price",
+                      "time"):
+                if ev.get(f) is not None:
+                    ev[f] = fix_ru(" ".join(str(ev[f]).split()))
             rep = {"title": str(ev.get("title", ""))[:80], "date": ev.get("date"),
-                   "fit": ev.get("fit", "yes"), "source": chunk[n]["name"]}
+                   "fit": ev.get("fit", "yes"), "source": chunk[n]["name"],
+                   "sid": chunk[n].get("sid", "")}
             REPORT.append(rep)
             if ev.get("sold_out") is True or str(ev.get("sold_out")).lower() == "true":
                 DIAG["sold_out"] = DIAG.get("sold_out", 0) + 1
@@ -746,6 +924,7 @@ def find_events(sources, state, cfg, cats, today, start, end):
             if not str(ev.get("link", "")).startswith("http"):
                 ev["link"] = chunk[n]["link"]
             ev["source"] = chunk[n]["name"]
+            ev["_sid"] = chunk[n].get("sid", "")
             events.append(ev)
         time.sleep(2)
     return events
@@ -758,28 +937,50 @@ WMO = [((0,), "☀️", "ясно"), ((1, 2), "🌤", "переменная об
        ((85, 86), "🌨", "снегопад"), ((95, 96, 99), "⛈", "гроза")]
 
 
-def weather(cfg, days):
+def weather(cfg, start, end):
+    """Прогноз по дням: {дата: {emoji, word, code, tmin, tmax, pop}} (до 16 дней вперёд)."""
     try:
         r = requests.get("https://api.open-meteo.com/v1/forecast", params={
             "latitude": cfg["weather_lat"], "longitude": cfg["weather_lon"],
-            "timezone": "Europe/Riga", "forecast_days": 14,
+            "timezone": "Europe/Riga", "forecast_days": 16,
             "daily": "weather_code,temperature_2m_max,temperature_2m_min,"
                      "precipitation_probability_max"}, timeout=20)
         d = r.json()["daily"]
     except Exception as e:
         print("Погода недоступна:", e)
-        return []
-    out = []
-    for day in days:
-        if day.isoformat() not in d["time"]:
+        return {}
+    out = {}
+    for i, ds in enumerate(d.get("time", [])):
+        day = parse_date(ds)
+        tmin, tmax = d["temperature_2m_min"][i], d["temperature_2m_max"][i]
+        if not day or day < start or day > end or tmin is None or tmax is None:
             continue
-        i = d["time"].index(day.isoformat())
-        code = d["weather_code"][i]
+        code = d["weather_code"][i] or 0
         emoji, word = next(((e, w) for codes, e, w in WMO if code in codes), ("🌡", ""))
-        out.append(f"{WD[day.weekday()]} {day:%d.%m}: {emoji} "
-                   f"{round(d['temperature_2m_min'][i]):+d}…{round(d['temperature_2m_max'][i]):+d}°, "
-                   f"{word}, осадки {d['precipitation_probability_max'][i] or 0}%")
+        out[day] = {"emoji": emoji, "word": word, "code": code, "tmin": round(tmin),
+                    "tmax": round(tmax), "pop": d["precipitation_probability_max"][i] or 0}
     return out
+
+
+def wx_line(day, w):
+    return (f"{w['emoji']} {WD[day.weekday()]}  {w['tmin']:+d}…{w['tmax']:+d}°, {w['word']}"
+            f" · осадки {w['pop']}%")
+
+
+def wx_hint(ws):
+    """Короткий совет по погоде на выходные."""
+    if not ws:
+        return ""
+    if any(w["pop"] >= 60 or w["code"] >= 51 for w in ws):
+        return "☔ Возможен дождь — пригодятся дождевик и крытые места"
+    tmax = max(w["tmax"] for w in ws)
+    if tmax <= 2:
+        return "🧤 Морозно — оденьтесь потеплее, лучше крытые места"
+    if tmax <= 10:
+        return "🧥 Прохладно — оденьтесь потеплее"
+    if all(w["code"] <= 2 for w in ws) and tmax >= 15:
+        return "☀️ Отличная погода для прогулок"
+    return ""
 
 
 # ================= Праздники =================
@@ -828,40 +1029,233 @@ def upcoming_holidays(today, days):
     return [l for _, l in sorted(out)]
 
 
-# ================= Сводка =================
-SEP = "━━━━━━━━━━━━━━━"
+# ================= Русский текст, дорога, ссылки =================
+# Буквы, которых нет в русском (ИИ иногда подмешивает украинские и казахские)
+NON_RU = str.maketrans({"і": "и", "І": "И", "ї": "и", "Ї": "И", "є": "е", "Є": "Е", "ґ": "г",
+                        "Ґ": "Г", "ў": "у", "Ў": "У", "ң": "н", "Ң": "Н", "қ": "к", "Қ": "К",
+                        "ғ": "г", "Ғ": "Г", "ү": "у", "Ү": "У", "ұ": "у", "Ұ": "У", "ө": "о",
+                        "Ө": "О", "ә": "а", "Ә": "А", "һ": "х", "Һ": "Х"})
 
 
-def fmt_event(ev, emoji):
-    """Одно событие = отдельный блок из нескольких коротких строк."""
-    d1, d2 = ev["_d1"], ev["_d2"]
-    if d2 == d1:
-        when = f"{WD_FULL_NOM[d1.weekday()]}, {d1.day} {MONTHS[d1.month - 1]}"
+def fix_ru(s):
+    return str(s or "").translate(NON_RU)
+
+
+def _norm(s):
+    """Для сравнения названий: нижний регистр, без диакритики и знаков."""
+    s = unicodedata.normalize("NFKD", str(s or "").lower())
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    return re.sub(r"[^\w]+", " ", s).strip()
+
+
+_DIST = None
+
+
+def distances():
+    """distances.txt: «Мадона / Madona | 2:10» → [(регулярка, минуты)], длинные названия первыми."""
+    global _DIST
+    if _DIST is None:
+        rows = []
+        for row in table_of("distances.txt", ["names", "time"]):
+            m = re.match(r"(\d+):(\d{2})", row["time"])
+            if not m:
+                continue
+            mins = int(m.group(1)) * 60 + int(m.group(2))
+            for n in row["names"].split("/"):
+                n = _norm(n)
+                if n:
+                    rows.append((n, mins))
+        rows.sort(key=lambda x: -len(x[0]))
+        # название + до 2 букв окончания (Jelgava → Jelgavas, Мадона → Мадоне)
+        _DIST = [(re.compile(rf"(?<!\w){re.escape(n)}\w{{0,2}}(?!\w)"), mins) for n, mins in rows]
+    return _DIST
+
+
+def drive_minutes(ev):
+    """Сколько ехать из Риги (минуты) по городу события; None — если город не узнали."""
+    for field in ("city", "venue"):
+        text = _norm(ev.get(field))
+        if not text:
+            continue
+        for rx, mins in distances():
+            if rx.search(text):
+                return mins
+    return None
+
+
+def drive_text(mins, short=False):
+    if mins is None or mins < 15:          # Рига и совсем рядом — без пометки
+        return ""
+    h, m = divmod(mins, 60)
+    t = (f"{h} ч {m} мин" if m else f"{h} ч") if h else f"{m} мин"
+    nb = "\u00a0"                                   # неразрывный пробел: «~2 ч 10 мин» не рвётся
+    return (f"🚗{nb}~{t}".replace(" ", nb)
+            + (" · на целый день" if mins >= 120 and not short else ""))
+
+
+def short_url(u):
+    p = urllib.parse.urlparse(u)
+    path = p.path.rstrip("/")
+    return (p.netloc.replace("www.", "") + (path[:28] + "…" if len(path) > 28 else path))
+
+
+def maps_link(ev):
+    parts = [x for x in (ev.get("venue"), ev.get("city")) if x]
+    parts = [x for x in parts if _norm(x) not in ("латвия", "latvija", "latvia", "разные места",
+                                                  "dazadas norises vietas", "online", "онлайн")]
+    if not parts:
+        return ""
+    return ("https://www.google.com/maps/search/?api=1&query="
+            + urllib.parse.quote(", ".join(dict.fromkeys(parts)) + ", Latvia"))
+
+
+def gcal_link(ev, start, end):
+    """Ссылка «добавить в Google Календарь» с датой, временем и местом."""
+    d1, d2 = max(ev["_d1"], start), min(ev["_d2"], end)
+    if d2 < d1:
+        d2 = d1
+    if (d2 - d1).days >= 3:                 # долгая выставка — ставим на ближайшую субботу
+        sat = d1 + dt.timedelta(days=(5 - d1.weekday()) % 7)
+        d1 = d2 = sat if sat <= d2 else d1
+    m = re.match(r"(\d{1,2})[:.](\d{2})", str(ev.get("time") or ""))
+    if m and d1 == d2 and int(m.group(1)) < 24:
+        s = dt.datetime.combine(d1, dt.time(int(m.group(1)), min(int(m.group(2)), 59)))
+        dates = f"{s:%Y%m%dT%H%M%S}/{s + dt.timedelta(hours=2):%Y%m%dT%H%M%S}"
     else:
-        when = f"{d1.day} {MONTHS[d1.month - 1]} – {d2.day} {MONTHS[d2.month - 1]}"
-    if ev.get("time"):
-        when += f", {esc(ev['time'])}"
-    out = [f"{emoji.get(ev.get('cat'), '•')} <b>{esc(ev.get('title'))}</b>"]
+        dates = f"{d1:%Y%m%d}/{d2 + dt.timedelta(days=1):%Y%m%d}"
+    details = " ".join(x for x in (ev.get("about"), ev.get("summary")) if x)[:300]
+    if valid_url(ev.get("link")):
+        details += "\n" + ev["link"]
+    params = {"action": "TEMPLATE", "text": ev.get("title") or "Событие", "dates": dates,
+              "ctz": "Europe/Riga", "details": details,
+              "location": ", ".join(x for x in (ev.get("venue"), ev.get("city")) if x)}
+    return "https://calendar.google.com/calendar/render?" + urllib.parse.urlencode(params)
+
+
+def resolve_gnews(events):
+    """Ссылки Google News (news.google.com/rss/articles/…) → прямые ссылки на статьи."""
+    todo = list(dict.fromkeys(e["link"] for e in events if "news.google.com" in str(e.get("link"))))
+    if not todo:
+        return
+    try:
+        from googlenewsdecoder import gnewsdecoder
+        res = gnewsdecoder(todo, interval=1)
+    except Exception as e:
+        print("[gnews] не удалось расшифровать ссылки:", e)
+        return
+    res = [res] if isinstance(res, dict) else list(res or [])
+    real = {u: r["decoded_url"] for u, r in zip(todo, res)
+            if isinstance(r, dict) and r.get("success") and valid_url(r.get("decoded_url"))}
+    for e in events:
+        u = real.get(e.get("link"))
+        if u:
+            e["link"] = u
+            e["source"] = urllib.parse.urlparse(u).netloc.replace("www.", "")
+    print(f"[gnews] прямых ссылок: {len(real)} из {len(todo)}")
+
+
+# ================= Карточки =================
+WD_GEN = ["понедельника", "вторника", "среды", "четверга", "пятницы", "субботы", "воскресенья"]
+WD_ALIASES = {"пн": 0, "по": 0, "вт": 1, "ср": 2, "чт": 3, "че": 3, "пт": 4, "пя": 4,
+              "сб": 5, "су": 5, "вс": 6, "во": 6}
+
+
+def when_text(ev, start=None):
+    d1, d2 = ev["_d1"], ev["_d2"]
+    if d1 == d2:
+        s = f"{WD[d1.weekday()]}, {d1.day} {MONTHS[d1.month - 1]}"
+    elif start and d1 < start:
+        s = f"до {d2.day} {MONTHS[d2.month - 1]}"
+    elif d1.month == d2.month:
+        s = f"{WD[d1.weekday()]} {d1.day} – {WD[d2.weekday()]} {d2.day} {MONTHS[d2.month - 1]}"
+    else:
+        s = f"{d1.day} {MONTHS[d1.month - 1]} – {d2.day} {MONTHS[d2.month - 1]}"
+    t = str(ev.get("time") or "").strip()
+    return s + (f" · {t}" if t else "")
+
+
+def place_text(ev):
+    return ", ".join(dict.fromkeys(x for x in (ev.get("venue"), ev.get("city")) if x))
+
+
+def title_link(ev):
+    t = esc(ev.get("title"))
+    return f'<a href="{esc(ev["link"])}">{t}</a>' if valid_url(ev.get("link")) else t
+
+
+def card_text(ev, emoji, start):
+    """Карточка события — отдельное сообщение, чтобы на него можно было ответить,
+    поставить 👍/👎 или переслать."""
+    lines = []
+    if ev.get("_tip"):
+        lines.append("⭐ <b>Совет недели</b>")
+    lines.append(f"{emoji.get(ev.get('cat'), '📌')} <b>{title_link(ev)}</b>")   # название — ссылка на сайт
     if ev.get("about"):
-        out.append(f"<i>{esc(ev['about'])}</i>")
-    out.append(f"📅 {when}")
-    place = esc(ev.get("city"))
-    if ev.get("venue"):
-        place = esc(ev["venue"]) + (", " + place if place else "")
-    if place:
-        out.append(f"📍 {place}")
-    money = "бесплатно" if ev.get("free") else esc(ev.get("price"))
-    extra = " · ".join(x for x in [f"💶 {money}" if money else "",
-                                   f"👶 {esc(ev['age'])}" if ev.get("age") else ""] if x)
+        lines.append(f"<i>{esc(ev['about'])}</i>")
+    lines.append("")
+    lines.append(f"📅 <b>{esc(when_text(ev, start))}</b>")
+    place, drive = esc(place_text(ev)), drive_text(ev.get("_drive"))
+    if place or drive:
+        lines.append("📍 " + " · ".join(x for x in (place, drive) if x))
+    money = ("🆓 <b>Бесплатно</b>" if ev.get("free")
+             else f"💶 {esc(ev['price'])}" if ev.get("price") else "")
+    extra = " · ".join(x for x in (money, f"👶 {esc(ev['age'])}" if ev.get("age") else "") if x)
     if extra:
-        out.append(extra)
+        lines.append(extra)
     if ev.get("summary"):
-        out.append(f"<blockquote>{esc(ev['summary'])}</blockquote>")
-    if ev.get("link"):
-        out.append(f'🔗 <a href="{esc(ev["link"])}">{esc(ev["source"])}</a>')
-    return "\n".join(out)
+        lines.append(f"<blockquote>{esc(ev['summary'])}</blockquote>")
+    return "\n".join(lines)
 
 
+def card_buttons(ev, start, end):
+    """Две кнопки под карточкой; сайт открывается по нажатию на название."""
+    row = []
+    if maps_link(ev):
+        row.append({"text": "🗺 Карта", "url": maps_link(ev)})
+    row.append({"text": "📅 В календарь", "url": gcal_link(ev, start, end)})
+    return [row]
+
+
+def send_card(ev, emoji, state, start, end, dg, prefix="", notify=False):
+    mid = tg_send(prefix + card_text(ev, emoji, start), card_buttons(ev, start, end), notify)
+    if mid:                                   # запоминаем, чтобы понять, что оценили
+        state.setdefault("cards", {})[str(mid)] = {
+            "t": ev.get("title"), "a": ev.get("about"), "c": ev.get("cat"),
+            "city": ev.get("city"), "dg": dg}
+    return mid
+
+
+def compact(ev, start, why=False):
+    """Строка для коротких списков: дата, название-ссылка, место."""
+    d1, d2 = ev["_d1"], ev["_d2"]
+    when = (f"{WD[d1.weekday()]} {d1:%d.%m}" if d1 == d2
+            else f"до {d2:%d.%m}" if d1 < start else f"{d1:%d.%m}–{d2:%d.%m}")
+    sub = [esc(ev.get("venue") or ev.get("city")), drive_text(ev.get("_drive"), short=True)]
+    if why and ev.get("why_not"):
+        sub.append(f"<i>{esc(ev['why_not'])}</i>")
+    sub = " · ".join(x for x in sub if x)
+    return f"• <b>{when}</b>  {title_link(ev)}" + (f"\n     {sub}" if sub else "")
+
+
+def ev_to_state(e):
+    d = {k: e.get(k) for k in ("title", "about", "cat", "time", "venue", "city", "link", "free",
+                               "price", "age", "summary") if e.get(k)}
+    d["d1"], d["d2"] = e["_d1"].isoformat(), e["_d2"].isoformat()
+    if e.get("_drive") is not None:
+        d["drive"] = e["_drive"]
+    if e.get("_tip"):
+        d["tip"] = e["_tip"]
+    return d
+
+
+def ev_from_state(d):
+    e = dict(d)
+    e["_d1"], e["_d2"] = parse_date(d.get("d1")), parse_date(d.get("d2"))
+    e["_drive"], e["_tip"] = d.get("drive"), d.get("tip")
+    return e
+
+
+# ================= Повторы =================
 def dedupe(events, state, period):
     """Убирает дубли. Длинная выставка показывается в сводке за один период (неделю);
     повторные запуски за тот же период её не теряют, а в следующие недели она скрыта."""
@@ -885,39 +1279,155 @@ def dedupe(events, state, period):
     return out
 
 
-def run_digest(state, cfg, today):
-    cats = table_of("categories.txt", ["code", "emoji", "label", "about"])
-    emoji = {c["code"]: c["emoji"] for c in cats}
-    start = today   # сегодняшние события тоже входят в сводку
-    end = today + dt.timedelta(days=cfg["days_ahead"])
-    sat = start + dt.timedelta(days=(5 - start.weekday()) % 7)
-    sun = sat + dt.timedelta(days=1)
+# ================= Оценки 👍 / 👎 =================
+# Реакции на карточки (бот должен быть администратором группы) или ответы на карточку
+# словом/смайликом. Бот проверяет их каждый час и учитывает при следующем отборе.
+POS = {"👍", "❤", "🔥", "🥰", "👏", "😁", "🎉", "🤩", "🙏", "👌", "😍", "❤‍🔥", "💯", "⚡",
+       "🏆", "🍾", "🤗", "😇", "🆒", "💘", "😘", "😎", "🦄", "🤝", "🫡", "✍"}
+NEG = {"👎", "💩", "🤮", "😴", "🥱", "🙈", "💔", "😐", "🤨", "😢", "😭", "🤡", "🙉", "🙊"}
 
-    sources = collect_sources(state, cfg, start, end)
-    print(f"Источников: {len(sources)}, бюджет ${state['usage']['cost']:.3f} / "
-          f"${cfg['monthly_budget_usd']:.2f}")
-    try:
-        events = dedupe(find_events(sources, state, cfg, cats, today, start, end), state,
-                        start.isoformat())
-    except BudgetExceeded:
-        tg(f"⚠️ Месячный бюджет ИИ (${cfg['monthly_budget_usd']:.2f}) исчерпан, "
-           "сводка пропущена до 1-го числа.")
+
+def _emo(x):
+    return str(x or "").replace("️", "")
+
+
+def reaction_vote(reactions):
+    v = 0
+    for r in reactions:
+        if r.get("type") == "emoji":
+            e = _emo(r.get("emoji"))
+            v = 1 if e in POS else -1 if e in NEG else v
+    return v
+
+
+def text_vote(t):
+    t = _emo(t).strip().lower()
+    if not t or len(t) > 80:
+        return 0
+    if (any(x in t for x in ("👎", "💩", "🙈")) or t in ("-", "–", "—")
+            or re.search(r"\b(нет|мимо|не интересно|неинтересно|не хочу|не надо|не то)\b", t)):
+        return -1
+    if (any(x in t for x in POS) or t.startswith("+")
+            or re.search(r"\b(да|хочу|класс|супер|круто|пойд[её]м|идём|идем|интересно)\b", t)):
+        return 1
+    return 0
+
+
+def apply_vote(state, mid, who, v):
+    c = state.get("cards", {}).get(mid)
+    if not c:
         return
+    taste = state.setdefault("taste", {})
+    rec = taste.pop(mid, None) or {k: c.get(k) for k in ("t", "a", "c", "city")}
+    votes = rec.setdefault("votes", {})
+    if v:
+        votes[who] = v
+    else:
+        votes.pop(who, None)
+    if votes:
+        taste[mid] = rec                         # свежие оценки — в конец
+    while len(taste) > 120:
+        taste.pop(next(iter(taste)))
 
-    wx = weather(cfg, [sat, sun])
-    order = lambda e: (bool(e.get("ongoing")), e["_d1"], e.get("time") or "")
-    on_weekend = lambda e: e["_d1"] <= sun and e["_d2"] >= sat
-    for e in events:                     # явно для детей постарше — не в основной список
-        if e.get("fit") != "maybe" and too_old(e):
-            e["fit"] = "maybe"
-            e["why_not"] = e.get("why_not") or (f"возраст {e['age']}" if e.get("age")
-                                                 else "для детей постарше")
-    maybe = sorted([e for e in events if e.get("fit") == "maybe"], key=order)
-    events = [e for e in events if e.get("fit") != "maybe"]
-    free = sorted([e for e in events if e.get("free")], key=order)
-    weekend = sorted([e for e in events if not e.get("free") and on_weekend(e)], key=order)
-    other = sorted([e for e in events if not e.get("free") and not on_weekend(e)], key=order)
 
+def taste_text(state):
+    """Что семье понравилось и не понравилось — подсказка для ИИ."""
+    like, dislike = [], []
+    for rec in (state or {}).get("taste", {}).values():
+        s = sum(rec.get("votes", {}).values())
+        item = str(rec.get("t") or "")
+        if rec.get("a"):
+            item += f" — {rec['a']}"
+        if rec.get("city") and rec["city"] != "Рига":
+            item += f" ({rec['city']})"
+        if s > 0:
+            like.append(item)
+        elif s < 0:
+            dislike.append(item)
+    if not like and not dislike:
+        return ""
+    out = ("\nВКУС СЕМЬИ (по их оценкам 👍/👎 в прошлых сводках): похожее на понравившееся — "
+           "в приоритете, похожее на непонравившееся — реже или в «maybe».")
+    if like:
+        out += "\nПонравилось: " + "; ".join(like[-20:])
+    if dislike:
+        out += "\nНе понравилось: " + "; ".join(dislike[-20:])
+    return out + "\n"
+
+
+def process_updates(state):
+    """Забирает из Telegram новые реакции и ответы на карточки."""
+    off, n = state.get("tg_offset", 0), 0
+    cards = state.get("cards", {})
+    chat = str(CHAT["id"])
+    for _ in range(5):
+        res = tg_api("getUpdates", {"offset": off, "timeout": 0, "limit": 100,
+                                    "allowed_updates": ["message", "message_reaction"]})
+        if not res:
+            break
+        for u in res:
+            off = max(off, u["update_id"] + 1)
+            r, m = u.get("message_reaction"), u.get("message")
+            if r and str(r.get("chat", {}).get("id")) == chat:
+                mid = str(r.get("message_id"))
+                who = str((r.get("user") or r.get("actor_chat") or {}).get("id", "anon"))
+                if mid in cards:
+                    apply_vote(state, mid, who, reaction_vote(r.get("new_reaction") or []))
+                    n += 1
+            elif m and str(m.get("chat", {}).get("id")) == chat:
+                mid = str((m.get("reply_to_message") or {}).get("message_id", ""))
+                v = text_vote(m.get("text") or "") if mid in cards else 0
+                if v:
+                    apply_vote(state, mid, str((m.get("from") or {}).get("id", "anon")), v)
+                    n += 1
+                    tg_api("setMessageReaction", {"chat_id": CHAT["id"],
+                                                  "message_id": m["message_id"],
+                                                  "reaction": [{"type": "emoji", "emoji": "👌"}]})
+        if len(res) < 100:
+            break
+    state["tg_offset"] = off
+    if n:
+        print(f"[tg] учтено оценок: {n}")
+
+
+def bot_is_admin(state):
+    me = tg_api("getMe", {})
+    if me:
+        m = tg_api("getChatMember", {"chat_id": CHAT["id"], "user_id": me["id"]})
+        state["bot_admin"] = bool(m) and m.get("status") in ("administrator", "creator")
+    return state.get("bot_admin", False)
+
+
+# ================= Здоровье источников =================
+def update_health(state, today):
+    """Считает сводки подряд, в которых сайт не открылся или не дал ни одного события."""
+    pages, _, follows, _, _ = load_sources()
+    configured = list(pages) + [f[0] for f in follows]
+    h = state.setdefault("health", {})
+    for sid in list(h):
+        if sid not in configured:
+            h.pop(sid)
+    read = DIAG.get("read", {})
+    ai_ok = DIAG["ai_calls"] > 0 and not DIAG["ai_errors"]
+    if ai_ok and state.get("health_date") != today.isoformat():    # раз в день, без тестов
+        state["health_date"] = today.isoformat()
+        found = {}
+        for r in REPORT:
+            found[r.get("sid")] = found.get(r.get("sid"), 0) + 1
+        for sid in configured:
+            if sid not in read:
+                continue
+            rec = h.setdefault(sid, {"bad": 0, "why": ""})
+            if read[sid] and found.get(sid):
+                rec.update(bad=0, why="")
+            else:
+                rec["bad"] += 1
+                rec["why"] = "не открывается" if not read[sid] else "нет событий"
+    return [(sid, r) for sid, r in h.items() if r.get("bad", 0) >= 3]
+
+
+# ================= Постоянные места =================
+def pick_places(state, cfg, today, wx_text, weekend_count):
     places = []
     # Места, которые уже предлагались за последние places_repeat_days, исключаются
     hist = state.setdefault("places_history", [])
@@ -928,100 +1438,407 @@ def run_digest(state, cfg, today):
     fresh = [l for l in all_places if l.split("|")[0].strip().lower() not in recent]
     if len(fresh) < cfg["places_count"]:          # список исчерпан — начинаем круг заново
         fresh, hist[:] = all_places, []
-    places_list = "\n".join(fresh)
-    if places_list and cfg["places_count"] > 0:
+    if fresh and cfg["places_count"] > 0:
         try:
             places = claude(PLACES_PROMPT.format(
                 family=cfg["family"], child=cfg["child"], home=cfg["home_city"],
-                weather="\n".join(wx) or "неизвестен", n=cfg["places_count"],
-                count=len([e for e in events if on_weekend(e)]),
-                last=", ".join(state.get("last_places", [])) or "—",
-                places=places_list), state, cfg, max_tokens=2000)[:cfg["places_count"]]
+                weather=wx_text or "неизвестен", n=cfg["places_count"], count=weekend_count,
+                places="\n".join(fresh)), state, cfg, max_tokens=2000)[:cfg["places_count"]]
         except Exception as e:
             print("Места:", e)
+    city = {l.split("|")[0].strip().lower(): (l.split("|") + ["", "", ""])[2].strip()
+            for l in all_places}
+    for p in places:
+        p["city"] = city.get(str(p.get("name", "")).strip().lower(), "").split(",")[0].strip()
+        p["why"] = fix_ru(p.get("why"))
     state["last_places"] = [p.get("name", "") for p in places]
     hist += [[today.isoformat(), p.get("name", "")] for p in places if p.get("name")]
+    return places
 
-    # Каждый элемент blocks — отдельный абзац; между ними пустая строка
-    blocks = [f"👶 <b>АФИША ДЛЯ МАЛЫША</b>\n{nice_range(start, end)}"]
-    if wx:
-        blocks.append(f"🌦 <b>Погода на выходные</b> · {esc(cfg['weather_name'])}\n" + "\n".join(wx))
-    for title, group in ((f"🗓 <b>ВЫХОДНЫЕ</b> · {nice_range(sat, sun)}", weekend),
-                         ("📅 <b>НА НЕДЕЛЕ</b>", other), ("🆓 <b>БЕСПЛАТНО</b>", free)):
-        if group:
-            blocks.append(f"{SEP}\n{title}")
-            blocks += [fmt_event(e, emoji) for e in group]
-    if not events:
-        blocks.append(f"{SEP}\nПодходящих малышу мероприятий в этот период не нашлось.")
+
+# ================= Сводка =================
+def segments(start, end):
+    """Период → куски: будни / выходные по порядку."""
+    segs, d, one = [], start, dt.timedelta(days=1)
+    while d <= end:
+        a, we = d, d.weekday() >= 5
+        while d + one <= end and ((d + one).weekday() >= 5) == we:
+            d += one
+        segs.append((a, d, we))
+        d += one
+    return segs
+
+
+def seg_name(a, b, we, today):
+    if we:
+        return "Выходные"
+    if a == today:
+        return "Сегодня" if a == b else "Сегодня и завтра" if (b - a).days == 1 else "Ближайшие дни"
+    return "Будни"
+
+
+def seg_icon(a, b, we, today):
+    return "🎈" if we else "⚡" if a == today else "🗓"
+
+
+def diag_text(cfg, n_events, places):
+    mode = cfg["show_diagnostics"].lower()
+    problems = mode == "always" or (mode != "never" and (
+        DIAG["ai_errors"] or n_events < 3 or DIAG["truncated"] or DIAG["pages_failed"]
+        or (cfg["places_count"] > 0 and not places)
+        or DIAG["pages_ok"] < DIAG["pages_total"] / 2))
+    if not problems:
+        return ""
+    diag = (f"⚙️ Диагностика: сайтов прочитано {DIAG['pages_ok']} из {DIAG['pages_total']}, "
+            f"порталы {DIAG.get('portal', 0)}, Google Events {DIAG.get('gevents', 0)}"
+            f"{' из ' + str(DIAG['gevents_raw']) if 'gevents_raw' in DIAG else ''}"
+            f"{' (' + DIAG['gevents_note'] + ')' if DIAG.get('gevents_note') else ''}, "
+            f"статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, "
+            f"запросов к ИИ {DIAG['ai_calls']}, ИИ нашёл {DIAG['ai_found']} "
+            f"(вне дат {DIAG['ai_out_of_range']}, повторов {DIAG.get('dupes', 0)})")
+    if DIAG["truncated"]:
+        diag += f", обрезанных ответов {DIAG['truncated']}"
+    failed = DIAG["pages_failed"] + [urllib.parse.urlparse(u).netloc.replace("www.", "")
+                                      for u in DIAG.get("portal_errors", [])]
+    if failed:
+        diag += "\nНе прочитаны: " + ", ".join(failed)
+    if DIAG["ai_errors"]:
+        diag += "\nОшибка ИИ: " + "; ".join(dict.fromkeys(DIAG["ai_errors"]))[:400]
+    if DIAG.get("other_errors"):
+        diag += "\nДругие ошибки: " + "; ".join(dict.fromkeys(DIAG["other_errors"]))[:300]
+    return diag
+
+
+def footer(state, cfg, n_events, places, warnings):
+    out = []
+    nv = sum(len(r.get("votes", {})) for r in state.get("taste", {}).values())
+    if nv:
+        out.append(f"❤️ Бот учитывает ваши оценки: {nv}")
+    if warnings:
+        out.append("🛠 <b>Проверьте источники</b> — пусто 3 сводки подряд:")
+        out += [f"• {esc(short_url(sid))} — {esc(r.get('why'))}" for sid, r in warnings[:8]]
+    u = state["usage"]
+    if u["cost"] >= 0.8 * cfg["monthly_budget_usd"]:
+        out.append(f"💰 Бюджет ИИ на месяц: ${u['cost']:.2f} из ${cfg['monthly_budget_usd']:.2f}")
+    diag = diag_text(cfg, n_events, places)
+    if diag:
+        out.append(f"<i>{esc(diag)}</i>")
+    out.append("<i>Перед поездкой проверьте время и билеты на сайте.</i>")
+    return "\n".join(out)
+
+
+def send_digest(state, cfg, today, start, end, events, maybe, wx, places, tips, warnings, emoji):
+    dg = today.isoformat()
+    segs = segments(start, end)
+    anyday = [e for e in events if (min(e["_d2"], end) - max(e["_d1"], start)).days >= 5]
+    long_ids = {id(e) for e in anyday}
+    by_seg = [[] for _ in segs]
+    for e in events:
+        if id(e) in long_ids:
+            continue
+        d = max(e["_d1"], start)
+        k = next((i for i, (a, b, we) in enumerate(segs) if a <= d <= b), len(segs) - 1)
+        by_seg[k].append(e)
+    free = [e for e in events if e.get("free")]
+
+    # 1. Обложка: что внутри
+    n = len(events)
+    cover = ["👶 <b>АФИША ДЛЯ МАЛЫША</b>", f"<i>{nice_range(start, end)} · {esc(cfg['region'])}</i>", ""]
+    if n:
+        cover.append(f"<b>В выпуске {n} {plural(n, 'событие', 'события', 'событий')} для малыша</b>")
+        for (a, b, we), evs in zip(segs, by_seg):
+            if evs:
+                cover.append(f"{seg_icon(a, b, we, today)} {seg_name(a, b, we, today)} · "
+                             f"{nice_range(a, b)} — {len(evs)}")
+        if anyday:
+            cover.append(f"🕰 В любой день — {len(anyday)}")
+        if free:
+            cover.append(f"🆓 Из них бесплатных — {len(free)}")
+    else:
+        cover.append("Подходящих малышу событий в этот период не нашлось 😔")
     if maybe:
-        lines_m = []
-        for e in maybe:
-            d1, d2 = e["_d1"], e["_d2"]
-            when = f"{d1:%d.%m}" if d1 == d2 else f"{d1:%d.%m}–{d2:%d.%m}"
-            line = f"• {when} — <b>{esc(e.get('title'))}</b>"
-            extra = [esc(e.get("venue") or e.get("city"))]
-            if e.get("why_not"):
-                extra.append(f"<i>{esc(e['why_not'])}</i>")
-            if e.get("link"):
-                extra.append(f'<a href="{esc(e["link"])}">{esc(e["source"])}</a>')
-            lines_m.append(line + "\n   " + " · ".join(x for x in extra if x))
-        blocks.append(f"{SEP}\n🔎 <b>ЕЩЁ ДЛЯ ДЕТЕЙ И СЕМЕЙ</b>\n<i>не идеально для малыша, но может пригодиться</i>\n\n"
-                      + "\n".join(lines_m))
+        cover.append(f"🔎 Ещё для детей и семей — {len(maybe)}")
+    if tips:
+        cover.append("⭐ Совет недели — в самом конце")
+    cover.append("")
+    if state.get("bot_admin"):
+        cover.append("<i>Ставьте 👍 или 👎 на карточки — бот запомнит, что вам нравится.</i>")
+    else:
+        cover.append("<i>Ответьте на карточку «👍» или «👎» — бот запомнит, что вам нравится. "
+                     "Сделайте бота администратором группы — и можно будет просто ставить реакции.</i>")
+    tg_send("\n".join(cover), notify=True)
+
+    # 2. Разделы по дням с карточками
+    cap, shown, overflow = cfg["max_cards"], 0, []
+
+    def cards(evs):
+        nonlocal shown
+        for e in evs:
+            if shown < cap:
+                send_card(e, emoji, state, start, end, dg)
+                shown += 1
+            else:
+                overflow.append(e)
+
+    first_weekend = True
+    for (a, b, we), evs in zip(segs, by_seg):
+        show_anyway = we and first_weekend          # погоду ближайших выходных показываем всегда
+        first_weekend = first_weekend and not we
+        if not evs and not show_anyway:
+            continue
+        head = [f"{seg_icon(a, b, we, today)} <b>{seg_name(a, b, we, today).upper()} · "
+                f"{nice_range(a, b).upper()}</b>"]
+        if we:
+            ws = [(d, wx[d]) for d in (a, b) if d in wx]
+            head += [wx_line(d, w) for d, w in dict(ws).items()]
+            hint = wx_hint([w for _, w in ws])
+            if hint:
+                head.append(f"<i>{hint}</i>")
+        if not evs:
+            head.append("<i>Событий для малыша не нашлось — идеи мест ближе к концу сводки.</i>")
+        tg_send("\n".join(head))
+        cards(evs)
+    if anyday:
+        tg_send("🕰 <b>В ЛЮБОЙ ДЕНЬ</b>\n<i>выставки и программы, которые идут весь период</i>")
+        cards(anyday)
+    if overflow:
+        tg_list("📋 <b>И ЕЩЁ ПОДХОДЯЩЕЕ</b>", [compact(e, start) for e in overflow])
+
+    # 3. Короткие списки
+    if free:
+        tg_list("🆓 <b>БЕСПЛАТНО</b> · всё в одном месте\n", [compact(e, start) for e in free])
+    if maybe:
+        tg_list(f"🔎 <b>ЕЩЁ ДЛЯ ДЕТЕЙ И СЕМЕЙ</b> · {len(maybe)}\n"
+                "<i>для детей постарше или не совсем для малыша — нажмите, чтобы развернуть</i>",
+                [compact(e, start, why=True) for e in maybe], expandable=True)
+    parts = []
     soon = upcoming_holidays(today, cfg["holidays_ahead_days"]) if cfg["holidays_ahead_days"] else []
     if soon:
-        blocks.append(f"{SEP}\n📌 <b>СКОРО</b>\n" + "\n".join(soon))
+        parts.append("📌 <b>СКОРО</b>\n" + "\n".join(soon))
     if places:
-        blocks.append(f"{SEP}\n🏠 <b>КУДА ЕЩЁ СХОДИТЬ</b>\n" + "\n\n".join(
-            f"• <b>{esc(p.get('name'))}</b>\n{esc(p.get('why'))}" for p in places))
+        lines = ["🏠 <b>КУДА ЕЩЁ СХОДИТЬ</b>", "<i>постоянные места — под погоду выходных</i>"]
+        for p in places:
+            m = maps_link({"venue": p.get("name"), "city": p.get("city")})
+            lines.append(f"• <b>{esc(p.get('name'))}</b>"
+                         + (f' · <a href="{esc(m)}">на карте</a>' if m else ""))
+            if p.get("why"):
+                lines.append(f"     {esc(p['why'])}")
+        parts.append("\n".join(lines))
+    if parts:
+        tg_send("\n\n".join(parts))
+
+    # 4. Совет недели и подвал — последним сообщением
+    last = []
+    if tips:
+        t = ["⭐ <b>СОВЕТ НЕДЕЛИ</b>", "<i>если успеть только одно</i>"]
+        for k, a, b, e, why in tips:
+            t += ["", f"<b>{nice_range(a, b)}</b>",
+                  f"{emoji.get(e.get('cat'), '📌')} {title_link(e)}",
+                  f"📅 {esc(when_text(e, start))}"
+                  + (f" · 📍 {esc(e.get('venue') or e.get('city'))}" if e.get("venue") or e.get("city") else "")]
+            if why:
+                t.append(f"<blockquote>{esc(why)}</blockquote>")
+        last.append("\n".join(t))
+    last.append(footer(state, cfg, len(events), places, warnings))
+    tg_send("\n\n".join(last))
+
+
+def run_digest(state, cfg, today):
+    cats = table_of("categories.txt", ["code", "emoji", "label", "about"])
+    emoji = {c["code"]: c["emoji"] for c in cats}
+    start = today   # сегодняшние события тоже входят в сводку
+    end = today + dt.timedelta(days=cfg["days_ahead"])
+
+    sources = collect_sources(state, cfg, start, end)
+    print(f"Источников: {len(sources)}, бюджет ${state['usage']['cost']:.3f} / "
+          f"${cfg['monthly_budget_usd']:.2f}")
+    try:
+        found = find_events(sources, state, cfg, cats, today, start, end)
+    except BudgetExceeded:
+        tg(f"⚠️ Месячный бюджет ИИ (${cfg['monthly_budget_usd']:.2f}) исчерпан, "
+           "сводка пропущена до 1-го числа. Поднять лимит можно в settings.txt "
+           "(monthly_budget_usd).")
+        return
+    warnings = update_health(state, today)
+    events = ai_dedupe(dedupe(found, state, start.isoformat()), state, cfg)
+    for e in events:
+        e["_drive"] = drive_minutes(e)
+        if e.get("fit") != "maybe" and too_old(e, cfg["max_age_ok"]):
+            e["fit"] = "maybe"               # явно для детей постарше — не в основной список
+            e["why_not"] = e.get("why_not") or (f"возраст {e['age']}" if e.get("age")
+                                                 else "для детей постарше")
+    order = lambda e: (e["_d1"], e.get("time") or "")
+    maybe = sorted([e for e in events if e.get("fit") == "maybe"], key=order)
+    events = sorted([e for e in events if e.get("fit") != "maybe"], key=order)
+
+    wx = weather(cfg, start, end)
+    sat = start + dt.timedelta(days=(5 - start.weekday()) % 7)
+    sun = sat + dt.timedelta(days=1)
+    wx_text = "\n".join(wx_line(d, wx[d]) for d in (sat, sun) if d in wx)
+    places = pick_places(state, cfg, today, wx_text,
+                         len([e for e in events if e["_d1"] <= sun and e["_d2"] >= sat]))
     tips = []
     if cfg["week_tips"].lower() in ("yes", "да", "on", "1"):
         try:
-            tips = week_tips(events, cfg, state, wx, start, end)
+            tips = week_tips(events, cfg, state, wx_text, start, end)
         except BudgetExceeded:
             pass
         except Exception as e:
             print("Совет недели:", e)
-    if tips:
-        parts = []
-        for k, a, b, e, why in tips:
-            head = f"<b>{a.day} {MONTHS[a.month - 1]} – {b.day} {MONTHS[b.month - 1]}:</b> "
-            title = f"{emoji.get(e.get('cat'), '•')} <b>{esc(e.get('title'))}</b>"
-            if e.get("link"):
-                title += f' · <a href="{esc(e["link"])}">подробнее</a>'
-            parts.append(f"{head}\n{title}\n<blockquote>{esc(why)}</blockquote>")
-        blocks.append(f"{SEP}\n⭐ <b>СОВЕТ НЕДЕЛИ</b>\n<i>что ИИ выбрал бы сам</i>\n\n" + "\n\n".join(parts))
-    mode =cfg["show_diagnostics"].lower()
-    problems = mode == "always" or (mode != "never" and (
-        DIAG["ai_errors"] or len(events) < 3 or DIAG["truncated"] or DIAG["pages_failed"]
-        or (cfg["places_count"] > 0 and not places)
-        or DIAG["pages_ok"] < DIAG["pages_total"] / 2))
-    if problems:
-        diag = (f"⚙️ Диагностика: сайтов прочитано {DIAG['pages_ok']} из {DIAG['pages_total']}, "
-                f"порталы {DIAG.get('portal', 0)}, Google Events {DIAG.get('gevents', 0)}"
-                f"{' из ' + str(DIAG['gevents_raw']) if 'gevents_raw' in DIAG else ''}"
-                f"{' (' + DIAG['gevents_note'] + ')' if DIAG.get('gevents_note') else ''}, статей {DIAG.get('articles', 0)}, новостей {DIAG['news']}, запросов к ИИ {DIAG['ai_calls']}, "
-                f"ИИ нашёл {DIAG['ai_found']} (вне дат {DIAG['ai_out_of_range']})")
-        if DIAG["truncated"]:
-            diag += f", обрезанных ответов {DIAG['truncated']}"
-        failed = DIAG["pages_failed"] + [urllib.parse.urlparse(u).netloc.replace("www.", "")
-                                          for u in DIAG.get("portal_errors", [])]
-        if failed:
-            diag += "\nНе прочитаны: " + ", ".join(failed)
-        if DIAG["ai_errors"]:
-            diag += "\nОшибка ИИ: " + "; ".join(dict.fromkeys(DIAG["ai_errors"]))[:400]
-        if DIAG.get("other_errors"):
-            diag += "\nДругие ошибки: " + "; ".join(dict.fromkeys(DIAG["other_errors"]))[:300]
-        blocks.append(f"{SEP}\n<i>{esc(diag)}</i>")
-    blocks.append("<i>Перед поездкой проверьте время и билеты на сайте.</i>")
-    tg_blocks(blocks)
+    for k, a, b, e, why in tips:
+        e["_tip"] = why or "—"
+    resolve_gnews(events + maybe)
+
+    send_digest(state, cfg, today, start, end, events, maybe, wx, places, tips, warnings, emoji)
+    state["digest_events"] = {"date": today.isoformat(), "events": [ev_to_state(e) for e in events]}
     state["last_report"] = {
         "date": today.isoformat(),
         "sources": [{"name": x["name"], "chars": len(x["text"]), "link": x["link"][:120]}
                     for x in sources],
         "found": REPORT[:300],
     }
-    print(f"Отправлено: {len(events)} событий, {len(places)} мест. "
+    print(f"Отправлено: {len(events)} событий, {len(maybe)} «ещё», {len(places)} мест. "
           f"Расход за месяц: ${state['usage']['cost']:.4f}")
+
+
+# ================= Напоминание в пятницу =================
+def weekend_reminder(state, cfg, now):
+    """В пятницу вечером — короткий список на выходные из последней сводки и свежая погода."""
+    spec = str(cfg.get("weekend_reminder", "")).lower().split()
+    if not spec or spec[0] in ("no", "нет", "off", "0"):
+        return
+    wd = WD_ALIASES.get(spec[0][:2])
+    hour = int(spec[1]) if len(spec) > 1 and spec[1].isdigit() else 18
+    today = now.date()
+    if wd is None or today.weekday() != wd or now.hour < hour \
+            or state.get("last_reminder") == today.isoformat():
+        return
+    dg = state.get("digest_events") or {}
+    if not parse_date(dg.get("date")) or (today - parse_date(dg["date"])).days > 7:
+        return
+    state["last_reminder"] = today.isoformat()
+    sat = today - dt.timedelta(days=1) if today.weekday() == 6 else \
+        today + dt.timedelta(days=(5 - today.weekday()) % 7)
+    days = [d for d in (sat, sat + dt.timedelta(days=1)) if d >= today]
+    evs = [ev_from_state(x) for x in dg.get("events", [])]
+    evs = [e for e in evs if e["_d1"] and e["_d1"] <= days[-1] and e["_d2"] >= days[0]]
+    if not evs:
+        print("Напоминание: на выходные событий нет")
+        return
+    wx = weather(cfg, days[0], days[-1])
+    lines = [f"🎈 <b>НА ЭТИ ВЫХОДНЫЕ · {nice_range(days[0], days[-1]).upper()}</b>"]
+    lines += [wx_line(d, wx[d]) for d in days if d in wx]
+    hint = wx_hint([wx[d] for d in days if d in wx])
+    if hint:
+        lines.append(f"<i>{hint}</i>")
+
+    def line(e, multi=False):
+        t = f"<b>{esc(e['time'])}</b>  " if e.get("time") and not multi else ""
+        sub = " · ".join(x for x in (esc(e.get("venue") or e.get("city")),
+                                      drive_text(e.get("_drive"), short=True),
+                                      "🆓" if e.get("free") else "",
+                                      f"до {e['_d2']:%d.%m}" if multi else "") if x)
+        return f"• {t}{'⭐ ' if e.get('_tip') else ''}{title_link(e)}" + (f"\n     {sub}" if sub else "")
+
+    for d in days:
+        single = sorted([e for e in evs if e["_d1"] == e["_d2"] == d],
+                        key=lambda e: (not e.get("time"), e.get("time") or ""))
+        if single:
+            lines += ["", f"<b>{WD_FULL_NOM[d.weekday()]}</b>"] + [line(e) for e in single]
+    multi = [e for e in evs if e["_d1"] != e["_d2"]]
+    if multi:
+        lines += ["", "<b>В любой из дней</b>"] + [line(e, True) for e in multi]
+    lines += ["", "<i>Подробности, карта и календарь — в карточках сводки. Хороших выходных!</i>"]
+    tg_send("\n".join(lines), notify=True)
+
+
+# ================= Срочные анонсы =================
+URGENT_WORDS = re.compile(
+    r"cirk|цирк|шапито|festivāl|фестивал|expo|izstād|выставк|svētk|праздн|tirdziņ|gadatirg|"
+    r"ярмарк|zoodārz|зоопарк|dinozaur|динозавр|gaismas|ģimeņu|ģimenes|семейн|bērnu|детск|"
+    r"малыш|mazuļ", re.I)
+
+URGENT_PROMPT = """Это свежие заметки с новостных порталов Латвии. Семья: {family}, {child}, живут: {home}.
+Выбери только анонсы КРУПНЫХ и РЕДКИХ семейных событий, о которых стоит сообщить сразу, не
+дожидаясь еженедельной сводки: приезд цирка или шапито, большой семейный или детский фестиваль,
+выставка животных или динозавров, праздник города с детской программой, большая сезонная ярмарка,
+Kids Expo и подобное. Событие должно пройти в Латвии в ближайшие 30 дней (сегодня {today}).
+Не выбирай: обычные занятия и кружки, спектакли и театр, концерты в залах, лекции, новости и итоги
+уже прошедших событий, акции магазинов.
+Семья уже знает об этих событиях — их не выбирай: {known}
+Лучше ничего не выбрать, чем выбрать лишнее. Если подходящего нет — ответь [].
+Ответь ТОЛЬКО JSON-массивом: [{{"n": номер_заметки}}]
+
+ЗАМЕТКИ:
+{items}
+"""
+
+
+def urgent_check(state, cfg, now):
+    """Раз в час днём: если на порталах объявили что-то крупное — сразу короткая карточка."""
+    limit = cfg["urgent_per_week"]
+    today = now.date()
+    if limit <= 0 or not (9 <= now.hour < 21):
+        return
+    if today.weekday() == cfg["digest_weekday"] and now.hour <= cfg["digest_hour"]:
+        return                                          # скоро и так придёт сводка
+    y, w, _ = today.isocalendar()
+    uw = state.setdefault("urgent_week", {"week": "", "n": 0})
+    if uw["week"] != f"{y}-{w}":
+        uw.update(week=f"{y}-{w}", n=0)
+    if uw["n"] >= limit:
+        return
+    checked = state.setdefault("urgent_checked", [])
+    seen, since = set(checked), (today - dt.timedelta(days=2)).isoformat()
+    cand = [x for x in state.get("portal_queue", []) if x["link"] not in seen
+            and x["pub"] >= since and URGENT_WORDS.search(f"{x['title']} {x['summary']}")][:25]
+    if not cand:
+        return
+    checked += [x["link"] for x in cand]
+    del checked[:-800]
+    known = [x.get("title") for x in (state.get("digest_events") or {}).get("events", [])]
+    known += state.get("urgent_titles", [])
+    known = [k for k in known if k]
+    try:
+        picks = claude(URGENT_PROMPT.format(
+            family=cfg["family"], child=cfg["child"], home=cfg["home_city"], today=today,
+            known="; ".join(known[-40:]) or "—",
+            items="\n".join(f"[{i}] ({x['source']}, {x['pub']}) {x['title']}. {x['summary']}"
+                            for i, x in enumerate(cand, 1))), state, cfg, max_tokens=300)
+    except BudgetExceeded:
+        return
+    cats = table_of("categories.txt", ["code", "emoji", "label", "about"])
+    emoji = {c["code"]: c["emoji"] for c in cats}
+    known_norm = {_norm(k) for k in known}
+    for p in picks:
+        try:
+            n = int(p.get("n"))
+        except (TypeError, ValueError):
+            continue
+        if uw["n"] >= limit or not 1 <= n <= len(cand):
+            continue
+        item = cand[n - 1]
+        text = article_text(item["link"]) or f"{item['title']}. {item['summary']}"
+        src = [{"name": item["source"], "link": item["link"],
+                "text": f"[опубликовано {item['pub']}] {item['title']}. {text}"}]
+        end = today + dt.timedelta(days=30)
+        try:
+            evs = find_events(src, state, cfg, cats, today, today, end)
+        except BudgetExceeded:
+            return
+        evs = [e for e in evs if e.get("fit") != "maybe" and not too_old(e, cfg["max_age_ok"])
+               and _norm(e.get("title")) not in known_norm]
+        if not evs:
+            continue
+        e = evs[0]
+        e["_drive"] = drive_minutes(e)
+        send_card(e, emoji, state, today, end, today.isoformat(), notify=True,
+                  prefix=f"⚡ <b>ТОЛЬКО ЧТО ОБЪЯВИЛИ</b>\n<i>не стал ждать "
+                         f"{WD_GEN[cfg['digest_weekday']]} — это стоит запланировать</i>\n\n")
+        uw["n"] += 1
+        state.setdefault("urgent_titles", []).append(e.get("title"))
+        state["urgent_titles"] = state["urgent_titles"][-60:]
+        known_norm.add(_norm(e.get("title")))
 
 
 def main():
@@ -1029,6 +1846,8 @@ def main():
     now = dt.datetime.now(TZ)
     today = now.date()
     state = load_state()
+    if state.get("chat_id"):
+        CHAT["id"] = state["chat_id"]
     first_run = not state
     state.setdefault("usage", {"month": f"{today:%Y-%m}", "cost": 0.0, "calls": 0})
     state.setdefault("last_digest", "")
@@ -1044,19 +1863,37 @@ def main():
         save_state(state)
         return
 
-    try:
-        collect_portals(state)
-    except Exception as e:
-        print("[portal] сбой:", e)
+    for step in (process_updates, collect_portals):
+        try:
+            step(state)
+        except Exception as e:
+            print(f"[{step.__name__}] сбой:", e)
 
     due = (today.weekday() == cfg["digest_weekday"] and now.hour >= cfg["digest_hour"]
            and state["last_digest"] != today.isoformat())
     if due or FORCE_DIGEST:
+        try:
+            bot_is_admin(state)
+        except Exception as e:
+            print("Проверка прав бота:", e)
         run_digest(state, cfg, today)
         state["last_digest"] = today.isoformat()
     else:
         print(f"Сегодня не день сводки (сводка: {WD_FULL[cfg['digest_weekday']]}, "
               f"{cfg['digest_hour']}:00).")
+        for step in (weekend_reminder, urgent_check):
+            try:
+                step(state, cfg, now)
+            except Exception as e:
+                print(f"[{step.__name__}] сбой:", e)
+
+    cutoff = (today - dt.timedelta(days=45)).isoformat()
+    state["cards"] = {k: v for k, v in state.get("cards", {}).items() if v.get("dg", "") >= cutoff}
+    if CHAT["migrated"]:
+        state["chat_id"] = CHAT["id"]
+        tg(f"ℹ️ Telegram превратил группу в супергруппу, и у неё новый номер: "
+           f"<code>{CHAT['id']}</code>. Бот уже пишет по новому номеру; при случае обновите "
+           f"секрет TELEGRAM_CHAT_ID в GitHub.")
     save_state(state)
 
 
