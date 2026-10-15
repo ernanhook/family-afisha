@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.3711954000000015,
-"calls": 412
+"cost": 1.3719363000000016,
+"calls": 413
 },
 "last_digest": "2026-10-15",
 "shown_ongoing": {
@@ -1082,6 +1082,102 @@
 "summary": "Сегодня на территории Инчукалнского подземного газохранилища пройдут практические учения по гражданской обороне и действиям в чрезвычайных ситуациях. Об этом сообщило АО Conexus Baltic Grid.",
 "pub": "2026-10-15",
 "source": "rus.delfi.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/15.10.2026-tiesraide-no-pl-1830-rigas-starptautiska-kino-festivala-atklasana-melnais-paklajs.a667561/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "TIEŠRAIDE no pl. 18.30. Rīgas Starptautiskā kino festivāla atklāšana – melnais paklājs",
+"summary": "Rīgas Starptautiskais kino festivāls (Riga IFF) sākas jau šovakar, 15. oktobrī. Pirms filmu kadri iemirdzas uz lielā ekrāna, festivāla viesi satiksies uz melnā paklāja, kur notiekošo no pulksten 18.30 varēs vērot LSM.lv tiešraidē.",
+"pub": "2026-10-15",
+"source": "lsm.lv",
+"score": 6
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/15.10.2026-poyut-ne-tolko-lyudi-no-i-nasekomye-novosti-latviiskix-teatrov.a667755/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Поют не только люди, но и насекомые. Новости латвийских театров",
+"summary": "В Латвийской национальной опере и балете впервые почти за 100 лет поставили оперу Рихарда Штрауса «Кавалер розы», и спектакль Виестура Кайришса уже всколыхнул круги ценителей оперы.",
+"pub": "2026-10-15",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/15.10.2026-pryamaya-translyaciya-s-1830-otkrytie-rizskogo-mezdunarodnogo-kinofestivalya-cernaya-dorozka.a667737/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "ПРЯМАЯ ТРАНСЛЯЦИЯ с 18:30. Открытие Рижского международного кинофестиваля — черная дорожка",
+"summary": "Рижский международный кинофестиваль (Riga IFF) открывается уже сегодня вечером, 15 октября. Прежде чем на большом экране засияют первые кадры, гости фестиваля встретятся на черной дорожке — за происходящим с 18:30 можно будет следить в прямой трансляции на LSM.lv.",
+"pub": "2026-10-15",
+"source": "rus.lsm.lv",
+"score": 8
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/15.10.2026-tvoe-molcanie-tebya-ne-zashhitit-recenziya-na-film-neizvestnaya-zenshhina-otkryvsii-riga-iff.a667693/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Твое молчание тебя не защитит». Рецензия на фильм «Неизвестная женщина», открывший Riga IFF",
+"summary": "15 октября в кинотеатре Splendid Palace показом фильма «Неизвестная женщина» откроется 13-й Рижский международный кинофестиваль Riga IFF. Историческая драма датского режиссера Майи эль-Тухи — совместное производство Дании, Швеции и Латвии. Съемки фильма проходили преимущественно в Риге, а в его созд",
+"pub": "2026-10-15",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://jauns.lv/raksts/zinas/733486-video-noskaidrots-latvijas-lielaka-kirbja-cempions-sogad-pasakums-notiek-ipasa-vieta",
+"title": "VIDEO: noskaidrots Latvijas lielākā ķirbja čempions — šogad pasākums notiek īpašā vietā",
+"summary": "Rīgā, Bērnu slimnīcas Taureņu laukumā, šodien plkst. 14 notika mazumtirgotāja SIA “Maxima Latvija” rīkotais Latvijas lielākā ķirbja čempionāts, informēja uzņēmums.",
+"pub": "2026-10-15",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/733468-policistu-trukst-izsaukumi-kavejas-ruks-bridina-par-ieksejas-drosibas-riskiem",
+"title": "Policistu trūkst, izsaukumi kavējas: Ruks brīdina par iekšējās drošības riskiem",
+"summary": "Valsts policija (VP) nepietiekama personāla dēļ kavē izsaukumus, tomēr, neraugoties uz valsts apņemšanos ieviest taupības pasākumus, ir nepieciešams saglabāt iekšējās drošības attīstību, ceturtdien Latvijas Radio raidījumā \"Krustpunktā\" atzina VP priekšnieks Armands Ruks.",
+"pub": "2026-10-15",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/733418-ostavim-lucavsalu-dlia-drugogo-predlagaiut-izmenit-mesto-stroitelstva-futbolnogo-stadiona",
+"title": "Оставим Луцавсалу для другого - предлагают изменить место строительства футбольного стадиона",
+"summary": "Строительство Национального футбольного стадиона в Риге предлагают перенести с Луцавсалы в Скансте, рядом с Xiaomi Arēna. По замыслу инициаторов, там можно создать крупный спортивный комплекс с общей инфраструктурой для международных соревнований и других массовых мероприятий.",
+"pub": "2026-10-15",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8563506",
+"title": "DIENAS KLEITA ⟩ Skārleta Johansone sarkanā kleitā atdzīvina Holivudas glamūru",
+"summary": "Skārleta Johansone Londonas filmu festivālā pierādīja, ka reizēm iespaidīgākajam vakartērpam nemaz nav vajadzīgi sarežģīti silueti vai pārmērīgi rotājumi. Aktrise filmas “Paper Tiger” pirmizrādē izvēlējās īpaši viņai radītu “Prada” kleitu, ko papildināja ar iespaidīgu kaklarotu un vecās Holivudas ie",
+"pub": "2026-10-15",
+"source": "tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8565111",
+"title": "Muzejs \"Ebreji Latvijā\" aicina dalīties ar materiāliem izstādei par izciliem šahistiem",
+"summary": "Rīgas Ebreju kopiena un muzejs \"Ebreji Latvijā\" gatavo izstādi, kas veltīta trim izciliem šahistiem, kuru vārdi ir cieši saistīti ar Rīgu, – Āronam Nimcovičam, Aleksandram Koblencam un Mihailam Tālam. 2026. gadā aprit 140 gadi kopš Nimcoviča dzimšanas, 110 gadi kopš Koblenca dzimšanas un 90 gadi kop",
+"pub": "2026-10-15",
+"source": "tvnet.lv",
+"score": 11
+},
+{
+"link": "https://pmo.ee/8565228",
+"title": "Kimas Kardašjanas radītais SKIMS ienāk Rīgā",
+"summary": "Pasaulē populārais SKIMS zīmols tagad pieejams arī klātienē Rīgā! 14. oktobra vakarā modes, mediju un influenceru vides pārstāvji pulcējās uz zīmola atklāšanas pasākumu, bet no 15. oktobra kolekcijas iespējams iegādāties Rīgā.",
+"pub": "2026-10-15",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8565207",
+"title": "\"Neatļautais flirts\" – Baiba Sipeniece-Gavare un Jurijs Djakonovs aicina uz kabarē šovu",
+"summary": "No 8. decembra jaunajā Salaspils koncertzālē skatītāji tiek aicināti uz krāšņu kabarē uzvedumu \"Neatļautais flirts\", kura režisors ir aktieris un režisors Jurijs Djakonovs, bet scenārija autore – populārā televīzijas personība un pasākumu vadītāja Baiba Sipeniece-Gavare. Jauniestudējumā apvienosies ",
+"pub": "2026-10-15",
+"source": "tvnet.lv",
+"score": 11
+},
+{
+"link": "https://www.la.lv/ta-salda-kremiga-garsa-un-izteiksmiga-tekstura-saldummili-stava-sajusma-par-latvijas-maiznieks-jaunumu",
+"title": "“Tā saldā, krēmīgā garša un izteiksmīgā tekstūra…” Saldummīļi stāvā sajūsmā par “Latvijas Maiznieks” jaunumu",
+"summary": "Latviešiem ir savas tradīcijas, svētku paražas un, protams, arī nacionālie ēdieni, bez kuriem grūti iedomāties svētkus. Tomēr līdzās pelēkajiem zirņiem, rupjmaizei un speķa pīrāgiem ir arī citi pārtikas produkti, kas iekarojuši cilvēku sirdis un kļuvuši par neatņemamu ikdienas sastāvdaļu. Par vienu ",
+"pub": "2026-10-15",
+"source": "la.lv",
 "score": 4
 }
 ],
@@ -4202,7 +4298,32 @@
 "https://pmo.ee/8564011",
 "https://pmo.ee/8563955",
 "https://pmo.ee/8563962",
-"https://pmo.ee/8563960"
+"https://pmo.ee/8563960",
+"https://bb.lv/statja/nasha-latvija/2026/10/13/pokrov-bogorodicy-cto-mozno-i-cto-nelzia-delat-pravoslavnym-latvii-14-oktiabria-2026-goda?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.lsm.lv/raksts/kultura/teatris-un-deja/14.10.2026-autentiski-flamenko-ritmi-akrobatika-un-petera-vaska-muzika-ko-sagadajis-31-baltijas-baleta-festivals.a667473/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/dzive-stils/darzs-un-majas/14.10.2026-kirbji-paprika-un-virkne-eksotisku-augu-vienuviet-dabas-muzeja-posas-rudenigai-izstadei.a667468/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/novosti/obschestvo/14.10.2026-tykvy-percy-i-ekzoticeskie-rasteniya-v-muzee-prirody-gotovyatsya-k-osennei-vystavke.a667494/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/novosti/mir/14.10.2026-ukraina-eto-gorazdo-bolse-cem-voina-latviiskii-putesestvennik-predstavit-v-rige-fotovystavku.a667360/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/733172-latvijas-nacionalais-dabas-muzejs-aicina-uz-krasno-kirbjaugu-un-paprikas-izstadi",
+"https://bb.lv/statja/nasha-latvija/2026/10/14/v-18-let-peskom-prisla-v-latviiu-zitelnica-liepai-otprazdnovala-100-letnii-iubilei?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.lsm.lv/raksts/kultura/teatris-un-deja/14.10.2026-31-baltijas-baleta-festivala-vares-sastapties-ar-spanijas-flamenko-ritmiem-klasiku-un-akrobatiku.a667473/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/teatr/14.10.2026-autenticnye-ritmy-flamenko-akrobatika-i-muzyka-peterisa-vasksa-cem-udivit-31-i-baltiiskii-festival-baleta.a667502/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8564255",
+"https://pmo.ee/8564261",
+"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/14.10.2026-latvijas-dokumentala-isfilma-verotaji-par-holokausta-upuriem-piedalisies-idfa-festivala-amsterdama.a667530/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://bb.lv/statja/lifenews/2026/10/14/latviiskii-dizain-mnogofunkcionalnaia-mebel-i-200-proizvedenii-iskusstva-na-vystavke-riga-furniture-interior-2026?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://pmo.ee/8564501",
+"https://www.lsm.lv/raksts/kultura/muzika/13.10.2026-reta-iespeja-pieredzet-telpiskas-skanas-sistemu-kristaps-pukitis-par-dirty-deal-audio-un-ambisonics-weekend-festivalu.a667425/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/kultura/13.10.2026-kristap-pukitis-pod-odnim-kupolom-lyudi-zvuk-i-texnologii.a667413/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/kino/14.10.2026-latviiskii-dokumentalnyi-korotkometraznyi-film-nablyudateli-primet-ucastie-v-kinofestivale-idfa-v-amsterdame.a667565/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/afisha/733264-tykva-vyse-celoveka-i-percy-vsex-cvetov-radugi-cto-pokazut-na-vystavke-v-rige",
+"https://www.lsm.lv/raksts/zinas/latvija/14.10.2026-ar-fotoizstadi-riga-vac-ziedojumus-berniem-lviva.a667588/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/muzika/14.10.2026-kristaps-pukitis-dirty-deal-audio-strada-ar-specigiem-cilvekiem-visa-pasaule-vienkarsi-daram-to-klusi.a667425/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/novosti/obschestvo/14.10.2026-festival-dinozavrov-i-poddelnyi-medicinskii-portal-mosenniki-stanovyatsya-vsyo-izobretatelnee.a667631/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8564364",
+"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/15.10.2026-tava-klusesana-tevi-nepasargas-recenzija-par-riga-iff-atklasanas-filmu-nezinama-sieviete.a667678/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/dzive-stils/vesture/15.10.2026-valsts-valoda-ka-identitates-pamats-kas-kopigs-latvijai-un-ukrainai.a667558/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/kulturtelpa/15.10.2026-raina-maja-berkenele-svin-30-gadu-jubileju-bernibas-vieta-kur-dizgars-smelas-iedvesmu.a667540/?utm_source=rss&utm_campaign=rss&utm_medium=links"
 ],
 "tips_debug": {
 "date": "2026-10-15",
