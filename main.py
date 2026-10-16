@@ -977,13 +977,75 @@ def proofread(groups, state, cfg):
     DIAG["proofread"] = fixed
 
 
+DUP_STOP = {"выст", "izst", "фест", "fest", "2025", "2026", "2027", "семе", "ģime", "gime", "день",
+            "dien", "праз", "svet", "svēt", "латв", "latv", "наци", "naci", "музе", "muze", "детс",
+            "bērn", "bern", "ярма", "tirg", "конц", "konc", "осен", "rude", "руде", "зимн", "весе",
+            "открыт", "откр", "atve", "мама", "mamm", "для", "rīga", "riga", "рига", "интер", "inte",
+            "пров", "прог", "prog", "вели", "межд", "star", "весь", "всей", "visa"}
+
+
+def _stems(e):
+    words = re.findall(r"\w+", _norm(e.get("title")))
+    return {w[:4] for w in words if len(w) >= 4} - DUP_STOP
+
+
+def _merge(events, idx, drop):
+    """Оставляет лучшую карточку из группы повторов и дополняет её полями остальных."""
+    def quality(e):
+        return ((e.get("fit") != "maybe") * 8 + ("news.google" not in str(e.get("link"))) * 4
+                + bool(e.get("time")) * 2 + bool(e.get("price") or e.get("free"))
+                + bool(e.get("summary")) + bool(e.get("venue")))
+    bi = max(idx, key=lambda i: quality(events[i]))
+    best = events[bi]
+    for i in idx:
+        if i == bi:
+            continue
+        e = events[i]
+        for f in ("time", "price", "age", "summary", "venue", "about"):
+            if not best.get(f) and e.get(f):
+                best[f] = e[f]
+        if e.get("free") and not best.get("price"):
+            best["free"] = True
+        drop.add(i)
+
+
+def rule_dedupe(events):
+    """Повторы без ИИ: те же даты, тот же город и общее ключевое слово в названии
+    («Выставка тыкв…», «Тыквенные растения и паприка…» — одно и то же)."""
+    drop = set()
+    for i, a in enumerate(events):
+        if i in drop:
+            continue
+        group = [i]
+        for j in range(i + 1, len(events)):
+            b = events[j]
+            if j in drop or (a["_d1"], a["_d2"]) != (b["_d1"], b["_d2"]):
+                continue
+            ta, tb = drive_minutes(a), drive_minutes(b)
+            if ta != tb and not (ta is None or tb is None):
+                continue
+            if _stems(a) & _stems(b):
+                group.append(j)
+        if len(group) > 1:
+            _merge(events, group, drop)
+    if drop:
+        print(f"[dupes] по правилам склеено: {len(drop)}")
+        DIAG["dupes"] = DIAG.get("dupes", 0) + len(drop)
+    return [e for k, e in enumerate(events) if k not in drop]
+
+
 def ai_dedupe(events, state, cfg):
-    """Склеивает одно и то же событие из разных источников (в т.ч. на разных языках)."""
+    """Склеивает одно и то же событие из разных источников (в т.ч. на разных языках):
+    сначала по правилам, затем — сильной моделью (названия на латышском и русском)."""
+    events = rule_dedupe(events)
     if len(events) < 2:
         return events
+    strong = str(cfg.get("proofread_model") or "").strip()
+    model = strong if strong.lower() not in ("", "no", "нет", "off") else None
     try:
         res = claude(DUPES_PROMPT.format(events="\n".join(
-            event_line(i, e) for i, e in enumerate(events, 1))), state, cfg, max_tokens=1000)
+            event_line(i, e) for i, e in enumerate(events, 1))), state, cfg, max_tokens=1000,
+            model=model)
     except BudgetExceeded:
         return events
     drop = set()
@@ -1004,25 +1066,10 @@ def ai_dedupe(events, state, cfg):
         if len(idx) < 2:
             continue
 
-        def quality(e):
-            return ((e.get("fit") != "maybe") * 8 + ("news.google" not in str(e.get("link"))) * 4
-                    + bool(e.get("time")) * 2 + bool(e.get("price") or e.get("free"))
-                    + bool(e.get("summary")) + bool(e.get("venue")))
-        bi = max(idx, key=lambda i: quality(events[i]))
-        best = events[bi]
-        for i in idx:
-            if i == bi:
-                continue
-            e = events[i]
-            for f in ("time", "price", "age", "summary", "venue", "about"):
-                if not best.get(f) and e.get(f):
-                    best[f] = e[f]
-            if e.get("free") and not best.get("price"):
-                best["free"] = True
-            drop.add(i)
+        _merge(events, idx, drop)
     if drop:
-        print(f"[dupes] склеено повторов: {len(drop)}")
-        DIAG["dupes"] = len(drop)
+        print(f"[dupes] ИИ склеил повторов: {len(drop)}")
+        DIAG["dupes"] = DIAG.get("dupes", 0) + len(drop)
     return [e for i, e in enumerate(events) if i not in drop]
 
 
@@ -2127,6 +2174,7 @@ def weekend_reminder(state, cfg, now):
     days = [d for d in (sat, sat + dt.timedelta(days=1)) if d >= today]
     evs = [ev_from_state(x) for x in dg.get("events", [])]
     evs = [e for e in evs if e["_d1"] and e["_d1"] <= days[-1] and e["_d2"] >= days[0]]
+    evs = rule_dedupe(evs)
     if not evs:
         print("Напоминание: на выходные событий нет")
         return
