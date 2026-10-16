@@ -6,6 +6,8 @@
 #                            об event-ах и в день сводки читает лучшие целиком
 #   events <запрос>        — поиск в Google Events (нужен ключ OPENWEBNINJA_API_KEY;
 #                            1 строка = 1 запрос в неделю, бесплатно 50 запросов в месяц)
+#   watch <страница> <часть ссылки> — билетный сайт: бот каждый час запоминает новые
+#                            события со страницы, а в день сводки отдаёт их ИИ
 #   follow <раздел> <часть ссылки> <N> — открыть раздел сайта и прочитать целиком
 #                            N свежих статей, чьи ссылки содержат указанную часть
 #                            (статьи старше 3 недель пропускаются)
@@ -38,6 +40,13 @@ follow https://rus.jauns.lv/category/afisha/afisha-latvii /article/afisha/ 12
 follow https://www.mammamuntetiem.lv/zinas/kur-sodien-atpusties/ /zinas/kur-sodien-atpusties/ 5
 # раздел анонсов культуры и развлечений TVNET (статьи с номером, начинающимся на 8)
 follow https://sejas.tvnet.lv/section/4224/kulturas-un-izklaides-notikumi tvnet.lv/8 10
+
+# --- Билетные сайты (наблюдение каждый час; проверено 14.10.2026) ---
+# Ticketshop: главная («Jaunākie» — 8 самых новых событий), концерты и фестивали.
+# Раздел «Teātris» не берём — спектакли семье не нужны; цирк попадает в «Jaunākie».
+watch https://ticketshop.lv/lv /lv/events/
+watch https://ticketshop.lv/lv/categories/1 /lv/events/
+watch https://ticketshop.lv/lv/categories/3 /lv/events/
 
 # --- Агрегаторы афиш (проверено 13.10.2026: события с датами видны) ---
 page https://www.kaskurkad.lv/bernu-pasakumi/visur/jebkad
