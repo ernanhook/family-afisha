@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.3732991000000017,
-"calls": 415
+"cost": 1.3734489000000016,
+"calls": 416
 },
 "last_digest": "2026-10-15",
 "shown_ongoing": {
@@ -1475,6 +1475,54 @@
 "pub": "2026-10-16",
 "source": "la.lv",
 "score": 10
+},
+{
+"link": "https://www.lsm.lv/raksts/vecaki-un-berni/bernu-izglitiba/16.10.2026-akcija-vardu-pa-vardam-latviski-berni-dalas-ar-sev-nozimigiem-vardiem.a667937/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Akcijā «Vārdu pa vārdam. Latviski.» bērni dalās ar sev nozīmīgiem vārdiem",
+"summary": "Atzīmējot Valsts valodas dienu, 15. oktobrī sociālo mediju akcijā \"Vārdu pa vārdam. Latviski.\" piedalījās 38 izglītības iestādes no visas Latvijas – 26 skolas un 12 pirmsskolas izglītības iestādes, kopā vismaz 1000 bērnu, kuri dalījās ar sev nozīmīgiem vārdiem latviešu valodā. Akcijai pievienojās ar",
+"pub": "2026-10-16",
+"source": "lsm.lv",
+"score": 6
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/16.10.2026-ko-dara-cilveks-kad-klust-brivs-uz-nacionala-teatra-skatuves-top-dons-zuans.a667920/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Ko dara cilvēks, kad kļūst brīvs? Uz Nacionālā teātra skatuves top «Dons Žuans»",
+"summary": "29. oktobrī Latvijas Nacionālā teātra Lielajā zālē pirmizrādi piedzīvos Moljēra \"Dons Žuans\" – jauniestudējums Aleksandra Morfova (Bulgārija) režijā. Režisora atgriešanās Latvijā pēc sešu gadu pārtraukuma vienlaikus ir viņa debija Nacionālajā teātrī, piedāvājot savu skatījumu uz vienu no Eiropas civ",
+"pub": "2026-10-16",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/16.10.2026-andrei-savrei-lita-beiris-peteris-vasks-radu-poklitaru-ukrainskii-akcent-latviiskogo-festivalya-baleta.a667212/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Андрей Шаврей. Лита Бейрис, Петерис Васкс, Раду Поклитару — украинский акцент латвийского фестиваля балета",
+"summary": "Приближается 15 октября, когда в латвийской столице вновь откроется Международный фестиваль балета Балтии. Устроительница праздника, некогда прима-балерина Лита Бейрис, выдающийся композитор Петерис Васкс и другие рассказали LSM о главных событиях фестиваля, изюминкой которого станет визит знаменито",
+"pub": "2026-10-16",
+"source": "rus.lsm.lv",
+"score": 10
+},
+{
+"link": "https://jauns.lv/raksts/zinas/733637-lukturisu-gaisma-pavilostas-piekraste-mekles-dzintaru-vel-iespejams-pieteikties-aizraujosam-pargajienam",
+"title": "Lukturīšu gaismā Pāvilostas piekrastē meklēs dzintaru, vēl iespējams pieteikties aizraujošam pārgājienam",
+"summary": "30. oktobrī plkst. 17.00 Pāvilostā notiks lukturīšu pārgājiens ar izziņas elementiem “Dzintaru pastaiga”. Dienvidkurzemes novada iedzīvotāji un viesi aicināti rudens vakarā doties aptuveni piecus kilometrus garā pārgājienā pa Pāvilostas piekrasti un iepazīt dzintara noslēpumaino pasauli.",
+"pub": "2026-10-16",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/733629-tri-bliuda-za-30-evro-v-elgave-udiviat-izyskannym-kartofelnym-meniu",
+"title": "Три блюда за 30 евро: в Елгаве удивят изысканным картофельным меню",
+"summary": "С 23 октября по 1 ноября в Елгаве и Елгавском крае пройдет гастрономическая акция \"Осеннее наслаждение вкусом\". В 14 заведениях предложат необычные блюда из картофеля, меню из трех блюд обойдется в 30-40 евро на человека.",
+"pub": "2026-10-16",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/733640-magiceskii-les-i-drevnie-legendy-v-rige-otkroetsia-neobycnaia-tropa-sveta",
+"title": "Магический лес и древние легенды: в Риге откроется необычная тропа света",
+"summary": "С 29 октября по 8 ноября в Латвийском этнографическом музее под открытым небом в Риге вновь откроется тропа света \"Истории света. Духи предков\". Каждый вечер с 18:00 до 21:00 посетителей ждут световые и лазерные инсталляции, загадочный лес и атмосфера древних латышских легенд.",
+"pub": "2026-10-16",
+"source": "rus.jauns.lv",
+"score": 6
 }
 ],
 "portal_errors": {},
@@ -4643,7 +4691,9 @@
 "https://rus.jauns.lv/article/novosti/733584-prazdnicnye-vkusy-vozvrashhaiutsia-v-lidl-na-polkax-magazinov-vnov-dostupny-produkty-lineek-deluxe-i-favorina-a-takze-italianskaia-prazdnicnaia-vypecka",
 "https://rus.jauns.lv/article/lifestyle/733566-filmom-neizvestnaia-zenshhina-moshhno-startoval-rizskii-kinofestival",
 "https://pmo.ee/8565783",
-"https://pmo.ee/8565902"
+"https://pmo.ee/8565902",
+"https://www.lsm.lv/raksts/vecaki-un-berni/bernu-izglitiba/16.10.2026-akcija-vardu-pa-vardam-latviski-berni-dalas-ar-sev-nozimigiem-vardiem.a667937/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/teatr/16.10.2026-andrei-savrei-lita-beiris-peteris-vasks-radu-poklitaru-ukrainskii-akcent-latviiskogo-festivalya-baleta.a667212/?utm_source=rss&utm_campaign=rss&utm_medium=links"
 ],
 "tips_debug": {
 "date": "2026-10-15",
@@ -4848,7 +4898,14 @@
 "text": "no 13,00 EUR 10.07.27 15:00 BALTIC INTERNATIONAL AIRSHOW 2027 - THE SOUND OF SPEED Spilve Airport",
 "src": "https://ticketshop.lv/lv/categories/3",
 "seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108328",
+"text": "no 30,00 EUR 27.11.26 19:00 Slava Komissarenko | Daugavpils - Jauna programma Daugavpils Kultūras Pils",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
 }
 ],
-"watch_errors": {}
+"watch_errors": {},
+"last_reminder": "2026-10-16"
 }
