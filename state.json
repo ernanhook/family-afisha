@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.3719363000000016,
-"calls": 413
+"cost": 1.3732991000000017,
+"calls": 415
 },
 "last_digest": "2026-10-15",
 "shown_ongoing": {
@@ -1347,6 +1347,134 @@
 "pub": "2026-10-16",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/muzika/16.10.2026-visvairak-koncertu-12-stundu-laika-australijas-grupa-fathom-uzstadijusi-ginesa-rekordu.a667893/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Visvairāk koncertu 12 stundu laikā: Austrālijas grupa «Fathom» uzstādījusi Ginesa rekordu",
+"summary": "Britu raidsabiedrība BBC lasītājus iepazīstinājusi ar Austrālijas grupu \"Fathom\", kas pavisam nesen uzstādīja jaunu Ginesa rekordu – viņi nospēlējuši visvairāk koncertu 12 stundu laikā. Mūziķu rekords ir deviņi koncerti dažādās pilsētās Austrālijas Jaundienvidvelsas štatā.",
+"pub": "2026-10-16",
+"source": "lsm.lv",
+"score": 8
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/muzika/16.10.2026-rudens-afisu-stabi-koncertu-pilni-kuru-pasakumu-izveleties-nedelas-nogalei.a667867/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Rudens afišu stabi – koncertu pilni! Kuru pasākumu izvēlēties nedēļas nogalei?",
+"summary": "Rudens jau pusē. Lapas vēl spītīgi turas pie koku zariem, un cilvēki tikpat spītīgi velk labākās drēbes un dodas uz koncertiem. Pasākumu rīkotāji gan sūdzas, ka izpārdotu pasākumu ir arvien mazāk, bet jāpārbauda, vai pasākumu skaits vienā nedēļas nogalē nesāk tuvoties Latvijas iedzīvotāju skaitam. A",
+"pub": "2026-10-16",
+"source": "lsm.lv",
+"score": 19
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/16.10.2026-ukrainskaya-nedelya-v-latvii-s-16-po-25-oktyabrya-predlozeniya-i-priglaseniya.a667752/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Украинская неделя в Латвии с 16 по 25 октября. Предложения и приглашения",
+"summary": "Публикуем подборку некоторых мероприятий ближайшей недели, которые устраиваются для украинцев, самими украинцами или могут быть интересными для украинцев Латвии.",
+"pub": "2026-10-16",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/muzika/16.10.2026-osennie-afisnye-tumby-pestryat-koncertami-kakoe-meropriyatie-vybrat-na-vyxodnye.a667892/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Осенние афишные тумбы пестрят концертами! Какое мероприятие выбрать на выходные?",
+"summary": "Осень уже перевалила за середину. Листья все еще упрямо держатся на ветках, а люди с таким же упорством надевают свои лучшие наряды и отправляются на концерты. Организаторы мероприятий жалуются, что аншлаги случаются все реже. Но стоит проверить, не приближается ли количество событий за одни выходны",
+"pub": "2026-10-16",
+"source": "rus.lsm.lv",
+"score": 13
+},
+{
+"link": "https://jauns.lv/raksts/zinas/733620-operetes-teatra-repertuara-ieklauta-izrade-meistarklase-ar-sonoru-vaici-galvenaja-loma",
+"title": "Operetes teātra repertuārā iekļauta izrāde “Meistarklase” ar Sonoru Vaici galvenajā lomā",
+"summary": "Pēc skatītāju atsaucības VIII Starptautiskajā Operetes festivālā Ikšķilē Terensa Maknelija luga “Meistarklase” iekļauta Operetes teātra repertuārā.",
+"pub": "2026-10-16",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/733585-svetku-garsas-atgriezas-lidl-veikalu-plauktos-atkal-pieejami-deluxe-favorina-un-italu-svetku-konditorejas-izstradajumi",
+"title": "Svētku garšas atgriežas “Lidl”: veikalu plauktos atkal pieejami “Deluxe”, “Favorina” un itāļu svētku konditorejas izstrādājumi",
+"summary": "Laikam kļūstot vēsākam, arvien tuvāk nāk svētki – un līdz ar tiem “Lidl” veikalu plauktos jau pieejami pirmie Ziemassvētku sortimenta produkti. Pircēji varēs iegādāties gan “Deluxe” zīmola gardumus, gan svētku tematikas “Favorina” saldumus, kā arī tradicionālās itāļu panetones un pandoro kūkas.",
+"pub": "2026-10-16",
+"source": "jauns.lv",
+"score": 10
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/733584-prazdnicnye-vkusy-vozvrashhaiutsia-v-lidl-na-polkax-magazinov-vnov-dostupny-produkty-lineek-deluxe-i-favorina-a-takze-italianskaia-prazdnicnaia-vypecka",
+"title": "Праздничные вкусы возвращаются в «Lidl»: на полках магазинов вновь доступны продукты линеек «Deluxe» и «Favorina», а также итальянская праздничная выпечка",
+"summary": "С наступлением холодов приближаются и праздники, и на полках магазинов «Lidl» уже появились первые товары из рождественского ассортимента. Покупателям доступны деликатесы бренда «Deluxe», праздничные сладости «Favorina», а также традиционные итальянские кексы панеттоне и пандоро.",
+"pub": "2026-10-16",
+"source": "rus.jauns.lv",
+"score": 8
+},
+{
+"link": "https://rus.jauns.lv/article/lifestyle/733566-filmom-neizvestnaia-zenshhina-moshhno-startoval-rizskii-kinofestival",
+"title": "Фильмом \"Неизвестная женщина\" мощно стартовал Рижский кинофестиваль",
+"summary": "15 октября в кинотеатре Splendid Palace открылся 13-й Рижский международный кинофестиваль. Впереди - 10 дней кинопоказов и более 100 фильмов.",
+"pub": "2026-10-16",
+"source": "rus.jauns.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8565836",
+"title": "Rīgā gaidāms iespaidīgs kāzu modes šovs uz ledus",
+"summary": "31. oktobrī un 1. novembrī Rīgā norisināsies \"Baltic Wedding WEEKEND\" - divu dienu notikums ar kāzu tērpu modes šovu uz ledus un labākajiem kāzu nozares pakalpojumu sniedzējiem un kāzu modes zīmoliem.",
+"pub": "2026-10-16",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8565831",
+"title": "Jau septīto gadu aicina uz konferenci \"Skolotājs ir Personība\"",
+"summary": "Otrdien, 20. oktobrī, Latvijas Nacionālajā bibliotēkā jau septīto gadu notiks konference \"Skolotājs ir Personība\", aicinot skolotājus, muzejpedagogus, bibliotekārus, rakstniekus un lasītājus uz dienu, kas veltīta iedvesmai, izaugsmei un prieka atjaunošanai.",
+"pub": "2026-10-16",
+"source": "tvnet.lv",
+"score": 5
+},
+{
+"link": "https://pmo.ee/8565861",
+"title": "\"Рождественская прелюдия\" Инессы Галанте: три особенных вечера, которые наполнят Ригу музыкой",
+"summary": "Фонд Инессы Галанте приглашает на серию рождественских концертов \"Рождественская прелюдия\" - три музыкальных вечера 10, 11 и 12 декабря, которые пройдут в двух монументальных исторических рижских храмах - Лютеранской церкви в Торнякалнсе и Домском соборе.",
+"pub": "2026-10-16",
+"source": "rus.tvnet.lv",
+"score": 3
+},
+{
+"link": "https://pmo.ee/8565783",
+"title": "В Саласпилсе уже в пятый раз пройдет семейный осенний фестиваль",
+"summary": "С 23 по 25 октября семейный осенний фестиваль под открытым небом Spoku nakts takas 2026 отметит свое пятилетие в Национальном ботаническом саду в Саласпилсе.",
+"pub": "2026-10-16",
+"source": "rus.tvnet.lv",
+"score": 12
+},
+{
+"link": "https://pmo.ee/8565275",
+"title": "\"Запретный флирт\": Байба Сипениеце-Гаваре и Юрий Дьяконов приглашают на кабаре-шоу",
+"summary": "С 8 декабря в новом концертном зале Саласпилса зрителей приглашают на яркое кабаре-шоу \"Запретный флирт\", режиссером которого выступил актер и режиссер Юрий Дьяконов, а автором сценария стала популярная телеведущая и организатор мероприятий Байба Сипениеце-Гаваре.Новая постановка объединит музыку, т",
+"pub": "2026-10-16",
+"source": "rus.tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8565902",
+"title": "MEKLĒ SEVI! ⟩ Publika pulcējas uz RIGA IFF atklāšanas seansu",
+"summary": "Rīgas Starptautiskais kino festivāls 15. oktobra vakarā tika atklāts ar Venēcijas kinofestivālā ar \"Zelta lauvu\" apbalvotās filmas \"Nezināmā sieviete\" Latvijas pirmizrādi. Festivāls norisināsies no 15. līdz 25. oktobrim.",
+"pub": "2026-10-16",
+"source": "apollo.lv",
+"score": 10
+},
+{
+"link": "https://www.la.lv/video-turpmak-masinas-tiesam-vares-ari-lidot-ilons-masks-prezente-jauno-teslu-liekot-elpai-aizrauties",
+"title": "VIDEO. Turpmāk mašīnas tiešām varēs arī lidot! Īlons Masks prezentē jauno “Teslu”, liekot elpai aizrauties",
+"summary": "Tehnoloģiju magnāts Īlons Masks kārtējo reizi satricinājis auto pasauli, grandiozā tiešraides pasākumā demonstrējot ilgi gaidīto elektroauto “Tesla Roadster” un pierādot, ka lidojošas mašīnas vairs nav tikai zinātniskā fantastika. “Mums vajag skatītājus, lai pierādītu, ka tas nav mākslīgais intelekt",
+"pub": "2026-10-16",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/mes-nevaram-eltona-dzona-vai-raimonda-paula-vieta-pienemt-sadus-lemumus-akka-laa-skaidro-kapec-rojam-pukem-par-labdaribas-pasakumu-bija-jamaksa",
+"title": "“Mēs nevaram Eltona Džona vai Raimonda Paula vietā pieņemt šādus lēmumus!” AKKA/LAA skaidro, kāpēc Rojam Puķem par labdarības pasākumu bija jāmaksā",
+"summary": "LA.LV jau vēstīja par sabiedrībā pazīstamā kulinārijas blogera un labdarības pasākumu organizatora Roja Puķes sašutumu pēc tam, kad viņam par labdarības pasākumā atskaņoto mūziku nācies samaksāt 71 eiro autoratlīdzību. Lai gan pasākuma mērķis bija palīdzēt bērniem un tajā izdevās savākt 7505 eiro re",
+"pub": "2026-10-16",
+"source": "la.lv",
+"score": 10
 }
 ],
 "portal_errors": {},
@@ -4491,7 +4619,31 @@
 "https://pmo.ee/8564364",
 "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/15.10.2026-tava-klusesana-tevi-nepasargas-recenzija-par-riga-iff-atklasanas-filmu-nezinama-sieviete.a667678/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://www.lsm.lv/raksts/dzive-stils/vesture/15.10.2026-valsts-valoda-ka-identitates-pamats-kas-kopigs-latvijai-un-ukrainai.a667558/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://www.lsm.lv/raksts/kultura/kulturtelpa/15.10.2026-raina-maja-berkenele-svin-30-gadu-jubileju-bernibas-vieta-kur-dizgars-smelas-iedvesmu.a667540/?utm_source=rss&utm_campaign=rss&utm_medium=links"
+"https://www.lsm.lv/raksts/kultura/kulturtelpa/15.10.2026-raina-maja-berkenele-svin-30-gadu-jubileju-bernibas-vieta-kur-dizgars-smelas-iedvesmu.a667540/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/za-efirom/tochka-zrenija/15.10.2026-oleg-kudrin-opyt-latvii-i-ukrainy-gosudarstvennye-yazyki-kak-osnova-identicnosti.a667391/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/733369-vai-izdosies-parspet-574-kilogramu-rekordu-riga-sodien-noskaidros-latvijas-brangako-rudens-ogu",
+"https://rus.jauns.lv/article/novosti/733321-feikovyi-portal-meddannyx-i-nesushhestvuiushhii-festival-dinozavrov-mosenniki-nasli-novye-sposoby-obmana",
+"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/15.10.2026-tiesraide-no-pl-1830-rigas-starptautiska-kino-festivala-atklasana-melnais-paklajs.a667561/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/kino/15.10.2026-pryamaya-translyaciya-s-1830-otkrytie-rizskogo-mezdunarodnogo-kinofestivalya-cernaya-dorozka.a667737/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/kino/15.10.2026-tvoe-molcanie-tebya-ne-zashhitit-recenziya-na-film-neizvestnaya-zenshhina-otkryvsii-riga-iff.a667693/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/733486-video-noskaidrots-latvijas-lielaka-kirbja-cempions-sogad-pasakums-notiek-ipasa-vieta",
+"https://pmo.ee/8563506",
+"https://pmo.ee/8565111",
+"https://www.la.lv/ta-salda-kremiga-garsa-un-izteiksmiga-tekstura-saldummili-stava-sajusma-par-latvijas-maiznieks-jaunumu",
+"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/15.10.2026-video-melnais-paklajs-rigas-starptautiska-kino-festivala-atklasana.a667561/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/733293-ka-izklut-no-gravas-un-palidzet-nelaime-jelgavas-novada-tevi-ar-meitam-devusies-aizraujosa-izdzivosanas-pargajiena",
+"https://pmo.ee/8565421",
+"https://rus.lsm.lv/statja/kultura/kino/15.10.2026-video-otkrytie-rizskogo-mezdunarodnogo-kinofestivalya-cernaya-dorozka.a667737/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8563778",
+"https://pmo.ee/8564911",
+"https://jauns.lv/raksts/izklaide/733538-foto-sakusies-lielakie-rudens-kino-svetki-sabiedriba-pazistami-laudis-pulcejas-riga-iff-atklasana",
+"https://www.delfi.lv/kultura/52862727/screen/120138660/nakamo-veidos-par-lacplesi-nikolajs-sestaks-un-vina-starptautiski-godalgota-mi-filma",
+"https://jauns.lv/raksts/zinas/733620-operetes-teatra-repertuara-ieklauta-izrade-meistarklase-ar-sonoru-vaici-galvenaja-loma",
+"https://jauns.lv/raksts/zinas/733585-svetku-garsas-atgriezas-lidl-veikalu-plauktos-atkal-pieejami-deluxe-favorina-un-italu-svetku-konditorejas-izstradajumi",
+"https://rus.jauns.lv/article/novosti/733584-prazdnicnye-vkusy-vozvrashhaiutsia-v-lidl-na-polkax-magazinov-vnov-dostupny-produkty-lineek-deluxe-i-favorina-a-takze-italianskaia-prazdnicnaia-vypecka",
+"https://rus.jauns.lv/article/lifestyle/733566-filmom-neizvestnaia-zenshhina-moshhno-startoval-rizskii-kinofestival",
+"https://pmo.ee/8565783",
+"https://pmo.ee/8565902"
 ],
 "tips_debug": {
 "date": "2026-10-15",
@@ -4503,5 +4655,200 @@
 "answer": "[{\"week\":1,\"n\":4,\"why\":\"Занятие на движение, игру и тактильный контакт рассчитано на малышей и проходит в Риге, так что дорога не утомит. Для 1 года 2 месяцев это самый подходящий формат: можно двигаться, трогать и играть вместе с мамой. Придите чуть заранее, возьмите сменные носочки, воду и любимую игрушку для спокойствия.\"},{\"week\":2,\"n\":14,\"why\":\"Часовое занятие «мама + малыш» с педагогом проходит в Риге, а значит, далеко ехать не нужно. Малышу будет интересно играть, слушать и двигаться рядом с другими детьми, а родители смогут пообщаться. Возьмите воду, запасной подгузник и удобную одежду"
 }
 ]
+},
+"watch_queue": [
+{
+"link": "https://ticketshop.lv/lv/events/108164",
+"text": "no 20,00 EUR 16.10.26 20:00 EKLEKTIKA | ALBUMS ANGĀRĀ Angārs Koncertzāle",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107380",
+"text": "no 35,00 EUR 18.10.26 20:00 LITTLE BIG | RĪGA READY koncertzāle",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108206",
+"text": "no 10,00 EUR 23.10.26 17:00 SPOKU NAKTS TAKAS ĢIMENĒM 2026 Nacionālais Botāniskais dārzs Salaspilī",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107761",
+"text": "no 69,00 EUR 23.10.26 21:00 BORIS BREJCHA “REFLECTIONS TOUR” LATVIA 2026 Xiaomi Arēna",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108116",
+"text": "no 12,00 EUR 30.10.26 22:00 VERNITE MOI 2007 - Halloween edition READY koncertzāle",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107580",
+"text": "no 35,00 EUR 03.11.26 20:00 BORIS / Planning for Burial Vagonu Halle",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108222",
+"text": "no 25,00 EUR 07.11.26 20:00 RĪMDARI — “SANĀCIET, DRAUGI” The Art Ranch Dukuri",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108053",
+"text": "no 20,00 EUR 07.11.26 20:30 Arturs Skutelis // Solus Rex + Apziņas plūsmas tūre | RĪGA Vagonu Halle",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108045",
+"text": "no 20,00 EUR 14.11.26 19:00 Андрей Айрапетов | RĪGA Kinoteātris Splendid Palace",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/106657",
+"text": "no 34,00 EUR 05.12.26 20:00 OZOLS - \"CIEŅA UN MĪLESTĪBA\" Xiaomi Arēna",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107522",
+"text": "no 50,00 EUR 29.01.27 19:00 The Rasmus | Riga Palladium",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107074",
+"text": "no 40,00 EUR 01.03.27 19:00 WHITECHAPEL (USA) / SYLOSIS (UK) / 200 Stab Wounds (USA) / Tribal Gaze (Usa) READY koncertzāle",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108333",
+"text": "no 15,00 EUR 20.11.26 22:00 Krievu un ārzemju hitu diskotēka Nova Concert Hall",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108332",
+"text": "no 38,00 EUR 30.12.26 20:00 JAUNGADA SVĒTKU KONCERTS AR ŅIKITU OSIPOVU! HAMLETS",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108331",
+"text": "no 38,00 EUR 26.12.26 20:00 JAUNGADA SVĒTKU KONCERTS AR ŅIKITU OSIPOVU! HAMLETS",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108322",
+"text": "no 12,00 EUR 31.10.26 18:00 DOPLERS LKA Teātra māja Zirgu pasts",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108321",
+"text": "no 12,00 EUR 15.11.26 18:00 BLIEZIENS LKA Nacionālās filmu skolas Paviljons",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108320",
+"text": "no 12,00 EUR 14.11.26 18:00 BLIEZIENS LKA Nacionālās filmu skolas Paviljons",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108319",
+"text": "no 12,00 EUR 25.10.26 14:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Aptiekas iela 4",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108318",
+"text": "no 12,00 EUR 24.10.26 18:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Aptiekas iela 4",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108175",
+"text": "no 15,00 EUR 17.10.26 19:00 Koncerts «Itāļu operas pērles» Reformātu baznīca",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107676",
+"text": "no 49,00 EUR 17.10.26 20:00 Krovostok | Rīga READY koncertzāle",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107616",
+"text": "no 18,00 EUR 17.10.26 21:00 LIVI comes alive + support Fontaine Palace",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108163",
+"text": "no 10,00 EUR 17.10.26 21:00 INOKENTIJS MĀRPLS Melno Cepurīšu Balerija",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108166",
+"text": "no 20,00 EUR 23.10.26 20:00 BUSH “Nevietā 20” Vagonu Halle",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107540",
+"text": "no 27,00 EUR 24.10.26 20:00 OOES | RĪGA READY koncertzāle",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108231",
+"text": "no 10,00 EUR 30.10.26 20:00 Ej, Kungs, ej @ Vagonu Hall Vagonu Halle",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108224",
+"text": "no 4,00 EUR 30.10.26 22:00 DEPUSTŪTES Fontaine Palace",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108269",
+"text": "no 23,00 EUR 08.01.27 14:00 UniCon Winter Ķīpsalas starptautiskais izstāžu centrs",
+"src": "https://ticketshop.lv/lv/categories/3",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107405",
+"text": "no 55,00 EUR 17.04.27 16:00 Nurme Springs 2027 Craft Beer Festival Hanzas Perons",
+"src": "https://ticketshop.lv/lv/categories/3",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108223",
+"text": "no 50,00 EUR 04.06.27 15:00 Zobens un Lemess 2027 Bauskas Pilskalna Estrāde",
+"src": "https://ticketshop.lv/lv/categories/3",
+"seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108000",
+"text": "no 13,00 EUR 10.07.27 15:00 BALTIC INTERNATIONAL AIRSHOW 2027 - THE SOUND OF SPEED Spilve Airport",
+"src": "https://ticketshop.lv/lv/categories/3",
+"seen": "2026-10-16"
 }
+],
+"watch_errors": {}
 }
