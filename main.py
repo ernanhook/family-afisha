@@ -552,12 +552,97 @@ def portal_sources(state):
     return out
 
 
+# ================= Билетные сайты: наблюдение =================
+# watch <страница> <часть ссылки>: каждый час бот запоминает новые события со страницы
+# (например, «Jaunākie» на ticketshop.lv показывает только 8 самых новых), а в день сводки
+# отдаёт их ИИ. Семейные события открывает целиком — там возраст, цены и описание.
+WATCH_DAYS = 21
+WATCH_FAMILY = re.compile(r"ģimen|bērn|mazuļ|cirk|цирк|шапито|семей|дет|малыш|\b0\+|\b1\+|\b2\+|"
+                          r"pasak|сказк|zoo|dzīvniek|живот|leļļ|festivāl|фестивал", re.I)
+DATE_RX = re.compile(r"\d{1,2}\.\d{1,2}\.\d{2,4}")
+
+
+def load_watch():
+    out = []
+    for l in lines_of("sources.txt"):
+        parts = l.split()
+        if parts and parts[0] == "watch" and len(parts) >= 2:
+            out.append((parts[1], parts[2] if len(parts) > 2 else ""))
+    return out
+
+
+def collect_watch(state):
+    """Каждый час: новые ссылки на события со страниц watch — в очередь."""
+    watch = load_watch()
+    if not watch:
+        return
+    today = dt.datetime.now(TZ).date().isoformat()
+    q = state.setdefault("watch_queue", [])
+    known = {x["link"] for x in q}
+    errors = state.setdefault("watch_errors", {})
+    for url, pattern in watch:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+        except Exception as e:
+            print(f"[watch] ошибка  {url}: {e}")
+            errors[url] = str(e)[:100]
+            continue
+        errors.pop(url, None)
+        soup = BeautifulSoup(r.text, "html.parser")
+        n = 0
+        for a in soup.find_all("a", href=True):
+            link = urllib.parse.urljoin(url, a["href"]).split("#")[0]
+            if (pattern and pattern not in link) or link in known or link == url:
+                continue
+            node = a                         # поднимаемся до карточки, где есть дата и место
+            for _ in range(4):
+                if DATE_RX.search(node.get_text(" ")) or node.parent is None:
+                    break
+                node = node.parent
+            text = " ".join(node.get_text(" ").split())
+            if len(text) < 5:
+                continue
+            q.append({"link": link, "text": text[:300], "src": url, "seen": today})
+            known.add(link)
+            n += 1
+        print(f"[watch] новых событий {n:2d}  {url}")
+    cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=WATCH_DAYS)).isoformat()
+    state["watch_queue"] = [x for x in q if x["seen"] >= cutoff][-500:]
+
+
+def watch_sources(state):
+    """В день сводки: списки событий с билетных сайтов + страницы семейных событий целиком."""
+    q = state.get("watch_queue", [])
+    out, read = [], DIAG.setdefault("read", {})
+    errors = state.get("watch_errors", {})
+    for url, _ in load_watch():
+        read[url] = url not in errors
+        items = [x for x in q if x["src"] == url]
+        if not items:
+            continue
+        host = urllib.parse.urlparse(url).netloc.replace("www.", "")
+        out.append({"name": host, "link": url, "sid": url,
+                    "text": f"Афиша билетного сайта {host} (дата, название, место, цена; "
+                            f"ссылка в угловых скобках):\n"
+                            + "\n".join(f"- {x['text']} <{x['link']}>" for x in items)})
+    family = [x for x in q if WATCH_FAMILY.search(x["text"])]
+    for x in family[:10]:
+        text = article_text(x["link"])
+        if text:
+            out.append({"name": urllib.parse.urlparse(x["link"]).netloc.replace("www.", ""),
+                        "link": x["link"], "sid": x["src"], "text": text})
+    DIAG["watch"] = len(q)
+    return out
+
+
 def collect_sources(state=None, cfg=None, start=None, end=None):
     pages, news_queries, follows, events_q, _ = load_sources()
     sources = recurring_source()
     if state is not None:
         sources += google_events(events_q, start, end, state, cfg)
         sources += portal_sources(state)
+        sources += watch_sources(state)
     seen_urls = set()
     for listing, pattern, max_n in follows:
         DIAG["pages_total"] += 1
@@ -1716,7 +1801,7 @@ def bot_is_admin(state):
 def update_health(state, today):
     """Считает сводки подряд, в которых сайт не открылся или не дал ни одного события."""
     pages, _, follows, _, _ = load_sources()
-    configured = list(pages) + [f[0] for f in follows]
+    configured = list(pages) + [f[0] for f in follows] + [w[0] for w in load_watch()]
     h = state.setdefault("health", {})
     for sid in list(h):
         if sid not in configured:
@@ -2185,7 +2270,7 @@ def main():
         save_state(state)
         return
 
-    for step in (process_updates, collect_portals):
+    for step in (process_updates, collect_portals, collect_watch):
         try:
             step(state)
         except Exception as e:
