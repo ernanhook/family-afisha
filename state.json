@@ -1539,9 +1539,28 @@
 "pub": "2026-10-16",
 "source": "rus.jauns.lv",
 "score": 4
+},
+{
+"link": "https://pmo.ee/8565994",
+"title": "\"Vīrietis uz kauliem neguļ!\" Džemma Sudraba par sievietēm, seksu un neērto patiesību",
+"summary": "\"Sievietei jābūt tievai un skaistai, bet ne pārāk — jo vīrietis uz kauliem neguļ!\" Ar šādu dzēlīgu ironiju komiķe Džemma Sudraba runā par sievietes vietu sabiedrībā, attiecībām un standartiem, kuriem viņai it kā būtu jāatbilst. Kamēr vienām jāpaspēj viss, citas vēl mācās mīlēt sevi, celties piecos n",
+"pub": "2026-10-16",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8563576",
+"title": "ATRODI SEVI! ⟩ Bez telefoniem un ar pamatīgu nostalģijas devu! \"Placebo\" ar vērienu Rīgā nosvin 30. jubileju",
+"summary": "Piektdien, 16. oktobrī, \"Xiaomi\" arēnā norisinājās leģendārās britu alternatīvā roka grupas \"Placebo\" 30 gadu jubilejas koncerts ar īpašajiem viesiem \"Kallsup\". Atrodi sevi kaismīgāko fanu vidū!",
+"pub": "2026-10-16",
+"source": "tvnet.lv",
+"score": 2
 }
 ],
-"portal_errors": {},
+"portal_errors": {
+"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
+"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
+},
 "places_history": [
 [
 "2026-10-13",
@@ -4920,6 +4939,12 @@
 "text": "no 30,00 EUR 27.11.26 19:00 Slava Komissarenko | Daugavpils - Jauna programma Daugavpils Kultūras Pils",
 "src": "https://ticketshop.lv/lv",
 "seen": "2026-10-16"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107987",
+"text": "Vairāk informācijas 01.11.26 20:00 UNNV | RĪGA Laska V21 Izpārdots",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-17"
 }
 ],
 "watch_errors": {},
