@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.3734489000000016,
-"calls": 416
+"cost": 1.3735658000000017,
+"calls": 417
 },
 "last_digest": "2026-10-15",
 "shown_ongoing": {
@@ -1555,6 +1555,38 @@
 "pub": "2026-10-16",
 "source": "tvnet.lv",
 "score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/732174-legendara-sakta-eka-kura-dzivoja-un-mainijas-ne-tikai-riga-bet-visas-latvijas-vesture-foto",
+"title": "Leģendārā “Sakta”: ēka, kurā dzīvoja un mainījās ne tikai Rīga, bet visas Latvijas vēsture. FOTO",
+"summary": "Brīvības bulvāris 32. Rīgā ir viens no tiem namiem, kuru pazīst gandrīz visā Latvijā, pat ja ne visi zina tā stāstu. Desmitgadēm ilgi šo vietu rīdzinieki sauc vienkārši par “Saktu”. Te pirka dāvanas un smaržas, sūtīja vēstules, norunāja tikšanās, gāja uz izstādēm un lekcijām. Šī ēka arī cieši saistī",
+"pub": "2026-10-17",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/733715-v-rige-proidet-mezdunarodnaia-vystavka-obrazovaniia-cto-predlozat-budushhim-studentam",
+"title": "В Риге пройдет международная выставка образования: что предложат будущим студентам",
+"summary": "Хотите учиться за границей, но не знаете, с чего начать и сколько это будет стоить? В субботу в Риге пройдет международная выставка образования, где представители более 50 учебных заведений расскажут о программах, условиях поступления, стипендиях и возможностях финансирования учебы.",
+"pub": "2026-10-17",
+"source": "rus.jauns.lv",
+"score": 15
+},
+{
+"link": "https://pmo.ee/8566235",
+"title": "Jēkabpils novadā norisināsies Zemessardzes mācības",
+"summary": "Šodien un rīt Jēkabpils novadā norisināsies Zemessardzes 56. kaujas nodrošinājuma bataljona zemessargu plānveida militārās mācības, informēja Zemessardzē.",
+"pub": "2026-10-17",
+"source": "tvnet.lv",
+"score": 8
+},
+{
+"link": "https://pmo.ee/8566238",
+"title": "MEKLĒ SEVI! ⟩ \"Placebo\" Rīgā ar nostalģiju un vērienu svin 30 gadu jubileju",
+"summary": "Piektdien, 16. oktobrī, \"Xiaomi\" arēnā Rīgas publiku priecēja britu alternatīvā roka grupa \"Placebo\", atzīmējot savas darbības 30. gadadienu. Koncertā uzstājās arī īpašie viesi \"Kallsup\". Ielūkojies koncerta atmosfērā un meklē sevi fanu pūlī!",
+"pub": "2026-10-17",
+"source": "apollo.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -4725,7 +4757,9 @@
 "https://pmo.ee/8565783",
 "https://pmo.ee/8565902",
 "https://www.lsm.lv/raksts/vecaki-un-berni/bernu-izglitiba/16.10.2026-akcija-vardu-pa-vardam-latviski-berni-dalas-ar-sev-nozimigiem-vardiem.a667937/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/teatr/16.10.2026-andrei-savrei-lita-beiris-peteris-vasks-radu-poklitaru-ukrainskii-akcent-latviiskogo-festivalya-baleta.a667212/?utm_source=rss&utm_campaign=rss&utm_medium=links"
+"https://rus.lsm.lv/statja/kultura/teatr/16.10.2026-andrei-savrei-lita-beiris-peteris-vasks-radu-poklitaru-ukrainskii-akcent-latviiskogo-festivalya-baleta.a667212/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/732174-legendara-sakta-eka-kura-dzivoja-un-mainijas-ne-tikai-riga-bet-visas-latvijas-vesture-foto",
+"https://rus.jauns.lv/article/novosti/733715-v-rige-proidet-mezdunarodnaia-vystavka-obrazovaniia-cto-predlozat-budushhim-studentam"
 ],
 "tips_debug": {
 "date": "2026-10-15",
