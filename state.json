@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.3735658000000017,
-"calls": 417
+"cost": 1.3737211000000018,
+"calls": 418
 },
 "last_digest": "2026-10-15",
 "shown_ongoing": {
@@ -1635,6 +1635,54 @@
 "pub": "2026-10-17",
 "source": "la.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/17.10.2026-ikskile-atklaj-rakstnieces-noras-ikstenas-lasitavu.a668012/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Ikšķilē atklāj rakstnieces Noras Ikstenas lasītavu",
+"summary": "Noras ballīte vai pat festivāls – tā par rakstnieces Noras Ikstenas dzimšanas nedēļas svinību notikumiem saka viņas ģimene un cilvēki, kas ar viņiem kopā svin Noras Ikstenas dzimšanas dienu. Ikšķiles pilsētas bibliotēkā arī atklāta īpaša lasītava par godu Latvijas un pasaules literatūrā nozīmīgajai ",
+"pub": "2026-10-17",
+"source": "lsm.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/733657-iskat-iantar-s-fonarikami-na-pobereze-pavilosty-zapisites-na-uvlekatelnuiu-progulku",
+"title": "Искать янтарь с фонариками на побережье Павилосты - запишитесь на увлекательную прогулку",
+"summary": "Осенним вечером на побережье Латвии можно будет отправиться на необычную прогулку с фонариками, узнать старинные секреты добычи янтаря и увидеть берег в ультрафиолетовом свете. На участие в мероприятии отведено всего 50 мест.",
+"pub": "2026-10-17",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8566446",
+"title": "Eiropas valstis izmēģinās pēckara miera uzturētāju pārvietošanu uz Ukrainu",
+"summary": "Polijas teritorijā novembrī notiks mācības par Eiropas miera uzturēšanas spēku pārvietošanu uz Ukrainu gadījumā, ja tiktu panākts uguns pārtraukšanas režīms starp Krieviju un Ukrainu, atsaucoties uz informētiem avotiem, raksta The Times. Manevros piedalīsies aptuveni 1500 britu, franču, vācu un poļu",
+"pub": "2026-10-17",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8566454",
+"title": "Европейские страны проведут испытания по переброске послевоенных миротворческих сил в Украину",
+"summary": "На территории Польши в ноябре пройдут учения по переброске европейских миротворческих сил в Украину на случай, если между Россией и Украиной удастся достичь режима прекращения огня, пишет The Times со ссылкой на информированные источники. В маневрах примут участие около 1500 британских, французских,",
+"pub": "2026-10-17",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8566396",
+"title": "Ночью местами пройдут дожди и образуется туман",
+"summary": "В Латвии ночью местами, преимущественно в центральных районах, ожидаются кратковременные дожди и морось, прогнозирует Латвийский центр окружающей среды, геологии и метеорологии (LVĢMC).",
+"pub": "2026-10-17",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/17/posle-dozdei-i-tumana-v-latviiu-pridet-anticiklon-kakoi-budet-pogoda-v-nacale-nedeli?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "После дождей и тумана в Латвию придет антициклон: какой будет погода в начале недели",
+"summary": "В ночь на воскресенье, 18 октября, в Латвии местами пройдут небольшие дожди, а на востоке страны образуется туман, который может ухудшить видимость на дорогах. Температура воздуха опустится до +3…+8 градусов. Однако уже в начале следующей недели синоптики обещают более сухую погоду с частыми проясне",
+"pub": "2026-10-17",
+"source": "bb.lv",
+"score": 7
 }
 ],
 "portal_errors": {},
@@ -4807,7 +4855,8 @@
 "https://www.lsm.lv/raksts/vecaki-un-berni/bernu-izglitiba/16.10.2026-akcija-vardu-pa-vardam-latviski-berni-dalas-ar-sev-nozimigiem-vardiem.a667937/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://rus.lsm.lv/statja/kultura/teatr/16.10.2026-andrei-savrei-lita-beiris-peteris-vasks-radu-poklitaru-ukrainskii-akcent-latviiskogo-festivalya-baleta.a667212/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://jauns.lv/raksts/zinas/732174-legendara-sakta-eka-kura-dzivoja-un-mainijas-ne-tikai-riga-bet-visas-latvijas-vesture-foto",
-"https://rus.jauns.lv/article/novosti/733715-v-rige-proidet-mezdunarodnaia-vystavka-obrazovaniia-cto-predlozat-budushhim-studentam"
+"https://rus.jauns.lv/article/novosti/733715-v-rige-proidet-mezdunarodnaia-vystavka-obrazovaniia-cto-predlozat-budushhim-studentam",
+"https://www.lsm.lv/raksts/kultura/kulturtelpa/17.10.2026-ikskile-atklaj-rakstnieces-noras-ikstenas-lasitavu.a668012/?utm_source=rss&utm_campaign=rss&utm_medium=links"
 ],
 "tips_debug": {
 "date": "2026-10-15",
@@ -5023,6 +5072,12 @@
 "link": "https://ticketshop.lv/lv/events/107987",
 "text": "Vairāk informācijas 01.11.26 20:00 UNNV | RĪGA Laska V21 Izpārdots",
 "src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-10-17"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108342",
+"text": "no 40,00 EUR 14.11.26 19:00 Слава Комиссаренко | Порту - 70% новый материал Auditório Magno - ISEP",
+"src": "https://ticketshop.lv/lv",
 "seen": "2026-10-17"
 }
 ],
