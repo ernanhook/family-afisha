@@ -1557,10 +1557,7 @@
 "score": 2
 }
 ],
-"portal_errors": {
-"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
-"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
-},
+"portal_errors": {},
 "places_history": [
 [
 "2026-10-13",
