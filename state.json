@@ -1683,6 +1683,30 @@
 "pub": "2026-10-17",
 "source": "bb.lv",
 "score": 7
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/733781-pieaug-bazas-par-karala-carlza-iii-veselibu-monarhs-neierodas-uz-nozimigu-pasakumu",
+"title": "Pieaug bažas par karaļa Čārlza III veselību – monarhs neierodas uz nozīmīgu pasākumu",
+"summary": "Lielbritānijas karaļa Čārlza III veselības stāvoklis atkal nonācis uzmanības centrā pēc tam, kad 77 gadus vecais monarhs negaidīti izlaidis nozīmīgu pasākumu, kuru jau ilgstoši bija plānots apmeklēt. Karaļa prombūtne radījusi satraukumu Londonas augstākajās sabiedrības aprindās, bet karaļnama pietuv",
+"pub": "2026-10-17",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/733633-ot-mirovoi-slavy-do-licnyx-tragedii-sonora-vaice-rasskazet-istoriiu-marii-kallas",
+"title": "От мировой славы до личных трагедий: Сонора Вайце расскажет историю Марии Каллас",
+"summary": "23 октября в 19:00 в Лиепайском театре состоится показ спектакля \"Мастер-класс\", посвященного легендарной оперной певице Марии Каллас. Позднее постановку смогут увидеть зрители Риги и Юрмалы.",
+"pub": "2026-10-17",
+"source": "rus.jauns.lv",
+"score": 8
+},
+{
+"link": "https://pmo.ee/8566488",
+"title": "ВИДЕО ⟩ Трамп \"с огромным удовольствием\" приветствовал бы Путина на саммите G20",
+"summary": "Президент США Дональд Трамп заявил, что \"с огромным удовольствием\" принял бы президента России Владимира Путина на саммите G20, который пройдет в декабре в Майами. Однако, отвечая на вопросы журналистов, Трамп отметил, что не знает, будет ли Путин участвовать в саммите. Об этом свидетельствует видео",
+"pub": "2026-10-17",
+"source": "rus.tvnet.lv",
+"score": 8
 }
 ],
 "portal_errors": {},
@@ -5077,6 +5101,18 @@
 {
 "link": "https://ticketshop.lv/lv/events/108342",
 "text": "no 40,00 EUR 14.11.26 19:00 Слава Комиссаренко | Порту - 70% новый материал Auditório Magno - ISEP",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-17"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108344",
+"text": "no 15,00 EUR 21.11.26 11:00 АНАИТ Art Ambar",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-17"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108343",
+"text": "no 15,00 EUR 17.11.26 18:30 Поём вместе песни А. Зацепина Art Ambar",
 "src": "https://ticketshop.lv/lv",
 "seen": "2026-10-17"
 }
