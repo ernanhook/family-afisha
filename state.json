@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.3741425000000018,
-"calls": 419
+"cost": 1.3742513000000018,
+"calls": 420
 },
 "last_digest": "2026-10-15",
 "shown_ongoing": {
@@ -1843,6 +1843,38 @@
 "pub": "2026-10-18",
 "source": "bb.lv",
 "score": 8
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/18.10.2026-lindas-oltes-spelfilma-berns-varsavas-kinofestivala-ieguvusi-balvu.a668049/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Lindas Oltes spēlfilma «Bērns» Varšavas kinofestivālā ieguvusi balvu",
+"summary": "Lindas Oltes spēlfilma \"Bērns\" Varšavas kinofestivālā ieguvusi Starptautiskās Ekumēniskās žūrijas balvu. Filmai šajā festivālā bija pasaules pirmizrāde, un tā bija iekļauta galvenajā konkursa programmā.",
+"pub": "2026-10-18",
+"source": "lsm.lv",
+"score": 12
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/18.10.2026-igrovoi-film-lindy-olte-berns-the-child-polucil-nagradu-na-varsavskom-kinofestivale.a668053/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Игровой фильм Линды Олте Bērns (The Child) получил награду на Варшавском кинофестивале",
+"summary": "Игровой фильм Линды Олте Bērns (The Child) получил на Варшавском кинофестивале приз Международного экуменического жюри. Мировая премьера картины состоялась именно на этом фестивале, где она была включена в основную конкурсную программу.",
+"pub": "2026-10-18",
+"source": "rus.lsm.lv",
+"score": 10
+},
+{
+"link": "https://pmo.ee/8566689",
+"title": "Plāno uzlabot dzeramā ūdens kontroli un informēšanu par dezinfekciju",
+"summary": "Plānots pilnveidot dzeramā ūdens uzraudzību un noteikt ūdens piegādātājiem pienākumu informēt patērētājus par piesardzības pasākumiem saistībā ar plānoto ūdensapgādes sistēmas dezinfekciju, to paredz Veselības ministrijas (VM) un Klimata un enerģētikas ministrijas sagatavotie grozījumi Ministru kabi",
+"pub": "2026-10-18",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8566639",
+"title": "MEKLĒ SEVI! ⟩ Linda Leen klausītāji pulcējas koncertā \"Hanzas peronā\"",
+"summary": "Rīgas kultūrvietā \"Hanzas Peronā\" sestdien kulmināciju piedzīvoja Lindas Leen minialbumu triloģijas \"WAVES\" ierakstu un koncertu sērija. Vai tu arī apmeklēji koncertu? Meklē sevi fotogrāfijās!",
+"pub": "2026-10-18",
+"source": "tvnet.lv",
+"score": 7
 }
 ],
 "portal_errors": {},
@@ -5026,7 +5058,9 @@
 "https://rus.lsm.lv/statja/kultura/kultura/18.10.2026-pocemu-na-latgalskoi-svadbe-pryacut-kapustu-na-folklornom-festivale-v-daugavpilse-rasskazyvayut-o-svadebnyx-tradiciyax.a668047/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://jauns.lv/raksts/zinas/733298-foto-bailes-rada-celu-salaspils-botaniskaja-darza-notiks-spocigs-rudens-festivals",
 "https://rus.jauns.lv/article/afisha/733775-kuda-sxodit-v-rige-18-oktiabria-bolsie-koncerty-teatralnye-premery-kinofestival-i-neobycnye-vystavki",
-"https://bb.lv/statja/kultura/2026/10/18/tykva-gigant-i-raznocvetnye-percy-v-rige-pokazut-neobycnyi-urozai?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv"
+"https://bb.lv/statja/kultura/2026/10/18/tykva-gigant-i-raznocvetnye-percy-v-rige-pokazut-neobycnyi-urozai?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/18.10.2026-lindas-oltes-spelfilma-berns-varsavas-kinofestivala-ieguvusi-balvu.a668049/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/kino/18.10.2026-igrovoi-film-lindy-olte-berns-the-child-polucil-nagradu-na-varsavskom-kinofestivale.a668053/?utm_source=rss&utm_campaign=rss&utm_medium=links"
 ],
 "tips_debug": {
 "date": "2026-10-15",
