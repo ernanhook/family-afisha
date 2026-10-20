@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.374917400000002,
-"calls": 423
+"cost": 1.375388300000002,
+"calls": 424
 },
 "last_digest": "2026-10-15",
 "shown_ongoing": {
@@ -2267,6 +2267,118 @@
 "pub": "2026-10-20",
 "source": "la.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/20.10.2026-nemiers-dzivot-laimigak-dailes-teatri-viesosies-hermana-heses-romana-sidharta-iestudejums.a668325/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Nemiers dzīvot laimīgāk. Dailes teātrī viesosies Hermaņa Heses romāna «Sidharta» iestudējums",
+"summary": "Vācu rakstnieka, Nobela prēmijas laureāta Hermaņa Heses romāns \"Sidharta\" ir pamatā viesizrādēm, ko šonedēļ izrādīs Dailes teātrī arī ar tādu pašu nosaukumu \"Sidharta\". Projekts ir vairāku valstu kopdarbs, tā režisore un koncepcijas autore ir beļģu māksliniece Lisaboa Haubrehtsa, arī galvenie produc",
+"pub": "2026-10-20",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/vide-un-dzivnieki/20.10.2026-liela-talka-nakamgad-notiks-20-reizi.a668324/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Lielā talka nākamgad notiks 20. reizi",
+"summary": "2027. gada 24. aprīlī Lielā talka visā Latvijā un diasporā notiks jau 20. reizi, informēja organizatori.",
+"pub": "2026-10-20",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/18.10.2026-gramata-izstade-un-vel-filma-ko-par-simtgades-verienigo-atzimesanu-teiktu-makslinieks-raimonds-staprans.a668070/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Grāmata, izstāde un vēl filma! Ko par simtgades vērienīgo atzīmēšanu teiktu mākslinieks Raimonds Staprāns?",
+"summary": "Atzīmējot Raimonda Staprāna simtgadi, klajā nākusi viņa autobiogrāfija \"46 epizodes ar un bez ironijas\", Latvijas Nacionālajā mākslas muzejā apskatāma mākslinieka daiļradei veltīta izstāde \"Klusuma arhitektūra\" un pavisam nesen pirmizrādi kinofestivālā \"Riga IFF\" piedzīvojusi viņa dzīvesstāstā, dram",
+"pub": "2026-10-20",
+"source": "lsm.lv",
+"score": 10
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/20.10.2026-v-latvii-sozdali-kartu-razdaci-sladostei-na-xellouin-specialisty-napominayut-o-bezopasnosti.a668290/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "В Латвии создали карту раздачи сладостей на Хэллоуин; специалисты напоминают о безопасности",
+"summary": "Осенние школьные каникулы в самом разгаре, а совсем скоро многие дети наденут костюмы, готовясь к Хэллоуину. Чтобы облегчить подготовку к празднику, в Латвии создали уникальную карту раздачи сладостей, на которой можно отметить дома, где в конце октября детей будут ждать с угощениями. Однако эксперт",
+"pub": "2026-10-20",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://jauns.lv/raksts/zinas/734135-foto-jau-astotais-draugi-andrejam-zagaram-koncerts-izskan-ar-stavovacijam",
+"title": "FOTO: jau astotais “Draugi – Andrejam Žagaram“ koncerts izskan ar stāvovācijām",
+"summary": "Nedēļas nogalē Cēsu koncertzālē ar publikas sajūsmu izskanēja Andreja Žagara kultūras attīstības fonda organizētais tradicionālais opermūzikas Galā koncerts “Draugi – Andrejam Žagaram“.",
+"pub": "2026-10-20",
+"source": "jauns.lv",
+"score": 7
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/734046-v-rige-proidet-vliiatelnoe-zenskoe-meropriiatie-kotoroe-soberet-ucastnic-iz-bolee-cem-40-stran",
+"title": "В Риге пройдет влиятельное женское мероприятие, которое соберет участниц из более чем 40 стран",
+"summary": "Уже в ближайшие выходные, 24-25 октября, в Риге впервые соберутся более 150 активных женщин из более чем 40 стран, чтобы принять участие в ежегодном собрании международной женской организации Soroptimist International of Europe (SIE) – Governors’ Meeting.",
+"pub": "2026-10-20",
+"source": "rus.jauns.lv",
+"score": 7
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/734074-teatr-odnogo-zritelia-mosenniki-ustroili-nastoiashhii-spektakl-ctoby-vymanit-u-zenshhiny-300-000-evro",
+"title": "Театр одного зрителя: мошенники устроили настоящий \"спектакль\", чтобы выманить у женщины 300 000 евро",
+"summary": "Мошенники разыграли перед жительницей Эстонии целое представление с участием якобы сотрудников Telia, Smart-ID, Банка Эстонии и полиции. Женщину держали на связи даже ночью, запугивали и убедили перевести деньги на \"безопасный счет\".",
+"pub": "2026-10-20",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8567871",
+"title": "Kairiša un Avota spēlfilmu \"Uļa\" izrādīs ārvalstu kinofestivālos",
+"summary": "Režisora Viestura Kairiša un aktiera Kārļa Arnolda Avota spēlfilmu \"Uļa\" izrādīs ārvalstu kinofestivālos.",
+"pub": "2026-10-20",
+"source": "tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8567815",
+"title": "\"Danger Fest 2026\" atklās noslēpumainu pasauli ar 27 interaktīviem apskates objektiem un 100 dronu šovu",
+"summary": "No 23. līdz 31. oktobrim kinopilsēta \"Cinevilla\" pārtaps noslēpumainā pasaulē, kurā digitālā realitāte sastopas ar šausmām, bet gaisma, skaņa, tehnoloģijas, imersīvā māksla un dzīvie aktieri radīs neparastu pieredzi. Deviņu dienu garumā ģimenēm draudzīgais festivāls \"Danger Fest 2026\" aicina apmeklē",
+"pub": "2026-10-20",
+"source": "tvnet.lv",
+"score": 7
+},
+{
+"link": "https://pmo.ee/8567746",
+"title": "Dziedātāja Katrīna Dimanta atklāti par to, kāpēc mūziķi Latvijā atceļ koncertus",
+"summary": "Savā pirmajā koncertturnejā Latvijā kopā ar grupu \"Zeltrači\" dziedātāja Katrīna Dimanta piedzīvojusi sāpīgu vilšanos - nepietiekama biļešu pieprasījuma dēļ viņai nācies atcelt divus no septiņiem koncertiem.",
+"pub": "2026-10-20",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8567722",
+"title": "Мама Линды Калнини нарушила молчание и высказалась о Дж. Дж. Джилинджере",
+"summary": "В субботу вечером в аркаде Рижского русского театра имени Михаила Чехова состоялась премьера нового спектакля Дж. Дж. Джилинджера \"Эрик и Анна\". Над постановкой в качестве хореографа и специалиста по сценическому движению работала также супруга режиссера Линда Калниня. Поддержать творческий дуэт при",
+"pub": "2026-10-20",
+"source": "rus.tvnet.lv",
+"score": 3
+},
+{
+"link": "https://pmo.ee/8567794",
+"title": "Festivāls \"Danger Fest 2026\" kinopilsētā \"Cinevilla\" atklās noslēpumainu pasauli ar 27 interaktīviem apskates objektiem un 100 dronu šovu",
+"summary": "No 23. līdz 31. oktobrim katru vakaru no plkst. 18.00 līdz 23.00 kinopilsēta \"Cinevilla\" pārtaps noslēpumainā pasaulē, kurā digitālā realitāte sastopas ar šausmām, bet gaisma, skaņa, tehnoloģijas, imersīvā māksla un dzīvie aktieri radīs neparastu pieredzi. Deviņu dienu garumā ģimenēm draudzīgais fes",
+"pub": "2026-10-20",
+"source": "apollo.lv",
+"score": 13
+},
+{
+"link": "https://www.la.lv/jaunas-garsas-jauni-tirgi-rekordliels-latvijas-partikas-razotaju-skaits-mekle-izaugsmi-starptautiskaja-izstade-parize",
+"title": "Jaunas garšas, jauni tirgi: rekordliels Latvijas pārtikas ražotāju skaits meklē izaugsmi starptautiskajā izstādē Parīzē",
+"summary": "Autore: Ilona Bērziņa Parīze no 17. līdz 21. oktobrim kļūst par pasaules pārtikas rūpniecības galvaspilsētu. Starptautiskajā pārtikas izstādē “SIAL Paris 2026” tiek meklētas jaunas garšas, jauni tirgi, slēgti sadarbības līgumi un noskaidrots, kādi produkti turpmākajos gados nonāks veikalu plauktos. ",
+"pub": "2026-10-20",
+"source": "la.lv",
+"score": 8
+},
+{
+"link": "https://www.la.lv/vins-noteikti-ir-neordinari-domajoss-dzilindzera-septitas-sievas-mamma-pasaka-ko-doma-par-meitas-viru",
+"title": "“Viņš noteikti ir neordināri domājošs…” Džilindžera septītās sievas mamma pasaka, ko domā par znotu",
+"summary": "Režisora Dž. Dž. Džilindžera jaunākais iestudējums “Ēriks un Anna” piedzīvoja pirmizrādi un to apmeklēja arī viņa sievas Lindas Kalniņas mamma Sandra Stafecka kopā ar vīru Gunti. Sandra par savu znotu ir septiņus gadus jaunāka, turklāt viņas jauneklīgais izskats liek domāt, ka viņa ar meitu drīzāk i",
+"pub": "2026-10-20",
+"source": "la.lv",
+"score": 3
 }
 ],
 "portal_errors": {},
@@ -5464,7 +5576,19 @@
 "https://rus.lsm.lv/statja/kultura/kino/19.10.2026-otecestvennye-premery-na-rizskom-mezdunarodnom-kinofestivale-novinki-ekrana-na-etoi-nedele.a668161/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://rus.lsm.lv/statja/kultura/teatr/19.10.2026-v-rigu-priexal-kiev-modern-balet.a668139/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://pmo.ee/8567119",
-"https://bb.lv/statja/kultura/2026/10/19/daugavpils-prevratitsia-v-carstvo-sneznoi-korolevy-kak-gorod-ukrasiat-k-rozdestvu?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv"
+"https://bb.lv/statja/kultura/2026/10/19/daugavpils-prevratitsia-v-carstvo-sneznoi-korolevy-kak-gorod-ukrasiat-k-rozdestvu?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://rus.lsm.lv/statja/kultura/literatura/19.10.2026-v-90-let-pisat-roman-nemnogo-neprilicno-v-staburagse-otprazdnovali-yubilei-mary-svire.a668241/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8567318",
+"https://rus.delfi.lv/57860/latvia/120139169/soyuz-zelenyh-i-krestyan-predlagaet-popolnit-spisok-prazdnichnyh-dney",
+"https://www.la.lv/video-skolas-gaiteni-peksni-izcelas-kautins-direktors-steidzas-skirt-skolenus-tacu-talakais-vinu-atstaj-bez-valodas",
+"https://pmo.ee/8564983",
+"https://www.lsm.lv/raksts/zinas/latvija/20.10.2026-izveidota-halovina-saldumu-karte-karumu-medniekiem-specialisti-atgadina-par-drosibu.a668233/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/18.10.2026-gramata-izstade-un-vel-filma-ko-par-simtgades-verienigo-atzimesanu-teiktu-makslinieks-raimonds-staprans.a668070/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/novosti/obschestvo/20.10.2026-v-latvii-sozdali-kartu-razdaci-sladostei-na-xellouin-specialisty-napominayut-o-bezopasnosti.a668290/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8567871",
+"https://pmo.ee/8567815",
+"https://pmo.ee/8567794",
+"https://www.la.lv/jaunas-garsas-jauni-tirgi-rekordliels-latvijas-partikas-razotaju-skaits-mekle-izaugsmi-starptautiskaja-izstade-parize"
 ],
 "tips_debug": {
 "date": "2026-10-15",
@@ -5729,6 +5853,60 @@
 "text": "no 12,00 EUR 24.10.26 14:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Aptiekas iela 4",
 "src": "https://ticketshop.lv/lv",
 "seen": "2026-10-19"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108351",
+"text": "no 15,00 EUR 23.01.27 23:45 Hiphopa apvienības MUUD koncerts naktsklubā Cukurfabrik` Cukurfabrik' club",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-20"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108362",
+"text": "no 12,00 EUR 08.11.26 14:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Daugavas iela 20A",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-20"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108361",
+"text": "no 12,00 EUR 07.11.26 18:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Daugavas iela 20A",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-20"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108360",
+"text": "no 12,00 EUR 07.11.26 14:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Daugavas iela 20A",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-20"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108359",
+"text": "no 12,00 EUR 06.11.26 19:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Daugavas iela 20A",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-20"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108358",
+"text": "no 12,00 EUR 05.11.26 19:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Daugavas iela 20A",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-20"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108357",
+"text": "no 12,00 EUR 01.11.26 14:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Emmas iela 45 (aiz DUS Viada)",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-20"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108356",
+"text": "no 12,00 EUR 31.10.26 18:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Emmas iela 45 (aiz DUS Viada)",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-20"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108355",
+"text": "no 12,00 EUR 31.10.26 14:00 Cirka izrāde visai ģimenei “Cirka šovs uz ūdens” Emmas iela 45 (aiz DUS Viada)",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-20"
 }
 ],
 "watch_errors": {},
