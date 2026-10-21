@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.376153800000002,
-"calls": 426
+"cost": 1.376492300000002,
+"calls": 427
 },
 "last_digest": "2026-10-15",
 "shown_ongoing": {
@@ -2707,6 +2707,150 @@
 "pub": "2026-10-21",
 "source": "apollo.lv",
 "score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/21.10.2026-raudot-aug-skropstas-latvijas-lellu-teatri-pirmizrade-pieaugsanas-stastam-pusaudziem.a668523/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Raudot aug skropstas» – Latvijas Leļļu teātrī pirmizrāde pieaugšanas stāstam pusaudžiem",
+"summary": "Latvijas Leļļu teātra Mazajā zālē 13. novembrī plkst. 18.30 pirmizrādi piedzīvos režisora Reiņa Suhanova iestudējums \"Raudot aug skropstas\". Izrāde pusaudžiem no 12 gadu vecuma pievērsīsies tēmai par mazajiem pusaudžiem – pieaugšanas izaicinājumiem, savstarpējām attiecībām un ķermeņa pārmaiņām puber",
+"pub": "2026-10-21",
+"source": "lsm.lv",
+"score": 12
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/izklaide/21.10.2026-tests-kas-ir-revelits-un-ko-bricis-nopirka-sev-ziemassvetkos-es-milu-tevi-latvija-jautajumi-skatitajiem.a667927/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "TESTS. Kas ir revelīts, un ko Bricis nopirka sev Ziemassvētkos? «Es mīlu Tevi, Latvija!» jautājumi skatītājiem",
+"summary": "Ko tu zini par Latvijas slavenākajiem Eiženiem? Vai vari uzminēt, ko reiz Ziemassvētkos sev uzdāvinājis Toms Bricis? Vairāk par Latviju un Latvijas cilvēkiem jau no 24. oktobra vari uzzināt šovā \"Es mīlu Tevi, Latvija!\".",
+"pub": "2026-10-21",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/21.10.2026-nakti-uz-svetdienu-pulkstena-raditaji-japagriez-par-stundu-atpakal.a668480/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Naktī uz svētdienu pulksteņa rādītāji jāpagriež par stundu atpakaļ",
+"summary": "Naktī no sestdienas uz svētdienu, 25. oktobri, plkst. 4.00 visā Latvijā notiks pāreja uz ziemas laiku – pulksteņa rādītāji jāpagriež par vienu stundu atpakaļ, atgādināja Ekonomikas ministrijā.",
+"pub": "2026-10-21",
+"source": "lsm.lv",
+"score": 5
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/21.10.2026-v-noc-na-voskresene-strelki-casov-nuzno-perevesti-na-cas-nazad.a668488/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "В ночь на воскресенье стрелки часов нужно перевести на час назад",
+"summary": "В ночь с субботы на воскресенье, 25 октября, в 4.00 по всей Латвии состоится переход на зимнее время — стрелки часов необходимо перевести на один час назад, напомнили в Министерстве экономики.",
+"pub": "2026-10-21",
+"source": "rus.lsm.lv",
+"score": 5
+},
+{
+"link": "https://jauns.lv/raksts/zinas/734413-notiks-lidz-sim-plasakas-macibas-tukstosiem-nato-karaviru-ar-smago-militaro-tehniku-dosies-uz-latvijas-austrumiem",
+"title": "Notiks līdz šim plašākās mācības – tūkstošiem NATO karavīru ar smago militāro tehniku dosies uz Latvijas austrumiem",
+"summary": "No 26. oktobra līdz 8. novembrim NATO Daudznacionālā brigāde Latvijā rīkos līdz šim plašākās spēku izvēršanas militārās mācības “Resolute Reforger 2026”, kurās piedalīsies aptuveni 3000 karavīru un 1000 militārās tehnikas vienību.",
+"pub": "2026-10-21",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/734094-kogda-v-latvii-snova-budut-vybory-sroki-izbraniia-prezidenta-seima-i-samoupravlenii",
+"title": "Когда в Латвии снова будут выборы: сроки избрания президента, Сейма и самоуправлений",
+"summary": "В Латвии только что завершились парламентские выборы, но уже в следующем году страну ждет еще одно важное политическое событие - избрание президента. А вот жителям, которые захотят снова проголосовать за депутатов Сейма или местных дум, придется подождать несколько лет. Рассказываем, когда пройдут с",
+"pub": "2026-10-21",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8568797",
+"title": "\"Riga Music Week\" papildina TVNET skatuve ar četru Baltijas mākslinieku koncertiem",
+"summary": "4. novembrī \"Riga Music Week\" ietvaros \"Rocket Bean\" grauzdētavā Miera ielā uz TVNET skatuves kāps četri mākslinieki no visām trim Baltijas valstīm.",
+"pub": "2026-10-21",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8568675",
+"title": "RFW ⟩ Dekel / Itālija",
+"summary": "Itālijas zīmols DEKEL Rīgas Modes nedēļā piedāvāja izteiksmīgu, juteklisku skatījumu uz mūsdienu modi, kurā satiekas minimālisms, ādas apģērbi un drosmīga attieksme pret ķermeņa atsegšanu. Zīmols debitēja Rīgas Modes nedēļā, kolekciju demonstrējot gan atklāšanas pasākumā ExPorto jahtu piestātnē, gan",
+"pub": "2026-10-21",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8568671",
+"title": "Ar saulrieta skati jahtu ostā sākusies Rīgas Modes nedēļa",
+"summary": "20. oktobra vakarā “ExPorto” jahtu piestātnē ar saulrieta modes skati tika atklāta Rīgas Modes nedēļas rudens sesija. Līdz 24. oktobrim tās programmā gaidāmas Baltijas un ārvalstu dizaineru skates, kolekciju prezentācijas, profesionāļu diskusija, meistarklase, izstādes un īpaši pasākumi dizaineru ve",
+"pub": "2026-10-21",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8568796",
+"title": "ФОТО ⟩ Тыквы, паприка и чили во всей красе: яркие краски осени на одной выставке",
+"summary": "Большие и маленькие, гладкие и покрытые причудливыми узорами, однотонные и разноцветные тыквы, а также сладкий и острый перец самых разных форм радуют посетителей ежегодной выставки, посвященной тыквенным культурам и перцам.",
+"pub": "2026-10-21",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8568585",
+"title": "Предстоит перевести часы: в ночь на воскресенье состоится переход на зимнее время",
+"summary": "В Латвии в ночь на воскресенье, 25 октября, в 04:00 произойдет переход на зимнее время - стрелки часов нужно будет перевести на один час назад, сообщили агентству LETA в Министерстве экономики.",
+"pub": "2026-10-21",
+"source": "rus.tvnet.lv",
+"score": 8
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120139396/v-noch-na-voskresene-latviya-pereydet-na-zimnee-vremya",
+"title": "В ночь на воскресенье Латвия перейдет на зимнее время",
+"summary": "В Латвии в ночь на воскресенье, 25 октября, в 4 часа состоится переход на зимнее время, стрелки часов будут переведены на один час назад, сообщили агентству LETA в Министерстве экономики.",
+"pub": "2026-10-21",
+"source": "rus.delfi.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8568654",
+"title": "Uzvirmojis skandāls ap Latvijas cīkstoņa Džigura titulcīņu",
+"summary": "Sestdien, 17. oktobrī, \"KOK 129\" pasākuma galvenajā cīņā neuzveiktais latviešu cīkstonis Rāgners Džigurs pirmoreiz profesionālajā karjerā palika bez uzvaras. Viņa neizšķirts radījis sašutumu Latvijas cīņas sporta sabiedrībā.",
+"pub": "2026-10-21",
+"source": "apollo.lv",
+"score": 3
+},
+{
+"link": "https://pmo.ee/8568579",
+"title": "Nedēļas nogalē notiks pāreja uz ziemas laiku",
+"summary": "Latvijā naktī uz svētdienu, 25. oktobrī, plkst. 4 notiks pāreja uz ziemas laiku, pulksteņa rādītājus pagriežot vienu stundu atpakaļ, informēja Ekonomikas ministrijā (EM).",
+"pub": "2026-10-21",
+"source": "apollo.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8568548",
+"title": "VIDEO ⟩ Dabas muzejā skatāma ķirbju un paprikas izstāde",
+"summary": "No 21. līdz 25. oktobrim Latvijas Nacionālajā dabas muzejā norisināsies dārzkopības sezonas noslēguma izstāde \"Ķirbjaugi un paprika 2026\", informēja muzeja sabiedrisko attiecību speciāliste Kristīna Soloha.",
+"pub": "2026-10-21",
+"source": "apollo.lv",
+"score": 12
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/21/v-rige-otkroetsia-tainstvennyi-les-posetitelei-zdut-duxi-predkov-drevnie-legendy-i-magiia-sveta?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "В Риге откроется таинственный лес: посетителей ждут духи предков, древние легенды и магия света",
+"summary": "С 29 октября по 8 ноября Латвийский этнографический музей под открытым небом в Риге превратится в сказочный лес, наполненный загадочными огнями, звуками и образами из старинных преданий. Здесь вновь откроется необычная тропа света «Истории света. Духи предков» (Gaismas stāsti. Veļi).",
+"pub": "2026-10-21",
+"source": "bb.lv",
+"score": 6
+},
+{
+"link": "https://www.la.lv/investiciju-platforma-digilo-un-roboready-apvieno-spekus-biroja-ikdiena-ievies-humanoido-robotu-un-plano-veicinat-jauniesu-finansu-pratibu",
+"title": "Investīciju platforma “Digilo” un “RoboReady” apvieno spēkus: biroja ikdienā ievieš humanoīdo robotu un plāno veicināt jauniešu finanšu pratību",
+"summary": "Finanšu un investīciju platforma “Digilo” sadarbībā ar humanoīdo robotu platformas programmatūras izstrādātājiem un Booster Robotics oficiālajiem pārstāvjiem Latvijā “RoboReady” ir pirmais uzņēmums Latvijā, kas humanoīdo robotu izmanto dažādiem mērķiem – gan ikdienas biroja darbā, gan pasākumos un i",
+"pub": "2026-10-21",
+"source": "la.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/atkal-klat-ziemas-laiks-nakti-uz-svetdienu-pulkstena-raditaji-bus-japagriez",
+"title": "Atkal klāt ziemas laiks! Naktī uz svētdienu pulksteņa rādītāji būs jāpagriež",
+"summary": "Latvijā naktī uz svētdienu, 25. oktobrī, plkst. 4 notiks pāreja uz ziemas laiku, pulksteņa rādītājus pagriežot vienu stundu atpakaļ, aģentūru LETA informēja Ekonomikas ministrijā (EM). Pāreju uz vasaras laiku un atpakaļ Latvijā nosaka 2010. gada 26. oktobra Ministru kabineta (MK) noteikumi “Par pāre",
+"pub": "2026-10-21",
+"source": "la.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -5937,7 +6081,13 @@
 "https://bb.lv/statja/lifenews/2026/10/20/50-letie-s-intrigoi-viktoriia-isakova-sobrala-druzei-no-vse-obsuzdaiut-bondarcuka?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
 "https://jauns.lv/raksts/izklaide/734257-rezisores-pakalninas-filma-es-domaju-par-kaki-piedzivo-pirmizradi-rigas-starptautiskaja-kino-festivala-foto",
 "https://pmo.ee/8568422",
-"https://pmo.ee/8568399"
+"https://pmo.ee/8568399",
+"https://www.lsm.lv/raksts/kultura/izklaide/21.10.2026-tests-kas-ir-revelits-un-ko-bricis-nopirka-sev-ziemassvetkos-es-milu-tevi-latvija-jautajumi-skatitajiem.a667927/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8568675",
+"https://pmo.ee/8568671",
+"https://pmo.ee/8568796",
+"https://pmo.ee/8568548",
+"https://bb.lv/statja/kultura/2026/10/21/v-rige-otkroetsia-tainstvennyi-les-posetitelei-zdut-duxi-predkov-drevnie-legendy-i-magiia-sveta?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv"
 ],
 "tips_debug": {
 "date": "2026-10-15",
