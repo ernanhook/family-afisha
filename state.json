@@ -2851,9 +2851,68 @@
 "pub": "2026-10-21",
 "source": "la.lv",
 "score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/734454-certlv-saistiba-ar-globali-atklatam-kritiskajam-php-ievainojamibam-latvija-ievies-preventivus-pasakumus",
+"title": "CERT.LV: saistībā ar globāli atklātām kritiskajām PHP ievainojamībām Latvijā ievieš preventīvus pasākumus",
+"summary": "Lai pasargātu valsts informācijas sistēmas no iespējamiem kiberuzbrukumiem, saistībā ar divām kritiskām PHP programmatūras ievainojamībām pieņemts lēmums uz laiku ierobežot piekļuvi vairākiem valsts digitālajiem resursiem no ārvalstīm, pavēstījusi kiberincidentu novēršanas institūcija CERT.LV.",
+"pub": "2026-10-21",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8568995",
+"title": "Saistībā ar globāli atklātām PHP ievainojamībām Latvijā ievieš preventīvus pasākumus",
+"summary": "Lai pasargātu valsts informācijas sistēmas no iespējamiem kiberuzbrukumiem, saistībā ar divām kritiskām PHP programmatūras ievainojamībām pieņemts lēmums uz laiku ierobežot piekļuvi vairākiem valsts digitālajiem resursiem no ārvalstīm, TVNET informē kiberincidentu novēršanas institūcija CERT.LV.",
+"pub": "2026-10-21",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8568994",
+"title": "Премьер-министр Кулбергс примет участие в авторалли \"Латвия\"",
+"summary": "Премьер-министр Латвии Андрис Кулбергс заявил о своем участии в соревнованиях по мини-ралли и ралли-спринту \"Латвия\", которые пройдут на следующей неделе на трассе Бикерниеки в Риге, сообщают организаторы.",
+"pub": "2026-10-21",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://www.delfi.lv/kultura/174/music/120139392/ar-krieviju-saistiti-makslinieki-koncertos-latvija-ka-parbaudit-ko-uznemam-uz-skatuves",
+"title": "Ar Krieviju saistīti mākslinieki koncertos Latvijā. Kā pārbaudīt, ko uzņemam uz skatuves?",
+"summary": "Četrus gadus pēc Krievijas pilna mēroga iebrukuma Ukrainā Latvijas koncertvietas joprojām uzņem māksliniekus, kuru saikne ar agresorvalsti netiek pienācīgi izvērtēta. Vai pie vainas ir nepietiekama informācija un izpēte, vai arī akla uzticēšanās mākslinieku pārstāvjiem, kuri apgalvo, ka viņu mūziķie",
+"pub": "2026-10-21",
+"source": "delfi.lv",
+"score": 10
+},
+{
+"link": "https://pmo.ee/8569002",
+"title": "PHP programmēšanas valodā atklātas divas kritiskas ievainojamības – Latvijā ieviesti preventīvi drošības pasākumi",
+"summary": "PHP programmēšanas valodā globālā līmenī atklāto kritisko drošības ievainojamību dēļ vairākiem Latvijas digitālajiem resursiem uz laiku ir ierobežota piekļuve no ārvalstīm, aģentūru LETA informēja kiberincidentu novēršanas institūcijā \"Cert.lv\".",
+"pub": "2026-10-21",
+"source": "apollo.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8568991",
+"title": "Latvijas austrumu daļā notiks vērienīgas NATO rīkotas militārās mācības",
+"summary": "No 26. oktobra līdz 8. novembrim NATO daudznacionālā brigāde Latvijā rīkos līdz šim plašākās spēku izvēršanas militārās mācības \"Resolute Reforger 2026\", kurās piedalīsies aptuveni 3000 karavīru un 1000 militārās tehnikas vienību, aģentūru LETA informēja brigādes štābs.",
+"pub": "2026-10-21",
+"source": "apollo.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/lifenews/2026/10/21/ne-lekarstvo-i-ne-operaciia-cto-pomoglo-zenshhine-posle-insulta-snova-vstat?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Не лекарство и не операция: что помогло женщине после инсульта снова встать",
+"summary": "На выставке в китайской провинции Гуандун произошёл эмоциональный момент. Британка по имени Сюзанна, которая после инсульта передвигалась на инвалидном кресле, смогла подняться и сделать несколько шагов с помощью китайского экзоскелета. Женщина не смогла сдержать слёз.",
+"pub": "2026-10-21",
+"source": "bb.lv",
+"score": 2
 }
 ],
-"portal_errors": {},
+"portal_errors": {
+"https://www.lsm.lv/rss/": "404 Client Error: Not Found for url: https://www.lsm.lv/rss/",
+"https://rus.lsm.lv/rss/": "404 Client Error: Not Found for url: https://rus.lsm.lv/rss/"
+},
 "places_history": [
 [
 "2026-10-13",
