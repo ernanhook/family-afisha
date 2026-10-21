@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.375780800000002,
-"calls": 425
+"cost": 1.376153800000002,
+"calls": 426
 },
 "last_digest": "2026-10-15",
 "shown_ongoing": {
@@ -2651,6 +2651,62 @@
 "pub": "2026-10-20",
 "source": "jauns.lv",
 "score": 8
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/21.10.2026-spoguloties-aizejosaja-laika-riharda-strausa-rozes-kavalieris-latvijas-nacionalaja-opera.a668190/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Spoguļoties aizejošajā laikā. Riharda Štrausa «Rozes kavalieris» Latvijas Nacionālajā operā",
+"summary": "Latvijas Nacionālajā operā un baletā (LNOB) 8. un 9. oktobrī jaunās sezonas sākumu vērienīgi iezīmēja Riharda Štrausa operas \"Rozes kavalieris\" pirmizrāde poļu diriģenta Zbigņeva Gracas muzikālajā vadībā un Viestura Kairiša režijā. Visās nozīmēs ambiciozā iestudējuma nonākšana repertuārā ir arī vēst",
+"pub": "2026-10-21",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/734286-pareja-uz-ziemas-laiku-ietekmes-ari-vilcienu-kustibu-kas-jazina-pasazieriem",
+"title": "Pāreja uz ziemas laiku ietekmēs arī vilcienu kustību: kas jāzina pasažieriem?",
+"summary": "Naktī uz svētdienu, 25. oktobrī, plkst. 4.00 Latvijā notiks pāreja uz ziemas laiku, pulksteņa rādītājus pagriežot vienu stundu atpakaļ. Lai vilcieni gala stacijās pienāktu atbilstoši ziemas laikam, visi Vivi reisi, tostarp pirmie nakts vilcieni, aties pēc pulksteņa rādītāju pagriešanas.",
+"pub": "2026-10-21",
+"source": "jauns.lv",
+"score": 3
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/734277-foto-sirsniga-gaisotne-prezente-jauno-raidijumu-ricijs-ru-lauku-seta",
+"title": "FOTO: sirsnīgā gaisotnē prezentē jauno raidījumu \"Ričijs Rū lauku sētā\"",
+"summary": "Otrdien, 20. oktobrī, \"K. K. fon Stricka villā\" notika raidījuma \"Ričijs Rū lauku sētā\" prezentācijas pasākums.",
+"pub": "2026-10-21",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8568457",
+"title": "Запретят ли в Риге концерт Nickelback в День памяти?",
+"summary": "В социальных сетях появились опасения относительно того, состоится ли вообще концерт канадской рок-группы Nickelback, запланированный в Риге на 4 июля 2027 года. Эта дата в Латвии является Днем памяти жертв геноцида еврейского народа, когда проведение публичных мероприятий регулируется установленным",
+"pub": "2026-10-21",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://www.delfi.lv/193/politics/120139047/kadas-ir-sabiedribas-prioritates-15-saeimai-un-uzticesanas-valdibai-video-tiesraide",
+"title": "Kādas ir sabiedrības prioritātes 15. Saeimai un uzticēšanās valdībai. Video tiešraide",
+"summary": "Trešdien, 21. oktobrī, tiek prezentēti domnīcas \"Providus\" un SKDS aptaujas rezultāti par valdības darba vērtējumu un atbildes uz aptaujas jautājumu, kādi ir trīs svarīgākie jautājumi, kas jārisina 15. Saeimai. Pasākumu tiešraidē iespējams vērot \"Delfi\".",
+"pub": "2026-10-21",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8568422",
+"title": "MEKLĒ SEVI! ⟩ Ar Kijivas modernā baleta izrādi un Pētera Vaska mūziku atklāj Baltijas baleta festivālu",
+"summary": "20. oktobrī ar Kijivas modernā baleta izrādi \"Es tevi mīlu\", kurā skan Pētera Vaska mūzika, VEF Kultūras pilī tika atklāts 31. Starptautiskais Baltijas baleta festivāls.",
+"pub": "2026-10-21",
+"source": "apollo.lv",
+"score": 10
+},
+{
+"link": "https://pmo.ee/8568399",
+"title": "MEKLĒ SEVI ⟩ Viesu stila pērles Rīgas modes nedēļas atklāšanas dienā",
+"summary": "Rīgas modes nedēļas 2026. gada rudens sesija 20. oktobrī tika atklāta ar neparastu modes skati ExPorto jahtu piestātnē. Ierastās modes mēles vietā modeļi demonstrēja tērpus uz 100 metrus garas koka laipas, bet par skates fonu kļuva Daugava un vakara gaisma. Aplūko pasākuma viesu tērpus!",
+"pub": "2026-10-21",
+"source": "apollo.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
@@ -5869,7 +5925,19 @@
 "https://rus.jauns.lv/article/afisha/734153-sou-dronov-mumii-i-ozivsie-skelety-v-latvii-gotoviat-nastoiashhii-kosmar-na-xellouin",
 "https://pmo.ee/8568066",
 "https://bb.lv/statja/kultura/2026/10/20/sotni-krolikov-i-redkie-pticy-v-madone-proidet-neobycnaia-vystavka-s-vozmoznostiu-pokupki-zivotnyx?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"https://www.la.lv/petera-krilova-filma-sarkanais-skunis-piedzivojusi-pirmizradi"
+"https://www.la.lv/petera-krilova-filma-sarkanais-skunis-piedzivojusi-pirmizradi",
+"https://rus.lsm.lv/statja/kultura/muzika/20.10.2026-nostalgiya-xip-xop-i-futurizm-cto-pokazet-programma-baltiiskix-muzykalnyx-klipov-festivalya-riga-iff.a668411/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8568228",
+"https://pmo.ee/8568224",
+"https://www.la.lv/cinevilla-rudeni-parvertisies-par-robezzonu-starp-digitalo-realitati-un-sausmam-devinu-dienu-festivals-danger-fest-2026-3",
+"https://pmo.ee/8568220",
+"https://pmo.ee/8567843",
+"https://pmo.ee/8568309",
+"https://pmo.ee/8567869",
+"https://bb.lv/statja/lifenews/2026/10/20/50-letie-s-intrigoi-viktoriia-isakova-sobrala-druzei-no-vse-obsuzdaiut-bondarcuka?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://jauns.lv/raksts/izklaide/734257-rezisores-pakalninas-filma-es-domaju-par-kaki-piedzivo-pirmizradi-rigas-starptautiskaja-kino-festivala-foto",
+"https://pmo.ee/8568422",
+"https://pmo.ee/8568399"
 ],
 "tips_debug": {
 "date": "2026-10-15",
