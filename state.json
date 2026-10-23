@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.521032000000002,
-"calls": 454
+"cost": 1.521471200000002,
+"calls": 455
 },
 "last_digest": "2026-10-22",
 "shown_ongoing": {
@@ -3372,9 +3372,68 @@
 "pub": "2026-10-22",
 "source": "apollo.lv",
 "score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/iskusstvo/23.10.2026-iskusstvo-pritiagivaet-v-dekabre-otkroetsia-ezegodnaia-studenceskaia-art-iarmarka-jaunmarka.a668761/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Искусство притягивает! В декабре откроется ежегодная студенческая арт-ярмарка JAUNmarka",
+"summary": "Под девизом «Искусство притягивает!» с 12 декабря 2026 года по 10 января 2027 года в Большой ауле Латвийской академии художеств (ЛАХ) пройдут ежегодная большая выставка студенческих работ и арт-ярмарка JAUNmarka 2026, сообщили организаторы.",
+"pub": "2026-10-23",
+"source": "rus.lsm.lv",
+"score": 10
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/23.10.2026-k-kakoi-kategorii-otnositsia-dusa-razgovor-s-rezisserom-spektaklia-sidharta-lisaboa-xaubrexts.a668759/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "К какой категории относится душа? Разговор с режиссером спектакля Sidharta Лисабоа Хаубрехтс",
+"summary": "Несмотря на напряженный день — масштабную сценографию Sidharta приходилось приспосабливать к сцене театра «Дайлес», а генеральная репетиция в совершенно новом пространстве только что закончилась, — Лисабоа Хаубрехтс приходит на беседу в зрительный зал «Дайлес» сияющей: с длинными темными вьющимися в",
+"pub": "2026-10-23",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8569988",
+"title": "VIDEO ⟩ Rinkēvičs: Ideālajā pasaulē valdība būtu izveidota līdz valsts svētkiem",
+"summary": "Valdību ir iespējams izveidot līdz valsts svētkiem, pārliecināts Valsts prezidents Edgars Rinkēvičs.",
+"pub": "2026-10-23",
+"source": "tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8570032",
+"title": "Ринкевич: В идеальном мире правительство может быть сформировано к государственному празднику",
+"summary": "Правительство возможно сформировать к государственному празднику, уверен президент Эдгар Ринкевич.",
+"pub": "2026-10-23",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://www.delfi.lv/193/politics/120139371/svetdien-notiks-pareja-uz-ziemas-laiku",
+"title": "Svētdien notiks pāreja uz ziemas laiku",
+"summary": "Šajā nedēļas nogalē beigsies vasaras laiks un pulksteņa rādītāji būs jāpagriež vienu stundu atpakaļ, portālu \"Delfi\" informēja Ekonomikas ministrijā (EM). Tas šogad notiks nedaudz agrāk kā pēdējos gados ierasts, jo pēdējā oktobra svētdiena ir 25. oktobris.",
+"pub": "2026-10-23",
+"source": "delfi.lv",
+"score": 7
+},
+{
+"link": "https://pmo.ee/8569983",
+"title": "Rinkēvičs komentē valdības veidošanas gaitu",
+"summary": "Valdību ir iespējams izveidot līdz valsts svētkiem, pārliecināts Valsts prezidents Edgars Rinkēvičs.",
+"pub": "2026-10-23",
+"source": "apollo.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/rinkevics-pasaka-kas-kulbergam-jaizdara-lidz-18-novembrim",
+"title": "Rinkēvičs pasaka, kas Kulbergam jāizdara līdz 18.novembrim",
+"summary": "Valdību ir iespējams izveidot līdz valsts svētkiem, pārliecināts Valsts prezidents Edgars Rinkēvičs. Vaicāts, vai valdības veidošanas temps viņu apmierina, Rinkēvičs Latvijas Televīzijas raidījumā “Rīta panorāma” atgādināja savulaik teikto, ka viņa ideālajā pasaulē valdība būtu izveidota līdz valsts",
+"pub": "2026-10-23",
+"source": "la.lv",
+"score": 6
 }
 ],
-"portal_errors": {},
+"portal_errors": {
+"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
+"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
+},
 "places_history": [
 [
 "2026-10-13",
@@ -6776,7 +6835,19 @@
 "https://jauns.lv/raksts/izklaide/734577-foto-princese-ketrina-apbur-ar-greznu-vakarkleitu-un-princeses-dianas-iemiloto-diademu-valsts-banketa-vindzoras-pili",
 "https://rus.jauns.lv/article/novosti/734579-kazaxstan-otmecaet-35-letie-nezavisimosti-s-obshhim-obieemom-privlecennyx-inostrannyx-investicii-v-469-mlrd-dollarov",
 "https://bb.lv/statja/kultura/2026/10/22/v-latvii-zamaxnulis-na-mirovoi-rekord-rozdestvenskii-venok-dlinoi-bolee-polukilometra?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"https://www.la.lv/kazahstana-35-gadu-neatkaribu-atzime-ar-469-miljardu-asv-dolaru-arejo-investiciju-kopejo-apjomu"
+"https://www.la.lv/kazahstana-35-gadu-neatkaribu-atzime-ar-469-miljardu-asv-dolaru-arejo-investiciju-kopejo-apjomu",
+"https://www.lsm.lv/raksts/kultura/maksla/22.10.2026-maksla-pievelk-decembri-tiks-atklats-gadskartejais-studentu-makslas-tirgus-jaunmarka.a668723/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/734518-latviesu-gramatas-piecsimtgadi-atzime-eiropas-parlamenta",
+"https://jauns.lv/raksts/zinas/734630-liepajas-simfoniskais-orkestris-ar-kristini-balanas-uzstasies-varsavas-filharmonija",
+"https://rus.jauns.lv/article/afisha/734567-noc-kogda-zamki-ozivaiut-v-latvii-proidet-misticeskoe-meropriiatie-s-besplatnym-vxodom",
+"https://jauns.lv/raksts/zinas/734659-foto-latvijas-nacionalaja-makslas-muzeja-apskatama-izstade-par-latvija-teju-izzudusu-ainavu",
+"https://pmo.ee/8569900",
+"https://pmo.ee/8513576",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/23.10.2026-iskusstvo-pritiagivaet-v-dekabre-otkroetsia-ezegodnaia-studenceskaia-art-iarmarka-jaunmarka.a668761/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8569988",
+"https://pmo.ee/8570032",
+"https://pmo.ee/8569983",
+"https://www.la.lv/rinkevics-pasaka-kas-kulbergam-jaizdara-lidz-18-novembrim"
 ],
 "tips_debug": {
 "date": "2026-10-22",
@@ -7131,6 +7202,18 @@
 "text": "no 17,00 EUR 24.12.26 13:00 Zilās bultas ceļojums Atmosfēra",
 "src": "https://ticketshop.lv/lv",
 "seen": "2026-10-22"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108373",
+"text": "no 20,00 EUR 22.11.26 16:00 Interaktīvā izrāde \"Spoku māja\" Rīgas Ebreju kopiena",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-23"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108372",
+"text": "no 20,00 EUR 22.11.26 14:00 Interaktīvā izrāde \"Spoku māja\" Rīgas Ebreju kopiena",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-10-23"
 }
 ],
 "watch_errors": {},
