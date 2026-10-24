@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.522274500000002,
-"calls": 457
+"cost": 1.522553900000002,
+"calls": 458
 },
 "last_digest": "2026-10-22",
 "shown_ongoing": {
@@ -3804,6 +3804,70 @@
 "pub": "2026-10-24",
 "source": "la.lv",
 "score": 6
+},
+{
+"link": "https://www.lsm.lv/raksts/skatpunkts/24.10.2026-jana-semjonova-kapec-sabiedriskajam-medijam-ir-vajadzigs-sovs-es-milu-tevi-latvija.a668856/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Jana Semjonova: Kāpēc sabiedriskajam medijam ir vajadzīgs šovs «Es mīlu Tevi, Latvija!»?",
+"summary": "Ir atlikušas dažas stundas līdz šova \"Es mīlu Tevi, Latvija!\" pirmizrādei LTV1, Latvijas Sabiedriskajā medijā (LSM). Ir daudz gaidu un uzmanības. Šis šovs ir LSM atbilde uz pieprasījumu pēc kvalitatīva, ģimeniska un vērtību piepildīta satura, kas mūs, Latvijas iedzīvotājus, vieno.",
+"pub": "2026-10-24",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/24.10.2026-ornitologi-satraukti-par-baltijas-upju-populacijas-straujo-samazinasanos-plano-parrobezu-sadarbibu.a668922/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Ornitologi satraukti par Baltijas ūpju populācijas straujo samazināšanos; plāno pārrobežu sadarbību",
+"summary": "Baltijas ūpju populācija strauji samazinās, secinājuši sugas pētnieki. Pirmajā Baltijas ūpju pētniecības un aizsardzības sanāksmē septembrī ornitologi nosprieduši, ka tuvākajā nākotnē jāvienojas par kopīgiem aizsardzības mērķiem, pētījumiem un praktiskiem pasākumiem jau Baltijas mēroga sugas aizsard",
+"pub": "2026-10-24",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/24.10.2026-sonakt-pulkstena-raditaji-bus-japagriez-par-stundu-atpakal.a668482/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Šonakt pulksteņa rādītāji būs jāpagriež par stundu atpakaļ",
+"summary": "Naktī no sestdienas uz svētdienu, 25. oktobri, plkst. 4.00 visā Latvijā notiks pāreja uz ziemas laiku – pulksteņa rādītāji jāpagriež par vienu stundu atpakaļ, atgādināja Ekonomikas ministrijā.",
+"pub": "2026-10-24",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/lifestyle/734881-kinogorodok-cinevilla-prevratilsia-v-mir-prikliucenii-i-straxov-tam-otkrylsia-danger-fest-2026",
+"title": "Киногородок Cinevilla превратился в мир приключений и страхов - там открылся Danger Fest 2026",
+"summary": "23 октября в киногородке Cinevilla, расположенном в 15 километрах от Тукумса, с размахом открылся семейный фестиваль Danger Fest 2026. Он будет радовать посетителей до 31 октября. Фестиваль приглашает окунуться в необычный мир приключений, где цифровая реальность встречается с фантазией, а свет, зву",
+"pub": "2026-10-24",
+"source": "rus.jauns.lv",
+"score": 9
+},
+{
+"link": "https://pmo.ee/8570751",
+"title": "Kinopilsētā “Cinevilla” krāšņi atklāts festivāls “Danger Fest 2026”",
+"summary": "Vakar, 23. oktobrī, kinopilsētā “Cinevilla”, kas atrodas 15 kilometru attālumā no Tukuma, krāšņi atklāts ģimenēm draudzīgais festivāls “Danger Fest 2026”, kas apmeklētājus priecēs līdz 31. oktobrim. Festivāls aicina iepazīt neparastu piedzīvojumu pasauli, kurā digitālā realitāte sastopas ar iztēli, ",
+"pub": "2026-10-24",
+"source": "tvnet.lv",
+"score": 15
+},
+{
+"link": "https://pmo.ee/8570741",
+"title": "Синоптики рассказали о погоде в воскресенье",
+"summary": "В воскресенье местами пройдут дожди, будет дуть порывистый ветер, прогнозирует Латвийский центр окружающей среды, геологии и метеорологии.",
+"pub": "2026-10-24",
+"source": "rus.tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8570784",
+"title": "Naktī uz svētdienu notiks pāreja uz ziemas laiku",
+"summary": "Latvijā naktī uz svētdienu plkst. 4 notiks pāreja uz ziemas laiku, pulksteņa rādītājus pagriežot vienu stundu atpakaļ, informēja Ekonomikas ministrijā (EM).",
+"pub": "2026-10-24",
+"source": "apollo.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8570757",
+"title": "Kinopilsētā \"Cinevilla\" krāšņi atklāts festivāls \"Danger Fest 2026\"",
+"summary": "23. oktobrī, kinopilsētā \"Cinevilla\", kas atrodas 15 kilometru attālumā no Tukuma, krāšņi atklāts ģimenēm draudzīgais festivāls \"Danger Fest 2026\", kas apmeklētājus priecēs līdz 31. oktobrim.",
+"pub": "2026-10-24",
+"source": "apollo.lv",
+"score": 10
 }
 ],
 "portal_errors": {},
@@ -7240,7 +7304,10 @@
 "https://rus.jauns.lv/article/novosti/734846-mertvec-s-piloi-nabrasyvaetsia-iz-temnoty-otkrito-prosel-po-nocnym-tropam-prizrakov-v-salaspilse",
 "https://pmo.ee/8570673",
 "https://pmo.ee/8569305",
-"https://www.la.lv/foto-video-ielukojies-krasnaja-danger-fest-2026-atklasana-kinopilsetu-cinevilla-parnem-gaismas-lazeri-un-sausmu-teli"
+"https://www.la.lv/foto-video-ielukojies-krasnaja-danger-fest-2026-atklasana-kinopilsetu-cinevilla-parnem-gaismas-lazeri-un-sausmu-teli",
+"https://rus.jauns.lv/article/lifestyle/734881-kinogorodok-cinevilla-prevratilsia-v-mir-prikliucenii-i-straxov-tam-otkrylsia-danger-fest-2026",
+"https://pmo.ee/8570751",
+"https://pmo.ee/8570757"
 ],
 "tips_debug": {
 "date": "2026-10-22",
