@@ -3652,9 +3652,28 @@
 "pub": "2026-10-23",
 "source": "rus.tvnet.lv",
 "score": 2
+},
+{
+"link": "https://pmo.ee/8570603",
+"title": "Naktī uz svētdienu Latvijā notiks pāreja uz ziemas laiku",
+"summary": "Latvijā naktī uz svētdienu plkst. 4 notiks pāreja uz ziemas laiku, pulksteņa rādītājus pagriežot vienu stundu atpakaļ, aģentūru LETA informēja Ekonomikas ministrijā (EM).",
+"pub": "2026-10-24",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8570607",
+"title": "В ночь на воскресенье Латвия перейдет на зимнее время",
+"summary": "В Латвии в ночь на воскресенье в 4:00 состоится переход на зимнее время. Стрелки часов нужно будет перевести на один час назад, сообщили агентству LETA в Министерстве экономики.",
+"pub": "2026-10-24",
+"source": "rus.tvnet.lv",
+"score": 8
 }
 ],
-"portal_errors": {},
+"portal_errors": {
+"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
+"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
+},
 "places_history": [
 [
 "2026-10-13",
