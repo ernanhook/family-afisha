@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.521837100000002,
-"calls": 456
+"cost": 1.522274500000002,
+"calls": 457
 },
 "last_digest": "2026-10-22",
 "shown_ongoing": {
@@ -3668,12 +3668,145 @@
 "pub": "2026-10-24",
 "source": "rus.tvnet.lv",
 "score": 8
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/24.10.2026-ornitologi-satraukti-par-baltijas-upju-populacijas-straujo-samazinasanos-plano-parrobezu-sadrabibu.a668922/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Ornitologi satraukti par Baltijas ūpju populācijas straujo samazināšanos; plāno pārrobežu sadrabību",
+"summary": "Baltijas ūpju populācija strauji samazinās, secinājuši sugas pētnieki. Pirmajā Baltijas ūpju pētniecības un aizsardzības sanāksmē septembrī ornitologi nosprieduši, ka tuvākajā nākotnē jāvienojas par kopīgiem aizsardzības mērķiem, pētījumiem un praktiskiem pasākumiem jau Baltijas mēroga sugas aizsard",
+"pub": "2026-10-24",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/24.10.2026-riga-uznemtas-filmas-nezinama-sieviete-producents-sievietes-kino-industrija-pieradusas-but-vientulas.a668851/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Rīgā uzņemtās filmas «Nezināmā sieviete» producents: Sievietes kino industrijā pieradušas būt vientuļas",
+"summary": "Septembra sākumā Latviju sasniedza ziņa, ka Rīgā uzņemta filma ir triumfējusi vienā no pasaules prestižākajiem kinofestivāliem Venēcijā – vairumam skatītāju tobrīd nezināma filma ar nezināmu režisori un šai ziņā ironisku nosaukumu \"Nezināmā sieviete\". Dāņu režisores Majas el Tūhī vēsturiskā drāma šo",
+"pub": "2026-10-24",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/24.10.2026-nakti-uz-svetdienu-pulkstena-raditaji-bus-japagriez-par-stundu-atpakal.a668482/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Naktī uz svētdienu pulksteņa rādītāji būs jāpagriež par stundu atpakaļ",
+"summary": "Naktī no sestdienas uz svētdienu, 25. oktobri, plkst. 4.00 visā Latvijā notiks pāreja uz ziemas laiku – pulksteņa rādītāji jāpagriež par vienu stundu atpakaļ, atgādināja Ekonomikas ministrijā.",
+"pub": "2026-10-24",
+"source": "lsm.lv",
+"score": 5
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/24.10.2026-samoe-vaznoe-ctoby-ziteli-nas-videli-nato-usilivaet-svoe-prisutstvie-na-vostoke-latvii.a668906/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Самое важное, чтобы жители нас видели»: НАТО усиливает свое присутствие на востоке Латвии",
+"summary": "Союзники в Латгалии намерены остаться — это подтведил командир Многонациональной бригады НАТО в Латвии. В Даугавпилсе союзники находятся уже несколько месяцев. Их присутствие планируют укрепить и в других местах на востоке страны. С 26 октября по 8 ноября в приграничной зоне пройдут крупнейшие на се",
+"pub": "2026-10-24",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/24.10.2026-v-noc-na-voskresene-latviya-pereidet-na-zimnee-vremya.a668495/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "В ночь на воскресенье Латвия перейдет на зимнее время",
+"summary": "В ночь на воскресенье, 25 октября, состоится переход на зимнее время — стрелки часов необходимо перевести на один час назад.",
+"pub": "2026-10-24",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/734644-kas-patiesiba-notika-ozija-osborna-dzives-pedejas-dienas-atraitne-sarona-atklaj-ko-pat-berni-nezinaja",
+"title": "Kas patiesībā notika Ozija Osborna dzīves pēdējās dienās? Atraitne Šārona atklāj, ko pat bērni nezināja",
+"summary": "Leģendārā rokmūziķa Ozija Osborna pēdējais koncerts bija piepildīts ar emocijām, atmiņām un aizkustinošiem mirkļiem. Tomēr tikai pēc viņa nāves pamazām atklājas, cik sarežģīts patiesībā bijis ceļš līdz šai pēdējai uzstāšanās reizei. Par to tagad pastāstījusi viņa sieva Šārona Osborna.",
+"pub": "2026-10-24",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/734729-novembri-politiski-represetajam-personam-cesu-novada-izmaksas-svetku-pabalstu",
+"title": "Novembrī politiski represētajām personām Cēsu novadā izmaksās svētku pabalstu",
+"summary": "Atzīmējot Latvijas Republikas proklamēšanas gadadienu, Cēsu novada pašvaldība novembrī izmaksās 100 eiro svētku pabalstu politiski represētajām personām un nacionālās pretošanās kustības dalībniekiem, kuru dzīvesvieta deklarēta Cēsu novadā.",
+"pub": "2026-10-24",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/maja-un-darzs/734850-kas-oktobri-obligati-jaizdara-ar-amarilli-lai-ziemassvetkos-tas-priecetu-ar-krasniem-ziediem",
+"title": "Kas oktobrī obligāti jāizdara ar amarilli, lai Ziemassvētkos tas priecētu ar krāšņiem ziediem",
+"summary": "Vai vēlaties, lai Ziemassvētkos jūsu mājokli rotā krāšņi amarilļa ziedi? Tad oktobris ir īstais laiks parūpēties par šo augu. Neatkarīgi no tā, vai tā sīpols kopš vasaras beigām atpūties vēsā vietā vai arī augs silto sezonu pavadījis uz terases, pareiza kopšana var palīdzēt tam uzziedēt tieši gada s",
+"pub": "2026-10-24",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/734846-mertvec-s-piloi-nabrasyvaetsia-iz-temnoty-otkrito-prosel-po-nocnym-tropam-prizrakov-v-salaspilse",
+"title": "Мертвец с пилой набрасывается из темноты! Otkrito прошел по \"Ночным тропам призраков\" в Саласпилсе",
+"summary": "С 23 по 25 октября в Национальном ботаническом саду Саласпилса проходят \"Ночные тропы призраков\". Портал Otkrito побывал на фестивале, где гостей ждут пугающие моменты, загадочные маршруты, концерты и необычные шоу.",
+"pub": "2026-10-24",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8570673",
+"title": "FOTO ⟩ Botāniskajā dārzā notiek rudens festivāls \"Spoku nakts takas\"",
+"summary": "Līdz 25. oktobrim Latvijas Nacionālajā botāniskajā dārzā Salaspilī notiek festivāls \"Spoku nakts takas 2026\", informēja pasākuma rīkotāji.",
+"pub": "2026-10-24",
+"source": "tvnet.lv",
+"score": 8
+},
+{
+"link": "https://pmo.ee/8569305",
+"title": "ФОТО ⟩ Мода сменилась вечеринкой: как закрывали RFW",
+"summary": "В честь завершившейся Рижской недели моды (RFW) представители мира моды собрались на масштабной заключительной вечеринке в клубе Coyote Fly. Ищите себя среди гостей праздника!",
+"pub": "2026-10-24",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://www.delfi.lv/193/politics/120139372/sonakt-notiks-pareja-uz-ziemas-laiku",
+"title": "Šonakt notiks pāreja uz ziemas laiku",
+"summary": "Svētdien, 25. oktobrī, pulksten 4 Latvijā notiks pāreja uz ziemas laiku, proti, naktī no sestdienas uz svētdienu pulksteņa rādītāji jāpagriež vienu stundu uz priekšu, portālu \"Delfi\" informēja Ekonomikas ministrijā (EM).",
+"pub": "2026-10-24",
+"source": "delfi.lv",
+"score": 7
+},
+{
+"link": "https://www.delfi.lv/video/53950177/spried-ar-delfi/120139832/joprojam-sejas-izteiksme-var-redzet-nianses-par-purva-likiem-lifta-picu-un-jauno-detektivfilmu",
+"title": "\"Joprojām sejas izteiksmē var redzēt nianses\" – par purva līķiem, \"lifta piču\" un jauno detektīvfilmu",
+"summary": "Pirmizrādi Latvijā piedzīvojusi psiholoģiskā detektīvfilma \"Klajumā aiz meža\". Viena no filmas sižeta šķautnēm saistīta ar purvā atrastām mirstīgajām atliekām un fenomenu – daudzviet Eiropā atrastie purva līķi saglabājušies kā iebalzamēti. \"Joprojām sejas izteiksmē var redzēt nianses, var redzēt, kā",
+"pub": "2026-10-24",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://www.delfi.lv/kultura/174/music/120139830/pazudi-puli-mekle-sevi-grupas-athodi-brinumzeme-koncerta-palladium",
+"title": "Pazudi pūlī? Meklē sevi grupas \"Athodi Brīnumzemē\" koncertā \"Palladium\"!",
+"summary": "Koncertzālē \"Palladium\" piektdienas, 23. oktobra, vakarā krietnu fanu pūli pulcēja grupa \"Athodi Brīnumzemē\". Lai gan grupas vārdu neatrast starp radiostacijās spēlētākajām, tāpat tā iztiek bez tradicionālajām pašmāju ierakstu balvām, tomēr \"Athodi\" ir iemantojuši kulta grupas statusu, kā arī kaismī",
+"pub": "2026-10-24",
+"source": "delfi.lv",
+"score": 8
+},
+{
+"link": "https://pmo.ee/8570626",
+"title": "Itālijā gaidāmi studentu, kravas automašīnu vadītāju un lauksaimnieku protesti; pastiprina drošības pasākumus",
+"summary": "Itālijas varas iestādes pastiprina drošību astoņās lielpilsētās, tai skaitā Romā un Milānā\" kur sestdien gaidāmi protesti, kas pagājušajā nedēļas nogalē pārauga vardarbībā.",
+"pub": "2026-10-24",
+"source": "apollo.lv",
+"score": 6
+},
+{
+"link": "https://www.la.lv/foto-video-ielukojies-krasnaja-danger-fest-2026-atklasana-kinopilsetu-cinevilla-parnem-gaismas-lazeri-un-sausmu-teli",
+"title": "FOTO, VIDEO. Ielūkojies krāšņajā “Danger Fest 2026” atklāšanā! Kinopilsētu “Cinevilla” pārņem gaismas, lāzeri un šausmu tēli",
+"summary": "Vakar, 23. oktobrī, kinopilsētā “Cinevilla”, kas atrodas 15 kilometru attālumā no Tukuma, krāšņi atklāts ģimenēm draudzīgais festivāls “Danger Fest 2026”, kas apmeklētājus priecēs līdz 31. oktobrim. Festivāls aicina iepazīt neparastu piedzīvojumu pasauli, kurā digitālā realitāte sastopas ar iztēli, ",
+"pub": "2026-10-24",
+"source": "la.lv",
+"score": 13
+},
+{
+"link": "https://www.la.lv/neaizmirsti-pagriezt-pulksteni-jau-sonakt-latvija-notiks-pareja-uz-ziemas-laiku",
+"title": "Neaizmirsti pagriezt pulksteni! Jau šonakt Latvijā notiks pāreja uz ziemas laiku",
+"summary": "Šajā nedēļas nogalē varēsim baudīt vienu papildu miega stundu! Naktī uz svētdienu, 25. oktobri, Latvijā atkal notiks pāreja uz ziemas laiku. Tas nozīmē, ka pulksten četros no rīta pulksteņa rādītāji būs jāpagriež vienu stundu atpakaļ – uz pulksten trijiem. Lai gan lielākā daļa viedierīču laiku nomai",
+"pub": "2026-10-24",
+"source": "la.lv",
+"score": 6
 }
 ],
-"portal_errors": {
-"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
-"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
-},
+"portal_errors": {},
 "places_history": [
 [
 "2026-10-13",
@@ -7096,7 +7229,18 @@
 "https://pmo.ee/8570088",
 "https://rus.delfi.lv/57860/latvia/120139695/rinkevich-pravitelstvo-vozmozhno-sformirovat-k-18-noyabrya",
 "https://bb.lv/statja/kultura/2026/10/23/xudozestvennyi-film-kairissa-i-avotsa-ulia-pokazut-na-zarubeznyx-kinofestivaliax?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"https://www.la.lv/celu-pie-maziem-un-lieliem-skatitajiem-latvija-uzsak-detektivfilma-misija-atrast-vecakus"
+"https://www.la.lv/celu-pie-maziem-un-lieliem-skatitajiem-latvija-uzsak-detektivfilma-misija-atrast-vecakus",
+"https://www.lsm.lv/raksts/kultura/maksla/23.10.2026-kad-satiekas-darza-rukenes-un-antarktidas-ledaji-makslas-stacija-dubulti-atklata-10-maksliniecu-izstade.a668886/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/maksla/23.10.2026-rixc-makslas-un-zinatnes-festivals-sogad-lauj-partapt-par-musu-un-izteloties-neesosus-augus.a668880/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/afisha/734727-noc-legend-pri-svecax-starinnye-usadby-latvii-raskroiut-svoi-tainy",
+"https://pmo.ee/8568605",
+"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/24.10.2026-riga-uznemtas-filmas-nezinama-sieviete-producents-sievietes-kino-industrija-pieradusas-but-vientulas.a668851/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/734729-novembri-politiski-represetajam-personam-cesu-novada-izmaksas-svetku-pabalstu",
+"https://jauns.lv/raksts/maja-un-darzs/734850-kas-oktobri-obligati-jaizdara-ar-amarilli-lai-ziemassvetkos-tas-priecetu-ar-krasniem-ziediem",
+"https://rus.jauns.lv/article/novosti/734846-mertvec-s-piloi-nabrasyvaetsia-iz-temnoty-otkrito-prosel-po-nocnym-tropam-prizrakov-v-salaspilse",
+"https://pmo.ee/8570673",
+"https://pmo.ee/8569305",
+"https://www.la.lv/foto-video-ielukojies-krasnaja-danger-fest-2026-atklasana-kinopilsetu-cinevilla-parnem-gaismas-lazeri-un-sausmu-teli"
 ],
 "tips_debug": {
 "date": "2026-10-22",
