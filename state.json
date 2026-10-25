@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.522952900000002,
-"calls": 459
+"cost": 1.523067300000002,
+"calls": 460
 },
 "last_digest": "2026-10-22",
 "shown_ongoing": {
@@ -4044,6 +4044,38 @@
 "pub": "2026-10-25",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/maksla/25.10.2026-makslinieks-roberts-kolcovs-par-slinkuma-briziem-puikiem-vajag-disciplinu-un-disciplina-ir-glabins.a667942/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Mākslinieks Roberts Koļcovs par slinkuma brīžiem: Puikiem vajag disciplīnu, un disciplīna ir glābiņš!",
+"summary": "Līdz 9. janvārim kultūrtelpā \"Ola Foundation\" skatāma mākslinieka Roberta Koļcova jubilejas izstāde \"Klusuma inerce un vilkme\", kurā eksponēti galvenokārt pēdējā gada laikā tapuši darbi. Ceļā pie tiem nereti svarīgs skaidrs datums, kas palīdz pārvarēt slinkuma dienas, Latvijas Radio 3 raidījumā \"Ats",
+"pub": "2026-10-25",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/lifestyle/734935-kim-kardasian-proizvela-furor-v-rime-poiavivsis-v-leopardovom-plate-iz-1980-x-godov",
+"title": "Ким Кардашьян произвела фурор в Риме, появившись в леопардовом платье из 1980-х годов",
+"summary": "46-летняя американская телезвезда и бизнесвумен Ким Кардашьян вновь оказалась в центре внимания благодаря своему необычному наряду. На Римском кинофестивале она появилась в облегающем леопардовом платье с глубоким декольте, созданном несколько десятилетий назад.",
+"pub": "2026-10-25",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120139862/na-vostoke-latvii-proydut-krupneyshie-ucheniya-mnogonacionalnoy-brigady-nato-za-vsyu-ee-istoriyu",
+"title": "На востоке Латвии пройдут крупнейшие учения многонациональной бригады НАТО за всю ее историю",
+"summary": "С 26 октября по 8 ноября многонациональная бригада НАТО в Латвии проведет самые масштабные на сегодняшний день военные учения по развертыванию сил Resolute Reforger 2026, в которых примут участие около 3000 военнослужащих и 1000 единиц военной техники, сообщили агентству LETA в штабе бригады.",
+"pub": "2026-10-25",
+"source": "rus.delfi.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8571125",
+"title": "VM prasa 26 079 eiro par medicīniskās palīdzības nodrošināšanu nelikumīgajiem robežšķērsotājiem",
+"summary": "Veselības ministrija (VM) rosina no valsts budžeta programmas \"Valsts ārējās robežas drošības pasākumu nodrošināšana\" pārdalīt 26 079 eiro, lai segtu medicīniskās palīdzības izdevumus cilvēkiem, kas mēģinājuši nelikumīgi šķērsot Latvijas-Baltkrievijas robežu, liecina ministrijas sagatavotais rīkojum",
+"pub": "2026-10-25",
+"source": "apollo.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
@@ -7492,7 +7524,9 @@
 "https://jauns.lv/raksts/izklaide/734921-foto-verieniga-ceremonija-pazinoti-rigas-starptautiska-kino-festivala-13-sezonas-uzvaretaji",
 "https://rus.jauns.lv/article/lifestyle/734937-na-13-m-rizskom-kinofestivale-pobedil-film-ob-opasnosti-ekofasizma",
 "https://pmo.ee/8541600",
-"https://pmo.ee/8570964"
+"https://pmo.ee/8570964",
+"https://www.lsm.lv/raksts/kultura/maksla/25.10.2026-makslinieks-roberts-kolcovs-par-slinkuma-briziem-puikiem-vajag-disciplinu-un-disciplina-ir-glabins.a667942/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/lifestyle/734935-kim-kardasian-proizvela-furor-v-rime-poiavivsis-v-leopardovom-plate-iz-1980-x-godov"
 ],
 "tips_debug": {
 "date": "2026-10-22",
