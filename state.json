@@ -3932,12 +3932,17 @@
 "pub": "2026-10-24",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/734921-foto-verieniga-ceremonija-pazinoti-rigas-starptautiska-kino-festivala-13-sezonas-uzvaretaji",
+"title": "FOTO: vērienīgā ceremonijā paziņoti Rīgas Starptautiskā kino festivāla 13. sezonas uzvarētāji",
+"summary": "Festivāla mājvietā “Splendid Palace” pulcējot konkursu dalībniekus, pašmāju un ārzemju žūrijas, festivāla viesus un apmeklētājus, krāšņā, režisora un aktiera Gerda Lapoškas vadītā ceremonijā godalgoti Rīgas Starptautiskā kino festivāla (RIGA IFF) konkursu un nozares programmas laureāti.",
+"pub": "2026-10-24",
+"source": "jauns.lv",
+"score": 8
 }
 ],
-"portal_errors": {
-"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
-"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
-},
+"portal_errors": {},
 "places_history": [
 [
 "2026-10-13",
