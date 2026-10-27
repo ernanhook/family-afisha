@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.524413000000002,
-"calls": 463
+"cost": 1.524537300000002,
+"calls": 464
 },
 "last_digest": "2026-10-22",
 "shown_ongoing": {
@@ -4668,6 +4668,38 @@
 "pub": "2026-10-27",
 "source": "la.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/izklaide/27.10.2026-neiespejamais-tests-par-matisu-kazu-kas-ir-rezisora-milakais-ediens-un-kas-bija-vina-vecvectevs.a669063/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Neiespējamais TESTS par Matīsu Kažu. Kas ir režisora mīļākais ēdiens, un kas bija viņa vecvectēvs?",
+"summary": "29. oktobrī pirmizrādi LTV1 piedzīvos Latvijas Sabiedriskā medija dokumentālā filma \"Matīss Kaža. Neiespējamais pašportrets\" – ironisks režisora, scenārista un filmas \"Straume\" producenta Matīsa Kažas pašportrets. Pirms filmas skatīšanās piedāvājam iepazīt Matīsu Kažu, pildot ar viņa palīdzību izvei",
+"pub": "2026-10-27",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/27.10.2026-vajadzeja-koferi-lai-fotografijas-nogadatu-bauska-petis-jaunas-liecibas-par-budbergas-muizu.a669223/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Vajadzēja koferi, lai fotogrāfijas nogādātu Bauskā. Pētīs jaunas liecības par Budbergas muižu",
+"summary": "Sievietes Latvijā varējušas apgūt lauksaimniecību vēl pirms slavenās Kaucmindes mājturības skolas izveides – par to liecina līdz šim maz zināmi vēstures materiāli, kas atklāj Budbergas muižas īpašnieku ieguldījumu izglītībā 19. gadsimta beigās. Liecības par to nonākušas Bauskas muzejā, un jaunos mat",
+"pub": "2026-10-27",
+"source": "lsm.lv",
+"score": 8
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/dizayn-arhitektura/27.10.2026-ponadobilsia-cemodan-ctoby-dostavit-fotografii-v-bausku-izucat-novye-svidetelstva-ob-usadbe-budberga.a669284/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Понадобился чемодан, чтобы доставить фотографии в Бауску. Изучат новые свидетельства об усадьбе Будберга",
+"summary": "Женщины в Латвии могли изучать сельское хозяйство еще до создания знаменитой Кауцминдской школы домоводства. Об этом свидетельствуют малоизвестные исторические материалы, раскрывающие вклад владельцев усадьбы Будберга в развитие образования в конце XIX века. Эти свидетельства попали в Бауский музей,",
+"pub": "2026-10-27",
+"source": "rus.lsm.lv",
+"score": 14
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/735293-v-proslom-godu-prisli-20-tysiac-celovek-cem-ezitis-migla-udivit-gostei-na-xellouin-2026",
+"title": "В прошлом году пришли 20 тысяч человек: чем Ezītis miglā удивит гостей на Хэллоуин-2026?",
+"summary": "В преддверии Хэллоуина сеть кафе Ezītis miglā готовит тематические вечеринки в Риге, Огре и Елгаве. Посетителей ждут выступления диджеев, концерты, праздничные декорации и неожиданные развлечения.",
+"pub": "2026-10-27",
+"source": "rus.jauns.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
@@ -8140,7 +8172,8 @@
 "https://jauns.lv/raksts/zinas/735195-rigas-laikmetigas-makslas-telpa-tiks-atklata-elizabetes-andersones-pirma-personalizstade",
 "https://jauns.lv/raksts/sievietem/734731-stasts-burcina-ar-garsu-davinat",
 "https://bb.lv/statja/kultura/2026/10/27/gorod-kosmarov-vampiry-i-sou-sotni-dronov-v-latvii-otkrylsia-neobycnyi-festival?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"https://www.la.lv/latvijas-zivju-produkcija-ar-konkuretspeju-pasaules-tirgu"
+"https://www.la.lv/latvijas-zivju-produkcija-ar-konkuretspeju-pasaules-tirgu",
+"https://rus.jauns.lv/article/afisha/735293-v-proslom-godu-prisli-20-tysiac-celovek-cem-ezitis-migla-udivit-gostei-na-xellouin-2026"
 ],
 "tips_debug": {
 "date": "2026-10-22",
