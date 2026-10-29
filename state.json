@@ -54,30 +54,6 @@
 },
 "portal_queue": [
 {
-"link": "https://rus.lsm.lv/statja/kultura/kino/13.10.2026-v-kino-vyxodit-sarkanais-skunis-film-k-stoletiyu-amerikanskogo-xudoznika-latysskogo-proisxozdeniya-raimonda-stapransa.a667439/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "В кино выходит Sarkanais šķūnis — фильм к столетию американского художника латышского происхождения Раймонда Стапранса",
-"summary": "13 октября 2026 года войдет в историю как день столетия выдающегося американского живописца и драматурга латышского происхождения Раймонда Стапранса. К сожалению, в начале года мастера не стало. За это время в Национальном художественном музее открылась его юбилейная выставка, вышли его мемуары, а в",
-"pub": "2026-10-13",
-"source": "rus.lsm.lv",
-"score": 9
-},
-{
-"link": "https://jauns.lv/raksts/zinas/733122-liepaja-aizvaditas-arhitekturas-dienas-2026",
-"title": "Liepājā aizvadītas Arhitektūras dienas 2026",
-"summary": "Liepājā 8.–9. oktobrī notikušās Arhitektūras dienas 2026 pulcēja gandrīz 90 nozares profesionāļu, lai diskutētu par publiskās telpas lomu un “kultūrtirgus” ideju kā mūsdienu satikšanās vietu. Divu dienu lekcijas, diskusijas un darbnīcas radīja priekšlikumus apkaimju centru stiprināšanai un iekļāva k",
-"pub": "2026-10-13",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/zinas/733127-ar-krasnu-koncertu-un-dejam-aizvadits-senioru-saiets-jaunolaine",
-"title": "Ar krāšņu koncertu un dejām aizvadīts Senioru saiets Jaunolainē",
-"summary": "Jaunolaines Kultūras namā norisinājās jau divdesmitais Olaines novada Senioru saiets “Ceļojums apkārt pasaulei”, vienojot 148 dalībniekus krāšņā koncertā un ballē ar viesiem no Siguldas, Kokneses un Mārupes. Pasākumā godināja vietējās senioru biedrību vadītājas un radīja sirsnīgu kopības sajūtu, ko ",
-"pub": "2026-10-13",
-"source": "jauns.lv",
-"score": 8
-},
-{
 "link": "https://jauns.lv/raksts/zinas/733117-liepaja-2027-atklaj-pilno-eiropas-kulturas-galvaspilsetas-gada-programmu-nemiers",
 "title": "Liepāja 2027 atklāj pilno Eiropas kultūras galvaspilsētas gada programmu “(ne)miers”",
 "summary": "Liepājā publiski izziņota pilnā “Liepāja – Eiropas kultūras galvaspilsēta 2027” programma “(ne)miers”, kas visā gadā apvienos vairāk nekā 500 vietēju un starptautisku kultūras notikumu Liepājā, Dienvidkurzemē un Kuldīgā, sākot ar vērienīgu atklāšanu 22.–23. janvārī. Programma piedāvās izstādes, konc",
@@ -4852,6 +4828,30 @@
 "pub": "2026-10-28",
 "source": "bb.lv",
 "score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/735502-v-ventspilsskom-krae-proidut-neobycnye-uceniia-zitelei-prizvali-soxraniat-spokoistvie",
+"title": "В Вентспилсском крае пройдут необычные учения: жителей призвали сохранять спокойствие",
+"summary": "29 и 30 октября в Вентспилсском крае пройдут организованные Государственной пограничной охраной учения по гражданской обороне и управлению в кризисных ситуациях SAREX VENTSPILS. Их цель – улучшить взаимодействие учреждений в случае крупного происшествия с воздушным судном гражданской авиации.",
+"pub": "2026-10-28",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8573146",
+"title": "Netanjahu saglabā izredzes palikt pie varas. Trīs scenāriji pēc Izraēlas vēlēšanām",
+"summary": "Izraēlas parlamenta vēlēšanas nav devušas pārliecinošu uzvaru ne Benjaminam Netanjahu, ne viņa pretiniekiem. Ilggadējam premjeram ir veicies labāk, nekā prognozēja daudzas priekšvēlēšanu aptaujas, taču ar līdzšinējiem sabiedrotajiem pagaidām neizdotos izveidot vairākuma valdību. Kas notiks tālāk, un",
+"pub": "2026-10-28",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8565627",
+"title": "Кто пытается продать комплекс \"Вернисаж\" в Верманском парке?",
+"summary": "На легендарном развлекательном центре \"Вернисаж\", расположенном в Верманском парке, вот уже полтора года висит вывеска \"продается\". Большая часть заведений закрыта, а ресторан WHITEHOUSE перешел в режим банкетов и редких бранчей. К слову, именно в нем праздновал победу на выборах \"Объединенный списо",
+"pub": "2026-10-28",
+"source": "rus.tvnet.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
