@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.6773097000000021,
-"calls": 493
+"cost": 1.6780129000000021,
+"calls": 494
 },
 "last_digest": "2026-10-29",
 "shown_ongoing": {
@@ -53,182 +53,6 @@
 "count": 45
 },
 "portal_queue": [
-{
-"link": "https://pmo.ee/8564645",
-"title": "Ночью местами ожидаются туман и кратковременный дождь",
-"summary": "В ночь на четверг местами в Латвии образуется туман, а также местами - в основном в Курземе - пройдут кратковременные дожди, прогнозируют синоптики.",
-"pub": "2026-10-14",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://www.delfi.lv/kultura/52862727/screen/120138534/holivudas-aktrises-kuka-kino-pret-premjeru-un-ulas-emocijas-intervija-ar-karli-arnoldu-avotu",
-"title": "Holivudas aktrises kūka, kino pret premjeru un \"Uļas\" emocijas. Intervija ar Kārli Arnoldu Avotu",
-"summary": "\"Man ir sajūta, ka eksāmens ir izturēts,\" saka aktieris Kārlis Arnolds Avots par atsauksmēm, ko saņēmis no Latvijas publikas par filmu \"Uļa\". Īpaši svarīgi bijuši atzinīgie vārdi no basketbolistes Uļjanas Semjonovas komandas biedrenēm. Filmas Latvijas pirmizrādē Avots nevarēja būt klāt, jo filmējās ",
-"pub": "2026-10-14",
-"source": "delfi.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/10/14/prognoz-na-zavtra-sinoptiki-nakinuli-paru-gradusov?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Прогноз на завтра - синоптики накинули пару градусов",
-"summary": "В ночь на четверг, 15 октября, в некоторых районах Латвии образуется туман, местами, преимущественно в Курземе, пройдут кратковременные дожди, прогнозируют синоптики.",
-"pub": "2026-10-14",
-"source": "bb.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/14.10.2026-zinasanam-un-dzivespriekam-muzeji-piedava-muzizglitibas-programmas-dazadam-paaudzem.a667624/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Zināšanām un dzīvespriekam – muzeji piedāvā mūžizglītības programmas dažādām paaudzēm",
-"summary": "Mācīšanās nebeidzas līdz ar skolas vai augstskolas absolvēšanu. Arī māksla, dizains un kultūras mantojums var kļūt par iemeslu atklāt ko jaunu, satikt domubiedrus un pat sākt pašam radīt. Latvijas muzeji arvien plašāk piedāvā mūžizglītības programmas dažādām paaudzēm – no radošām darbnīcām līdz lekc",
-"pub": "2026-10-14",
-"source": "lsm.lv",
-"score": 6
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/14.10.2026-ar-fotoizstadi-riga-vac-ziedojumus-berniem-lviva.a667588/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Ar fotoizstādi Rīgā vāc ziedojumus bērniem Ļvivā",
-"summary": "Pie tirdzniecības centra \"Origo\" Rīgā atklāta fotoizstāde \"Ukrainas DNS. 100 dienas ceļā\". Tas ir ceļotāja Jāņa Grandāna skatījums uz karā ierauto valsti un tās cilvēkiem. Izstādes mērķis ir kopā ar labdarības organizāciju \"Ziedot.lv\" savākt līdzekļus bērnu rehabilitācijai Ļvivā.",
-"pub": "2026-10-14",
-"source": "lsm.lv",
-"score": 10
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/14.10.2026-liepaja-daudzdzivoklu-nama-konstateta-inficesanas-ar-legionaru-slimibu.a667574/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Liepājā daudzdzīvokļu namā konstatēta inficēšanās ar «leģionāru» slimību",
-"summary": "Kādā Liepājas daudzdzīvokļu mājā ūdenī konstatētas legionellas baktērijas, un viens no ēkas iedzīvotājiem inficējies ar tā dēvēto leģionāru slimību. Pēc infekcijas atklāšanas mājas apsaimniekotājs veicis nepieciešamos pasākumus baktēriju likvidēšanai, savukārt Slimību profilakses un kontroles centrs",
-"pub": "2026-10-14",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/muzika/14.10.2026-kristaps-pukitis-dirty-deal-audio-strada-ar-specigiem-cilvekiem-visa-pasaule-vienkarsi-daram-to-klusi.a667425/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Kristaps Puķītis: «Dirty Deal Audio» strādā ar spēcīgiem cilvēkiem visā pasaulē, vienkārši darām to klusi",
-"summary": "Telpiskās jeb 3D skaņas minifestivāls un atvērtā skatuve \"Ambisonics Weekend\" notiks jau otro reizi 14., 16. un 17. oktobrī Rīgas koncertvietā \"Vagonu Hall\". To rīko \"Dirty Deal Audio\" (DDA) – apvienība, kas 15 gados no elektroniskās deju mūzikas izdevniecības izaugusi līdz pašu būvētam telpiskās sk",
-"pub": "2026-10-14",
-"source": "lsm.lv",
-"score": 12
-},
-{
-"link": "https://rus.lsm.lv/statja/novosti/obschestvo/14.10.2026-festival-dinozavrov-i-poddelnyi-medicinskii-portal-mosenniki-stanovyatsya-vsyo-izobretatelnee.a667631/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Фестиваль динозавров и поддельный медицинский портал — мошенники становятся всё изобретательнее",
-"summary": "Поддельный медицинский портал и фестиваль мира динозавров, которого на самом деле не существует. Мошенники придумывают всё новые способы заставить людей поверить в подделки и расставленные ловушки, добровольно отдавая им свои деньги. Искусственный интеллект делает эти схемы ещё более убедительными, ",
-"pub": "2026-10-14",
-"source": "rus.lsm.lv",
-"score": 4
-},
-{
-"link": "https://jauns.lv/raksts/zinas/733187-valmiera-iemure-pamatakmeni-jaunai-militaras-tehnikas-razotnei",
-"title": "Valmierā iemūrē pamatakmeni jaunai militārās tehnikas ražotnei",
-"summary": "Trešdien, 7. oktobrī, Valmieras Rūpniecības un eksporta parkā svinīgā pasākumā tika iemūrēts jaunās “Patria Latvia” militārās tehnikas ražotnes pamatakmens, kā arī uzņēmums “General Dynamics European Land Systems” (GDELS) – “Santa Bárbara Sistemas” oficiāli nodeva Latvijas Nacionālajiem bruņotajiem ",
-"pub": "2026-10-14",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/733345-foto-riga-svinigi-aizvadita-pasmaju-fantazijas-filmas-kristofers-un-divu-pasaulu-atslega-pirmizrade",
-"title": "FOTO: Rīgā svinīgi aizvadīta pašmāju fantāzijas filmas “Kristofers un divu pasauļu atslēga” pirmizrāde",
-"summary": "Tirdzniecības centra \"Akropole Rīga\" kinoteātrī \"Apollo Kino\" šovakar Latvijas pirmizrādi piedzīvoja piedzīvojumu fantāzijas filma \"Kristofers un divu pasauļu atslēga\".",
-"pub": "2026-10-14",
-"source": "jauns.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/kaspars-upaciers-atklaj-kuras-divas-sievietes-vina-dzive-ienem-ipasu-vietu",
-"title": "Kaspars Upaciers atklāj, kuras divas sievietes viņa dzīvē ieņem īpašu vietu",
-"summary": "Pēc savas 60. jubilejas izrādes pirmizrādes Kasparam Upacieram jeb Ufo īpaši atmiņā palicis kāds pavisam īss brīdis. Viņa mamma Olita dēlam ausī pateikusi, ka ar viņu lepojas. Radio balss un komiķis neslēpj, ka šie vārdi viņu ļoti iepriecinājuši, vēsta žurnāls “Kas Jauns”. Tieši mamma Olita un krust",
-"pub": "2026-10-14",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8564364",
-"title": "Nevaldāma enerģija, neapspiestas emocijas! Sākas 31. Starptautiskais Baltijas baleta festivāls",
-"summary": "Ar Kijivas modernā baleta izrādi “Es tevi mīlu”, kurā skanēs Pētera Vaska mūzika, 20. oktobrī VEF Kultūras pilī sāksies 31. Starptautiskais Baltijas Baleta festivāls “No klasikas līdz avangardam”. Festivālā skatītājus gaida arī flamenko svinības tā tīrākajā formā un laikmetīgais balets Berlīnes bale",
-"pub": "2026-10-14",
-"source": "tvnet.lv",
-"score": 14
-},
-{
-"link": "https://pmo.ee/8564286",
-"title": "ИЩИ СЕБЯ НА ФОТО ⟩ Борис Гребенщиков собрал аншлаг в Риге: объявлен дополнительный концерт",
-"summary": "Рижские поклонники Бориса Гребенщикова 14 октября встретили музыканта аншлагом. Дополнительный концерт состоится 15 октября в концертном зале SPELET (ул. Бривибас 86А). Загляните в нашу галерею и проверьте, не попали ли вы в объектив фотографа!",
-"pub": "2026-10-14",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/15.10.2026-vinnijs-puks-ir-klat-latvijas-lellu-teatri-top-muzikals-jauniestudejums-visai-gimenei.a667691/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Vinnijs Pūks ir klāt! Latvijas Leļļu teātrī top muzikāls jauniestudējums visai ģimenei",
-"summary": "Pirms 100 gadiem iznāca viena no pasaules slavenākajām grāmatām – Alana Aleksandra Milna \"Vinnijs Pūks\" ar Ernesta Hovarda Šeparda ilustrācijām. No 2027. gada 15. janvāra vērienīgā jauniestudējumā šis darbs nonāks arī uz Latvijas Leļļu teātra skatuves. Režisors Edgars Kaufelds ar radošo komandu radī",
-"pub": "2026-10-15",
-"source": "lsm.lv",
-"score": 10
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/15.10.2026-tava-klusesana-tevi-nepasargas-recenzija-par-riga-iff-atklasanas-filmu-nezinama-sieviete.a667678/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "«Tava klusēšana tevi nepasargās». Recenzija par Riga IFF atklāšanas filmu «Nezināmā sieviete»",
-"summary": "15. oktobrī kinoteātrī \"Spledid\" Palace ar filmas \"Nezināmā sieviete\" seansu tiks atklāts 13. Rīgas Starptautiskais kino festivāls jeb Riga IFF. Dāņu režisores Majas el Tūhī veidotā vēsturiskā drāma \"Nezināmā sieviete\" ir Dānijas, Zviedrijas un Latvijas kopprodukcija, kuras filmēšana noritējusi pārs",
-"pub": "2026-10-15",
-"source": "lsm.lv",
-"score": 6
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/15.10.2026-tiesraide-konference-macities-rupeties-izglitiba-un-apmaciba-kulturas-un-veselibas-starpnozare.a667479/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "TIEŠRAIDE: Konference «Mācīties rūpēties. Izglītība un apmācība kultūras un veselības starpnozarē»",
-"summary": "15. un 16. oktobrī Rīgas Stradiņa universitātē (RSU) un tiešsaistē norisināsies starptautiska konference \"Mācīties rūpēties. Izglītība un apmācība kultūras un veselības starpnozarē\" (\"Learning to Care: Education and Training in Culture and Health\"). Tās dalībnieki diskutēs par nepieciešamajām zināša",
-"pub": "2026-10-15",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/dzive-stils/vesture/15.10.2026-valsts-valoda-ka-identitates-pamats-kas-kopigs-latvijai-un-ukrainai.a667558/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Valsts valoda kā identitātes pamats. Kas kopīgs Latvijai un Ukrainai",
-"summary": "15. oktobrī Latvijā atzīmē Valsts valodas dienu. Vispārsteidzošākais šajā dienā ir tas, ka valsts līmenī tā tika iedibināta pavisam nesen – pirms pieciem gadiem. Tātad tagad ir pirmā apaļā jubileja. Neraugoties uz šo svētku svarīgumu, to tradīcijas tikai veidojas.",
-"pub": "2026-10-15",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/15.10.2026-raina-maja-berkenele-svin-30-gadu-jubileju-bernibas-vieta-kur-dizgars-smelas-iedvesmu.a667540/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Raiņa māja Berķenelē svin 30 gadu jubileju – bērnības vieta, kur dižgars smēlās iedvesmu",
-"summary": "Aprit 30 gadi, kopš Augšdaugavas novada Kalkūnes pagastā pēc restaurācijas jaunā veidolā durvis vērusi dzejnieka Raiņa māja Berķenelē. Tā bija mazā Žaniņa bērnības dienu zeme, kurā topošais dižgars smēlās paliekošas vērtības personības izaugsmē un guva atziņas dzejas rindām. Sagaidot svētkus, simpoz",
-"pub": "2026-10-15",
-"source": "lsm.lv",
-"score": 11
-},
-{
-"link": "https://rus.lsm.lv/statja/za-efirom/tochka-zrenija/15.10.2026-oleg-kudrin-opyt-latvii-i-ukrainy-gosudarstvennye-yazyki-kak-osnova-identicnosti.a667391/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Олег Кудрин. Опыт Латвии и Украины: государственные языки как основа идентичности",
-"summary": "Сегодня, 15 октября, Латвия отмечает День государственного языка. Самое удивительное в этой дате — что она была установлена на государственном уровне совсем недавно: пять лет назад. То есть ныне — первый юбилей. И несмотря на всю важность этого праздника его традиции только закладываются. Также осен",
-"pub": "2026-10-15",
-"source": "rus.lsm.lv",
-"score": 4
-},
-{
-"link": "https://jauns.lv/raksts/zinas/733369-vai-izdosies-parspet-574-kilogramu-rekordu-riga-sodien-noskaidros-latvijas-brangako-rudens-ogu",
-"title": "Vai izdosies pārspēt 574 kilogramu rekordu? Rīgā šodien noskaidros Latvijas brangāko rudens ogu",
-"summary": "Šodien, 15. oktobrī, Rīgā norisināsies Latvijas lielākā ķirbja čempionāts, kurā noskaidros šī gada iespaidīgāko rudens ogu. Pasākums sāksies plkst. 14 Bērnu slimnīcas Taureņu laukumā, informē čempionāta rīkotājs “Maxima Latvija”.",
-"pub": "2026-10-15",
-"source": "jauns.lv",
-"score": 6
-},
-{
-"link": "https://jauns.lv/raksts/zinas/733366-speciga-valoda-veido-drosu-latviju-prezidents-rinkevics-ar-ipasu-vestijumu-sveic-valsts-valodas-diena",
-"title": "“Spēcīga valoda veido drošu Latviju!” Prezidents Rinkēvičs ar īpašu vēstījumu sveic Valsts valodas dienā",
-"summary": "Šodien, 15. oktobrī, Latvijā atzīmē Valsts valodas dienu, aicinot pievērst uzmanību latviešu valodas nozīmei un tās lietojumam ikdienā. Šajā dienā 54 Latvijas izglītības iestādēs norisināsies īpašs sociālais eksperiments, savukārt Valsts prezidents Edgars Rinkēvičs atgādina, ka latviešu valoda ir La",
-"pub": "2026-10-15",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/733334-jokdaris-ufo-nosvin-60-un-saka-mamma-beidzot-ar-mani-lepojas",
-"title": "Jokdaris Ufo nosvin 60 un saka: \"Mamma beidzot ar mani lepojas!\"",
-"summary": "Uz komiķa un radio balss Kaspara Upaciera jeb Ufo 60. jubilejas ietvaros notiekošās izrādes \"Ufo 60 nokrāsas\" pirmizrādi kinoteātrī \"Splendid Palace \"ieradās arī divas viņa dzīvē tuvas un dārgas sievietes – mamma Olita un krustmāte Zaiga.",
-"pub": "2026-10-15",
-"source": "jauns.lv",
-"score": 4
-},
 {
 "link": "https://rus.jauns.lv/article/novosti/733321-feikovyi-portal-meddannyx-i-nesushhestvuiushhii-festival-dinozavrov-mosenniki-nasli-novye-sposoby-obmana",
 "title": "Фейковый портал медданных и несуществующий \"фестиваль динозавров\": мошенники нашли новые способы обмана",
@@ -4852,6 +4676,182 @@
 "pub": "2026-10-30",
 "source": "bb.lv",
 "score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/muzika/30.10.2026-lacplesa-diena-izskanes-jana-lusena-koncertprogramma-riga-muzibas-skarta.a669867/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Lāčplēša dienā izskanēs Jāņa Lūsēna koncertprogramma «Rīga, mūžības skartā»",
+"summary": "11. novembrī pulksten 19.00 Rīgā, Uzvaras parkā, notiks Lāčplēša dienai veltīts koncerts, kurā uzstāsties grupas \"Juuk\" un \"The Sound Poets\", bet vakara kulminācijā izskanēs komponista Jāņa Lūsēna veidotā koncertprogramma \"Rīga, mūžības skartā\". Tā veltīta dzejnieka Aleksandra Čaka daiļradei, inform",
+"pub": "2026-10-30",
+"source": "lsm.lv",
+"score": 8
+},
+{
+"link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/30.10.2026-rigas-gramatu-svetkos-piedalisies-bernu-gramatu-autori-no-latvijas-un-arvalstim.a669858/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Rīgas grāmatu svētkos piedalīsies bērnu grāmatu autori no Latvijas un ārvalstīm",
+"summary": "6. un 7. novembrī Latvijas Nacionālajā bibliotēkā (Mūkusalas ielā 3) notiks Rīgas grāmatu svētki \"Rudens 2026\". Izdevniecība \"Liels un mazs\" svētku apmeklētājiem piedāvās plašu pasākumu programmu, kurā būs iespēja satikt bērnu grāmatu autorus no Latvijas un ārvalstīm, piedalīties grāmatu atvēršanas ",
+"pub": "2026-10-30",
+"source": "lsm.lv",
+"score": 20
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/30.10.2026-parkaptais-ligums-recenzija-par-latvijas-nacionala-teatra-izradi-sila-ezera-nolaisana.a669825/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Pārkāptais līgums. Recenzija par Latvijas Nacionālā teātra izrādi «Sila ezera nolaišana»",
+"summary": "Pasmeļoties iedvesmu Jāņa Poruka vairāk nekā simt gadu senos mītiski pravietiskos stāstos, jaunais režisors Mārcis Broks Latvijas Nacionālajā teātrī ekošausmu žanrā iestudējis viencēlienu \"Sila ezera nolaišana\".",
+"pub": "2026-10-30",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/muzika/30.10.2026-koncerti-gan-legendu-nakti-gan-filmu-skola-kuru-pasakumu-apmeklet-brivdienas.a669841/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Koncerti gan «Leģendu naktī», gan filmu skolā. Kuru pasākumu apmeklēt brīvdienās?",
+"summary": "Halovīna nedēļas nogale ir klāt, un 31. oktobrī Latvijas pilsētās un ciemos ķirbis beidzot ieņems goda vietu. Jauši vai nejauši šogad tieši šajā datumā norisinās \"Leģendu nakts\". Tās laikā ne vienā vien no 47 muižām un pilīm ieskanēsies arī mūzika.",
+"pub": "2026-10-30",
+"source": "lsm.lv",
+"score": 12
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/30.10.2026-ukrainskaia-nedelia-v-latvii-s-31-oktiabria-po-8-noiabria-predlozeniia-i-priglaseniia.a669796/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Украинская неделя в Латвии с 31 октября по 8 ноября. Предложения и приглашения",
+"summary": "Публикуем подборку некоторых мероприятий ближайшей недели, которые устраиваются для украинцев, самими украинцами или могут быть интересными для украинцев Латвии.",
+"pub": "2026-10-30",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/muzika/30.10.2026-v-den-lacplesisa-prozvucit-koncertnaia-programma-ianisa-lusensa-riga-zatronutaia-vecnostiu.a669871/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "В День Лачплесиса прозвучит концертная программа Яниса Лусенса «Рига, затронутая вечностью»",
+"summary": "11 ноября в 19:00 в Риге, в парке Победы, состоится концерт, посвящённый Дню Лачплесиса. На сцене выступят группы Juuk и The Sound Poets, а кульминацией вечера станет концертная программа Rīga, mūžības skartā («Рига, затронутая вечностью»), созданная композитором Янисом Лусенсом. Она посвящена творч",
+"pub": "2026-10-30",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/muzika/30.10.2026-koncerty-i-v-noc-legend-i-v-kinoskole-kakie-meropriiatiia-posetit-na-vyxodnyx.a669869/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Концерты и в «Ночь легенд», и в киношколе. Какие мероприятия посетить на выходных?",
+"summary": "Хэллоуинские выходные уже наступили, и 31 октября в городах и поселках Латвии тыква наконец займет почетное место. Случайно или нет, но именно на эту дату в этом году выпала «Ночь легенд». Во время мероприятия музыка зазвучит не в одной из 47 усадеб и замков.",
+"pub": "2026-10-30",
+"source": "rus.lsm.lv",
+"score": 8
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/muzika/30.10.2026-prazdnik-miuzikla-v-cest-iubileia-laizy-minnelli-zizn-kak-kabare-privezet-v-rigu-blesk-brodveia.a669850/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Праздник мюзикла в честь юбилея Лайзы Миннелли. «Жизнь как кабаре» привезет в Ригу блеск Бродвея",
+"summary": "Бродвейский размах и энергия молодости совсем скоро встретятся на сцене в постановке «Жизнь как кабаре». Одним из главных голосов этого шоу станет певица Эмилия Хелена Павловска — первая латвийка, окончившая престижную Манхэттенскую музыкальную школу в Нью-Йорке. В постановке также примут участие др",
+"pub": "2026-10-30",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/30.10.2026-motogonshhiki-polucivsie-ximiceskie-ozogi-ne-iskliucaiut-obrashheniia-v-sud.a669770/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Мотогонщики, получившие химические ожоги, не исключают обращения в суд",
+"summary": "Cпортсмены, получившие пять дней назад химические ожоги во время соревнований по мотоспорту на территории бывшего завода Liepājas metalurgs в Лиепае, допускают возможность обратиться в суд против организаторов мероприятия. Всего пострадали семь участников, и большинство из них до сих пор проходят ле",
+"pub": "2026-10-30",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://jauns.lv/raksts/zinas/735826-lietuvas-premjers-piekerts-plagiatisma-universitate-pazino-kas-notiks-ar-vina-doktora-gradu",
+"title": "Lietuvas premjers pieķerts plaģiātismā – universitāte paziņo, kas notiks ar viņa doktora grādu",
+"summary": "Lietuvas premjerministrs Mindaugs Sinkevičs nonācis nepatīkamā situācijā pēc tam, kad universitātes Ētikas komisija viņa doktora disertācijā atklājusi vairākus plaģiāta gadījumus. Premjers pārkāpumus atzinis un solījis tos labot, tomēr pagaidām viņam nedraud tūlītēja doktora grāda atņemšana.",
+"pub": "2026-10-30",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/735813-riga-music-week-ienak-pilseta-skanstes-city-klust-par-jaunas-muzikas-inkubatoru",
+"title": "“Riga Music Week” ienāk pilsētā – “Skanstes City” kļūst par jaunas mūzikas inkubatoru",
+"summary": "Šodien, 30. oktobrī, “Skanstes City” kvartālā sākas starptautiskā mūziķu rezidence CRESCENDO, bet 1. novembrī tai pievienosies divpadsmitā dziesmu rakstīšanas nometne “RIGaLIVE”. Abi notikumi ievada nākamnedēļ gaidāmo mūzikas industrijas konferenci un pilsētas festivālu “Riga Music Week”.",
+"pub": "2026-10-30",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/735760-latviiskie-prodavcy-raskazali-kakie-maski-cashhe-vsego-pokupaiut-na-predstoiashhii-xellouin",
+"title": "Латвийские продавцы расказали, какие маски чаще всего покупают на предстоящий Хэллоуин",
+"summary": "По мере приближения Хэллоуина резко вырос спрос на праздничные костюмы, маски и тематические аксессуары, свидетельствуют данные интернет-магазина 220.lv. Особым спросом пользуется знаменитая маска из голливудского фильма ужасов.",
+"pub": "2026-10-30",
+"source": "rus.jauns.lv",
+"score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/735768-v-imante-otkroetsia-krupneisii-v-latvii-gipermarket-izvestnoi-seti",
+"title": "В Иманте откроется крупнейший в Латвии гипермаркет известной сети",
+"summary": "В первой половине 2027 года в рижском торговом центре Imanta откроется крупнейший в Латвии магазин сети top! – гипермаркет нового формата top! HYPER. Его общая площадь превысит 2700 квадратных метров. Однако это не единственные перемены, которые ждут торговый центр: масштабную реконструкцию планирую",
+"pub": "2026-10-30",
+"source": "rus.jauns.lv",
+"score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/735748-v-piatnicu-v-latvii-ozidaiutsia-dozdi-mestami-vozmozny-silnye-livni-i-grozy",
+"title": "В пятницу в Латвии ожидаются дожди, местами возможны сильные ливни и грозы",
+"summary": "В пятницу местами в Латвии - главным образом в Видземе - пройдут кратковременные дожди, а со второй половины дня осадки ожидаются на большей части территории страны, к тому же местами в Видземе дожди будут сильными и возможна гроза, прогнозируют синоптики.",
+"pub": "2026-10-30",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8574373",
+"title": "НАЙДИ СЕБЯ НА ФОТО ⟩ Мировые эксперты индустрии мероприятий в Риге: второй день PULSE",
+"summary": "28 и 29 октября в Риге, в Hanzas Peron, впервые прошел форум PULSE, на котором собрались организаторы мероприятий мирового уровня, имеющие опыт работы на «Евровидении», Олимпийских играх, мировых концертных турах и удостоенные международных наград. Взгляните на то, как проходил второй день мероприят",
+"pub": "2026-10-30",
+"source": "rus.tvnet.lv",
+"score": 6
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120140671/lyubaya-nenavist-razrushitelna-i-vedet-k-raskolu-zayavil-prezident-rinkevich",
+"title": "Любая ненависть разрушительна и ведет к расколу, заявил президент Ринкевич",
+"summary": "Любая ненависть разрушительна, она препятствует единству и развитию, ведет к отсталости и расколу, подчеркнул президент Латвии Эдгар Ринкевич на Латвийском молитвенном завтраке в Сейме в пятницу, 30 октября. Это мероприятие завершило четыре года деятельности Сейма 14-го созыва, уже во вторник, 3 окт",
+"pub": "2026-10-30",
+"source": "rus.delfi.lv",
+"score": 6
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120140650/motogonshchiki-poluchivshie-himicheskie-ozhogi-na-territorii-liepajas-metalurgs-ne-isklyuchayut-obrashcheniya-v-sud",
+"title": "Мотогонщики, получившие химические ожоги на территории Liepājas metalurgs, не исключают обращения в суд",
+"summary": "Cпортсмены, получившие пять дней назад химические ожоги во время соревнований по мотоспорту на территории бывшего завода Liepājas metalurgs в Лиепае, допускают возможность обратиться в суд против организаторов мероприятия. Всего пострадали семь участников, и большинство из них до сих пор проходят ле",
+"pub": "2026-10-30",
+"source": "rus.delfi.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8574160",
+"title": "FOTO ⟩ Festivāla \"Danger Fest 2026\" noslēgumā apmeklētājus priecēs iespaidīgi dronu šovi",
+"summary": "Sestdien, 31. oktobrī, festivāls \"Danger Fest 2026\", kas norisinās kinopilsētā \"Cinevilla\", piedāvās īpašu svētku programmu, kura kulminācijā būs divi iespaidīgi dronu šovi. Katrā dronu šovā debesīs vienlaikus pacelsies 100 dronu, veidojot gaismas rakstus un vizuālus stāstus, kuros tehnoloģijas savī",
+"pub": "2026-10-30",
+"source": "apollo.lv",
+"score": 11
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/30/v-ventspilse-otkroetsia-vystavka-o-latviiskix-kapitanax-i-korabliax-vosedsix-v-istoriiu?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "В Вентспилсе откроется выставка о латвийских капитанах и кораблях, вошедших в историю",
+"summary": "С 3 по 29 ноября в Приморском музее под открытым небом в Вентспилсе будет работать выставка, посвящённая истории латвийского флота и морякам, которые в разные исторические периоды ходили под красно-бело-красным флагом.",
+"pub": "2026-10-30",
+"source": "bb.lv",
+"score": 10
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/10/30/v-rige-otkroetsia-masstabnyi-festival-sveta-bolee-200-installiacii-i-tysiaci-ognei?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "В Риге откроется масштабный фестиваль света: более 200 инсталляций и тысячи огней",
+"summary": "С 6 ноября Ботанический сад Латвийского университета превратится в сказочное пространство с сияющими скульптурами, фантастическими персонажами и почти двухкилометровым маршрутом для вечерних прогулок.",
+"pub": "2026-10-30",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/tomass-anderss-riga-liels-jubilejas-sovs",
+"title": "TOMASS ANDERSS RĪGĀ! LIELS JUBILEJAS ŠOVS!",
+"summary": "7. novembrī Rīgā pasaulslavenā leģenda, grupas Modern Talking dibinātājs un solists, leģendārais Tomass Anderss, sniegs savu vienīgo jubilejas koncertu Latvijā, kas veltīts mūsu laiku populārākajai disko grupai! Jau 40 gadus Tomass Anderss ir slavas virsotnē, vienmēr miljoniem fanu ielenkumā. Joproj",
+"pub": "2026-10-30",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/soprans-vendija-kokelkorena-ir-dziedajusi-karalienei-beatriksei-tagad-kopa-ar-maestro-riga",
+"title": "Soprāns Vendija Kokelkorena ir dziedājusi karalienei Beatriksei. Tagad — kopā ar maestro Rīgā",
+"summary": "Nīderlandiešu vijolnieks, komponists un diriģents Gvido Dīterens ir strādājis ar Andrea Bočelli un Andrē Rjē. Viņa vadītajā The European Pop Orchestra klasika satiekas ar popmūziku un rokmūziku, bet koncertos vieta atvēlēta arī humoram. Rīgā līdzās maestro uzstāsies soprāns Vendija Kokelkorena — pie",
+"pub": "2026-10-30",
+"source": "la.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -8826,7 +8826,32 @@
 "https://rus.jauns.lv/article/novosti/735491-s-9-noiabria-v-rige-nacnut-perekryvat-ulicy-voditelei-preduprezdaiut-o-predstoiashhix-neudobstvax",
 "https://rus.jauns.lv/article/lifestyle/735205-glintvein-daze-desevle-evro-nazvany-rozdestvenskie-iarmarki-evropy-s-samym-nedorogim-goriacim-vinom",
 "https://rus.jauns.lv/article/afisha/735444-100-dronov-v-nebe-i-sou-uzasov-v-cinevilla-proidet-grandioznoe-zaversenie-danger-fest",
-"https://www.la.lv/festivala-danger-fest-2026-nosleguma-vakara-kulminacija-divi-iespaidigi-dronu-sovi"
+"https://www.la.lv/festivala-danger-fest-2026-nosleguma-vakara-kulminacija-divi-iespaidigi-dronu-sovi",
+"https://www.lsm.lv/raksts/kultura/muzika/28.10.2026-starptautiskais-un-latviskais-saplust-jaunas-skanas-jaunas-muzikas-festivala-arena.a669581/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/maksla/28.10.2026-davinajums-karlim-ulmanim-un-saderinasanas-vaze-saldu-atklata-keramikas-privatkolekcijas-izstade.a669311/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/27.10.2026-podarok-karlisu-ulmanisu-i-vaza-v-cest-pomolvki-v-salduse-otkrylas-vystavka-castnoi-kollekcii-keramiki.a669323/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/afisha/735305-rozdestvo-pod-zvuki-opery-inessa-galante-priglasaet-na-koncert-trex-tenorov",
+"https://rus.jauns.lv/article/afisha/735312-xellouin-so-skidkoi-31-i-podarkami-kukolnyi-teatr-gotovit-siurprizy-dlia-vsei-semi",
+"https://pmo.ee/8573221",
+"https://pmo.ee/8573232",
+"https://www.delfi.lv/kultura/52862727/screen/120140353/sarkana-skuna-noslepums-filma-kuras-pirmizradi-apmekleja-tris-latvijas-prezidenti",
+"https://bb.lv/statja/dom-i-sad/2026/10/28/kak-prodlit-zizn-svezesrezannyx-cvetov-poleznye-sovety?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://pmo.ee/8565627",
+"https://rus.lsm.lv/statja/kultura/muzika/29.10.2026-mezdunarodnoe-i-latysskoe-slivaiutsia-v-novom-zvucanii-na-festivale-novoi-muzyki-arena.a669604/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/izklaide/735651-26starptautiska-baha-kamermuzikas-festivala-atklasanas-koncerta-pirmoreiz-latvija-vienlaikus-skanes-cetri-klavesini",
+"https://jauns.lv/raksts/izklaide/735643-ka-savienot-karjeru-ar-bernu-audzinasanu-pieredze-dalas-dziedataja-ieva-sutugova",
+"https://rus.jauns.lv/article/afisha/735619-biuti-rai-na-kipsale-tri-dnia-novinok-master-klassov-i-zrelishhnyx-sorevnovanii",
+"https://rus.jauns.lv/article/novosti/735616-u-zitelei-latvii-poiavilas-vozmoznost-besplatno-naiti-sebe-xorosuiu-rabotu",
+"https://www.lsm.lv/raksts/kultura/izklaide/29.10.2026-lsm-sovs-sirdslietas-uzvar-starptautiskaja-festivala-heart-of-europe-digitala-un-izklaides-satura-kategorija.a669776/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/zinas/latvija/29.10.2026-diasporas-skolas-aktualizejas-pedagogu-pecteciba-un-bernu-ieinteresesana.a669736/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/zinas/latvija/29.10.2026-vecaki-nogarso-bernu-skolas-pusdienas.a669722/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/zinas/latvija/29.10.2026-pec-berna-aizklisanas-bauskas-bernudarza-audzinatajai-izteikts-rajiens-vaditajas-atbildibu-vel-verte.a669718/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/afisha/735622-v-rige-otkryvaetsia-neobycnaia-oxota-okolo-500-proizvedenii-iskusstva-budut-zdat-svoix-novyx-vladelcev",
+"https://www.la.lv/tik-skaisti-sis-gardums-jau-pirms-ziemassvetkiem-izpelnijies-pirceju-sajusmu",
+"https://jauns.lv/raksts/zinas/735072-halovina-berniem-saldumu-vieta-dalas-bibeli-uzzini-kur-tas-notiks",
+"https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/30.10.2026-rigas-gramatu-svetkos-piedalisies-bernu-gramatu-autori-no-latvijas-un-arvalstim.a669858/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/muzika/30.10.2026-prazdnik-miuzikla-v-cest-iubileia-laizy-minnelli-zizn-kak-kabare-privezet-v-rigu-blesk-brodveia.a669850/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/izklaide/735813-riga-music-week-ienak-pilseta-skanstes-city-klust-par-jaunas-muzikas-inkubatoru"
 ],
 "tips_debug": {
 "date": "2026-10-29",
