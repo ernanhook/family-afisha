@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-10",
-"cost": 1.6784183000000021,
-"calls": 495
+"cost": 1.6785773000000022,
+"calls": 496
 },
 "last_digest": "2026-10-29",
 "shown_ongoing": {
@@ -53,70 +53,6 @@
 "count": 45
 },
 "portal_queue": [
-{
-"link": "https://rus.lsm.lv/statja/kultura/kino/15.10.2026-video-otkrytie-rizskogo-mezdunarodnogo-kinofestivalya-cernaya-dorozka.a667737/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "ВИДЕО. Открытие Рижского международного кинофестиваля — черная дорожка",
-"summary": "Рижский международный кинофестиваль (Riga IFF) открылся 15 октября. Прежде чем на большом экране засияют первые кадры, гости фестиваля встретятся на черной дорожке — за происходящим можно следить в видеоматериале LSM.lv.",
-"pub": "2026-10-15",
-"source": "rus.lsm.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8564270",
-"title": "Florensa Pjū citrondzeltenais “Vivienne Westwood” tērps, kas nepaliek nepamanīts",
-"summary": "Britu aktrise Florensa Pjū Ņujorkā uz seriāla “East of Eden” pirmizrādi ieradās košā, īpaši viņai radītā “Vivienne Westwood” kleitā, kas apvieno vēsturiska korsetes tērpa romantiku ar dumpiniecisku, gandrīz teatrālu glamūru.",
-"pub": "2026-10-15",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8563778",
-"title": "ATRODI SEVI! ⟩ Izmeklēta publika pulcējas RIGA IFF atklāšanā; pirmizrāde Venēcijas kinofestivāla galvenās balvas laureātei \"Nezināmā sieviete\"",
-"summary": "No 15. līdz 25. oktobrim norisinās RIGA IFF jeb Rīgas Starptautiskais kino festivāls. Festivāla atklāšanas dienā Latvijas pirmizrādi piedzīvoja Venēcijas kinofestivālā ar \"Zelta lauvu\" apbalvotā \"Nezināmā sieviete\", kas, cita starpā, tapusi tieši Latvijā! Atrodi sevi apmeklētāju vidū!",
-"pub": "2026-10-15",
-"source": "tvnet.lv",
-"score": 12
-},
-{
-"link": "https://pmo.ee/8564911",
-"title": "ФОТО ⟩ Светская публика на открытии RIGA IFF и премьера фильма-обладателя \"Золотого льва\" \"Неизвестная женщина\"",
-"summary": "С 15 по 25 октября проходит Рижский международный кинофестиваль RIGA IFF. В день открытия фестиваля состоялась латвийская премьера фильма \"Неизвестная женщина\", удостоенного \"Золотого льва\" Венецианского кинофестиваля и, что особенно примечательно, снятого именно в Латвии. Ищите себя среди гостей ме",
-"pub": "2026-10-15",
-"source": "rus.tvnet.lv",
-"score": 8
-},
-{
-"link": "https://bb.lv/statja/lifenews/2026/10/15/v-moskve-otkryli-pamiatnik-latysskomu-deiateliu-iskusstv?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "В Москве открыли памятник латышу, назвав его отечественной легендой",
-"summary": "В Брюсовом переулке столицы РФ появилась скульптурная композиция к 90-летию танцовщика Мариса Лиепы. Артист изображён после спектакля в костюме Красса из «Спартака».",
-"pub": "2026-10-15",
-"source": "bb.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/zinas/733534-kopa-ar-operdivu-elinu-garancu-un-dirigentu-karelu-marku-sisonu-noslegsies-lnso-simtgades-cikls",
-"title": "Kopā ar operdīvu Elīnu Garanču un diriģentu Karelu Marku Šišonu noslēgsies LNSO simtgades cikls",
-"summary": "Svētdien, 25. oktobrī, plkst. 19.00 Rīgas Kongresu namā ar spožu kulmināciju – koncertu “LNSO, Elīna Garanča un Karels Marks Šišons” – noslēgsies Latvijas Nacionālā simfoniskā orķestra (LNSO) simtgades koncertu cikls, kas aizsākās augustā.",
-"pub": "2026-10-16",
-"source": "jauns.lv",
-"score": 5
-},
-{
-"link": "https://jauns.lv/raksts/zinas/733535-dailes-teatris-ar-izradi-orakuls-iekaro-kulturas-gardezu-sirdis-griekija",
-"title": "Dailes teātris ar izrādi “Orākuls” iekaro kultūras gardēžu sirdis Grieķijā",
-"summary": "Dailes teātra izrāde “Orākuls” turpina iekarot respektablākos teātra namus un satiksies ar Grieķijas publiku prestižajā Onasis centrā Atēnās.",
-"pub": "2026-10-16",
-"source": "jauns.lv",
-"score": 4
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/733538-foto-sakusies-lielakie-rudens-kino-svetki-sabiedriba-pazistami-laudis-pulcejas-riga-iff-atklasana",
-"title": "FOTO: sākušies lielākie rudens kino svētki: sabiedrībā pazīstami ļaudis pulcējas \"Riga IFF\" atklāšanā",
-"summary": "Pulcējot plašu kino cienītāju pulku un sabiedrībā pazīstamus ļaudis, vakar, 15. oktobrī, svinīgi atklāts Rīgas Starptautiskais kino festivāls (\"Riga IFF\").",
-"pub": "2026-10-16",
-"source": "jauns.lv",
-"score": 4
-},
 {
 "link": "https://jauns.lv/raksts/izklaide/733527-foto-ar-jestru-balliti-un-striptizu-nosvin-kadreizejas-grupas-pamatinstinkts-dziedatajas-ilzes-kalves-gramatas-iznaksanu",
 "title": "FOTO: ar jestru ballīti un striptīzu nosvin kādreizējās grupas “Pamatinstinkts” dziedātājas Ilzes Kalves grāmatas iznākšanu",
@@ -4852,6 +4788,70 @@
 "pub": "2026-10-30",
 "source": "la.lv",
 "score": 6
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/31.10.2026-nevidimaia-pisatelnica-i-rezisser-kotoryi-nicego-ne-govorit-obsuzdaem-filmy-ripli-talant-ubivat-i-neodnoznacnogo-minotavra.a669946/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Невидимая писательница и режиссер, который ничего не говорит. Обсуждаем фильмы «Рипли. Талант убивать» и неоднозначного «Минотавра»",
+"summary": "В центре внимания кинокритиков оказались две истории, объединенные мотивом убийства, — драма российского режиссера Андрея Звягинцева «Минотавр», удостоенная Гран-при Каннского кинофестиваля, и триллер нидерландского фотографа и режиссера Антона Корбейна «Рипли. Талант убивать». В программе Latvijas ",
+"pub": "2026-10-31",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/31.10.2026-narusennyi-dogovor-recenziia-na-spektakl-latviiskogo-nacionalnogo-teatra-osusenie-ozera-sila.a669906/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Нарушенный договор. Рецензия на спектакль Латвийского Национального театра «Осушение озера Сила»",
+"summary": "Черпая вдохновение в мифических и пророческих рассказах Яниса Порукса, написанных более ста лет назад, молодой режиссер Марцис Брокс поставил на сцене Латвийского Национального театра одноактный спектакль Sila ezera nolaišana («Осушение озера Сила») в жанре экохоррора.",
+"pub": "2026-10-31",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/735639-video-mums-vajag-daritajus-nevis-runatajus-dainis-kalns-ieskice-devindesmito-gadu-latviju-pavisam-citas-krasas",
+"title": "VIDEO: “Mums vajag darītājus, nevis runātājus!” Dainis Kalns ieskicē deviņdesmito gadu Latviju pavisam citās krāsās",
+"summary": "Ciklā “Latvija 2035” saruna ar ārstu, Siguldas Opermūzikas svētku iedzīvinātāju Daini Kalnu, kura pieredze palīdz ieraudzīt deviņdesmito gadu Latviju citā gaismā, bet uz nākotni raudzīties ar piesardzīgu optimismu.",
+"pub": "2026-10-31",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/735856-strasno-budet-po-vsei-latvii-samye-interesnye-meropriiatiia-xellouina-31-oktiabria",
+"title": "Страшно будет по всей Латвии: самые интересные мероприятия Хэллоуина 31 октября",
+"summary": "В субботу, 31 октября, Латвию ждет по-настоящему мистический вечер. Киногородок превратится в огромный парк ужасов, в научных центрах появятся пауки и необычные существа, а в разных городах пройдут костюмированные вечеринки, страшные испытания и ночные приключения. Собрали мероприятия, на которые ещ",
+"pub": "2026-10-31",
+"source": "rus.jauns.lv",
+"score": 13
+},
+{
+"link": "https://pmo.ee/8574682",
+"title": "Военные учения Национальных вооруженных сил пройдут в восточном приграничье Латвии",
+"summary": "Со 2 по 10 ноября в Алуксненском, Балвском и Лудзенском краях, в том числе в окрестностях Карсавы, пройдут военные учения Национальных вооруженных сил. В ходе учений будут отрабатываться развертывание подразделений в восточном приграничье Латвии, проверка элементов Балтийской линии обороны, а также ",
+"pub": "2026-10-31",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8574681",
+"title": "MEKLĒ SEVI! ⟩ STIRNA un EMILIJA Tallinas kvartālā pulcē kuplu klausītāju pulku",
+"summary": "30. oktobrī Tallinas kvartāla \"Angārā\" uz vienas skatuves satikās divas pašmāju mūziķes – STIRNA un EMILIJA, klausītājiem dāvājot īpašu dubultkoncertu. Atrodi sevi koncerta apmeklētāju vidū!",
+"pub": "2026-10-31",
+"source": "apollo.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/31/solnca-budet-nemnogo-sinoptiki-rasskazali-o-pogode-v-latvii-31-oktiabria?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Солнца будет немного: синоптики рассказали о погоде в Латвии 31 октября",
+"summary": "Последний день октября в Латвии пройдет преимущественно под облачным небом. Утром во многих районах ожидается туман, а днем местами возможны небольшие дожди. Температура воздуха составит от +7 до +11 градусов.",
+"pub": "2026-10-31",
+"source": "bb.lv",
+"score": 6
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/10/31/noc-legend-latviiskie-zamki-i-usadby-pustilis-vo-vse-tiazkie?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Ночь легенд: латвийские замки и усадьбы пустились во все тяжкие",
+"summary": "В субботу, 31 октября, в Латвии пройдёт традиционная «Ночь легенд». Посетители смогут побывать в старинных усадьбах, погрузиться в их историю и архивные тайны, увидеть старинные здания в свете свечей и фонарей, а также попрощаться с золотой осенью.",
+"pub": "2026-10-31",
+"source": "bb.lv",
+"score": 7
 }
 ],
 "portal_errors": {},
@@ -8861,7 +8861,11 @@
 "https://rus.lsm.lv/statja/novosti/obschestvo/30.10.2026-v-centre-vnimaniia-na-vystavke-texnologii-nato-v-adazi-iskusstvennyi-intellekt-na-pole-boia.a669939/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://rus.lsm.lv/statja/kultura/kultura/30.10.2026-sou-lsm-sirdslietas-pobedilo-na-mezdunarodnom-festivale-heart-of-europe-v-kategorii-cifrovogo-i-razvlekatelnogo-kontenta.a669912/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://rus.lsm.lv/statja/kultura/iskusstvo/30.10.2026-andrei-savrei-vtorye-poxorony-tart-gallery-putesestviia-v-akvareli-i-latviiskaia-osen.a669766/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://bb.lv/statja/nasha-latvija/2026/10/30/necistaia-sila-ne-prosla-opros-xellouin-teriaet-poklonnikov-v-latvii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv"
+"https://bb.lv/statja/nasha-latvija/2026/10/30/necistaia-sila-ne-prosla-opros-xellouin-teriaet-poklonnikov-v-latvii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://pmo.ee/8574648",
+"https://www.la.lv/vai-berni-tiek-apdraudeti-sieviete-satraukusies-par-latvija-izveidoto-saldumu-karti",
+"https://rus.lsm.lv/statja/kultura/kino/31.10.2026-nevidimaia-pisatelnica-i-rezisser-kotoryi-nicego-ne-govorit-obsuzdaem-filmy-ripli-talant-ubivat-i-neodnoznacnogo-minotavra.a669946/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/735639-video-mums-vajag-daritajus-nevis-runatajus-dainis-kalns-ieskice-devindesmito-gadu-latviju-pavisam-citas-krasas"
 ],
 "tips_debug": {
 "date": "2026-10-29",
