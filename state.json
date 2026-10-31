@@ -1,8 +1,8 @@
 {
 "usage": {
-"month": "2026-10",
-"cost": 1.6787880000000022,
-"calls": 497
+"month": "2026-11",
+"cost": 0.0,
+"calls": 0
 },
 "last_digest": "2026-10-29",
 "shown_ongoing": {
@@ -53,22 +53,6 @@
 "count": 45
 },
 "portal_queue": [
-{
-"link": "https://pmo.ee/8563576",
-"title": "ATRODI SEVI! ⟩ Bez telefoniem un ar pamatīgu nostalģijas devu! \"Placebo\" ar vērienu Rīgā nosvin 30. jubileju",
-"summary": "Piektdien, 16. oktobrī, \"Xiaomi\" arēnā norisinājās leģendārās britu alternatīvā roka grupas \"Placebo\" 30 gadu jubilejas koncerts ar īpašajiem viesiem \"Kallsup\". Atrodi sevi kaismīgāko fanu vidū!",
-"pub": "2026-10-16",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/zinas/732174-legendara-sakta-eka-kura-dzivoja-un-mainijas-ne-tikai-riga-bet-visas-latvijas-vesture-foto",
-"title": "Leģendārā “Sakta”: ēka, kurā dzīvoja un mainījās ne tikai Rīga, bet visas Latvijas vēsture. FOTO",
-"summary": "Brīvības bulvāris 32. Rīgā ir viens no tiem namiem, kuru pazīst gandrīz visā Latvijā, pat ja ne visi zina tā stāstu. Desmitgadēm ilgi šo vietu rīdzinieki sauc vienkārši par “Saktu”. Te pirka dāvanas un smaržas, sūtīja vēstules, norunāja tikšanās, gāja uz izstādēm un lekcijām. Šī ēka arī cieši saistī",
-"pub": "2026-10-17",
-"source": "jauns.lv",
-"score": 2
-},
 {
 "link": "https://rus.jauns.lv/article/novosti/733715-v-rige-proidet-mezdunarodnaia-vystavka-obrazovaniia-cto-predlozat-budushhim-studentam",
 "title": "В Риге пройдет международная выставка образования: что предложат будущим студентам",
@@ -4852,9 +4836,28 @@
 "pub": "2026-10-31",
 "source": "la.lv",
 "score": 10
+},
+{
+"link": "https://pmo.ee/8573055",
+"title": "DIENAS KLEITA: ⟩ Kardašjana pārsteidz ar silikona kleitu un dziļu dekoltē",
+"summary": "Kima Kardašjana atkal pievērsusi uzmanību ar tērpu, kuru grūti sajaukt ar klasisku vakarkleitu. Seriāla All’s Fair otrās sezonas popularizēšanas pasākumā viņa izvēlējās Šiaparelli (Schiaparelli) augstās modes kleitu, kas atgādina futūristisku skulptūru.",
+"pub": "2026-10-31",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8572848",
+"title": "LŪSIS KOMENTĒ ⟩ Turpmāk mūziķiem pirms katra koncerta jāpauž viedoklis par ikvienu bruņoto konfliktu pasaulē",
+"summary": "Pēc tam, kad biju paudis viedokli par grupas “Metallica” koncertu, kurā Džeimss Hetfīlds paziņoja, ka grupa ieradusies spēlēt mūziku, nevis paust politisko nostāju, saņēmu vairākus neizpratnes pilnus komentārus. Mans mīļākais no tiem bija komentārs, kurā kāds jautāja, vai tāpat domātu arī tad, ja ru",
+"pub": "2026-10-31",
+"source": "tvnet.lv",
+"score": 4
 }
 ],
-"portal_errors": {},
+"portal_errors": {
+"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
+"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
+},
 "places_history": [
 [
 "2026-10-13",
