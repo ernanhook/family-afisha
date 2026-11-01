@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.0,
-"calls": 0
+"cost": 0.0005947000000000001,
+"calls": 1
 },
 "last_digest": "2026-10-29",
 "shown_ongoing": {
@@ -53,166 +53,6 @@
 "count": 45
 },
 "portal_queue": [
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/17.10.2026-riga-paplasinati-atbalsta-pasakumi-cilvekiem-bez-majokla.a667482/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Rīgā paplašināti atbalsta pasākumi cilvēkiem bez mājokļa",
-"summary": "Sākoties rudenim, galvaspilsētā piedāvā plašāku palīdzību bezpajumtniekiem – no 1.oktobra Rīgā paplašināti atbalsta pasākumi. Šomēnes naktspatversmes strādā no plkst. 18 vakarā līdz plkst. 8 rītā, un tajās ir palielināts vietu skaits. Tiks arī pastiprināti apsekotas dzīvošanai nepiemērotas vietas, l",
-"pub": "2026-10-17",
-"source": "lsm.lv",
-"score": 6
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/17.10.2026-horeografe-un-baletdejotaja-lita-beiris-es-piedzimu-ar-kajinam-uz-leju-un-man-teica-ka-es-nedejosu.a667734/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Horeogrāfe un baletdejotāja Lita Beiris: Es piedzimu ar kājiņām uz leju, un man teica, ka es nedejošu",
-"summary": "Baletā ļoti svarīgi ir izjust centru un nezaudēt mērķi, un tieši tāpat ir dzīvē, uzskata horeogrāfe un baletdejotāja Lita Beiris. Latvijas Radio raidījumā \"Laikmeta krustpunktā\" viņa stāsta par mātes sapņa piepildījumu, tēva darinātajām baleta kurpītēm, daudzajiem skatuves partneriem un baleta festi",
-"pub": "2026-10-17",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/zinas/733728-visi-vai-nu-nokaves-lidmasinas-vai-nezinu-kas-notiks-rigas-lidosta-noversusi-sakotnejas-tehniskas-problemas",
-"title": "\"Visi vai nu nokavēs lidmašīnas, vai nezinu, kas notiks!\" Rīgas lidosta novērsusi sākotnējās tehniskās problēmas",
-"summary": "Cilvēki soctīklos ziņo, ka Rīgas lidostā 17. oktobra rītā nestrādā nododamo somu lenta. Tehniskās problēmas apstiprinājusi arī lidosta.",
-"pub": "2026-10-17",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/733655-blinnaia-vecerinka-na-bolote-i-tur-za-kulisy-gorodskix-sluzb-iurmala-priglasaet-na-nedeliu-ekskursii",
-"title": "Блинная вечеринка на болоте и тур за кулисы городских служб: Юрмала приглашает на неделю экскурсий",
-"summary": "С 19 по 25 октября в Юрмале пройдет Осенняя неделя экскурсий, которая приглашает взглянуть на город по-новому. В программе - пешие походы и велоэкскурсии, творческие мастерские и практические занятия, а также возможность узнать больше о работе городских предприятий и служб.",
-"pub": "2026-10-17",
-"source": "rus.jauns.lv",
-"score": 6
-},
-{
-"link": "https://www.delfi.lv/kultura/174/music/120138819/celojums-uz-devindesmitajiem-baudi-placebo-koncertu-fotografijas",
-"title": "Ceļojums uz deviņdesmitajiem. Baudi \"Placebo\" koncertu fotogrāfijās!",
-"summary": "Piektdienas, 17. oktobra, vakarā Rīgā ar īpašu koncertu uzstājās britu grupa \"Placebo\". Grupas kodols – Braiens Molko un Stefans Olsdāls – šogad svin 30 gadus kopš debijas albuma izdošanas un tam par godu devušies turnejā.",
-"pub": "2026-10-17",
-"source": "delfi.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/bijam-aizmirsusi-ka-tas-ir-pec-placebo-koncerta-kura-grupa-aicinaja-nelietot-telefonus-apmekletaji-dalas-iespaidos",
-"title": "“Bijām aizmirsuši, kā tas ir.” Pēc “Placebo” koncerta, kurā grupa aicināja nelietot telefonus, apmeklētāji dalās iespaidos",
-"summary": "Mūsdienās telefons ir kļuvis par neatņemamu ikdienas sastāvdaļu, un arī koncertos daudzi vēlas nofilmēt iemīļotās dziesmas, lai vēlāk tās noskatītos vai dalītos ar iespaidiem sociālajos tīklos. Taču vai, cenšoties saglabāt katru mirkli telefona galerijā, mēs nepazaudējam pašu svarīgāko – iespēju to ",
-"pub": "2026-10-17",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/17.10.2026-ikskile-atklaj-rakstnieces-noras-ikstenas-lasitavu.a668012/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Ikšķilē atklāj rakstnieces Noras Ikstenas lasītavu",
-"summary": "Noras ballīte vai pat festivāls – tā par rakstnieces Noras Ikstenas dzimšanas nedēļas svinību notikumiem saka viņas ģimene un cilvēki, kas ar viņiem kopā svin Noras Ikstenas dzimšanas dienu. Ikšķiles pilsētas bibliotēkā arī atklāta īpaša lasītava par godu Latvijas un pasaules literatūrā nozīmīgajai ",
-"pub": "2026-10-17",
-"source": "lsm.lv",
-"score": 6
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/733657-iskat-iantar-s-fonarikami-na-pobereze-pavilosty-zapisites-na-uvlekatelnuiu-progulku",
-"title": "Искать янтарь с фонариками на побережье Павилосты - запишитесь на увлекательную прогулку",
-"summary": "Осенним вечером на побережье Латвии можно будет отправиться на необычную прогулку с фонариками, узнать старинные секреты добычи янтаря и увидеть берег в ультрафиолетовом свете. На участие в мероприятии отведено всего 50 мест.",
-"pub": "2026-10-17",
-"source": "rus.jauns.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8566446",
-"title": "Eiropas valstis izmēģinās pēckara miera uzturētāju pārvietošanu uz Ukrainu",
-"summary": "Polijas teritorijā novembrī notiks mācības par Eiropas miera uzturēšanas spēku pārvietošanu uz Ukrainu gadījumā, ja tiktu panākts uguns pārtraukšanas režīms starp Krieviju un Ukrainu, atsaucoties uz informētiem avotiem, raksta The Times. Manevros piedalīsies aptuveni 1500 britu, franču, vācu un poļu",
-"pub": "2026-10-17",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8566454",
-"title": "Европейские страны проведут испытания по переброске послевоенных миротворческих сил в Украину",
-"summary": "На территории Польши в ноябре пройдут учения по переброске европейских миротворческих сил в Украину на случай, если между Россией и Украиной удастся достичь режима прекращения огня, пишет The Times со ссылкой на информированные источники. В маневрах примут участие около 1500 британских, французских,",
-"pub": "2026-10-17",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8566396",
-"title": "Ночью местами пройдут дожди и образуется туман",
-"summary": "В Латвии ночью местами, преимущественно в центральных районах, ожидаются кратковременные дожди и морось, прогнозирует Латвийский центр окружающей среды, геологии и метеорологии (LVĢMC).",
-"pub": "2026-10-17",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/10/17/posle-dozdei-i-tumana-v-latviiu-pridet-anticiklon-kakoi-budet-pogoda-v-nacale-nedeli?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "После дождей и тумана в Латвию придет антициклон: какой будет погода в начале недели",
-"summary": "В ночь на воскресенье, 18 октября, в Латвии местами пройдут небольшие дожди, а на востоке страны образуется туман, который может ухудшить видимость на дорогах. Температура воздуха опустится до +3…+8 градусов. Однако уже в начале следующей недели синоптики обещают более сухую погоду с частыми проясне",
-"pub": "2026-10-17",
-"source": "bb.lv",
-"score": 7
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/733781-pieaug-bazas-par-karala-carlza-iii-veselibu-monarhs-neierodas-uz-nozimigu-pasakumu",
-"title": "Pieaug bažas par karaļa Čārlza III veselību – monarhs neierodas uz nozīmīgu pasākumu",
-"summary": "Lielbritānijas karaļa Čārlza III veselības stāvoklis atkal nonācis uzmanības centrā pēc tam, kad 77 gadus vecais monarhs negaidīti izlaidis nozīmīgu pasākumu, kuru jau ilgstoši bija plānots apmeklēt. Karaļa prombūtne radījusi satraukumu Londonas augstākajās sabiedrības aprindās, bet karaļnama pietuv",
-"pub": "2026-10-17",
-"source": "jauns.lv",
-"score": 4
-},
-{
-"link": "https://rus.jauns.lv/article/afisha/733633-ot-mirovoi-slavy-do-licnyx-tragedii-sonora-vaice-rasskazet-istoriiu-marii-kallas",
-"title": "От мировой славы до личных трагедий: Сонора Вайце расскажет историю Марии Каллас",
-"summary": "23 октября в 19:00 в Лиепайском театре состоится показ спектакля \"Мастер-класс\", посвященного легендарной оперной певице Марии Каллас. Позднее постановку смогут увидеть зрители Риги и Юрмалы.",
-"pub": "2026-10-17",
-"source": "rus.jauns.lv",
-"score": 8
-},
-{
-"link": "https://pmo.ee/8566488",
-"title": "ВИДЕО ⟩ Трамп \"с огромным удовольствием\" приветствовал бы Путина на саммите G20",
-"summary": "Президент США Дональд Трамп заявил, что \"с огромным удовольствием\" принял бы президента России Владимира Путина на саммите G20, который пройдет в декабре в Майами. Однако, отвечая на вопросы журналистов, Трамп отметил, что не знает, будет ли Путин участвовать в саммите. Об этом свидетельствует видео",
-"pub": "2026-10-17",
-"source": "rus.tvnet.lv",
-"score": 8
-},
-{
-"link": "https://jauns.lv/raksts/zinas/733796-latvijas-svetku-un-atzimejamo-dienu-kalendaru-rosina-papildinat-ar-vel-vienu-datumu",
-"title": "Latvijas svētku un atzīmējamo dienu kalendāru rosina papildināt ar vēl vienu datumu",
-"summary": "Tieslietu ministrija (TM) rosina noteikt 8. jūliju par Penitenciārās sistēmas darbinieku dienu, paredzot Ieslodzījuma vietu pārvaldei (IeVP) iespēju atzīmēt profesionālos svētkus.",
-"pub": "2026-10-17",
-"source": "jauns.lv",
-"score": 4
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/733795-divus-gadus-pec-liama-peina-naves-harijs-stailss-aizkustina-fanus-ar-ipasu-veltijumu-mirusajam-draugam",
-"title": "Divus gadus pēc Liama Peina nāves Harijs Stailss aizkustina fanus ar īpašu veltījumu mirušajam draugam",
-"summary": "Britu dziedātājs Harijs Stailss emocionāli pieminējis savu bijušo grupas \"One Direction\" biedru Liamu Peinu, kurš pirms diviem gadiem traģiski gāja bojā Argentīnā. Koncertā Ņujorkā Stailss pirmo reizi izpildījis līdz šim nedzirdētu dziesmu, kuru sarakstījis tieši mirušā drauga piemiņai.",
-"pub": "2026-10-17",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/733792-negribu-izskatities-pec-mirusa-cilveka-tramps-negaiditi-atklaj-savus-skaistumkopsanas-paradumus",
-"title": "“Negribu izskatīties pēc miruša cilvēka!” Tramps negaidīti atklāj savus skaistumkopšanas paradumus",
-"summary": "ASV prezidents Donalds Tramps kārtējo reizi pārsteidzis ar neparastiem izteikumiem. Uzstājoties priekšvēlēšanu pasākumā Džordžijas štatā, viņš sācis kritizēt politiskā konkurenta tēriņus kosmētikai, taču saruna negaidīti ievirzījusies pavisam citā gultnē.",
-"pub": "2026-10-17",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/733787-pec-26-gadiem-grincs-varetu-atgriezties-uz-ekraniem-dzimam-kerijam-ir-tikai-viens-nosacijums",
-"title": "Pēc 26 gadiem Grinčs varētu atgriezties uz ekrāniem – Džimam Kerijam ir tikai viens nosacījums",
-"summary": "Viena no visu laiku iemīļotākajām Ziemassvētku filmām \"Kā Grinčs nozaga Ziemassvētkus\" varētu piedzīvot turpinājumu pēc 26 gadiem. Leģendārās 2000. gada filmas režisors Rons Hovards atklājis, ka tiek strādāts pie jauna stāsta un galvenās lomas atveidotājs Džims Kerijs ir ieinteresēts atgriezties. To",
-"pub": "2026-10-17",
-"source": "jauns.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8566516",
-"title": "VIDEO ⟩ Polijas premjers Donalds Tusks prognozē Krievijas ēnu kara saasināšanos līdz Ziemassvētkiem",
-"summary": "Polijas premjerministrs Donalds Tusks paziņojis, ka ir pieejami dati, kas liecina par iespējamu Krievijas hibrīdkarā pret Eiropu notiekošās situācijas eskalāciju ap Ziemassvētku laiku, vēsta WP Wiadomosci.",
-"pub": "2026-10-17",
-"source": "tvnet.lv",
-"score": 4
-},
 {
 "link": "https://www.delfi.lv/life/56017206/veseliba/120138594/sudzibu-nebija-tacu-ilzes-diagnoze-skaneja-skarbi-kruts-vezis",
 "title": "Sūdzību nebija, taču Ilzes diagnoze skanēja skarbi: krūts vēzis",
@@ -4852,6 +4692,166 @@
 "pub": "2026-11-01",
 "source": "bb.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/01.11.2026-latvijas-vesture-caur-izmekletajas-atminam-dramaturgs-un-scenografs-sketina-izradi-principiala-nostaja.a669462/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Latvijas vēsture caur izmeklētājas atmiņām. Dramaturgs un scenogrāfs šķetina izrādi «Principiāla nostāja»",
+"summary": "Latvijas Nacionālajā teātrī pirmizrādi nesen piedzīvojis iestudējums \"Principiāla nostāja\", kas ir jau otrais režisora Roberta Daubura, dramaturga Jāņa Joņeva un scenogrāfa Kristiana Brektes kopdarbs iecerētajā triloģijā par noziegumiem un to izmeklēšanu Latvijā. Latvijas Radio 3 \"Klasika\" raidījumā",
+"pub": "2026-11-01",
+"source": "lsm.lv",
+"score": 8
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/01.11.2026-istoriia-latvii-v-vospominaniiax-sledovatelia-dramaturg-i-scenograf-rasskazyvaiut-o-spektakle-principialnaia-poziciia.a669991/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "История Латвии в воспоминаниях следователя. Драматург и сценограф рассказывают о спектакле «Принципиальная позиция»",
+"summary": "На сцене Латвийского Национального театра недавно состоялась премьера спектакля «Принципиальная позиция». Это уже вторая совместная работа режиссера Роберта Даубурса, драматурга Яниса Йоневса и сценографа Кристиана Бректе в задуманной трилогии о преступлениях и их расследовании в Латвии.",
+"pub": "2026-11-01",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/samoupravlenija/01.11.2026-rekordnyi-interes-k-rabote-v-novoi-tiurme-liepai.a670002/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Рекордный интерес к работе в новой тюрьме Лиепаи",
+"summary": "Одним из самых востребованных мест работы в Лиепае, кажется, становится тюрьма. На день открытых дверей зарегистрировалось рекордное число желающих — 130 человек. Главным стимулом для них стало сочетание заработной платы и социальных гарантий. Мероприятие, организованное Управлением мест заключения ",
+"pub": "2026-11-01",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/736039-neveiksme-velesanas-un-zaudets-valsts-finansejums-kas-talak-notiks-ar-gobzema-sarakstu",
+"title": "Neveiksme vēlēšanās un zaudēts valsts finansējums – kas tālāk notiks ar \"Gobzema sarakstu”?",
+"summary": "Partija \"Gobzema saraksts\", kas jau otrajās vēlēšanās pēc kārtas nav iekļuvusi Saeimā un ir zaudējusi arī valsts finansējumu, vēl mēģinās turpināt partijas darbu un par likvidēšanos nedomā, atklāja partijas valdes loceklis Agris Freifalts.",
+"pub": "2026-11-01",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/736002-dauza-durvis-blaustas-un-bezkaunigi-pieprasa-saldumus-sieviete-pec-halovina-svinibam-neslepj-vilsanos-par-bernu-uzvedibu",
+"title": "\"Dauza durvis, bļaustās un bezkaunīgi pieprasa saldumus!” Sieviete pēc Halovīna svinībām neslēpj vilšanos par bērnu uzvedību",
+"summary": "Aizvadītajā Halovīna vakarā daudzviet Latvijā bērni un jaunieši devās saldumu medībās, taču ne visiem šie svētki sagādājuši prieku. Sociālajā tīklā “Threads” kāda sieviete dalījusies nepatīkamā pieredzē, atklājot, ka šogad saldumu prasītāju uzvedība viņu pamatīgi apbēdinājusi. Viņas ieraksts izraisī",
+"pub": "2026-11-01",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/736009-rozdestvo-pridet-v-rigu-uze-v-noiabre-kogda-otkroiutsia-iarmarki-i-zazgut-glavnuiu-elku",
+"title": "Рождество придет в Ригу уже в ноябре: когда откроются ярмарки и зажгут главную елку",
+"summary": "До Рождества еще почти два месяца, но праздничная атмосфера появится в Риге значительно раньше. Уже в конце ноября в столице начнут работать рождественские ярмарки, засияют первые елки, а жителей и гостей города ждут концерты и другие мероприятия.",
+"pub": "2026-11-01",
+"source": "rus.jauns.lv",
+"score": 10
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/736008-ne-zvonili-a-lomilis-v-dver-zitelnica-latvii-pozalovalas-na-povedenie-detei-v-xellouin",
+"title": "\"Не звонили, а ломились в дверь\": жительница Латвии пожаловалась на поведение детей в Хэллоуин",
+"summary": "Хэллоуин должен быть праздником веселья, креативных костюмов и сладостей, но в этом году не все жители Латвии остались довольны маленькими гостями. Одна из пользовательниц в соцсетях пожаловалась на детей, которые, по ее словам, не звонили в дверь, а буквально ломились в нее. Ее рассказ вызвал бурну",
+"pub": "2026-11-01",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8575127",
+"title": "FOTO ⟩ Cinevillā ar krāšņu svētku programmu noslēdzies deviņu dienu festivāls \"Danger Fest 2026\"",
+"summary": "Sestdien, 31. oktobrī, kinopilsētā \"Cinevilla\" noslēdzās festivāls \"Danger Fest 2026\" ar krāšņu svētku programmu, diviem iespaidīgiem dronu šoviem un konfeti. Deviņu dienu garumā kinopilsēta bija pārvērtusies noslēpumainā digitālās realitātes un šausmu pasaulē.",
+"pub": "2026-11-01",
+"source": "tvnet.lv",
+"score": 13
+},
+{
+"link": "https://pmo.ee/8574450",
+"title": "ATRODI SEVI ⟩ Rīgā aizvadīta seksīgākā Halovīna \"Sexy n’ Scary\" ballīte",
+"summary": "Drosmīgi tērpi, pikanti priekšnesumi un nakts, kurā fantāzijai tika dota vaļa — Tallinas ielas kvartāla Angārā aizvadīta SEXYSTYLE Halovīna ballīte “Sexy n’ Scary”, kas Halovīnu pārvērta par īstiem nerātnības un izklaides svētkiem.",
+"pub": "2026-11-01",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8574226",
+"title": "ATRODI SEVI! ⟩ Mūzika, mistika un šibari - kā Halovīna svinētāji aizvadīja \"Sabatu 2026\"",
+"summary": "31. oktobrī Rīgā jau trešo gadu pēc kārtas norisinājās \"Sabats\" – nakts, kurā pulcējas elektroniskās mūzikas, alternatīvās kultūras un neparastu piedzīvojumu cienītāji. Atrodi sevi pasākuma apmeklētāju vidū!",
+"pub": "2026-11-01",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8575133",
+"title": "НАЙДИ СЕБЯ! ⟩ Sexy n’ Scary: в Риге отмечают Хэллоуин особенно пикантной вечеринкой",
+"summary": "Яркие костюмы, зажигательные выступления и свобода для фантазий - вечеринка SEXYSTYLE в честь Хэллоуина Sexy n’ Scary прошла в ангаре в Таллиннском квартале. Вечер превратился в великолепное празднование озорства и развлечений, в котором не было недостатка в неожиданных персонажах и смелых выступлен",
+"pub": "2026-11-01",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8575066",
+"title": "НАЙДИ СЕБЯ! ⟩ Музыка, мистика и шибари - как празднующие Хэллоуин провели \"Шаббат 2026\"",
+"summary": "31 октября в Риге в третий раз подряд прошел \"Шаббат\" - вечер, на котором собираются поклонники электронной музыки, альтернативной культуры и необычных приключений. Найдите себя среди посетителей этого мероприятия!",
+"pub": "2026-11-01",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8575015",
+"title": "ФОТО ⟩ Новая Лиепайская тюрьма привлекла рекордное число ищущих работу",
+"summary": "На день открытых дверей новой тюрьмы в Лиепае зарегистрировались 130 человек - это пока наибольшее число посетителей на подобных мероприятиях, организуемых Администрацией мест лишения свободы (IeVP). Основные причины, по которым люди рассматривают возможность работать в месте лишения свободы, - конк",
+"pub": "2026-11-01",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8575114",
+"title": "MEKLĒ SEVI! ⟩ \"Sexy n’ Scary\": Rīgā Halovīnu svin ar īpaši pikantu ballīti",
+"summary": "Drosmīgi tērpi, pikantas performances un brīvība ļauties fantāzijai – Tallinas ielas kvartāla Angārā aizvadīta SEXYSTYLE Halovīna ballīte \"Sexy n’ Scary\". Vakars pārvērtās par krāšņiem nerātnības un izklaides svētkiem, kuros netrūka pārsteidzošu tēlu un drosmīgu priekšnesumu.",
+"pub": "2026-11-01",
+"source": "apollo.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8575075",
+"title": "FOTOREPORTĀŽA ⟩ Cinevillā ar krāšņu svētku programmu noslēdzies deviņu dienu festivāls \"Danger Fest 2026\"",
+"summary": "Sestdien, 31. oktobrī, kinopilsētā \"Cinevilla\" noslēdzās festivāls \"Danger Fest 2026\" ar krāšņu svētku programmu, diviem iespaidīgiem dronu šoviem un konfeti. Deviņu dienu garumā kinopilsēta bija pārvērtusies noslēpumainā digitālās realitātes un šausmu pasaulē.",
+"pub": "2026-11-01",
+"source": "apollo.lv",
+"score": 13
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/01/tragediia-v-nepale-v-rige-sobiraiut-sredstva-dlia-semei-33-propavsix-zitelei-latvii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Трагедия в Непале: в Риге собирают средства для семей 33 пропавших жителей Латвии",
+"summary": "Сегодня, 1 ноября, в рижском торговом центре Spice объявят сумму пожертвований, собранных в ходе благотворительной выставки и аукциона «Через горы — к своим» (Pāri kalniem – pie savējiem).",
+"pub": "2026-11-01",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/iezimejas-reta-paradiba-polarais-virpulis-kas-varetu-ietekmet-ziemas-iestasanos-ari-latvija",
+"title": "Iezīmējas reta parādība – polārais virpulis, kas varētu ietekmēt ziemas iestāšanos arī Latvijā",
+"summary": "Šis ir salīdzinoši silts un skaists rudens, taču skaidrs, ka agri vai vēlu klāt būs arī ziema. Un izskatās, ka šogad tas notiks netipiski. Par to liecina @meteolatvia ieraksts sociālajos tīklos. Tiek skaidrots, ka pēdējās nedēļās prognozēs iezīmējas reta atmosfēras parādība – pēkšņa stratosfēras sas",
+"pub": "2026-11-01",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/palika-aiz-svitras-tomer-padoties-negrasas-kas-talak-notiks-ar-gobzema-sarakstu",
+"title": "Palika aiz svītras, tomēr padoties negrasās. Kas tālāk notiks ar “Gobzema sarakstu”?",
+"summary": "Partija “Gobzema saraksts”, kas jau otrajās vēlēšanās pēc kārtas nav iekļuvusi Saeimā un ir zaudējusi arī valsts finansējumu, vēl mēģinās turpināt partijas darbu un par likvidēšanos nedomā, aģentūrai LETA klāstīja partijas valdes loceklis Agris Freifalts. Pirms 14. Saeimas vēlēšanām šo partiju izvei",
+"pub": "2026-11-01",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/foto-cinevilla-ar-krasnu-svetku-programmu-nosledzies-devinu-dienu-festivals-danger-fest-2026",
+"title": "FOTO. Cinevillā ar krāšņu svētku programmu noslēdzies deviņu dienu festivāls “Danger Fest 2026”",
+"summary": "Sestdien, 31. oktobrī, kinopilsētā “Cinevilla” noslēdzās festivāls “Danger Fest 2026” ar krāšņu svētku programmu, diviem iespaidīgiem dronu šoviem un konfeti. Deviņu dienu garumā kinopilsēta bija pārvērtusies noslēpumainā digitālās realitātes un šausmu pasaulē. Tās atmosfēru veidoja 27 interaktīvi o",
+"pub": "2026-11-01",
+"source": "la.lv",
+"score": 13
+},
+{
+"link": "https://www.la.lv/svesas-durvis-nav-boksa-maiss-un-konfektes-nav-obligata-nodeva-halovina-svinetaji-daudziem-skiet-nepienemami",
+"title": "“Svešas durvis nav boksa maiss, un konfektes nav obligāta nodeva!” Halovīna svinētāji daudziem šķiet nepieņemami",
+"summary": "Vakar, 31. oktobrī, daudzviet pasaulē tika svinēts Halovīns, kas arvien lielāku popularitāti iegūst arī Latvijā. Īpaši iecienīti šie svētki kļuvuši bērnu un jauniešu vidū – viņi pārģērbjas par spokiem, raganām un citiem mošķiem, dodas no mājas uz māju un lūdz saldumus. Daudzi iedzīvotāji šai dienai ",
+"pub": "2026-11-01",
+"source": "la.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -8872,7 +8872,25 @@
 "https://jauns.lv/raksts/zinas/735951-dienvidkurzeme-godinas-36-cilvekus-uzzini-kas-sanems-novada-augstakos-apbalvojumus",
 "https://rus.jauns.lv/article/novosti/735927-mnenie-cto-izmenilos-v-latvii-s-90-x-v-upravlenii-stranoi-idealizm-smenilsia-borboi-za-vlast-i-dengi",
 "https://rus.jauns.lv/article/polezno/735932-xoteli-ugostit-detei-konfetami-a-sdelali-podarok-prestupnikam-opasnaia-storona-xellouinskix-kart",
-"https://www.la.lv/ko-drikst-un-nedrikst-darit-halovina-ticejumi-aizliegumi-un-seni-rituali"
+"https://www.la.lv/ko-drikst-un-nedrikst-darit-halovina-ticejumi-aizliegumi-un-seni-rituali",
+"https://www.lsm.lv/raksts/zinas/latvija/31.10.2026-sudrabkalnina-piemin-neatkaribas-cinu-dalibniekus.a669999/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8574907",
+"https://www.la.lv/vai-tu-esi-tik-drosmigs-lai-naksnotu-nacionalaja-biblioteka-gaismas-pili-gaidams-neparasts-pasakums",
+"https://www.la.lv/halovina-vakars-ne-visiem-sagada-prieku-luk-ko-dara-latviesi-kuri-sovakar-negaida-cieminus",
+"https://rus.jauns.lv/article/novosti/734324-dva-raza-po-cetyre-vyxodnyx-podriad-kak-ziteli-latvii-budut-rabotat-i-otdyxat-v-noiabre-i-dekabre",
+"https://bb.lv/statja/kultura/2026/11/01/rossiiskaia-mobilizaciia-v-latviiskix-dekoraciiax-riga-sygrala-oblastnoi-centr-rf-i-vosxitila-francuzov?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://jauns.lv/raksts/zinas/736002-dauza-durvis-blaustas-un-bezkaunigi-pieprasa-saldumus-sieviete-pec-halovina-svinibam-neslepj-vilsanos-par-bernu-uzvedibu",
+"https://rus.jauns.lv/article/afisha/736009-rozdestvo-pridet-v-rigu-uze-v-noiabre-kogda-otkroiutsia-iarmarki-i-zazgut-glavnuiu-elku",
+"https://rus.jauns.lv/article/novosti/736008-ne-zvonili-a-lomilis-v-dver-zitelnica-latvii-pozalovalas-na-povedenie-detei-v-xellouin",
+"https://pmo.ee/8575127",
+"https://pmo.ee/8574450",
+"https://pmo.ee/8575133",
+"https://pmo.ee/8575066",
+"https://pmo.ee/8575114",
+"https://pmo.ee/8575075",
+"https://bb.lv/statja/nasha-latvija/2026/11/01/tragediia-v-nepale-v-rige-sobiraiut-sredstva-dlia-semei-33-propavsix-zitelei-latvii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/foto-cinevilla-ar-krasnu-svetku-programmu-nosledzies-devinu-dienu-festivals-danger-fest-2026",
+"https://www.la.lv/svesas-durvis-nav-boksa-maiss-un-konfektes-nav-obligata-nodeva-halovina-svinetaji-daudziem-skiet-nepienemami"
 ],
 "tips_debug": {
 "date": "2026-10-29",
