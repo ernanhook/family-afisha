@@ -54,30 +54,6 @@
 },
 "portal_queue": [
 {
-"link": "https://rus.jauns.lv/article/novosti/733715-v-rige-proidet-mezdunarodnaia-vystavka-obrazovaniia-cto-predlozat-budushhim-studentam",
-"title": "В Риге пройдет международная выставка образования: что предложат будущим студентам",
-"summary": "Хотите учиться за границей, но не знаете, с чего начать и сколько это будет стоить? В субботу в Риге пройдет международная выставка образования, где представители более 50 учебных заведений расскажут о программах, условиях поступления, стипендиях и возможностях финансирования учебы.",
-"pub": "2026-10-17",
-"source": "rus.jauns.lv",
-"score": 15
-},
-{
-"link": "https://pmo.ee/8566235",
-"title": "Jēkabpils novadā norisināsies Zemessardzes mācības",
-"summary": "Šodien un rīt Jēkabpils novadā norisināsies Zemessardzes 56. kaujas nodrošinājuma bataljona zemessargu plānveida militārās mācības, informēja Zemessardzē.",
-"pub": "2026-10-17",
-"source": "tvnet.lv",
-"score": 8
-},
-{
-"link": "https://pmo.ee/8566238",
-"title": "MEKLĒ SEVI! ⟩ \"Placebo\" Rīgā ar nostalģiju un vērienu svin 30 gadu jubileju",
-"summary": "Piektdien, 16. oktobrī, \"Xiaomi\" arēnā Rīgas publiku priecēja britu alternatīvā roka grupa \"Placebo\", atzīmējot savas darbības 30. gadadienu. Koncertā uzstājās arī īpašie viesi \"Kallsup\". Ielūkojies koncerta atmosfērā un meklē sevi fanu pūlī!",
-"pub": "2026-10-17",
-"source": "apollo.lv",
-"score": 4
-},
-{
 "link": "https://www.lsm.lv/raksts/zinas/latvija/17.10.2026-riga-paplasinati-atbalsta-pasakumi-cilvekiem-bez-majokla.a667482/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "Rīgā paplašināti atbalsta pasākumi cilvēkiem bez mājokļa",
 "summary": "Sākoties rudenim, galvaspilsētā piedāvā plašāku palīdzību bezpajumtniekiem – no 1.oktobra Rīgā paplašināti atbalsta pasākumi. Šomēnes naktspatversmes strādā no plkst. 18 vakarā līdz plkst. 8 rītā, un tajās ir palielināts vietu skaits. Tiks arī pastiprināti apsekotas dzīvošanai nepiemērotas vietas, l",
@@ -4852,12 +4828,33 @@
 "pub": "2026-10-31",
 "source": "tvnet.lv",
 "score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/734324-dva-raza-po-cetyre-vyxodnyx-podriad-kak-ziteli-latvii-budut-rabotat-i-otdyxat-v-noiabre-i-dekabre",
+"title": "Два раза по четыре выходных подряд: как жители Латвии будут работать и отдыхать в ноябре и декабре",
+"summary": "До конца 2026 года осталось всего два месяца, и впереди жителей Латвии ждут государственные праздники, дополнительные выходные и сокращенные рабочие дни. Особенно приятным окажется декабрь, когда появится возможность дважды отдохнуть по четыре дня подряд.",
+"pub": "2026-10-31",
+"source": "rus.jauns.lv",
+"score": 4
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120140632/zapah-i-privkus-hlora-s-ponedelnika-v-rige-profilakticheskaya-dezinfekciya-vodoprovodnyh-setey",
+"title": "Запах и привкус хлора: с понедельника в Риге - профилактическая дезинфекция водопроводных сетей",
+"summary": "Для поддержания качества подаваемой воды с полуночи понедельника, 2 ноября, и до 23.59 четверга, 5 ноября, в Риге пройдет вторая и заключительная в этом году профилактическая дезинфекция водопроводных сетей, или хлорирование, сообщили агентству LETA в отделе коммуникации SIA Rīgas ūdens.",
+"pub": "2026-11-01",
+"source": "rus.delfi.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/11/01/rossiiskaia-mobilizaciia-v-latviiskix-dekoraciiax-riga-sygrala-oblastnoi-centr-rf-i-vosxitila-francuzov?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Российская мобилизация в латвийских декорациях: Рига сыграла областной центр РФ и восхитила французов",
+"summary": "Если у кого-то из уважаемых читателей в жизни — череда бытовых неурядиц, то обязательно посмотрите последнюю кинокартину Андрея Петровича Звягинцева (1964), недавно получившую Гран-при на Каннском фестивале. И тогда вы, проголосовав трудовым евро, как ваш автор, точно сэкономите на психотерапии. Вый",
+"pub": "2026-11-01",
+"source": "bb.lv",
+"score": 4
 }
 ],
-"portal_errors": {
-"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
-"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
-},
+"portal_errors": {},
 "places_history": [
 [
 "2026-10-13",
