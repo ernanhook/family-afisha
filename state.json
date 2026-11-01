@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.0005947000000000001,
-"calls": 1
+"cost": 0.0007171,
+"calls": 2
 },
 "last_digest": "2026-10-29",
 "shown_ongoing": {
@@ -53,46 +53,6 @@
 "count": 45
 },
 "portal_queue": [
-{
-"link": "https://www.delfi.lv/life/56017206/veseliba/120138594/sudzibu-nebija-tacu-ilzes-diagnoze-skaneja-skarbi-kruts-vezis",
-"title": "Sūdzību nebija, taču Ilzes diagnoze skanēja skarbi: krūts vēzis",
-"summary": "“Tiku cauri ar vieglu izbīli!” saka 56 gadus vecā pirmsskolas skolotāja Ilze Ščeglova, kurai 2026. gada augusta beigās atklāja krūts vēzi pirmajā stadijā. Viņa nejuta pilnīgi nekādu simptomu un pati audzēju nebūtu varējusi sataustīt. To atklāja skrīningā. Krūts vēzis ir biežākā onkoloģiskā saslimšan",
-"pub": "2026-10-17",
-"source": "delfi.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/video-kad-velme-parspej-varesanu-virietis-megina-pirmaja-stava-nosvinet-kazas-bet-otraja-berna-svetkus-ar-citu-sievieti",
-"title": "VIDEO. Kad vēlme pārspēj varēšanu: vīrietis mēģina pirmajā stāvā nosvinēt kāzas, bet otrajā — bērna svētkus ar citu sievieti",
-"summary": "Ķīnas dienvidrietumos, Guidžou provincē, kāda vīrieša pārdrošais svinību plāns pārvērties publiskā skandālā ar policijas iesaistīšanos. Vīrietis vārdā Vū vienā un tajā pašā dienā un pat vienā ēkā noorganizējis divas pavisam atšķirīgas svinības ar divām dažādām sievietēm, vēsta ārzemju mediji. Vietēj",
-"pub": "2026-10-17",
-"source": "la.lv",
-"score": 6
-},
-{
-"link": "https://bb.lv/statja/kultura/2026/10/18/pauki-privideniia-i-zagadocnye-ispytaniia-v-ventspilse-ustroiat-besplatnyi-xellouin-dlia-detei?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Пауки, привидения и загадочные испытания: в Вентспилсе устроят бесплатный Хэллоуин для детей",
-"summary": "31 октября научный центр VIZIUM в Вентспилсе превратится в таинственное Царство пауков. В честь Хэллоуина здесь организуют бесплатный праздник HaloVIZIUM, на котором детей и их родителей ждут необычные приключения, творческие задания и веселые испытания.",
-"pub": "2026-10-18",
-"source": "bb.lv",
-"score": 8
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/18.10.2026-kapec-latgales-kazas-jaslepj-kaposti-folkloras-festivala-daugavpili-vesta-par-kazu-tradicijam.a667956/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Kāpēc Latgales kāzās jāslēpj kāposti? Folkloras festivālā Daugavpilī vēsta par kāzu tradīcijām",
-"summary": "Daugavpilī norisinās 13. Starptautiskais folkloras festivāls, un tā tēma šoreiz ir \"Kāzas, kāzas būs\". Kāzu dziesmas, tradīcijas, izdarības un stāsti par to, kāpēc ir svarīgi kāzu otrajā dienā nosargāt sautētos kāpostos – to visu iespējams uzzināt festivālā.",
-"pub": "2026-10-18",
-"source": "lsm.lv",
-"score": 10
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/18.10.2026-riga-rudens-lapu-pienemsanas-punkti-darbu-saks-24-oktobri.a666383/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Rīgā rudens lapu pieņemšanas punkti darbu sāks 24. oktobrī",
-"summary": "Rīgas pašvaldība mēneša garumā, no 24. oktobra līdz 22. novembrim, piedāvās iedzīvotājiem iespēju bez maksas nodot savāktās koku un krūmu lapas. Lapu pieņemšana galvenokārt notiks nedēļas nogalēs, bet atsevišķi punkti strādās arī darba dienās.",
-"pub": "2026-10-18",
-"source": "lsm.lv",
-"score": 3
-},
 {
 "link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/18.10.2026-tigeriene-nevis-ievas-ziedins-atvara-skaties-nacionala-teatra-izradi-ilgu-tramvajs.a667970/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "Tīģeriene, nevis ievas ziediņš atvarā. Skaties Nacionālā teātra izrādi «Ilgu tramvajs»",
@@ -4852,6 +4812,46 @@
 "pub": "2026-11-01",
 "source": "la.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/01.11.2026-bauska-jau-tagad-lemj-par-ziemassvetku-egli.a670058/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Bauskā jau tagad lemj par Ziemassvētku egli",
+"summary": "Lai gan līdz Ziemassvētkiem vēl nepilni divi mēneši, Bauskā jau tagad domā arī par šiem svētkiem. Iedzīvotāji lēmuši, ka pēc vairāku gadu pārtraukuma pilsētas Rātslaukumā atkal tiks uzstādīta dabīga Ziemassvētku egle. Taču pārmaiņas gaidāmas tikai pēc gada.",
+"pub": "2026-11-01",
+"source": "lsm.lv",
+"score": 10
+},
+{
+"link": "https://pmo.ee/8575256",
+"title": "Tiesa sāks debates par nelikumībām RAKUS saliedēšanās pasākuma organizēšanā",
+"summary": "Rīgas pilsētas tiesā 23. novembrī plkst. 9.30 sāksies tiesas debates krimināllietā, kurā saistībā ar iespējamām nelikumībām izklaides pasākuma organizēšanā apsūdzēti Rīgas Austrumu klīniskās universitātes slimnīcas (RAKUS) Neatliekamās medicīnas un pacientu uzņemšanas klīnikas vadītājs Aleksejs Višņ",
+"pub": "2026-11-01",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8575232",
+"title": "FOTOREPORTĀŽA ⟩ Līgavu tērpi un sabiedrības krāšņākie vakartērpi: ieskats \"Baltic Wedding Fashion Show\"",
+"summary": "Rīgā norisinājies vērienīgais kāzu modes pasākums \"Baltic Wedding Fashion Show\", kurā līgavu tērpu elegance mijās ar daiļslidošanas priekšnesumiem. Piedāvājam aplūkot vakara spilgtākos mirkļus, iespaidīgos tērpus un viesu stilu vairāk nekā 100 fotogrāfijās!",
+"pub": "2026-11-01",
+"source": "apollo.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/saulkrastos-konfektes-saliktas-adatas-madliena-saudas-halovina-svinesana-sogad-daudzviet-izgajusi-arpus-robezam",
+"title": "Saulkrastos konfektēs saliktas adatas, Madlienā šaudās – Halovīna svinēšana šogad daudzviet izgājusi ārpus robežām",
+"summary": "31. oktobra vakarā daudzviet Latvijā bērni un jaunieši devās Halovīna piedzīvojumos, pārģērbušies dažādos tēlos un apstaigājot mājas, lai saņemtu saldumus. Taču ne visiem šie svētki beigušies ar patīkamām emocijām. Sociālajā tīklā “Facebook” vairāki iedzīvotāji dalījušies ar satraucošiem stāstiem pa",
+"pub": "2026-11-01",
+"source": "la.lv",
+"score": 6
+},
+{
+"link": "https://www.la.lv/oranzais-bridinajums-divos-latgales-novados-iedzivotaji-aicinatu-ieverot-divu-sienu-principu",
+"title": "Oranžais brīdinājums Latgales novados noslēdzies",
+"summary": "Latvijas gaisa telpā svētdien tika konstatēts apdraudējums, kura dēļ Krāslavas un Ludzas novadu iedzīvotāji tika aicināti nekavējoties doties telpās un ievērot drošības pasākumus. Par to sociālajā tīklā “Facebook” informēja militāro ziņu portāls “Sargs.lv”, publicējot oranžā līmeņa brīdinājumu. “APD",
+"pub": "2026-11-01",
+"source": "la.lv",
+"score": 3
 }
 ],
 "portal_errors": {},
@@ -8890,7 +8890,9 @@
 "https://pmo.ee/8575075",
 "https://bb.lv/statja/nasha-latvija/2026/11/01/tragediia-v-nepale-v-rige-sobiraiut-sredstva-dlia-semei-33-propavsix-zitelei-latvii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
 "https://www.la.lv/foto-cinevilla-ar-krasnu-svetku-programmu-nosledzies-devinu-dienu-festivals-danger-fest-2026",
-"https://www.la.lv/svesas-durvis-nav-boksa-maiss-un-konfektes-nav-obligata-nodeva-halovina-svinetaji-daudziem-skiet-nepienemami"
+"https://www.la.lv/svesas-durvis-nav-boksa-maiss-un-konfektes-nav-obligata-nodeva-halovina-svinetaji-daudziem-skiet-nepienemami",
+"https://www.lsm.lv/raksts/zinas/latvija/01.11.2026-bauska-jau-tagad-lemj-par-ziemassvetku-egli.a670058/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.la.lv/saulkrastos-konfektes-saliktas-adatas-madliena-saudas-halovina-svinesana-sogad-daudzviet-izgajusi-arpus-robezam"
 ],
 "tips_debug": {
 "date": "2026-10-29",
