@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.0009475,
-"calls": 3
+"cost": 0.0014297000000000001,
+"calls": 4
 },
 "last_digest": "2026-10-29",
 "shown_ongoing": {
@@ -53,182 +53,6 @@
 "count": 45
 },
 "portal_queue": [
-{
-"link": "https://jauns.lv/raksts/izklaide/734042-pec-gandriz-40-gadiem-turpinajumu-piedzivos-legendara-filma-netiras-dejas",
-"title": "Pēc gandrīz 40 gadiem turpinājumu piedzīvos leģendārā filma “Netīrās dejas”",
-"summary": "Gandrīz četras desmitgades pēc romantiskās filmas “Netīrās dejas” pirmizrādes tās cienītāji beidzot varēs uzzināt, kā turpinājies iemīļotās varones Mazulītes dzīvesstāsts. Filmas veidotāji atklājuši jaunas detaļas par ilgi gaidīto turpinājumu, tostarp to, kā tajā tiks godināta 2009. gadā mūžībā aizg",
-"pub": "2026-10-19",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/lifestyle/733994-foto-v-teatre-cexova-prosla-premera-spektaklia-erik-i-anna-o-druzbe-i-liubvi",
-"title": "ФОТО: в Театре Чехова прошла премьера спектакля \"Эрик и Анна\" о дружбе и любви",
-"summary": "17 октября в аркаде театра Чехова состоялась премьера спектакля \"Эрик и Анна\" режиссера Дж. Дж. Джилинджера - истории о дружбе, любви и чувствах, в которых не так просто разобраться.",
-"pub": "2026-10-19",
-"source": "rus.jauns.lv",
-"score": 4
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/734005-rizan-predupredili-v-trex-raionax-goroda-vozmozno-pomutnenie-vody",
-"title": "Рижан предупредили: в трех районах города возможно помутнение воды",
-"summary": "На этой неделе в Риге пройдет промывка магистрального водопровода от поворота на Лангстини (Видземское шоссе) до станции водоподготовки \"Закюмуйжа\". Работы запланированы на трое суток – со вторника, 20 октября, с 8:00 до пятницы, 23 октября, до 8:00. Во время промывки возможно помутнение воды на Югл",
-"pub": "2026-10-19",
-"source": "rus.jauns.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8567485",
-"title": "Premjers trīs dienas būs ārpus Latvijas; nenotiks konsultācijas par jaunās valdības veidošanu",
-"summary": "Ministru prezidents Andris Kulbergs (AS) no 21. oktobra līdz 23. oktobrim būs atvaļinājumā un šajā laikā uzturēsies ārpus Latvijas, tādēļ nenotiks iepriekš plānotās tikšanās, tostarp arī konsultācijas par jaunās valdības veidošanu.",
-"pub": "2026-10-19",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8567318",
-"title": "Izstāde \"Sargājot brīvību\" Cēsīs: Ukrainas karavīru stāsti fotogrāfijās un TVNET video liecības no frontes",
-"summary": "Cēsīs, Konrāda kvartāla Draugu nama galerijas Stikla zālē, ceturtdien, 15. oktobrī, atklāta Ukrainas aizstāvjiem veltīta lielformāta fotogrāfiju izstāde \"Sargājot brīvību\".",
-"pub": "2026-10-19",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://rus.delfi.lv/57860/latvia/120139169/soyuz-zelenyh-i-krestyan-predlagaet-popolnit-spisok-prazdnichnyh-dney",
-"title": "Союз \"зеленых\" и крестьян предлагает пополнить список праздничных дней",
-"summary": "Союз \"зелёных\" и крестьян предложит включить День работников леса в список праздничных дней, сообщил в понедельник журналистам после заседания коалиционных партий глава фракции в Сейме Харийс Рокпелнис, сообщает LETA.",
-"pub": "2026-10-19",
-"source": "rus.delfi.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8567473",
-"title": "Privātu apstākļu dēļ Kulbergs šonedēļ trīs dienas būs atvaļinājumā",
-"summary": "Ministru prezidents Andris Kulbergs (AS) no 21. oktobra līdz 23. oktobrim būs atvaļinājumā un šajā laikā uzturēsies ārpus Latvijas, tādēļ nenotiks iepriekš plānotās tikšanās, tostarp arī konsultācijas par jaunās valdības veidošanu.",
-"pub": "2026-10-19",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/video-skolas-gaiteni-peksni-izcelas-kautins-direktors-steidzas-skirt-skolenus-tacu-talakais-vinu-atstaj-bez-valodas",
-"title": "VIDEO. Skolas gaitenī pēkšņi izceļas kautiņš! Direktors steidzas šķirt skolēnus, taču tālākais viņu atstāj bez valodas",
-"summary": "ASV Džordžijas štata vidusskolā norisinājies aizkustinošs gadījums, kurā skolēni pierādīja, ka patiesi mīl un ciena savu skolas direktoru. Lai apsveiktu iemīļoto vadītāju dzimšanas dienā, jaunieši sarīkoja viltus kautiņu, lai pievilinātu viņu uz notikuma vietu un pārsteigtu ar svētku dziesmu. Video ",
-"pub": "2026-10-19",
-"source": "la.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8567444",
-"title": "INTERVIJA ⟩ Diriģents Karels Marks Šišons: \"Novest līdz finālam jebkuru Mālera simfoniju būtībā ir cīņa\"",
-"summary": "\"Uzaicinājums diriģēt tik nozīmīgu simtgades koncertu mani patiesi aizkustina. Tas ir milzīgs gods un savā ziņā noslēdz arī konkrētu radošo loku manā dzīvē,\" atzīst Grankanārijas Simfoniskā orķestra mākslinieciskais vadītājs, diriģents Karels Marks Šišons. Koncerts, par kuru Maestro runā, ir Latvija",
-"pub": "2026-10-19",
-"source": "tvnet.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8564983",
-"title": "Семейный творческий союз? Джилинджер и Калниня представили новый спектакль в Театре Чехова",
-"summary": "17 октября в Аркаде Рижского русского театра имени Михаила Чехова состоялась премьера спектакля режиссера Дж. Дж. Джилинджера \"Эрик и Анна\" по пьесе эстонского драматурга Тима Янсона.",
-"pub": "2026-10-19",
-"source": "rus.tvnet.lv",
-"score": 6
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/20.10.2026-izveidota-halovina-saldumu-karte-karumu-medniekiem-specialisti-atgadina-par-drosibu.a668233/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Izveidota Halovīna saldumu karte kārumu medniekiem; speciālisti atgādina par drošību",
-"summary": "Skolēnu rudens brīvlaiks skolēnos rit pilnā sparā, bet pavisam drīz vairāki bērni vilks spocīgus kostīmus, gatavojoties Visu svēto dienas priekšvakaram jeb Halovīnam. Lai atvieglotu svētku plānošanu, Latvijā tapusi unikāla saldumu karte, kurā var atzīmēt, kurās mājās oktobra beigās bērnus gaidīs ar ",
-"pub": "2026-10-20",
-"source": "lsm.lv",
-"score": 7
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/muzika/20.10.2026-latgales-kora-mamula-un-etalons-koncerta-daugavpili-piemines-kordirigenti-terezi-broku.a668251/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "«Latgales kora māmuļa» un «etalons» – koncertā Daugavpilī pieminēs kordiriģenti Terēzi Broku",
-"summary": "\"Latgales kora māmuļa\" un \"diriģentes etalons\" – tā Terēzi Broku atceras viņas audzēkņi un kolēģi. Trešdien, 21. oktobrī, Daugavpilī viņi pulcēsies tradicionālajā kordiriģentes piemiņas koncertā. Koncertā dziedās kori no Daugavpils, Preiļiem un Rēzeknes, bet arhīva videoierakstos būs dzirdama arī pa",
-"pub": "2026-10-20",
-"source": "lsm.lv",
-"score": 12
-},
-{
-"link": "https://jauns.lv/raksts/zinas/734086-ridziniekus-bridina-par-sodien-iespejamu-dulkainu-un-netiru-krana-udeni",
-"title": "Rīdziniekus brīdina par šodien iespējamu duļķainu un netīru krāna ūdeni",
-"summary": "Rīgā šonedēļ notiks maģistrālā ūdensvada skalošana no pagrieziena uz Langstiņiem līdz ūdens sagatavošanas stacijai \"Zaķumuiža\", informēja SIA \"Rīgas ūdens\" Komunikācijas daļā.",
-"pub": "2026-10-20",
-"source": "jauns.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8567592",
-"title": "Juglā, Teikā un Čiekurkalnā ūdensvada skalošanas dēļ iespējams duļķains ūdens",
-"summary": "Rīgā šonedēļ notiks maģistrālā ūdensvada skalošana no pagrieziena uz Langstiņiem līdz ūdens sagatavošanas stacijai \"Zaķumuiža\", informēja SIA \"Rīgas ūdens\" Komunikācijas daļā.",
-"pub": "2026-10-20",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8567599",
-"title": "В Югле, Тейке и Чиекуркалнсе из-за промывки водопровода возможна мутная вода",
-"summary": "На этой неделе в Риге пройдет промывка магистрального водопровода на участке от поворота на Лангстини до станции водоподготовки Zaķumuiža, сообщили в отделе коммуникации SIA Rīgas ūdens.",
-"pub": "2026-10-20",
-"source": "rus.tvnet.lv",
-"score": 6
-},
-{
-"link": "https://www.la.lv/riga-tris-dienas-skalos-magistralo-udensvadu-iedzivotajiem-jarekinas-ar-dazadiem-traucejumiem",
-"title": "Rīgā trīs dienas skalos maģistrālo ūdensvadu: iedzīvotājiem jārēķinās ar dažādiem traucējumiem",
-"summary": "Rīgā šonedēļ notiks maģistrālā ūdensvada skalošana no pagrieziena uz Langstiņiem līdz ūdens sagatavošanas stacijai “Zaķumuiža”, aģentūru LETA informēja SIA “Rīgas ūdens” Komunikācijas daļā. Darbi plānoti trīs dienas – no šodienas plkst. 8 līdz piektdienai, 23. oktobrim, plkst. 8. Skalošanas laikā ie",
-"pub": "2026-10-20",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/20.10.2026-nemiers-dzivot-laimigak-dailes-teatri-viesosies-hermana-heses-romana-sidharta-iestudejums.a668325/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Nemiers dzīvot laimīgāk. Dailes teātrī viesosies Hermaņa Heses romāna «Sidharta» iestudējums",
-"summary": "Vācu rakstnieka, Nobela prēmijas laureāta Hermaņa Heses romāns \"Sidharta\" ir pamatā viesizrādēm, ko šonedēļ izrādīs Dailes teātrī arī ar tādu pašu nosaukumu \"Sidharta\". Projekts ir vairāku valstu kopdarbs, tā režisore un koncepcijas autore ir beļģu māksliniece Lisaboa Haubrehtsa, arī galvenie produc",
-"pub": "2026-10-20",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/dzive-stils/vide-un-dzivnieki/20.10.2026-liela-talka-nakamgad-notiks-20-reizi.a668324/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Lielā talka nākamgad notiks 20. reizi",
-"summary": "2027. gada 24. aprīlī Lielā talka visā Latvijā un diasporā notiks jau 20. reizi, informēja organizatori.",
-"pub": "2026-10-20",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/18.10.2026-gramata-izstade-un-vel-filma-ko-par-simtgades-verienigo-atzimesanu-teiktu-makslinieks-raimonds-staprans.a668070/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Grāmata, izstāde un vēl filma! Ko par simtgades vērienīgo atzīmēšanu teiktu mākslinieks Raimonds Staprāns?",
-"summary": "Atzīmējot Raimonda Staprāna simtgadi, klajā nākusi viņa autobiogrāfija \"46 epizodes ar un bez ironijas\", Latvijas Nacionālajā mākslas muzejā apskatāma mākslinieka daiļradei veltīta izstāde \"Klusuma arhitektūra\" un pavisam nesen pirmizrādi kinofestivālā \"Riga IFF\" piedzīvojusi viņa dzīvesstāstā, dram",
-"pub": "2026-10-20",
-"source": "lsm.lv",
-"score": 10
-},
-{
-"link": "https://rus.lsm.lv/statja/novosti/obschestvo/20.10.2026-v-latvii-sozdali-kartu-razdaci-sladostei-na-xellouin-specialisty-napominayut-o-bezopasnosti.a668290/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "В Латвии создали карту раздачи сладостей на Хэллоуин; специалисты напоминают о безопасности",
-"summary": "Осенние школьные каникулы в самом разгаре, а совсем скоро многие дети наденут костюмы, готовясь к Хэллоуину. Чтобы облегчить подготовку к празднику, в Латвии создали уникальную карту раздачи сладостей, на которой можно отметить дома, где в конце октября детей будут ждать с угощениями. Однако эксперт",
-"pub": "2026-10-20",
-"source": "rus.lsm.lv",
-"score": 6
-},
-{
-"link": "https://jauns.lv/raksts/zinas/734135-foto-jau-astotais-draugi-andrejam-zagaram-koncerts-izskan-ar-stavovacijam",
-"title": "FOTO: jau astotais “Draugi – Andrejam Žagaram“ koncerts izskan ar stāvovācijām",
-"summary": "Nedēļas nogalē Cēsu koncertzālē ar publikas sajūsmu izskanēja Andreja Žagara kultūras attīstības fonda organizētais tradicionālais opermūzikas Galā koncerts “Draugi – Andrejam Žagaram“.",
-"pub": "2026-10-20",
-"source": "jauns.lv",
-"score": 7
-},
-{
-"link": "https://rus.jauns.lv/article/afisha/734046-v-rige-proidet-vliiatelnoe-zenskoe-meropriiatie-kotoroe-soberet-ucastnic-iz-bolee-cem-40-stran",
-"title": "В Риге пройдет влиятельное женское мероприятие, которое соберет участниц из более чем 40 стран",
-"summary": "Уже в ближайшие выходные, 24-25 октября, в Риге впервые соберутся более 150 активных женщин из более чем 40 стран, чтобы принять участие в ежегодном собрании международной женской организации Soroptimist International of Europe (SIE) – Governors’ Meeting.",
-"pub": "2026-10-20",
-"source": "rus.jauns.lv",
-"score": 7
-},
 {
 "link": "https://rus.jauns.lv/article/novosti/734074-teatr-odnogo-zritelia-mosenniki-ustroili-nastoiashhii-spektakl-ctoby-vymanit-u-zenshhiny-300-000-evro",
 "title": "Театр одного зрителя: мошенники устроили настоящий \"спектакль\", чтобы выманить у женщины 300 000 евро",
@@ -4852,6 +4676,182 @@
 "pub": "2026-11-02",
 "source": "rus.tvnet.lv",
 "score": 6
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/03.11.2026-kad-blaumana-lugas-redz-arzemju-eksperti-ka-baltijas-dramas-forums-parada-latvijas-teatru-ainu.a669984/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Kad Blaumaņa lugas redz ārzemju eksperti. Kā Baltijas Drāmas forums parāda Latvijas teātru ainu?",
+"summary": "No 5. līdz 8. novembrim dažādās vietās Rīgā norisināsies Baltijas Drāmas forums. Tas piedāvās iespēju gan starptautiskiem nozares profesionāļiem, gan vietējai auditorijai baudīt latviešu teātra mākslinieku radītu izrāžu skati. Tāpat – piedalīties konferencēs un ļauties jauno dramaturgu lasījumiem, i",
+"pub": "2026-11-03",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/sarunas/03.11.2026-koferi-atvesta-doktordesa-aukstajai-zupai-un-kopigi-pargajieni-ko-svesuma-izdoma-latviesi-lai-butu-kopa.a670308/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Koferī atvesta doktordesa aukstajai zupai un kopīgi pārgājieni – ko svešumā izdomā latvieši, lai būtu kopā",
+"summary": "Latviešu kopienu dzīve pasaulē neaprobežojas ar koriem, tautas dejām un svētku svinēšanu. Briselē latvieši dodas pārgājienos un orientējas, Dānijā veido sieviešu nedēļas nogales, bet Ēģiptē Dahabas latviešu kopiena lasa grāmatas un rīko aukstās zupas festivālu. Aiz šīm šķietami atšķirīgajām nodarbēm",
+"pub": "2026-11-03",
+"source": "lsm.lv",
+"score": 5
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/03.11.2026-video-un-teksta-tiesraide-svinigaja-sede-zverestu-dod-15-saeima-zinu-specializlaidums.a669838/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "VIDEO un TEKSTA TIEŠRAIDE: Svinīgajā sēdē zvērestu dod 15. Saeima. Ziņu speciālizlaidums",
+"summary": "Jaunievēlētie 15. Saeimas deputāti otrdien, 3. novembrī, pulcējušies svinīgajā sēdē Saeimas namā, kur dod deputāta zvērestu jeb svinīgo solījumu. Pēc tam, kad visi 100 deputāti būs kāpuši tribīnē un apliecinājuši zvērestu ar parakstu, tiks apstiprinātas 15. Saeimas pilnvaras un notiks arī Saeimas Pr",
+"pub": "2026-11-03",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/vecaki-un-berni/radosas-idejas-katrai-dienai/03.11.2026-vecakiem-un-berniem-kopa-veicamo-darbu-kalendars-novembrim-idejas-katrai-dienai.a670111/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Vecākiem un bērniem kopā veicamo darbu kalendārs novembrim. Idejas katrai dienai",
+"summary": "Novembrī svinami nozīmīgi svētki – Latvijas dzimšanas diena, Lāčplēša diena un Mārtiņi. Mēs esam sagatavojuši skaidrojošus materiālus, spēles, izdrukājamus darbus svētku izzināšanai un svinēšanai.",
+"pub": "2026-11-03",
+"source": "lsm.lv",
+"score": 8
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/03.11.2026-malenkii-personaz-s-bolsim-xarakterom-semi-s-detmi-priglasaiut-na-muzykalnyi-spektakl-niukucitis.a670298/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Маленький персонаж с большим характером! Семьи с детьми приглашают на музыкальный спектакль «Нюкуцитис»",
+"summary": "В постоянной экспозиции Национального музея литературы и музыки Латвии «Прокрастинация и творчество» 14 ноября в 14:00 состоится музыкальный спектакль Ņukucītis, предназначенный для семей с детьми от 4 лет. Об этом сообщили организаторы мероприятия.",
+"pub": "2026-11-03",
+"source": "rus.lsm.lv",
+"score": 19
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/pogoda/03.11.2026-vtornik-3-noiabria-mestami-proidut-dozdi.a670207/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Вторник, 3 ноября: местами пройдут дожди",
+"summary": "Во вторник утром во многих регионах Латвии ожидается дождь, прогнозируют синоптики.",
+"pub": "2026-11-03",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/736308-septinas-nedelas-pec-kartas-skatitaka-filma-latvija-un-ovacijas-kannas-ula-piedzivo-istu-triumfu",
+"title": "Septiņas nedēļas pēc kārtas skatītākā filma Latvijā un ovācijas Kannās — “Uļa” piedzīvo īstu triumfu",
+"summary": "Režisora Viestura Kairiša spēlfilmu \"Uļa\", kas stāsta par basketbolisti Uļjanu Semjonovu, kopš pirmizrādes 16. septembrī Latvijas kinoteātros noskatījušies vairāk nekā 100 000 skatītāju. Turklāt tā jau septiņas nedēļas pēc kārtas ir skatītākā filma valstī, informēja filmas pārstāvji.",
+"pub": "2026-11-03",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/sievietem/735778-svetki-ka-no-pasakas-atklaj-ka-ar-ziediem-gaismam-un-dekoracijam-radit-ipasu-atmosferu",
+"title": "Svētki kā no pasakas? Atklāj, kā ar ziediem, gaismām un dekorācijām radīt īpašu atmosfēru",
+"summary": "Ziedoši koki svinību zāles vidū, simtiem sveču izgaismota kāzu ceremonija, grezni dekorēta uzņēmuma balle vai Ziemassvētku rotās ietērpta pilsētas vide. Dažkārt pietiek ar vienu neparastu ideju, lai ierasta telpa pārvērstos līdz nepazīšanai. Ziedi, gaismas un rūpīgi izvēlētas dekorācijas spēj radīt ",
+"pub": "2026-11-03",
+"source": "jauns.lv",
+"score": 8
+},
+{
+"link": "https://jauns.lv/raksts/zinas/736298-cilvekiem-vairs-nepietiek-naudas-kulturai-eksperts-cel-trauksmi-par-koncertu-apmeklejumu",
+"title": "“Cilvēkiem vairs nepietiek naudas kultūrai!” Eksperts ceļ trauksmi par koncertu apmeklējumu",
+"summary": "Gada pirmajos deviņos mēnešos koncertu un citu muzikālo pasākumu apmeklējums sarucis par 23,5%, salīdzinot ar tādu pašu periodu 2025. gadā, informēja biedrībā \"Autortiesību un komunicēšanās konsultāciju aģentūra/Latvijas Autoru apvienība\" (AKKA/LAA).",
+"pub": "2026-11-03",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8576382",
+"title": "Latvijas hokeja izlases sastāvā pirms Vācijas kausa veiktas izmaiņas",
+"summary": "Latvijas vīriešu hokeja izlasei Vācijas kausā (\"Deutschland Cup\"), kas šonedēļ norisināsies Diseldorfā, veselības problēmu dēļ nepalīdzēs uzbrucēji Filips Buncis un Darels Dukurs, vēsta Latvijas Hokeja federācija (LHF).",
+"pub": "2026-11-03",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8575932",
+"title": "Jelgavas pilī kronētas jaunās karalienes: uzvarētājas, krāšņi tērpi un talantu šovs",
+"summary": "Jelgavas pils Lielajā aulā oktobra izskaņā valdīja skaistumkonkursam raksturīgā atmosfēra — mirdzoši kroņi, greznas vakarkleitas, spilgti skatuves tērpi un satraukums pirms rezultātu paziņošanas. Trīs dienu festivāla “Elite Beauty Festival | Miss & Misis Jelgava Elite 2026” kulminācijā tika kronētas",
+"pub": "2026-11-03",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8576314",
+"title": "Aivis Ceriņš gatavojas otrreiz iestūrēt laulības ostā",
+"summary": "Pasākumu un raidījumu vadītājs Aivis Ceriņš \"Instagram\" pavēstījis, ka ir bildinājis mīļoto sievieti, uztura speciālisti Danu Piteronoku.",
+"pub": "2026-11-03",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8576274",
+"title": "Spriedīs par Bauskas šosejas posma pārbūvi par ātrgaitas ceļu",
+"summary": "Šodien notiks sākotnējās sabiedriskās apspriešanas sanāksme par 14 kilometrus gara Bauskas šosejas (A7) posma līdz Lietuvas robežai pārbūvi par četru joslu ātrgaitas autoceļu, liecina informācija Enerģētikas un vides aģentūras mājaslapā.",
+"pub": "2026-11-03",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8576266",
+"title": "Deviņos mēnešos koncertu apmeklējums Latvijā krities par gandrīz ceturtdaļu",
+"summary": "Šā gada pirmajos deviņos mēnešos koncertu un citu muzikālo pasākumu apmeklējums sarucis par 23,5%, salīdzinot ar tādu pašu periodu 2025. gadā, informē \"Autortiesību un komunicēšanās konsultāciju aģentūra/Latvijas Autoru apvienība\" (AKKA/LAA).",
+"pub": "2026-11-03",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8576408",
+"title": "Два редактора TVNET GRUPA - среди финалистов Балтийской премии за свободу слова",
+"summary": "5 ноября 2026 года в Стокгольмской школе экономики в Риге (Stockholm School of Economics in Riga) состоится торжественная церемония вручения Балтийской премии Петера Гресте за свободу слова. Наградой отмечают людей и организации из Латвии, Литвы и Эстонии, внесших значительный вклад в защиту и разви",
+"pub": "2026-11-03",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8576283",
+"title": "Концерты в Латвии теряют публику: посещаемость упала почти на четверть",
+"summary": "За первые девять месяцев 2026 года посещаемость концертов и других музыкальных мероприятий в Латвии сократилась на 23,5% по сравнению с аналогичным периодом 2025 года, сообщило Агентство консультаций по авторскому праву и коммуникации/Латвийское объединение авторов (AKKA/LAA).",
+"pub": "2026-11-03",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8575828",
+"title": "Во вторник местами пройдут дожди",
+"summary": "В ночь на вторник и утром во многих регионах Латвии ожидается дождь, прогнозируют синоптики.",
+"pub": "2026-11-03",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120141106/my-dolzhny-byt-gotovy-k-lyubomu-razvitiyu-sobytiy-segodnya-zavtra-vsegda-rinkevich-vystupil-pered-15-m-seymom",
+"title": "\"Мы должны быть готовы к любому развитию событий — сегодня, завтра, всегда\". Ринкевич выступил перед 15-м Сеймом",
+"summary": "Во вторник, 3 ноября, новоизбранный 15-й Сейм собрался на свое первое заседание. Перед депутатами с напутственным словом выступил президент Латвии Эдгар Ринкевич. В течение нескольких часов все 100 депутатов будут приносить торжественную присягу, а затем пройдут выборы Президиума Сейма. Заседание за",
+"pub": "2026-11-03",
+"source": "rus.delfi.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8576342",
+"title": "Aivis Ceriņš saderinājies ar mīļoto sievieti",
+"summary": "Pasākumu vadītājs Aivis Ceriņš \"Instagram\" kontā pavēstījis par saderināšanos ar mīļoto Danu Piteronoku.",
+"pub": "2026-11-03",
+"source": "apollo.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/03/posle-pasmurnyx-dnei-v-latvii-stanet-solnecnee-no-mestami-proidut-dozdi?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "После пасмурных дней в Латвии станет солнечнее, но местами пройдут дожди",
+"summary": "Во вторник, 3 ноября, в Латвии ожидается более солнечная погода, чем в предыдущие дни. Облачность постепенно уменьшится, хотя местами еще возможны кратковременные дожди. Температура воздуха составит от +6 до +11 градусов.",
+"pub": "2026-11-03",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/alkohola-lietosana-beidzas-ar-nezeligu-slepkavibu-viriesa-liki-atrod-uz-daudzdzivoklu-majas-balkona",
+"title": "Alkohola lietošana beidzas ar nežēlīgu slepkavību! Vīrieša līķi atrod uz daudzdzīvokļu mājas balkona",
+"summary": "2026. gada janvāra sākumā Valsts policija Rēzeknē saņēma informāciju par bezvēsts pazudušu personu. Veicot personas meklēšanas pasākumus, likumsargi atrada vīrieša līķi ar vardarbīgas nāves pazīmēm kādas daudzdzīvokļu mājas balkonā. Aizdomās par noziedzīgā nodarījuma izdarīšanu likumsargi aizturēja ",
+"pub": "2026-11-03",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/nebiju-gaidijusi-ka-bus-tik-bedigi-katrina-dimanta-spiesta-atcelt-divus-koncertus",
+"title": "“Nebiju gaidījusi, ka būs tik bēdīgi!” Katrīna Dimanta spiesta atcelt divus koncertus",
+"summary": "Dziedātājai Katrīnai Dimantai šoruden bija iecerēta pirmā koncertturneja Latvijā, taču plāni nav izvērtušies tik veiksmīgi, kā cerēts. Nepietiekama pārdoto biļešu skaita dēļ nācies atcelt divus no septiņiem paredzētajiem koncertiem. Kā vēsta žurnāls “Privātā Dzīve”, atsaucoties uz Gitas Vīksnes mate",
+"pub": "2026-11-03",
+"source": "la.lv",
+"score": 10
 }
 ],
 "portal_errors": {},
@@ -8897,7 +8897,21 @@
 "https://www.delfi.lv/193/politics/120140703/dargaki-sutijumi-un-apkure-lielaki-pabalsti-kas-mainisies-novembri",
 "https://rus.delfi.lv/57860/latvia/120139905/posylki-i-teplo-dorozhe-posobiya-vyshe-latviya-vo-glave-sovbeza-oon-chto-izmenitsya-v-noyabre",
 "https://www.la.lv/dazi-padomi-kas-var-palidzet-uzziedinat-ziemassvetku-kaktusu",
-"https://rus.jauns.lv/article/znamenitosti/736149-video-gde-moi-zont-korol-karl-iii-poterial-terpenie-vo-vremia-oficialnoi-ceremonii"
+"https://rus.jauns.lv/article/znamenitosti/736149-video-gde-moi-zont-korol-karl-iii-poterial-terpenie-vo-vremia-oficialnoi-ceremonii",
+"https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/02.11.2026-mazs-tels-ar-lielu-raksturu-gimenes-ar-berniem-aicina-uz-muzikalu-izradi-nukucitis.a670186/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/maksla/02.11.2026-augu-skats-uz-pasauli-kristines-kutepovas-izstade-ar-augu-acim.a670172/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/02.11.2026-vzgliad-flory-na-mir-vystavka-kristine-kutepovoi-glazami-rastenii.a670189/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/izklaide/736253-foto-raxtu-raxti-liepaja-atklaj-savu-jauno-koncertu-seriju-viena-saule-viena-zeme",
+"https://rus.jauns.lv/article/novosti/736239-igla-v-xellouinskoi-konfete-v-latvii-policiia-nacala-proverku-posle-trevoznogo-soobshheniia",
+"https://rus.jauns.lv/article/novosti/736181-gromkie-saliuty-xotiat-zapretit-v-evrope-vse-cashhe-ogranicivaiut-feierverki-radi-zivotnyx",
+"https://rus.jauns.lv/article/afisha/736173-iurmala-gotovitsia-k-masstabnym-prazdnovaniiam-cto-zdet-zitelei-i-gostei-goroda-11-i-18-noiabria",
+"https://pmo.ee/8575901",
+"https://pmo.ee/8575880",
+"https://jauns.lv/raksts/izklaide/736278-par-godu-latvijas-valsts-svetkiem-nikolajs-puzikovs-nak-klaja-ar-patriotisku-dziesmu",
+"https://www.lsm.lv/raksts/dzive-stils/sarunas/03.11.2026-koferi-atvesta-doktordesa-aukstajai-zupai-un-kopigi-pargajieni-ko-svesuma-izdoma-latviesi-lai-butu-kopa.a670308/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/vecaki-un-berni/radosas-idejas-katrai-dienai/03.11.2026-vecakiem-un-berniem-kopa-veicamo-darbu-kalendars-novembrim-idejas-katrai-dienai.a670111/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/sievietem/735778-svetki-ka-no-pasakas-atklaj-ka-ar-ziediem-gaismam-un-dekoracijam-radit-ipasu-atmosferu",
+"https://pmo.ee/8575932"
 ],
 "tips_debug": {
 "date": "2026-10-29",
@@ -9467,6 +9481,18 @@
 "link": "https://ticketshop.lv/lv/events/108264",
 "text": "no 5,00 EUR 13.11.26 22:00 PND Fontaine Palace",
 "src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-03"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108423",
+"text": "no 13,00 EUR 20.12.26 13:00 Mūsu Ziemassvētku stāsts VEF Kultūras pils",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-03"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108422",
+"text": "no 12,00 EUR 27.11.26 20:00 Doplers LKA Teātra māja Zirgu pasts",
+"src": "https://ticketshop.lv/lv",
 "seen": "2026-11-03"
 }
 ],
