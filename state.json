@@ -54,30 +54,6 @@
 },
 "portal_queue": [
 {
-"link": "https://rus.lsm.lv/statja/kultura/literatura/19.10.2026-v-90-let-pisat-roman-nemnogo-neprilicno-v-staburagse-otprazdnovali-yubilei-mary-svire.a668241/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "«В 90 лет писать роман немного неприлично». В Стабурагсе отпраздновали юбилей Мары Свире",
-"summary": "Многие телезрители хотя бы раз следили за тем, как родственники сражаются за право унаследовать лимузин, выигранный тетушкой Миртой. В октябре автору сценария фильма «Лимузин цвета белой ночи» Маре Свире исполняется 90 лет. Значительная часть жизни писательницы прошла в Стабурагсе, поэтому юбилей от",
-"pub": "2026-10-19",
-"source": "rus.lsm.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/zinas/734053-es-nepaspeju-atvadities-kulbergs-atklaj-ka-zaudejis-sev-loti-tuvu-cilveku",
-"title": "“Es nepaspēju atvadīties...” Kulbergs atklāj, ka zaudējis sev ļoti tuvu cilvēku",
-"summary": "Ministru prezidents Andris Kulbergs (AS) no 21. līdz 23. oktobrim atradīsies atvaļinājumā ārpus Latvijas, tādēļ šajā laikā nenotiks iepriekš plānotās tikšanās, tostarp konsultācijas par jaunās valdības veidošanu. Pirmdien sociālajā tīklā “Facebook” premjers dalījies arī ar skumju vēsti – mūžībā devi",
-"pub": "2026-10-19",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/733691-meganas-marklas-pseido-karaliskas-vizites-turpmak-bus-retas-kads-tam-iemesls",
-"title": "Meganas Mārklas pseido karaliskās vizītes turpmāk būs retas. Kāds tam iemesls?",
-"summary": "Aizvadītajā nedēļā Megana Mārkla pirmo reizi vairāk nekā četru gadu laikā piedalījās oficiālā publiskā pasākumā Lielbritānijā. Tomēr Saseksas hercogienei pietuvināti avoti norāda, ka šādas vizītes turpmāk būs retums.",
-"pub": "2026-10-19",
-"source": "jauns.lv",
-"score": 2
-},
-{
 "link": "https://jauns.lv/raksts/izklaide/734042-pec-gandriz-40-gadiem-turpinajumu-piedzivos-legendara-filma-netiras-dejas",
 "title": "Pēc gandrīz 40 gadiem turpinājumu piedzīvos leģendārā filma “Netīrās dejas”",
 "summary": "Gandrīz četras desmitgades pēc romantiskās filmas “Netīrās dejas” pirmizrādes tās cienītāji beidzot varēs uzzināt, kā turpinājies iemīļotās varones Mazulītes dzīvesstāsts. Filmas veidotāji atklājuši jaunas detaļas par ilgi gaidīto turpinājumu, tostarp to, kā tajā tiks godināta 2009. gadā mūžībā aizg",
@@ -4852,6 +4828,30 @@
 "pub": "2026-11-02",
 "source": "la.lv",
 "score": 10
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/736278-par-godu-latvijas-valsts-svetkiem-nikolajs-puzikovs-nak-klaja-ar-patriotisku-dziesmu",
+"title": "Par godu Latvijas valsts svētkiem Nikolajs Puzikovs nāk klajā ar patriotisku dziesmu",
+"summary": "Par godu Latvijas valsts svētkiem dziedātājs Nikolajs Puzikovs dāvā klausītājiem jaunu un patriotisku skaņdarbu un tā videoklipu \"Latvija Mana\". Dziesma ir sirsnīgs atgādinājums par mūsu katra piederību dzimtenei, lepnumu par savu zemi un pilsonisko atbildību par tās nākotni.",
+"pub": "2026-11-02",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8575653",
+"title": "Как Катрина из Латвии превратила итальянскую пасту в местный продукт",
+"summary": "Макароны и овощи. Первые дети готовы есть на завтрак, обед и ужин, а вот при виде овощей часто начинают капризничать. Морковку еще можно, брокколи ни за что, свеклу только в супе, а перец исключительно желтый и нарезанный соломкой. Знакомая ситуация? А что, если объединить любимые и нелюбимые продук",
+"pub": "2026-11-02",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8572471",
+"title": "Актриса Юлия Бернгардт о Театре Чехова и новых реалиях: \"Любое слово могут понять неправильно\"",
+"summary": "\"Эта история про любовь, про мечты, про счастье, про страхи…\", - говорит актриса Юлия Бернгардт накануне премьеры спектакля \"Фрилансеры\" режиссера Эдвина Климанова, которая состоится 7 ноября в Аркаде Рижского русского театра имени Михаила Чехова. Зритель привык видеть ее в ролях принцесс, романтичн",
+"pub": "2026-11-02",
+"source": "rus.tvnet.lv",
+"score": 6
 }
 ],
 "portal_errors": {},
@@ -9462,6 +9462,12 @@
 "text": "no 20,00 EUR 15.11.26 18:00 SERGEJS DETKOVS - STAND-UP KONCERTS HAMLETS",
 "src": "https://ticketshop.lv/lv",
 "seen": "2026-11-02"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108264",
+"text": "no 5,00 EUR 13.11.26 22:00 PND Fontaine Palace",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-03"
 }
 ],
 "watch_errors": {},
