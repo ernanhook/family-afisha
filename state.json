@@ -54,14 +54,6 @@
 },
 "portal_queue": [
 {
-"link": "https://pmo.ee/8567923",
-"title": "Смольянинов, Хаматов и Сафонов сыграют в новом \"Ревизоре\" Сергея Голомазова",
-"summary": "25 октября в 15:00 и 19:00 спектакль \"Ревизор\" будет показан в Доме Рижского латышского общества. Этот новый спектакль в постановке режиссера Сергея Голомазова предлагает современный взгляд на бессмертную комедию Николая Гоголя, превращая ее в психологическую историю о самообмане, страхе разоблачени",
-"pub": "2026-10-20",
-"source": "rus.tvnet.lv",
-"score": 6
-},
-{
 "link": "https://pmo.ee/8567924",
 "title": "Džilindžera sievasmāte pirmizrādē izsakās par znotu",
 "summary": "Nedēļas nogalē Mihaila Čehova Rīgas Krievu teātrī pirmizrādi piedzīvoja Dž. Dž. Džilindžera jaunākais iestudējums \"Ēriks un Anna\". Izrādes tapšanā kā kustību māksliniece piedalījusies režisora sieva Linda Kalniņa. Uz pirmizrādi bija ieradusies arī Lindas mamma Sandra Stafecka ar vīru Gunti, raksta \"",
@@ -4852,6 +4844,14 @@
 "pub": "2026-11-03",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/736447-daugavpili-lidz-piektdienai-slegs-daliju-ielas-posmu-stropu-apkaime",
+"title": "Daugavpilī līdz piektdienai slēgs Dāliju ielas posmu Stropu apkaimē",
+"summary": "Daugavpils Komunālās saimniecības pārvalde informē, ka līdz 6. novembrim transporta satiksmei ir slēgts Dāliju ielas posms krustojuma ar 3. Dāliju ielu tuvumā, kur šajās dienās notiks būvdarbi.",
+"pub": "2026-11-03",
+"source": "jauns.lv",
+"score": 6
 }
 ],
 "portal_errors": {},
@@ -9502,6 +9502,18 @@
 "text": "no 12,00 EUR 27.11.26 20:00 Doplers LKA Teātra māja Zirgu pasts",
 "src": "https://ticketshop.lv/lv",
 "seen": "2026-11-03"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107719",
+"text": "no 5,00 EUR 14.11.26 20:00 EMINEM Tribute | RĪGA READY koncertzāle",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-04"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108165",
+"text": "no 20,00 EUR 15.11.26 18:00 BLOOD & SUN (ASV, dark folk) , SOCIETY OF THE SILVER CROSS (ASV, dark folk) , LINNEA HJERTEN (Zviedrija, ambient/folk) Vagonu Halle",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-04"
 }
 ],
 "watch_errors": {},
