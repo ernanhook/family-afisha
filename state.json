@@ -54,102 +54,6 @@
 },
 "portal_queue": [
 {
-"link": "https://pmo.ee/8568548",
-"title": "VIDEO ⟩ Dabas muzejā skatāma ķirbju un paprikas izstāde",
-"summary": "No 21. līdz 25. oktobrim Latvijas Nacionālajā dabas muzejā norisināsies dārzkopības sezonas noslēguma izstāde \"Ķirbjaugi un paprika 2026\", informēja muzeja sabiedrisko attiecību speciāliste Kristīna Soloha.",
-"pub": "2026-10-21",
-"source": "apollo.lv",
-"score": 12
-},
-{
-"link": "https://bb.lv/statja/kultura/2026/10/21/v-rige-otkroetsia-tainstvennyi-les-posetitelei-zdut-duxi-predkov-drevnie-legendy-i-magiia-sveta?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "В Риге откроется таинственный лес: посетителей ждут духи предков, древние легенды и магия света",
-"summary": "С 29 октября по 8 ноября Латвийский этнографический музей под открытым небом в Риге превратится в сказочный лес, наполненный загадочными огнями, звуками и образами из старинных преданий. Здесь вновь откроется необычная тропа света «Истории света. Духи предков» (Gaismas stāsti. Veļi).",
-"pub": "2026-10-21",
-"source": "bb.lv",
-"score": 6
-},
-{
-"link": "https://www.la.lv/investiciju-platforma-digilo-un-roboready-apvieno-spekus-biroja-ikdiena-ievies-humanoido-robotu-un-plano-veicinat-jauniesu-finansu-pratibu",
-"title": "Investīciju platforma “Digilo” un “RoboReady” apvieno spēkus: biroja ikdienā ievieš humanoīdo robotu un plāno veicināt jauniešu finanšu pratību",
-"summary": "Finanšu un investīciju platforma “Digilo” sadarbībā ar humanoīdo robotu platformas programmatūras izstrādātājiem un Booster Robotics oficiālajiem pārstāvjiem Latvijā “RoboReady” ir pirmais uzņēmums Latvijā, kas humanoīdo robotu izmanto dažādiem mērķiem – gan ikdienas biroja darbā, gan pasākumos un i",
-"pub": "2026-10-21",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/atkal-klat-ziemas-laiks-nakti-uz-svetdienu-pulkstena-raditaji-bus-japagriez",
-"title": "Atkal klāt ziemas laiks! Naktī uz svētdienu pulksteņa rādītāji būs jāpagriež",
-"summary": "Latvijā naktī uz svētdienu, 25. oktobrī, plkst. 4 notiks pāreja uz ziemas laiku, pulksteņa rādītājus pagriežot vienu stundu atpakaļ, aģentūru LETA informēja Ekonomikas ministrijā (EM). Pāreju uz vasaras laiku un atpakaļ Latvijā nosaka 2010. gada 26. oktobra Ministru kabineta (MK) noteikumi “Par pāre",
-"pub": "2026-10-21",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://jauns.lv/raksts/zinas/734454-certlv-saistiba-ar-globali-atklatam-kritiskajam-php-ievainojamibam-latvija-ievies-preventivus-pasakumus",
-"title": "CERT.LV: saistībā ar globāli atklātām kritiskajām PHP ievainojamībām Latvijā ievieš preventīvus pasākumus",
-"summary": "Lai pasargātu valsts informācijas sistēmas no iespējamiem kiberuzbrukumiem, saistībā ar divām kritiskām PHP programmatūras ievainojamībām pieņemts lēmums uz laiku ierobežot piekļuvi vairākiem valsts digitālajiem resursiem no ārvalstīm, pavēstījusi kiberincidentu novēršanas institūcija CERT.LV.",
-"pub": "2026-10-21",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8568995",
-"title": "Saistībā ar globāli atklātām PHP ievainojamībām Latvijā ievieš preventīvus pasākumus",
-"summary": "Lai pasargātu valsts informācijas sistēmas no iespējamiem kiberuzbrukumiem, saistībā ar divām kritiskām PHP programmatūras ievainojamībām pieņemts lēmums uz laiku ierobežot piekļuvi vairākiem valsts digitālajiem resursiem no ārvalstīm, TVNET informē kiberincidentu novēršanas institūcija CERT.LV.",
-"pub": "2026-10-21",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8568994",
-"title": "Премьер-министр Кулбергс примет участие в авторалли \"Латвия\"",
-"summary": "Премьер-министр Латвии Андрис Кулбергс заявил о своем участии в соревнованиях по мини-ралли и ралли-спринту \"Латвия\", которые пройдут на следующей неделе на трассе Бикерниеки в Риге, сообщают организаторы.",
-"pub": "2026-10-21",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://www.delfi.lv/kultura/174/music/120139392/ar-krieviju-saistiti-makslinieki-koncertos-latvija-ka-parbaudit-ko-uznemam-uz-skatuves",
-"title": "Ar Krieviju saistīti mākslinieki koncertos Latvijā. Kā pārbaudīt, ko uzņemam uz skatuves?",
-"summary": "Četrus gadus pēc Krievijas pilna mēroga iebrukuma Ukrainā Latvijas koncertvietas joprojām uzņem māksliniekus, kuru saikne ar agresorvalsti netiek pienācīgi izvērtēta. Vai pie vainas ir nepietiekama informācija un izpēte, vai arī akla uzticēšanās mākslinieku pārstāvjiem, kuri apgalvo, ka viņu mūziķie",
-"pub": "2026-10-21",
-"source": "delfi.lv",
-"score": 10
-},
-{
-"link": "https://pmo.ee/8569002",
-"title": "PHP programmēšanas valodā atklātas divas kritiskas ievainojamības – Latvijā ieviesti preventīvi drošības pasākumi",
-"summary": "PHP programmēšanas valodā globālā līmenī atklāto kritisko drošības ievainojamību dēļ vairākiem Latvijas digitālajiem resursiem uz laiku ir ierobežota piekļuve no ārvalstīm, aģentūru LETA informēja kiberincidentu novēršanas institūcijā \"Cert.lv\".",
-"pub": "2026-10-21",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8568991",
-"title": "Latvijas austrumu daļā notiks vērienīgas NATO rīkotas militārās mācības",
-"summary": "No 26. oktobra līdz 8. novembrim NATO daudznacionālā brigāde Latvijā rīkos līdz šim plašākās spēku izvēršanas militārās mācības \"Resolute Reforger 2026\", kurās piedalīsies aptuveni 3000 karavīru un 1000 militārās tehnikas vienību, aģentūru LETA informēja brigādes štābs.",
-"pub": "2026-10-21",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/lifenews/2026/10/21/ne-lekarstvo-i-ne-operaciia-cto-pomoglo-zenshhine-posle-insulta-snova-vstat?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Не лекарство и не операция: что помогло женщине после инсульта снова встать",
-"summary": "На выставке в китайской провинции Гуандун произошёл эмоциональный момент. Британка по имени Сюзанна, которая после инсульта передвигалась на инвалидном кресле, смогла подняться и сделать несколько шагов с помощью китайского экзоскелета. Женщина не смогла сдержать слёз.",
-"pub": "2026-10-21",
-"source": "bb.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/21.10.2026-izrade-mans-tevs-krievs-poetiska-ekskursija-personiska-pieredze-vesturiskas-telpas-un-atminas.a668557/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Izrāde «Mans tēvs – krievs»: poētiska ekskursija personiskā pieredzē, vēsturiskās telpās un atmiņās",
-"summary": "Pirmizrādi piedzīvojis Ingas Žoludes lugas \"Mans tēvs – krievs\" iestudējums, kura darbība risinās bijušajā Valsts drošības komitejas ēkā jeb Stūra mājā. Izrāde-ekskursija ved skatītāju cauri Stūra mājas telpām, ļaujot personiskam stāstam ievest skatītāju vēsturiskās ēkas pagātnes koridoros. \"Izrāde ",
-"pub": "2026-10-21",
-"source": "lsm.lv",
-"score": 8
-},
-{
 "link": "https://pmo.ee/8569072",
 "title": "IELŪKOJIES SVINĪBĀS! ⟩ Sabiedrībā pazīstami ļaudis sveic Intaru Busuli ar jaunā albuma izdošanu",
 "summary": "Trešdien, 21. oktobrī, mūziķis Intars Busulis laida klajā savu jauno albumu \"Deg mans ugunskurs\" un par godu tam sarīkoja īpašas svinības. Pasākumu apmeklēja virkne sabiedrībā zināmu cilvēku un mūziķa talanta cienītāju. Apskati foto!",
@@ -4852,6 +4756,102 @@
 "pub": "2026-11-04",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kas-notiek-latvija/raidijumi/04.11.2026-kas-notiks-un-kam-janotiek-15-saeima.a670577/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Kas notiks un kam jānotiek 15. Saeimā?",
+"summary": "4. novembra raidījumā \"Kas notiks un kam jānotiek 15. Saeimā?\" piedalās Māris Kučinskis (\"Apvienotais saraksts\"), Ainārs Šlesers (\"Latvija pirmajā vietā\"), Artūrs Butāns (Nacionālā apvienība), Andris Šuvajevs (\"Progresīvie\"), Inese Lībiņa-Egnere (\"Jaunā Vienotība\"), Jūlija Stepaņenko (\"Suverēnā vara",
+"pub": "2026-11-04",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/maksla/04.11.2026-100-makslinieki-un-vinu-muza-virsraksti-makslas-telpa-tur-sienas-rota-dzives-filmu-nosaukumi.a670569/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "100 mākslinieki un viņu mūža virsraksti. Mākslas telpā «Tur» sienas rotā dzīves filmu nosaukumi",
+"summary": "Katru rudeni mākslas telpa \"Tur\", kas atrodas Tallinas ielas kvartālā, veido vērienīgu izstādi sadarbībā ar kādu Eiropas mākslas institūciju. Šogad tapusi izstāde \"Blockbusters\", kas veidota kopā ar Antverpenes mākslas telpu \"Aaimachine\" un pulcē 100 māksliniekus – 50 no Rīgas un 50 no Antverpenes.",
+"pub": "2026-11-04",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/iskusstvo/04.11.2026-100-xudoznikov-i-zagolovki-ix-ziznei-v-art-prostranstve-tur-steny-ukrasaiut-nazvaniia-vymyslennyx-filmov.a670581/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "100 художников и заголовки их жизней. В арт-пространстве Tur стены украшают названия вымышленных фильмов",
+"summary": "Каждую осень арт-пространство Tur, расположенное в квартале улицы Таллинас, организует масштабную выставку в сотрудничестве с одним из европейских художественных учреждений. В этом году открылась выставка Blockbusters, созданная совместно с антверпенским арт-пространством Aaimachine. Она объединила ",
+"pub": "2026-11-04",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/iskusstvo/04.11.2026-video-svoi-vzgliad-na-mir-v-rige-otkrylas-vystavka-inkliuzivnoi-fotografii.a670226/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "ВИДЕО: Свой взгляд на мир. В Риге открылась выставка инклюзивной фотографии",
+"summary": "В Риге открылась выставка фотографий, созданных людьми с интеллектуальными нарушениями. Несколько месяцев они учились фотографировать, исследовали окружающий мир и открывали для себя новые возможности. Теперь их работы можно увидеть в Музейном хранилище Латвийского национального художественного музе",
+"pub": "2026-11-04",
+"source": "rus.lsm.lv",
+"score": 10
+},
+{
+"link": "https://jauns.lv/raksts/zinas/736631-daugavpiliesus-aicina-gatavoties-ziemassvetku-noformejuma-konkursam-milestibas-gaisma-stipraka-par-ledu",
+"title": "Daugavpiliešus aicina gatavoties Ziemassvētku noformējuma konkursam “Mīlestības gaisma stiprāka par ledu”",
+"summary": "Tuvojoties Ziemassvētkiem, Daugavpils valstspilsētas pašvaldība aicina iedzīvotājus, uzņēmējus un organizācijas iesaistīties pilsētas svētku noformēšanā. Arī šogad tiks rīkots Ziemassvētku noformējuma konkurss, kura devīze ir “Mīlestības gaisma stiprāka par ledu”.",
+"pub": "2026-11-04",
+"source": "jauns.lv",
+"score": 16
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/736560-rizan-priglasaiut-na-besplatnyi-koncert-v-den-lacplesisa-kto-vyidet-na-scenu",
+"title": "Рижан приглашают на бесплатный концерт в День Лачплесиса: кто выйдет на сцену",
+"summary": "11 ноября в 19:00 в рижском парке Узварас состоится бесплатный концерт в честь Дня Лачплесиса. На сцену выйдут JUUK, The Sound Poets и известные латвийские исполнители с особой музыкальной программой, посвященной Риге.",
+"pub": "2026-11-04",
+"source": "rus.jauns.lv",
+"score": 5
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/736557-mectat-legko-a-zit-na-cto-v-teatre-cexova-pokazut-spektakl-o-liubvi-i-surovoi-realnosti",
+"title": "Мечтать легко, а жить на что? В Театре Чехова покажут спектакль о любви и суровой реальности",
+"summary": "7 ноября в Аркаде Театра Чехова в Риге состоится премьера спектакля \"Фрилансеры\". Постановка расскажет о двух молодых актерах, которые пытаются сохранить любовь и веру в мечту, несмотря на жизненные трудности.",
+"pub": "2026-11-04",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8577484",
+"title": "В понедельник созвано экстренное заседание Совбеза ООН по ситуации в Украине",
+"summary": "В Нью-Йорке в понедельник, 9 ноября, в 17:00 по латвийскому времени состоится экстренное заседание Совета Безопасности ООН по ситуации в Украине, сообщила агентству LETA пресс-секретарь постоянного представительства Латвии при ООН Сигне Знотиня-Знота.",
+"pub": "2026-11-04",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120141315/v-ponedelnik-sozvano-ekstrennoe-zasedanie-sovbeza-oon-po-situacii-v-ukraine",
+"title": "В понедельник созвано экстренное заседание Совбеза ООН по ситуации в Украине",
+"summary": "В Нью-Йорке в понедельник, 9 ноября, в 17:00 по латвийскому времени состоится экстренное заседание Совета Безопасности ООН по ситуации в Украине, сообщила агентству ЛЕТА пресс-секретарь постоянного представительства Латвии при ООН Сигне Знотиня-Знота.",
+"pub": "2026-11-04",
+"source": "rus.delfi.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8577440",
+"title": "Sasaukta ANO Drošības padomes ārkārtas sēdē par situāciju Ukrainā",
+"summary": "Ņujorkā pirmdien, 9. novembrī, plkst. 17 pēc Latvijas laika notiks ANO Drošības padomes ārkārtas sanāksme par situāciju Ukrainā, informē Latvijas pastāvīgās pārstāvniecības ANO preses sekretāre Signe Znotiņa-Znota.",
+"pub": "2026-11-04",
+"source": "apollo.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/lifenews/2026/11/04/rozdestvenskaia-evropa-bez-tolp-i-zaoblacnyx-cen-piat-skazocnyx-iarmarok-o-kotoryx-znaiut-ne-vse?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Рождественская Европа без толп и заоблачных цен: пять сказочных ярмарок, о которых знают не все",
+"summary": "Аромат корицы и горячего глинтвейна, старинные улочки в тысячах огней, рождественские мелодии и деревянные домики с праздничными угощениями. Ради этой атмосферы миллионы туристов ежегодно отправляются в Европу. Но знаменитые рождественские ярмарки всё чаще встречают гостей огромными очередями, переп",
+"pub": "2026-11-04",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/cik-daudz-naudas-sogad-teresim-ziemassvetkiem-aptaujas-dati-atklaj-latvijas-iedzivotaju-planus",
+"title": "Cik daudz naudas šogad tērēsim Ziemassvētkiem? Aptaujas dati atklāj Latvijas iedzīvotāju plānus",
+"summary": "Ziemassvētkiem lēnām tuvojoties, daudzi Latvijas iedzīvotāji jau sākuši plānot svētku svinības. Katrs otrais iedzīvotājs jeb 51% aptaujāto sagaida, ka viņu kopējie tēriņi Ziemassvētku svinībām saglabāsies pagājušā gada līmenī, liecina IKEA veiktās aptaujas dati. Lielākā daļa no šiem izdevumiem tiks ",
+"pub": "2026-11-04",
+"source": "la.lv",
+"score": 10
 }
 ],
 "portal_errors": {},
