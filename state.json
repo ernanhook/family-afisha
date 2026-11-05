@@ -54,30 +54,6 @@
 },
 "portal_queue": [
 {
-"link": "https://pmo.ee/8569072",
-"title": "IELŪKOJIES SVINĪBĀS! ⟩ Sabiedrībā pazīstami ļaudis sveic Intaru Busuli ar jaunā albuma izdošanu",
-"summary": "Trešdien, 21. oktobrī, mūziķis Intars Busulis laida klajā savu jauno albumu \"Deg mans ugunskurs\" un par godu tam sarīkoja īpašas svinības. Pasākumu apmeklēja virkne sabiedrībā zināmu cilvēku un mūziķa talanta cienītāju. Apskati foto!",
-"pub": "2026-10-21",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8569058",
-"title": "ATRODI SEVI! ⟩ Dailes teātris uzņem starptautiskā iestudējuma \"Sidharta\" pirmizrādes viesus",
-"summary": "21. oktobra vakarā Dailes teātrī Latvijas pirmizrādi piedzīvoja mūzikas teātra izrāde \"Sidharta\". Iestudējuma pasaules pirmizrāde notika 10. septembrī prestižajā Rūras triennālē Vācijā, kur Dailes teātra un Latvijas vārds izskanēja jau otro gadu pēc kārtas.",
-"pub": "2026-10-21",
-"source": "tvnet.lv",
-"score": 8
-},
-{
-"link": "https://pmo.ee/8568547",
-"title": "Latvijas U-15 futbolisti vienā turnīrā kopā ar agresorvalstīm. Kā to skaidro LFF?",
-"summary": "Latvijas U-15 futbola izlase šonedēļ un nākamnedēļ Azerbaidžānas galvaspilsētā Baku piedalīsies pirmajā FIFA U-15 Pasaules kausā un festivālā, kas notiks jaunā un īpašā formātā. Šis kopš Krievijas pilna mēroga iebrukuma Ukrainā būs pirmais starptautiskais FIFA pasākums Krievijas komandai.",
-"pub": "2026-10-21",
-"source": "tvnet.lv",
-"score": 8
-},
-{
 "link": "https://www.delfi.lv/kultura/4333423/theatre/120138341/pec-30-gadiem-atkal-uz-jrt-skatuves-zane-daudzina-par-lomu-izrade-vejdzirnavas",
 "title": "Pēc 30 gadiem atkal uz JRT skatuves. Zane Daudziņa par lomu izrādē \"Vējdzirnavas\"",
 "summary": "Oktobra sākumā Jaunajā Rīgas teātrī (JRT) pirmizrādi piedzīvoja Ingas Ābeles luga \"Vējdzirnavas\" Alvja Hermaņa režijā. Līdz ar jaunās izrādes nonākšanu pie skatītājiem, tā iezīmēja arī kādu īpašu atgriešanos – uz JRT skatuves pēc vairāku gadu pārtraukuma atkal kāpa aktrise Zane Daudziņa. Portālam \"D",
@@ -4852,6 +4828,30 @@
 "pub": "2026-11-04",
 "source": "la.lv",
 "score": 10
+},
+{
+"link": "https://pmo.ee/8575542",
+"title": "Tikko šķīries un jau Tinderī? Psihologs stāsta par to, kā vīrieši atgūstas pēc šķiršanās",
+"summary": "Kopš attiecību izbeigšanās pagājušas vien dažas dienas vai nedēļas, bet vīrieša dienaskārtībā - jauni projekti, darbi, izklaides pasākumi un Tindera randiņi. Vai tas nozīmē, ka vīrieši daudz vieglāk un ātrāk pārdzīvo šķiršanos? Dažkārt, no malas raugoties, tā šķiet. Bet vai viss ir tik vienkārši?",
+"pub": "2026-11-04",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8574418",
+"title": "Она \"поджарила\" ему зад - так они стали творить вместе. Смольянинов и Ланская представляют новый проект",
+"summary": "Из удивительной истории любви Екатерины Ланской и Артура Смольянинова появился мультимедийный спектакль \"Бродский\". Его премьерный показ состоится 9 декабря в Риге в Digital Art House.",
+"pub": "2026-11-04",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8576424",
+"title": "Remontēt, nevis izmest: ko paredz jaunie likumi?",
+"summary": "Pirms diviem gadiem Eiropas Parlaments un Eiropas Savienības (ES) Padome pieņēma Direktīvu (ES) 2024/1799, kuru vienkāršākā valodā dēvē par \"tiesībām uz remontu\" (Right to Repair). Direktīvas mērķis ir veicināt to, lai preces tiktu nogādātas darbnīcā, nevis izmestas. Jaunās normas tiek ieviestas arī",
+"pub": "2026-11-04",
+"source": "apollo.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
