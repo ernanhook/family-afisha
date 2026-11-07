@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.16937209999999997,
-"calls": 36
+"cost": 0.16983429999999997,
+"calls": 37
 },
 "last_digest": "2026-11-05",
 "shown_ongoing": {
@@ -54,46 +54,6 @@
 "count": 6
 },
 "portal_queue": [
-{
-"link": "https://pmo.ee/8570786",
-"title": "ФОТО ⟩ От \"Алисы\" до Черных троп: фестиваль приключений в Саласпилсе",
-"summary": "До 25 октября в Национальном ботаническом саду Латвии в Саласпилсе проходит фестиваль \"Тропы ночи призраков 2026\", сообщили организаторы мероприятия.",
-"pub": "2026-10-24",
-"source": "rus.tvnet.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8570778",
-"title": "От космического корабля до леса ужасов: что ждет гостей Cinevilla Danger Fest",
-"summary": "23 октября в киногородке Cinevilla, расположенном в 15 километрах от Тукумса, состоялось яркое открытие семейного фестиваля Danger Fest 2026, который продлится до 31 октября. Фестиваль приглашает посетителей в необычный мир приключений, где цифровая реальность встречается с воображением, а свет, зву",
-"pub": "2026-10-24",
-"source": "rus.tvnet.lv",
-"score": 11
-},
-{
-"link": "https://www.delfi.lv/193/politics/120138644/10-idejas-videi-draudzigiem-helovina-rotajumiem",
-"title": "10 idejas videi draudzīgiem Helovīna rotājumiem",
-"summary": "Helovīna tuvošanās nenozīmē, ka mājokļa izrotāšanai nepieciešams iegādāties jaunus plastmasas dekorus, kas pēc svētkiem nonāks atkritumos. Spokus, sikspārņus, laternas un citus tematiskus rotājumus iespējams izgatavot no mājās jau atrodamām lietām – veciem palagiem, stikla burkām, kartona kastēm un ",
-"pub": "2026-10-24",
-"source": "delfi.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/latvija-lielaka-dala-pirceju-norekinas-ar-karti-bet-kas-notiks-ja-peksni-pazudis-elektriba",
-"title": "Latvijā lielākā daļa pircēju norēķinās ar karti, bet kas notiks, ja pēkšņi pazudīs elektrība?",
-"summary": "Ikdienā par to daudz nedomājam, paņemam veikalā nepieciešamās preces, pieliekam karti pie termināļa un dodamies tālāk. Taču kas notiktu, ja pēkšņi pazustu elektrība un nedarbotos arī sakari? Nauda bankas kontā būtu, bet par pirkumiem samaksāt varētu nebūt iespējams. Latvijas Tirgotāju asociācijas pr",
-"pub": "2026-10-24",
-"source": "la.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/24.10.2026-riga-iff-galveno-balvu-iegust-filma-nipsteri-godalgoti-ari-latvijas-kino-darbi.a668943/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "RIGA IFF galveno balvu iegūst filma «Nipsteri», godalgoti arī Latvijas kino darbi",
-"summary": "Festivāla mājvietā \"Splendid Palace\" pulcējot konkursu dalībniekus, pašmāju un ārzemju žūrijas, festivāla viesus un apmeklētājus, krāšņā, režisora un aktiera Gerda Lapoškas vadītā ceremonijā godalgoti Rīgas Starptautiskā kino festivāla (RIGA IFF) konkursu un nozares programmas laureāti. Galveno balv",
-"pub": "2026-10-24",
-"source": "lsm.lv",
-"score": 6
-},
 {
 "link": "https://www.la.lv/papildu-stunda-miega-ieguvums-vai-tikai-iluzija-zinatnieki-atklaj-parsteidzosu-faktu-par-pulkstena-griesanu",
 "title": "Papildu stunda miega – ieguvums vai tikai ilūzija? Zinātnieki atklāj pārsteidzošu faktu par pulksteņa griešanu",
@@ -4853,6 +4813,46 @@
 "pub": "2026-11-06",
 "source": "rus.tvnet.lv",
 "score": 9
+},
+{
+"link": "https://jauns.lv/raksts/zinas/736540-aicina-piedalities-konkursa-skaistakais-ziemassvetku-noformejums",
+"title": "Aicina piedalīties konkursā “Skaistākais Ziemassvētku noformējums”",
+"summary": "Jūrmalas pašvaldība aicina iedzīvotājus, uzņēmējus, iestādes un organizācijas piedalīties ikgadējā konkursā.",
+"pub": "2026-11-07",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/736915-neticama-atkalredzesanas-pec-28-gadiem-pasmaju-spiegu-dramas-pirmizrade-un-jauns-pasaules-rekords-aizejosas-nedelas-pozitivas-zinas",
+"title": "Neticama atkalredzēšanās pēc 28 gadiem, pašmāju spiegu drāmas pirmizrāde un jauns pasaules rekords. Aizejošās nedēļas pozitīvās ziņas",
+"summary": "Aizejošā nedēļa bijja piesātināta ar kultūras notikumiem, pārsteidzošiem pasaules rekordiem un sirsnīgiem cilvēkstāstiem.",
+"pub": "2026-11-07",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/736911-filma-sarkanais-skunis-lidz-asaram-aizkustina-makslinieka-staprana-atraitni-un-meitas",
+"title": "Filma \"Sarkanais šķūnis\" līdz asarām aizkustina mākslinieka Staprāna atraitni un meitas",
+"summary": "Latviešu trimdas māksliniekam un rakstniekam Raimondam Staprānam (1926–2026) veltītās filmas \"Sarkanais šķūnis\" pirmizrādi kinoteātrī \"Splendid Palace\" asarām acīs vēroja viņa sieva Ilona un meitas Alda un Maretta.",
+"pub": "2026-11-07",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/736907-subbota-obeshhaet-byt-interesnoi-cto-posmotret-i-cem-zaniatsia-v-rige-7-noiabria",
+"title": "Суббота обещает быть интересной: что посмотреть и чем заняться в Риге 7 ноября",
+"summary": "В субботу, 7 ноября, в Риге будет немало поводов выбраться из дома. В программе выходного дня найдутся развлечения на любой вкус и кошелек. Можно провести вечер на большом концерте, познакомиться с латышскими традициями, отправиться с детьми на научное шоу или бесплатно посетить культурные мероприят",
+"pub": "2026-11-07",
+"source": "rus.jauns.lv",
+"score": 8
+},
+{
+"link": "https://pmo.ee/8579031",
+"title": "Aicina piedalīties plakātu darbnīcā pirms akcijas \"Kultūra (iz)dzīvo\" gājiena",
+"summary": "Latvijas Mākslas akadēmijas (LMA) pagalmā šodien plkst. 14 notiks plakātu darbnīca, kurā interesenti varēs sagatavot savu vēstījumu akcijas \"Kultūra (iz)dzīvo\" dalībnieku gājienam, kas nākamnedēļ notiks Rīgā, informēja akcijas rīkotāju pārstāve Agnese Rozentāle.",
+"pub": "2026-11-07",
+"source": "tvnet.lv",
+"score": 9
 }
 ],
 "portal_errors": {},
@@ -9415,7 +9415,20 @@
 "https://rus.jauns.lv/article/novosti/736821-bolee-50-artistov-so-vsei-evropy-vystupili-v-rige-otkrito-pobyval-na-neobycnom-festivale-video",
 "https://pmo.ee/8578790",
 "https://pmo.ee/8578708",
-"https://www.la.lv/rotallietu-paradize-lidl-gatavojies-svetkiem-laikus"
+"https://www.la.lv/rotallietu-paradize-lidl-gatavojies-svetkiem-laikus",
+"https://www.lsm.lv/raksts/kultura/maksla/06.11.2026-elizabete-andersone-izstade-uztveres-mala-peta-atminas-mehanismus-un-musu-mijiedarbibu-ar-vidi.a670915/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/06.11.2026-tallinas-kinofestivalu-melnas-naktis-atklas-viestura-kairisa-spelfilma-ula.a670897/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/kultura/06.11.2026-video-sax-i-mat-po-rizski-v-muzee-evrei-v-latvii-otkryvaetsia-vystavka-o-velikix-saxmatistax.a670921/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/06.11.2026-elizabete-andersone-issleduet-na-vystavke-uztveres-mala-mexanizmy-pamiati-i-nase-vzaimodeistvie-s-okruzaiushhei-sredoi.a670922/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/kino/06.11.2026-tallinskii-kinofestival-temnye-noci-otkroetsia-xudozestvennym-filmom-viestura-kairissa-ulia.a670900/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/06.11.2026-v-rige-ia-cuvstvovala-cto-menia-zdali-beseda-s-urozenkoi-latvii-niu-iorkskoi-xudoznicei-dianoi-spunginoi.a670895/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/novosti/736959-v-valke-otmenili-rozdestvenskie-podarki-dlia-detei-i-pensionerov-iz-za-nexvatki-deneg",
+"https://rus.jauns.lv/article/afisha/736826-za-delikatesami-k-moriu-14-noiabria-v-paviloste-sostoitsia-vkusnyi-prazdnik",
+"https://rus.jauns.lv/article/afisha/736823-fakelnoe-sestvie-besplatnye-koncerty-i-saliut-cto-zdet-zitelei-ventspilsa-v-noiabre",
+"https://pmo.ee/8578853",
+"https://pmo.ee/8578792",
+"https://pmo.ee/8578967",
+"https://jauns.lv/raksts/zinas/736540-aicina-piedalities-konkursa-skaistakais-ziemassvetku-noformejums"
 ],
 "tips_debug": {
 "date": "2026-11-05",
@@ -9853,6 +9866,60 @@
 "link": "https://ticketshop.lv/lv/events/107439",
 "text": "no 35,00 EUR 18.11.26 19:00 NAPALM DEATH (UK) / MASTER (USA) / BRAT (USA) / Goatburner (Fi) Melnā Piektdiena",
 "src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108222",
+"text": "no 30,00 EUR 07.11.26 20:00 RĪMDARI — “SANĀCIET, DRAUGI” The Art Ranch Dukuri",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108053",
+"text": "no 25,00 EUR 07.11.26 20:30 Arturs Skutelis // Solus Rex + Apziņas plūsmas tūre | RĪGA Vagonu Halle",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108045",
+"text": "no 20,00 EUR 14.11.26 19:00 Андрей Айрапетов | RĪGA Kinoteātris Splendid Palace",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/106657",
+"text": "no 34,00 EUR 05.12.26 20:00 OZOLS - \"CIEŅA UN MĪLESTĪBA\" Xiaomi Arēna",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107522",
+"text": "no 50,00 EUR 29.01.27 19:00 The Rasmus | Riga Palladium",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107074",
+"text": "no 40,00 EUR 01.03.27 19:00 WHITECHAPEL (USA) / SYLOSIS (UK) / 200 Stab Wounds (USA) / Tribal Gaze (Usa) READY koncertzāle",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108000",
+"text": "no 13,00 EUR 10.07.27 15:00 BALTIC INTERNATIONAL AIRSHOW 2027 - THE SOUND OF SPEED Spilve Airport",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107405",
+"text": "no 55,00 EUR 17.04.27 16:00 Nurme Springs 2027 Craft Beer Festival Hanzas Perons",
+"src": "https://ticketshop.lv/lv/categories/3",
+"seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108223",
+"text": "no 50,00 EUR 04.06.27 15:00 Zobens un Lemess 2027 Bauskas Pilskalna Estrāde",
+"src": "https://ticketshop.lv/lv/categories/3",
 "seen": "2026-11-07"
 }
 ],
