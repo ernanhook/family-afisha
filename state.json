@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.17018279999999997,
-"calls": 38
+"cost": 0.17028379999999996,
+"calls": 39
 },
 "last_digest": "2026-11-05",
 "shown_ongoing": {
@@ -54,30 +54,6 @@
 "count": 6
 },
 "portal_queue": [
-{
-"link": "https://rus.delfi.lv/57860/latvia/120139862/na-vostoke-latvii-proydut-krupneyshie-ucheniya-mnogonacionalnoy-brigady-nato-za-vsyu-ee-istoriyu",
-"title": "На востоке Латвии пройдут крупнейшие учения многонациональной бригады НАТО за всю ее историю",
-"summary": "С 26 октября по 8 ноября многонациональная бригада НАТО в Латвии проведет самые масштабные на сегодняшний день военные учения по развертыванию сил Resolute Reforger 2026, в которых примут участие около 3000 военнослужащих и 1000 единиц военной техники, сообщили агентству LETA в штабе бригады.",
-"pub": "2026-10-25",
-"source": "rus.delfi.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8571125",
-"title": "VM prasa 26 079 eiro par medicīniskās palīdzības nodrošināšanu nelikumīgajiem robežšķērsotājiem",
-"summary": "Veselības ministrija (VM) rosina no valsts budžeta programmas \"Valsts ārējās robežas drošības pasākumu nodrošināšana\" pārdalīt 26 079 eiro, lai segtu medicīniskās palīdzības izdevumus cilvēkiem, kas mēģinājuši nelikumīgi šķērsot Latvijas-Baltkrievijas robežu, liecina ministrijas sagatavotais rīkojum",
-"pub": "2026-10-25",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8571087",
-"title": "На Рижском кинофестивале награды присудили лучшим фильмам и видеоклипам",
-"summary": "Лучшим полнометражным фильмом Рижского международного кинофестиваля (RIGA IFF) стала картина \"Нипстеры\" норвежского режиссера Суннивы Эйр Тангвик Квеум, сообщила агентству LETA представитель фестиваля Алдона Якшта.",
-"pub": "2026-10-25",
-"source": "rus.tvnet.lv",
-"score": 6
-},
 {
 "link": "https://pmo.ee/8571161",
 "title": "Rīgā novembra sākumā paziņos \"Michelin\" atzinību saņēmušos Latvijas restorānus",
@@ -4853,6 +4829,30 @@
 "pub": "2026-11-07",
 "source": "la.lv",
 "score": 8
+},
+{
+"link": "https://www.delfi.lv/193/politics/120141570/aizejosas-valdibas-ricibas-plana-izpilditi-85-prioritaro-darbu",
+"title": "Aizejošās valdības rīcības plānā izpildīti 85 % prioritāro darbu",
+"summary": "Ministru prezidenta Andra Kulberga (AS) vadītā valdība līdz šā gada 15. oktobrim pabeigusi 52 no 61 prioritārā darba jeb 85%, kā arī 132 jeb 71 % no kopumā 185 valdības rīcības plānā iekļautajiem pasākumiem, portālu \"Delfi\" informēja Valsts kancelejā.",
+"pub": "2026-11-07",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8579269",
+"title": "Aptauja atklāj, cik lielu summu iedzīvotāji plāno tērēt Ziemassvētku dāvanām",
+"summary": "Latvijā 56% iedzīvotāju šogad Ziemassvētku dāvanām plāno tērēt līdz 120 eiro, liecina pēc mēbeļu tirgotāja \"Ikea\" pasūtījuma veiktās aptaujas dati.",
+"pub": "2026-11-07",
+"source": "apollo.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/latvija-var-nonakt-pirmsbankrota-situacija-smiltens-nosauc-pirmo-soli-ka-valstij-vajadzetu-sakt-taupit",
+"title": "Latvija var nonākt pirmsbankrota situācijā: Smiltēns nosauc pirmo soli, kā valstij vajadzētu sākt taupīt",
+"summary": "Latvijai priekšā var būt smagi taupības pasākumi, un politiķiem būs jāizšķiras, vai viņi gatavi uzņemties atbildību par nepopulāriem lēmumiem. Vienlaikus nedrīkst aizmirst par investīciju piesaisti un aizsardzības finansējuma saglabāšanu. Par to TV24 raidījumā “Kārtības rullis” runāja 15. Saeimas pr",
+"pub": "2026-11-07",
+"source": "la.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
@@ -9434,7 +9434,8 @@
 "https://rus.jauns.lv/article/novosti/737002-skazka-posle-zakata-v-rige-mozno-proguliatsia-sredi-soten-svetovyx-installiacii",
 "https://rus.jauns.lv/article/afisha/736974-v-rige-sobralis-predstaviteli-industrii-krasoty-iz-20-stran-cem-udivliaet-baltic-beauty-2026",
 "https://bb.lv/statja/kultura/2026/11/07/riga-na-cetyre-vecera-prevratitsia-v-gorod-sveta-52-installiacii-tysiaci-zerkal-i-neobycnye-prevrashheniia?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"https://www.la.lv/atveda-suni-uz-bernudarzu-lai-macitu-labestibu-bet-kads-zens-izrada-neparastu-cietsirdibu"
+"https://www.la.lv/atveda-suni-uz-bernudarzu-lai-macitu-labestibu-bet-kads-zens-izrada-neparastu-cietsirdibu",
+"https://pmo.ee/8579269"
 ],
 "tips_debug": {
 "date": "2026-11-05",
