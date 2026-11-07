@@ -55,30 +55,6 @@
 },
 "portal_queue": [
 {
-"link": "https://pmo.ee/8571161",
-"title": "Rīgā novembra sākumā paziņos \"Michelin\" atzinību saņēmušos Latvijas restorānus",
-"summary": "Rīgā koncertzālē \"Palladium\" 5. novembrī norisināsies restorānu apbalvošanas pasākums, kurā paziņos jaunāko \"Michelin\" ceļveža Latvijas restorānu izlasi un godinās iekļauto restorānu komandas, informēja Latvijas Investīciju un attīstības aģentūrā (LIAA).",
-"pub": "2026-10-25",
-"source": "apollo.lv",
-"score": 6
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/10/25/v-nacale-noiabria-v-rige-obieiaviat-restorany-latvii-polucivsie-ocenku-michelin?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "В начале ноября в Риге объявят рестораны Латвии, получившие оценку Michelin",
-"summary": "5 ноября в рижском концертном зале Palladium состоится церемония награждения ресторанов, на которой представят новый список латвийских заведений, включённых в престижный гастрономический гид Michelin. Об этом сообщает LETA со ссылкой на Латвийское агентство инвестиций и развития (LIAA).",
-"pub": "2026-10-25",
-"source": "bb.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/zinas/735002-kadam-veic-reanimesanas-pasakumu-bet-kadu-diemzel-apsedz-aculieciniece-stasta-par-baiso-avariju-ludzas-novada",
-"title": "\"Kādam veic reanimēšanas pasākumu, bet kādu diemžēl apsedz...\" Aculieciniece stāsta par baiso avāriju Ludzas novadā",
-"summary": "Sabiedrību svētdien satrieca baisā avārija Ludzas novada Salnavas pagastā, kurā bojā divi cilvēki, bet vēl divi guva traumas. Kāda aculieciniece sociālajā vietnē \"Facebook\" dalījusies ar pārdzīvoto.",
-"pub": "2026-10-25",
-"source": "jauns.lv",
-"score": 3
-},
-{
 "link": "https://pmo.ee/8570215",
 "title": "INTERVIJA ⟩ Kinoproducents Mikaels Rīkss: \"Kino mums parāda, kā izskatās pasaule un kādai tai nevajadzētu izskatīties\"",
 "summary": "Ēģiptiešu izcelsmes dāņu režisores Majas el-Tukī (May el-Toukhy) filma “Nezināmā sieviete\", kuras ražošanu Latvijā nodrošināja Baltijas filmu studija Nafta Films, septembra pirmajā pusē izcīnīja 83. Venēcijas kinofestivāla galveno balvu – \"Zelta lauvu\". Tā ir pirmā Latvijas kopražojuma filma, kas ie",
@@ -4853,6 +4829,30 @@
 "pub": "2026-11-07",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://pmo.ee/8578684",
+"title": "Kur dzīvo Viljams un Keita? Vindzoras māja ir grezna, bet vietējie mazliet burkšķ",
+"summary": "Princis Viljams un Ketrīna jau kopš 2025. gada rudens ar bērniem dzīvo Forest Lodžā (Forest Lodge) — vēsturiskā astoņu guļamistabu savrupnamā Vindzoras Lielajā parkā. Lai gan pārcelšanās nav jauns notikums, viņu izvēlētā dzīvesvieta joprojām piesaista uzmanību: plašais parks, vēsturiskā ēka un papil",
+"pub": "2026-11-07",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8573605",
+"title": "Balerīna uz galvas! Elle Faninga „Bada spēļu” pirmizrādē",
+"summary": "Rozā balerīnas kleita, skulpturāla korsete un galvassega ar miniatūru, rotējošu dejotāju — aktrise Elle Faninga Londonā ieradās kā izkāpusi no greznas mūzikas lādītes.",
+"pub": "2026-11-07",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8578739",
+"title": "ФОТО ⟩ Панк-рок и \"Порнофильмы\", а так шутить можно? Эмоции гостей на премьере спектакля \"Фрилансеры\"",
+"summary": "7 ноября в Аркаде Театра Чехова Чехова (ул. Вальню, 19) состоялась премьера спектакля Эдвина Климанова \"Фрилансеры\" по пьесе румынского актера, режиссера и драматурга Иона Сапдару, в переводе Михаила Поторака. Смотрите, кто ее посетил в нашем репортаже!",
+"pub": "2026-11-07",
+"source": "rus.tvnet.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -9450,30 +9450,6 @@
 },
 "watch_queue": [
 {
-"link": "https://ticketshop.lv/lv/events/107987",
-"text": "Vairāk informācijas 01.11.26 20:00 UNNV | RĪGA Laska V21 Izpārdots",
-"src": "https://ticketshop.lv/lv/categories/1",
-"seen": "2026-10-17"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108342",
-"text": "no 40,00 EUR 14.11.26 19:00 Слава Комиссаренко | Порту - 70% новый материал Auditório Magno - ISEP",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-17"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108344",
-"text": "no 15,00 EUR 21.11.26 11:00 АНАИТ Art Ambar",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-17"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108343",
-"text": "no 15,00 EUR 17.11.26 18:30 Поём вместе песни А. Зацепина Art Ambar",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-17"
-},
-{
 "link": "https://ticketshop.lv/lv/events/108242",
 "text": "no 10,00 EUR 02.11.26 19:00 Monomūzikls \"VIENA\" Eduarda Smiļģa Teātra muzejs",
 "src": "https://ticketshop.lv/lv/categories/1",
@@ -9928,6 +9904,18 @@
 "text": "no 50,00 EUR 04.06.27 15:00 Zobens un Lemess 2027 Bauskas Pilskalna Estrāde",
 "src": "https://ticketshop.lv/lv/categories/3",
 "seen": "2026-11-07"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108171",
+"text": "no 10,00 EUR 18.11.26 20:00 Hand Of Juno (Italy / Out Of Line Music - Industrial Metal) Klubs \"Depo\" Atcelts",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-08"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107189",
+"text": "no 40,00 EUR 19.11.26 20:00 Shkodra Elektronike | Riga Laska V21",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-08"
 }
 ],
 "watch_errors": {},
