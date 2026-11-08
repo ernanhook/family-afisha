@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.17028379999999996,
-"calls": 39
+"cost": 0.17055849999999995,
+"calls": 40
 },
 "last_digest": "2026-11-05",
 "shown_ongoing": {
@@ -54,70 +54,6 @@
 "count": 6
 },
 "portal_queue": [
-{
-"link": "https://pmo.ee/8570215",
-"title": "INTERVIJA ⟩ Kinoproducents Mikaels Rīkss: \"Kino mums parāda, kā izskatās pasaule un kādai tai nevajadzētu izskatīties\"",
-"summary": "Ēģiptiešu izcelsmes dāņu režisores Majas el-Tukī (May el-Toukhy) filma “Nezināmā sieviete\", kuras ražošanu Latvijā nodrošināja Baltijas filmu studija Nafta Films, septembra pirmajā pusē izcīnīja 83. Venēcijas kinofestivāla galveno balvu – \"Zelta lauvu\". Tā ir pirmā Latvijas kopražojuma filma, kas ie",
-"pub": "2026-10-25",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8569505",
-"title": "ФОТО ⟩ Кто пришел на премьеру \"Ревизора\" в Риге?",
-"summary": "25 октября в 15:00 и 19:00 в Доме Рижского латышского общества был показан спектакль \"Ревизор\". Этот новый спектакль в постановке режиссера Сергея Голомазова предложил современный взгляд на бессмертную комедию Николая Гоголя, превратив ее в психологическую историю о самообмане, страхе разоблачения и",
-"pub": "2026-10-25",
-"source": "rus.tvnet.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/26.10.2026-caka-125-dzimsanas-diena-tapusas-vairakas-izcilajam-dzejdarim-veltitas-izrades.a668974/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Čaka 125. dzimšanas dienā tapušas vairākas izcilajam dzejdarim veltītas izrādes",
-"summary": "Rīt 125. gadskārta aprit izcilajam Rīgas un mīlestības dziesminiekam Aleksandram Čakam. Čaka vārda maģijai jau ilggadēji ir uzticīgs aktieris Mārtiņš Vilsons. Viņš izveidojis trīs izrādes ar Čaka dzeju un šobrīd strādā pie ceturtās programmas. Tieši Čaka dzimšanas dienā izrādi \"Iedomu spoguļi\" varēs",
-"pub": "2026-10-26",
-"source": "lsm.lv",
-"score": 8
-},
-{
-"link": "https://jauns.lv/raksts/sievietem/734947-tu-visu-saplanoji-bet-dzivei-citi-nodomi-ko-atklaj-oktobra-pilnmeness-astrologes-ilanas-bankes-prognoze",
-"title": "Tu visu saplānoji, bet dzīvei citi nodomi! Ko atklāj oktobra pilnmēness? Astroloģes Ilanas Baņķes prognoze",
-"summary": "Tu domā, ka kontrolē situāciju un zini, kā viss turpmāk notiks. Taču apstākļi mainās, notikumi pavēršas negaidītā virzienā un tavs plāns vairs neizskatās tik drošs. Un tieši tad, kad grasies spert nākamo soli, spēlē iesaistās pilnmēness… Ar saviem noteikumiem!",
-"pub": "2026-10-26",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/26.10.2026-vai-zini-kura-gada-kurmajas-koncertzale-tika-atklata-liepajas-tautas-konservatorija.a668934/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Vai zini, kurā gadā Kūrmājas koncertzālē tika atklāta Liepājas Tautas konservatorija?",
-"summary": "Tautas konservatoriju dibināšana 20. gadsimta 20. gados dažādās Latvijas pilsētās bija sarežģīta, jo prasmīga, izglītota mācībspēka vienkārši bija par maz, tādēļ profesionāli atbilstošus mūziķus nācās uzstājīgi aicināt un gandrīz ar varu spiest doties prom no Rīgas. Jāzeps Vītols pierunāja uz Daugav",
-"pub": "2026-10-26",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/26.10.2026-ko-par-latvijas-isfilmam-doma-starptautiska-auditorija-atklaj-riga-iff-zurija.a669052/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Ko par Latvijas īsfilmām domā starptautiska auditorija? Atklāj Riga IFF žūrija",
-"summary": "Rokrakstu dažādība, spēja lūkoties ārpus ierastajiem rāmjiem, spēcīgas montāžas prasmes un pāri visam – labs humors, tā pieredzēto Rīgas Starptautiskā kino festivāla īsfilmu nacionālajā skatē raksturo starptautiskās žūrijas locekļi Nīna Rodrigesa, Vincents Fersters un Aurēlija Āsa. Latvijas Radio ra",
-"pub": "2026-10-26",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/26.10.2026-pazudusi-vecaki-un-sausmas-gimenes-ligzdina-ko-sonedel-redzet-kino.a669054/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Pazuduši vecāki un šausmas ģimenes ligzdiņā. Ko šonedēļ redzēt kino?",
-"summary": "Nupat noslēdzies 13. Rīgas Starptautiskais kino festivāls (Riga IFF), bet intensīva kino skatīšanās – bagātīgs filmu piedāvājums – nebeidzas. Pienācis tas gada brīdis, ko filmu nozarē pazīst kā \"balvu sezonu\", proti, studijas (īpaši amerikāņu) repertuārā izlaiž filmas, lai tās piesaistītu preses un ",
-"pub": "2026-10-26",
-"source": "lsm.lv",
-"score": 6
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/26.10.2026-caka-125-dzimsanas-diena-vairakas-iespejas-baudit-izcila-dzejnieka-dailradi.a668974/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Čaka 125. dzimšanas dienā vairākas iespējas baudīt izcilā dzejnieka daiļradi",
-"summary": "Otrdien, 27. oktobrī, 125. gadskārta aprit izcilajam Rīgas un mīlestības dziesminiekam Aleksandram Čakam. Čaka vārda maģijai jau ilggadēji ir uzticīgs aktieris Mārtiņš Vilsons. Viņš izveidojis trīs izrādes ar Čaka dzeju un šobrīd strādā pie ceturtās programmas. Tieši Čaka dzimšanas dienā izrādi \"Ied",
-"pub": "2026-10-26",
-"source": "lsm.lv",
-"score": 6
-},
 {
 "link": "https://rus.lsm.lv/statja/kultura/kino/26.10.2026-ironicnyi-vzgliad-matisa-kazi-na-samogo-sebia-na-lsm-vysel-dokumentalnyi-film-nevozmoznyi-avtoportret.a669093/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "Ироничный взгляд Матиса Кажи на самого себя. На LSM вышел документальный фильм «Невозможный автопортрет»",
@@ -4853,6 +4789,70 @@
 "pub": "2026-11-07",
 "source": "rus.tvnet.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/vesture/08.11.2026-si-diena-vesture-unikalas-murano-stikla-razosanas-tradicijas-aizsakumi.a481575/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Šī diena vēsturē. Unikālās Murano stikla ražošanas tradīcijas aizsākumi",
+"summary": "1291. gada 8. novembrī toreizējā Venēcijas republikas vara noteica, ka stikla pūtēju darbnīcas, kas radīja ugunsgrēka briesmas, pārceļamas uz Murano saliņām Venēcijas lagūnā. Tas kļuva par atspēriena punktu unikālajai Murano stikla ražošanas tradīcijai.",
+"pub": "2026-11-08",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/cilvekstasti/08.11.2026-martinrozu-audzetaja-aivara-ipasa-pasaule-latgale-gailu-pulks-skaista-keve-vendija-un-miers.a670839/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Mārtiņrožu audzētāja Aivara īpašā pasaule Latgalē – gaiļu pulks, skaistā ķēve Vendija un miers",
+"summary": "Visādi citādi Aivaram Ratniekam ir rāma dzīve pierobežā ar ģimeni, savu gotiņu, savu vistiņu, saviem kartupeļiem un visu pārējo, kas tādā lauku saimniecībā iederas. Laiku pa laikam jaunas krāsas ikdienas darbu ainavā ienes kādi tirdziņi dažādās Latgales pilsētās, jo Aivars ir arīdzan tās puses lielā",
+"pub": "2026-11-08",
+"source": "lsm.lv",
+"score": 6
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/iskusstvo/08.11.2026-gruzinskii-xudoznik-nugzar-paksadze-a-esli-boissia-nicego-ne-polucitsia.a670746/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Грузинский художник Нугзар Паксадзе: «А если боишься, ничего не получится!..»",
+"summary": "Лето и осень у грузинского художника Нугзара Паксадзе, который живет в Латвии уже более сорока лет, оказались насыщенными: пленэры, встреча с приехавшими в Латвию грузинскими коллегами, выставка в Резекне. А сейчас его работы можно увидеть в старинном замке Прейли и в Вентспилсе.",
+"pub": "2026-11-08",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://jauns.lv/raksts/zinas/736541-izdota-dzintaru-koncertzales-jubilejai-veltita-gramata",
+"title": "Izdota Dzintaru koncertzāles jubilejai veltīta grāmata",
+"summary": "2026. gada 28. oktobrī, tika atklāta Dzintaru koncertzāles Mazās zāles 90. gadskārtai veltīta grāmata.",
+"pub": "2026-11-08",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/737085-premera-s-neozidannym-povorotom-i-priznaniia-akterov-otkrito-zaglianul-za-kulisy-teatra-cexova-video",
+"title": "Премьера с неожиданным поворотом и признания актеров: Otkrito заглянул за кулисы Театра Чехова. ВИДЕО",
+"summary": "7 ноября в Аркаде Театра Чехова состоялась премьера спектакля \"Фрилансеры\". Otkrito побывал на показе, пообщался с актерами и зрителями и узнал, что осталось за кулисами новой постановки.",
+"pub": "2026-11-08",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/lifestyle/737064-rizane-znaiut-etot-dom-kak-sakta-no-ego-udivitelnaia-istoriia-nacalas-bolee-150-let-nazad",
+"title": "Рижане знают этот дом как \"Сакта\", но его удивительная история началась более 150 лет назад",
+"summary": "В Риге есть здания, которые знают почти во всей Латвии, даже если далеко не все знакомы с их историей. Десятилетиями рижане называют это место просто \"Сактой\". Здесь покупали подарки и духи, отправляли письма, назначали встречи, ходили на выставки и лекции. Это здание также тесно связано с историей ",
+"pub": "2026-11-08",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/11/08/12-tysiac-svecei-fakelnye-sestviia-i-prazdnicnyi-saliut-iurmala-gotovit-grandioznoe-prazdnovanie?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "12 тысяч свечей, факельные шествия и праздничный салют: Юрмала готовит грандиозное празднование",
+"summary": "В ноябре Юрмала отметит два главных государственных праздника Латвии — День Лачплесиса 11 ноября и 108-ю годовщину провозглашения независимости 18 ноября. Жителей и гостей курортного города ждут факельные шествия, концерты, памятные церемонии и впечатляющий 20-километровый Путь света, который объеди",
+"pub": "2026-11-08",
+"source": "bb.lv",
+"score": 6
+},
+{
+"link": "https://www.la.lv/rimi-dzivo-cita-dimensija-pirceja-neizpratne-par-veikala-plauktos-redzamo",
+"title": "“Rimi dzīvo citā dimensijā?” Pircēja neizpratnē par veikala plauktos redzamo",
+"summary": "Helovīns beidzies, Ziemassvētki tuvojas, taču pa vidu Latvijā ir vēl divi īpaši datumi – Lāčplēša diena 11. novembrī un Latvijas Republikas Proklamēšanas diena 18. novembrī. Kāda “Rimi” apmeklētāja sociālajos tīklos paudusi neizpratni, ka Latvijas valsts svētkiem veltītais piedāvājums veikalā viņai ",
+"pub": "2026-11-08",
+"source": "la.lv",
+"score": 6
 }
 ],
 "portal_errors": {},
@@ -9435,7 +9435,12 @@
 "https://rus.jauns.lv/article/afisha/736974-v-rige-sobralis-predstaviteli-industrii-krasoty-iz-20-stran-cem-udivliaet-baltic-beauty-2026",
 "https://bb.lv/statja/kultura/2026/11/07/riga-na-cetyre-vecera-prevratitsia-v-gorod-sveta-52-installiacii-tysiaci-zerkal-i-neobycnye-prevrashheniia?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
 "https://www.la.lv/atveda-suni-uz-bernudarzu-lai-macitu-labestibu-bet-kads-zens-izrada-neparastu-cietsirdibu",
-"https://pmo.ee/8579269"
+"https://pmo.ee/8579269",
+"https://www.lsm.lv/raksts/dzive-stils/cilvekstasti/08.11.2026-martinrozu-audzetaja-aivara-ipasa-pasaule-latgale-gailu-pulks-skaista-keve-vendija-un-miers.a670839/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/08.11.2026-gruzinskii-xudoznik-nugzar-paksadze-a-esli-boissia-nicego-ne-polucitsia.a670746/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/lifestyle/737064-rizane-znaiut-etot-dom-kak-sakta-no-ego-udivitelnaia-istoriia-nacalas-bolee-150-let-nazad",
+"https://bb.lv/statja/kultura/2026/11/08/12-tysiac-svecei-fakelnye-sestviia-i-prazdnicnyi-saliut-iurmala-gotovit-grandioznoe-prazdnovanie?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/rimi-dzivo-cita-dimensija-pirceja-neizpratne-par-veikala-plauktos-redzamo"
 ],
 "tips_debug": {
 "date": "2026-11-05",
