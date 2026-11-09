@@ -9461,24 +9461,6 @@
 },
 "watch_queue": [
 {
-"link": "https://ticketshop.lv/lv/events/108242",
-"text": "no 10,00 EUR 02.11.26 19:00 Monomūzikls \"VIENA\" Eduarda Smiļģa Teātra muzejs",
-"src": "https://ticketshop.lv/lv/categories/1",
-"seen": "2026-10-18"
-},
-{
-"link": "https://ticketshop.lv/lv/events/107162",
-"text": "no 35,00 EUR 03.11.26 19:00 AMARANTHE (Se) / SELF DECEPTION (Se) / ANKOR (Es) READY koncertzāle",
-"src": "https://ticketshop.lv/lv/categories/1",
-"seen": "2026-10-18"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108243",
-"text": "no 10,00 EUR 03.11.26 19:00 Monomūzikls \"VIENA\" Eduarda Smiļģa Teātra muzejs",
-"src": "https://ticketshop.lv/lv/categories/1",
-"seen": "2026-10-18"
-},
-{
 "link": "https://ticketshop.lv/lv/events/108162",
 "text": "no 15,00 EUR 06.11.26 20:00 Stanislav Judin un Asnate Rancāne op.3 LP atvēršanas koncerts Vagonu Halle",
 "src": "https://ticketshop.lv/lv/categories/1",
@@ -9933,6 +9915,12 @@
 "text": "no 15,00 EUR 17.11.26 18:30 Поём вместе песни А. Зацепина Art Ambar",
 "src": "https://ticketshop.lv/lv/categories/1",
 "seen": "2026-11-08"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107776",
+"text": "no 30,00 EUR 19.11.26 20:00 MUSTASCH (Se) + support Melnā Piektdiena",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-09"
 }
 ],
 "watch_errors": {},
