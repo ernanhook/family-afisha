@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.17090519999999995,
-"calls": 41
+"cost": 0.17118039999999995,
+"calls": 42
 },
 "last_digest": "2026-11-05",
 "shown_ongoing": {
@@ -54,54 +54,6 @@
 "count": 6
 },
 "portal_queue": [
-{
-"link": "https://pmo.ee/8571602",
-"title": "Novembrī Ķengaragā noslēgsies \"Leģendu rogaininga\" 2026. gada sezona",
-"summary": "Orientēšanās sacensību sērija \"Leģendu rogainings\" 7. novembrī sezonu noslēgs Rīgā, Ķengaragā un tā apkārtnē. Sacensību starta un finiša vieta atradīsies pie iepirkšanās un izklaides centra \"Akropole Rīga\", informē organizatoru pārstāvis Ivars Bācis. Pasākums notiks ar Rīgas valstspilsētas pašvaldīb",
-"pub": "2026-10-26",
-"source": "apollo.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8571350",
-"title": "Sarkanais paklājs, eksotiskas brīvdienas un siltas atmiņas? Ko pašmāju slavenības darīja nedēļas nogalē",
-"summary": "Kamēr Latvijā greznojas rudens, sabiedrībā pzīstami ļaudis aizvadītajā nedēļas nogalē nesēdēja mājās, bet gan ķēra mirkļus kā saviesīgajos pasākumos, tā arī tālās un eksotiskās zemēs.",
-"pub": "2026-10-26",
-"source": "apollo.lv",
-"score": 5
-},
-{
-"link": "https://pmo.ee/8571405",
-"title": "Grupa \"Thirty Seconds to Mars\" nākamgad uzstāsies Rīgā",
-"summary": "Pēc diviem iepriekšējiem, teju izpārdotiem koncertiem Latvijā amerikāņu rokgrupa \"Thirty Seconds to Mars\" pavasarī atgriezīsies Rīgā. Jaunā Eiropas koncerttūre “A Beautiful Lie vs. This Is War”, kas veltīta diviem grupas karjerā nozīmīgākajiem albumiem, ļaus klausītājiem no jauna piedzīvot dziesmas,",
-"pub": "2026-10-26",
-"source": "apollo.lv",
-"score": 4
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/10/26/tysiaca-edinic-voennoi-texniki-napravitsia-na-vostok-latvii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Тысяча единиц военной техники направится на восток Латвии",
-"summary": "С 26 октября по 8 ноября в Латвии пройдут крупнейшие на сегодняшний день учения по развертыванию сил многонациональной бригады НАТО Resolute Reforger 2026. В них примут участие около 3000 военнослужащих и 1000 единиц военной техники. Передвижение военных подразделений по автомобильным и железным дор",
-"pub": "2026-10-26",
-"source": "bb.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/si-jau-ir-septita-tiesvediba-kalvins-asi-noraida-parmetumus-par-zinatnu-akademijas-koncertzali-un-vaino-milleru-tas-pasreizeja-stavokli",
-"title": "“Šī jau ir septītā tiesvedība!” Kalviņš asi noraida pārmetumus par Zinātņu akadēmijas koncertzāli un vaino Milleru tās pašreizējā stāvoklī",
-"summary": "Latvijas Zinātņu akadēmijas koncertzāles liktenis jau gadiem saistīts ar strīdiem un tiesvedībām, taču Latvijas Zinātņu akadēmijas prezidents Ivars Kalviņš nepiekrīt apgalvojumiem, ka tieši akadēmija būtu vainojama pie tā, ka zāle šobrīd netiek pilnvērtīgi izmantota. TV24 raidījumā “Uz līnijas” kāds",
-"pub": "2026-10-26",
-"source": "la.lv",
-"score": 6
-},
-{
-"link": "https://www.la.lv/lvm-dabas-parks-tervete-aicina-baudit-rudens-krasnumu-un-apmeklet-radosas-darbnicas",
-"title": "LVM dabas parks Tērvetē aicina baudīt rudens krāšņumu un apmeklēt radošās darbnīcas",
-"summary": "Rudenī AS “Latvijas valsts meži” dabas parks Tērvetē iepriecina ar krāšņu lapu rotu, pastaigām pa rudenīgo mežu, īpašām vides radošajām darbnīcām bērnu grupām, tikšanos ar rūķiem un citiem meža pasaku tēliem. “Tērvetē var skaisti pastaigāties pa dabas takām, sajust, sasmaržot un ieraudzīt rudeni,” s",
-"pub": "2026-10-26",
-"source": "la.lv",
-"score": 9
-},
 {
 "link": "https://www.la.lv/pasi-ka-tauta-esam-vien-vainigi-tuvojoties-halovinam-uzvirmo-asas-diskusijas-par-so-svetku-svinesanu",
 "title": "“Paši kā tauta esam vien vainīgi!” Tuvojoties Halovīnam, uzvirmo asas diskusijas par šo svētku svinēšanu",
@@ -4853,6 +4805,54 @@
 "pub": "2026-11-08",
 "source": "bb.lv",
 "score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/737195-nem-vera-riga-gaidami-plasi-satiksmes-ierobezojumi-sakara-ar-lacplesa-dienas-pasakumiem",
+"title": "Ņem vērā! Rīgā gaidāmi plaši satiksmes ierobežojumi sakarā ar Lāčplēša dienas pasākumiem",
+"summary": "Lāčplēša dienas pasākumu laikā Rīgā gaidāmi vairāki satiksmes ierobežojumi.",
+"pub": "2026-11-09",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/735405-visplasakais-lacplesa-dienas-celvedis-visai-latvijai-lapu-gajieni-koncerti-kino-un-citi-svinigi-pasakumi",
+"title": "Visplašākais Lāčplēša dienas ceļvedis visai Latvijai: Lāpu gājieni, koncerti, kino un citi svinīgi pasākumi",
+"summary": "Lāčplēša dienā, 11. novembrī, svinīgi pasākumi notiek pilnīgi visās Latvijas pilsētas un novados. Būs gan Lāpu gājieni un svētbrīži, gan patriotiski koncerti un kino, gan sporta pasākumi un militāras izstādes, gan tautiskas meistarklases un vēstures pārgājieni. Jauns.lv piedāvā Lāčplēša dienas kalen",
+"pub": "2026-11-09",
+"source": "jauns.lv",
+"score": 14
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/737191-sozvano-ekstrennoe-zasedanie-soveta-bezopasnosti-oon-posle-krovavyx-atak-rossii-na-ukrainu",
+"title": "Созвано экстренное заседание Совета Безопасности ООН после кровавых атак России на Украину",
+"summary": "Сегодня в 17:00 по латвийскому времени в Нью-Йорке состоится экстренное заседание Совета Безопасности ООН по ситуации в Украине, сообщила пресс-секретарь постоянного представительства Латвии при ООН Сигне Знотиня-Знота.",
+"pub": "2026-11-09",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/737130-bolsinstvo-elgavskix-avtovoditelei-otkazalis-snizat-skorost-daze-posle-ustanovki-betonnyx-zagrazdenii",
+"title": "Большинство елгавских автоводителей отказались снижать скорость даже после установки бетонных заграждений",
+"summary": "После реализации мероприятий по замедлению движения на улице Платонес проведенные замеры показывают, что в целом на этой улице снизились поток транспортных средств и скорость движения. Однако почти 74% водителей по-прежнему превышают разрешенную скорость — 30 км/ч.",
+"pub": "2026-11-09",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/737146-v-latvii-ozidaiutsia-pervye-sereznye-priznaki-zimy-morozy-oxvatiat-pocti-vsiu-stranu",
+"title": "В Латвии ожидаются первые серьезные признаки зимы: морозы охватят почти всю страну",
+"summary": "Следующая неделя пройдет в Латвии с переменчивой погодой. В начале недели осадков будет немного, однако уже к середине недели в страну начнет поступать более холодный воздух, а по ночам ударят небольшие морозы. Местами ожидается мокрый снег, но устойчивый снежный покров пока не образуется.",
+"pub": "2026-11-09",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/09/v-rige-na-tri-dnia-perekroiut-ulicu-bariniu-izmeniatsia-marsruty-vosmi-avtobusov?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "В Риге на три дня перекроют улицу Бариню: изменятся маршруты восьми автобусов",
+"summary": "С вечера понедельника, 9 ноября, до полудня четверга, 12 ноября, в рижском районе Агенскалнс будет закрыто движение на участке улицы Бариню. Из-за мероприятий, приуроченных ко Дню Лачплесиса, изменятся маршруты восьми автобусов, а две остановки временно перестанут работать.",
+"pub": "2026-11-09",
+"source": "bb.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -9007,7 +9007,7 @@
 },
 "ics_intro_sent": true,
 "urgent_week": {
-"week": "2026-45",
+"week": "2026-46",
 "n": 0
 },
 "urgent_checked": [
@@ -9446,7 +9446,9 @@
 "https://rus.jauns.lv/article/novosti/737108-nas-zdet-ocen-neobycnoe-voskresene-v-2027-godu-kakie-dva-sobytiia-sovpadut-28-marta",
 "https://bb.lv/statja/nasha-latvija/2026/11/08/podarki-vsem-ili-ekonomiia-na-vsem-latviicy-rasskazali-o-planax-na-rozdestvo?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
 "https://www.la.lv/aunam-lacplesa-drosme-versim-laimdotas-uzticiba-noskaidro-kurs-latvijas-varonis-esi-pec-savas-zodiaka-zimes",
-"https://www.la.lv/foto-vajag-lielaku-ar-trim-siciem-pardosana-nonacis-aivja-cerina-sikais-auto-cik-tas-maksa"
+"https://www.la.lv/foto-vajag-lielaku-ar-trim-siciem-pardosana-nonacis-aivja-cerina-sikais-auto-cik-tas-maksa",
+"https://rus.jauns.lv/article/afisha/737111-v-rige-proidet-odna-iz-krupneisix-rozdestvenskix-iarmarok-baltii-vxod-besplatnyi",
+"https://jauns.lv/raksts/zinas/735405-visplasakais-lacplesa-dienas-celvedis-visai-latvijai-lapu-gajieni-koncerti-kino-un-citi-svinigi-pasakumi"
 ],
 "tips_debug": {
 "date": "2026-11-05",
