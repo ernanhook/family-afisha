@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.17280769999999995,
-"calls": 45
+"cost": 0.17344209999999996,
+"calls": 46
 },
 "last_digest": "2026-11-05",
 "shown_ongoing": {
@@ -54,182 +54,6 @@
 "count": 6
 },
 "portal_queue": [
-{
-"link": "https://pmo.ee/8573376",
-"title": "Pasaules Insulta dienā Stradiņa slimnīcā piedāvās veselības eksprespārbaudes",
-"summary": "Ceturtdien, 29. oktobrī, Paula Stradiņa klīniskajā universitātes slimnīcā (PSKUS) no plkst. 12 līdz 15 notiks Pasaules Insulta dienai veltīts informatīvs pasākums, kurā varēs veikt veselības eksprespārbaudes un noskaidrot savu insulta riska līmeni, informēja slimnīcā.",
-"pub": "2026-10-29",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8572374",
-"title": "ATRODI SEVI! ⟩ Somu superzvaigzne Käärijä Rīgā uzkurina publiku līdz sajūsmas virsotnei",
-"summary": "Trešdien, 28. oktobrī, koncertzālē \"Palladium\" uzstājās somu superzvaigzne Käärijä (īstajā vārdā Jere Mikaels Peihenens), kurš plašāku atpazīstamību ieguva 2023. gada Eirovīzijas dziesmu konkursā ar lipīgo \"Cha Cha Cha\". Ielūkojies koncerta norisē!",
-"pub": "2026-10-29",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8573345",
-"title": "Состоится последнее заседание 14-го Сейма; планируется рассмотреть 26 вопросов",
-"summary": "В четверг, 29 октября, на последнее заседание соберутся депутаты 14-го Сейма, сообщили агентству LETA в пресс-службе парламента.",
-"pub": "2026-10-29",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/10/29/v-cetverg-v-latvii-ozidaetsia-spokoinaia-pogoda-mestami-proidut-dozdi?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "В четверг в Латвии ожидается спокойная погода, местами пройдут дожди",
-"summary": "В четверг, 29 октября, в Латвии сохранится преимущественно облачная и спокойная погода. Местами пройдут небольшие дожди, наиболее обширная зона осадков ожидается в Курземе. Температура воздуха поднимется до +8…+13 градусов.",
-"pub": "2026-10-29",
-"source": "bb.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/dzive-stils/darzs-un-majas/29.10.2026-riga-cetras-dienas-dezinfices-udensvadus-iesaka-udeni-pirms-lietosanas-novarit.a669703/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Rīgā četras dienas dezinficēs ūdensvadus; iesaka ūdeni pirms lietošanas novārīt",
-"summary": "No 2. novembra pusnakts līdz 5. novembra pulksten 23.59 Rīgā notiks šogad otrā un noslēdzošā ūdensvadu tīklu profilaktiskā dezinfekcija jeb hlorēšana. Šajā laikā ūdenim var būt izteiktāka hlora smarža un neliela piegarša, informēja \"Rīgas ūdens\", norādot – lai gan dezinfekcijai izmantotā hlora konce",
-"pub": "2026-10-29",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/29.10.2026-nedzirdigam-cilvekam-laut-pieredzet-koncertu-mekle-autorus-muzikas-tulkojumam-zimju-valoda.a668848/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Nedzirdīgam cilvēkam ļaut pieredzēt koncertu: meklē autorus mūzikas tulkojumam zīmju valodā",
-"summary": "Mūzika rada un sevī ietver plašu un dziļu pasauli, ko grūti izskaidrot vārdos. Tā var saviļņot, satraukt, nomierināt, aizkustināt līdz asarām. Ko darīt, ja šī pieredze lielākoties balstās skaņās, kuras cilvēks nevar dzirdēt? Tā kā kultūras pasākumi ne vienmēr ir piekļūstami cilvēkiem ar dzirdes trau",
-"pub": "2026-10-29",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/29.10.2026-mazliet-mistikas-un-mazliet-zinatnes-teatra-jaunumu-apskats.a669655/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Mazliet mistikas un mazliet zinātnes. Teātra jaunumu apskats",
-"summary": "Halovīna laikam atbilstošs repertuārs ienācis Latvijas Nacionālajā teātrī – tā ir mazliet mistiskā un baisā Mārča Broka izrāde \"Sila ezera nolaišana\" pēc Jāņa Poruka stāsta motīviem. Poruks nav biežs viesis mūsu teātros, tādēļ jaunā režisora piedāvājums ir intriģējošs, un tēma par civilizācijas un d",
-"pub": "2026-10-29",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/muzika/29.10.2026-dat-neslysashhemu-celoveku-vozmoznost-procuvstvovat-koncert-ishhut-avtorov-perevoda-muzyki-na-zestovyi-iazyk.a669716/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Дать неслышащему человеку возможность прочувствовать концерт: ищут авторов перевода музыки на жестовый язык",
-"summary": "Музыка создает и заключает в себе огромный, глубокий мир, который трудно объяснить словами. Она может взволновать, встревожить, успокоить, тронуть до слез. Но что делать, если этот опыт в основном основан на звуках, которые человек не может слышать? Поскольку культурные мероприятия не всегда доступн",
-"pub": "2026-10-29",
-"source": "rus.lsm.lv",
-"score": 2
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/muzika/29.10.2026-mezdunarodnoe-i-latysskoe-slivaiutsia-v-novom-zvucanii-na-festivale-novoi-muzyki-arena.a669604/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Международное и латышское сливаются в новом звучании на фестивале новой музыки Arēna",
-"summary": "С азартом продолжая исследовать многогранность современного звукового искусства, в 25-й раз открылся фестиваль новой музыки Arēna. В пяти ярких непохожих друг на друга событиях будут искать точки соприкосновения между камерной музыкой и видеоартом, оперой и электроникой, импровизацией и световой дра",
-"pub": "2026-10-29",
-"source": "rus.lsm.lv",
-"score": 4
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/teatr/29.10.2026-spektakli-nastolnye-igry-i-vstreca-s-rotto-teatr-kukol-priglasaet-na-xellouin.a669688/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Спектакли, настольные игры и встреча с Ротто. Театр кукол приглашает на Хэллоуин",
-"summary": "31 октября Латвийский театр кукол приглашает семьи провести Хэллоуин в театре. Гостей ждут спектакли и настольные игры для всей семьи, а перед вечерним походом за сладостями состоится беседа о безопасности с представителями муниципальной полиции и ее талисманом — собачкой Ротто. Организаторы меропри",
-"pub": "2026-10-29",
-"source": "rus.lsm.lv",
-"score": 18
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/teatr/29.10.2026-nemnogo-mistiki-i-nemnogo-nauki-obzor-teatralnyx-novinok.a669670/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Немного мистики и немного науки. Обзор театральных новинок",
-"summary": "В Национальном театре Латвии появился репертуар, соответствующий атмосфере Хэллоуина, — немного мистический и жутковатый спектакль Марциса Брокса Sila ezera nolaišana, поставленный по мотивам рассказа Яниса Порукса. Порукс нечасто появляется на театральных сценах, поэтому работа молодого режиссера в",
-"pub": "2026-10-29",
-"source": "rus.lsm.lv",
-"score": 2
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/teatr/29.10.2026-krasota-i-pustota-recenziia-na-spektakl-siddxartxa.a669624/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Красота и пустота. Рецензия на спектакль «Сиддхартха»",
-"summary": "Международный спектакль «Сиддхартха», созданный при участии театра Дайлес, ведущим продюсером которого выступил антверпенский театр Toneelhuis, впервые представили на одном из важнейших событий современного театра — Рурской триеннале. Прежде всего, это постановка о музыке и визуальном образе. Спекта",
-"pub": "2026-10-29",
-"source": "rus.lsm.lv",
-"score": 8
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/735651-26starptautiska-baha-kamermuzikas-festivala-atklasanas-koncerta-pirmoreiz-latvija-vienlaikus-skanes-cetri-klavesini",
-"title": "26.Starptautiskā Baha kamermūzikas festivāla atklāšanas koncertā pirmoreiz Latvijā vienlaikus skanēs četri klavesīni",
-"summary": "Latvijas Nacionālajā vēstures muzejā Rīgas pilī ar koncertu “Johana Sebastiāna Baha koncerti klavesīniem” tiks atklāts 26.Starptautiskais Baha kamermūzikas festivāls. Koncerta programmā skanēs Johana Sebastiāna Baha (1685–1750) koncerti diviem klavesīniem (BWV 1060, BWV 1062), trim klavesīniem (BWV ",
-"pub": "2026-10-29",
-"source": "jauns.lv",
-"score": 22
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/735650-koncerta-sasauksanas-ii-skanes-latviesu-vokalas-kamermuzikas-perles-un-jaundarbs",
-"title": "Koncertā “Sasaukšanās II” skanēs latviešu vokālās kamermūzikas pērles un jaundarbs",
-"summary": "Beletāžas zālē 7. novembrī Latvijas Nacionālās operas solisti – soprāni Inna Kločko un Annija Kristiāna Ādamsone, tenors Mārtiņš Šmaukstelis, basbaritons Rihards Mačanovskis – un pianiste Ilze Ozoliņa atkal aicina baudīt latviešu vokālo kamermūziku, atklājot dažādu laikmetu muzikālo valodu, tās daud",
-"pub": "2026-10-29",
-"source": "jauns.lv",
-"score": 3
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/735643-ka-savienot-karjeru-ar-bernu-audzinasanu-pieredze-dalas-dziedataja-ieva-sutugova",
-"title": "Kā savienot karjeru ar bērnu audzināšanu? Pieredzē dalās dziedātāja Ieva Sutugova",
-"summary": "Šovs “Izklausies redzēts”, mēģinājumi, koncerti un ģimenes pienākumi – dziedātājas Ievas Sutugovas ikdiena ir piepildīta, un reizēm darba gaitās līdzi jādodas arī bērniem.",
-"pub": "2026-10-29",
-"source": "jauns.lv",
-"score": 8
-},
-{
-"link": "https://rus.jauns.lv/article/afisha/735619-biuti-rai-na-kipsale-tri-dnia-novinok-master-klassov-i-zrelishhnyx-sorevnovanii",
-"title": "Бьюти-рай на Кипсале: три дня новинок, мастер-классов и зрелищных соревнований",
-"summary": "С 6 по 8 ноября в выставочном центре Ķīpsala в Риге пройдет выставка Baltic Beauty 2026. Гостей ждут новинки косметики, зрелищные конкурсы мастеров красоты, мастер-классы и выгодные покупки.",
-"pub": "2026-10-29",
-"source": "rus.jauns.lv",
-"score": 10
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/735616-u-zitelei-latvii-poiavilas-vozmoznost-besplatno-naiti-sebe-xorosuiu-rabotu",
-"title": "У жителей Латвии появилась возможность бесплатно найти себе хорошую работу",
-"summary": "26 ноября с 14:00 до 16:00 пройдет онлайн-ярмарка вакансий \"Работа и карьера в Латвии\". Работодатели смогут представить вакансии и провести собеседования с кандидатами, а соискатели — найти подходящую работу в Латвии. Участие бесплатное.",
-"pub": "2026-10-29",
-"source": "rus.jauns.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8573821",
-"title": "В пятницу местами пройдут кратковременные дожди",
-"summary": "В пятницу во многих местах Латвии пройдут кратковременные дожди, но и выглянет солнце, прогнозируют синоптики.",
-"pub": "2026-10-29",
-"source": "rus.tvnet.lv",
-"score": 4
-},
-{
-"link": "https://www.delfi.lv/kultura/174/music/120140461/vai-biji-sakarsusaja-puli-riga-plosas-somu-eirovizijas-zvaigzne-kaarija",
-"title": "Vai biji sakarsušajā pūlī? Rīgā plosās somu Eirovīzijas zvaigzne Käärijä",
-"summary": "Trešdienas, 28. oktobra, vakarā par karsti sviedrējošu gaisotni koncertzālē \"Palladium\" bija parūpējies somu reperis un dziedātājs, Eirovīzijas zvaigzne Käärijä.",
-"pub": "2026-10-29",
-"source": "delfi.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8573437",
-"title": "MEKLĒ SEVI! ⟩ Trakulīgais Käärijä sarīko vētrainu ballīti \"Palladium\"",
-"summary": "Trešdien, 28. oktobrī, koncertzālē \"Palladium\" uzstājās somu superzvaigzne Käärijä (īstajā vārdā Jere Mikaels Peihenens). Ieskaties foto galerijā!",
-"pub": "2026-10-29",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/10/29/cto-vazno-znat-rizanam?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "В Риге на четыре дня изменится качество воды из-под крана: жителей предупредили о хлорировании. Что важно знать рижанам?",
-"summary": "Со 2 по 5 ноября в Риге пройдёт плановая дезинфекция городских водопроводных сетей. В этот период вода из-под крана может приобрести более выраженный запах и привкус хлора.",
-"pub": "2026-10-29",
-"source": "bb.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/timeklvietne-rindapiearsta-lv-joprojam-nedarbojas-ko-par-to-saka-nvd",
-"title": "Tīmekļvietne “rindapiearsta.lv” joprojām nedarbojas – ko par to saka NVD?",
-"summary": "Patlaban nav iespējams precīzi prognozēt, kad iedzīvotājiem atkal būs pieejama tīmekļvietne “rindapiearsta.lv”, jo turpinās darbs pie konstatētās drošības ievainojamības novēršanas, aģentūrai LETA pavēstīja Nacionālajā veselības dienestā (NVD). Dienests sadarbībā ar vietnes izstrādātājiem īsteno pas",
-"pub": "2026-10-29",
-"source": "la.lv",
-"score": 4
-},
 {
 "link": "https://www.lsm.lv/raksts/kultura/izklaide/29.10.2026-lsm-sovs-sirdslietas-uzvar-starptautiskaja-festivala-heart-of-europe-digitala-un-izklaides-satura-kategorija.a669776/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "LSM šovs «Sirdslietas» uzvar starptautiskajā festivālā «Heart of Europe» digitālā un izklaides satura kategorijā",
@@ -4851,6 +4675,182 @@
 "title": "Дождь, снег и скользкие дороги: какой будет погода в День Лачплесиса",
 "summary": "В среду, 11 ноября, во многих районах Латвии ожидаются осадки. На востоке страны к дождю добавится снег, а в Курземе ближе к вечеру местами пройдут ливни. Температура воздуха составит от +1 до +5 градусов, однако на побережье может потеплеть до +9. В Риге существенных осадков не прогнозируется.",
 "pub": "2026-11-11",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/maksla/11.11.2026-prata-un-emociju-sadursme-ligas-spundes-personalizstade-kim-laikmetigas-makslas-centra.a671516/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Prāta un emociju sadursme Līgas Spundes personālizstādē «Kim?» Laikmetīgās mākslas centrā",
+"summary": "Māksliniece Līga Spunde 2023.gadā, pateicoties \"Kim?\" Laikmetīgās mākslas centram un citu valstu partnerorganizācijām, ieguva iespēju doties rezidencē uz Ņujorku. Tagad iespaidi par skrienošu, stresa pārpilnu ikdienu un pārdomas par emocionālo labsajūtu tvertas izstādē \"Prāts, sirds\". Kā prāts sasto",
+"pub": "2026-11-11",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/muzika/11.11.2026-koncertserija-art-of-riga-jazz-uzstasies-izcilais-italu-dzeza-kolektivs-michele-sperandio-sea-quartet.a671483/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Koncertsērijā «Art of Riga Jazz» uzstāsies izcilais itāļu džeza kolektīvs «Michele Sperandio Sea Quartet»",
+"summary": "Sestdien, 14. novembrī, pulksten 18.00 Latvijas Radio 1. studijā ekskluzīvu koncertu sniegs itāļu džeza kvartets \"Michele Sperandio Sea Quartet\". Šī būs unikāla iespēja Latvijas auditorijai klātienē iepazīt spilgtos Itālijas džeza talantus, kas mūsu valstī viesosies pirmo reizi, papildinot prestižās",
+"pub": "2026-11-11",
+"source": "lsm.lv",
+"score": 7
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/11.11.2026-teksta-tiesraide-latviju-vieno-lacplesa-dienas-gars-pieminas-brizi-uzrunas-un-gaismas-jura-daugavmala.a671277/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "TEKSTA TIEŠRAIDE: Latviju vieno Lāčplēša dienas gars. Piemiņas brīži, uzrunas un gaismas jūra Daugavmalā",
+"summary": "Ar svecīšu gaismu, piemiņas vārdiem un svinīgām ceremonijām 11. novembrī Latvijā atzīmē Lāčplēša dienu, godinot brīvības cīnītājus un pieminot izšķirošās uzvaras valsts neatkarības nosargāšanā. Portāls LSM.lv teksta tiešraidē piedāvā sekot līdzi svarīgākajiem svētku mirkļiem. Vairākiem notikumiem pi",
+"pub": "2026-11-11",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/izklaide/11.11.2026-tests-cik-svera-smagakais-laikraksts-un-kam-par-godu-nosaukts-uzvaras-parks-es-milu-tevi-latvija-jautajumi-skatitajiem.a671152/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "TESTS. Cik svēra smagākais laikraksts, un kam par godu nosaukts Uzvaras parks? «Es mīlu Tevi, Latvija!» jautājumi skatītājiem",
+"summary": "Pasaulslavena koncertu arēna, vairāk nekā 220 kilometru garš triatlons un pārsteidzoši karjeras pavērsieni – tie ir tikai daži no piedzīvojumiem, ar kuriem var pārsteigt šova \"Es mīlu Tevi, Latvija!\" šīs nedēļas epizodes viesi. Izpildi šova ceturto testu un noskaidro, uz cik jautājumiem spēsi atbild",
+"pub": "2026-11-11",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/maksla/11.11.2026-ko-iesakt-ar-hektaru-noplautu-niedru-festivals-optizuns-atbildi-rod-dizaina-objektu-izstade.a671450/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Ko iesākt ar hektāru nopļautu niedru? Festivāls «Optižūns» atbildi rod dizaina objektu izstādē",
+"summary": "Niedru jumti un garās vārpas, saspraustas vāzēs kā dekori, ir ierasts skats un, visticamāk, pirmā funkcija, kas ienāks prātā, ja kāds pajautās, kur lai liek nepilnu hektāru nopļautu niedru. Laikmetīgās mākslas festivāla \"Optižūns\" komanda gan eksperimentējuši tālāk ar šī materiāla īpašībām. No 14. n",
+"pub": "2026-11-11",
+"source": "lsm.lv",
+"score": 8
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/iskusstvo/11.11.2026-stolknovenie-razuma-i-emocii-na-personalnoi-vystavke-ligi-spunde-v-centre-sovremennogo-iskusstva-kim.a671517/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Столкновение разума и эмоций на персональной выставке Лиги Спунде в Центре современного искусства Kim?",
+"summary": "В 2023 году художница Лига Спунде благодаря Центру современного искусства Kim? и партнерским организациям из других стран получила возможность отправиться на резиденцию в Нью-Йорк. Теперь впечатления от стремительной, наполненной стрессом повседневности и размышления об эмоциональном благополучии во",
+"pub": "2026-11-11",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/iskusstvo/11.11.2026-cto-delat-s-gektarom-skosennogo-trostnika-festival-optizuns-predlagaet-otvet-na-vystavke-dizainerskix-obieektov.a671458/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Что делать с гектаром скошенного тростника? Фестиваль Optižūns предлагает ответ на выставке дизайнерских объектов",
+"summary": "Тростниковые крыши и длинные стебли с метелками, расставленные в вазах в качестве декора, — привычная картина и, вероятно, первое, что придет в голову, если кто-то спросит, куда девать почти гектар скошенного тростника. Однако команда фестиваля современного искусства Optižūns решила пойти дальше и п",
+"pub": "2026-11-11",
+"source": "rus.lsm.lv",
+"score": 8
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/737604-pavasari-riga-uzstasies-polu-gitarspeles-virtuozs-marcin",
+"title": "Pavasarī Rīgā uzstāsies poļu ģitārspēles virtuozs Marcin",
+"summary": "Poļu ģitāras virtuozs Marcin, kurš lieliski apvieno klasiskās ģitārspēles virtuozitāti ar flamenko ritmiem un perkusīvu spēles tehniku, ir spējis izveidot sev raksturīgu muzikālo rokrakstu, kas guvis plašu starptautisku atzinību. Savas jaunās pasaules koncertturnejas \"An Evening With Marcin\" ietvaro",
+"pub": "2026-11-11",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/737415-izdota-gramata-liepajas-makslas-skolai-100-gadsimts-maksla-cilvekos-un-parmainas",
+"title": "Izdota grāmata “Liepājas Mākslas skolai 100” – gadsimts mākslā, cilvēkos un pārmaiņās",
+"summary": "LMMDV izdod grāmatu “Liepājas Mākslas skolai 100”, kas ar fotogrāfijām, atmiņām un personību stāstiem atklāj Latvijas senākās mākslas skolas gadsimtu ilgo ceļu un nozīmi kultūrizglītībā. Izdevuma atvēršana plānota decembrī Rīgā, vienlaikus ar simtgadei veltītas izstādes atklāšanu.",
+"pub": "2026-11-11",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/737596-ir-kada-ipasa-tradicija-rinkevics-interneta-padalas-ar-sirsnigu-personigu-tradiciju-svetku-menesi",
+"title": "\"Ir kāda īpaša tradīcija\" Rinkēvičs internetā padalās ar sirsnīgu, personīgu tradīciju svētku mēnesī",
+"summary": "Valsts prezidentam Edgaram Rinkēvičam valsts svētku mēnesī izveidojusies īpaša un personīga tradīcija – godināt Latvijas brīvības cīnītājus viņu atdusas vietās. Šogad prezidents īpašu godu izrādījis Līnai Čankai-Freidenfeldei. Viņa bija pirmā sieviete, kas apbalvota ar Lāčplēša Kara ordeni.",
+"pub": "2026-11-11",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/737606-csdd-obieiavila-o-prazdnicnom-grafike-raboty-na-17-18-noiabria",
+"title": "CSDD объявила о праздничном графике работы на 17-18 ноября",
+"summary": "В День провозглашения Латвийской Республики, 18 ноября, центры обслуживания клиентов Дирекции безопасности дорожного движения (CSDD) и станции техосмотра по всей Латвии будут закрыты.",
+"pub": "2026-11-11",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/737612-foto-v-rige-i-drugix-gorodax-latvii-proxodiat-torzestvennye-meropriiatiia-v-cest-dnia-lacplesisa",
+"title": "ФОТО: в Риге и других городах Латвии проходят торжественные мероприятия в честь Дня Лачплесиса",
+"summary": "В среду, 11 ноября, Латвия отмечает День Лачплесиса - день памяти борцов за свободу страны. По всей республике проходят памятные церемонии, зажигаются тысячи свечей и готовятся факельные шествия, а президент Эдгар Ринкевич в этом году решил напомнить об удивительной судьбе женщины, которая ради учас",
+"pub": "2026-11-11",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8581470",
+"title": "ВИДЕО ⟩ Торжественная церемония смены почетного караула и парад на площади Свободы",
+"summary": "В честь Дня Лачплесиса Национальные вооруженные силы (НВС) сегодня примут участие и проведут несколько мероприятий. Одним из них станет торжественная церемония смены почетного караула и парад на площади Свободы.",
+"pub": "2026-11-11",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8581444",
+"title": "Шуваев: Встреча с \"Объединенным списком\", скорее всего, была политическим спектаклем",
+"summary": "Встреча партии \"Прогрессивные\" с \"Объединенным списком\" (ОС) в рамках переговоров о формировании правительства, скорее всего, была политическим спектаклем, - заявил агентству LETA руководитель фракции \"Прогрессивных\" в Сейме Андрис Шуваев.",
+"pub": "2026-11-11",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8581301",
+"title": "Выдающиеся дизайнеры моды XX века на юбилейной выставке",
+"summary": "Музей моды отпраздновал свой 10-й день рождения и продолжает юбилейный год новой выставкой. С 25 ноября 2026 года посетители Музея моды могут посмотреть выставку \"Великие имена в мире моды\". На выставке представлены уникальные экспонаты из коллекции Фонда Александра Васильева, которые позволяют узна",
+"pub": "2026-11-11",
+"source": "rus.tvnet.lv",
+"score": 14
+},
+{
+"link": "https://www.delfi.lv/kultura/4333423/theatre/120142010/es-nekur-nebiju-pazudis-janis-vimba-kaps-uz-skatuves-resetina-jaunaja-izrade",
+"title": "\"Es nekur nebiju pazudis\". Jānis Vimba kāps uz skatuves Rešetina jaunajā izrādē",
+"summary": "Pēc vairāku gadu pārtraukuma bijušais Nacionālā teātra direktors un bijušais Siguldas novada domes priekšsēdētājs, aktieris Jānis Vimba atkal būs redzams uz skatuves. Viņš piedalīsies Intara Rešetina-Pētersona režisētajā komēdijā \"Patiesība\". Jaunā iestudējuma pirmizrāde gaidāma \"Willa teātrī\", bet,",
+"pub": "2026-11-11",
+"source": "delfi.lv",
+"score": 4
+},
+{
+"link": "https://www.delfi.lv/193/politics/120139759/tests-ko-tu-zini-par-lacplesa-dienu",
+"title": "Tests: Ko Tu zini par Lāčplēša dienu?",
+"summary": "Gaidot Lāčplēša dienas un valsts svētku svinības, ir vērts atskatīties vēsturē un atcerēties tos dramatiskos notikumus, kas nosargāja mūsu brīvību. Šis tests noderēs gan vēstures entuziastiem, gan ikvienam, kurš vēlas atsvaidzināt atmiņu un pārbaudīt savas zināšanas par Brīvības cīņām un Lāčplēša or",
+"pub": "2026-11-11",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120142182/foto-den-lachplesisa-v-rige-na-bratskom-kladbishche-vozlozhili-venki",
+"title": "ФОТО, ВИДЕО. Как в Риге празднуют День Лачплесиса",
+"summary": "В среду, 11 ноября, в Риге проходят мероприятия, посвященные празднованию Дня Лачплесиса. Во второй половине дня на Братском кладбище состоялось торжественное возложение венков, в котором приняли участие президент страны Эдгар Ринкевич, премьер-министр Андрис Кулбергс и другие политические и обществ",
+"pub": "2026-11-11",
+"source": "rus.delfi.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8581468",
+"title": "MEKLĒ SEVI ⟩ Viesi pulcējas DJ Ella jaunā albuma \"Mājas\" klausīšanās pasākumā",
+"summary": "Otrdien, 10. novembrī, bārā \"When Coffee Meets Whiskey\" DJ un māksliniece Elīna Fūrmane (DJ Ella) aicināja uz sava jaunā albuma \"Mājas\" klausīšanās pasākumu. Meklē sevi viesu vidū!",
+"pub": "2026-11-11",
+"source": "apollo.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8581472",
+"title": "VIDEO ⟩ Brīvības laukumā notiek svinīgā godasardzes maiņas ceremonija",
+"summary": "Atzīmējot Lāčplēša dienu, šodien Nacionālie bruņotie spēki (NBS) piedalīsies un rīkos vairākus pasākumus. Viens no tiem ir svinīgā godasardzes maiņas ceremonija un defilē programma Brīvības laukumā.",
+"pub": "2026-11-11",
+"source": "apollo.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8581390",
+"title": "\"Kopā saveda darbs un dzīves turbulence.\" Gundega Skudriņa atklāti par attiecībām ar Mārci Ziemiņu",
+"summary": "Intervijā žurnālam \"Annas Psiholoģija\" pasākumu producente un radošās apvienības \"Skudras Metropole\" dibinātāja Gundega Skudriņa atklāj, kā veidojas viņas attiecības ar dizaineri Mārci Ziemiņu, vienlaikus atzīstot, ka kopīgs darbs ir liels pārbaudījums attiecībām, taču abi viens otru iedvesmo un kop",
+"pub": "2026-11-11",
+"source": "apollo.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/10/v-nedeliu-gosprazdnikov-rastet-spros-na-sveci-i-sladosti-v-cvetax-latviiskogo-flaga?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "В неделю госпраздников растёт спрос на свечи и сладости в цветах латвийского флага",
+"summary": "В неделю государственных праздников Латвии, с 11 по 18 ноября, в торговой сети LaTS традиционно растёт спрос на флаги, значки и сладости, особенно конфеты с латвийской символикой.",
+"pub": "2026-11-10",
 "source": "bb.lv",
 "score": 4
 }
@@ -9494,7 +9494,28 @@
 "https://rus.jauns.lv/article/afisha/737239-v-staroi-rige-ustroiat-neobycnyi-karnaval-daze-v-avtobuse-mozno-budet-vstretit-liudei-v-maskax",
 "https://rus.jauns.lv/article/novosti/737403-v-rige-resili-dopolnitelno-zashhitit-pamiatnik-svobody-straxovka-teper-pokryvaet-i-voennye-riski",
 "https://www.la.lv/smird-pec-mesliem-muzikis-arvis-zemanis-parsteidz-viesus-pievienojot-edienam-kadu-smarzigu-sastavdalu",
-"https://www.la.lv/labi-vismaz-ka-ziemassvetki-sakarigi-iekrit-stradajosie-neslepj-emocijas-par-nakamgad-neparceltajam-darba-dienam"
+"https://www.la.lv/labi-vismaz-ka-ziemassvetki-sakarigi-iekrit-stradajosie-neslepj-emocijas-par-nakamgad-neparceltajam-darba-dienam",
+"https://pmo.ee/8580164",
+"https://pmo.ee/8580671",
+"https://pmo.ee/8581104",
+"https://pmo.ee/8581098",
+"https://bb.lv/statja/kultura/2026/11/10/v-paviloste-ustroiat-prazdnik-minogi-s-degustaciiami-iarmarkoi-i-tancami?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/svini-meza-galamerki-ko-iepazit-valsts-svetku-laika",
+"https://www.lsm.lv/raksts/zinas/latvija/11.11.2026-no-lapu-gajieniem-lidz-kino-jana-argala-ugunslapas-celo-pasaule.a671302/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/izklaide/735481-francu-aktieris-kurs-dzimis-jelgava-dimitri-dore-atgriezas-latvija-lai-iepazitu-dzimteni",
+"https://pmo.ee/8359022",
+"https://www.lsm.lv/raksts/kultura/maksla/11.11.2026-prata-un-emociju-sadursme-ligas-spundes-personalizstade-kim-laikmetigas-makslas-centra.a671516/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/zinas/latvija/11.11.2026-teksta-tiesraide-latviju-vieno-lacplesa-dienas-gars-pieminas-brizi-uzrunas-un-gaismas-jura-daugavmala.a671277/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/maksla/11.11.2026-ko-iesakt-ar-hektaru-noplautu-niedru-festivals-optizuns-atbildi-rod-dizaina-objektu-izstade.a671450/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/11.11.2026-stolknovenie-razuma-i-emocii-na-personalnoi-vystavke-ligi-spunde-v-centre-sovremennogo-iskusstva-kim.a671517/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/11.11.2026-cto-delat-s-gektarom-skosennogo-trostnika-festival-optizuns-predlagaet-otvet-na-vystavke-dizainerskix-obieektov.a671458/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/737415-izdota-gramata-liepajas-makslas-skolai-100-gadsimts-maksla-cilvekos-un-parmainas",
+"https://jauns.lv/raksts/zinas/737596-ir-kada-ipasa-tradicija-rinkevics-interneta-padalas-ar-sirsnigu-personigu-tradiciju-svetku-menesi",
+"https://rus.jauns.lv/article/novosti/737606-csdd-obieiavila-o-prazdnicnom-grafike-raboty-na-17-18-noiabria",
+"https://pmo.ee/8581301",
+"https://www.delfi.lv/193/politics/120139759/tests-ko-tu-zini-par-lacplesa-dienu",
+"https://rus.delfi.lv/57860/latvia/120142182/foto-den-lachplesisa-v-rige-na-bratskom-kladbishche-vozlozhili-venki",
+"https://bb.lv/statja/nasha-latvija/2026/11/10/v-nedeliu-gosprazdnikov-rastet-spros-na-sveci-i-sladosti-v-cvetax-latviiskogo-flaga?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv"
 ],
 "tips_debug": {
 "date": "2026-11-05",
@@ -9932,6 +9953,48 @@
 "link": "https://ticketshop.lv/lv/events/107104",
 "text": "no 32,00 EUR 20.11.26 20:00 НЕРВЫ / NERVY | RĪGA READY koncertzāle",
 "src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-11"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108249",
+"text": "no 50,00 EUR 09.02.27 19:00 Hollywood Undead: EU/UK 2027 Palladium",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-11"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107568",
+"text": "no 30,00 EUR 15.02.27 19:00 CATCH YOUR BREATH (USA) / OCEAN SLEEPER (Au) / ELIJAH (USA) Melnā Piektdiena",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-11"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108451",
+"text": "no 10,00 EUR 11.12.26 21:00 ZINTNIEKS | ELKUPE | KONCERTS LIEPĀJĀ Kultūras nams Wiktorija",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-11"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108450",
+"text": "no 38,00 EUR 27.12.26 20:00 JAUNGADA SVĒTKU KONCERTS AR ŅIKITU OSIPOVU! HAMLETS",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-11"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108449",
+"text": "no 25,00 EUR 16.12.26 19:00 Izrāde \"@user2609250\" Kinoteātris Splendid Palace",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-11"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108448",
+"text": "no 10,00 EUR 20.11.27 21:00 SMAGIE ZĒNI & KULAKS Fontaine Palace",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-11"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108447",
+"text": "no 20,00 EUR 12.12.26 19:00 SMILŠKASTE STADIA",
+"src": "https://ticketshop.lv/lv",
 "seen": "2026-11-11"
 }
 ],
