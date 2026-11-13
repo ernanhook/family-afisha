@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.3023105999999998,
-"calls": 73
+"cost": 0.3028763999999998,
+"calls": 74
 },
 "last_digest": "2026-11-12",
 "shown_ongoing": {
@@ -54,78 +54,6 @@
 "count": 12
 },
 "portal_queue": [
-{
-"link": "https://pmo.ee/8574862",
-"title": "\"Notiks haoss.\" Koziols komentē Krievijas iespējamo atgriešanos hokejā",
-"summary": "Ja Krievijas hokeja izlases atgriezīsies Starptautiskās Hokeja federācijas (IIHF) turnīros, teju visu līmeņu sacensībās notiks haoss, sarunā ar Latvijas Radio atzina IIHF padomes loceklis Viesturs Koziols.",
-"pub": "2026-10-31",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8574872",
-"title": "Koziols komentē iespējamo Krievijas atgriešanos IIHF turnīros",
-"summary": "Ja Krievijas hokeja izlases atgriezīsies Starptautiskās Hokeja federācijas (IIHF) turnīros, teju visu līmeņu sacensībās notiks haoss, sarunā ar Latvijas Radio atzina IIHF padomes loceklis Viesturs Koziols.",
-"pub": "2026-10-31",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/10/31/pervyi-den-noiabria-udivit-miagkoi-pogodoi-skolko-gradusov-budet-v-latvii-i-rige?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Первый день ноября удивит мягкой погодой: сколько градусов будет в Латвии и Риге",
-"summary": "Первый день ноября в Латвии пройдет без заметного похолодания. В воскресенье ожидается преимущественно облачная погода, местами с небольшими дождями и утренним туманом. Днем температура воздуха поднимется до +6…+10 градусов.",
-"pub": "2026-10-31",
-"source": "bb.lv",
-"score": 7
-},
-{
-"link": "https://www.la.lv/hops-vairs-nav-jau-atkal-biletes-uz-izradi-freimanis-izkertas-paris-minusu-laika",
-"title": "“Hops, vairs nav…” Jau atkal biļetes uz izrādi “FREIMANIS” izķertas pāris minūšu laikā",
-"summary": "Vai tev izdevās iegādāties biļetes uz Liepāja teātra izrādi “FREIMANIS?” Ja atbilde ir “jā”, vari sevi uzskatīt par vienu no veiksminiekiem, jo biļetes uz janvārī gaidāmajām izrādēm pazuda burtiski pāris minūšu ja ne pat sekunžu laikā. Šodien, 31. oktobrī, plkst. 12.00 sākās biļešu tirdzniecība uz j",
-"pub": "2026-10-31",
-"source": "la.lv",
-"score": 8
-},
-{
-"link": "https://www.la.lv/ko-drikst-un-nedrikst-darit-halovina-ticejumi-aizliegumi-un-seni-rituali",
-"title": "Ko drīkst un nedrīkst darīt Halovīnā? Ticējumi, aizliegumi un seni rituāli",
-"summary": "31. oktobrī daudzās pasaules valstīs atzīmē Halovīnu – svētkus, kas asociējas ar baisiem tērpiem, ķirbjiem ar svecēm un seniem ticējumiem. Klīst nostāsti, ka šajā laikā īpaša uzmanība jāpievērš aizsardzības rituāliem, dzīvnieku uzvedībai un pat sapņiem. Halovīna saknes, kā vēsta medijs Glavred, tiek",
-"pub": "2026-10-31",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/31.10.2026-sudrabkalnina-piemin-neatkaribas-cinu-dalibniekus.a669999/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Sudrabkalniņā piemin Neatkarības cīņu dalībniekus",
-"summary": "Gaidot valsts svētku – patriotu mēnesi, kas sāksies svētdien, 1. novembrī, ar Lāpu gājienu un svinīgu ceremoniju šovakar godināti varoņi, kas piedalījās Neatkarības cīņās 1919. gadā.",
-"pub": "2026-10-31",
-"source": "lsm.lv",
-"score": 3
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/31.10.2026-rekordliela-interese-par-darbu-liepajas-jaunaja-cietuma.a669992/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Rekordliela interese par darbu Liepājas jaunajā cietumā",
-"summary": "Liepājā, iespējams, viena no pieprasītākajām darba vietām ir cietums. Sarīkotajam atvērto dienu pasākumam pieteicās rekordliels skaits – 130 cilvēku. Viens no galvenajiem iemesliem – alga un sociālās garantijas. Ieslodzījumu vietu pārvaldes (IeVP) organizētā pasākuma mērķis bija iepazīstināt ar darb",
-"pub": "2026-10-31",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://jauns.lv/raksts/zinas/735968-neparasts-piedavajums-studenti-vares-naksnot-latvijas-nacionalaja-biblioteka",
-"title": "Neparasts piedāvājums: studenti varēs nakšņot Latvijas Nacionālajā bibliotēkā",
-"summary": "Latvijas Nacionālajā bibliotēkā (LNB) 13. novembrī un 14. novembrī notiks pasākums \"Studentu nakts LNB\", kurā studentiem pirmo reizi piedāvās arī nakšņot bibliotēkā, informē LNB.",
-"pub": "2026-10-31",
-"source": "jauns.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8574927",
-"title": "Studentiem piedāvās nakšņot Latvijas Nacionālajā bibliotēkā",
-"summary": "Latvijas Nacionālajā bibliotēkā (LNB) 13. novembrī un 14. novembrī notiks pasākums \"Studentu nakts LNB\", kurā studentiem pirmo reizi piedāvās arī nakšņot bibliotēkā, informē LNB.",
-"pub": "2026-10-31",
-"source": "tvnet.lv",
-"score": 4
-},
 {
 "link": "https://pmo.ee/8574436",
 "title": "ATRODI SEVI ⟩ Cik pikanti notika intimitātes konference \"Intimitātes IQ\" Latvijā?",
@@ -4853,6 +4781,78 @@
 "pub": "2026-11-12",
 "source": "tvnet.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/13.11.2026-jauniesus-aicina-pieteikties-kiberdrosibas-programma-uzlauz-macies-aizsarga.a671786/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Jauniešus aicina pieteikties kiberdrošības programmā «Uzlauz. Mācies. Aizsargā.»",
+"summary": "Jauniešus vecumā no 15 līdz 18 gadiem aicina pieteikties praktiskā kiberdrošības programmā \"Uzlauz. Mācies. Aizsargā.\", kas norisināsies no 2027. gada janvāra līdz jūnijam. Iepriekšējas zināšanas kiberdrošībā nav nepieciešamas – jaunieši sāks ar pamatiem, risinās drošā vidē veidotas kiberdrošības mi",
+"pub": "2026-11-13",
+"source": "lsm.lv",
+"score": 6
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/pogoda/13.11.2026-piatnica-13-noiabria-peremennaia-oblacnost-mestami-proidut-dozdi.a671700/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Пятница, 13 ноября: переменная облачность, местами пройдут дожди",
+"summary": "В пятницу днем ожидается переменная облачность, местами кратковременные осадки — в основном дождь в Курземе и Видземе, прогнозируют синоптики.",
+"pub": "2026-11-13",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/737434-aicina-sanemt-ziemassvetku-pabalstu",
+"title": "Aicina saņemt Ziemassvētku pabalstu",
+"summary": "Līdz 2026. gada 23. decembrim aicina pieteikties ikgadējam Ziemassvētku pabalstam 30 eiro apmērā!",
+"pub": "2026-11-13",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/737858-valdis-lurins-meitai-ditai-jau-nopircis-izlaiduma-davanu",
+"title": "Valdis Lūriņš meitai Ditai jau nopircis izlaiduma dāvanu",
+"summary": "Režisors un aktieris Valdis Lūriņš saka paldies savam znotam, aktierim Mārtiņam Eglienam, kas ļoti drosmīgi apņēmās palikt ar bērniem, lai Dita Lūriņa-Egliena varētu iegūt Igaunijas Mūzikas un teātra akadēmijas maģistrantūras diplomu aktiermeistarības performanču mākslā. Decembrī pirmizrādi piedzīvo",
+"pub": "2026-11-13",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/737897-v-piatnicu-vremenami-budet-svetit-solnce-no-mestami-proidut-kratkovremennye-dozdi",
+"title": "В пятницу временами будет светить солнце, но местами пройдут кратковременные дожди",
+"summary": "В пятницу в Латвии временами будет светить солнце, местами - в основном в Курземе и Видземе - ожидаются осадки, прогнозируют синоптики.",
+"pub": "2026-11-13",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8582717",
+"title": "FOTO ⟩ Pirmizrādi piedzīvojusi pašmāju dokumentālā filma \"Ceļš nekad nebeidzas\"",
+"summary": "Ceturtdien, 12. novembrī, kinoteātrī \"Forum Cinemas Centrs\" pirmizrādi piedzīvoja filmu studijas \"TheRoom Cinemateca\" veidotā dokumentālā filma \"Ceļš nekad nebeidzas\" par leģendāro Latvijas alpīnistu Teodoru Ķirsi. Pasākumā filmas radošā komanda dalījās ar filmas tapšanas stāstiem, savukārt uz skatu",
+"pub": "2026-11-13",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://www.delfi.lv/193/politics/120142428/uzlauz-macies-aizsarga-jauniesus-aicina-pieteikties-jaunai-kiberdrosibas-programmai",
+"title": "Uzlauz. Mācies. Aizsargā. Jauniešus aicina pieteikties jaunai kiberdrošības programmai",
+"summary": "No 2027. gada janvāra līdz jūnijam līdz 300 Latvijas jauniešu piedalīsies jaunā, praktiskā kiberdrošības programmā \"Uzlauz. Mācies. Aizsargā.\". Kā portālu \"Delfi\" informēja rīkotāji, iepriekšējas zināšanas kiberdrošībā nav nepieciešamas – jaunieši sāks ar pamatiem, risinās drošā vidē veidotas kiberd",
+"pub": "2026-11-13",
+"source": "delfi.lv",
+"score": 3
+},
+{
+"link": "https://www.delfi.lv/kultura/174/music/120142295/divi-komponisti-viena-opera-un-dzive-starp-latviju-un-griekiju-gundega-smite-par-eiropas-nolaupisanu",
+"title": "Divi komponisti, viena opera un dzīve starp Latviju un Grieķiju. Gundega Šmite par \"Eiropas nolaupīšanu\"",
+"summary": "Elektroakustiskā kameropera \"Eiropas nolaupīšana\" \"Hanzas peronā\", ar ko 13. novembrī noslēgsies jaunās mūzikas festivāls \"Arēna\", komponistei un rakstniecei Gundegai Šmitei ir līdz šim vērienīgākais darbs. Tas radīts kopā ar vīru Dimitri Maronidi, mūzikas profesoru Aristoteļa universitātē Salonikos",
+"pub": "2026-11-13",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/13/v-rigu-vveli-voiska-narod-i-armiia-ediny?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "В Ригу ввели войска – народ и армия едины",
+"summary": "«Неделя патриотов» началась с Дня воинской славы, зажигания свечей у Рижского замка и факельного шествия. Национальные вооружённые силы отмечали военно-исторический праздник. Ваш автор принял посильное участие.",
+"pub": "2026-11-13",
+"source": "bb.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -9238,7 +9238,28 @@
 "https://www.lsm.lv/raksts/zinas/latvija/12.11.2026-lacplesa-dienu-atzime-ari-helsinkos-dzivojosie-latviesi.a671728/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://www.lsm.lv/raksts/zinas/latvija/12.11.2026-sak-ieviest-vienotu-sistemu-skolenu-un-bernudarznieku-registresanai.a671704/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://www.lsm.lv/raksts/kultura/muzika/12.11.2026-tev-tuvuma-muziki-renars-kaupers-un-shipsea.a671729/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://www.lsm.lv/raksts/zinas/latvija/12.11.2026-valsts-svetku-laika-riga-gaidami-plasi-satiksmes-ierobezojumi-slegs-11-novembra-krastmalu.a671695/?utm_source=rss&utm_campaign=rss&utm_medium=links"
+"https://www.lsm.lv/raksts/zinas/latvija/12.11.2026-valsts-svetku-laika-riga-gaidami-plasi-satiksmes-ierobezojumi-slegs-11-novembra-krastmalu.a671695/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/12.11.2026-tallinskii-xudozestvennyi-muzei-kumu-sprasivaet-kto-boitsia-materinstva.a671748/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/novosti/obschestvo/12.11.2026-v-gosudarstvennye-prazdniki-poezda-budut-kursirovat-po-raspisaniiu-vyxodnogo-dnia.a671653/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/12.11.2026-opredeleny-24-lucsie-raboty-fotokonkursa-stigas-na-radio-naba-golosui-za-svoego-favorita.a671479/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/737823-latvijas-nacionalaja-rakstniecibas-un-muzikas-muzeja-atklas-izstadi-krat-un-celties",
+"https://jauns.lv/raksts/zinas/737820-valsts-svetku-laika-riga-gaidami-plasi-satiksmes-ierobezojumi-kas-janem-vera",
+"https://rus.jauns.lv/article/novosti/737839-vilnius-snova-resil-udivit-kogda-zazgut-rozdestvenskie-elki-v-trex-stolicax-baltii",
+"https://rus.jauns.lv/article/novosti/737818-v-rige-ozidaiutsia-masstabnye-ograniceniia-dvizeniia-v-prazdnicnye-dni",
+"https://rus.jauns.lv/article/afisha/737784-risovanie-sokoladom-i-degustaciia-konfet-cto-gotovit-laima-k-staro-riga",
+"https://rus.jauns.lv/article/novosti/737791-rizskii-centralnyi-rynok-zasiial-cvetami-latviiskogo-flaga",
+"https://rus.jauns.lv/article/novosti/737780-v-rige-sniali-film-polucivsii-zolotogo-lva-kakie-ulicy-i-zdaniia-izobrazali-daniiu",
+"https://pmo.ee/8582513",
+"https://bb.lv/statja/nasha-latvija/2026/11/12/v-rige-na-prazdniki-perekroiut-nabereznuiu-i-staryi-gorod-gde-i-kogda-ogranicat-dvizenie?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://bb.lv/statja/nasha-latvija/2026/11/12/cto-takoe-padevyi-med-i-mozno-li-ego-pokupat-v-latvii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://bb.lv/statja/nasha-latvija/2026/11/12/nad-latviei-podnimut-ogromnye-gosudarstvennye-flagi-gde-ix-mozno-budet-uvidet?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://bb.lv/statja/nasha-latvija/2026/11/12/18-noiabria-u-pamiatnika-svobody-v-rige-pokazut-neobycnoe-svetovoe-sou?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/musu-kaimini-jau-tikusi-pie-savas-ziemassvetku-rotas-iespaidigas-galvenas-egles",
+"https://www.la.lv/valsts-augstakajos-sakaru-tornos-svetku-laika-pacels-latvijas-karogus",
+"https://pmo.ee/8582360",
+"https://jauns.lv/raksts/zinas/737434-aicina-sanemt-ziemassvetku-pabalstu",
+"https://www.delfi.lv/kultura/174/music/120142295/divi-komponisti-viena-opera-un-dzive-starp-latviju-un-griekiju-gundega-smite-par-eiropas-nolaupisanu",
+"https://bb.lv/statja/nasha-latvija/2026/11/13/v-rigu-vveli-voiska-narod-i-armiia-ediny?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv"
 ],
 "tips_debug": {
 "date": "2026-11-12",
