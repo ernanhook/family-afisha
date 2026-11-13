@@ -55,22 +55,6 @@
 },
 "portal_queue": [
 {
-"link": "https://rus.jauns.lv/article/novosti/735927-mnenie-cto-izmenilos-v-latvii-s-90-x-v-upravlenii-stranoi-idealizm-smenilsia-borboi-za-vlast-i-dengi",
-"title": "Мнение: что изменилось в Латвии с 90-х? В управлении страной идеализм сменился борьбой за власть и деньги",
-"summary": "В начале 1990-х латвийские политики работали бесплатно, спасали больницы и создавали культурные проекты на собственные деньги. Сегодня, считает врач и основатель Сигулдского оперного фестиваля Дайнис Калнс, страной управляют теоретики, которые умеют говорить, но не способны доводить дела до конца.",
-"pub": "2026-10-31",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/polezno/735932-xoteli-ugostit-detei-konfetami-a-sdelali-podarok-prestupnikam-opasnaia-storona-xellouinskix-kart",
-"title": "Хотели угостить детей конфетами, а сделали подарок преступникам: опасная сторона \"хэллоуинских карт\"",
-"summary": "Желание угостить детей конфетами на Хэллоуин может обернуться неожиданными проблемами с безопасностью: публикуя свой адрес на специальных праздничных картах, жители могут случайно раскрыть незнакомцам гораздо больше, чем планировали.",
-"pub": "2026-10-31",
-"source": "rus.jauns.lv",
-"score": 6
-},
-{
 "link": "https://pmo.ee/8574862",
 "title": "\"Notiks haoss.\" Koziols komentē Krievijas iespējamo atgriešanos hokejā",
 "summary": "Ja Krievijas hokeja izlases atgriezīsies Starptautiskās Hokeja federācijas (IIHF) turnīros, teju visu līmeņu sacensībās notiks haoss, sarunā ar Latvijas Radio atzina IIHF padomes loceklis Viesturs Koziols.",
@@ -4853,6 +4837,22 @@
 "pub": "2026-11-12",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/737887-legendara-alpinista-teodora-kirsa-piemina-godinata-dokumentalas-filmas-cels-nekad-nebeidzas-pirmizrade-foto",
+"title": "Leģendārā alpīnista Teodora Ķirša piemiņa godināta dokumentālās filmas \"Ceļš nekad nebeidzas\" pirmizrādē. FOTO",
+"summary": "Ceturtdien kinoteātrī “Forum Cinemas Centrs” pirmizrādi piedzīvoja filmu studijas “TheRoom Cinemateca” veidotā dokumentālā filma “Ceļš nekad nebeidzas” par leģendāro Latvijas alpīnistu Teodoru Ķirsi. Lielās skatītāju intereses dēļ abi pirmizrādes dienā organizētie seansi tika pilnībā izpārdoti, pulc",
+"pub": "2026-11-13",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8582360",
+"title": "DISKUSIJA ⟩ Nevis pakļauties globalizācijai, bet globalizēt pasauli caur sevi. Etnomūzikas šodiena un nākotne žanru raibumā",
+"summary": "Etnomūzika, folkmūzika, tautas mūzika, postfolklora un pasaules mūzika – katram apzīmējumam ir sava vēsture un lietojums. Par to aizvadītajā nedēļā notikušajā industrijas konferencē un pilsētas festivālā \"Riga Music Week\" sarunājās muzikanti, pētnieki un mūzikas izdevēji, raugoties, kā šie jēdzieni ",
+"pub": "2026-11-12",
+"source": "tvnet.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -9252,42 +9252,6 @@
 ]
 },
 "watch_queue": [
-{
-"link": "https://ticketshop.lv/lv/events/108366",
-"text": "no 20,00 EUR 07.11.26 13:00 \"Man iezvanījās telefons...\"! Art Ambar",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-22"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108365",
-"text": "no 20,00 EUR 07.11.26 11:00 \"Man iezvanījās telefons...\"! Art Ambar",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-22"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108370",
-"text": "no 15,00 EUR 15.11.26 19:00 Tādi pasaku meistari Atmosfēra",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-22"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108369",
-"text": "no 17,00 EUR 02.01.27 13:00 Zilās bultas ceļojums Atmosfēra",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-22"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108368",
-"text": "no 17,00 EUR 25.12.26 13:00 Zilās bultas ceļojums Atmosfēra",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-22"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108367",
-"text": "no 17,00 EUR 24.12.26 13:00 Zilās bultas ceļojums Atmosfēra",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-22"
-},
 {
 "link": "https://ticketshop.lv/lv/events/108373",
 "text": "no 20,00 EUR 22.11.26 16:00 Interaktīvā izrāde \"Spoku māja\" Rīgas Ebreju kopiena",
