@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.3028763999999998,
-"calls": 74
+"cost": 0.3032021999999998,
+"calls": 75
 },
 "last_digest": "2026-11-12",
 "shown_ongoing": {
@@ -54,142 +54,6 @@
 "count": 12
 },
 "portal_queue": [
-{
-"link": "https://pmo.ee/8574436",
-"title": "ATRODI SEVI ⟩ Cik pikanti notika intimitātes konference \"Intimitātes IQ\" Latvijā?",
-"summary": "31. oktobrī Latvijas Nacionālajā bibliotēkā norisinājās konference “Intimitātes IQ”, kurā uzmanības centrā nonāca intimitāte, tuvība un attiecību kvalitāte. Pasākums pulcēja ekspertus un interesentus, lai pievērstos jautājumiem, kas nereti paliek aiz guļamistabas durvīm, taču būtiski ietekmē pašsajū",
-"pub": "2026-10-31",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8574934",
-"title": "Студентам предложат переночевать в Латвийской национальной библиотеке",
-"summary": "В Латвийской национальной библиотеке (LNB) 13 и 14 ноября пройдет мероприятие \"Студенческая ночь в LNB\", в рамках которого студентам впервые предложат переночевать в библиотеке, сообщили в LNB.",
-"pub": "2026-10-31",
-"source": "rus.tvnet.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8574924",
-"title": "ИЩИ СЕБЯ НА ФОТО ⟩ Насколько пикантной была конференция интимности Intimitātes IQ в Латвии?",
-"summary": "31 октября в Латвийской национальной библиотеке состоялась конференция Intimitātes IQ, в центре внимания которой были вопросы интимности, близости и качества отношений. Мероприятие собрало экспертов и заинтересованных участников, чтобы обсудить темы, которые нередко остаются за дверями спальни, но п",
-"pub": "2026-10-31",
-"source": "rus.tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8574907",
-"title": "ГЛАВНОЕ ЗА 31 ОКТЯБРЯ ⟩ Собчак в \"черном списке\", беспорядки в Польше и суд над кремлевским троллем",
-"summary": "В последний день октября Латвия расширила свой \"черный список\", включив туда ведущую Ксению Собчак и ее мужа, режиссера Константина Богомолова. И пока весь мир празднует Хэллоуин, в Польше пытаются предотвратить политический кризис. А Эстония потеряла почти 10 миллионов евро датских денег. Об этих и",
-"pub": "2026-10-31",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8574941",
-"title": "NVA rīkos tiešsaistes pasākumu augsti kvalificētu speciālistu piesaistei",
-"summary": "Nodarbinātības valsts aģentūra (NVA) aicina darba devējus un darba meklētājus pieteikties bezmaksas tiešsaistes pasākumam \"Darbs un karjera Latvijā\", kas notiks 26. novembrī no plkst. 14 līdz 16, informēja NVA.",
-"pub": "2026-10-31",
-"source": "apollo.lv",
-"score": 7
-},
-{
-"link": "https://pmo.ee/8574926",
-"title": "MEKLĒ SEVI! ⟩ Cik karsti Latvijā aizritēja intimitātes konference \"Intimitātes IQ\"?",
-"summary": "31. oktobrī Latvijas Nacionālajā bibliotēkā norisinājās intimitātes konference „Intimitātes IQ”, kurā eksperti un interesenti atklāti runāja par tuvību, baudu un attiecību kvalitāti. Ielūkojies pasākuma spilgtākajos mirkļos!",
-"pub": "2026-10-31",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8574910",
-"title": "Liepājas jaunais cietums piesaista rekordlielu darba meklētāju interesi",
-"summary": "Liepājas jaunā cietuma atvērto durvju dienai pieteikušies 130 interesentu – līdz šim lielākais apmeklētāju skaits šādos Ieslodzījumu vietu pārvaldes (IeVP) rīkotajos pasākumos. Galvenie iemesli, kāpēc cilvēki apsver iespēju strādāt ieslodzījuma vietā, ir konkurētspējīgs atalgojums un sociālās garant",
-"pub": "2026-10-31",
-"source": "apollo.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8574908",
-"title": "Studentiem piedāvās nakšņot Latvijas Nacionālajā bibliotēkā",
-"summary": "Latvijas Nacionālajā bibliotēkā (LNB) 13. novembrī un 14. novembrī notiks pasākums \"Studentu nakts LNB\", kurā studentiem pirmo reizi piedāvās arī nakšņot bibliotēkā, informē LNB.",
-"pub": "2026-10-31",
-"source": "apollo.lv",
-"score": 4
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/10/31/v-liepae-vystroilas-ocered-zelaiushhix-rabotat-v-tiurme-cem-privlekaiut-zarplaty-i-usloviia?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "В Лиепае выстроилась очередь желающих работать в тюрьме: чем привлекают зарплаты и условия",
-"summary": "Новая Лиепайская тюрьма неожиданно стала одним из привлекательных работодателей города. На день открытых дверей зарегистрировались 130 человек — рекордное число для такого мероприятия. Потенциальных сотрудников привлекают зарплаты от 1500 до 2700 евро до уплаты налогов и социальные гарантии. Однако ",
-"pub": "2026-10-31",
-"source": "bb.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/vai-tu-esi-tik-drosmigs-lai-naksnotu-nacionalaja-biblioteka-gaismas-pili-gaidams-neparasts-pasakums",
-"title": "Vai tu esi tik drosmīgs, lai nakšņotu Nacionālajā bibliotēkā? Gaismas pilī gaidāms neparasts pasākums",
-"summary": "Latvijas Nacionālajā bibliotēkā (LNB) 13. novembrī un 14. novembrī notiks pasākums “Studentu nakts LNB”, kurā studentiem pirmo reizi piedāvās arī nakšņot bibliotēkā, informē LNB. Dalība pasākumā būs bez maksas ar iepriekšēju pieteikšanos. Vakara programmā varēs piedalīties studenti un citi interesen",
-"pub": "2026-10-31",
-"source": "la.lv",
-"score": 10
-},
-{
-"link": "https://www.la.lv/halovina-vakars-ne-visiem-sagada-prieku-luk-ko-dara-latviesi-kuri-sovakar-negaida-cieminus",
-"title": "Halovīna vakars ne visiem sagādā prieku: lūk, ko dara latvieši, kuri šovakar negaida “ciemiņus”",
-"summary": "Halovīna vakarā daudzi bērni dodas saldumu medībās, taču ne visi ir priecīgi par negaidītiem ciemiņiem pie savām durvīm. Īpaši sarežģīta šī situācija var būt ģimenēm ar maziem bērniem, mājdzīvniekiem vai tiem, kuri vienkārši nevēlas piedalīties svētku tradīcijās. Sociālajā tīklā “Threads” kāda sievi",
-"pub": "2026-10-31",
-"source": "la.lv",
-"score": 10
-},
-{
-"link": "https://pmo.ee/8573055",
-"title": "DIENAS KLEITA: ⟩ Kardašjana pārsteidz ar silikona kleitu un dziļu dekoltē",
-"summary": "Kima Kardašjana atkal pievērsusi uzmanību ar tērpu, kuru grūti sajaukt ar klasisku vakarkleitu. Seriāla All’s Fair otrās sezonas popularizēšanas pasākumā viņa izvēlējās Šiaparelli (Schiaparelli) augstās modes kleitu, kas atgādina futūristisku skulptūru.",
-"pub": "2026-10-31",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8572848",
-"title": "LŪSIS KOMENTĒ ⟩ Turpmāk mūziķiem pirms katra koncerta jāpauž viedoklis par ikvienu bruņoto konfliktu pasaulē",
-"summary": "Pēc tam, kad biju paudis viedokli par grupas “Metallica” koncertu, kurā Džeimss Hetfīlds paziņoja, ka grupa ieradusies spēlēt mūziku, nevis paust politisko nostāju, saņēmu vairākus neizpratnes pilnus komentārus. Mans mīļākais no tiem bija komentārs, kurā kāds jautāja, vai tāpat domātu arī tad, ja ru",
-"pub": "2026-10-31",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/734324-dva-raza-po-cetyre-vyxodnyx-podriad-kak-ziteli-latvii-budut-rabotat-i-otdyxat-v-noiabre-i-dekabre",
-"title": "Два раза по четыре выходных подряд: как жители Латвии будут работать и отдыхать в ноябре и декабре",
-"summary": "До конца 2026 года осталось всего два месяца, и впереди жителей Латвии ждут государственные праздники, дополнительные выходные и сокращенные рабочие дни. Особенно приятным окажется декабрь, когда появится возможность дважды отдохнуть по четыре дня подряд.",
-"pub": "2026-10-31",
-"source": "rus.jauns.lv",
-"score": 4
-},
-{
-"link": "https://rus.delfi.lv/57860/latvia/120140632/zapah-i-privkus-hlora-s-ponedelnika-v-rige-profilakticheskaya-dezinfekciya-vodoprovodnyh-setey",
-"title": "Запах и привкус хлора: с понедельника в Риге - профилактическая дезинфекция водопроводных сетей",
-"summary": "Для поддержания качества подаваемой воды с полуночи понедельника, 2 ноября, и до 23.59 четверга, 5 ноября, в Риге пройдет вторая и заключительная в этом году профилактическая дезинфекция водопроводных сетей, или хлорирование, сообщили агентству LETA в отделе коммуникации SIA Rīgas ūdens.",
-"pub": "2026-11-01",
-"source": "rus.delfi.lv",
-"score": 4
-},
-{
-"link": "https://bb.lv/statja/kultura/2026/11/01/rossiiskaia-mobilizaciia-v-latviiskix-dekoraciiax-riga-sygrala-oblastnoi-centr-rf-i-vosxitila-francuzov?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Российская мобилизация в латвийских декорациях: Рига сыграла областной центр РФ и восхитила французов",
-"summary": "Если у кого-то из уважаемых читателей в жизни — череда бытовых неурядиц, то обязательно посмотрите последнюю кинокартину Андрея Петровича Звягинцева (1964), недавно получившую Гран-при на Каннском фестивале. И тогда вы, проголосовав трудовым евро, как ваш автор, точно сэкономите на психотерапии. Вый",
-"pub": "2026-11-01",
-"source": "bb.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/01.11.2026-latvijas-vesture-caur-izmekletajas-atminam-dramaturgs-un-scenografs-sketina-izradi-principiala-nostaja.a669462/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Latvijas vēsture caur izmeklētājas atmiņām. Dramaturgs un scenogrāfs šķetina izrādi «Principiāla nostāja»",
-"summary": "Latvijas Nacionālajā teātrī pirmizrādi nesen piedzīvojis iestudējums \"Principiāla nostāja\", kas ir jau otrais režisora Roberta Daubura, dramaturga Jāņa Joņeva un scenogrāfa Kristiana Brektes kopdarbs iecerētajā triloģijā par noziegumiem un to izmeklēšanu Latvijā. Latvijas Radio 3 \"Klasika\" raidījumā",
-"pub": "2026-11-01",
-"source": "lsm.lv",
-"score": 8
-},
 {
 "link": "https://rus.lsm.lv/statja/kultura/teatr/01.11.2026-istoriia-latvii-v-vospominaniiax-sledovatelia-dramaturg-i-scenograf-rasskazyvaiut-o-spektakle-principialnaia-poziciia.a669991/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "История Латвии в воспоминаниях следователя. Драматург и сценограф рассказывают о спектакле «Принципиальная позиция»",
@@ -4853,6 +4717,142 @@
 "pub": "2026-11-13",
 "source": "bb.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/13.11.2026-vai-zini-kur-nikolo-paganini-paris-gadus-slepas-no-publiskas-spelesanas.a671604/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Vai zini, kur Nikolo Paganīni pāris gadus slēpās no publiskas spēlēšanas?",
+"summary": "Vai zini, ka, pateicoties savai spēlei, viņš agrā jaunībā nopelnījis savu pirmo Gvarneri? Vai zini, ka šis vijolnieks bieži nespējis pretoties skaistu dāmu valdzinājumam? Vai zini, ka viņš spēlējis un pazinis sava laika varenos, tai pašā laikā rīkojis labdarības koncertus nabagiem? Vai zini, ka liel",
+"pub": "2026-11-13",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/13.11.2026-deju-skola-dzirnas-40-jubilejas-gadu-noslegs-ar-verienigo-lieluzvedumu-indulis-un-arija.a671780/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Deju skola «Dzirnas» 40. jubilejas gadu noslēgs ar vērienīgo lieluzvedumu «Indulis un Ārija»",
+"summary": "Mīlestība vienam pret otru un savu zemi ir vērtības, par kurām šodien ir īpaši svarīgi atgādināt. Patriotu nedēļas noskaņās šo ideju spilgti atklās vērienīgais dejas lieluzvedums \"Indulis un Ārija\", kas notiks 14. novembrī \"Xiaomi arēnā\". Ar to Agra Daņiļeviča deju skola \"Dzirnas\" pieliks jaudīgu pu",
+"pub": "2026-11-13",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/13.11.2026-v-latvii-kazdyi-tretii-ekonomit-na-razvleceniiax-a-nekotorye-daze-na-ede-opros.a671881/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "В Латвии каждый третий экономит на развлечениях, а некоторые даже на еде — опрос",
+"summary": "Жители Латвии чаще всего экономят на развлечениях, услугах красоты, одежде и путешествияx, показал опрос, проведенный банком Citadele совместно с исследовательским агентством Norstat. От развлечений и мероприятий досуга отказываются или сокращают расходы на них 33 % жителей, на услугах красоты эконо",
+"pub": "2026-11-13",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/13.11.2026-ukrainskaia-nedelia-v-latvii-s-14-po-22-noiabria-predlozeniia-i-priglaseniia.a671676/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Украинская неделя в Латвии с 14 по 22 ноября. Предложения и приглашения",
+"summary": "Публикуем подборку некоторых мероприятий ближайшей недели, которые устраиваются для украинцев, самими украинцами или могут быть интересными для украинцев Латвии.",
+"pub": "2026-11-13",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/13.11.2026-vazno-ctoby-celovek-drozal-ot-ozidaniia-rezisser-latviiskogo-xorrora-polucivsego-mezdunarodnoe-priznanie.a671800/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Важно, чтобы человек дрожал от ожидания — режиссер латвийского хоррора, получившего международное признание",
+"summary": "Латвийский короткометражный хоррор-фильм «Ведьмачий Доктор» недавно был признан «Лучшим международным короткометражным фильмом» на фестивале в Испании. «Зло — это болезнь, и есть врач, способный его вылечить» — так описана сюжетная линия фильма. LSM.lv поговорил с режиссером картины Никитой Воронины",
+"pub": "2026-11-13",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/13.11.2026-v-nacionalnom-teatre-sostoitsia-blagotvoritelnaia-viktorina-v-podderzku-veteranov-teatralnoi-sceny.a671668/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "В Национальном театре состоится благотворительная викторина в поддержку ветеранов театральной сцены",
+"summary": "16 ноября в 19:00 фонд поддержки ветеранов театральной сцены Rampa A совместно с ZiMinU spēles, Латвийским союзом театральных работников и Латвийским Национальным театром во второй раз организует благотворительную викторину. В ней могут принять участие как команды, так и отдельные участники.",
+"pub": "2026-11-13",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/13.11.2026-tancevalnaia-skola-dzirnas-zaversit-god-svoego-40-letiia-masstabnym-spektaklem-indulis-i-ariia.a671799/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Танцевальная школа Dzirnas завершит год своего 40-летия масштабным спектаклем «Индулис и Ария»",
+"summary": "Любовь друг к другу и к своей земле — ценности, о которых сегодня особенно важно напоминать. В атмосфере патриотической недели эта идея ярко раскроется в масштабном танцевальном спектакле «Индулис и Ария», который состоится 14 ноября на арене Xiaomi. Им танцевальная школа Агриса Данилевичса Dzirnas ",
+"pub": "2026-11-13",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://jauns.lv/raksts/zinas/738022-dailes-teatris-ar-rotkho-devies-lidz-sim-talakajas-viesizrades-soreiz-uz-seulu",
+"title": "Dailes teātris ar “Rotkho” devies līdz šim tālākajās viesizrādēs – šoreiz uz Seulu",
+"summary": "Dailes teātris devies uz tālākajām komerciālajām viesizrādēm Dienvidkorejā Seulā. Izrāde “Rotkho” Seulas publikai būs skatāma no 13. līdz 15. novembrim.",
+"pub": "2026-11-13",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/737949-12-tysiac-svecei-i-prazdnicnyi-saliut-kak-iurmala-otmetit-den-provozglaseniia-latviiskoi-respubliki",
+"title": "12 тысяч свечей и праздничный салют: как Юрмала отметит День провозглашения Латвийской Республики",
+"summary": "18 ноября в Юрмале в честь Дня провозглашения Латвийской Республики зажгут более 12 тысяч свечей, которые образуют 20-километровую дорогу света. Праздничная программа начнется в 15:30, а вечером жителей и гостей города ждут концерты и салют.",
+"pub": "2026-11-13",
+"source": "rus.jauns.lv",
+"score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/737998-v-subbotu-nebo-budet-zatianuto-oblakami-no-k-veceru-dolzno-proiasnitsia",
+"title": "В субботу небо будет затянуто облаками, но к вечеру должно проясниться",
+"summary": "В ночь на субботу в Латвии временами ожидаются осадки, местами в Видземе пройдут сильные дожди и снег, прогнозируют синоптики.",
+"pub": "2026-11-13",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/737984-seim-i-rizskaia-duma-soberutsia-na-osobye-zasedaniia-18-noiabria",
+"title": "Сейм и Рижская дума соберутся на особые заседания 18 ноября",
+"summary": "В среду, 18 ноября, Латвия отметит 108-ю годовщину провозглашения независимости. В честь государственного праздника состоятся торжественные заседания Сейма и Рижской думы, во время которых прозвучат праздничные обращения, а в столице вручат награду \"Рижанин года - 2026\".",
+"pub": "2026-11-13",
+"source": "rus.jauns.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8583080",
+"title": "Prokuratūrai nodota lieta par Kūrorta svētkos Jūrmalā notikušo kautiņu",
+"summary": "Valsts policija nodevusi Pierīgas prokuratūrai kriminālvajāšanas sākšanai lietu par Kūrorta svētkos Jūrmalā notikušo masveida kautiņu, kas izcēlās Jomas ielā, informē Valsts policijā.",
+"pub": "2026-11-13",
+"source": "tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8583113",
+"title": "Ночью временами ожидаются осадки",
+"summary": "В ночь на субботу, 14 ноября, в Латвии временами ожидаются осадки, местами в Видземе пройдут сильные дожди и снег, прогнозируют синоптики.",
+"pub": "2026-11-13",
+"source": "rus.tvnet.lv",
+"score": 3
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120142448/snachala-torgovlya-zatem-kultura-i-razvlecheniya-glava-rigas-nami-o-sudbe-rizhskogo-centralnogo-rynka",
+"title": "Сначала - торговля, затем - культура и развлечения. Глава Rīgas nami о судьбе Рижского центрального рынка",
+"summary": "На Рижском центральном рынке в первую очередь необходимо развивать торговлю, однако следует также привлекать культурные и развлекательные мероприятия и благоустраивать открытые пространства. Такое мнение в ходе дискуссии о будущем рынка высказал председатель правления SIA Rīgas nami Оярс Валкерс, со",
+"pub": "2026-11-13",
+"source": "rus.delfi.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8582912",
+"title": "Kriminālvajāšanai nodod lietu par kautiņu Jūrmalas Kūrorta svētkos",
+"summary": "Valsts policija nodevusi Pierīgas prokuratūrai kriminālvajāšanas sākšanai lietu par Kūrorta svētkos Jūrmalā notikušo masveida kautiņu, kas izcēlās Jomas ielā, informē Valsts policijā.",
+"pub": "2026-11-13",
+"source": "apollo.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/10-vietas-riga-un-jurmala-vakarinam-ar-mammu-un-teti",
+"title": "10 vietas Rīgā un Jūrmalā vakariņām ar mammu un tēti",
+"summary": "Bērnībā došanās uz kafejnīcu kopā ar vecākiem bija īsti svētki. Tagad, kad lomas ir mainījušās, ir pienācis tavs laiks uzaicināt mammu un tēti uz kafejnīcu vai varbūt pat smalku restorānu. Novembris ar garajiem, tumšajiem vakariem, ko izgaismo Latvijas svētki, ir labs iemesls sanākt kopā visai ģimen",
+"pub": "2026-11-13",
+"source": "la.lv",
+"score": 10
+},
+{
+"link": "https://www.la.lv/daudzi-to-gaidija-nedelas-nogale-vel-vienu-reizi-arena-atgriezas-dejas-legenda-indulis-un-arija",
+"title": "Daudzi to gaidīja! Nedēļas nogalē vēl vienu reizi Arēnā atgriežas dejas leģenda “Indulis un Ārija”.",
+"summary": "Šajā nedēļas nogalē, 14. novembrī, Xiaomi Arēnā atgriezīsies patriotiskais dejas lieluzvedums “Indulis un Ārija”. Raiņa leģendārais stāsts par mīlestību, brīvību un dzimtenes spēku šoreiz izskanēs īpašā noskaņā Patriotu nedēļā. Ar šo uzvedumu Agra Daņiļeviča deju skola “Dzirnas” iesāka sava 40. sezo",
+"pub": "2026-11-13",
+"source": "la.lv",
+"score": 5
 }
 ],
 "portal_errors": {},
@@ -9259,7 +9259,13 @@
 "https://pmo.ee/8582360",
 "https://jauns.lv/raksts/zinas/737434-aicina-sanemt-ziemassvetku-pabalstu",
 "https://www.delfi.lv/kultura/174/music/120142295/divi-komponisti-viena-opera-un-dzive-starp-latviju-un-griekiju-gundega-smite-par-eiropas-nolaupisanu",
-"https://bb.lv/statja/nasha-latvija/2026/11/13/v-rigu-vveli-voiska-narod-i-armiia-ediny?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv"
+"https://bb.lv/statja/nasha-latvija/2026/11/13/v-rigu-vveli-voiska-narod-i-armiia-ediny?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://rus.lsm.lv/statja/kultura/kino/13.11.2026-vazno-ctoby-celovek-drozal-ot-ozidaniia-rezisser-latviiskogo-xorrora-polucivsego-mezdunarodnoe-priznanie.a671800/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/afisha/737949-12-tysiac-svecei-i-prazdnicnyi-saliut-kak-iurmala-otmetit-den-provozglaseniia-latviiskoi-respubliki",
+"https://rus.jauns.lv/article/novosti/737984-seim-i-rizskaia-duma-soberutsia-na-osobye-zasedaniia-18-noiabria",
+"https://pmo.ee/8583080",
+"https://pmo.ee/8582912",
+"https://www.la.lv/10-vietas-riga-un-jurmala-vakarinam-ar-mammu-un-teti"
 ],
 "tips_debug": {
 "date": "2026-11-12",
@@ -9758,8 +9764,14 @@
 "text": "no 25,00 EUR 21.11.26 18:00 Pasaka par Fedotu strēlnieku, brašu jaunekli Art Ambar",
 "src": "https://ticketshop.lv/lv",
 "seen": "2026-11-12"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108464",
+"text": "no 15,00 EUR 15.05.27 15:00 URBIX 40 GADI UZ ROCK SKATUVES Alus darītava \"Viedi\", pļava",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-13"
 }
 ],
 "watch_errors": {},
-"last_reminder": "2026-11-06"
+"last_reminder": "2026-11-13"
 }
