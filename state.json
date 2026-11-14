@@ -55,22 +55,6 @@
 },
 "portal_queue": [
 {
-"link": "https://www.lsm.lv/raksts/kultura/maksla/02.11.2026-augu-skats-uz-pasauli-kristines-kutepovas-izstade-ar-augu-acim.a670172/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Augu skats uz pasauli Kristīnes Kutepovas izstādē «Ar augu acīm»",
-"summary": "Kad dabā kļūst aizvien tumšāks, kā uzmundrinājums var kalpot mākslinieces Kristīnes Kutepovas jaunā izstāde \"Ar augu acīm\", ko atklāj 2. novembrī galerijā \"Istaba\". Izstādi veido gaismas, košuma un dzīvības enerģijas piepildītas gleznas, kurām mākslinieci iedvesmojis viņas krāšņais jumta dārzs Carni",
-"pub": "2026-11-02",
-"source": "lsm.lv",
-"score": 6
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/teatr/02.11.2026-zubnye-fei-syshhicy-komediinyi-detektiv-o-zdorove-zubov.a670264/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Зубные феи — сыщицы. Комедийный детектив о здоровье зубов",
-"summary": "Театральная труппа Kvadrifrons поставила веселый и увлекательный детектив для всей семьи. В спектакле «Зубные феи» две феи пытаются выяснить, куда исчезают молочные зубы и не крадет ли их кто-нибудь.",
-"pub": "2026-11-02",
-"source": "rus.lsm.lv",
-"score": 10
-},
-{
 "link": "https://rus.lsm.lv/statja/novosti/obschestvo/02.11.2026-bolee-sotni-administrativnyx-i-14-ugolovnyx-processov-itog-reidov-v-rizskom-regione.a670244/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "Более сотни административных и 14 уголовных процессов — итог рейдов в Рижском регионе",
 "summary": "В конце прошлой недели Госполиция в сотрудничестве с Рижской муниципальной полицией и Дирекцией безопасности дорожного движения провела в Рижском регионе профилактические проверки безопасности дорожного движения. Во время мероприятия были проверены 18 854 транспортных средства, начат 171 процесс об ",
@@ -4853,6 +4837,22 @@
 "pub": "2026-11-14",
 "source": "la.lv",
 "score": 13
+},
+{
+"link": "https://jauns.lv/raksts/zinas/738135-latvijas-nacionalas-operas-un-baleta-soliste-ilona-bagele-aicina-uz-adventes-koncertu-turaidas-baznica",
+"title": "Latvijas Nacionālās operas un baleta soliste Ilona Bagele aicina uz Adventes koncertu Turaidas baznīcā",
+"summary": "Iededzot pirmo Adventes sveci, uz ziemas noskaņu koncertu aicina Latvijas Nacionālās operas un baleta soliste Ilona Bagele un akordeoniste Inita Āboliņa.",
+"pub": "2026-11-14",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/738125-v-rige-rascveli-10-000-neobycnyx-cvetov-otkrito-pobyval-na-otkrytii-svetovogo-sou-video",
+"title": "В Риге расцвели 10 000 необычных цветов: Otkrito побывал на открытии светового шоу. ВИДЕО",
+"summary": "Вечером 14 ноября Андрейсала в Риге преобразилась до неузнаваемости: тысячи разноцветных огней, мощные световые лучи над историческими трубами и огромные проекции на зданиях превратили бывшую промышленную территорию в настоящее световое шоу. Otkrito побывал на открытии выставки Gaisma sauc krastā, к",
+"pub": "2026-11-14",
+"source": "rus.jauns.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
