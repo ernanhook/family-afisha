@@ -55,30 +55,6 @@
 },
 "portal_queue": [
 {
-"link": "https://pmo.ee/8577440",
-"title": "Sasaukta ANO Drošības padomes ārkārtas sēdē par situāciju Ukrainā",
-"summary": "Ņujorkā pirmdien, 9. novembrī, plkst. 17 pēc Latvijas laika notiks ANO Drošības padomes ārkārtas sanāksme par situāciju Ukrainā, informē Latvijas pastāvīgās pārstāvniecības ANO preses sekretāre Signe Znotiņa-Znota.",
-"pub": "2026-11-04",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/lifenews/2026/11/04/rozdestvenskaia-evropa-bez-tolp-i-zaoblacnyx-cen-piat-skazocnyx-iarmarok-o-kotoryx-znaiut-ne-vse?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Рождественская Европа без толп и заоблачных цен: пять сказочных ярмарок, о которых знают не все",
-"summary": "Аромат корицы и горячего глинтвейна, старинные улочки в тысячах огней, рождественские мелодии и деревянные домики с праздничными угощениями. Ради этой атмосферы миллионы туристов ежегодно отправляются в Европу. Но знаменитые рождественские ярмарки всё чаще встречают гостей огромными очередями, переп",
-"pub": "2026-11-04",
-"source": "bb.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/cik-daudz-naudas-sogad-teresim-ziemassvetkiem-aptaujas-dati-atklaj-latvijas-iedzivotaju-planus",
-"title": "Cik daudz naudas šogad tērēsim Ziemassvētkiem? Aptaujas dati atklāj Latvijas iedzīvotāju plānus",
-"summary": "Ziemassvētkiem lēnām tuvojoties, daudzi Latvijas iedzīvotāji jau sākuši plānot svētku svinības. Katrs otrais iedzīvotājs jeb 51% aptaujāto sagaida, ka viņu kopējie tēriņi Ziemassvētku svinībām saglabāsies pagājušā gada līmenī, liecina IKEA veiktās aptaujas dati. Lielākā daļa no šiem izdevumiem tiks ",
-"pub": "2026-11-04",
-"source": "la.lv",
-"score": 10
-},
-{
 "link": "https://pmo.ee/8575542",
 "title": "Tikko šķīries un jau Tinderī? Psihologs stāsta par to, kā vīrieši atgūstas pēc šķiršanās",
 "summary": "Kopš attiecību izbeigšanās pagājušas vien dažas dienas vai nedēļas, bet vīrieša dienaskārtībā - jauni projekti, darbi, izklaides pasākumi un Tindera randiņi. Vai tas nozīmē, ka vīrieši daudz vieglāk un ātrāk pārdzīvo šķiršanos? Dažkārt, no malas raugoties, tā šķiet. Bet vai viss ir tik vienkārši?",
@@ -4853,6 +4829,30 @@
 "pub": "2026-11-16",
 "source": "la.lv",
 "score": 4
+},
+{
+"link": "https://jauns.lv/raksts/zinas/737555-uz-kurieni-jadodas-verot-18-novembra-saluti-pilsetas-kur-notiks-svetku-ugunosanas",
+"title": "Uz kurieni jādodas vērot 18. novembra salūti? Pilsētas, kur notiks svētku uguņošanas",
+"summary": "Jau septīto gadu Latvijā uz Valsts svētkiem vairums pilsētu vairs nerīko svētku uguņošanas. Tomēr ir dažas pilsētas, kurās tās notiek arī šogad 18. novembrī. Jauns.lv skaidro kur un cikos tās būs un uz kurieni Latvijas valsts dzimšanas dienā jādodas vērot salūti.",
+"pub": "2026-11-17",
+"source": "jauns.lv",
+"score": 14
+},
+{
+"link": "https://pmo.ee/8583021",
+"title": "Sarkani baltie deserti un kūkas: 12 receptes svētku mielastam",
+"summary": "Kā ķirsītis uz tortes, kā punktiņš uz burta \"i\", tā kūkas gabaliņš vai gards deserts, kas pieskaņojies svētkiem, būs izcils noslēgums 18. novembra svētku vakariņām. Lai skaisti, lai svinīgi, lai garšīgi!",
+"pub": "2026-11-16",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8581764",
+"title": "Шамиль Хаматов: мне очень нравится Театр Чехова, а Голомазов - это феерия фантазии",
+"summary": "Актер Шамиль Хаматов выпускает свой моноспектакль \"Посторонний\" по одноименному роману Альбера Камю, снялся в фильме Виестура Кайриша \"Уля\", продолжает работать в Театре Чехова и одновременно появляется в спектакле \"Ревизор\" Сергея Голомазова. Обо всех этих проектах, а также о любви к сестре, ощущен",
+"pub": "2026-11-16",
+"source": "rus.tvnet.lv",
+"score": 4
 }
 ],
 "portal_errors": {},
@@ -9354,66 +9354,6 @@
 ]
 },
 "watch_queue": [
-{
-"link": "https://ticketshop.lv/lv/events/108390",
-"text": "no 12,00 EUR 31.01.27 19:00 NO MĪĻAJIEM NEŠĶIRIETIES Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108389",
-"text": "no 12,00 EUR 31.01.27 12:00 LAUVA, RAGANA UN DRĒBJU SKAPIS Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108388",
-"text": "no 12,00 EUR 30.01.27 19:00 VARŠAVAS MELODIJA Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108387",
-"text": "no 15,00 EUR 29.01.27 19:00 LIETUS PĀRDEVĒJS Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108386",
-"text": "no 12,00 EUR 24.01.27 19:00 MANS UN TAVS NOSLĒPUMS Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108385",
-"text": "no 15,00 EUR 24.01.27 13:00 SPRĪDĪTIS Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108384",
-"text": "no 15,00 EUR 23.01.27 18:00 AUGŠĀMCELŠANĀS Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108383",
-"text": "no 15,00 EUR 22.01.27 19:00 MY WAY Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108392",
-"text": "no 25,00 EUR 17.01.27 19:00 KASTINGS Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
-{
-"link": "https://ticketshop.lv/lv/events/108391",
-"text": "no 10,00 EUR 17.01.27 13:00 KOSTKĀRE Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-26"
-},
 {
 "link": "https://ticketshop.lv/lv/events/108407",
 "text": "no 20,00 EUR 28.02.27 19:00 ARLABUNAKTI, MĀMIŅ! Jaunatnes teātris \"Brīvo Aktieru Sabiedrība\"",
