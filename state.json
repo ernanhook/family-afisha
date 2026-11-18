@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.3063868999999998,
-"calls": 81
+"cost": 0.3071013999999998,
+"calls": 82
 },
 "last_digest": "2026-11-12",
 "shown_ongoing": {
@@ -54,342 +54,6 @@
 "count": 12
 },
 "portal_queue": [
-{
-"link": "https://pmo.ee/8576431",
-"title": "Strādāt citās ES dalībvalstīs kļūs vienkāršāk",
-"summary": "Septembra vidū Eiropas Komisija iepazīstināja ar pasākumu kopumu darba mobilitātes jomā - \"Fair Labour Mobility Package\" (taisnīgas darba mobilitātes pakete). Tajā ietilpst pieci likumdošanas priekšlikumi, kuru mērķis ir samazināt birokrātiju un atvieglot kvalificētu speciālistu diplomu atzīšanu. Mē",
-"pub": "2026-11-05",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/literatura/06.11.2026-tiesraide-no-pl-13-starptautiskais-simpozijs-tiesibas-uz-lasisanu-turpinajums.a668513/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "TIEŠRAIDE no pl. 13: Starptautiskais simpozijs «Tiesības uz lasīšanu: Turpinājums»",
-"summary": "Latvijas Nacionālās bibliotēkas Ziedoņa zālē 6. novembrī notiks starptautiskais simpozijs \"Tiesības uz lasīšanu: Turpinājums\". No pulksten 13.00 līdz 17.00 tā tiešraidi varēs skatīt portālā LSM.lv.",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/literatura/06.11.2026-priamaia-transliaciia-mezdunarodnyi-simpozium-pravo-na-ctenie-prodolzenie.a670728/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "ПРЯМАЯ ТРАНСЛЯЦИЯ: международный симпозиум «Право на чтение: продолжение»",
-"summary": "6 ноября в зале Зиедониса Латвийской национальной библиотеки пройдет международный симпозиум «Право на чтение: продолжение». С 13:00 до 17:00 его прямую трансляцию можно будет смотреть на портале LSM.lv.",
-"pub": "2026-11-06",
-"source": "rus.lsm.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8578390",
-"title": "Latvijas Universitātes Botāniskajā dārzā atklās gaismas festivālu",
-"summary": "No šodienas Latvijas Universitātes Botāniskajā dārzā gandrīz divus kilometrus garā pastaigu maršrutā varēs apskatīt gaismas objektu ekspozīciju.",
-"pub": "2026-11-06",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8578387",
-"title": "Ādažu bāzē godinās kritušo karavīru piemiņu",
-"summary": "Piektdien Ādažu bāzē notiks piemiņas pasākumi, lai godinātu Latvijas un sabiedroto karavīrus, kuri zaudējuši dzīvību, pildot kaujas uzdevumus, informēja Sauszemes spēki.",
-"pub": "2026-11-06",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/luk-kas-ar-trampu-notiks-nakamo-divu-gadu-laika-paredz-the-guardian",
-"title": "Lūk, kas ar Trampu notiks nākamo divu gadu laikā, paredz “The Guardian”",
-"summary": "ASV Kongresa starpvēlēšanās vēlētāji devuši skaidru signālu par neapmierinātību ar Donalda Trampa otro prezidentūras termiņu, raksta “The Guardian” komentētāja Moira Donegana. Demokrātu uzvara būtiski mainīs Trampa iespējas īstenot savu politiku nākamajos divos gados. Iegūstot vairākumu Senātā, demo",
-"pub": "2026-11-06",
-"source": "la.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/06.11.2026-ar-izturibas-skrejienu-un-pargajienu-adazu-baze-godina-krituso-karaviru-pieminu.a670882/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Ar izturības skrējienu un pārgājienu Ādažu bāzē godina kritušo karavīru piemiņu",
-"summary": "Militārajā bāzē \"Ādaži\" piektdien, 6. novembrī, notika piemiņas pasākumi, lai godinātu tos Latvijas un sabiedroto karavīrus, kuri zaudējuši savu dzīvību, pildot kaujas uzdevumus. Militārās bāzes kapelā pulcējās kritušo karavīru piederīgie un dienesta biedri, lai kopīgās lūgšanās pieminētu karavīrus,",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/06.11.2026-valdibas-veidosana-budzetu-nekave-bet-par-ta-pienemsanas-laiku-vienpratibas-nav.a670842/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Valdības veidošana budžetu nekavē, bet par tā pieņemšanas laiku vienprātības nav",
-"summary": "Darbs pie nākamā gada valsts budžeta rit pēc grafika, un jaunās valdības veidošana to pagaidām nekavējot. Tā uzsver gan finanšu ministrs Māris Kučinskis, gan Saeimas priekšsēdētājs Edvards Smiltēns, kur abi ir no \"Apvienotā saraksta\". Tikmēr ekonomists Edgars Voļskis aicina budžetu pieņemt līdz Ziem",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 3
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/literatura/06.11.2026-tiesraide-starptautiskais-simpozijs-tiesibas-uz-lasisanu-turpinajums.a668513/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "TIEŠRAIDE: Starptautiskais simpozijs «Tiesības uz lasīšanu: Turpinājums»",
-"summary": "Latvijas Nacionālās bibliotēkas Ziedoņa zālē 6. novembrī notiks starptautiskais simpozijs \"Tiesības uz lasīšanu: Turpinājums\". No pulksten 13.00 līdz 17.00 tā tiešraidi varēs skatīt portālā LSM.lv.",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/maksla/06.11.2026-riga-jutos-gaidita-saruna-ar-latvija-dzimuso-nujorkas-makslinieci-dianu-spunginu.a670586/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "«Rīgā jutos gaidīta.» Saruna ar Latvijā dzimušo Ņujorkas mākslinieci Diānu Špunginu",
-"summary": "\"Neatkarīgi no tā, kur es šajā pasaulē atradīšos un ko darīšu, daļa manis vienmēr būs Latvijā,\" sarunā saka Latvijā dzimusī amerikāņu māksliniece Diāna Špungina, kuras darbs \"Dvēsele pamet ķermeni\" skatāms Latvijas Nacionālā mākslas muzeja zīmējumu izstādē \"Iemiesotā doma\". Kāpēc mākslinieces ģimene",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 8
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/muzika/06.11.2026-skanu-meza-skate-snack-atklaj-neparastus-jaunos-muzikus-alternativas-kulturvietas.a670838/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "«Skaņu meža» skate «Snack» – atklāj neparastus jaunos mūziķus alternatīvās kultūrvietās",
-"summary": "6. un 7. novembrī dažādos Rīgas kultūrbāros, klubos un alternatīvās kultūrvietās notiks \"Skaņu meža\" komandas rīkotā eksperimentālās mūzikas un skaņu mākslas skate \"Snack\", kurā uzstāsies jaunie mākslinieki no Baltijas un Ziemeļvalstīm, informēja pasākuma rīkotāji.",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/muzika/06.11.2026-iespeja-dzirdet-pasaules-limena-dzeza-maksliniekus-klat-koncertcikls-art-of-riga-jazz.a670788/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Iespēja dzirdēt pasaules līmeņa džeza māksliniekus. Klāt koncertcikls «Art of Riga Jazz»",
-"summary": "Atsākas \"Art of Riga Jazz\", kas ir unikāls džeza un improvizācijas pasākumu cikls – tostarp koncerti un meistarklases –, kas radīts mūzikas cienītājiem, kuri spēj novērtēt māksliniecisko dimensiju un uztvert muzikālā skanējuma daudzveidīgās nianses.",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 6
-},
-{
-"link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/06.11.2026-bernu-draugs-lenesons-aicina-uz-latvijas-dzimsanas-dienas-svinibam.a670826/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Bērnu draugs LeNeSOns aicina uz Latvijas dzimšanas dienas svinībām",
-"summary": "Rīgas Kongresu namā sestdien, 14. novembrī, plkst. 11.00 un 14.00 Latvijas Nacionālais simfoniskais orķestris (LNSO) un bērnu draugs LeNeSOns aicina mazākos klausītājus un viņu ģimenes uz Latvijas dzimšanas dienas svinībām veltītu koncertizrādi \"LeNeSOns un Latvija\". Apskatot skaistākās Latvijas vie",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 17
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/muzika/06.11.2026-novembris-ar-koncertiem-neskopojas-uz-kuru-doties-sonedel.a670802/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Novembris ar koncertiem neskopojas: uz kuru doties šonedēļ?",
-"summary": "Halovīns ir pārslimots, un nu jāpaspēj atgūties, lai sapucētos mūsu valsts svētku laikam. Vislabāk to zina Miks Galvanovskis, kurš turpina savu \"Letiņa\" turneju ar koncertiem Valmierā un Rēzeknes \"Gorā\". Arī Rīgas Dzintara kora autobuss ar Andreju Reini Zitmani pie stūres un Latvijai veltītu dziesmu",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 8
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/06.11.2026-cietumu-darbiniekus-plano-godinat-ar-valstiska-limena-svetkiem-8-julija-precizets.a670700/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Cietumu darbiniekus plāno godināt ar valstiska līmeņa svētkiem 8. jūlijā (precizēts)",
-"summary": "Lai atzīmētu Ieslodzījuma vietu pārvaldes (IeVP) darbinieku devumu un nostiprinātu viņos apziņu par valstiski nozīmīgu pienākumu veikšanu, 8. jūliju plāno pasludināt par Penitenciārās sistēmas darbinieku dienu. Šis jautājums bija iekļauts piektdienas, 6. novembra, valdības sēdē, tomēr to atlika.",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kas-notiek-latvija/audio/06.11.2026-kas-notiks-un-kam-janotiek-15-saeima-raidieraksts.a670805/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Kas notiks un kam jānotiek 15. Saeimā? Raidieraksts",
-"summary": "4. novembra raidījumā \"Kas notiks un kam jānotiek 15. Saeimā?\" piedalās Māris Kučinskis (\"Apvienotais saraksts\"), Ainārs Šlesers (\"Latvija pirmajā vietā\"), Artūrs Butāns (Nacionālā apvienība), Andris Šuvajevs (\"Progresīvie\"), Inese Lībiņa-Egnere (\"Jaunā Vienotība\"), Jūlija Stepaņenko (\"Suverēnā vara",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/muzika/06.11.2026-snack-ot-skanu-mezs-novye-imena-alternativnoi-muzyki.a670849/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Snack от Skaņu mežs: новые имена альтернативной музыки",
-"summary": "6 и 7 ноября в культурных барах, клубах и альтернативных пространствах Риги пройдет фестиваль экспериментальной музыки и звукового искусства Snack, организованный командой Skaņu mežs. В нем примут участие молодые артисты из стран Балтии и Северной Европы, сообщили организаторы.",
-"pub": "2026-11-06",
-"source": "rus.lsm.lv",
-"score": 6
-},
-{
-"link": "https://rus.lsm.lv/statja/novosti/obschestvo/06.11.2026-ukrainskaia-nedelia-v-latvii-s-7-po-15-noiabria-predlozeniia-i-priglaseniia.a670848/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Украинская неделя в Латвии с 7 по 15 ноября. Предложения и приглашения",
-"summary": "Публикуем подборку некоторых мероприятий ближайшей недели, которые устраиваются для украинцев, самими украинцами или могут быть интересными для украинцев Латвии.",
-"pub": "2026-11-06",
-"source": "rus.lsm.lv",
-"score": 2
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/muzika/06.11.2026-drug-detei-lenesons-priglasaet-na-prazdnovanie-dnia-rozdeniia-latvii.a670836/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Друг детей LeNeSOns приглашает на празднование дня рождения Латвии",
-"summary": "В Рижском Доме конгрессов в субботу, 14 ноября, в 11:00 и 14:00 Латвийский национальный симфонический оркестр (LNSO) и друг детей LeNeSOns приглашают самых юных слушателей и их семьи на музыкальный спектакль «LeNeSOns и Латвия», посвященный празднованию дня рождения страны. Зрители отправятся в путе",
-"pub": "2026-11-06",
-"source": "rus.lsm.lv",
-"score": 17
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/muzika/06.11.2026-vozmoznost-uslysat-dzazovyx-muzykantov-mirovogo-urovnia-startuet-koncertnyi-cikl-art-of-riga-jazz.a670832/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Возможность услышать джазовых музыкантов мирового уровня. Стартует концертный цикл Art of Riga Jazz",
-"summary": "Возобновляется Art of Riga Jazz — уникальный цикл джазовых и импровизационных мероприятий, включающий концерты и мастер-классы. Он создан для ценителей музыки, способных оценить художественную составляющую и уловить многообразие нюансов музыкального звучания.",
-"pub": "2026-11-06",
-"source": "rus.lsm.lv",
-"score": 4
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/muzika/06.11.2026-noiabr-ne-skupitsia-na-koncerty-kuda-otpravitsia-na-etoi-nedele.a670815/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Ноябрь не скупится на концерты: куда отправиться на этой неделе?",
-"summary": "Хэллоуин уже пережили, теперь самое время восстановиться, чтобы как следует подготовиться к празднованию Дня независимости Латвии. Лучше всего это знает Микс Галвановскис: он продолжает свой тур Letiņš концертами в Валмиере и концертном зале Gors в Резекне. В тур отправляется и автобус рижского хора",
-"pub": "2026-11-06",
-"source": "rus.lsm.lv",
-"score": 4
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/736935-aija-andrejeva-un-karlis-lacis-izdod-albumu-ielugums-un-aicina-uz-koncertiem-visa-latvija",
-"title": "Aija Andrejeva un Kārlis Lācis izdod albumu \"Ielūgums\" un aicina uz koncertiem visā Latvijā",
-"summary": "Kārļa Lāča mūzika, Māras Zālītes dzeja, Aijas Andrejevas balss un \"Sinfonietta Rīga\" stīgu kvartets - koncertprogramma \"Ielūgums\" ir ieguvusi jaunu skanējumu albumā, kas izdots arī vinila platē.",
-"pub": "2026-11-06",
-"source": "jauns.lv",
-"score": 5
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/736889-petera-vaska-fonds-aicina-uz-tradicionalo-ziemassvetku-labdaribas-koncertu-gaismas-sauksana",
-"title": "Pētera Vaska fonds aicina uz tradicionālo Ziemassvētku labdarības koncertu “Gaismas saukšana”",
-"summary": "Tieši Ziemas saulgriežos, 21.decembrī, Latvijas Nacionālās bibliotēkas Saulcerītes zālē izskanēs Pētera Vaska fonda rīkotais tradicionālais Ziemassvētku labdarības koncerts “Gaismas saukšana”.",
-"pub": "2026-11-06",
-"source": "jauns.lv",
-"score": 9
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/736898-xotiat-zastavit-zamolcat-kriticeskie-golosa-v-latvii-podali-isk-protiv-ministerstva-kultury",
-"title": "\"Хотят заставить замолчать критические голоса\": в Латвии подали иск против Министерства культуры",
-"summary": "Общество Gribu palīdzēt bēgļiem (\"Хочу помочь беженцам\") в пятницу, 6 ноября, подало иск в Административный районный суд, требуя отменить решение о приостановке проекта фестиваля культурного многообразия и обязать Министерство культуры Латвии выполнить условия заключенного договора. Организация такж",
-"pub": "2026-11-06",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/znamenitosti/736876-nikol-kidman-poiavilas-na-pokaze-chanel-s-mladsei-doceriu-posmotrite-kak-ona-vyrosla",
-"title": "Николь Кидман появилась на показе Chanel с младшей дочерью - посмотрите, как она выросла",
-"summary": "Голливудская актриса Николь Кидман появилась на показе Chanel в Сиднее в компании своей младшей дочери, 15-летней Фейт Маргарет. 59-летняя звезда выбрала строгий черно-белый образ, а ее дочь привлекла внимание элегантным белоснежным нарядом. Совместный выход матери и дочери стал одним из самых обсуж",
-"pub": "2026-11-06",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/736821-bolee-50-artistov-so-vsei-evropy-vystupili-v-rige-otkrito-pobyval-na-neobycnom-festivale-video",
-"title": "Более 50 артистов со всей Европы выступили в Риге: Otkrito побывал на необычном фестивале. ВИДЕО",
-"summary": "С 4 по 6 ноября в квартале улицы Таллинас в Риге проходит музыкальный фестиваль Riga Music Week. Otkrito побывал на мероприятии, где на нескольких сценах выступают музыканты из Латвии и других стран.",
-"pub": "2026-11-06",
-"source": "rus.jauns.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8578790",
-"title": "Atzīmējot šahistu Tāla, Nimcoviča un Koblenca jubilejas, tiks atklāta izstāde un turnīrs",
-"summary": "Sestdien, 7. novembrī, muzejā \"Ebreji Latvijā\" tiks atklāta izstāde \"Tāls ≠ Nimcovičs + Koblencs. Ebreji Latvijas šahā\", kas veltīta trīs izcilu šahistu jubilejām. Tajā pašā dienā Rīgas Ebreju kopienā sāksies trīs dienu Mihaila Tāla piemiņas turnīrs ar garantēto balvu fondu. Organizatori sagatavojuš",
-"pub": "2026-11-06",
-"source": "tvnet.lv",
-"score": 9
-},
-{
-"link": "https://pmo.ee/8578558",
-"title": "Jau desmito gadu \"Latvijas augļu – ogu un vīnogu vīnu skatē\" satiksies labākie Latvijas vīni",
-"summary": "3. decembrī jau desmito gadu pēc kārtas pulcēsies Latvijas vadošie vīndari, lai piedalītos īpašā jubilejas pasākumā – \"Latvijas augļu – ogu un vīnogu vīnu skatē 2026\".",
-"pub": "2026-11-06",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8578708",
-"title": "FOTO ⟩ Skaistumkopšanas jaunumi, ko vērts redzēt! Ķīpsalā durvis vērusi „Baltic Beauty 2026”",
-"summary": "Šajā nedēļas nogalē Ķīpsala pārtapusi par skaistumkopšanas pasaules tikšanās vietu. No 6. līdz 8. novembrim starptautiskajā izstāžu centrā norisinās izstāde „Baltic Beauty 2026”, kurā vienuviet pulcējas kosmētikas zīmoli, profesionāļi, skaistumkopšanas speciālisti un ikviens, kurš vēlas iepazīt jaun",
-"pub": "2026-11-06",
-"source": "tvnet.lv",
-"score": 5
-},
-{
-"link": "https://pmo.ee/8578549",
-"title": "Один актер - восемь ролей: \"Посторонний\" с Шамилем Хаматовым",
-"summary": "8 декабря в театре \"Дайлес\" и 24 января в малом зале \"Дзинтари\" (Юрмала) вновь пройдет спектакль \"Посторонний\" по роману Альбера Камю. Шамиль Хаматов играет в нем всех восьмерых персонажей истории.",
-"pub": "2026-11-06",
-"source": "rus.tvnet.lv",
-"score": 8
-},
-{
-"link": "https://pmo.ee/8578535",
-"title": "10 ноября состоится шествие участников акции Kultūra (iz)dzīvo",
-"summary": "Во вторник, 10 ноября, в Риге состоится шествие участников акции Kultūra (iz)dzīvo, цель которого - призвать лиц, принимающих решения, разработать долгосрочный план по оплате труда работников культуры, сообщила представительница организаторов акции Агнесе Розентале.",
-"pub": "2026-11-06",
-"source": "rus.tvnet.lv",
-"score": 4
-},
-{
-"link": "https://rus.delfi.lv/57860/latvia/120141615/gde-kogda-i-po-kakoy-cene-v-skanste-planiruetsya-stroitelstvo-novoy-tramvaynoy-linii",
-"title": "Где, когда и по какой цене? В Скансте планируется строительство новой трамвайной линии",
-"summary": "На прошлой неделе мэр Риги Виестурс Клейнбергс объявил о планах по прокладке новой трамвайной линии в районе Скансте. Портал Delfi обратился к городским властям за подробностями: по каким улицам пройдет линия, где будут расположены остановки и во сколько обойдется строительство этого участка?",
-"pub": "2026-11-06",
-"source": "rus.delfi.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8578685",
-"title": "Vairāk nekā 50 Kulberga valdības rīcības plāna pasākumu palikuši neizpildīti",
-"summary": "No 185 Andra Kulberga (AS) vadītās valdības rīcības plāna pasākumiem neizpildīti palikuši 53, liecina otrdien valdībā izskatītais informatīvais ziņojums par Kulberga vadītā Ministru kabineta iecerēto darbību izpildi.",
-"pub": "2026-11-06",
-"source": "apollo.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/video-lacplesa-dienu-ieskandinot-rigas-sargi-atgriezas-ar-dziesmu",
-"title": "VIDEO. Lāčplēša dienu ieskandinot, “Rīgas sargi” atgriežas ar dziesmu",
-"summary": "Tuvojoties Lāčplēša dienai, klajā nāk komponista Jāņa Ķirša un dzejnieka Pētera Draguna radītā “Rīgas sargu dziesma”. Tās videoklipā mūziķu sniegums savijas ar kadriem no Aigara Graubas un Andreja Ēķa filmas “Rīgas sargi” (2007, Cinevilla), veidojot stāstu par drosmi, brīvību un Latvijas valsts tapš",
-"pub": "2026-11-06",
-"source": "la.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/foto-latvija-ir-visgarsigak-latvijai-sogad-visvairak-michelin-jaunpienaceju-baltija",
-"title": "FOTO. Latvijā ir visgaršīgāk! Latvijai šogad visvairāk MICHELIN jaunpienācēju Baltijā",
-"summary": "Ceturtdien, 5. novembrī, koncertzālē “Palladium” Latvijas Investīciju un attīstības aģentūras (LIAA) rīkotajā Latvijas restorānu apbalvošanas pasākumā godināti jaunākajā “MICHELIN Guide Latvia 2027” ceļvedī iekļautie restorāni, to šefpavāri un gastronomijas nozares profesionāļi. Jaunajā izlasē iekļa",
-"pub": "2026-11-06",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/kad-kulbergs-sola-tad-kulbergs-izpilda-daramo-darbu-saraksts-palicis-pavisam-niecigs",
-"title": "Kad Kulbergs sola, tad Kulbergs izpilda? Darāmo darbu saraksts palicis pavisam niecīgs",
-"summary": "No 185 Andra Kulberga (AS) vadītās valdības rīcības plāna pasākumiem neizpildīti palikuši 53, liecina otrdien valdībā izskatītais informatīvais ziņojums par Kulberga vadītā Ministru kabineta iecerēto darbību izpildi. Jūlijā Kulberga valdības rīcības plāna darbu skaits tika samazināts no 215 līdz 150",
-"pub": "2026-11-06",
-"source": "la.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/rotallietu-paradize-lidl-gatavojies-svetkiem-laikus",
-"title": "Rotaļlietu paradīze “Lidl” – gatavojies svētkiem laikus",
-"summary": "Uz jautājumu, kas visvairāk iepriecina Ziemassvētkos, gandrīz ikviens bērns atbildēs: “Dāvanas!” Tomēr Ziemassvētku vecīša palīgi saskaras ar lielu izaicinājumu – sarūpēt ko tādu, kas sniegtu bērniem prieku ilgākam laikam un neradītu lielus izdevumus. Lai padarītu izvēli vienkāršāku, mazumtirgotājs ",
-"pub": "2026-11-06",
-"source": "la.lv",
-"score": 14
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/06.11.2026-bilesu-deficits-kapec-gruti-tikt-uz-daugavpils-teatra-izradem.a670891/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Biļešu deficīts: kāpēc grūti tikt uz Daugavpils teātra izrādēm?",
-"summary": "Daugavpils teātris pēdējos gados kļuvis par vienu no kultūras balstiem Latgalē. Teātris piedāvā plašu klāstu ar izrādēm latviešu, latgaliešu un krievu valodā. Biļetes izķer ātri, tāpēc skatītājiem ir jautājumi arī par izrāžu biežumu – daudzi iestudējumi kalendārā parādās vien reizi mēnesī vai pat re",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 10
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/maksla/06.11.2026-elizabete-andersone-izstade-uztveres-mala-peta-atminas-mehanismus-un-musu-mijiedarbibu-ar-vidi.a670915/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Elizabete Andersone izstādē «Uztveres malā» pēta atmiņas mehānismus un mūsu mijiedarbību ar vidi",
-"summary": "Jaunā māksliniece Elizabete Andersone savā radošajā praksē pēta atmiņas mehānismus, fenomenoloģiju un cilvēka mijiedarbību ar apkārtējo vidi. Pērn viņas instalācija \"Oda nemanītajam\" saņēma BDO Jauno mākslinieku balvu. Vakar Rīgas Laikmetīgās mākslas telpas Mazajā zālē tika atklāta viņas pirmā perso",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/06.11.2026-sadzivot-ar-nesadzivojamo-valmieras-dramas-teatra-izrade-vientuligie-rietumi.a670910/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Sadzīvot ar nesadzīvojamo Valmieras Drāmas teātra izrādē «Vientulīgie rietumi»",
-"summary": "Brāļi, kuri visu mūžu nežēlīgi cenšas ieriebt viens otram, taču bez otra, iespējams, nespētu dzīvot. Tie ir tēli no britu dramaturga Mārtina Makdonas lugas \"Vientulīgie rietumi\". Valmieras teātrī 6. novembrī plānota šīs traģikomēdijas skatuves versijas pirmizrāde Toma Treiņa režijā.",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/06.11.2026-riga-gatavojas-ziemai-ar-jaunu-celu-uzturesanas-tehniku.a670886/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Rīga gatavojas ziemai ar jaunu ceļu uzturēšanas tehniku",
-"summary": "Šoziem ielu un ietvju tīrīšanai Rīgā paredzēts tērēt aptveni 30 miljonus eiro. Ielu uzturēšana, tāpat kā iepriekš, notiks prioritārā secībā – vispirms tiks tīrītas maģistrālās ielas, pa kurām kursē sabiedriskais transports, kā arī tilti un pārvadi, pēc tam sakops apkaimju ielas. Tiks tīrīti arī velo",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/06.11.2026-tallinas-kinofestivalu-melnas-naktis-atklas-viestura-kairisa-spelfilma-ula.a670897/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Tallinas kinofestivālu «Melnās naktis» atklās Viestura Kairiša spēlfilma «Uļa»",
-"summary": "Piektdien, 6. novembrī, Igaunijas galvaspilsētā Tallinā sāksies Ziemeļeiropā vienīgais \"A klases\" festivāls \"Melnās naktis\" (PÖFF), kas šogad ar vērienu svin 30 gadu jubileju festivālam un 25 gadu jubileju industrijas sadaļai \"Industry@Tallinn & Baltic Event\". Simboliski, ka jubilejas notikumu fokus",
-"pub": "2026-11-06",
-"source": "lsm.lv",
-"score": 12
-},
 {
 "link": "https://rus.lsm.lv/statja/kultura/kultura/06.11.2026-video-sax-i-mat-po-rizski-v-muzee-evrei-v-latvii-otkryvaetsia-vystavka-o-velikix-saxmatistax.a670921/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "ВИДЕО: Шах и мат по-рижски. В музее «Евреи в Латвии» открывается выставка о великих шахматистах",
@@ -4853,9 +4517,348 @@
 "pub": "2026-11-18",
 "source": "delfi.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/18.11.2026-tiesraide-valsts-augstako-apbalvojumu-pasniegsanas-ceremonija.a672099/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "TIEŠRAIDE: Valsts augstāko apbalvojumu pasniegšanas ceremonija",
+"summary": "Latvijas proklamēšanas 108. gadadienā, 2026. gada 18. novembrī, Rīgas pilī notiks svinīgā valsts augstāko apbalvojumu – Triju Zvaigžņu ordeņa, Viestura ordeņa un Atzinības krusta – pasniegšnas ceremonija.",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/18.11.2026-forma-zemessardzes-staba-majors-janis-slaidins-35.a672352/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Formā!»: Zemessardzes štāba majors Jānis Slaidiņš (#35)",
+"summary": "Latvija atrodas bīstamā ģeopolitiskā vietā, kur nedrīkst ignorēt pat šķietami maznozīmīgus apdraudējumus. Taču līdzās ārējam ienaidniekam jādomā arī par to, kas notiks pašā sabiedrībā \"X stundā\" un cik gatava ir valsts aizsardzības sistēma. Par to jaunākajā LSM raidieraksta \"Formā!\" epizodē stāsta Z",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/18.11.2026-foto-valsts-amatpersonas-sviniga-ceremonija-pie-brivibas-pieminekla-noliek-ziedus.a672445/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "FOTO: Valsts amatpersonas svinīgā ceremonijā pie Brīvības pieminekļa noliek ziedus",
+"summary": "Par godu valsts svētkiem augstākās valsts amatpersonas noliek ziedus pie Brīvības pieminekļa. Svinīgo ceremoniju sanākuši vērot arī iedzīvotāji. Cilvēki ir atnākuši ar ziediem, un daudziem pie apģērba ir piespraudes valsts karoga krāsās.",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/18.11.2026-luteranu-arhibiskaps-grants-valsts-svetkos-aicina-neatlikt-dzivi-lidz-pilnigi-drosiem-laikiem-un-darit-labu-jau-tagad.a672434/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Luterāņu arhibīskaps Grants valsts svētkos aicina neatlikt dzīvi līdz pilnīgi drošiem laikiem un darīt labu jau tagad",
+"summary": "Nesenajās parlamenta vēlēšanās vienam politiskajam spēkam uzticēts īpaši daudz, un tas dod iespēju paveikt to, kas iepriekš politiskās sadrumstalotības dēļ nav izdevies, valsts svētkiem veltītajā dievkalpojumā Rīgas Doma baznīcā sacīja Latvijas Evaņģēliski luteriskās baznīcas arhibīskaps Rinalds Gra",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 5
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/vesture/18.11.2026-latvisko-edienu-vesture-ko-eda-karaviri-un-kas-tika-celts-svetku-galda-skaidro-vestures-petnieki.a671486/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Latvisko ēdienu vēsture: ko ēda karavīri un kas tika celts svētku galdā? Skaidro vēstures pētnieki",
+"summary": "Līdz pat 19. gadsimtam ēdieni, ko šobrīd saucam par tradicionāliem vai latviskiem un ceļam galdā svētku reizēs, bija vienkārša ikdienas maltīte, taču starpkaru periodā tie ieguva pavisam citu nozīmi. Savukārt karavīru uzturs bija salīdzinoši vienveidīgs un pat vienmuļš, Latvijas Radio raidījumā \"Zin",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 8
+},
+{
+"link": "https://www.lsm.lv/raksts/vecaki-un-berni/gatavojam-kopa-ar-berniem/18.11.2026-sarkanbaltsarkana-svetku-kuka-bez-cepsanas-gatavojam-kopa-ar-berniem.a672153/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Sarkanbaltsarkanā svētku kūka bez cepšanas. Gatavojam kopā ar bērniem",
+"summary": "Latvijas dzimšanas diena ir lielisks iemesls ne tikai svinīgi klāt galdu, bet arī kopā ar bērniem pagatavot ko īpašu. Turklāt svētku desertam nebūt nav jābūt sarežģītam vai jāprasa vairākas stundas pie plīts. Šoreiz gatavosim sarkanbaltsarkanu kūku bez cepšanas, kuras pagatavošanā var iesaistīties p",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 10
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/vesture/18.11.2026-latvijas-neatkaribas-diena-un-ukrainas-tautas-republikas-proklamesana-notikumi-ar-viena-gada-starpibu.a672186/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Latvijas neatkarības diena un Ukrainas Tautas Republikas proklamēšana. Notikumi ar viena gada starpību",
+"summary": "Latvijas galvenie svētki – Latvijas Republikas proklamēšanas diena – tiek svinēti 18. novembrī. Par šiem svētkiem un ar tiem saistītām interesantām detaļām ir daudz stāstīts. Arī Ukrainā pāris dienas vēlāk ir svarīgs atceres datums – 20. novembrī tika nodibināta Ukrainas Tautas Republika. Šiem notik",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/18.11.2026-ministru-prezidents-kulbergs-uzruna-valsts-svetkos-kopa-esam-tik-stipri-cik-stipra-ir-musu-pasu-atbildiba.a672412/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Ministru prezidents Kulbergs uzrunā valsts svētkos: Kopā esam tik stipri, cik stipra ir mūsu pašu atbildība",
+"summary": "Ministru prezidents Andris Kulbergs Latvijas Republikas proklamēšanas 108. gadadienā sveic tautu un mudina ikkatru aizdomāties par atbildību, kas ir visa pamatā. Valdības vadītājs arī atzīmē, ka viņam un valdībai ir īpaša atbildība, jo tauta tai uzticējusi pieņemt lēmumus visas valsts vārdā: \"Šī uzt",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/18.11.2026-ko-jauniesi-mil-latvija-un-kas-vinus-mudinatu-seit-palikt.a672371/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Ko jaunieši mīl Latvijā, un kas viņus mudinātu šeit palikt?",
+"summary": "Valsts svētku laikā bieži runājam par Latvijas pagātni un neatkarības izcīnīšanu. Taču ne mazāk svarīgs ir jautājums par valsts nākotni un tiem, kuri to veidos pēc desmit, divdesmit vai vairāk gadiem. Latvijas Radio uzrunātie jaunieši Latviju mīl tādēļ, ka šeit ir viņu mājas, ģimene un draugi, vienl",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/laika-zinas/18.11.2026-valsts-svetku-diena-bus-apmacies-un-daudzviet-lis.a672411/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Valsts svētku dienā būs apmācies un daudzviet līs",
+"summary": "Latvijas Republikas proklamēšanas gadadienā būs mākoņains laiks, bet pēcpusdienā daudzviet gaidāms neliels lietus, prognozē Latvijas Vides, ģeoloģijas un meteoroloģijas centrs.",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/vesture/18.11.2026-si-diena-vesture-kadas-runas-teica-latvijas-valsts-dibinasanas-pasakuma.a622621/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Šī diena vēsturē. Kādas runas teica Latvijas valsts dibināšanas pasākumā",
+"summary": "Laikam gan maz mūsu valstī būs to, kuri neatpazītu ikonisko fotoattēlu no Latvijas Republikas pasludināšanas akta 1918. gada 18. novembrī toreizējā Rīgas pilsētas 2. teātrī. Taču samērā mazāk ir to, kuri zina vārdus, kādi todien izskanēja no skatuves, kurai ierastāki bija Šillera un Šekspīra varoņu ",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/vecaki-un-berni/gimene/18.11.2026-briviba-nav-tikai-skaists-vards-cetru-meitu-mammas-stasts-par-latviju-un-dzivi-honkonga.a672132/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Brīvība nav tikai skaists vārds.» Četru meitu mammas stāsts par Latviju un dzīvi Honkongā",
+"summary": "Latviju no Honkongas šķir tūkstošiem kilometru, sešas stundas laika starpība un pavisam cita ikdiena. Taču attālums nebūt nenozīmē attālināšanos no savām saknēm. Arī pasaules otrā malā var skanēt latviešu valoda, svētku galdā tiek celts rupjmaizes kārtojums un 18. novembrī pie apģērba piesprausts sa",
+"pub": "2026-11-18",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/iskusstvo/18.11.2026-tvorit-nikogda-ne-pozdno-v-bma-otkrylas-vystavka-xudoznic-serebrianogo-vozrasta.a672359/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Творить никогда не поздно: в БМА открылась выставка художниц серебряного возраста",
+"summary": "Накануне 34-летия Балтийской Международной академии в ее стенах открылась выставка «Яркие краски нашего мира». Ее подготовила художественная галерея BIArt под руководством куратора, члена Союза художников Латвии Валентина Даниленко. В экспозиции собраны работы художниц студии Sincera Arte («Искренне",
+"pub": "2026-11-18",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/18.11.2026-ne-otkladyvaite-zizn-do-nastupleniia-spokoinyx-vremen-i-tvorite-dobro-uze-seicas-liuteranskii-arxiepiskop-grants.a672444/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Не откладывайте жизнь до наступления спокойных времен и творите добро уже сейчас» — лютеранский архиепископ Грантс",
+"summary": "На недавних парламентских выборах одной политической силе было оказано особое доверие, и это дает возможность сделать то, что ранее не удавалось из-за политической раздробленности, сказал в своей проповеди архиепископ Евангелическо-лютеранской церкви Латвии Риналд Грантс на праздничном богослужении ",
+"pub": "2026-11-18",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/18.11.2026-priamaia-transliaciia-torzestvennoe-zasedanie-seima-po-slucaiu-108-i-godovshhiny-provozglaseniia-latviiskoi-respubliki.a672414/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "ПРЯМАЯ ТРАНСЛЯЦИЯ: Торжественное заседание Сейма по случаю 108-й годовщины провозглашения Латвийской Республики",
+"summary": "По случаю 108-й годовщины провозглашения Латвийской Республики в среду, 18 ноября, состоится торжественное заседание Сейма.",
+"pub": "2026-11-18",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/krugozor/istorija/18.11.2026-istoriia-latysskoi-kuxni-cto-eli-soldaty-i-kakie-bliuda-podavali-k-prazdnicnomu-stolu-rasskazyvaiut-istoriki.a672430/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "История латышской кухни: что ели солдаты и какие блюда подавали к праздничному столу? Рассказывают историки.",
+"summary": "До самого XIX века блюда, которые сегодня мы называем традиционными или латышскими и подаем к праздничному столу, были обычной повседневной едой. Однако в межвоенный период они приобрели совершенно иное значение. Рацион солдат, в свою очередь, был сравнительно однообразным и даже монотонным. Об этом",
+"pub": "2026-11-18",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://rus.lsm.lv/statja/krugozor/istorija/18.11.2026-etot-den-v-istorii-kakie-reci-prozvucali-na-meropriiatii-posviashhennom-osnovaniiu-latviiskogo-gosudarstva.a672428/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Этот день в истории. Какие речи прозвучали на мероприятии, посвященном основанию Латвийского государства?",
+"summary": "Пожалуй, в нашей стране найдется немного людей, которые не узнали бы знаменитую фотографию с провозглашения независимости Латвийской Республики 18 ноября 1918 года в тогдашнем 2-м Рижском городском театре. Однако значительно меньше тех, кто знает, какие слова прозвучали в тот день со сцены, на котор",
+"pub": "2026-11-18",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/pogoda/18.11.2026-sreda-18-noiabria-oblacno-mestami-proidut-dozdi.a672336/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Среда, 18 ноября: облачно, местами пройдут дожди",
+"summary": "В праздничный день небо будет затянуто облаками. В первой половине дня местами на востоке страны, а во второй половине дня уже на большей части территории ожидается небольшой дождь, прогнозируют синоптики.",
+"pub": "2026-11-18",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://rus.lsm.lv/statja/za-efirom/tochka-zrenija/18.11.2026-den-nezavisimosti-latvii-i-provozglasenie-ukrainskoi-narodnoi-respubliki.a671669/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "День независимости Латвии и провозглашение Украинской народной республики",
+"summary": "Главный праздник Латвии, провозглашение Независимости, отмечается 18 ноября. О нем и его интересных деталях сказано немало. Но его значение и уроки кажутся еще более рельефными в сравнении с важной украинской датой — 20 ноября была учреждена Украинская народная республика. Эти события произошли во в",
+"pub": "2026-11-18",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8585782",
+"title": "Kleinbergs valsts svētkos aicina vairāk lepoties ar saviem un citu panākumiem",
+"summary": "Latvijas lielākā vērtība ir tās cilvēki, viņu drosme, uzņēmība, radošums un spēja darīt vairāk nekā no viņiem tiek sagaidīts, Rīgas domes svinīgajā sēdē par godu Latvijas Republikas proklamēšanas 108. gadadienai uzsvēra Rīgas mērs Viesturs Kleinbergs (P).",
+"pub": "2026-11-18",
+"source": "tvnet.lv",
+"score": 3
+},
+{
+"link": "https://pmo.ee/8585711",
+"title": "FOTO ⟩ \"Lielajā dzintarā\" izskanējis valsts svētku koncerts ar Zigmara Liepiņa opusu \"Mesa 2020\"",
+"summary": "Otrdien, 17. novembrī, Latvijas 108. dzimšanas dienas priekšvakarā, klausītāji Liepājas koncertzālē \"Lielais dzintars\" un tiešraidē pie ekrāniem visā pasaulē baudīja valsts svētku koncertu kopā ar spožākajiem akadēmiskās mūzikas māksliniekiem diriģenta Jāņa Liepiņa vadībā.",
+"pub": "2026-11-18",
+"source": "tvnet.lv",
+"score": 10
+},
+{
+"link": "https://pmo.ee/8585665",
+"title": "Arhibīskaps aicina politiķus izmantot uzticību, lai paveiktu vairāk",
+"summary": "Nesenakās parlamenta vēlēšanās vienam politiskajam spēkam uzticēts īpaši daudz, un tas dod iespēju paveikt to, kas iepriekš politiskās sadrumstalotības dēļ nav izdevies, valsts svētkiem veltītajā dievkalpojumā Rīgas Doma baznīcā sacīja Latvijas Evaņģēliski luteriskās baznīcas arhibīskaps Rinalds Gra",
+"pub": "2026-11-18",
+"source": "tvnet.lv",
+"score": 3
+},
+{
+"link": "https://pmo.ee/8585526",
+"title": "Rīgā valsts svētkos plaši satiksmes ierobežojumi",
+"summary": "Latvijas Republikas proklamēšanas 108. gadadienas svinību laikā Rīgā gaidāmi plaši satiksmes ierobežojumi, informēja Rīgas pašvaldības Ārējās komunikācijas nodaļā.",
+"pub": "2026-11-18",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8585638",
+"title": "Высшие должностные лица государства возложили цветы к памятнику Свободы",
+"summary": "18 ноября Латвия отмечает 108-ю годовщину провозглашения независимости. В честь государственного праздника у Памятника Свободы в Риге состоялась торжественная церемония возложения цветов, в которой приняли участие президент страны, премьер-министр и другие высшие должностные лица государства.",
+"pub": "2026-11-18",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8585477",
+"title": "ВИДЕО ⟩ Госполиция опубликовала праздничное поздравление ко дню рождения Латвии",
+"summary": "В честь 108-й годовщины провозглашения Латвийской Республики Государственная полиция опубликовала праздничное видеопоздравление Латвии.",
+"pub": "2026-11-18",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8584233",
+"title": "18 ноября в Риге: куда идти за праздничным настроением - от утреннего парада до ночных световых шоу",
+"summary": "В честь 108-й годовщины провозглашения независимости Латвии 18 ноября по всей Риге пройдут праздничные мероприятия. Жителей и гостей столицы ждут концерты, световые шоу и другие торжества. RUS TVNET собрал программу самых ярких событий этого дня.",
+"pub": "2026-11-18",
+"source": "rus.tvnet.lv",
+"score": 8
+},
+{
+"link": "https://www.delfi.lv/video/54057146/kapec/120142796/priecaties-un-izbaudit-kas-mums-dots-kapec-intervija-ar-eksprezidenti-vairu-viku-freibergu",
+"title": "Priecāties un izbaudīt, kas mums dots – \"Kāpēc\" intervija ar Vairu Vīķi-Freibergu valsts svētkos",
+"summary": "\"Mums atkal un atkal sev jāatgādina – izbaudīsim to, kas mums patlaban ir dots, un rūpēsimies, cik nu mūsu spēkos, lai tas tā arī paliktu!\" tā \"Delfi TV\" raidījumā \"Kāpēc\" aicina kādreizējā Latvijas Valsts prezidente Vaira Vīķe-Freiberga. Kāpēc tik daudz Latvijas iedzīvotāju nepiedalās vēlēšanās un ",
+"pub": "2026-11-18",
+"source": "delfi.lv",
+"score": 3
+},
+{
+"link": "https://rus.delfi.lv/57860/latvia/120143000/tanki-istrebiteli-soldaty-flagi-18-stran-chto-pokazhut-na-voennom-parade-v-rige",
+"title": "Танки, истребители, солдаты, флаги 18 стран. Что покажут на военном параде в Риге?",
+"summary": "18 ноября, в 108-ю годовщину провозглашения Республики Латвия, в 13.30 в Риге, на набережной 11 ноября, пройдет военный парад Национальных вооруженных сил (НВС), союзных подразделений и служб, участвующих в обороне страны. В нём примут участие военнослужащие Латвии и союзников, будет представлена об",
+"pub": "2026-11-18",
+"source": "rus.delfi.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8585436",
+"title": "Latvijas dzimšanas dienas uguņošana notiks trīs pilsētās",
+"summary": "Atzīmējot Latvijas dzimšanas dienu, šodien Ogrē, Ventspilī un Jūrmalā plānota svētku uguņošana, liecina pašvaldību sniegtā informācija.",
+"pub": "2026-11-18",
+"source": "apollo.lv",
+"score": 8
+},
+{
+"link": "https://pmo.ee/8585428",
+"title": "Valsts svētkos sabiedriskais transports vairākās pilsētās būs bez maksas",
+"summary": "Šodien, Latvijas Republikas proklamēšanas 108. gadadienā, vairākās pilsētās sabiedriskais transports būs bez maksas, informēja attiecīgajās pašvaldībās.",
+"pub": "2026-11-18",
+"source": "apollo.lv",
+"score": 6
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/18/nociu-nacnetsia-sinoptiki-rasskazali-o-pogode-v-blizaisie-sutki_2?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Ночью начнётся: синоптики рассказали о погоде в ближайшие сутки",
+"summary": "В четверг, 19 ноября, в Латвии сохранится преимущественно облачная погода, во многих районах пройдут дожди. Местами на востоке страны возможен мокрый снег, прогнозирует Латвийский центр окружающей среды, геологии и метеорологии (LVĢMC).",
+"pub": "2026-11-18",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/18/nociu-nacnetsia-sinoptiki-rasskazali-o-pogode-v-blizaisie-sutki?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Ночью начнётся: синоптики рассказали о погоде в ближайшие сутки",
+"summary": "В четверг, 19 ноября, в Латвии сохранится преимущественно облачная погода, во многих районах пройдут дожди. Местами на востоке страны возможен мокрый снег, прогнозирует Латвийский центр окружающей среды, геологии и метеорологии (ЛЦОСГМ).",
+"pub": "2026-11-18",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/18/sobaki-losadi-i-policeiskie-neobycnoe-pozdravlenie-ko-dniu-nezavisimosti-latvii-foto?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Собаки, лошади и люди в форме: силовые службы Латвии необычно поздравили страну с праздником (ФОТО)",
+"summary": "Сотрудники Государственной полиции, Государственной пограничной службы и Таможенного управления Службы государственных доходов (VID) вместе со своими четвероногими помощниками поздравили жителей Латвии со 108-й годовщиной провозглашения Латвийской Республики.",
+"pub": "2026-11-18",
+"source": "bb.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/18/latvii-108-let-kuda-poiti-18-noiabria-gde-posmotret-saliut-i-kakie-meropriiatiia-nelzia-propustit-polnyi-gid?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Латвии — 108 лет: куда пойти 18 ноября, где посмотреть салют и какие мероприятия нельзя пропустить (ПОЛНЫЙ ГИД)",
+"summary": "Сегодня, 18 ноября, Латвия отмечает 108-ю годовщину провозглашения независимости. По всей стране пройдут праздничные концерты, военные церемонии, факельные шествия, световые представления и спортивные мероприятия. В нескольких городах запланированы фейерверки, а общественный транспорт в Риге и ряде ",
+"pub": "2026-11-18",
+"source": "bb.lv",
+"score": 10
+},
+{
+"link": "https://www.la.lv/teju-katrus-svetkus-riga-aizeno-kada-butiska-detala-ari-soreiz-dala-iedzivotaju-neapmierinati",
+"title": "Teju katrus svētkus Rīgā aizēno kāda būtiska detaļa; arī šoreiz daļa iedzīvotāju neapmierināti",
+"summary": "Rīgas iedzīvotāju pacietība valsts svētku laikā pārbaudīta ar pamatīgiem sastrēgumiem – sociālajā medijā “Threads” rīdzinieki dalās pieredzē par neierasti ilgu laiku, kas trešdien bija jāpavada ceļā no darba mājās. Dažiem ierasto 20 minūšu vietā ceļš aizņēmis pat divas stundas vai ilgāk. Viena no so",
+"pub": "2026-11-18",
+"source": "la.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/istena-patriotu-maltite-kartupelu-salati-ar-silki-un-aboliem",
+"title": "Īstena patriotu maltīte – kartupeļu salāti ar siļķi un āboliem",
+"summary": "Ja gribas izgaršot Latviju, šī recepte ir īstā izvēle. Vienkārša, sātīga un ar īstu latvisku raksturu – kartupeļi, siļķe, marinēti gurķīši un krējuma maigums kopā veido garšu, kas uzreiz atgādina mājas un svētkus vienā šķīvī. Recepte no @edamskaisti. Sastāvdaļas: 1. 3 – 4 novārīti kartupeļi; 2. 240 ",
+"pub": "2026-11-18",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/18-novembra-rits-sakas-ar-spradzienu-svetku-rita-jelgavas-novada-dazi-iedzivotaji-piedzivojusi-izbili",
+"title": "“18. novembra rīts sākās ar sprādzienu!” Svētku rītā Jelgavas novadā daži iedzīvotāji piedzīvojuši izbīli",
+"summary": "Šodien, 18. novembrī, visā Latvijā svinam mūsu valsts dzimšanas dienu – Latvijas Republikas proklamēšanas gadadienu. Šī ir īpaša diena, kad ar lepnumu atceramies savas valsts vēsturi, godinām cilvēkus, kuri cīnījušies par tās brīvību, un novērtējam to, ka mums ir sava zeme, valoda, kultūra un tradīc",
+"pub": "2026-11-18",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/pilnigs-vajprats-sievieti-pamatigi-soke-redzetais-liela-edinasanas-iestade-rigas-centra",
+"title": "“Pilnīgs vājprāts!” Sieviete, aplūkojot ēdienkarti kādā iestādē Rīgas centrā, ir vīlusies par latviešu valodas kropļojumiem",
+"summary": "Latvijas valsts svētku laiks īpaši atgādina par mūsu pamatvērtībām, no kurām viena, – valoda. Latviešu valoda ir viena no mūsu lielākajām nacionālajām vērtībām un būtiskākajām Latvijas identitātes daļām. Tā nav tikai saziņas līdzeklis, bet arī mūsu vēstures, kultūras, tradīciju un piederības sajūtas",
+"pub": "2026-11-18",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/video-latvijas-dzimsanas-dienai-tapis-ipass-muzikals-sveiciens-pasaules-limena-makslinieki-izpilda-musu-himnu",
+"title": "VIDEO. Latvijas dzimšanas dienai tapis īpašs muzikāls sveiciens – pasaules līmeņa mākslinieki izpilda mūsu himnu",
+"summary": "Latvijas valsts svētkiem īpašu muzikālu sveicienu sagatavojuši Nīderlandes mākslinieki. The Maestro, The European Pop Orchestra un soprāns Vendija Kokelkorena savā studijā izpildījuši Latvijas valsts himnu “Dievs, svētī Latviju!”. Priekšnesums veltīts visiem Latvijas iedzīvotājiem 18. novembrī — Lat",
+"pub": "2026-11-18",
+"source": "la.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/sodien-visa-latvija-atzime-latvijas-neatkaribas-dienu-ipasi-plasa-un-krasna-svetku-programma-bus-riga",
+"title": "Šodien visā Latvijā atzīmē Latvijas dzimšanas dienu – īpaši plaša un krāšņa svētku programma paredzēta Rīgā",
+"summary": "Šodien, Latvijas Republikas proklamēšanas 108. gadadienā, Rīgā notiks Nacionālo bruņoto spēku (NBS) militārā parāde, svinīgas ceremonijas, koncerti un gaismas festivāla “Staro Rīga” pasākumi, liecina aģentūras LETA apkopotā informācija. Svētku rīts sāksies ar tradicionālo studentu korporāciju gājien",
+"pub": "2026-11-18",
+"source": "la.lv",
+"score": 12
+},
+{
+"link": "https://www.la.lv/anita-daukste-valsts-svetkos-sanemam-kulberga-ledlauzi",
+"title": "Anita Daukšte: Valsts svētkos saņemam Kulberga “ledlauzi”",
+"summary": "Autore: Anita Daukšte Andra Kulberga jaunā valdība uz pirmo, svinīgo sēdi sanāca naktī uz 18.novembri, tāpēc, lai arī Saeimā apstiprināta 17.novembra vēlā vakarā, to tomēr var uzskatīt par 18.novembra valdību. Pats premjers bija acīmredzami apmierināts ar rezultātu pārpratumiem pilnajam un samocītaj",
+"pub": "2026-11-18",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/valsts-svetku-diena-debesis-klas-makoni-un-daudzviet-lis",
+"title": "Valsts svētku dienā debesis klās mākoņi un daudzviet līs",
+"summary": "Latvijas Republikas proklamēšanas gadadienā būs mākoņains laiks, bet pēcpusdienā daudzviet gaidāms neliels lietus, prognozē Latvijas Vides, ģeoloģijas un meteoroloģijas centrs. Dienas pirmajā pusē lietus gaidāms vietām valsts austrumos, bet no pēcpusdienas – jau teritorijas lielākajā daļā. Vējš pūtī",
+"pub": "2026-11-18",
+"source": "la.lv",
+"score": 2
 }
 ],
-"portal_errors": {},
+"portal_errors": {
+"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
+"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
+},
 "places_history": [
 [
 "2026-10-15",
@@ -9365,7 +9368,32 @@
 "https://www.delfi.lv/193/politics/120142818/pec-valsts-svetkiem-bus-zinami-kandidati-darbam-saeimas-komisijas",
 "https://www.delfi.lv/life/56010800/notikumi/120142696/foto-20-laulibas-gadi-kazu-kleitu-beres-un-pirksts-no-intimprecu-veikala-atklaj-provokativu-izstadi",
 "https://www.delfi.lv/kultura/32026447/culturenvironment/120142730/foto-interneta-ar-mi-viens-dzive-pavisam-cits-staro-riga-vizualizacijas-pret-realitati",
-"https://rus.delfi.lv/57860/latvia/120142714/uzhe-vo-vtornik-perekroyut-naberezhnuyu-11-noyabrya-v-prazdnik-v-rige-ozhidayutsya-masshtabnye-ogranicheniya-dvizheniya"
+"https://rus.delfi.lv/57860/latvia/120142714/uzhe-vo-vtornik-perekroyut-naberezhnuyu-11-noyabrya-v-prazdnik-v-rige-ozhidayutsya-masshtabnye-ogranicheniya-dvizheniya",
+"https://rus.delfi.lv/57860/latvia/120142816/neoficialno-stali-izvestny-kandidaty-na-vse-ministerskie-posty-v-novom-pravitelstve",
+"https://pmo.ee/8584618",
+"https://bb.lv/statja/nasha-latvija/2026/11/16/gde-v-latvii-18-noiabria-zapustiat-prazdnicnye-feierverki-goroda-i-tocnoe-vremia?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://bb.lv/statja/kultura/2026/11/16/sotni-santa-klausov-probegut-po-staroi-rige-kogda-sostoitsia-prazdnicnyi-zabeg-i-kak-priniat-ucastie?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/10-atputas-vietas-latvija-kuras-savulaik-bija-arkartigi-popularas-bet-sodien-tikai-retais-tas-vispar-atceras",
+"https://www.la.lv/foto-ka-kleinbergs-izvelejas-rigas-galvenas-ziemassvetku-eglites",
+"https://www.la.lv/pirmssvetku-diena-bus-lietaina-laika-prognoze-otrdienai",
+"https://jauns.lv/raksts/zinas/737555-uz-kurieni-jadodas-verot-18-novembra-saluti-pilsetas-kur-notiks-svetku-ugunosanas",
+"https://pmo.ee/8583021",
+"https://www.lsm.lv/raksts/dzive-stils/vide-un-dzivnieki/17.11.2026-video-ziemsvetku-sala-parversas-lidz-nepazisanai-sakusies-sarkano-krabju-migracija.a672253/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/dzive-stils/vesture/17.11.2026-tests-kura-gada-uznemta-pirma-latvijas-spelfilma-un-citi-patriotu-nedelas-jautajumi-no-speles-vip.a671675/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/dzive-stils/virtuve/17.11.2026-zirnu-bumbas-ar-kefira-merci-biesu-noki-rupjmaizes-tarte-un-vel-interesanti-edieni-svetkiem.a671872/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/738499-valsts-svetku-rita-uz-celiem-var-veidoties-apledojums-kads-laiks-gaidams-18-novembri",
+"https://jauns.lv/raksts/zinas/738322-aizpute-gramatnica-atdzimst-ka-jauna-kulturas-un-kopienas-satiksanas-vieta",
+"https://jauns.lv/raksts/maja-un-darzs/738440-veikala-pirkti-sautetie-kaposti-var-garsot-ka-majas-gatavoti-luk-ko-tiem-pievienot",
+"https://rus.jauns.lv/article/novosti/738445-posolstvo-ssa-v-rige-predupredilo-ob-ugrozax-bezopasnosti-v-evrope-v-preddverii-rozdestva",
+"https://rus.jauns.lv/article/novosti/738407-rigu-perekryvaiut-pered-18-noiabria-kakie-ulicy-zakroiut-dlia-dvizeniia",
+"https://pmo.ee/8584700",
+"https://www.delfi.lv/193/politics/120142939/foto-patriotiskais-drosibas-iestazu-kinologu-sveiciens-18-novembri",
+"https://bb.lv/statja/nasha-latvija/2026/11/17/posle-prazdnika-pogoda-izmenitsia-sinoptiki-ne-iskliucaiut-skorogo-nastupleniia-zimy?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/nakti-uz-18-novembri-celi-vietam-apledos-bet-svetku-vakara-daudzviet-lis",
+"https://www.la.lv/ieber-aizdedz-un-papildini-igaunija-raditas-svecu-smiltis-kas-ziemassvetkus-padara-vel-majigakus",
+"https://www.la.lv/video-pacel-acis-un-noker-svetku-sajutu-latvijas-augstakajos-tornos-sak-plivot-sarkanbaltsarkanie-karogi",
+"https://www.la.lv/jasaka-ka-rudens-dienas-ir-skaititas-sinoptiki-prognoze-ka-pakapeniski-klus-vesaks",
+"https://www.la.lv/tas-cenas-kas-ir-plauktos-mes-nenosakam-lacu-saimnieks-skaidro-kurs-patiesiba-nosaka-cenu-lielveikala"
 ],
 "tips_debug": {
 "date": "2026-11-12",
