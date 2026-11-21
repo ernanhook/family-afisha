@@ -61,46 +61,6 @@
 },
 "portal_queue": [
 {
-"link": "https://rus.jauns.lv/article/znamenitosti/737324-ves-mir-skoro-uvidit-latviiskogo-aktera-v-novom-svete-pervye-kadry-grandioznogo-seriala-sozdatelia-vikingov",
-"title": "Весь мир скоро увидит латвийского актера в новом свете! Первые кадры грандиозного сериала создателя \"Викингов\"",
-"summary": "Уже 20 января 2027 года на Prime Video состоится премьера исторического сериала Bloodaxe (\"Кровавая секира\") от создателя знаменитых \"Викингов\" Майкла Хёрста. Одну из важных ролей в международном проекте исполнил латвийский актер Карлис Арнолдс Авотс, а у его персонажа обнаружилась неожиданная связь",
-"pub": "2026-11-10",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8580534",
-"title": "Šauļos un Ķekavā pārbaudīs gatavību Lietuvas iedzīvotāju masu evakuācijai uz Latviju",
-"summary": "Otrdien maršrutā Šauļi-Ķekava norisināsies starptautiskas praktiskās masu evakuācijas mācības, aģentūru LETA informēja Valsts ugunsdzēsības un glābšanas dienestā (VUGD).",
-"pub": "2026-11-10",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8580510",
-"title": "Anglikāņu baznīcā skanēs elektroniskās mūzikas mākslinieka Error solokoncerts \"PRIEKS\"",
-"summary": "Piektdien, 18. decembrī, plkst. 20.00 Rīgas Sv. Pestītāja (Anglikāņu) baznīcā, Anglikāņu ielā 2, notiks Error solokoncerts \"PRIEKS\". Error ir latviešu industriālās elektroniskās, dark ambient un noise mūzikas mākslinieks, kurš savā radošajā darbībā meistarīgi atklāj dziļas emocijas, balansējot uz sm",
-"pub": "2026-11-10",
-"source": "tvnet.lv",
-"score": 6
-},
-{
-"link": "https://rus.delfi.lv/57860/latvia/120141942/v-shyaulyay-proydut-ucheniya-po-evakuacii-zhiteley-vyvezut-v-kekavu",
-"title": "В Шяуляе пройдут учения по эвакуации: жителей вывезут в Кекаву",
-"summary": "В рамках совместных практических учений Литвы и Латвии по эвакуации населения во вторник пройдет отработка вывоза людей из Шяуляя в Кекаву (Латвия).",
-"pub": "2026-11-10",
-"source": "rus.delfi.lv",
-"score": 6
-},
-{
-"link": "https://bb.lv/statja/kultura/2026/11/10/vpervye-v-istorii-festivalia-staro-riga-vse-svetovye-obieekty-polucat-audioopisanie-dlia-nezriacix-i-slabovidiashhix-liudei?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Впервые в истории фестиваля Staro Rīga все световые объекты получат аудиоописание для незрячих и слабовидящих людей",
-"summary": "Благодаря инициативе организации SOCINTEGRA люди с нарушениями зрения смогут познакомиться со всеми 52 инсталляциями одного из крупнейших световых фестивалей Латвии. С 15 по 18 ноября в Риге пройдёт ежегодный фестиваль света Staro Rīga, который в этом году впервые станет доступнее для незрячих и сла",
-"pub": "2026-11-10",
-"source": "bb.lv",
-"score": 10
-},
-{
 "link": "https://bb.lv/statja/kultura/2026/11/10/trup-vmesto-proizvedeniia-iskusstva-natali-portman-i-dzenna-ortega-predstavili-galeristku?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
 "title": "Труп вместо произведения искусства: Натали Портман и Дженна Ортега представили «Галеристку»",
 "summary": "Вышел первый трейлер черной комедии «Галеристка» (The Gallerist), в которой Натали Портман и Дженна Ортега пытаются превратить случайную смерть посетителя художественной выставки в сенсацию современного искусства. Премьера фильма в кинотеатрах запланирована на 4 декабря.",
@@ -4859,9 +4819,52 @@
 "pub": "2026-11-20",
 "source": "la.lv",
 "score": 2
+},
+{
+"link": "https://pmo.ee/8587050",
+"title": "Ministru prezidenta kundzes elegantajam tēlam pievienojas vēl viena sarkanās kleitas cienītāja",
+"summary": "18. novembris Rīgas pilī šogad bija īpašs arī Ministru prezidenta Andra Kulberga ģimenei. Dienu iepriekš Saeima bija apstiprinājusi viņa vadīto valdību, un valsts svētku pieņemšana pie Valsts prezidenta Edgara Rinkēviča kļuva par vienu no vakariem, kuros uzmanība dabiski pievērsās arī premjera kundz",
+"pub": "2026-11-20",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8587048",
+"title": "Sabiedrībā zināmas dāmas svin dzīvi īpašā burziņā",
+"summary": "Lai izrautos no ikdienas steigas un smeltos iedvesmu dzīves svinēšanaisabiedrībā zināmas dāmas pulcējās īpašā pasākumā. Viņu vidū bija māksliniece Ieva Bondare, satura veidotājas Kristīne Stakena, Iveta Simsone un Mairita Liepiņa, aktrise Lelde Dreimane, stiliste Dace Bahmane un daudzas citas.",
+"pub": "2026-11-20",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8587120",
+"title": "\"Es gāju uz pilnu banku!\": Čehova teātra aktrise Elīna Bartkeviča par karjeru un dzīvi starp krievu un latviešu valodu",
+"summary": "\"Tiklīdz mēģinājuma laikā ir kaut kas jākomentē, valoda automātiski pārslēdzas uz latviešu,\" atzīst Mihaila Čehova Rīgas Krievu teātra aktrise un \"Spēlmaņu nakts\" nominante Elīna Bartkeviča. Sarunā ar TVNET+ aktrise stāsta par to, kā viņas dzīvē savijas krievu un latviešu valoda, par sāpīgajiem atte",
+"pub": "2026-11-20",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8585022",
+"title": "\"Я пошла ва-банк\": актриса Театра Чехова Элина Барткевич о карьере и жизни между русским и латышским",
+"summary": "\"Как только во время репетиции нужно что-то прокомментировать, язык автоматически переключается на латышский\", - признается Актриса Рижского русского театра имени Михаила Чехова и номинантка \"Ночи лицедеев\" Элина Барткевич. В беседе с RUS TVNET она рассказала о том, как в ее жизни переплетаются русс",
+"pub": "2026-11-20",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/20/sobor-arxangela-mixaila-cto-mozno-i-cto-nelzia-delat-pravoslavnym-latvii-21-noiabria-2026-goda?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Собор Архангела Михаила. Что можно и что нельзя делать православным Латвии 21 ноября 2026 года?",
+"summary": "21 ноября 2026 года празднуется Собор Архангела Михаила. Имя его переводится с древнееврейского как «Кто как Бог?», тем самым напоминая нам, что нет никого равного Господу.",
+"pub": "2026-11-20",
+"source": "bb.lv",
+"score": 2
 }
 ],
-"portal_errors": {},
+"portal_errors": {
+"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
+"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
+},
 "places_history": [
 [
 "2026-10-22",
@@ -9509,12 +9512,6 @@
 },
 "watch_queue": [
 {
-"link": "https://ticketshop.lv/lv/events/108415",
-"text": "no 10,00 EUR 11.12.26 20:00 JUUK Melno Cepurīšu Balerija",
-"src": "https://ticketshop.lv/lv",
-"seen": "2026-10-30"
-},
-{
 "link": "https://ticketshop.lv/lv/events/108352",
 "text": "Vairāk informācijas 08.11.26 18:00 Oidips LKA Nacionālās filmu skolas Paviljons Izpārdots",
 "src": "https://ticketshop.lv/lv/categories/1",
@@ -9939,6 +9936,30 @@
 "text": "no 15,00 EUR 20.12.26 18:00 Trīs spēkavīri: Jaungada stāsts Rīgas Ebreju kopiena",
 "src": "https://ticketshop.lv/lv",
 "seen": "2026-11-20"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107973",
+"text": "no 20,00 EUR 27.11.26 20:00 Moon Over Māra debijas albuma “Nascence” atvēršana Vagonu Halle",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-21"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108265",
+"text": "no 10,00 EUR 27.11.26 21:00 JĀNIS NIEDRA - Albuma prezentācijas koncerts Melno Cepurīšu Balerija",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-21"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108115",
+"text": "no 12,00 EUR 27.11.26 22:00 TUMSA - 35 gadu jubilejas koncerts | Liepāja Fontaine Palace",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-21"
+},
+{
+"link": "https://ticketshop.lv/lv/events/107908",
+"text": "no 15,00 EUR 28.11.26 20:00 Rudens ZAĻUMBALLE ar grupu TRANZĪTS READY koncertzāle",
+"src": "https://ticketshop.lv/lv/categories/1",
+"seen": "2026-11-21"
 }
 ],
 "watch_errors": {},
