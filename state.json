@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.42356059999999995,
-"calls": 108
+"cost": 0.42426059999999993,
+"calls": 109
 },
 "last_digest": "2026-11-19",
 "shown_ongoing": {
@@ -60,110 +60,6 @@
 "count": 18
 },
 "portal_queue": [
-{
-"link": "https://bb.lv/statja/kultura/2026/11/10/trup-vmesto-proizvedeniia-iskusstva-natali-portman-i-dzenna-ortega-predstavili-galeristku?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Труп вместо произведения искусства: Натали Портман и Дженна Ортега представили «Галеристку»",
-"summary": "Вышел первый трейлер черной комедии «Галеристка» (The Gallerist), в которой Натали Портман и Дженна Ортега пытаются превратить случайную смерть посетителя художественной выставки в сенсацию современного искусства. Премьера фильма в кинотеатрах запланирована на 4 декабря.",
-"pub": "2026-11-10",
-"source": "bb.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/11/10/tiazelo-v-ucene-legko-v-boiu-grazdanskie-sektory-latvii-gotoviat-k-voine?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Тяжело в ученье - легко в бою: гражданские секторы Латвии готовят к войне",
-"summary": "В повестку дня заседания правительства 6 ноября было дополнительно внесено информационное сообщение «Отчёт об исполнении плана мероприятий Декларации Кабинета министров под руководством Андриса Кулбергса». Это огромная таблица Excel, разделённая на 187 разделов. Мы прочли!",
-"pub": "2026-11-10",
-"source": "bb.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/ticejumi",
-"title": "Ja Mārtiņdiena ir silta, tad ziemā… 14 senlatviešu ticējumi par šo dienu",
-"summary": "10. novembrī tiek svinēta Mārtiņa diena – šo dienu jau izsenis uzskatīja par rudens beigām un ziemas sākumu. Šo dienu svētku kārtā ieviesta jau 650.gadā ar pāvesta Mārtiņa pavēli. Svētais Mārtiņš, ar ko saistās Mārtiņa dienas svinības, dzīvoja IV gadu simtenī. Latviešiem tradicionāli ar Mārtiņa dien",
-"pub": "2026-11-10",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/10.11.2026-tiesraide-akcijas-kultura-izdzivo-koncerts.a671193/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "TIEŠRAIDE: Akcijas «Kultūra (iz)dzīvo» koncerts",
-"summary": "67117010. novembrī pulksten 19.00 Rīgas Kongresu namā notiek akcijas \"Kultūra (iz)dzīvo\" koncerts. Vienā vakarā uz skatuves apvienosies Latvijas profesionālie mūzikas kolektīvi, atgādinot par kultūras nozīmi ikviena cilvēka dzīvē un apliecinot nozares solidaritāti. Koncerts ir arī aicinājums sākt sa",
-"pub": "2026-11-10",
-"source": "lsm.lv",
-"score": 6
-},
-{
-"link": "https://www.lsm.lv/raksts/vecaki-un-berni/bernu-izglitiba/10.11.2026-pasu-gatavoti-rokdarbi-un-karumi-gadatirgu-norvegijas-latviesu-berni-svin-martindienu.a671323/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Pašu gatavoti rokdarbi un kārumi gadatirgū. Norvēģijas latviešu bērni svin Mārtiņdienu",
-"summary": "Norvēģijas galvaspilsētā Oslo latviešu bērni Mārtiņdienu sagaidījuši ar īstu gadatirgu. \"Kastaņa skolā\" mazie tirgotāji piedāvāja pašu gatavotus gardumus un rokdarbus, bet pircējiem atlika vien izvēlēties un nedaudz patukšot maciņus. Līdzās tirgošanās priekam bērniem tā bija arī iespēja pārbaudīt sa",
-"pub": "2026-11-10",
-"source": "lsm.lv",
-"score": 14
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/10.11.2026-zeme-kas-dzied-un-avarijas-brigade-ko-vares-redzet-filmaslv-patriotu-nedelas-izlase.a671371/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "«Zeme, kas dzied» un «Avārijas brigāde»: ko varēs redzēt filmas.lv Patriotu nedēļas izlasē?",
-"summary": "No Lāčplēša dienas, 11. novembra, portālā filmas.lv sāksies Patriotu nedēļas tiešsaistes festivāls – Latvijas filmu izlase, kas bez maksas būs skatāma jebkurā laikā un jebkurā vietā pasaulē, kur vien ir interneta pieslēgums. Skatītājiem filmas būs pieejamas līdz 19. novembra izskaņai – festivāls sāk",
-"pub": "2026-11-10",
-"source": "lsm.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/10.11.2026-bez-didaktikas-un-skalam-frazem-aicina-uz-diskusiju-par-patriotismu-bernu-un-jauniesu-teatra-izrades.a671283/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "«Bez didaktikas un skaļām frāzēm.» Aicina uz diskusiju par patriotismu bērnu un jauniešu teātra izrādēs",
-"summary": "Latvijā novembris ir teātra mēnesis, un 18. novembrī svinēsim Latvijas Republikas proklamēšanas 108. gadadienu. Šo svētku noskaņā starptautiskās bērnu un jauniešu profesionālo teātru asociācija ASSITEJ 16. novembrī aicina uz diskusiju \"Patriotisms bez didaktikas: bērnu un jauniešu teātra atbildība u",
-"pub": "2026-11-10",
-"source": "lsm.lv",
-"score": 12
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/kultura/10.11.2026-priamaia-transliaciia-koncert-akcii-kultura-izdzivo.a671203/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "ПРЯМАЯ ТРАНСЛЯЦИЯ: концерт акции Kultūra (iz)dzīvo",
-"summary": "10 ноября в 19:00 в Рижском доме конгрессов пройдет концерт акции Kultūra (iz)dzīvo. В один вечер на сцене соберутся профессиональные музыкальные коллективы Латвии, чтобы напомнить о значении культуры в жизни каждого человека и продемонстрировать солидарность отрасли. Концерт — это и приглашение нач",
-"pub": "2026-11-10",
-"source": "rus.lsm.lv",
-"score": 4
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/kino/10.11.2026-zemlia-kotoraia-poet-i-avarijas-brigade-cto-filmaslv-prigotovil-k-noiabrskim-prazdnikam.a671375/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "«Земля, которая поет» и Avārijas brigāde: что filmas.lv приготовил к ноябрьским праздникам?",
-"summary": "В День Лачплесиса, 11 ноября, когда Латвия чтит память борцов за свою свободу, на портале filmas.lv стартует онлайн-фестиваль к патриотической неделе — подборка латвийских фильмов, которую можно будет смотреть бесплатно, в любое время и в любой точке мира, где есть интернет.",
-"pub": "2026-11-10",
-"source": "rus.lsm.lv",
-"score": 6
-},
-{
-"link": "https://rus.lsm.lv/statja/novosti/obschestvo/10.11.2026-na-plenarnom-zasedanii-akademii-nauk-v-konce-noiabria-rassmotriat-vopros-ob-otzyve-kalvinsa-s-dolznosti-prezidenta-lan.a671366/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "На пленарном заседании Академии наук в конце ноября рассмотрят вопрос об отзыве Калвиньша с должности президента ЛАН",
-"summary": "На осеннем пленарном заседании Латвийской академии наук (ЛАН), которое состоится 26 ноября, будет рассмотрен вопрос об отзыве Ивара Калвиньша с должности президента ЛАН. Такое решение во вторник, 10 ноября, принял Сенат академии. С просьбой об освобождении от занимаемой должности в Сенат обратился с",
-"pub": "2026-11-10",
-"source": "rus.lsm.lv",
-"score": 4
-},
-{
-"link": "https://rus.lsm.lv/statja/novosti/samoupravlenija/10.11.2026-v-den-lacplesisa-s-1700-do-polunoci-dlia-dvizeniia-zakroiut-nabereznuiu-11-noiabria.a671340/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "В День Лачплесиса с 17:00 до полуночи для движения закроют набережную 11 Ноября",
-"summary": "11 ноября во время мероприятий Дня Лачплесиса с 17:00 до полуночи для движения транспортных средств будет закрыта набережная 11 ноября на участке от Вантового моста до Каменного моста, сообщило агентство LЕТА.",
-"pub": "2026-11-10",
-"source": "rus.lsm.lv",
-"score": 4
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/teatr/10.11.2026-bez-nazidanii-i-gromkix-fraz-priglasaiut-k-diskussii-o-patriotizme-v-spektakliax-dlia-detei-i-molodezi.a671315/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "«Без назиданий и громких фраз». Приглашают к дискуссии о патриотизме в спектаклях для детей и молодежи",
-"summary": "В Латвии ноябрь — месяц театра, а 18 ноября страна отметит 108-ю годовщину провозглашения Латвийской Республики. В преддверии праздника международная ассоциация профессиональных театров для детей и молодежи ASSITEJ приглашает 16 ноября на дискуссию «Патриотизм без назиданий: ответственность и возмож",
-"pub": "2026-11-10",
-"source": "rus.lsm.lv",
-"score": 12
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/literatura/10.11.2026-kogda-mir-vnezapno-rusitsia-cuvstvo-pokinutosti-i-zazda-neznosti-v-italianskom-romane.a671305/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Когда мир внезапно рушится. Чувство покинутости и жажда нежности в итальянском романе",
-"summary": "На этот раз литературный рассказ связан с Рижским книжным фестивалем. В его рамках состоялось множество интересных встреч, в том числе с зарубежными писателями. Среди гостей была итальянская писательница Донателла ди Пьетрантонио, книга которой «Аминута» (лат. пер. Atdotā) вышла в латышском переводе",
-"pub": "2026-11-10",
-"source": "rus.lsm.lv",
-"score": 2
-},
 {
 "link": "https://rus.lsm.lv/statja/kultura/kultura/10.11.2026-sila-latysskoi-kultury-v-muzyke-poezii-i-literature-rekomendacii-oresta-silabriedisa.a671295/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "Сила латышской культуры — в музыке, поэзии и литературе. Рекомендации Ореста Силабриедиса",
@@ -4859,6 +4755,110 @@
 "pub": "2026-11-20",
 "source": "bb.lv",
 "score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/izklaide/21.11.2026-skola-ir-mana-dzive-tapat-ka-muzika-dirigenta-haralda-barzdina-svarigais-darbs-ar-jauniesiem.a672742/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Skola ir mana dzīve, tāpat kā mūzika.» Diriģenta Haralda Bārzdiņa svarīgais darbs ar jauniešiem",
+"summary": "Pūtēju orķestru kustības un Dziesmu svētku tradīcijas autoritāte, mūzikas kolektīva \"Auseklītis\" diriģents, arī Rīgas 6. vidusskolas direktors Haralds Bārzdiņš īsi pēc valsts dzimšanas dienas sēdies raidījuma \"Daudz laimes, jubilār!\" krēslā. Viņam šogad 70!",
+"pub": "2026-11-21",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/cilvekstasti/21.11.2026-laba-feja-muzikas-skolas-dezurante-aigai-vainode-pec-mila-varda-audzeknim-talu-nav-jamekle.a672717/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Labā feja mūzikas skolas dežurante. Aigai Vaiņodē pēc mīļa vārda audzēknim tālu nav jāmeklē",
+"summary": "Vaiņodniece Aiga Strēle par savu darbu vietējā mūzikas skolā runā ar patiesu sirsnību. Tur viņa ir dežurante, telpu uzkopēja, neskaitāmo puķu podu apčubinātāja, svētku dekoratore un, kā pati smej, arī psiholoģe, jo bērni bieži vien grib parunāties par to, kas uz mazās sirsniņas. Un vēl Aiga ir liela",
+"pub": "2026-11-21",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/skatpunkts/21.11.2026-kamer-diplomati-megina-vienoties-latvija-palidz-ukrainai-izturet-ziemu.a672509/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Kamēr diplomāti mēģina vienoties, Latvija palīdz Ukrainai izturēt ziemu",
+"summary": "Kamēr politiķi apspriež iespējamos kara beigšanas nosacījumus, miljoniem ukraiņu gatavojas nākamajai ziemai Krievijas raķešu un dronu triecienu apstākļos. Tiem, kas palikuši Ukrainā, tas ir izdzīvošanas jautājums. Tiem, kas atraduši patvērumu citās valstīs, – jautājums par pārliecību par rītdienu. A",
+"pub": "2026-11-21",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/21.11.2026-ta-ir-gandarijuma-deva-sirsninai-dirigentam-egonam-salmanim-pieskirts-kulturas-ministrijas-atzinibas-raksts.a672800/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Tā ir gandarījuma deva sirsniņai.» Diriģentam Egonam Salmanim piešķirts Kultūras ministrijas Atzinības raksts",
+"summary": "Balvenietim Egonam Salmanim gandrīz visa dzīve saistīta ar mūziku – pats pabeidzis mūzikas skolu un jau vairākus gadu desmitus ir Balvu Mūzikas skolas direktors. Gandrīz 40 gadus vada pūtēju orķestri – no tiem 30 gadus ir arī Latgales pūtēju orķestru virsdiriģents. Par nozīmīgo ieguldījumu Latgales ",
+"pub": "2026-11-21",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kultura/21.11.2026-eto-porciia-radosti-dlia-dusi-dirizer-egon-salmanis-udostoen-pocetnoi-gramoty-ministerstva-kultury.a672854/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Это порция радости для души». Дирижер Эгон Салманис удостоен Почетной грамоты Министерства культуры",
+"summary": "Для Эгона Салманиса музыка стала делом всей жизни. Он сам окончил музыкальную школу, а уже несколько десятилетий возглавляет Балвскую музыкальную школу. Почти 40 лет он руководит духовым оркестром, из них 30 лет занимает должность главного дирижера духовых оркестров Латгалии. За значительный вклад в",
+"pub": "2026-11-21",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/pogoda/21.11.2026-subbota-21-noiabria-pasmurno-dozd-s-mokrym-snegom.a672782/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Суббота, 21 ноября: пасмурно, дождь с мокрым снегом",
+"summary": "В субботу в Латвии сохранится преимущественно облачная погода, во многих районах ожидаются как дождь, так и мокрый снег. Наиболее интенсивные осадки пройдут в Курземе и Видземе, прогнозирует Латвийский центр среды, геологии и метеорологии.",
+"pub": "2026-11-21",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8587506",
+"title": "\"Nakts Venēcijā\" – gadumijas muzikāli krāšņais ceļojums uz Itālijas kultūras šūpuli",
+"summary": "Gada nogalē Klasiskās mūzikas ģilde \"Euterpe\" aicina doties krāšņā muzikālā ceļojumā uz Venēciju. Koncerta centrā būs leģendām apvītais Itālijas kultūras šūpulis, kas vēsturiski tiek dēvēts par \"La Serenissima\".",
+"pub": "2026-11-21",
+"source": "tvnet.lv",
+"score": 3
+},
+{
+"link": "https://pmo.ee/8587462",
+"title": "Aizvien nav pieejamas vairākas PMLP tīmekļvietnes",
+"summary": "Reaģējot uz oktobra beigās piedzīvotajiem globāla mēroga kiberdrošības riskiem un veicot nepieciešamos aizsardzības pasākumus, uz laiku ir apturēta vairāku Pilsonības un migrācijas lietu pārvaldes (PMLP) tīmekļvietņu darbība, apliecināja pārvaldē.",
+"pub": "2026-11-21",
+"source": "tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8587442",
+"title": "FOTO ⟩ Ar ko pārsteidza \"Izklausies redzēts\" septītais raidījums?",
+"summary": "Latvijas svētku nedēļā šovs \"Izklausies redzēts\" pārsteidza ar īpašu pašmāju mūziķu īpatsvaru! Dalībnieki iejutās tādu Latvijas skatuves personību tēlos kā Ieva Akuratere, Olga Rajecka, Kristīne Pāže un Armands Birkens, bet žūrijas rindas šoreiz papildināja grupas \"Prāta Vētra\" ģitārists Jānis Jubal",
+"pub": "2026-11-21",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://www.delfi.lv/51042947/dzivesstils/120142505/darzniecibas-uzzied-tukstosiem-puansetiju-ka-kopt-un-lutinat-sis-cimperligas-damas",
+"title": "Dārzniecībās uzzied tūkstošiem puansetiju. Kā kopt un lutināt šīs cimperlīgās \"dāmas\"",
+"summary": "Novembris Latvijā ir valsts svētku mēnesis, kad pie apģērba nēsājam sarkanbaltsarkano karodziņu, lentīti, nozīmīti, un esam īpaši patriotiski, tomēr nevar nepamanīt vēl kādu svētku tuvošanos – Ziemassvētkus. Par to liecina tirdzniecības vietās izvietotās preces, dekorācijas, kā arī radio mūzikas rep",
+"pub": "2026-11-21",
+"source": "delfi.lv",
+"score": 10
+},
+{
+"link": "https://www.delfi.lv/898102/versijas/120143229/roberts-kits-svetki-beigusies-jasak-stradat",
+"title": "Roberts Kits: Svētki beigušies, jāsāk strādāt",
+"summary": "Valsts svētku priekšvakarā, premjera vārdiem runājot, Latvijas sabiedrība saņēma dāvanu – jaunu valdību. Tagad, kad 18. novembris ir nosvinēts un simboliski noslēgusies arī vairāk nekā mēnesi ilgusī vēlēšanu uzvarētāju eiforija par plašo sabiedrības atbalstu, pienācis laiks priekšvēlēšanu retoriku p",
+"pub": "2026-11-21",
+"source": "delfi.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/kapec-vaira-vike-freiberga-sogad-nebija-redzama-neviena-18-novembra-pasakuma",
+"title": "Kāpēc Vaira Vīķe-Freiberga šogad nebija redzama nevienā 18. novembra pasākumā?",
+"summary": "Droši vien, ja vērojāt 18. novembra svētku pasākumus, pamanījāt, ka tajos nebija redzama eksprezidente Vaira Vīķe-Freiberga. Kāpēc viņa šogad nepiedalījās nevienā no oficiālajiem pasākumiem? To noskaidrojis žurnāls “Privātā Dzīve”. Kā vēsta izdevums, Vaira Vīķe-Freiberga šobrīd uzturas savās lauku m",
+"pub": "2026-11-21",
+"source": "la.lv",
+"score": 8
+},
+{
+"link": "https://www.la.lv/joprojam-dikte-noteikumus-tauta-nav-miera-ar-andra-skeles-aicinasanu-uz-pienemsanu-pie-prezidenta",
+"title": "“Joprojām diktē noteikumus…” Tauta nav mierā ar Andra Šķēles aicināšanu uz pieņemšanu pie prezidenta",
+"summary": "18. novembrī, atzīmējot Latvijas Republikas proklamēšanas 108. gadadienu, Rīgas pilī notika Valsts prezidenta Edgara Rinkēviča rīkotā svinīgā svētku pieņemšana. Tajā pulcējās valsts amatpersonas, politiķi, diplomāti un sabiedrībā zināmi cilvēki. Lai gan kopš svinīgā notikuma pagājušas jau vairākas d",
+"pub": "2026-11-21",
+"source": "la.lv",
+"score": 4
 }
 ],
 "portal_errors": {
@@ -9497,7 +9497,32 @@
 "https://www.delfi.lv/video/54057146/kapec/120142796/priecaties-un-izbaudit-kas-mums-dots-kapec-intervija-ar-eksprezidenti-vairu-viku-freibergu",
 "https://pmo.ee/8585436",
 "https://pmo.ee/8585428",
-"https://bb.lv/statja/nasha-latvija/2026/11/18/sobaki-losadi-i-policeiskie-neobycnoe-pozdravlenie-ko-dniu-nezavisimosti-latvii-foto?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv"
+"https://bb.lv/statja/nasha-latvija/2026/11/18/sobaki-losadi-i-policeiskie-neobycnoe-pozdravlenie-ko-dniu-nezavisimosti-latvii-foto?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://pmo.ee/8585011",
+"https://www.delfi.lv/life/56010800/notikumi/120142755/foto-valsts-svetku-elegance-un-viesi-prezidenta-edgara-rinkevica-pienemsana-rigas-pili",
+"https://www.lsm.lv/raksts/kultura/maksla/19.11.2026-latvija-pec-gandriz-30-gadiem-atgriezas-intas-rukas-fotografiju-cikls-lauku-laudis.a672539/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/dzive-stils/valasprieki/19.11.2026-latvija-pirmoreiz-emites-smarzojosas-pastmarkas.a672532/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/muzika/19.11.2026-rukovoditel-ansamblia-berendeika-violetta-nikolaenko-vsegda-staraius-raspolozit-k-sebe-dobryx-liudei.a672567/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/738739-vesturisks-panakums-latvijas-dzezam-tris-pasmaju-grupas-iekluvusas-pasaules-lielaka-dzeza-industrijas-pasakuma-programma",
+"https://jauns.lv/raksts/zinas/738713-muziba-devies-izcilais-bernu-arsts-profesors-enoks-bikis",
+"https://rus.jauns.lv/article/afisha/738705-v-liepae-ustroiat-netipicnyi-rozdestvenskii-reiv-vmesto-tancev-gosti-smogut-viazat-pod-muzyku",
+"https://rus.jauns.lv/article/novosti/738718-mirovye-lidery-pozdravili-latviiu-s-prazdnikom-tramp-ne-skupilsia-na-poxvalu",
+"https://rus.jauns.lv/article/novosti/738678-foto-sotni-priglasennyx-gostei-v-vecernix-nariadax-kak-prosel-torzestvennyi-priem-18-noiabria-v-rizskom-zamke",
+"https://pmo.ee/8586415",
+"https://pmo.ee/8586395",
+"https://pmo.ee/8586331",
+"https://pmo.ee/8586299",
+"https://pmo.ee/8586322",
+"https://www.delfi.lv/898102/versijas/120143116/cehslv-latvija-tulit-bankrotes-jeb-melna-gulbja-notikums-gta-6-brivdiena",
+"https://rus.delfi.lv/57860/latvia/120143121/tramp-v-prazdnichnom-pozdravlenii-nazval-latviyu-obrazcovym-soyuznikom-po-nato",
+"https://rus.delfi.lv/life/55355278/sobitija/120143055/foto-black-tie-i-vechernie-platya-na-prazdnichnom-prieme-u-prezidenta-edgara-rinkevicha-v-rizhskom-zamke",
+"https://pmo.ee/8586377",
+"https://pmo.ee/8586305",
+"https://bb.lv/statja/nasha-latvija/2026/11/19/novye-ukraseniia-za-2000-evro-ili-starye-za-300-kak-goroda-latvii-ekonomiat-na-prazdnicnom-oformlenii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://bb.lv/statja/nasha-latvija/2026/11/19/posle-dozdlivogo-prazdnika-v-latviiu-pridet-poteplenie-v-cetverg-do-9-gradusov?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/foto-latvijas-svetku-svecites-partop-plastmasas-atkritumos-iedzivotaji-spriez-ka-tradiciju-mainit",
+"https://www.la.lv/foto-tramps-svetku-apsveikuma-latvijai-veltiji-loti-glaimojosus-vardus",
+"https://www.la.lv/jauns-izaicinajums-krievijas-flotei-ukrainas-medijs-pievers-uzmanibu-latvijas-militaraja-parade-redzetajam"
 ],
 "tips_debug": {
 "date": "2026-11-19",
