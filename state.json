@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.4249567999999999,
-"calls": 110
+"cost": 0.4256848999999999,
+"calls": 111
 },
 "last_digest": "2026-11-19",
 "shown_ongoing": {
@@ -60,118 +60,6 @@
 "count": 18
 },
 "portal_queue": [
-{
-"link": "https://rus.jauns.lv/article/novosti/737416-na-etoi-nedele-v-tartu-proidut-dni-latvii-cto-v-programme",
-"title": "На этой неделе в Тарту пройдут Дни Латвии. Что в программе?",
-"summary": "Тартуское латышское общество при поддержке города Тарту на этой неделе проведет Дни Латвии, в центре внимания которых будут фольклор, литература и история.",
-"pub": "2026-11-10",
-"source": "rus.jauns.lv",
-"score": 4
-},
-{
-"link": "https://rus.jauns.lv/article/afisha/737411-santa-klausy-vnov-zaxvatiat-staruiu-rigu-6-dekabria-sostoitsia-neobycnyi-zabeg",
-"title": "Санта-Клаусы вновь захватят Старую Ригу: 6 декабря состоится необычный забег",
-"summary": "6 декабря на Домской площади в Риге состоится благотворительный забег Санта-Клаусов Santa Fun Run 2026. Принять участие смогут все желающие, а собранные средства направят на медицинскую помощь детям в регионах Латвии.",
-"pub": "2026-11-10",
-"source": "rus.jauns.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8580164",
-"title": "Spēcīgā rupjmaize lieliskos desertos: 8 receptes Lāčplēša dienai",
-"summary": "Lāčplēša dienā uz svētku galda īpaši iederas latviskas garšas, un viena no tām neapšaubāmi ir rupjmaize. Tā der ne tikai piekošanai zupai, bet lieliski uzņemas galveno lomu ne mazumā desertu. Lai garšīgi!",
-"pub": "2026-11-10",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8580739",
-"title": "ATRODI SEVI ⟩ DJ Ella pulcē viesus jaunā albuma \"Mājas\" klausīšanās pasākumā",
-"summary": "Atzīmējot Latvijas brīvības cīnītāju piemiņai veltīto Lāčplēša dienu, 10. novembrī bārā \"When Coffee Meets Whiskey\" DJ un māksliniece Elīna Fūrmane (DJ Ella) aicināja uz sava jaunā albuma \"Mājas\" klausīšanās pasākumu. Atrodi sevi viesu vidū!",
-"pub": "2026-11-10",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8580671",
-"title": "Куда пойти на Staro Rīga? 15 световых объектов, которые нельзя пропустить",
-"summary": "С 15 по 18 ноября в Риге пройдет традиционный фестиваль света Staro Rīga, в рамках которого жителям и гостям столицы представят 42 световые инсталляции, видеопроекции и интерактивные работы. Впервые фестиваль станет более доступным для незрячих и слабовидящих людей: организация SOCINTEGRA подготовил",
-"pub": "2026-11-10",
-"source": "rus.tvnet.lv",
-"score": 8
-},
-{
-"link": "https://pmo.ee/8581104",
-"title": "ВИДЕО ⟩ Жители Латвии в соцсетях радуются снегу",
-"summary": "Хотя синоптики прогнозировали снег в Латвии на День Лачплесиса, он пошел уже накануне праздника. Жители Кекавы и Вецумниеки делятся видео, на которых видно, как с неба падают снежинки.",
-"pub": "2026-11-10",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8581098",
-"title": "VIDEO ⟩ Ļaudis soctīklos priecājas par negaidītu sniegu",
-"summary": "Lai arī sniegu Latvijā sinoptiķi prognozēja Lāčplēša dienā, tas pie atnācis jau svētku priekšvakarā. Ķekavas un Vecumnieku iedzīvotāji dalās video, kuros krīt baltās sniega pūkas.",
-"pub": "2026-11-10",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/kultura/2026/11/10/v-paviloste-ustroiat-prazdnik-minogi-s-degustaciiami-iarmarkoi-i-tancami?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "В Павилосте устроят праздник миноги с дегустациями, ярмаркой и танцами",
-"summary": "В субботу, 14 ноября, в приморском городе Павилоста состоится традиционный День миноги. С 12:00 до 16:00 гостей ждут рыбные деликатесы, выступления музыкантов, ремесленная ярмарка и развлечения для всей семьи.",
-"pub": "2026-11-10",
-"source": "bb.lv",
-"score": 11
-},
-{
-"link": "https://www.la.lv/svini-meza-galamerki-ko-iepazit-valsts-svetku-laika",
-"title": "Svini mežā! Galamērķi, ko iepazīt valsts svētku laikā",
-"summary": "Novembrī pieminam brīvības cīnītājus, svinam valsts dzimšanas dienu un biežāk nekā ikdienā aizdomājamies par to, ko mums nozīmē Latvija. AS “Latvijas valsts meži” (LVM) aicina svētku brīvdienās doties dabā, izstaigāt vietas, kur reiz norisinājušās Latvijas vēsturei nozīmīgas cīņas, vai vienkārši izb",
-"pub": "2026-11-10",
-"source": "la.lv",
-"score": 6
-},
-{
-"link": "https://www.lsm.lv/raksts/zinas/latvija/11.11.2026-no-lapu-gajieniem-lidz-kino-jana-argala-ugunslapas-celo-pasaule.a671302/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "No lāpu gājieniem līdz kino: Jāņa Ārgaļa ugunslāpas ceļo pasaulē",
-"summary": "Jau 15 gadus arhitekts Jānis Ārgalis darina tradicionālās ugunslāpas. Tās ir cieņā ne tikai vasaras saulgriežos, bet arī valsts svētku mēnesī novembrī, īpaši lāpu gājienos. Ārgaļa darinātās lāpas pazīstamas arī ASV un Eiropā, turklāt tās izmantotas arī kino filmās.",
-"pub": "2026-11-11",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://rus.lsm.lv/statja/novosti/pogoda/11.11.2026-sreda-11-noiabria-oblacno-mestami-proidut-dozdi.a671348/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Среда, 11 ноября: облачно, местами пройдут дожди",
-"summary": "В среду днем небо будет преимущественно облачным, однако местами ожидаются прояснения. В отдельных районах пройдут кратковременные дожди, на востоке страны — также мокрый снег, прогнозируют синоптики.",
-"pub": "2026-11-11",
-"source": "rus.lsm.lv",
-"score": 6
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/735481-francu-aktieris-kurs-dzimis-jelgava-dimitri-dore-atgriezas-latvija-lai-iepazitu-dzimteni",
-"title": "Franču aktieris, kurš dzimis Jelgavā. Dimitrī Dorē atgriežas Latvijā, lai iepazītu dzimteni",
-"summary": "Viņš piedzima Jelgavā un 18 mēnešu vecumā no Latvijas bērnunama nonāca franču ģimenē. Saiknes ar dzimteni viņam ilgus gadus nebija. Tagad, 29 gadu vecumā, Dimitrī Dorē atgriezies Latvijā, lai ar izrādi \"Dainas\" pastāstītu savu adopcijas stāstu un vienlaikus mēģinātu iepazīt dzimto zemi, ar kuru izjū",
-"pub": "2026-11-11",
-"source": "jauns.lv",
-"score": 6
-},
-{
-"link": "https://jauns.lv/raksts/zinas/737381-nenokave-sada-unikala-iespeja-rigas-pili-ir-tikai-vienreiz-gada-11-novembri-foto",
-"title": "Nenokavē! Šāda unikāla iespēja Rīgas pilī ir tikai vienreiz gadā – 11. novembrī. FOTO",
-"summary": "Latvijas Nacionālais vēstures muzejs Rīgas pilī kā jau ierasti aicina uz Lāčplēša dienas pasākumiem, kad visiem ir vēsturiska iespēja aplūkot relikviju, kas visiem tiek dāvāta tikai vienreiz gadā – Lāčplēša dienā. Šogad ikviens to var bez maksas izmantot 11. novembrī no desmitiem rītā līdz astoņiem ",
-"pub": "2026-11-11",
-"source": "jauns.lv",
-"score": 9
-},
-{
-"link": "https://pmo.ee/8581146",
-"title": "NBS ar vairākiem pasākumiem atzīmēs Lāčplēša dienu",
-"summary": "Atzīmējot Lāčplēša dienu, šodien Nacionālie bruņotie spēki (NBS) piedalīsies un rīkos vairākus pasākumus, informēja bruņotie spēki.",
-"pub": "2026-11-11",
-"source": "tvnet.lv",
-"score": 4
-},
 {
 "link": "https://pmo.ee/8581136",
 "title": "Rīgā paredzēti ievērojami satiksmes ierobežojumi; būs slēgta krastmala",
@@ -4859,6 +4747,118 @@
 "pub": "2026-11-21",
 "source": "la.lv",
 "score": 5
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/22.11.2026-riga-durvis-veris-starptautiskais-ziemassvetku-labdaribas-tirdzins.a672919/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Rīgā durvis vēris starptautiskais Ziemassvētku labdarības tirdziņš",
+"summary": "22. novembrī Rīgā notiek starptautiskais Ziemassvētku labdarības tirdziņš, kur var iepazīt aptuveni 30 valstu kultūras, iegādāties dažādus gastronomiskos produktus, rokdarbus un suvenīrus. Šogad pirmo reizi atsevišķs stends ir arī Latvijai. Tirdziņš būs pieejams līdz pulksten 15.00, taču līdz 30. no",
+"pub": "2026-11-22",
+"source": "lsm.lv",
+"score": 10
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/22.11.2026-atputa-no-aktierdarba-grabj-lapas-un-kapj-lidmasina-spelmanu-nakts-nominanti-no-liepajas-teatra.a672812/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Atpūtā no aktierdarba grābj lapas un kāpj lidmašīnā. «Spēlmaņu nakts» nominanti no Liepājas teātra",
+"summary": "\"Mūsdienās deviņdesmit procentos gadījumu aktieru apģērbs ir sporta tērps un botas. Tā, lai mēs varam mest kūleņus, kauties, mīlēties, lēkt pāri dekorācijām. Aktierim ir jābūt gatavam uz pilnīgi visu,\" sprieda aktrise Agnese Jēkabsone, uzsverot, ka mūsdienu teātris no aktiera pieprasa izteiktu fizis",
+"pub": "2026-11-22",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/22.11.2026-andrei-savrei-bergman-na-rizskoi-scene-slavnyi-iubilei-estoncy-i-stadia-na-gertrudes-vozvrashhenie-culpan-xamatovoi.a672890/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Андрей Шаврей. Бергман на рижской сцене, славный юбилей, эстонцы и Stadia на Гертрудес, возвращение Чулпан Хаматовой",
+"summary": "Перед вами пять означенных в заголовке театральных событий. Одна премьера уже состоялась (билеты на последующие спектакли традиционно трудно достать, ведь это Новый Рижский театр!), но впереди еще события, которые нельзя пропустить.",
+"pub": "2026-11-22",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/zinas/739131-svetki-beigusies-bet-kaislibas-nerimst-soctiklos-damas-saplucas-par-kulberga-sievas-kleitu",
+"title": "Svētki beigušies, bet kaislības nerimst: soctīklos dāmas saplūcas par Kulberga sievas kleitu",
+"summary": "Lai gan 18. novembra svinīgā pieņemšana Rīgas pilī jau aizvadīta, sociālajos tīklos joprojām nerimst karstas diskusijas par Ministru prezidenta Andra Kulberga sievas Annas Kulbergas izvēlēto vakarkleitu. Pārsteidzošā sakritība ar citas amatpersonas tērpu un kleitas cena sabiedrību sadalījusi divās n",
+"pub": "2026-11-22",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/738800-baiba-vitina-no-televizijas-parcelas-uz-koncertzali",
+"title": "Baiba Vītiņa no televīzijas pārceļas uz koncertzāli",
+"summary": "TV personība Baiba Vītiņa pēc darba televīzijā sākusi strādāt Salaspils koncertzālē par reklāmas un sabiedrisko attiecību speciālisti.",
+"pub": "2026-11-22",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://jauns.lv/raksts/par-veselibu/738776-kad-tevi-pamostas-grincs-jeb-ka-pardzivot-svetku-skrejienu-un-nesajukt-prata",
+"title": "Kad tevī pamostas Grinčs jeb kā pārdzīvot svētku skrējienu un nesajukt prātā",
+"summary": "Decembris vēl nav sācies, bet apkārt jau skan Ziemassvētku dziesmas, mirdz lampiņas, veikali aicina iegādāties dāvanas, savukārt sociālie tīkli atgādina, ka visiem jābūt laimīgiem, smaidīgiem un ģimeniski noskaņotiem. Ja šajā laikā gribas nevis dziedāt “Zvaniņš skan”, bet atrasties vismaz 20 kilomet",
+"pub": "2026-11-22",
+"source": "jauns.lv",
+"score": 7
+},
+{
+"link": "https://jauns.lv/raksts/par-veselibu/738520-uztura-specialisti-nosauc-produktus-kas-var-palielinat-demences-risku-tie-ir-iecieniti-ari-latvija",
+"title": "Uztura speciālisti nosauc produktus, kas var palielināt demences risku. Tie ir iecienīti arī Latvijā",
+"summary": "Tā kā smadzenes ir nervu sistēmas vadības centrs, pasākumi, ko jau šodien veicam to aizsardzībai, var būtiski ietekmēt mūsu veselību turpmākajos gados.",
+"pub": "2026-11-22",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8587832",
+"title": "ATRODI SEVI! ⟩ Rīgā jaudīgi aizvadīts \"Varang Nord\" koncerts",
+"summary": "20. novembrī klubā \"Depo\" uzstājās populārā latviešu folkmetāla grupa \"Varang Nord\". Atrodi sevi TVNET+ fotogalerijā!",
+"pub": "2026-11-22",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8587747",
+"title": "VIDEO ⟩ Tautieši Īrijā valsts svētkus nosvin Maestro melodijās",
+"summary": "Šis gads Latvijā paiet Raimonda Paula zīmē - izcilais latviešu komponists nosvinējis 90 gadu jubileju.",
+"pub": "2026-11-22",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8587767",
+"title": "В Лимбажском крае параллельно трассе Rail Baltica будут строить электролинию высокого напряжения",
+"summary": "Оператор системы электропередачи AS Augstsprieguma tīkls (AST) планирует построить новую линию электропередачи напряжением 110 кВ \"Салацгрива - Стиене\" стоимостью 11,85 млн евро без учета НДС. Линия пройдет по территории Лимбажского края параллельно трассе железнодорожного проекта Rail Baltica, свид",
+"pub": "2026-11-22",
+"source": "rus.tvnet.lv",
+"score": 6
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/11/22/laima-rendezvous-jurmala-obieiavliaet-specialnoe-predlozenie-k-cernoi-piatnice-skidka-13-na-bilety-na-koncerty-v-piatnicu-i-subbotu?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Laima Rendezvous Jūrmala объявляет специальное предложение к Чёрной пятнице: скидка 13% на билеты на концерты в пятницу и субботу!",
+"summary": "С 23 по 30 ноября на билеты международного музыкального фестиваля Laima Rendezvous Jūrmala на концерты 23 и 24 июля 2027 года будет действовать скидка 13%. Для получения скидки при покупке билетов необходимо ввести промокод LAIMA10.",
+"pub": "2026-11-22",
+"source": "bb.lv",
+"score": 5
+},
+{
+"link": "https://www.la.lv/ilona-noriete-starp-latviju-un-spaniju-atminu-medniece-spanijas-dienvidos-ziemas-zem-spanijas-saules",
+"title": "Ilona Noriete: Starp Latviju un Spāniju – atmiņu medniece Spānijas dienvidos: Ziemas zem Spānijas saules",
+"summary": "Fotogrāfe Karīna Jurciņa jau vairāk nekā divdesmit gadus iemūžina cilvēku nozīmīgākos dzīves brīžus. Šobrīd viņas studijā Cēsīs valda rosība un Ziemassvētku noskaņa, jo gada nogalē īpaši pieprasītas ir ģimeņu un bērnu fotosesijas. Taču līdz ar ziemas atnākšanu Karīnas dzīve tradicionāli sadalās star",
+"pub": "2026-11-22",
+"source": "la.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/foto-15-gadi-un-tukstosiem-piepilditu-bernu-sapnu-durvis-atkal-jau-veris-laimas-labdaribas-namins",
+"title": "FOTO. 15 gadi un tūkstošiem piepildītu bērnu sapņu: durvis atkal jau vēris “Laimas” labdarības namiņš",
+"summary": "Šodien, 20. novembrī, pie “Laimas” pulksteņa Rīgā jau piecpadsmito reizi durvis vēra “Laimas” labdarības namiņš. Atklāšanā satikās namiņa draugi, sadarbības partneri un vēstneši, svinīgā noskaņā ieskandinot labestības un dāvināšanas laiku. Šogad “Laimas” labdarības namiņā piepildījumu gaidīs 1200 ka",
+"pub": "2026-11-22",
+"source": "la.lv",
+"score": 6
+},
+{
+"link": "https://www.la.lv/pec-ilgaka-partraukuma-ainars-mielavs-sacis-dziesmu-ierakstus-jaunam-albumam-un-aicina-uz-koncertiem",
+"title": "Pēc ilgāka pārtraukuma Ainars Mielavs sācis dziesmu ierakstus jaunam albumam un aicina uz koncertiem",
+"summary": "Dziedātājs un dziesmu autors Ainars Mielavs pēc sešu gadu pārtraukuma atsācis darbu pie jauna studijas albuma. Kā pirmās klausītājiem nodotas trīs jaunas dziesmas, kas 12. novembrī izdotas minialbumā (EP) “Ja es varētu”. Mielava iepriekšējais studijas albums “220 volti” iznāca 2020. gadā. Jaunajā mi",
+"pub": "2026-11-22",
+"source": "la.lv",
+"score": 3
 }
 ],
 "portal_errors": {},
@@ -9544,7 +9544,32 @@
 "https://rus.jauns.lv/article/afisha/738735-liepaia-kulturnaia-stolica-evropy-2027-koncerty-mirovyx-zvezd-i-bolee-30-meropriiatii-v-programme-otkrytiia",
 "https://www.la.lv/slesers-atklaj-kur-pazud-valsts-nauda-pilnigi-bezjedzigs-pasakums",
 "https://www.lsm.lv/raksts/kultura/kulturtelpa/20.11.2026-kolekcionesanas-fenomena-plasumi-izstade-krat-un-celties-rakstniecibas-un-muzikas-muzeja.a672743/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/kultura/20.11.2026-masstaby-fenomena-kollekcionirovaniia-na-vystavke-sobirat-i-podnimatsia-v-muzee-literatury-i-muzyki.a672744/?utm_source=rss&utm_campaign=rss&utm_medium=links"
+"https://rus.lsm.lv/statja/kultura/kultura/20.11.2026-masstaby-fenomena-kollekcionirovaniia-na-vystavke-sobirat-i-podnimatsia-v-muzee-literatury-i-muzyki.a672744/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/738911-mikelis-fisers-lnmm-atklas-lidz-sim-apjomigako-personalizstadi-baisais-mantojums",
+"https://bb.lv/statja/tehno/2026/11/20/ot-sovremennogo-oborudovaniia-do-umnyx-proizvodstv-vystavka-tech-industry-2026-soberet-bolee-270-kompanii?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/video-rinkevics-svetku-laika-atklaj-par-ko-vinam-visvairak-sap-sirds",
+"https://www.la.lv/balts-davanu-celvedis",
+"https://www.lsm.lv/raksts/kultura/literatura/20.11.2026-dzivei-izsekots-pat-pa-stundam-izdota-tekstilmaksliniekam-rudolfam-heimratam-veltita-hronika.a672816/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/dzive-stils/celosana/20.11.2026-tests-kura-eiropas-valsti-ir-visvairak-brivdienu-un-citi-akigi-gudrs-vel-gudraks-jautajumi.a672701/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/literatura/20.11.2026-zizn-raspisannaia-po-casam-vysla-xronika-posviashhennaia-xudozniku-po-tekstiliu-rudolfu-xeimratsu.a672828/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/teatr/20.11.2026-zaversili-rabotu-detskoe-i-podrostkovoe-a-takze-inostrannoe-ekspertnoe-ziuri-noci-licedeev.a672803/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/20.11.2026-v-vodonapornoi-basne-v-ciekurkalnse-otkrylas-mezdunarodnaia-vystavka-keramiki.a672676/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/20.11.2026-xudoznica-olga-zuravleva-na-festivale-art-kaunas-s-nami-govorili-po-russki-nikakix-zamorocek.a672369/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/afisha/738883-217-ukrasennyx-elok-i-grandioznoe-svetovoe-sou-cem-eshhe-udivit-iurmala-v-novogodnie-prazdniki",
+"https://pmo.ee/8587140",
+"https://www.la.lv/jauns-iemesls-nosutit-istu-vestuli-latvijas-pasts-pirmo-reizi-emite-smarzojosas-pastmarkas",
+"https://pmo.ee/8587050",
+"https://bb.lv/statja/nasha-latvija/2026/11/20/sobor-arxangela-mixaila-cto-mozno-i-cto-nelzia-delat-pravoslavnym-latvii-21-noiabria-2026-goda?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.lsm.lv/raksts/kultura/izklaide/21.11.2026-skola-ir-mana-dzive-tapat-ka-muzika-dirigenta-haralda-barzdina-svarigais-darbs-ar-jauniesiem.a672742/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/dzive-stils/cilvekstasti/21.11.2026-laba-feja-muzikas-skolas-dezurante-aigai-vainode-pec-mila-varda-audzeknim-talu-nav-jamekle.a672717/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://pmo.ee/8587442",
+"https://www.delfi.lv/51042947/dzivesstils/120142505/darzniecibas-uzzied-tukstosiem-puansetiju-ka-kopt-un-lutinat-sis-cimperligas-damas",
+"https://www.delfi.lv/898102/versijas/120143229/roberts-kits-svetki-beigusies-jasak-stradat",
+"https://www.la.lv/kapec-vaira-vike-freiberga-sogad-nebija-redzama-neviena-18-novembra-pasakuma",
+"https://www.la.lv/joprojam-dikte-noteikumus-tauta-nav-miera-ar-andra-skeles-aicinasanu-uz-pienemsanu-pie-prezidenta",
+"https://www.lsm.lv/raksts/dzive-stils/tehnologijas-un-zinatne/21.11.2026-video-kas-isti-notiek-ar-gta-6.a672768/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/muzika/21.11.2026-skola-eto-moia-zizn-kak-i-muzyka-vaznaia-rabota-dirizera-xarolda-barzdinsa.a672858/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.jauns.lv/article/novosti/739090-v-rige-cestvuiut-lucsix-vinnyx-ekspertov-baltii-i-otkryvaiut-novye-gastronomiceskie-vpecatleniia"
 ],
 "tips_debug": {
 "date": "2026-11-19",
