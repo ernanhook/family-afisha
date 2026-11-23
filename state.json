@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.4256848999999999,
-"calls": 111
+"cost": 0.42641519999999994,
+"calls": 112
 },
 "last_digest": "2026-11-19",
 "shown_ongoing": {
@@ -60,110 +60,6 @@
 "count": 18
 },
 "portal_queue": [
-{
-"link": "https://jauns.lv/raksts/zinas/737415-izdota-gramata-liepajas-makslas-skolai-100-gadsimts-maksla-cilvekos-un-parmainas",
-"title": "Izdota grāmata “Liepājas Mākslas skolai 100” – gadsimts mākslā, cilvēkos un pārmaiņās",
-"summary": "LMMDV izdod grāmatu “Liepājas Mākslas skolai 100”, kas ar fotogrāfijām, atmiņām un personību stāstiem atklāj Latvijas senākās mākslas skolas gadsimtu ilgo ceļu un nozīmi kultūrizglītībā. Izdevuma atvēršana plānota decembrī Rīgā, vienlaikus ar simtgadei veltītas izstādes atklāšanu.",
-"pub": "2026-11-11",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/zinas/737596-ir-kada-ipasa-tradicija-rinkevics-interneta-padalas-ar-sirsnigu-personigu-tradiciju-svetku-menesi",
-"title": "\"Ir kāda īpaša tradīcija\" Rinkēvičs internetā padalās ar sirsnīgu, personīgu tradīciju svētku mēnesī",
-"summary": "Valsts prezidentam Edgaram Rinkēvičam valsts svētku mēnesī izveidojusies īpaša un personīga tradīcija – godināt Latvijas brīvības cīnītājus viņu atdusas vietās. Šogad prezidents īpašu godu izrādījis Līnai Čankai-Freidenfeldei. Viņa bija pirmā sieviete, kas apbalvota ar Lāčplēša Kara ordeni.",
-"pub": "2026-11-11",
-"source": "jauns.lv",
-"score": 4
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/737606-csdd-obieiavila-o-prazdnicnom-grafike-raboty-na-17-18-noiabria",
-"title": "CSDD объявила о праздничном графике работы на 17-18 ноября",
-"summary": "В День провозглашения Латвийской Республики, 18 ноября, центры обслуживания клиентов Дирекции безопасности дорожного движения (CSDD) и станции техосмотра по всей Латвии будут закрыты.",
-"pub": "2026-11-11",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/737612-foto-v-rige-i-drugix-gorodax-latvii-proxodiat-torzestvennye-meropriiatiia-v-cest-dnia-lacplesisa",
-"title": "ФОТО: в Риге и других городах Латвии проходят торжественные мероприятия в честь Дня Лачплесиса",
-"summary": "В среду, 11 ноября, Латвия отмечает День Лачплесиса - день памяти борцов за свободу страны. По всей республике проходят памятные церемонии, зажигаются тысячи свечей и готовятся факельные шествия, а президент Эдгар Ринкевич в этом году решил напомнить об удивительной судьбе женщины, которая ради учас",
-"pub": "2026-11-11",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8581470",
-"title": "ВИДЕО ⟩ Торжественная церемония смены почетного караула и парад на площади Свободы",
-"summary": "В честь Дня Лачплесиса Национальные вооруженные силы (НВС) сегодня примут участие и проведут несколько мероприятий. Одним из них станет торжественная церемония смены почетного караула и парад на площади Свободы.",
-"pub": "2026-11-11",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8581444",
-"title": "Шуваев: Встреча с \"Объединенным списком\", скорее всего, была политическим спектаклем",
-"summary": "Встреча партии \"Прогрессивные\" с \"Объединенным списком\" (ОС) в рамках переговоров о формировании правительства, скорее всего, была политическим спектаклем, - заявил агентству LETA руководитель фракции \"Прогрессивных\" в Сейме Андрис Шуваев.",
-"pub": "2026-11-11",
-"source": "rus.tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8581301",
-"title": "Выдающиеся дизайнеры моды XX века на юбилейной выставке",
-"summary": "Музей моды отпраздновал свой 10-й день рождения и продолжает юбилейный год новой выставкой. С 25 ноября 2026 года посетители Музея моды могут посмотреть выставку \"Великие имена в мире моды\". На выставке представлены уникальные экспонаты из коллекции Фонда Александра Васильева, которые позволяют узна",
-"pub": "2026-11-11",
-"source": "rus.tvnet.lv",
-"score": 14
-},
-{
-"link": "https://www.delfi.lv/kultura/4333423/theatre/120142010/es-nekur-nebiju-pazudis-janis-vimba-kaps-uz-skatuves-resetina-jaunaja-izrade",
-"title": "\"Es nekur nebiju pazudis\". Jānis Vimba kāps uz skatuves Rešetina jaunajā izrādē",
-"summary": "Pēc vairāku gadu pārtraukuma bijušais Nacionālā teātra direktors un bijušais Siguldas novada domes priekšsēdētājs, aktieris Jānis Vimba atkal būs redzams uz skatuves. Viņš piedalīsies Intara Rešetina-Pētersona režisētajā komēdijā \"Patiesība\". Jaunā iestudējuma pirmizrāde gaidāma \"Willa teātrī\", bet,",
-"pub": "2026-11-11",
-"source": "delfi.lv",
-"score": 4
-},
-{
-"link": "https://www.delfi.lv/193/politics/120139759/tests-ko-tu-zini-par-lacplesa-dienu",
-"title": "Tests: Ko Tu zini par Lāčplēša dienu?",
-"summary": "Gaidot Lāčplēša dienas un valsts svētku svinības, ir vērts atskatīties vēsturē un atcerēties tos dramatiskos notikumus, kas nosargāja mūsu brīvību. Šis tests noderēs gan vēstures entuziastiem, gan ikvienam, kurš vēlas atsvaidzināt atmiņu un pārbaudīt savas zināšanas par Brīvības cīņām un Lāčplēša or",
-"pub": "2026-11-11",
-"source": "delfi.lv",
-"score": 2
-},
-{
-"link": "https://rus.delfi.lv/57860/latvia/120142182/foto-den-lachplesisa-v-rige-na-bratskom-kladbishche-vozlozhili-venki",
-"title": "ФОТО, ВИДЕО. Как в Риге празднуют День Лачплесиса",
-"summary": "В среду, 11 ноября, в Риге проходят мероприятия, посвященные празднованию Дня Лачплесиса. Во второй половине дня на Братском кладбище состоялось торжественное возложение венков, в котором приняли участие президент страны Эдгар Ринкевич, премьер-министр Андрис Кулбергс и другие политические и обществ",
-"pub": "2026-11-11",
-"source": "rus.delfi.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8581468",
-"title": "MEKLĒ SEVI ⟩ Viesi pulcējas DJ Ella jaunā albuma \"Mājas\" klausīšanās pasākumā",
-"summary": "Otrdien, 10. novembrī, bārā \"When Coffee Meets Whiskey\" DJ un māksliniece Elīna Fūrmane (DJ Ella) aicināja uz sava jaunā albuma \"Mājas\" klausīšanās pasākumu. Meklē sevi viesu vidū!",
-"pub": "2026-11-11",
-"source": "apollo.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8581472",
-"title": "VIDEO ⟩ Brīvības laukumā notiek svinīgā godasardzes maiņas ceremonija",
-"summary": "Atzīmējot Lāčplēša dienu, šodien Nacionālie bruņotie spēki (NBS) piedalīsies un rīkos vairākus pasākumus. Viens no tiem ir svinīgā godasardzes maiņas ceremonija un defilē programma Brīvības laukumā.",
-"pub": "2026-11-11",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8581390",
-"title": "\"Kopā saveda darbs un dzīves turbulence.\" Gundega Skudriņa atklāti par attiecībām ar Mārci Ziemiņu",
-"summary": "Intervijā žurnālam \"Annas Psiholoģija\" pasākumu producente un radošās apvienības \"Skudras Metropole\" dibinātāja Gundega Skudriņa atklāj, kā veidojas viņas attiecības ar dizaineri Mārci Ziemiņu, vienlaikus atzīstot, ka kopīgs darbs ir liels pārbaudījums attiecībām, taču abi viens otru iedvesmo un kop",
-"pub": "2026-11-11",
-"source": "apollo.lv",
-"score": 2
-},
 {
 "link": "https://bb.lv/statja/nasha-latvija/2026/11/10/v-nedeliu-gosprazdnikov-rastet-spros-na-sveci-i-sladosti-v-cvetax-latviiskogo-flaga?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
 "title": "В неделю госпраздников растёт спрос на свечи и сладости в цветах латвийского флага",
@@ -4859,6 +4755,110 @@
 "pub": "2026-11-22",
 "source": "rus.tvnet.lv",
 "score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/23.11.2026-latvijas-nacionalaja-baleta-iestude-pasaulslavena-horeografa-neimeiera-sapni-vasaras-nakti.a672913/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Latvijas Nacionālajā baletā iestudē pasaulslavenā horeogrāfa Neimeiera «Sapni vasaras naktī»",
+"summary": "Latvijas Nacionālais balets piepilda ilgi lolotu un drosmīgu ieceri. 27. novembrī mūsu Baltajā namā pirmizrādi piedzīvos pasaules baleta leģendas Džona Neimeiera balets \"Sapnis vasaras naktī\". Tas būs pirmais pasaulslavenā horeogrāfa iestudējums ne tikai Latvijā, bet visā Baltijā. Lai arī Neimeiers ",
+"pub": "2026-11-23",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/23.11.2026-solito-skatitaju-mazak-atskaites-kavejas-daugavpili-pec-ligumsodiem-parskatis-kulturas-projektu-atbalstu.a672101/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Solīto skatītāju mazāk, atskaites kavējas: Daugavpilī pēc līgumsodiem pārskatīs kultūras projektu atbalstu",
+"summary": "Festivālā \"Seagull\" solīto 5000 apmeklētāju vietā – 3800, citā projektā atskaite kavēta par 35 dienām un izdevumi mainīti bez saskaņošanas. Daugavpils jaunās kultūras projektu atbalsta programmas pirmais gads trim projektu īstenotājiem noslēdzas ar līgumsodiem, līdz ar to samazināts pašvaldības līdz",
+"pub": "2026-11-23",
+"source": "lsm.lv",
+"score": 12
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kultura/23.11.2026-kultura-nuzdaetsia-v-kazdom-zritele-interviu-s-rukovoditelem-latviiskogo-obieedineniia-autizma-ligoi-berzinei.a672992/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«Культура нуждается в каждом зрителе». Интервью с руководителем Латвийского объединения аутизма Лигой Берзиней",
+"summary": "Разве культура предназначена только для тех, кто знает, как вести себя на мероприятиях? Для тех, кто приходит вовремя, занимает своё место, сидит тихо, пока в зале не гаснет свет, и аплодирует в нужный момент? Для большинства из нас все это кажется само собой разумеющимся. Но есть люди, которым не т",
+"pub": "2026-11-23",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/23.11.2026-v-latgalii-nedostatocno-vozmoznostei-sdat-krov-na-rabocix-mestax-organizaciia.a672997/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "В Латгалии недостаточно возможностей сдать кровь на рабочих местах — организация",
+"summary": "В Латгалии предприятия и учреждения недостаточно отзывчивы в плане организации выездных дней доноров крови, что ограничивает возможности жителей, отмечает Государственный центр доноров крови (VADC). Он призывает предпринимателей и учреждения в регионах организовывать такие мероприятия в своих помеще",
+"pub": "2026-11-23",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kultura/23.11.2026-zritelei-okazalos-mense-otcetnost-zaderzivaetsia-v-daugavpilse-peresmotriat-podderzku-kulturnyx-proektov-posle-primeneniia-strafov.a672982/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Зрителей оказалось меньше, отчетность задерживается: в Даугавпилсе пересмотрят поддержку культурных проектов после применения штрафов",
+"summary": "На фестивале Seagull вместо обещанных 5000 зрителей побывали 3800. В рамках другого проекта отчет был сдан с опозданием на 35 дней, а расходы изменены без согласования. Первый год работы новой программы поддержки культурных проектов Даугавпилсского самоуправления для трех организаторов завершился шт",
+"pub": "2026-11-23",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/23.11.2026-v-latviiskom-nacionalnom-balete-postaviat-son-v-letniuiu-noc-vsemirno-izvestnogo-xoreografa-dzona-noimaiera.a672978/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "В Латвийском национальном балете поставят «Сон в летнюю ночь» всемирно известного хореографа Джона Ноймайера",
+"summary": "Латвийский национальный балет осуществляет давно вынашиваемую и смелую творческую задумку. 27 ноября на сцене нашего Белого дома состоится премьера балета «Сон в летнюю ночь» легенды мирового балета Джона Ноймайера. Это будет первая постановка всемирно известного хореографа не только в Латвии, но и ",
+"pub": "2026-11-23",
+"source": "rus.lsm.lv",
+"score": 6
+},
+{
+"link": "https://jauns.lv/raksts/zinas/739222-godinas-latvijas-labakos-teatra-maksliniekus-dailes-teatri-sovakar-notiks-spelmanu-nakts-ceremonija",
+"title": "Godinās Latvijas labākos teātra māksliniekus: Dailes teātrī šovakar notiks \"Spēlmaņu nakts\" ceremonija",
+"summary": "Šovakar plkst. 21.00 Dailes teātrī norisināsies ikgadējā \"Spēlmaņu nakts\" balvu pasniegšanas ceremonija, kurā godinās aizvadītās teātra sezonas izcilākos māksliniekus un iestudējumus.",
+"pub": "2026-11-23",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8588208",
+"title": "Vijolnieks Roberts Balanas izsludina papildkoncertu Rīgā un atklāj īpašo koncerta viesi",
+"summary": "Pasaulē plaši pazīstamais latviešu vijolnieks Roberts Balanas sniegs solo koncertus Rīgā, un klausītāji tiek aicināti uz īpašu muzikālu vakaru \"Zunda Towers\" 30. stāvā, kurā klasiskās mūzikas tradīcijas satiksies ar mūsdienu mūzikas enerģiju un neierastām, izsmalcinātām muzikālām interpretācijām.",
+"pub": "2026-11-23",
+"source": "tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8588164",
+"title": "FOTO ⟩ \"Līvi\" aizvadījuši 50 gadu jubilejas koncertu dzimtajā Liepājā",
+"summary": "Pagājušās nedēļas nogalē leģendārā latviešu rokgrupa \"Līvi\", turpinot svinēt savu 50 gadu jubileju, aizvadīja koncertu dzimtajā Liepājā, koncertzālē \"Lielais dzintars\", kurā līdzās grupas iemīļotākajām dziesmām netrūka arī īpašu muzikālu satikšanos un pārsteigumu.",
+"pub": "2026-11-23",
+"source": "tvnet.lv",
+"score": 7
+},
+{
+"link": "https://pmo.ee/8588095",
+"title": "TOP 5 ⟩ Aizvadītās nedēļas lasītākās receptes",
+"summary": "Aizvadītajā nedēļā svinējām Latvijas dzimšanas dienu, un tas redzams arī lasītāko recepšu TOP 5. Kā? Ierasto recepšu vietā ielauzušies ēdieni, ko visbiežāk galdā ceļam tieši svētku reizēs. Rasols, siļķe kažokā, kāds lielisks deserts. Soļanka un plānās pankūkas topā noturas joprojām.",
+"pub": "2026-11-23",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8587108",
+"title": "Знакомые лица и новые герои: 16 участников, которые поборются за путевку на \"Евровидение\"",
+"summary": "Для участия в песенном конкурсе Supernova, организованном Латвийским общественным медиа (LSM), жюри отобрало 16 участников, которые 6 февраля 2027 года в самом масштабном на сегодняшний день финале конкурса в Xiaomi Arena поборются за возможность представлять Латвию на конкурсе \"Евровидение\", которы",
+"pub": "2026-11-23",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8587926",
+"title": "В понедельник местами ожидаются дождь и снег",
+"summary": "В понедельник в Латвии ожидается преимущественно пасмурная погода, во многих районах пройдут дожди и снег, прогнозируют синоптики.",
+"pub": "2026-11-23",
+"source": "rus.tvnet.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/vini-tacu-sanem-algu-santa-parsteigta-ka-berna-skolotajai-vecaki-plano-davinat-400-eiro-vertu-davanu",
+"title": "“Viņi taču saņem algu!” Santa pārsteigta, ka bērna skolotājai Ziemsvētkos vecāki plāno dāvināt 400 eiro vērtu dāvanu",
+"summary": "Ziemassvētki tuvojas, un skolēnu vecāki jau sāk domāt par dāvanām skolotājiem. Taču ne vienmēr visi ir vienisprātis par to, cik daudz šādai pateicībai vajadzētu tērēt. LA.LV lasītāja Santa nonākusi situācijā, kurā viņas bērna klases vecāki nolēmuši skolotājai sarūpēt īpaši dārgu Ziemassvētku dāvanu ",
+"pub": "2026-11-23",
+"source": "la.lv",
+"score": 18
 }
 ],
 "portal_errors": {},
@@ -8784,17 +8784,10 @@
 },
 "ics_intro_sent": true,
 "urgent_week": {
-"week": "2026-47",
+"week": "2026-48",
 "n": 0
 },
 "urgent_checked": [
-"https://rus.lsm.lv/statja/kultura/literatura/12.10.2026-latviiskaya-literatura-privlekaet-vnimanie-i-polucaet-nagradu-na-frankfurtskoi-kniznoi-yarmarke.a667252/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/muzika/12.10.2026-zemcuziny-francuzskoi-muzyki-na-festivale-organnoi-i-simfoniceskoi-muzyki-organismi.a667246/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/kultura/12.10.2026-premiyu-festivalya-yazykov-avots-polucila-aktivistka-legkogo-yazyka-velga-polinska.a667213/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/teatr/12.10.2026-balans-festivalya-osen-patriarxa-i-alternativnoi-teatralnoi-premii-zolotaya-muxa-kto-stal-triumfatorom.a667209/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/kino/12.10.2026-riga-pogruzaetsya-v-kinofestival-kak-vybrat-filmy-na-svoi-vkus.a667179/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/kino/12.10.2026-film-rezissera-lindy-olte-rebenok-budet-predstavlen-v-glavnom-konkurse-varsavskogo-kinofestivalya.a667160/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://bb.lv/statja/kultura/2026/10/12/iskusstvo-kotoroe-mozno-potrogat-v-rige-otkrylas-neobycnaia-vystavka-zenskogo-tvorcestva?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
 "https://www.lsm.lv/raksts/kultura/izklaide/13.10.2026-no-dziesmu-svetku-asaram-lidz-labrit-apkopejai-aktieris-andris-bulis-par-latviju-un-milestibu-ikdiena.a667178/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/13.10.2026-nospiedums-restorana-vertejuma-isfilma-paldies-par-jusu-atsauksmi-piedzivos-pirmizradi-tallina.a667393/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://www.lsm.lv/raksts/kultura/kulturtelpa/13.10.2026-sataustit-otra-dejotaja-kustibu-vajredziga-lolita-korjapina-par-dejosanu-un-uzticibu-pavadonei-zuzei.a666557/?utm_source=rss&utm_campaign=rss&utm_medium=links",
@@ -9569,7 +9562,32 @@
 "https://www.la.lv/joprojam-dikte-noteikumus-tauta-nav-miera-ar-andra-skeles-aicinasanu-uz-pienemsanu-pie-prezidenta",
 "https://www.lsm.lv/raksts/dzive-stils/tehnologijas-un-zinatne/21.11.2026-video-kas-isti-notiek-ar-gta-6.a672768/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://rus.lsm.lv/statja/kultura/muzika/21.11.2026-skola-eto-moia-zizn-kak-i-muzyka-vaznaia-rabota-dirizera-xarolda-barzdinsa.a672858/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.jauns.lv/article/novosti/739090-v-rige-cestvuiut-lucsix-vinnyx-ekspertov-baltii-i-otkryvaiut-novye-gastronomiceskie-vpecatleniia"
+"https://rus.jauns.lv/article/novosti/739090-v-rige-cestvuiut-lucsix-vinnyx-ekspertov-baltii-i-otkryvaiut-novye-gastronomiceskie-vpecatleniia",
+"https://rus.jauns.lv/article/afisha/738938-elka-v-stile-sneznoi-korolevy-daugavpils-priglasaet-na-prazdnicnoe-predstavlenie",
+"https://pmo.ee/8587653",
+"https://pmo.ee/8587530",
+"https://www.delfi.lv/193/politics/120143089/latvija-pirmo-reizi-izdod-smarzojosas-pastmarkas",
+"https://www.delfi.lv/life/56017216/majas/120142505/darzniecibas-uzzied-tukstosiem-puansetiju-ka-kopt-un-lutinat-sis-cimperligas-damas",
+"https://pmo.ee/8587528",
+"https://www.la.lv/top-jauna-filmas-viens-pats-majas-dala-kura-atgriezisies-legendarais-kevina-lomas-atveidotajs-vina-loma-bus-nedaudz-savadaka",
+"https://www.la.lv/melanija-trampa-lidz-ziemassvetkiem-varetu-tikt-noslegts-vel-viens-pamiers",
+"https://www.lsm.lv/raksts/zinas/latvija/21.11.2026-nazi-ka-makslas-darbs-kalejs-kaspars-bambis-pluc-laurus-pasaule.a672878/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://bb.lv/statja/nasha-latvija/2026/11/21/iurmala-gotovit-iarkoe-rozdestvo-nacalo-uze-cerez-nedeliu?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/video-ziemassvetku-vecisi-atgriezas-skolas-solos-musdienu-berni-prasa-ne-tikai-rotallietas-bet-ari-atbildes-uz-smagiem-dzives-jautajumiem",
+"https://www.lsm.lv/raksts/zinas/latvija/22.11.2026-riga-durvis-veris-starptautiskais-ziemassvetku-labdaribas-tirdzins.a672919/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/739131-svetki-beigusies-bet-kaislibas-nerimst-soctiklos-damas-saplucas-par-kulberga-sievas-kleitu",
+"https://jauns.lv/raksts/par-veselibu/738776-kad-tevi-pamostas-grincs-jeb-ka-pardzivot-svetku-skrejienu-un-nesajukt-prata",
+"https://pmo.ee/8587747",
+"https://bb.lv/statja/kultura/2026/11/22/laima-rendezvous-jurmala-obieiavliaet-specialnoe-predlozenie-k-cernoi-piatnice-skidka-13-na-bilety-na-koncerty-v-piatnicu-i-subbotu?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/ilona-noriete-starp-latviju-un-spaniju-atminu-medniece-spanijas-dienvidos-ziemas-zem-spanijas-saules",
+"https://www.la.lv/foto-15-gadi-un-tukstosiem-piepilditu-bernu-sapnu-durvis-atkal-jau-veris-laimas-labdaribas-namins",
+"https://www.lsm.lv/raksts/zinas/latvija/22.11.2026-nebija-labakajas-tradicijas-kulbergs-par-sasteigto-valdibas-deklaracijas-un-ministru-virzisanu.a672937/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/zinas/latvija/22.11.2026-valmieras-novada-par-tresdalu-sarucis-jaundzimuso-skaits-kas-notiks-ar-bernudarziem.a672941/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.la.lv/berni-tur-pazudis-stundam-ilgi-riga-atklata-ipasa-lego-pasaule-apmekletaja-gan-bridina-par-vienu-svarigu-niansi",
+"https://rus.jauns.lv/article/lifestyle/739154-prazdnik-zakoncilsia-a-strasti-ne-utixaiut-v-socsetiax-voznikla-perepalka-iz-za-platia-zeny-kulbergsa",
+"https://pmo.ee/8580864",
+"https://www.lsm.lv/raksts/kultura/kulturtelpa/23.11.2026-solito-skatitaju-mazak-atskaites-kavejas-daugavpili-pec-ligumsodiem-parskatis-kulturas-projektu-atbalstu.a672101/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/kultura/23.11.2026-zritelei-okazalos-mense-otcetnost-zaderzivaetsia-v-daugavpilse-peresmotriat-podderzku-kulturnyx-proektov-posle-primeneniia-strafov.a672982/?utm_source=rss&utm_campaign=rss&utm_medium=links"
 ],
 "tips_debug": {
 "date": "2026-11-19",
