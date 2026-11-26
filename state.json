@@ -61,22 +61,6 @@
 },
 "portal_queue": [
 {
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/13.11.2026-deju-skola-dzirnas-40-jubilejas-gadu-noslegs-ar-verienigo-lieluzvedumu-indulis-un-arija.a671780/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Deju skola «Dzirnas» 40. jubilejas gadu noslēgs ar vērienīgo lieluzvedumu «Indulis un Ārija»",
-"summary": "Mīlestība vienam pret otru un savu zemi ir vērtības, par kurām šodien ir īpaši svarīgi atgādināt. Patriotu nedēļas noskaņās šo ideju spilgti atklās vērienīgais dejas lieluzvedums \"Indulis un Ārija\", kas notiks 14. novembrī \"Xiaomi arēnā\". Ar to Agra Daņiļeviča deju skola \"Dzirnas\" pieliks jaudīgu pu",
-"pub": "2026-11-13",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://rus.lsm.lv/statja/novosti/obschestvo/13.11.2026-v-latvii-kazdyi-tretii-ekonomit-na-razvleceniiax-a-nekotorye-daze-na-ede-opros.a671881/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "В Латвии каждый третий экономит на развлечениях, а некоторые даже на еде — опрос",
-"summary": "Жители Латвии чаще всего экономят на развлечениях, услугах красоты, одежде и путешествияx, показал опрос, проведенный банком Citadele совместно с исследовательским агентством Norstat. От развлечений и мероприятий досуга отказываются или сокращают расходы на них 33 % жителей, на услугах красоты эконо",
-"pub": "2026-11-13",
-"source": "rus.lsm.lv",
-"score": 2
-},
-{
 "link": "https://rus.lsm.lv/statja/novosti/obschestvo/13.11.2026-ukrainskaia-nedelia-v-latvii-s-14-po-22-noiabria-predlozeniia-i-priglaseniia.a671676/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "Украинская неделя в Латвии с 14 по 22 ноября. Предложения и приглашения",
 "summary": "Публикуем подборку некоторых мероприятий ближайшей недели, которые устраиваются для украинцев, самими украинцами или могут быть интересными для украинцев Латвии.",
@@ -4859,12 +4843,25 @@
 "pub": "2026-11-25",
 "source": "la.lv",
 "score": 5
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/739707-sandis-valters-atgriezies-latvija-kopa-ar-tevu-valdi-nosvin-18-novembri",
+"title": "Sandis Valters atgriezies Latvijā? Kopā ar tēvu Valdi nosvin 18. novembri",
+"summary": "Šoruden publiskajā telpā izskanēja runas, ka bijušo Latvijas izlases basketbolistu Sandi Valteru Amerikā, iespējams, piemeklējušas problēmas ar likumu. Tomēr nesen valsts svētkos 18. novembrī viņa tēvs Valdis Valters publicējis sirsnīgu attēlu, kurā redzams, kā kopā ar dēlu ģimenes lokā ietur svētku",
+"pub": "2026-11-26",
+"source": "jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/739716-v-rige-obieiavilsia-svoi-grinc-muzcina-portit-prazdnicnye-ukraseniia",
+"title": "В Риге объявился свой Гринч - мужчина портит праздничные украшения",
+"summary": "В Риге на улице Велдрес неизвестный хулиган повредил светящиеся гирлянды, которыми владелец частного дома украсил свою территорию. Несколько недель праздничные огни радовали как самого хозяина, так и прохожих. До этого никто не жаловался ни на яркость освещения, ни на какие-либо другие неудобства, п",
+"pub": "2026-11-26",
+"source": "rus.jauns.lv",
+"score": 4
 }
 ],
-"portal_errors": {
-"https://jauns.lv/rss": "HTTPSConnectionPool(host='jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by Conne",
-"https://rus.jauns.lv/rss": "HTTPSConnectionPool(host='rus.jauns.lv', port=443): Max retries exceeded with url: /rss (Caused by C"
-},
+"portal_errors": {},
 "places_history": [
 [
 "2026-10-22",
