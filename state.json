@@ -1,8 +1,8 @@
 {
 "usage": {
 "month": "2026-11",
-"cost": 0.5874290999999998,
-"calls": 141
+"cost": 0.5881608999999998,
+"calls": 142
 },
 "last_digest": "2026-11-26",
 "shown_ongoing": {
@@ -62,358 +62,6 @@
 "count": 24
 },
 "portal_queue": [
-{
-"link": "https://rus.jauns.lv/article/afisha/738099-v-ventspilse-gotoviat-rozdestvenskii-siurpriz-ranse-takogo-v-gorode-ne-bylo",
-"title": "В Вентспилсе готовят рождественский сюрприз - раньше такого в городе не было",
-"summary": "В этом году в Вентспилсе планируют необычное дополнение к рождественским праздникам - специальный домик Санта-Клауса, где дети смогут лично встретиться с главным зимним волшебником.",
-"pub": "2026-11-14",
-"source": "rus.jauns.lv",
-"score": 4
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/738101-kto-tut-samyi-krasivyi-na-vystavke-zivotnyx-zooexpo-2026-razvernulas-bitva-za-tituly-foto",
-"title": "Кто тут самый красивый? На выставке животных ZooExpo 2026 развернулась битва за титулы. ФОТО",
-"summary": "В эти выходные на Кипсале собралась компания, перед которой трудно устоять: тысячи собак, сотни кошек, забавные обитатели сельского двора и экзотические животные, которых не каждый день встретишь даже в зоопарке. Международная выставка ZooExpo 2026 уже вовсю принимает посетителей, а впереди еще цело",
-"pub": "2026-11-14",
-"source": "rus.jauns.lv",
-"score": 8
-},
-{
-"link": "https://rus.jauns.lv/article/afisha/736803-kuda-sxodit-na-staro-riga-2026-15-samyx-zrelishhnyx-obieektov-festivalia",
-"title": "Куда сходить на Staro Rīga 2026: 15 самых зрелищных объектов фестиваля",
-"summary": "С 15 по 18 ноября в Риге пройдет фестиваль света Staro Rīga 2026, в программу которого вошли 52 объекта. Помимо красочных проекций на зданиях, посетителей ждут необычные световые скульптуры и интерактивные инсталляции, с которыми можно взаимодействовать. Мы выбрали 15 самых интересных объектов, на к",
-"pub": "2026-11-14",
-"source": "rus.jauns.lv",
-"score": 8
-},
-{
-"link": "https://www.la.lv/no-15-lidz-19-novembrim-latviesiem-dalis-kadu-preci-par-velti-luk-kur-to-vares-iegut",
-"title": "No 15. līdz 19. novembrim latviešiem dalīs kādu preci par velti; lūk, kur to varēs iegūt",
-"summary": "Lai atgādinātu par gājēju redzamību diennakts tumšajā laikā, Ceļu satiksmes drošības direkcija (CSDD) sadarbībā ar partneriem novembrī iedzīvotājiem visā Latvijā bez maksas izdalīs vairāk nekā 8000 atstarotāju. Kā aģentūru LETA informēja CSDD, 4000 atstarotāju būs pieejami no 15. novembra līdz 18. n",
-"pub": "2026-11-14",
-"source": "la.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/jutos-apcakareta-sanda-dejus-dusmojas-par-negaiditu-paversienu-pec-podkasta-ieraksta",
-"title": "“Jūtos apčakarēta!” Sanda Dejus dusmojas par negaidītu pavērsienu pēc podkāsta ieraksta",
-"summary": "Radio SWH ētera personība un pasākumu vadītāja Sanda Dejus pēc podkāsta ieraksta saskārusies ar visai nepatīkamu situāciju. Lai gan viņa parasti izvairās no dalības podkāstos, šoreiz piekritusi piedalīties kāda paziņas dēļ. Saruna aizritējusi patīkami, taču vēlāk saņemta ziņa, ka epizode tomēr netik",
-"pub": "2026-11-14",
-"source": "la.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/gribi-ziemassvetkos-16-brivdienas-izterejot-vien-dazas-atvalinajuma-dienas-svarigi-zinat-pareizos-datumus",
-"title": "Gribi Ziemassvētkos 16 brīvdienas, iztērējot vien dažas atvaļinājuma dienas? Svarīgi zināt “pareizos” datumus!",
-"summary": "2026. gada nogales kalendārs strādājošajiem ir visai izdevīgs. Ziemassvētku svētku dienas sākas ceturtdienā, bet arī Vecgada diena iekrīt ceturtdienā. Pareizi pievienojot dažas atvaļinājuma dienas, četru dienu svētku atpūtu iespējams pārvērst deviņās, 11 vai pat 16 brīvās dienās pēc kārtas. Likums “",
-"pub": "2026-11-14",
-"source": "la.lv",
-"score": 13
-},
-{
-"link": "https://jauns.lv/raksts/zinas/738135-latvijas-nacionalas-operas-un-baleta-soliste-ilona-bagele-aicina-uz-adventes-koncertu-turaidas-baznica",
-"title": "Latvijas Nacionālās operas un baleta soliste Ilona Bagele aicina uz Adventes koncertu Turaidas baznīcā",
-"summary": "Iededzot pirmo Adventes sveci, uz ziemas noskaņu koncertu aicina Latvijas Nacionālās operas un baleta soliste Ilona Bagele un akordeoniste Inita Āboliņa.",
-"pub": "2026-11-14",
-"source": "jauns.lv",
-"score": 6
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/738125-v-rige-rascveli-10-000-neobycnyx-cvetov-otkrito-pobyval-na-otkrytii-svetovogo-sou-video",
-"title": "В Риге расцвели 10 000 необычных цветов: Otkrito побывал на открытии светового шоу. ВИДЕО",
-"summary": "Вечером 14 ноября Андрейсала в Риге преобразилась до неузнаваемости: тысячи разноцветных огней, мощные световые лучи над историческими трубами и огромные проекции на зданиях превратили бывшую промышленную территорию в настоящее световое шоу. Otkrito побывал на открытии выставки Gaisma sauc krastā, к",
-"pub": "2026-11-14",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/lifestyle/738094-7-neobycnyx-gorodov-evropy-kuda-mozno-otpravitsia-iz-rigi-za-rozdestvenskim-nastroeniem",
-"title": "7 необычных городов Европы, куда можно отправиться из Риги за рождественским настроением",
-"summary": "Рождественские выходные в Европе - это не обязательно дорогая поездка в Вену, Прагу или Берлин, где будут толпы туристов. В небольших городах тоже устраивают впечатляющие ярмарки, превращают старинные площади в праздничные деревни и даже открывают рождественские базары под землей. Мы нашли семь не с",
-"pub": "2026-11-14",
-"source": "rus.jauns.lv",
-"score": 7
-},
-{
-"link": "https://pmo.ee/8582983",
-"title": "ATRODI SEVI! ⟩ Valsts svētku noskaņās skatītāji ierodas uz lieluzveduma \"Indulis un Ārija\" atgriešanos uz skatuves",
-"summary": "\"Man ir ļoti patīkami, ka tas, ko mēs izdarījām, kādam ir vajadzīgs – ka skatītājiem gribas otro porciju. Un \"Indulis un Ārija\" \"Dzirnām\" reāli piestāv. Tur ir tā dziļākā \"Dzirnu\" būtība – meža vidus, tīras smadzenes, spēks, kustība un iespēja savā valodā izstāstīt šo stāstu,\" par lieluzveduma atgri",
-"pub": "2026-11-14",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8582442",
-"title": "Kā Kristīne reanimēja savu kafijas biznesu: britu jaunā aizraušanās ar gudrības sēni",
-"summary": "To nu es negaidīju! Ka manu Anglijas draudzeni Kristīni, kurai Ņūkāslas tuvumā ir neliels kafijas bizness, būs pārņēmis sēņu trakums, līdzīgi kā pēdējo gadu laikā daudzus britus. Īpaši viņa ir pārņemta ar sēni, kas sola skaidrāku galvu un attālināt demenci. Viņa to ne tikai audzē mājās, tā nokaitino",
-"pub": "2026-11-14",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8582480",
-"title": "Vieglākai 2026. gada 47. nedēļai: receptes vakariņām",
-"summary": "Lielisks veids, kā novembri, kas līdz ar valsts svētku svinēšanu sev līdzi nes patriotisku noskaņu, padarīt vēl latviskāku un svinīgāku, ir ikdienā ienest latviskas garšas un krāsas. Lai skaista un garšīga svētku nedēļa!",
-"pub": "2026-11-14",
-"source": "tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8582927",
-"title": "Nedēļas apskats: Markus Riva skaidro, kāpēc atcelti viņa koncerti ASV, Lelde Dreimane reaģē uz Bernāta publiskajiem apvainojumiem",
-"summary": "Šī nedēļa pašmāju un ārvalstu slavenību dzīvē bijusi spraigu notikumu pilna. Uzzini, par ko šonedēļ sabiedrība trina mēles!",
-"pub": "2026-11-14",
-"source": "tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8583626",
-"title": "Экс-глава МОК Бах: Россия должна участвовать в чемпионате мира по хоккею в Германии",
-"summary": "Экс-президент МОК Томас Бах высказался в поддержку участия сборной РФ в чемпионате мира по хоккею, который пройдет в 2027 году в Германии. Он также считает возможное исключение Украины из турнира \"сомнительным шагом\".",
-"pub": "2026-11-14",
-"source": "rus.tvnet.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/15.11.2026-vientuliba-divata-cehova-teatra-iestudejumu-eriks-un-anna-un-frilanceri-apskats.a671710/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Vientulība divatā. Čehova teātra iestudējumu «Ēriks un Anna» un «Frīlanceri» apskats",
-"summary": "Visbiežāk Mihaila Čehova Rīgas Krievu teātra filiālē Arkāde skatāmas izrādes diviem aktieriem (precīzāk, trim: Viņam, Viņai un viņu attiecībām). Kopš pagājušā gada vasaras šeit tapušas jau piecas šādas izrādes. Vispirms tās bija \"Soliņš\", \"Tūrists\" un \"Zvaigznāji\", bet šoruden viena pēc otras pirmi",
-"pub": "2026-11-15",
-"source": "lsm.lv",
-"score": 6
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/teatr/15.11.2026-odinocestvo-vdvoem-spektakli-erik-i-anna-i-frilansery-v-teatre-cexova.a671696/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Одиночество вдвоем. Спектакли «Эрик и Анна» и «Фрилансеры» в театре Чехова",
-"summary": "Театральная площадка Аркада — филиал Рижского русского театра имени Михаила Чехова — открылась в 2024 году. Небольшой размер зала, низкий потолок и близость зрителей к сцене продиктовали формат здешних постановок — камерных, коротких (без антракта), с лаконичными декорациями и небольшим количеством ",
-"pub": "2026-11-15",
-"source": "rus.lsm.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/zinas/737541-valsts-svetkos-sigulda-aicina-izskriet-latvijas-konturu-piedalities-var-ikviens",
-"title": "Valsts svētkos Siguldā aicina izskriet Latvijas kontūru – piedalīties var ikviens",
-"summary": "Latvijas dzimšanas diena ir lieliska iespēja būt kopā, baudīt kustību un novērtēt skaisto apkārtni, kurā dzīvojam. 18. novembrī plkst. 11.00, atzīmējot Latvijas Republikas proklamēšanas gadadienu, ikviens aicināts pievienoties tradicionālajam kontūrskrējienam “Izskrien Latviju Siguldā” un pavadīt va",
-"pub": "2026-11-15",
-"source": "jauns.lv",
-"score": 5
-},
-{
-"link": "https://jauns.lv/raksts/zinas/738155-ar-52-iespaidigiem-objektiem-sovakar-saksies-gaismas-festivals-staro-riga-ko-redzet-un-ieraudzit",
-"title": "Ar 52 iespaidīgiem objektiem šovakar sāksies gaismas festivāls \"Staro Rīga\". Ko redzēt un ieraudzīt?",
-"summary": "Šovakar galvaspilsēta iemirdzēsies īpaši koši un neparasti, jo sāksies gaismas festivāls \"Staro Rīga 2026\". Līdz pat 18. novembrim ik vakaru no plkst. 17.00 līdz 23.00 rīdzinieki un pilsētas viesi varēs apskatīt 52 gaismas objektus abos Daugavas krastos.",
-"pub": "2026-11-15",
-"source": "jauns.lv",
-"score": 8
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/737651-vins-bija-viens-no-90-gadu-televizijas-sirzu-lauzejiem-ka-sodien-dzivo-seriala-rouzvela-zvaigzne-dzeisons-bers",
-"title": "Viņš bija viens no 90. gadu televīzijas siržu lauzējiem: kā šodien dzīvo seriāla “Rouzvela\" zvaigzne Džeisons Bērs?",
-"summary": "Deviņdesmito gadu nogalē viņš bija viens no televīzijas iekārojamākajiem jaunajiem aktieriem. Noslēpumainais Makss Evanss no populārā zinātniskās fantastikas seriāla “Rouzvela” iekaroja miljoniem skatītāju sirdis, bet viņa atveidotājs Džeisons Bērs kļuva par īstu pusaudžu elku. Kopš seriāla pirmizrā",
-"pub": "2026-11-15",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/738134-v-liepae-muzcina-vypil-v-magazine-4-butylki-piva-i-otkazalsia-platit",
-"title": "В Лиепае мужчина выпил в магазине 4 бутылки пива и отказался платить",
-"summary": "В Лиепае мужчина решил отметить наступающие праздники весьма необычным способом: зашел в магазин, открыл несколько бутылок пива и выпил их прямо на месте. Когда потребовали оплатить покупку, выяснилось, что денег у него нет.",
-"pub": "2026-11-15",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/738132-pocemu-ne-nosite-flazki-na-odezde-v-socsetiax-razgorelas-diskussiia-o-patriotizme-pered-prazdnikom",
-"title": "Почему не носите флажки на одежде? В соцсетях разгорелась дискуссия о патриотизме перед праздником",
-"summary": "В преддверии годовщины провозглашения Латвийской Республики латвийцы неожиданно задались вопросом: почему на улицах так мало людей с национальными флажками на одежде? В соцсетях развернулась дискуссия о том, как сегодня проявляется патриотизм.",
-"pub": "2026-11-15",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://www.delfi.lv/video/54057146/kapec/120142606/nbs-pulkvede-latvijas-iedzivotaji-ir-lielaki-patrioti-neka-pasi-doma",
-"title": "NBS pulkvede: Latvijas iedzīvotāji ir lielāki patrioti, nekā paši domā",
-"summary": "Lai gan Saeimas Analītiskā dienesta nesen publicētā pētījumā secināts, ka tikai 37% Latvijas iedzīvotāju pauduši gatavību aizstāvēt valsti militāra apdraudējuma gadījumā, tomēr Nacionālo bruņoto spēku (NBS) štāba bataljona komandiere, pulkvede Antoņina Bļodone \"Delfi TV\" raidījumā \"Kāpēc\" pauda, ka ",
-"pub": "2026-11-15",
-"source": "delfi.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8583649",
-"title": "Sāksies gaismas festivāls \"Staro Rīga\"; Vecrīgā ierobežos satiksmi",
-"summary": "Šodien galvaspilsētā sāksies gaismas festivāls \"Staro Rīga 2026\", kura laikā līdz 18. novembrim katru vakaru no plkst. 17 līdz 23 būs skatāmi 52 gaismas objekti abos Daugavas krastos, informēja pašvaldības Ārējās komunikācijas nodaļas projektu koordinatore Ineta Miglāne.",
-"pub": "2026-11-15",
-"source": "apollo.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8583644",
-"title": "MEKLĒ SEVI! ⟩ Skatītāji valsts svētku noskaņās pulcējas uz lieluzvedumu \"Indulis un Ārija\"",
-"summary": "Sestdien, 14. novembrī, \"Xiaomi Arēnā\" divās vērienīgās izrādēs uz vienas skatuves pulcējās vairāk nekā 400 dejotāju, kamerorķestris \"Sinfonietta Rīga\" diriģenta Normunda Šnē vadībā un Rīgas Doma kora skolas jauktais koris. Iestudējumā apvienota Agra Daņiļeviča horeogrāfija, Valtera Pūces oriģinālmū",
-"pub": "2026-11-15",
-"source": "apollo.lv",
-"score": 5
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/11/15/na-populiarnom-u-latviicev-estonskom-ostrove-poiavitsia-usluga-kotoroi-tam-nikogda-ne-bylo?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "На популярном у латвийцев эстонском острове появится услуга, которой там никогда не было",
-"summary": "На эстонском острове Сааремаа, который хорошо знаком многим путешественникам из Латвии, готовится необычное для местных жителей событие. Впервые за всю историю острова здесь откроется ломбард. Более того, это будет первое подобное учреждение на всех островах Эстонии.",
-"pub": "2026-11-15",
-"source": "bb.lv",
-"score": 4
-},
-{
-"link": "https://bb.lv/statja/lifenews/2026/11/15/staro-riga-2026-kilometry-sveta-5000-zerkal-i-drugie-opticeskie-fokusy?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "«Staro Rīga 2026»: километры света, 5000 зеркал и другие оптические фокусы",
-"summary": "С сегодняшнего дня и до 18 ноября в Риге будет проходить традиционный фестиваль «Staro Rīga» («Сияй, Рига!»), во время которого столица превратится в огромную световую галерею.",
-"pub": "2026-11-15",
-"source": "bb.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/ta-ir-robeza-kuru-parkapt-nedrikst-advokats-pastasta-par-tendenci-sabiedriba-kas-var-maksat-pat-20-gadus-cietuma",
-"title": "“Tā ir robeža, kuru pārkāpt nedrīkst!” Advokāts pastāsta par tendenci sabiedrībā, kas var maksāt pat 20 gadus cietumā",
-"summary": "Latvijas valsts svētki jau pavisam tuvu. Šis ir laiks, kad patriotisma un piederības sajūta savai valstij kļūst īpaši spēcīga. To vēl vairāk liek apzināties Krievijas turpinātais karš Ukrainā, kas nemitīgi atgādina, cik trausla var būt valsts brīvība un cik augsta ir tās cena. Šajā svētku laikā īpaš",
-"pub": "2026-11-15",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://www.lsm.lv/raksts/dzive-stils/cilvekstasti/15.11.2026-ikgadeja-vecerinka-pusmucova-ka-vietejie-kulturas-nama-pasi-sev-sarupe-septinas-stundas-prieka.a671804/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Ikgadējā «večerinka» Pušmucovā. Kā vietējie kultūras namā paši sev sarūpē septiņas stundas prieka",
-"summary": "Citviet Latvijā to sauc visdažādākajos vārdos, bet Latgalē kopš neatminamiem laikiem tā ir večerinka. Tas ir pasākums, kas var notikt kādā mājā, siena šķūnī, uz tilta vai pat pļavā, ar, kā tagad saka, dzīvo mūziku, kopā sanākušiem ļaudīm, kopīgu dancošanu un prieku. Protams, laiks ir uzlicis savas k",
-"pub": "2026-11-15",
-"source": "lsm.lv",
-"score": 2
-},
-{
-"link": "https://www.lsm.lv/raksts/kultura/maksla/15.11.2026-cetros-metros-ietilpinata-15-gadu-pieredze-daugavpils-cietoksnis-kluvis-par-laikmetigas-keramikas-magnetu.a671859/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Četros metros ietilpināta 15 gadu pieredze – Daugavpils cietoksnis kļuvis par laikmetīgās keramikas magnētu",
-"summary": "Četri metri telpas, 129 keramikas darbi un 15 gadi pieredzes, radošu meklējumu un starptautiskas sadarbības – Daugavpils cietokšņa galerijā \"4Metri\" atklāta izstāde \"Kompresija. 15 gadi keramikā\". Tā vienuviet apkopo Latvijas Laikmetīgās keramikas centra 15 darbības gados paveikto, atklājot gan laik",
-"pub": "2026-11-15",
-"source": "lsm.lv",
-"score": 10
-},
-{
-"link": "https://rus.lsm.lv/statja/kultura/iskusstvo/15.11.2026-cetyre-metra-vmestili-15-let-opyta-daugavpilsskaia-krepost-stala-centrom-pritiazeniia-sovremennoi-keramiki.a671992/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"title": "Четыре метра вместили 15 лет опыта — Даугавпилсская крепость стала центром притяжения современной керамики",
-"summary": "Четыре метра пространства, 129 керамических работ и 15 лет опыта, творческих поисков и международного сотрудничества — в галерее 4Metri Даугавпилсской крепости открылась выставка «Компрессия. 15 лет в керамике».",
-"pub": "2026-11-15",
-"source": "rus.lsm.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/zinas/738210-sinoptiki-bridina-par-laikapstakliem-valsts-svetku-diena-latviju-sasniegs-lietus-un-slapjs-sniegs",
-"title": "Sinoptiķi brīdina par laikapstākļiem valsts svētku dienā – Latviju sasniegs lietus un slapjš sniegs",
-"summary": "Jaunajā nedēļā sinoptisko situāciju Latvijā noteiks aktīvu ciklonu darbība, kas valsts teritorijai pietuvosies no rietumiem, kā rezultātā debesis lielākoties aizklās mākoņi un Latviju šķērsos vairākas nokrišņu zonas, prognozē Latvijas Vides, ģeoloģijas un meteoroloģijas centra sinoptiķi.",
-"pub": "2026-11-15",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://jauns.lv/raksts/izklaide/738182-video-hbo-parada-pirmo-ainu-no-jauna-harija-potera-seriala-taja-ir-kas-negaidits",
-"title": "VIDEO: HBO parāda pirmo ainu no jaunā \"Harija Potera\" seriāla. Tajā ir kas negaidīts",
-"summary": "\"Harija Potera\" faniem ir iemesls nepacietīgi gaidīt Ziemassvētkus. HBO publiskojis pirmo pilno fragmentu no gaidāmā seriāla \"Harijs Poters un Filozofu akmens\", ļaujot ieskatīties vienā no burvju pasaules pazīstamākajām vietām – Cūkkārpas Lielajā zālē.",
-"pub": "2026-11-15",
-"source": "jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/738203-nedelia-nacnetsia-s-pasmurnogo-ponedelnika",
-"title": "Неделя начнется с пасмурного понедельника",
-"summary": "В понедельник во второй половине дня небо по всей Латвии постепенно затянется облаками и с запада страну начнет пересекать зона осадков - в западных и центральных районах пройдут дожди, прогнозируют синоптики Латвийского центра окружающей среды, геологии и метеорологии.",
-"pub": "2026-11-15",
-"source": "rus.jauns.lv",
-"score": 2
-},
-{
-"link": "https://rus.jauns.lv/article/novosti/738162-v-latvii-xotiat-potratit-60-tysiac-evro-na-meropriiatiia-dlia-nacmensinstv",
-"title": "В Латвии хотят потратить 60 тысяч евро на мероприятия для нацменьшинств",
-"summary": "Министерство культуры Латвии планирует выделить 60 тысяч евро на сохранение и развитие культуры национальных меньшинств. Средства направят на проведение концертов, фестивалей, выставок и других мероприятий, а также на поддержку организаций, представляющих различные национальные общины.",
-"pub": "2026-11-15",
-"source": "rus.jauns.lv",
-"score": 6
-},
-{
-"link": "https://pmo.ee/8583798",
-"title": "Прогноз погоды на понедельник",
-"summary": "В понедельник во второй половине дня небо по всей Латвии постепенно затянется облаками и с запада страну начнет пересекать зона осадков - в западных и центральных районах пройдут дожди, прогнозируют синоптики Латвийского центра окружающей среды, геологии и метеорологии.",
-"pub": "2026-11-15",
-"source": "rus.tvnet.lv",
-"score": 2
-},
-{
-"link": "https://pmo.ee/8583673",
-"title": "Начинается фестиваль света Staro Rīga",
-"summary": "Сегодня в столице начнется фестиваль света Staro Rīga 2026, во время которого до 18 ноября включительно каждый вечер с 17:00 до 23:00 на обоих берегах Даугавы будут представлены 52 световых объекта, сообщила агентству LETA координатор проектов отдела внешней коммуникации Рижского самоуправления Инет",
-"pub": "2026-11-15",
-"source": "rus.tvnet.lv",
-"score": 4
-},
-{
-"link": "https://pmo.ee/8583785",
-"title": "Laika prognoze nākamajai nedēļai",
-"summary": "Latvijā jaunās nedēļas sākumā gaidāms mākoņains un lietains laiks, bet valsts svētku dienā, 18. novembrī, nokrišņi vietām būs arī slapja sniega veidā, prognozē LVĢMC sinoptiķi.",
-"pub": "2026-11-15",
-"source": "apollo.lv",
-"score": 2
-},
-{
-"link": "https://bb.lv/statja/nasha-latvija/2026/11/15/latviiu-nakroet-cereda-ciklonov-sinoptiki-dali-prognoz-na-prazdnicnuiu-nedeliu?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Латвию накроет череда циклонов: синоптики дали прогноз на праздничную неделю",
-"summary": "На следующей неделе погоду в Латвии будет определять действие активных циклонов, приближающихся с запада. Небо будет преимущественно затянуто облаками, страну пересекут несколько зон осадков, прогнозируют синоптики Латвийского центра окружающей среды, геологии и метеорологии.",
-"pub": "2026-11-15",
-"source": "bb.lv",
-"score": 6
-},
-{
-"link": "https://bb.lv/statja/kultura/2026/11/15/prazdnik-k-nam-prixodit-legendarnyi-rozdestvenskii-gruzovik-coca-cola-vozvrashhaetsia-v-latviiu?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"title": "Праздник к нам приходит: легендарный рождественский грузовик Coca-Cola возвращается в Латвию",
-"summary": "Один из самых узнаваемых символов рождественских праздников вновь появится на латвийских дорогах. Компания Coca-Cola подтвердила, что в этом году её знаменитый красный грузовик, украшенный тысячами праздничных огней, снова посетит Латвию.",
-"pub": "2026-11-15",
-"source": "bb.lv",
-"score": 6
-},
-{
-"link": "https://www.la.lv/valsts-svetku-nedela-bus-dregna-un-lietaina",
-"title": "Valsts svētku nedēļa būs drēgna un lietaina",
-"summary": "Nākamajā nedēļā Latvijā laikapstākļus noteiks vairāki aktīvi cikloni, kas pietuvosies no rietumiem. To ietekmē debesis bieži klās mākoņi, bet pāri valstij virzīsies vairākas nokrišņu zonas, nesot lietu un vietām arī slapju sniegu, prognozē Latvijas Vides, ģeoloģijas un meteoroloģijas centra sinoptiķ",
-"pub": "2026-11-15",
-"source": "la.lv",
-"score": 2
-},
-{
-"link": "https://www.la.lv/pateicoties-ropazu-pasvaldibas-policijai-sajos-valsts-svetkos-pie-manas-majas-latvijas-valsts-karogs-neplivos-rihards-parada-kapec-policija-lika-to-nonemt",
-"title": "“Pateicoties Ropažu pašvaldības policijai, šajos valsts svētkos pie manas mājas Latvijas valsts karogs neplīvos.” Rihards parāda, kāpēc policija lika to noņemt",
-"summary": "Iegādāties savu īpašumu un pie tā izkārt Latvijas valsts karogu – daudziem tā ir iespēja paust lepnumu par savu valsti. Tomēr arī karoga lietošanai ir noteikumi, kas jāievēro. Rihards sociālo mediju platformā “X” raksta: “Pateicoties” Ropažu pašvaldības policijai, šajos valsts svētkos pie manas māja",
-"pub": "2026-11-15",
-"source": "la.lv",
-"score": 4
-},
-{
-"link": "https://www.la.lv/erika-eglija-gravele-atklaj-ka-mainijusies-vinas-dzive-pec-meitinas-piedzimsanas",
-"title": "Ērika Eglija-Grāvele atklāj, kā mainījusies viņas dzīve pēc meitiņas piedzimšanas",
-"summary": "Dailes teātra aktrise un dziedātāja Ērika Eglija-Grāvele pēc meitiņas piedzimšanas pamazām atgriezusies profesionālajā dzīvē. Lai gan oficiāli viņa joprojām atrodas bērna kopšanas atvaļinājumā, aktrise jau spēlē teātri, uzstājas koncertos un gatavojas atkal iejusties savulaik populārās “Talantu fabr",
-"pub": "2026-11-15",
-"source": "la.lv",
-"score": 6
-},
-{
-"link": "https://www.la.lv/staro-riga-sogad-parsteigs-ar-52-gaismas-objektiem-festivals-izgaismos-abus-daugavas-krastus",
-"title": "“Staro Rīga” šogad pārsteigs ar 52 gaismas objektiem – festivāls izgaismos abus Daugavas krastus",
-"summary": "Šovakar Rīgā sāksies ikgadējais gaismas festivāls “Staro Rīga 2026”. Līdz 18. novembrim katru vakaru no plkst. 17 līdz 23 pilsētas ielās, parkos un uz ēku fasādēm būs skatāmi 52 gaismas objekti, kas izvietoti abos Daugavas krastos, aģentūrai LETA pavēstīja Rīgas pašvaldības pārstāve Ineta Miglāne. Š",
-"pub": "2026-11-15",
-"source": "la.lv",
-"score": 6
-},
-{
-"link": "https://www.la.lv/asv-karteja-trauksme-trampam-un-augstakajam-amatpersonam-pastiprina-drosibas-pasakumus",
-"title": "ASV kārtējā trauksme – Trampam un augstākajām amatpersonām pastiprina drošības pasākumus",
-"summary": "Izraēlas izlūkdienests nodevis ASV informāciju par iespējamu Irānas plānu uzbrukt ASV prezidentam Donaldam Trampam un vairākiem viņa administrācijas pārstāvjiem. Kā viens no iespējamiem uzbrukuma veidiem tiek minēti ar sprāgstvielām aprīkoti bezpilota lidaparāti, vēsta izdevums “Israel Hayom”. Izdev",
-"pub": "2026-11-15",
-"source": "la.lv",
-"score": 2
-},
 {
 "link": "https://www.lsm.lv/raksts/zinas/latvija/15.11.2026-valdibas-sarunu-starpfiniss-nacionalas-apvienibas-cinins-par-saimnieciskajiem-amatiem-nesatricina-slesera-atbalstu-kulbergam.a671995/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "title": "Valdības sarunu starpfinišs: Nacionālās apvienības cīniņš par saimnieciskajiem amatiem nesatricina Šlesera atbalstu Kulbergam",
@@ -4861,6 +4509,358 @@
 "pub": "2026-11-27",
 "source": "la.lv",
 "score": 16
+},
+{
+"link": "https://www.lsm.lv/raksts/zinas/latvija/27.11.2026-dobele-atdzimst-pilsetas-baltie-milzi-sniegaviri.a673761/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Dobelē atdzimst pilsētas baltie milži – sniegavīri",
+"summary": "Dobeles Dārzkopības institūts ir viena no vadošajām augļkopības un dārzeņkopības pētniecības iestādēm Ziemeļvalstīs, kas plašākai sabiedrībai pazīstama arī ar ceriņu un ābolu svētkiem. Jau otro gadu dārzs, kas devies ziemas mierā, apmeklētājus uzņem arī gada aukstākajos mēnešos. Pērn šeit bija izvei",
+"pub": "2026-11-27",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/27.11.2026-sirdsapzinas-mokas-un-alkas-pec-muzigas-jaunibas-nacionala-teatra-izrade-doriana-greja-portrets.a673807/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Sirdsapziņas mokas un alkas pēc mūžīgas jaunības Nacionālā teātra izrādē «Doriana Greja portrets»",
+"summary": "\"Doriana Greja portrets\" – Nacionālā teātra Jaunajā zālē savu skatījumu uz Oskara Vailda skaistuma drāmu piedāvā režisors Henrijs Arājs. Sešu aktieru ansamblis, kurā Doriana Greja lomā iejūtas Laura Siliņa, pievēršas skaistuma un ārējo vērtību postošajai ietekmei uz cilvēka dzīvi, rosinot aizdomātie",
+"pub": "2026-11-27",
+"source": "lsm.lv",
+"score": 2
+},
+{
+"link": "https://www.lsm.lv/raksts/dzive-stils/celosana/27.11.2026-tests-uz-kadiem-svetkiem-darina-puzurus-un-citi-akigi-citi-gudrs-vel-gudraks-jautajumi.a673338/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "TESTS. Uz kādiem svētkiem darina puzurus un citi āķīgi citi «Gudrs, vēl gudrāks» jautājumi",
+"summary": "Kam veltīts muzejs \"Airītes\"; uz kādiem svētkiem latvieši tradicionāli darināja puzurus un kuri ir Latvijas nacionālie simboli? Pārbaudi savas zināšanas, atbildot uz raidījuma \"Gudrs, vēl gudrāks\" jautājumiem!",
+"pub": "2026-11-27",
+"source": "lsm.lv",
+"score": 6
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kulturtelpa/27.11.2026-valka-nefinanses-vaditaju-vietas-amatiermakslas-kolektivos-kas-nepiedalas-dziesmusvetkos.a673822/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Valkā nefinansēs vadītāju vietas amatiermākslas kolektīvos, kas nepiedalās Dziesmusvētkos",
+"summary": "Valkas dome nolēmusi no decembra nefinansēt to amatiermākslas kolektīvu vadītājus, kuru kolektīvi nepiedalās Dziesmusvētkos.",
+"pub": "2026-11-27",
+"source": "lsm.lv",
+"score": 4
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/literatura/27.11.2026-i-tod-vel-beja-tai-mezvidu-tomatu-siltumnica-skanes-latgales-prozas-lasijumu-labakie-darbi.a673810/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "«I tod vēļ beja tai». Mežvidu tomātu siltumnīcā skanēs Latgales prozas lasījumu labākie darbi",
+"summary": "No 23. novembra līdz 8. decembrim notiek literatūras festivāls \"Prozas lasījumi\". Ar mērķi veicināt literatūras procesus Latgalē un latgaliski rakstīto tekstu radīšanu Latvijā, jau astoto gadu arī konkurss \"Latgales prozas lasījumi\" (\"Latgolys prozys skaitejumi\") ir šī festivāla daļa. Ceturtdien, 3.",
+"pub": "2026-11-27",
+"source": "lsm.lv",
+"score": 6
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/teatris-un-deja/27.11.2026-teatra-trupa-kvadrifrons-ieludz-uz-svinigu-muzikalo-iestudejumu-pirmais-latvietis-uz-meness.a673767/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Teātra trupa «Kvadrifrons» ielūdz uz svinīgu muzikālo iestudējumu «Pirmais latvietis uz Mēness»",
+"summary": "15. decembrī Benjamiņu namā pirmizrādi piedzīvos teātra trupas \"Kvadrifrons\" muzikālais iestudējums \"Pirmais latvietis uz Mēness\". Tā ir izrāde par nacionālo pašapziņu, svētku svinēšanas tradīcijām, nepieciešamību pēc varoņiem un kādu cilvēku, kuram gadījās par tādu kļūt, informēja teātra trupa.",
+"pub": "2026-11-27",
+"source": "lsm.lv",
+"score": 6
+},
+{
+"link": "https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/27.11.2026-izzini-filmu-veidosanu-skolenus-un-pedagogus-aicina-pievienoties-riga-iff-kino-klubam.a673762/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Izzini filmu veidošanu! Skolēnus un pedagogus aicina pievienoties «RIGA IFF Kino klubam»",
+"summary": "Skolēnus un pedagogus aicina izmanto Rīgas Starptautiskā kino festivāls (RIGA IFF) izstrādāto bezmaksas kino izglītības platformu RIGA IFF Kino klubs, kas piedāvā iepazīt filmu veidošanu un ar to saistītās profesijas kopā ar pašmāju kino nozares profesionāļiem, informēja festivāla pārstāvji.",
+"pub": "2026-11-27",
+"source": "lsm.lv",
+"score": 6
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/27.11.2026-ne-tikai-kino-profesionaliem-kapec-verts-apmeklet-tallinas-kinofestivalu-melnas-naktis.a672810/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Ne tikai kino profesionāļiem. Kāpēc vērts apmeklēt Tallinas kinofestivālu «Melnās naktis»",
+"summary": "Jau 30 gadus tepat kaimiņos – Igaunijas galvaspilsētā Tallinā – notiek brīnišķīgi kino svētki. PÖFF (Pimedate Ööde Filmifestival) jeb latviski pazīstamās \"Melnās naktis\" kopš 2014. gada ir viens no septiņpadsmit A kategorijas kinofestivāliem, ko akreditējusi Starptautiskā Kinoproducentu asociāciju f",
+"pub": "2026-11-27",
+"source": "lsm.lv",
+"score": 10
+},
+{
+"link": "https://www.lsm.lv/raksts/kultura/muzika/27.11.2026-pedejais-mirklis-pirms-ziemassvetku-pasakumu-biruma-koncertu-ieteikumi-novembra-izskanai.a673736/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Pēdējais mirklis pirms Ziemassvētku pasākumu biruma. Koncertu ieteikumi novembra izskaņai",
+"summary": "Noslēdzošā novembra nedēļa, iespējams, ir pēdējā šī gada nedēļa, pirms pasākumu afišas sāks pārņemt Ziemassvētku koncerti. Jāsaka, ar patiesu prieku veidoju šo apskatu jo arī pašai nācās pārskatīt kalendāru, lai saprastu, vai kādu no notikumiem sanāks apmeklēt. Mīlestība pret mūziku un sava laika zi",
+"pub": "2026-11-27",
+"source": "lsm.lv",
+"score": 13
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/literatura/27.11.2026-i-tod-vel-beja-tai-a-togda-eshhe-bylo-tak-v-tomatnoi-teplice-v-mezvidi-prozvucat-lucsie-proizvedeniia-ctenii-latgalskoi-prozy.a673818/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "I tod vēļ beja tai (А тогда еще было так). В томатной теплице в Межвиди прозвучат лучшие произведения Чтений латгальской прозы",
+"summary": "С 23 ноября по 8 декабря проходит литературный фестиваль «Чтения прозы». Уже восьмой год его частью становится конкурс «Чтения латгальской прозы» (Latgolys prozys skaitejumi). Его цель — поддержать литературную жизнь Латгалии и появление в Латвии новых текстов на латгальском языке.",
+"pub": "2026-11-27",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/27.11.2026-artist-i-prodiuser-edii-zalaks-nacal-podgotovku-k-sieemkam-filma-serdce-s-poezdki-v-gruziiu.a673811/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Артист и продюсер Эдий Залакс начал подготовку к съемкам фильма «Сердце» с поездки в Грузию",
+"summary": "Отец ищет на черном рынке сердце для своего сына — такова завязка художественного фильма «Сердце», съемки которого начинаются в Латвии. Автором сценария и продюсером картины стал артист Эдий Залакс. Накануне съемок он побывал в Грузии, где пройдет часть работы над фильмом.",
+"pub": "2026-11-27",
+"source": "rus.lsm.lv",
+"score": 4
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/teatr/27.11.2026-teatralnaia-truppa-kvadrifrons-priglasaet-na-torzestvennuiu-muzykalnuiu-postanovku-pervyi-latys-na-lune.a673779/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Театральная труппа Kvadrifrons приглашает на торжественную музыкальную постановку «Первый латыш на Луне»",
+"summary": "15 декабря в Доме Беньяминов состоится премьера музыкального спектакля театральной труппы Kvadrifrons — «Первый латыш на Луне». Это постановка о национальном самосознании, традициях празднования торжественных дат, потребности в героях и человеке, которому однажды довелось таким стать, сообщили предс",
+"pub": "2026-11-27",
+"source": "rus.lsm.lv",
+"score": 7
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/kino/27.11.2026-ne-tolko-dlia-professionalov-kino-pocemu-stoit-posetit-tallinnskii-kinofestival-temnye-noci-poff.a673773/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Не только для профессионалов кино. Почему стоит посетить Таллиннский кинофестиваль «Темные ночи» (PÖFF)",
+"summary": "Уже 30 лет совсем рядом, по соседству – в эстонской столице Таллинне – проходит настоящий праздник кино. PÖFF (Pimedate Ööde Filmifestival), или известный в Латвии как «Черные ночи», с 2014 года входит в число 17 кинофестивалей категории А, аккредитованных Международной федерацией ассоциаций кинопро",
+"pub": "2026-11-27",
+"source": "rus.lsm.lv",
+"score": 8
+},
+{
+"link": "https://rus.lsm.lv/statja/novosti/obschestvo/27.11.2026-ukrainskaia-nedelia-v-latvii-s-28-noiabria-po-6-dekabria-predlozeniia-i-priglaseniia.a673746/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Украинская неделя в Латвии с 28 ноября по 6 декабря. Предложения и приглашения",
+"summary": "Публикуем подборку некоторых мероприятий ближайшей недели, которые устраиваются для украинцев, самими украинцами или могут быть интересными для украинцев Латвии.",
+"pub": "2026-11-27",
+"source": "rus.lsm.lv",
+"score": 2
+},
+{
+"link": "https://rus.lsm.lv/statja/kultura/muzika/27.11.2026-poslednie-mgnovenia-pered-rozdestvenskim-marafonom-meropriiatii-rekomendacii-koncertov-na-konec-noiabria.a673740/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"title": "Последние мгновенья перед рождественским марафоном мероприятий. Рекомендации концертов на конец ноября",
+"summary": "Последняя неделя ноября, возможно, станет последней накануне того, как афиши мероприятий в этом году заполнятся рождественскими концертами. Должна сказать, что составляю этот обзор с особым удовольствием: мне и самой пришлось заглянуть в календарь, чтобы понять, удастся ли попасть хотя бы на одно из",
+"pub": "2026-11-27",
+"source": "rus.lsm.lv",
+"score": 7
+},
+{
+"link": "https://jauns.lv/raksts/maja-un-darzs/739978-pankukas-ka-kukas-kapec-ne",
+"title": "Pankūkas kā kūkas. Kāpēc ne?!",
+"summary": "Pankūkas var būt ļoti dažādas, arī kā greznas svētku kūkas. Kāpēc gan sevi un savējos nepalutināt? Ļaujies eksperimentiem.",
+"pub": "2026-11-27",
+"source": "jauns.lv",
+"score": 2
+},
+{
+"link": "https://jauns.lv/raksts/izklaide/737975-katrina-dimanta-sariko-latviskus-dziesmu-svetkus-brazilija",
+"title": "Katrīna Dimanta sarīko latviskus dziesmu svētkus Brazīlijā",
+"summary": "Dziedātāja Katrīna Dimanta nesen viesojusies Brazīlijā, kur kopā ar ģitāristu Armandu Varslavānu uzstājās latviešu kultūras programmas pasākumā.",
+"pub": "2026-11-27",
+"source": "jauns.lv",
+"score": 4
+},
+{
+"link": "https://rus.jauns.lv/article/afisha/739989-v-case-ezdy-ot-rigi-otkroetsia-odna-iz-samyx-atmosfernyx-rozdestvenskix-lokacii-latvii",
+"title": "В часе езды от Риги откроется одна из самых атмосферных рождественских локаций Латвии",
+"summary": "29 ноября в Ропажской евангелическо-лютеранской церкви уже в седьмой раз откроется Сад света. До 6 января посетителей будут радовать тысячи мерцающих огоньков, необычное праздничное оформление и разнообразная концертная программа.",
+"pub": "2026-11-27",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/739992-pocti-2-mln-turistov-vybrali-lucsie-rozdestvenskie-iarmarki-evropy-riga-okazalas-v-liderax",
+"title": "Почти 2 млн туристов выбрали лучшие рождественские ярмарки Европы - Рига оказалась в лидерах",
+"summary": "Рижская рождественская ярмарка заняла второе место в европейском рейтинге лучших праздничных направлений сезона 2026-2027. В голосовании приняли участие почти 1,9 миллиона человек из 176 стран, а латвийская столица обошла десятки популярных рождественских городов Европы.",
+"pub": "2026-11-27",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/739963-v-centre-rigi-proidet-sestvie-s-piatimetrovym-flagom-ssitym-iz-145-biustgalterov",
+"title": "В центре Риги пройдет шествие с пятиметровым флагом, сшитым из 145 бюстгальтеров",
+"summary": "В понедельник, 30 ноября, в центре Риги состоится необычная акция, призванная привлечь внимание к ранней диагностике рака груди. Участники шествия пронесут вокруг Эспланады пятиметровый флаг, созданный из бюстгальтеров, пожертвованных женщинами.",
+"pub": "2026-11-27",
+"source": "rus.jauns.lv",
+"score": 6
+},
+{
+"link": "https://rus.jauns.lv/article/znamenitosti/739953-93-letniaia-dzoan-kollinz-vysla-v-svet-s-muzem-kotoryi-mladse-nee-na-32-goda",
+"title": "93-летняя Джоан Коллинз вышла в свет с мужем, который младше нее на 32 года",
+"summary": "Звезда сериала \"Династия\", британская актриса Джоан Коллинз в свои 93 года продолжает посещать светские мероприятия и выбирать эффектные наряды. На очередной вечеринке в Лондоне она появилась вместе с 61-летним супругом Перси Гибсоном, причем место проведения торжества оказалось для пары особенно си",
+"pub": "2026-11-27",
+"source": "rus.jauns.lv",
+"score": 2
+},
+{
+"link": "https://rus.jauns.lv/article/novosti/739943-rozdestvenskoe-nastroenie-bez-doplaty-vivi-priglasaet-v-prazdnicnye-poezda",
+"title": "Рождественское настроение без доплаты: Vivi приглашает в праздничные поезда",
+"summary": "В этом праздничном сезоне Vivi совместно с тремя латвийскими самоуправлениями запускает рождественские поезда. Вплоть до января на всех железнодорожных маршрутах будут курсировать три тематических состава, украшенных к зимним праздникам.",
+"pub": "2026-11-27",
+"source": "rus.jauns.lv",
+"score": 7
+},
+{
+"link": "https://pmo.ee/8591581",
+"title": "Ventspils novadā svētdien sāksies kadetu apmācības",
+"summary": "No 29. novembra 3. decembrim Ventspils novadā notiks Latvijas Nacionālās aizsardzības akadēmijas kadetu apmācības \"Vada taktikas kurss\", informēja akadēmijā.",
+"pub": "2026-11-27",
+"source": "tvnet.lv",
+"score": 7
+},
+{
+"link": "https://pmo.ee/8591572",
+"title": "Rumānija aicina NATO palīdzēt novērst hibrīduzbrukumus",
+"summary": "Rumānija vēlas, lai NATO veiktu kopīgus pasākumus pret hibrīduzbrukumiem, reaģējot uz draudiem no Krievijas, piektdien paziņoja Rumānijas ārlietu ministrs Dans Nekulajesku.",
+"pub": "2026-11-27",
+"source": "tvnet.lv",
+"score": 3
+},
+{
+"link": "https://pmo.ee/8591293",
+"title": "IESKATIES ⟩ Dāvanu maratons ir sācies! Ko var nopirkt Doma laukumā un cik tas maksā?",
+"summary": "Piparkūku smarža, karstvīns, tūkstošiem lampiņu un Latvijas meistaru un amatnieku darinājumi – Doma laukums jau atkal pārtapis par īstu Ziemassvētku pasaku. Durvis vēris viens no gaidītākajiem svētku sezonas notikumiem Rīgā – Vecrīgas Ziemassvētku tirdziņš! TVNET aicina ielūkoties pirmajiem, kas šog",
+"pub": "2026-11-27",
+"source": "tvnet.lv",
+"score": 9
+},
+{
+"link": "https://pmo.ee/8591437",
+"title": "Rīgas vicemērs rosinās noteikt stingrākas prasības aizsardzības zonās ap Brīvības pieminekli un Brāļu kapiem",
+"summary": "Lai stiprinātu Latvijas valstiskuma simbolu un nozīmīgāko piemiņas vietu tiesisko aizsardzību, Rīgas vicemērs Edvards Ratnieks padziļināti izvērtēs un rosinās grozījumus normatīvajos aktos, paredzot ap Brīvības pieminekli un Rīgas Brāļu kapiem noteiktajās aizsardzības zonās stingrākas prasības sapul",
+"pub": "2026-11-27",
+"source": "tvnet.lv",
+"score": 2
+},
+{
+"link": "https://pmo.ee/8591552",
+"title": "ГЛАВНОЕ ЗА 27 НОЯБРЯ ⟩ Дрон в воздушном пространстве Латвии, открытие рождественской ярмарки и продажа двух квартир за многолетние долги",
+"summary": "Последняя пятница осени принесла сразу несколько важных новостей - ночью в воздушное пространство Латвии над Лудзенским краем на короткое время залетел беспилотный летательный аппарат, на Домской площади в Риге открылась рождественская ярмарка, правительство намерено ввести обязательное медицинское ",
+"pub": "2026-11-27",
+"source": "rus.tvnet.lv",
+"score": 6
+},
+{
+"link": "https://pmo.ee/8591481",
+"title": "Ратниекс предложит установить более строгие требования к мероприятиям у памятника Свободы и на Братском кладбище",
+"summary": "В целях укрепления правовой защиты символа государственности Латвии и важнейших мемориальных мест, вице-мэр Риги Эдвард Ратниекс тщательно проанализирует и инициирует внесение поправок в нормативные акты, предусматривающих в установленных охранных зонах вокруг памятника Свободы и Рижского Братского ",
+"pub": "2026-11-27",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://pmo.ee/8588494",
+"title": "На Домской площади открылась рождественская ярмарка: часы работы",
+"summary": "В пятницу, 27 ноября, на Домской площади в Риге открылась рождественская ярмарка, сообщила агентству LETA представитель организаторов Линда Эртмане.",
+"pub": "2026-11-27",
+"source": "rus.tvnet.lv",
+"score": 4
+},
+{
+"link": "https://www.delfi.lv/life/56017218/atputa/120144281/tukstosiem-gaisminu-ziedu-un-dekoru-pirmaja-advente-ropazu-baznica-iemirdzesies-gaismas-darzs",
+"title": "Tūkstošiem gaismiņu, ziedu un dekoru – Pirmajā adventē Ropažu baznīcā iemirdzēsies Gaismas dārzs",
+"summary": "Pirmajā adventē, 29. novembrī, Ropažu evaņģēliski luteriskajā baznīcā jau septīto gadu iemirdzēsies Gaismas dārzs. Līdz pat 6. janvārim apmeklētājus priecēs īpašais svētku noformējums, daudzveidīga koncertprogramma un īpaši Adventa un Ziemassvētku laika notikumi.",
+"pub": "2026-11-27",
+"source": "delfi.lv",
+"score": 6
+},
+{
+"link": "https://www.delfi.lv/kultura/32026447/culturenvironment/120144318/kultura-klust-par-dargu-iedzivotaji-parskata-terinus",
+"title": "Kultūra kļūst par dārgu: iedzīvotāji pārskata tēriņus",
+"summary": "Pieaugot ikdienas izdevumiem un kultūras pasākumu biļešu cenām, iedzīvotāji arvien rūpīgāk izvērtē, vai var atļauties apmeklēt koncertu vai teātra izrādi. Arī statistika liecina par būtisku apmeklētāju skaita kritumu – šā gada pirmajos deviņos mēnešos koncertu un citu muzikālo pasākumu apmeklējums L",
+"pub": "2026-11-27",
+"source": "delfi.lv",
+"score": 10
+},
+{
+"link": "https://www.delfi.lv/life/56017218/atputa/120144319/video-doma-laukums-klust-par-mazu-atzist-vecrigas-ziemassvetku-tirdzina-organizators",
+"title": "Video: Doma laukums kļūst par mazu, atzīst Vecrīgas Ziemassvētku tirdziņa organizators",
+"summary": "Ik gadu pieprasījums un uzmanība Vecrīgas Ziemassvētku tirdziņam kļūst arvien lielāka gan no ārvalstu tūristiem, gan vietējiem iedzīvotājiem, un Doma laukums kļūst par mazu, sarunā ar \"Delfi\" atzina tirdziņa organizators Andris Kreislers.",
+"pub": "2026-11-27",
+"source": "delfi.lv",
+"score": 10
+},
+{
+"link": "https://www.delfi.lv/video/56419810/d-sektors/120144088/viniem-ir-reals-personigs-naids-organizators-par-brieza-un-zusa-cinu-un-tas-lielajiem-riskiem",
+"title": "\"Viņiem ir reāls personīgs naids\" – organizators par Brieža un Zuša cīņu un tās lielajiem riskiem",
+"summary": "Starp Mairi Briedi un Kristapu Zuti valda reāls personīgs naids, tādēļ lieliski, ka viņi piekrituši šo konfliktu risināt sportiskā veidā boksa ringā – tā raidījumā \"D sektors\" izteicās gaidāmā \"Bazara 0 Fight Club V\" rīkotājs Daniils Vesņenoks. Viņš skaidroja, ka pasākums, kuram \"milžu cīņas\" dēļ bū",
+"pub": "2026-11-27",
+"source": "delfi.lv",
+"score": 2
+},
+{
+"link": "https://www.delfi.lv/life/56010800/notikumi/120144225/vivi-sapucejas-ziemassvetkiem-radot-svetku-noskanu-vilcienu-pasazieriem",
+"title": "\"Vivi\" sapucējas Ziemassvētkiem, radot svētku noskaņu vilcienu pasažieriem",
+"summary": "Šajā svētku sezonā \"Vivi\" sadarbībā ar trim Latvijas pašvaldībām sarūpējis īpašus pārsteigumus pasažieriem, radot Ziemassvētku noskaņu gan elektrovilcienos, gan dīzeļvilcienos. Līdz pat janvārim visos vilcienu maršrutos kursēs trīs tematiskie svētku vilcieni, aicinot pasažierus ikdienas braucienos i",
+"pub": "2026-11-27",
+"source": "delfi.lv",
+"score": 12
+},
+{
+"link": "https://www.delfi.lv/life/56010800/notikumi/120143972/izveidoji-adventes-vainagu-ar-savam-rokam-piedalies-konkursa-un-laime-balvas",
+"title": "Izveidoji adventes vainagu ar savām rokām? Piedalies konkursā un laimē balvas!",
+"summary": "Svētdien, 29. novembrī, atzīmēsim pirmo adventi, aizsākot Ziemassvētku gaidīšanas laiku. Viens no veidiem, kā mājoklī radīt svētku noskaņu un kaut uz mirkli aizmirst par ikdienas steigu, ir adventes vainaga darināšana. Tādēļ portāls \"Delfi\" ikvienu, kurš savām rokām pagatavojis adventes vainagu, aic",
+"pub": "2026-11-27",
+"source": "delfi.lv",
+"score": 6
+},
+{
+"link": "https://bb.lv/statja/nasha-latvija/2026/11/27/ne-ucastvues-v-prazdnike-pesni-deneg-ne-polucis-v-latvii-resili-sekonomit-na-kulture?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Не участвуешь в Празднике песни — денег не получишь: в Латвии решили сэкономить на культуре",
+"summary": "Валкская краевая дума решила с декабря прекратить финансирование руководителей коллективов художественной самодеятельности, деятельность которых не связана с участием во Всеобщем латышском празднике песни и танца, сообщает ЛЕТА.",
+"pub": "2026-11-27",
+"source": "bb.lv",
+"score": 4
+},
+{
+"link": "https://bb.lv/statja/kultura/2026/11/27/pirogi-muzyka-i-sekrety-amerikanskoi-kuxni-v-rige-otmetiat-den-blagodareniia?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"title": "Пироги, музыка и секреты американской кухни: в Риге отметят День благодарения",
+"summary": "В субботу, 28 ноября, на Агенскалнском рынке в Риге состоится праздник, посвящённый американскому Дню благодарения. Посетителей ждут дегустации традиционных блюд, выступление военного оркестра США, кулинарный мастер-класс и развлечения для детей. Организатором мероприятия выступает посольство США в ",
+"pub": "2026-11-27",
+"source": "bb.lv",
+"score": 13
+},
+{
+"link": "https://www.la.lv/rumanija-aicina-nato-apvienoties-cina-pret-krievijas-hibriduzbrukumiem-kas-attur-dalu-sabiedroto",
+"title": "Rumānija aicina NATO apvienoties cīņā pret Krievijas hibrīduzbrukumiem: kas attur daļu sabiedroto?",
+"summary": "Rumānija vēlas, lai NATO veiktu kopīgus pasākumus pret hibrīduzbrukumiem, reaģējot uz draudiem no Krievijas, piektdien paziņoja Rumānijas ārlietu ministrs Dans Nekulajesku. Hibrīduzbrukumi var izpausties kā militāras, ekonomiskas, izlūkošanas un propagandas operācijas, un naidīgās valstis bieži slēp",
+"pub": "2026-11-27",
+"source": "la.lv",
+"score": 3
+},
+{
+"link": "https://www.la.lv/smarzigi-muzzali-ar-dabas-veltem-rotati-fotoidejas-skaistiem-adventes-vainagiem",
+"title": "FOTOIDEJAS skaistiem Adventes vainagiem, smaržīgiem, mūžzaļiem un ar dabas veltēm rotātiem",
+"summary": "Autore: Māra Lapsa, “Praktiskais Latvietis”, AS “Latvijas Mediji” Advente jeb Ziemassvētku gaidīšanas laiks sākas četras nedēļas pirms Ziemassvētkiem. Par šā laika tradicionālu simbolu ir kļuvis Adventes vainags, ko pārsvarā darina no egļu un priežu zariem, kas simbolizē mūžīgo dzīvību. Simboliska –",
+"pub": "2026-11-27",
+"source": "la.lv",
+"score": 4
+},
+{
+"link": "https://www.la.lv/teologs-simanovics-jaunas-valdibas-darba-pagaidam-redzama-plaisa-starp-solijumiem-un-darbiem",
+"title": "Teologs Simanovičs: Jaunās valdības darbā pagaidām redzama plaisa starp solījumiem un darbiem",
+"summary": "Teologs, Noētiskās veselības kopienas “Elizeja” līdzdibinātājs Kaspars Simanovičs TV24 raidījumā “Nedēļa. Post scriptum”, komentējot jaunās valdības darbu, ir kritisks: pēc viņa domām, solīto pārmaiņu vietā pagaidām dzirdamas tikai runas, bet neapdomīgi izteikumi par atbalsta pārskatīšanu rada sajūt",
+"pub": "2026-11-27",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/bernu-vecaki-saspicejiet-ausis-berni-var-sanemt-atbildi-no-ziemassvetku-vecisa-nosutot-vestuli-uz-so-adresi-latvija",
+"title": "Bērnu vecāki, saspicējiet ausis! Bērni var saņemt atbildi no Ziemassvētku vecīša, nosūtot vēstuli uz šo adresi Latvijā",
+"summary": "Tuvojoties Ziemassvētkiem, bērni apkopo savus vēlmju sarakstus vēstulē, kas adresēta Ziemassvētku vecītim. Ja vēl nezināji, arī Latvijā viens tāds dzīvo, un, izrādās, no viņa var saņemt arī atbildi. Sociālajā medijā Threads kāda mamma dalījusies ar vērtīgu padomu – pasta nodaļā viņai iedota īpaša Zi",
+"pub": "2026-11-27",
+"source": "la.lv",
+"score": 18
+},
+{
+"link": "https://www.la.lv/traki-salita-eglite-pircejus-parsteidz-svetku-cenas-depo",
+"title": "“Traki sālīta eglīte!” Pircējus pārsteidz svētku cenas “Depo”",
+"summary": "Tuvojas Ziemassvētki, un daudzās mājās pamazām sākas gatavošanās gada nogales svinībām. Kamēr vieni jau sarūpējuši svētku rotājumus un noskatījuši dāvanas, citi sāk meklēt piemērotāko Ziemassvētku eglīti. Taču, aplūkojot veikalu piedāvājumu, ne vienam vien var nākties pārskatīt svētkiem atvēlēto bud",
+"pub": "2026-11-27",
+"source": "la.lv",
+"score": 12
+},
+{
+"link": "https://www.la.lv/tramps-sak-uzvesties-ka-putina-advokats-nu-jau-publiski-sevi-pazemojot",
+"title": "Tramps sāk uzvesties kā Putina advokāts, nu jau publiski sevi pazemojot",
+"summary": "ASV prezidents Donalds Tramps nācis klajā ar jaunu skaidrojumu Krievijas iebrukumam Ukrainā, paziņojot, ka kara, iespējams, nebūtu, ja Krievija savulaik nebūtu izslēgta no G8 valstu grupas, vēsta UNIAN. Sarunā ar žurnālistiem pirms Pateicības dienas Tramps komentēja iespējamo Krievijas prezidenta Vl",
+"pub": "2026-11-27",
+"source": "la.lv",
+"score": 2
+},
+{
+"link": "https://www.la.lv/divu-miljardu-taupibas-plans-par-ko-valdiba-pagaidam-kluse",
+"title": "Divu miljardu taupības plāns: par ko valdība pagaidām klusē?",
+"summary": "Andra Kulberga vadītās valdības plāni taupības jomā ir vērienīgi. Nākamo četru gadu laikā valsts budžeta izdevumus iecerēts samazināt kopumā par 1,96 miljardiem eiro. Tomēr pagaidām nav skaidrs, kā plānotie taupības pasākumi ietekmēs iedzīvotājus. Valdības deklarācija paredz 370 miljonus eiro ietaup",
+"pub": "2026-11-27",
+"source": "la.lv",
+"score": 2
 }
 ],
 "portal_errors": {},
@@ -9569,31 +9569,6 @@
 "n": 0
 },
 "urgent_checked": [
-"https://jauns.lv/raksts/zinas/733796-latvijas-svetku-un-atzimejamo-dienu-kalendaru-rosina-papildinat-ar-vel-vienu-datumu",
-"https://jauns.lv/raksts/izklaide/733787-pec-26-gadiem-grincs-varetu-atgriezties-uz-ekraniem-dzimam-kerijam-ir-tikai-viens-nosacijums",
-"https://pmo.ee/8566516",
-"https://www.la.lv/video-kad-velme-parspej-varesanu-virietis-megina-pirmaja-stava-nosvinet-kazas-bet-otraja-berna-svetkus-ar-citu-sievieti",
-"https://bb.lv/statja/kultura/2026/10/18/pauki-privideniia-i-zagadocnye-ispytaniia-v-ventspilse-ustroiat-besplatnyi-xellouin-dlia-detei?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"https://www.lsm.lv/raksts/kultura/kulturtelpa/18.10.2026-kapec-latgales-kazas-jaslepj-kaposti-folkloras-festivala-daugavpili-vesta-par-kazu-tradicijam.a667956/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/kultura/18.10.2026-pocemu-na-latgalskoi-svadbe-pryacut-kapustu-na-folklornom-festivale-v-daugavpilse-rasskazyvayut-o-svadebnyx-tradiciyax.a668047/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://jauns.lv/raksts/zinas/733298-foto-bailes-rada-celu-salaspils-botaniskaja-darza-notiks-spocigs-rudens-festivals",
-"https://rus.jauns.lv/article/afisha/733775-kuda-sxodit-v-rige-18-oktiabria-bolsie-koncerty-teatralnye-premery-kinofestival-i-neobycnye-vystavki",
-"https://bb.lv/statja/kultura/2026/10/18/tykva-gigant-i-raznocvetnye-percy-v-rige-pokazut-neobycnyi-urozai?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/18.10.2026-lindas-oltes-spelfilma-berns-varsavas-kinofestivala-ieguvusi-balvu.a668049/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/kino/18.10.2026-igrovoi-film-lindy-olte-berns-the-child-polucil-nagradu-na-varsavskom-kinofestivale.a668053/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://www.lsm.lv/raksts/kultura/teatris-un-deja/18.10.2026-riga-ierodas-kijivas-modernais-balets.a668075/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.jauns.lv/article/afisha/733639-koza-iz-gribov-i-drugie-udivitelnye-veshhi-na-neobycnom-festivale-mikofest",
-"https://pmo.ee/8566868",
-"https://bb.lv/statja/nasha-latvija/2026/10/19/eli-pili-veselilis-na-825-letie-rigi-potratili-366-729-evro-bez-uceta-nds?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"https://www.la.lv/daudzviet-darba-diena-ievilkas-lidz-pat-rita-gaismai-vai-velesanu-iecirknu-darbiniekiem-par-papildu-stundam-samaksas",
-"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/19.10.2026-pasmaju-pirmizrades-rigas-starptautiskaja-kino-festivala-ekrana-jaunumi-sonedel.a668156/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/19.10.2026-ka-burti-partop-vardos-mazos-skatitajus-aicina-uz-lellu-teatra-izradi-puculenu-pirma-gramata.a668128/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://www.lsm.lv/raksts/vecaki-un-berni/bernu-audzinasana/19.10.2026-pasakumu-cikla-milestiba-ir-drosiba-vecakus-izglitos-par-bernu-audzinasanu-bez-vardarbibas.a668110/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/kino/19.10.2026-otecestvennye-premery-na-rizskom-mezdunarodnom-kinofestivale-novinki-ekrana-na-etoi-nedele.a668161/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/teatr/19.10.2026-v-rigu-priexal-kiev-modern-balet.a668139/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://pmo.ee/8567119",
-"https://bb.lv/statja/kultura/2026/10/19/daugavpils-prevratitsia-v-carstvo-sneznoi-korolevy-kak-gorod-ukrasiat-k-rozdestvu?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
-"https://rus.lsm.lv/statja/kultura/literatura/19.10.2026-v-90-let-pisat-roman-nemnogo-neprilicno-v-staburagse-otprazdnovali-yubilei-mary-svire.a668241/?utm_source=rss&utm_campaign=rss&utm_medium=links",
 "https://pmo.ee/8567318",
 "https://rus.delfi.lv/57860/latvia/120139169/soyuz-zelenyh-i-krestyan-predlagaet-popolnit-spisok-prazdnichnyh-dney",
 "https://www.la.lv/video-skolas-gaiteni-peksni-izcelas-kautins-direktors-steidzas-skirt-skolenus-tacu-talakais-vinu-atstaj-bez-valodas",
@@ -10368,7 +10343,32 @@
 "https://bb.lv/statja/kultura/2026/11/26/iurmala-zasiiaet-tysiacami-ognei-cem-udivit-kurort-v-rozdestvenskie-prazdniki?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
 "https://www.la.lv/kristine-margarita-un-roberts-balanas-aicina-jaunos-muzikus-uz-ziemassvetku-labdaribas-meistarklasem",
 "https://www.lsm.lv/raksts/kultura/teatris-un-deja/26.11.2026-deja-par-tuvumu-un-attalumu-starp-mums-izrade-cik-spejam-mes-viens-but-talu-no-otra.a673659/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-"https://rus.lsm.lv/statja/kultura/teatr/26.11.2026-tanec-o-blizosti-i-rasstoianii-mezdu-nami-v-spektakle-cik-spejam-mes-viens-but-talu-no-otra.a673662/?utm_source=rss&utm_campaign=rss&utm_medium=links"
+"https://rus.lsm.lv/statja/kultura/teatr/26.11.2026-tanec-o-blizosti-i-rasstoianii-mezdu-nami-v-spektakle-cik-spejam-mes-viens-but-talu-no-otra.a673662/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/739784-pateicoties-ineses-galantes-fondam-maksliniece-un-starptautiski-pazistama-influencere-ajfere-arslana-izvelejusies-rigu-savu-fotodarbu-izstades-pirmizradei",
+"https://rus.jauns.lv/article/afisha/739818-kartiny-kotorye-ozivaiut-pri-svete-v-rige-proidet-festival-s-tysiacami-avtorskix-rabot",
+"https://pmo.ee/8589036",
+"https://www.delfi.lv/193/politics/120144100/baloni-kuka-un-davanas-ka-dzimsanas-dienas-padarit-par-zalakiem-svetkiem",
+"https://www.la.lv/latvija-raditas-davanas-ziemassvetkiem-skaistumam-majigumam-un-labsajutai",
+"https://www.la.lv/lido-atklas-ziemas-sezonu-ar-iespaidigu-svetku-egli-un-finka-koncertu",
+"https://www.la.lv/noskaidroti-eiropas-labakie-ziemassvetku-tirdzini-topa-iekluvusi-ari-riga",
+"https://www.lsm.lv/raksts/kultura/kulturtelpa/27.11.2026-jana-deinata-izstade-par-laimigu-sagadisanos-serendipity.a673684/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/iskusstvo/27.11.2026-vystavka-ianisa-deinatsa-o-scastlivom-stecenii-obstoiatelstv-serendipity.a673704/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://jauns.lv/raksts/zinas/739569-vertigs-atbalsts-toposajiem-vecakiem-jelgavas-slimnica-saks-darboties-bezmaksas-gimenes-akademija",
+"https://jauns.lv/raksts/maja-un-darzs/739472-majiguma-ceklists-sagatavojam-maju-svetkiem-un-omuligiem-vakariem",
+"https://jauns.lv/raksts/izklaide/739884-kevins-atgriezas-bet-ka-ar-vina-kaitinoso-brali-bazu-viens-pats-majas-zvaigzne-atklaj-negaiditu-situaciju",
+"https://rus.jauns.lv/article/afisha/739839-novogodnie-prazdniki-prixodiat-v-rigu-segodnia-na-domskoi-ploshhadi-otkryvaetsia-iarmarka",
+"https://bb.lv/statja/nasha-latvija/2026/11/27/na-domskoi-ploshhadi-otkroetsia-rozdestvenskaia-iarmarka?utm_source=rss&utm_medium=feed&utm_campaign=bb_lv",
+"https://www.la.lv/foto-sodien-doma-laukuma-vartus-ver-vecrigas-ziemassvetku-tirdzins",
+"https://www.lsm.lv/raksts/zinas/latvija/27.11.2026-dobele-atdzimst-pilsetas-baltie-milzi-sniegaviri.a673761/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/dzive-stils/celosana/27.11.2026-tests-uz-kadiem-svetkiem-darina-puzurus-un-citi-akigi-citi-gudrs-vel-gudraks-jautajumi.a673338/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/kulturtelpa/27.11.2026-valka-nefinanses-vaditaju-vietas-amatiermakslas-kolektivos-kas-nepiedalas-dziesmusvetkos.a673822/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/literatura/27.11.2026-i-tod-vel-beja-tai-mezvidu-tomatu-siltumnica-skanes-latgales-prozas-lasijumu-labakie-darbi.a673810/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/teatris-un-deja/27.11.2026-teatra-trupa-kvadrifrons-ieludz-uz-svinigu-muzikalo-iestudejumu-pirmais-latvietis-uz-meness.a673767/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/vecaki-un-berni/kultura-berniem/27.11.2026-izzini-filmu-veidosanu-skolenus-un-pedagogus-aicina-pievienoties-riga-iff-kino-klubam.a673762/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/27.11.2026-ne-tikai-kino-profesionaliem-kapec-verts-apmeklet-tallinas-kinofestivalu-melnas-naktis.a672810/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://www.lsm.lv/raksts/kultura/muzika/27.11.2026-pedejais-mirklis-pirms-ziemassvetku-pasakumu-biruma-koncertu-ieteikumi-novembra-izskanai.a673736/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/literatura/27.11.2026-i-tod-vel-beja-tai-a-togda-eshhe-bylo-tak-v-tomatnoi-teplice-v-mezvidi-prozvucat-lucsie-proizvedeniia-ctenii-latgalskoi-prozy.a673818/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+"https://rus.lsm.lv/statja/kultura/teatr/27.11.2026-teatralnaia-truppa-kvadrifrons-priglasaet-na-torzestvennuiu-muzykalnuiu-postanovku-pervyi-latys-na-lune.a673779/?utm_source=rss&utm_campaign=rss&utm_medium=links"
 ],
 "tips_debug": {
 "date": "2026-11-26",
@@ -10837,8 +10837,56 @@
 "text": "no 10,00 EUR 04.12.26 20:00 SUB SCRIPTUM | “Klusē mūžīgi vai kliedz” albuma prezentācijas koncerts Klubs \"Depo\"",
 "src": "https://ticketshop.lv/lv/categories/1",
 "seen": "2026-11-27"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108516",
+"text": "no 25,00 EUR 09.12.26 19:00 Alīnas Simonovas akustiskās mūzikas koncerts «SolNo» Art Ambar",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-27"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108515",
+"text": "no 20,00 EUR 16.05.27 20:00 Winterfylleth (UK) / Saor (UK) / Necronautical (UK) Melnā Piektdiena",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-27"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108514",
+"text": "no 15,00 EUR 30.12.26 13:00 Jaungada bērnu izrāde «Nakts pirms Jaunā gada» Art Ambar",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-27"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108513",
+"text": "no 15,00 EUR 30.12.26 11:00 Jaungada bērnu izrāde «Nakts pirms Jaunā gada» Art Ambar",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-27"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108512",
+"text": "no 15,00 EUR 27.12.26 13:00 Jaungada bērnu izrāde «Nakts pirms Jaunā gada» Art Ambar",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-27"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108511",
+"text": "no 15,00 EUR 27.12.26 11:00 Jaungada bērnu izrāde «Nakts pirms Jaunā gada» Art Ambar",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-27"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108510",
+"text": "no 15,00 EUR 24.12.26 13:00 Jaungada bērnu izrāde «Nakts pirms Jaunā gada» Art Ambar",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-27"
+},
+{
+"link": "https://ticketshop.lv/lv/events/108509",
+"text": "no 15,00 EUR 24.12.26 11:00 Jaungada bērnu izrāde «Nakts pirms Jaunā gada» Art Ambar",
+"src": "https://ticketshop.lv/lv",
+"seen": "2026-11-27"
 }
 ],
 "watch_errors": {},
-"last_reminder": "2026-11-20"
+"last_reminder": "2026-11-27"
 }
